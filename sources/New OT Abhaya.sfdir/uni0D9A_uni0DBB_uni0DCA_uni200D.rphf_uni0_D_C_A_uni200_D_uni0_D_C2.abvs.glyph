@@ -1,0 +1,13 @@
+StartChar: uni0D9A_uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DC2.abvs
+Encoding: 384 -1 384
+Width: 1043
+GlyphClass: 3
+Flags: W
+LayerCount: 2
+Fore
+Refer: 86 -1 N 1 0 0 1 0 0 3
+Refer: 98 -1 N 1 0 0 1 1274 0 2
+Validated: 513
+Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 57 subtable" uni0D9A_uni0DCA_uni200D_uni0DC2.akhn uni0DBB_uni0DCA_uni200D.rphf
+Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 57 subtable" uni0D9A uni0DBB_uni0DCA_uni200D.rphf uni0DCA uni200D uni0DC2
+EndChar

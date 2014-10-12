@@ -1,0 +1,439 @@
+SplineFontDB: 3.0
+FontName: NotoSansSinhala
+FullName: Noto Sans Sinhala
+FamilyName: Noto Sans Sinhala
+Weight: Book
+Copyright: Copyright 2014 Google Inc. All Rights Reserved.
+Version: 1.00 uh
+ItalicAngle: 0
+UnderlinePosition: -51.5
+UnderlineWidth: 51
+Ascent: 819
+Descent: 205
+sfntRevision: 0x00010000
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
+XUID: [1021 792 -450466945 3723441]
+FSType: 0
+OS2Version: 4
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 0
+CreationTime: 1410853636
+ModificationTime: 1410854654
+PfmFamily: 17
+TTFWeight: 400
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 11 5 2 4 5 4 2 2 4
+OS2TypoAscent: 1035
+OS2TypoAOffset: 0
+OS2TypoDescent: -300
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1035
+OS2WinAOffset: 0
+OS2WinDescent: 300
+OS2WinDOffset: 0
+HheadAscent: 1035
+HheadAOffset: 0
+HheadDescent: -300
+HheadDOffset: 0
+OS2SubXSize: 716
+OS2SubYSize: 666
+OS2SubXOff: 0
+OS2SubYOff: 97
+OS2SupXSize: 716
+OS2SupYSize: 666
+OS2SupXOff: 0
+OS2SupYOff: 351
+OS2StrikeYSize: 51
+OS2StrikeYPos: 300
+OS2Vendor: 'MONO'
+OS2CodePages: 00000001.00000000
+OS2UnicodeRanges: 80008003.00002040.00000208.00000000
+Lookup: 4 0 0 "'akhn' Akhand in Sinhala lookup 0"  {"'akhn' Akhand in Sinhala lookup 0 subtable"  } ['akhn' ('sinh' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Reph Form in Sinhala lookup 1"  {"'rphf' Reph Form in Sinhala lookup 1 subtable"  } ['rphf' ('sinh' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants in Sinhala lookup 2"  {"'vatu' Vattu Variants in Sinhala lookup 2 subtable"  } ['vatu' ('sinh' <'dflt' > ) ]
+Lookup: 1 0 0 "'pstf' Post Base Forms in Sinhala lookup 3"  {"'pstf' Post Base Forms in Sinhala lookup 3 subtable"  } ['pstf' ('sinh' <'dflt' > ) ]
+Lookup: 5 0 0 "'pres' Pre Base Substitutions in Sinhala lookup 4"  {"'pres' Pre Base Substitutions in Sinhala lookup 4 subtable"  } ['pres' ('sinh' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution lookup 5"  {"Ligature Substitution lookup 5 subtable"  } []
+Lookup: 6 512 0 "'abvs' Above Base Substitutions in Sinhala lookup 6"  {"'abvs' Above Base Substitutions in Sinhala lookup 6 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 7"  {"Single Substitution lookup 7 subtable"  } []
+Lookup: 4 512 0 "'abvs' Above Base Substitutions in Sinhala lookup 8"  {"'abvs' Above Base Substitutions in Sinhala lookup 8 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
+Lookup: 4 0 0 "'abvs' Above Base Substitutions in Sinhala lookup 9"  {"'abvs' Above Base Substitutions in Sinhala lookup 9 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
+Lookup: 6 512 0 "'abvs' Above Base Substitutions in Sinhala lookup 10"  {"'abvs' Above Base Substitutions in Sinhala lookup 10 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 11"  {"Single Substitution lookup 11 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 12"  {"Single Substitution lookup 12 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 13"  {"Single Substitution lookup 13 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 14"  {"Single Substitution lookup 14 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 15"  {"Single Substitution lookup 15 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 16"  {"Single Substitution lookup 16 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 17"  {"Single Substitution lookup 17 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 18"  {"Single Substitution lookup 18 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 19"  {"Single Substitution lookup 19 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 20"  {"Single Substitution lookup 20 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 21"  {"Single Substitution lookup 21 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 22"  {"Single Substitution lookup 22 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 23"  {"Single Substitution lookup 23 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 24"  {"Single Substitution lookup 24 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 25"  {"Single Substitution lookup 25 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 26"  {"Single Substitution lookup 26 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 27"  {"Single Substitution lookup 27 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 28"  {"Single Substitution lookup 28 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 29"  {"Single Substitution lookup 29 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 30"  {"Single Substitution lookup 30 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 31"  {"Single Substitution lookup 31 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 32"  {"Single Substitution lookup 32 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 33"  {"Single Substitution lookup 33 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 34"  {"Single Substitution lookup 34 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 35"  {"Single Substitution lookup 35 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 36"  {"Single Substitution lookup 36 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 37"  {"Single Substitution lookup 37 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 38"  {"Single Substitution lookup 38 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 39"  {"Single Substitution lookup 39 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 40"  {"Single Substitution lookup 40 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 41"  {"Single Substitution lookup 41 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 42"  {"Single Substitution lookup 42 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 43"  {"Single Substitution lookup 43 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 44"  {"Single Substitution lookup 44 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 45"  {"Single Substitution lookup 45 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 46"  {"Single Substitution lookup 46 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 47"  {"Single Substitution lookup 47 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 48"  {"Single Substitution lookup 48 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 49"  {"Single Substitution lookup 49 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 50"  {"Single Substitution lookup 50 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 51"  {"Single Substitution lookup 51 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 52"  {"Single Substitution lookup 52 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 53"  {"Single Substitution lookup 53 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 54"  {"Single Substitution lookup 54 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 55"  {"Single Substitution lookup 55 subtable"  } []
+Lookup: 1 0 0 "Single Substitution lookup 56"  {"Single Substitution lookup 56 subtable"  } []
+Lookup: 4 256 0 "'abvs' Above Base Substitutions in Sinhala lookup 57"  {"'abvs' Above Base Substitutions in Sinhala lookup 57 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
+Lookup: 4 512 0 "'blws' Below Base Substitutions in Sinhala lookup 58"  {"'blws' Below Base Substitutions in Sinhala lookup 58 subtable"  } ['blws' ('sinh' <'dflt' > ) ]
+Lookup: 4 0 0 "'psts' Post Base Substitutions in Sinhala lookup 59"  {"'psts' Post Base Substitutions in Sinhala lookup 59 subtable"  } ['psts' ('sinh' <'dflt' > ) ]
+Lookup: 5 0 0 "'psts' Post Base Substitutions in Sinhala lookup 60"  {"'psts' Post Base Substitutions in Sinhala lookup 60 subtable"  } ['psts' ('sinh' <'dflt' > ) ]
+Lookup: 2 0 0 "Multiple Substitution lookup 61"  {"Multiple Substitution lookup 61 subtable"  } []
+Lookup: 6 8 0 "'psts' Post Base Substitutions in Sinhala lookup 62"  {"'psts' Post Base Substitutions in Sinhala lookup 62 subtable"  } ['psts' ('sinh' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 63"  {"Single Substitution lookup 63 subtable"  } []
+Lookup: 5 512 0 "'psts' Post Base Substitutions in Sinhala lookup 64"  {"'psts' Post Base Substitutions in Sinhala lookup 64 subtable"  } ['psts' ('sinh' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 65"  {"Single Substitution lookup 65 subtable"  } []
+Lookup: 258 8 0 "'dist' Distance in Sinhala lookup 0"  {"'dist' Distance in Sinhala lookup 0 per glyph data 0"  "'dist' Distance in Sinhala lookup 0 kerning class 1"  } ['dist' ('sinh' <'dflt' > ) ]
+Lookup: 259 0 0 "'dist' Distance in Sinhala lookup 1"  {"'dist' Distance in Sinhala lookup 1 subtable"  } ['dist' ('sinh' <'dflt' > ) ]
+Lookup: 260 0 0 "'blwm' Below Base Mark in Sinhala lookup 2"  {"'blwm' Below Base Mark in Sinhala lookup 2 subtable"  } ['blwm' ('sinh' <'dflt' > ) ]
+MarkAttachClasses: 3
+"MarkClass-1" 52 uni0DCA uni0DD2 uni0DD3 uni0DBB_uni0DCA_uni200D.rphf
+"MarkClass-2" 458 uni0DD4 uni0DD6 uni0DCA_uni200D_uni0DBB.vatu glyph104 glyph105 glyph106 glyph107 glyph108 glyph109 glyph110 glyph111 glyph112 glyph113 glyph116 glyph117 glyph118 glyph119 glyph120 glyph121 glyph122 glyph123 glyph124 glyph126 glyph127 glyph129 glyph130 glyph131 glyph132 glyph133 glyph134 glyph135 glyph137 glyph138 glyph139 glyph140 glyph141 glyph143 glyph144 glyph145 glyph146 glyph147 glyph148 glyph149 glyph150 glyph151 glyph152 glyph153 glyph155 glyph156
+DEI: 91125
+KernClass2: 16 7 "'dist' Distance in Sinhala lookup 0 kerning class 1" 
+ 2229 uni0DA0 uni0DA7 uni0DC0 uni0D9A_uni0DCA_uni200D_uni0DC0.akhn uni0DA4_uni0DCA_uni200D_uni0DA0.akhn uni0DAD_uni0DCA_uni200D_uni0DC0.akhn uni0DAF_uni0DCA_uni200D_uni0DC0.akhn uni0DB1_uni0DCA_uni200D_uni0DC0.akhn uni0DA0_uni0DCA.abvs uni0DA7_uni0DCA.abvs uni0DC0_uni0DCA.abvs uni0D9A_uni0DCA_uni200D_uni0DC0.akhn_uni0DCA.abvs uni0DA4_uni0DCA_uni200D_uni0DA0.akhn_uni0DCA.abvs uni0DAD_uni0DCA_uni200D_uni0DC0.akhn_uni0DCA.abvs uni0DAF_uni0DCA_uni200D_uni0DC0.akhn_uni0DCA.abvs uni0DB1_uni0DCA_uni200D_uni0DC0.akhn_uni0DCA.abvs uni0DA0_uni0DD2.abvs uni0DA7_uni0DD2.abvs uni0DC0_uni0DD2.abvs uni0D9A_uni0DCA_uni200D_uni0DC0.akhn_uni0DD2.abvs uni0DA4_uni0DCA_uni200D_uni0DA0.akhn_uni0DD2.abvs uni0DAD_uni0DCA_uni200D_uni0DC0.akhn_uni0DD2.abvs uni0DAF_uni0DCA_uni200D_uni0DC0.akhn_uni0DD2.abvs uni0DB1_uni0DCA_uni200D_uni0DC0.akhn_uni0DD2.abvs uni0DA0_uni0DD3.abvs uni0DA7_uni0DD3.abvs uni0DC0_uni0DD3.abvs uni0D9A_uni0DCA_uni200D_uni0DC0.akhn_uni0DD3.abvs uni0DA4_uni0DCA_uni200D_uni0DA0.akhn_uni0DD3.abvs uni0DAD_uni0DCA_uni200D_uni0DC0.akhn_uni0DD3.abvs uni0DAF_uni0DCA_uni200D_uni0DC0.akhn_uni0DD3.abvs uni0DB1_uni0DCA_uni200D_uni0DC0.akhn_uni0DD3.abvs uni0DA0_uni0DBB_uni0DCA_uni200D.rphf.abvs uni0DA7_uni0DBB_uni0DCA_uni200D.rphf.abvs uni0DC0_uni0DBB_uni0DCA_uni200D.rphf.abvs uni0D9A_uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DC0.abvs uni0DA4_uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DA0.abvs uni0DAD_uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DC0.abvs uni0DAF_uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DC0.abvs uni0DB1_uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DC0.abvs uni0DA0_uni0DD4.blws uni0DA7_uni0DD4.blws uni0DC0_uni0DD4.blws uni0D9A_uni0DCA_uni200D_uni0DC0.akhn_uni0DD4.blws uni0DA4_uni0DCA_uni200D_uni0DA0.akhn_uni0DD4.blws uni0DAD_uni0DCA_uni200D_uni0DC0.akhn_uni0DD4.blws uni0DAF_uni0DCA_uni200D_uni0DC0.akhn_uni0DD4.blws uni0DB1_uni0DCA_uni200D_uni0DC0.akhn_uni0DD4.blws uni0DA0_uni0DD6.blws uni0DA7_uni0DD6.blws uni0DC0_uni0DD6.blws uni0D9A_uni0DCA_uni200D_uni0DC0.akhn_uni0DD6.blws uni0DA4_uni0DCA_uni200D_uni0DA0.akhn_uni0DD6.blws uni0DAD_uni0DCA_uni200D_uni0DC0.akhn_uni0DD6.blws uni0DAF_uni0DCA_uni200D_uni0DC0.akhn_uni0DD6.blws uni0DB1_uni0DCA_uni200D_uni0DC0.akhn_uni0DD6.blws
+ 7 uni0D9A
+ 31 uni0D9C uni0D9F uni0DB7 uni0DC4
+ 2123 uni0DA4 uni0DA5 uni0DAF uni0DB3 uni0DB1_uni0DCA_uni200D_uni0DAF.akhn uni0DA4_uni0DCA_uni200D_uni0DBB.vatu.abvs uni0DA5_uni0DCA_uni200D_uni0DBB.vatu.abvs uni0DAF_uni0DCA_uni200D_uni0DBB.vatu.abvs uni0DB3_uni0DCA_uni200D_uni0DBB.vatu.abvs uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DCA_uni200D_uni0DBB.vatu.abvs uni0DA4_uni0DCA.abvs uni0DA5_uni0DCA.abvs uni0DAF_uni0DCA.abvs uni0DB3_uni0DCA.abvs uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DCA.abvs uni0DA4_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DCA.abvs uni0DA5_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DCA.abvs uni0DAF_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DCA.abvs uni0DB3_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DCA.abvs uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DCA.abvs uni0DA4_uni0DD2.abvs uni0DA4_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD2.abvs uni0DA5_uni0DD2.abvs uni0DA5_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD2.abvs uni0DAF_uni0DD2.abvs uni0DAF_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD2.abvs uni0DB3_uni0DD2.abvs uni0DB3_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD2.abvs uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DD2.abvs uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD2.abvs uni0DA4_uni0DD3.abvs uni0DA4_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD3.abvs uni0DA5_uni0DD3.abvs uni0DA5_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD3.abvs uni0DAF_uni0DD3.abvs uni0DAF_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD3.abvs uni0DB3_uni0DD3.abvs uni0DB3_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD3.abvs uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DD3.abvs uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD3.abvs uni0DA4_uni0DBB_uni0DCA_uni200D.rphf.abvs uni0DA5_uni0DBB_uni0DCA_uni200D.rphf.abvs uni0DAF_uni0DBB_uni0DCA_uni200D.rphf.abvs uni0DB3_uni0DBB_uni0DCA_uni200D.rphf.abvs uni0DB1_uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DAF.abvs uni0DA4_uni0DD4.blws uni0DA5_uni0DD4.blws uni0DAF_uni0DD4.blws uni0DB3_uni0DD4.blws uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DD4.blws uni0DA4_uni0DD6.blws uni0DA5_uni0DD6.blws uni0DAF_uni0DD6.blws uni0DB3_uni0DD6.blws uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DD6.blws
+ 68 uni0DA2 uni0DA6 uni0DB4 uni0DC2 uni0D9A_uni0DCA_uni200D_uni0DC2.akhn
+ 52 uni0DA8 uni0DAA uni0DA7_uni0DCA_uni200D_uni0DA8.akhn
+ 909 uni0D91 uni0D92 uni0D93 uni0DAE uni0DB5 uni0DAD_uni0DCA_uni200D_uni0DAE.akhn uni0DB1_uni0DCA_uni200D_uni0DAE.akhn uni0DC5_uni0DCA_uni200D_uni0DBB.vatu.abvs uni0DC5_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DCA.abvs uni0DAE_uni0DD2.abvs uni0DB5_uni0DD2.abvs uni0DC5_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD2.abvs uni0DAD_uni0DCA_uni200D_uni0DAE.akhn_uni0DD2.abvs uni0DB1_uni0DCA_uni200D_uni0DAE.akhn_uni0DD2.abvs uni0DAE_uni0DD3.abvs uni0DB5_uni0DD3.abvs uni0DC5_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD3.abvs uni0DAD_uni0DCA_uni200D_uni0DAE.akhn_uni0DD3.abvs uni0DB1_uni0DCA_uni200D_uni0DAE.akhn_uni0DD3.abvs uni0DAE_uni0DD4.blws uni0DB5_uni0DD4.blws uni0DC5_uni0DD4.blws uni0DAD_uni0DCA_uni200D_uni0DAE.akhn_uni0DD4.blws uni0DB1_uni0DCA_uni200D_uni0DAE.akhn_uni0DD4.blws uni0DAE_uni0DD6.blws uni0DB5_uni0DD6.blws uni0DAD_uni0DCA_uni200D_uni0DAE.akhn_uni0DD6.blws uni0DB1_uni0DCA_uni200D_uni0DAE.akhn_uni0DD6.blws
+ 23 uni0D9D uni0DBA uni0DC3
+ 112 uni0DC5 uni0DC5_uni0DCA.abvs uni0DC5_uni0DD2.abvs uni0DC5_uni0DD3.abvs uni0DC5_uni0DBB_uni0DCA_uni200D.rphf.abvs
+ 15 uni0DAD uni0DB1
+ 301 uni0DCA_uni200D_uni0DBA.vatu uni0DCA_uni200D_uni0DBA.vatu_uni0DCA.abvs uni0DCA_uni200D_uni0DBA.vatu_uni0DD2.abvs uni0DCA_uni200D_uni0DBA.vatu_uni0DD3.abvs uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DBA.vatu.abvs uni0DCA_uni200D_uni0DBA.vatu_uni0DD4.blws uni0DCA_uni200D_uni0DBA.vatu_uni0DD6.blws
+ 150 uni0D9E uni0DA3 uni0DA9 uni0DAC uni0DB0 uni0D9C_uni0DCA_uni200D_uni0DB0.akhn uni0DAF_uni0DCA_uni200D_uni0DB0.akhn uni0DB1_uni0DCA_uni200D_uni0DB0.akhn
+ 154 uni0DA4_uni0DCF.psts uni0DA5_uni0DCF.psts uni0DAF_uni0DCF.psts uni0DB3_uni0DCF.psts uni0DB1_uni0DCA_uni200D_uni0DAF.akhn_uni0DCF.psts uni0DAF_uni0DD8.psts
+ 154 uni0DBD uni0DBD_uni0DCA.abvs uni0DBD_uni0DD2.abvs uni0DBD_uni0DD3.abvs uni0DBD_uni0DBB_uni0DCA_uni200D.rphf.abvs uni0DBD_uni0DD4.blws uni0DBD_uni0DD6.blws
+ 206 uni0DBD_uni0DCA_uni200D_uni0DBB.vatu.abvs uni0DBD_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DCA.abvs uni0DBD_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD2.abvs uni0DBD_uni0DCA_uni200D_uni0DBB.vatu.abvs_uni0DD3.abvs
+ 20 uni0DCF uni0DDD.pstf
+ 15 uni0DD8 uni0DF2
+ 301 uni0DCA_uni200D_uni0DBA.vatu uni0DCA_uni200D_uni0DBA.vatu_uni0DCA.abvs uni0DCA_uni200D_uni0DBA.vatu_uni0DD2.abvs uni0DCA_uni200D_uni0DBA.vatu_uni0DD3.abvs uni0DBB_uni0DCA_uni200D.rphf_uni0DCA_uni200D_uni0DBA.vatu.abvs uni0DCA_uni200D_uni0DBA.vatu_uni0DD4.blws uni0DCA_uni200D_uni0DBA.vatu_uni0DD6.blws
+ 15 uni0DDF uni0DF3
+ 15 uni0DD0 uni0DD1
+ 7 uni0D82
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -7 {} -8 {} 0 {} 0 {} -9 {} 0 {} -33 {} -5 {} -45 {} -10 {} 0 {} 0 {} 0 {} -21 {} 0 {} -32 {} 0 {} 0 {} 0 {} 0 {} 8 {} 0 {} 0 {} 0 {} 8 {} -36 {} 0 {} -24 {} 0 {} -34 {} -14 {} -8 {} 0 {} 0 {} -10 {} 0 {} -24 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} -10 {} 0 {} 0 {} -5 {} 0 {} -23 {} 0 {} -28 {} -23 {} -10 {} 0 {} 0 {} 14 {} 0 {} 0 {} 0 {} 9 {} -10 {} 0 {} -27 {} 0 {} -46 {} -6 {} 0 {} 0 {} 0 {} -14 {} 0 {} 0 {} 0 {} -12 {} -6 {} 0 {} -5 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -48 {} 0 {} 0 {} 0 {} -12 {} 0 {} 5 {} -10 {} 0 {} -6 {} 0 {} -12 {} 0 {} 5 {} -10 {}
+ContextSub2: glyph "'psts' Post Base Substitutions in Sinhala lookup 64 subtable"  0 0 0 3
+ String: 15 uni0DBB uni0DD4
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 1 "Single Substitution lookup 65" 
+ String: 15 uni0DBB uni0DD6
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 1 "Single Substitution lookup 65" 
+ String: 15 uni0DC5 uni0DD6
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single Substitution lookup 65" 
+  SeqLookup: 1 "Single Substitution lookup 65" 
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions in Sinhala lookup 62 subtable"  0 0 0 2
+ String: 7 uni0DD0
+ BString: 7 uni0DBB
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 63" 
+ String: 7 uni0DD1
+ BString: 7 uni0DBB
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 63" 
+EndFPST
+ContextSub2: glyph "'psts' Post Base Substitutions in Sinhala lookup 60 subtable"  0 0 0 1
+ String: 70 uni0DAF_uni0DCA_uni200D_uni0DBA.vatu.psts uni0DCA_uni200D_uni0DBB.vatu
+ BString: 0 
+ FString: 0 
+ 1
+  SeqLookup: 0 "Multiple Substitution lookup 61" 
+EndFPST
+ChainSub2: glyph "'abvs' Above Base Substitutions in Sinhala lookup 10 subtable"  0 0 0 46
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0D9A
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 11" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0D9B
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 12" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0D9C
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 13" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0D9D
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 14" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0D9E
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 15" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0D9F
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 16" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DA0
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 17" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DA1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 18" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DA2
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 19" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DA3
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 20" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DA6
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 21" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DA7
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 22" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DA8
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 23" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DA9
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 24" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DAA
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 25" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DAB
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 26" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DAC
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 27" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DAD
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 28" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DAE
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 29" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DB0
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 30" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DB1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 31" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DB4
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 32" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DB5
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 33" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DB6
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 34" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DB7
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 35" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DB8
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 36" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DB9
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 37" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DBA
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 38" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DC0
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 39" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DC1
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 40" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DC2
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 41" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DC3
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 42" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DC4
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 43" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 7 uni0DC6
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 44" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0D9A_uni0DCA_uni200D_uni0DC0.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 45" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0D9A_uni0DCA_uni200D_uni0DC2.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 46" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0D9C_uni0DCA_uni200D_uni0DB0.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 47" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DA4_uni0DCA_uni200D_uni0DA0.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 48" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DA7_uni0DCA_uni200D_uni0DA8.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 49" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DAD_uni0DCA_uni200D_uni0DAE.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 50" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DAD_uni0DCA_uni200D_uni0DC0.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 51" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DAF_uni0DCA_uni200D_uni0DB0.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 52" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DAF_uni0DCA_uni200D_uni0DC0.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 53" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DB1_uni0DCA_uni200D_uni0DAE.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 54" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DB1_uni0DCA_uni200D_uni0DB0.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 55" 
+ String: 28 uni0DCA_uni200D_uni0DBB.vatu
+ BString: 36 uni0DB1_uni0DCA_uni200D_uni0DC0.akhn
+ FString: 0 
+ 1
+  SeqLookup: 0 "Single Substitution lookup 56" 
+EndFPST
+ChainSub2: glyph "'abvs' Above Base Substitutions in Sinhala lookup 6 subtable"  0 0 0 2
+ String: 7 uni0DD4
+ BString: 28 uni0DCA_uni200D_uni0DBB.vatu
+ FString: 0 
+ 0
+ String: 0 
+ BString: 0 
+ FString: 0 
+ 0
+EndFPST
+Encoding: Custom
+Compacted: 1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -72
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 0 17 10
+EndSplineFont
