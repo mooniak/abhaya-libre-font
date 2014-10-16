@@ -1,0 +1,46 @@
+StartChar: white_square
+Encoding: 9633 9633 259
+Width: 466
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+PUSHB_3
+ 9
+ 1
+ 13
+CALL
+SVTCA[y-axis]
+PUSHB_1
+ 4
+MDAP[rnd]
+PUSHB_3
+ 10
+ 0
+ 13
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+374 -8 m 1
+ 31 -8 l 1
+ 31 333 l 1
+ 85 333 l 1
+ 85 385 l 1
+ 425 385 l 1
+ 425 43 l 1
+ 374 43 l 1
+ 374 -8 l 1
+112 356 m 1
+ 112 69 l 1
+ 400 69 l 1
+ 400 356 l 1
+ 112 356 l 1
+EndSplineSet
+EndChar

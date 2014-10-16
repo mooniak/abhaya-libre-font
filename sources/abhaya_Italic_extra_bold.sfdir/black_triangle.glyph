@@ -1,0 +1,29 @@
+StartChar: black_triangle
+Encoding: 9650 9650 252
+Width: 445
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+SVTCA[y-axis]
+PUSHB_1
+ 0
+MDAP[rnd]
+PUSHB_1
+ 2
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+405.109634652 -6 m 1
+ 16.9292689112 -6 l 1
+ 209.975956175 382.180365741 l 1
+ 405.109634652 -6 l 1
+EndSplineSet
+EndChar

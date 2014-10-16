@@ -1,0 +1,40 @@
+StartChar: apostrophe
+Encoding: 39 39 235
+Width: 60
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+PUSHB_3
+ 1
+ 0
+ 13
+CALL
+PUSHB_1
+ 1
+SRP0
+PUSHB_1
+ 5
+MDRP[rp0,min,rnd,grey]
+SVTCA[y-axis]
+PUSHB_3
+ 1
+ 2
+ 13
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+13 527 m 1
+ 164 527 l 1
+ 164 344 l 1
+ 13 344 l 1
+ 13 527 l 1
+EndSplineSet
+EndChar

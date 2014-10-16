@@ -1,0 +1,29 @@
+StartChar: short_dash1
+Encoding: 45 45 216
+Width: 297
+GlyphClass: 2
+Flags: W
+TtInstrs:
+PUSHB_1
+ 10
+CALL
+SVTCA[y-axis]
+PUSHB_3
+ 1
+ 2
+ 13
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Back
+Fore
+SplineSet
+38 231 m 1
+ 250 231 l 1
+ 250 182 l 1
+ 38 182 l 1
+ 38 231 l 1
+EndSplineSet
+EndChar
