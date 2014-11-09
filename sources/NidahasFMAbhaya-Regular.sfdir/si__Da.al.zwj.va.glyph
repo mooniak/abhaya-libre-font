@@ -62,5 +62,5 @@ SplineSet
  136 426 136 426 173 430 c 0,0,1
 EndSplineSet
 Validated: 1
-Ligature2: "'akhn' Akhand in Sinhala lookup 1 subtable" si_Dha si_Virama uni200DVva_Va
+Ligature2: "'akhn' Akhand in Sinhala lookup 1 subtable" si_Dha si_Halant zwj si_Va
 EndChar

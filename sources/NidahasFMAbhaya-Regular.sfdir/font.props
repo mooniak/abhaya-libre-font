@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1049611640
-ModificationTime: 1413745272
+ModificationTime: 1415552624
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -103,7 +103,7 @@ EndFPST
 ChainSub2: coverage "'akhn' Akhand in Sinhala lookup 2 contextual 1" 0 0 0 1
  3 0 0
   Coverage: 17 si_Ka si_Ta si_Na
-  Coverage: 9 si_Virama
+  Coverage: 9 si_Halant
   Coverage: 3 zwj
  1
   SeqLookup: 0 "Ligature Substitution lookup 12"
@@ -111,7 +111,7 @@ EndFPST
 ChainSub2: coverage "'akhn' Akhand in Sinhala lookup 2 contextual 0" 0 0 0 1
  3 0 1
   Coverage: 17 si_Ka si_Ta si_Na
-  Coverage: 9 si_Virama
+  Coverage: 9 si_Halant
   Coverage: 3 zwj
   FCoverage: 11 si_Ya si_Ra
  0
@@ -119,7 +119,7 @@ EndFPST
 ChainSub2: coverage "'akhn' Akhand in Sinhala lookup 0 contextual 1" 0 0 0 1
  4 0 0
   Coverage: 11 si_Ka si_Ta
-  Coverage: 9 si_Virama
+  Coverage: 9 si_Halant
   Coverage: 3 zwj
   Coverage: 19 si_Tha si_Dha si_Va
  1
@@ -128,10 +128,10 @@ EndFPST
 ChainSub2: coverage "'akhn' Akhand in Sinhala lookup 0 contextual 0" 0 0 0 1
  4 0 1
   Coverage: 11 si_Ka si_Ta
-  Coverage: 9 si_Virama
+  Coverage: 9 si_Halant
   Coverage: 3 zwj
   Coverage: 19 si_Tha si_Dha si_Va
-  FCoverage: 30 si_Virama si_MatraI si_MatraIi
+  FCoverage: 30 si_Halant si_MatraI si_MatraIi
  0
 EndFPST
 TtTable: prep
@@ -940,12 +940,13 @@ EndShort
 LangName: 1033 "" "" "" "mooniak - Nidahas FM Abhaya" "" "Version 0.01" "" "Nidahas is a tradmrk of mooniak." "mooniak PLC." "Pushpananda Ekanayake(isiwara.lk)" "Pushpananda Ekanayake and mooniak" "https://github.com/mooniak/nidahas-fm-abhaya" "http://www.mooniak.com/typography" "Licensed under OFL" "http://www.apache.org/licenses/LICENSE-2.0"
 GaspTable: 3 8 10 16 5 65535 15 1
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: NidahasFMAbhaya-Regular
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 204 12 5
+WinInfo: 198 11 5
 BeginPrivate: 0
 EndPrivate
 EndSplineFont

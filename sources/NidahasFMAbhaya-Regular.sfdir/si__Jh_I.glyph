@@ -132,5 +132,5 @@ EndSplineSet
 Validated: 1
 LCarets2: 4 0 0 0 0 
 Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 8 subtable" si_Jha si_MatraI
-Ligature2: "'akhn' Akhand in Sinhala lookup 1 subtable" si_Ka si_Viramafzwjnsi_Dhansi_MatraI2
+Ligature2: "'akhn' Akhand in Sinhala lookup 1 subtable" si_Ka si_Halant zwnj si_Dha si_MatraI
 EndChar

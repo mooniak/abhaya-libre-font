@@ -52,5 +52,6 @@ SplineSet
  185 411 185 411 119 354 c 0,55,56
 EndSplineSet
 Validated: 1
-Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 8 subtable" si_Ra si_Virama
+LCarets2: 1 0 
+Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 8 subtable" si_Ra si_Halant
 EndChar
