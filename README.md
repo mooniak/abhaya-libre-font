@@ -1,7 +1,7 @@
 Nidahas FM Abhaya
 ==============
 
-Nidahas FM Abhaya - is the unicode compliant libre version of Pushpananda Ekanayakes's FM Abhaya font which was released in 1997.
+Nidahas FM Abhaya - is the unicode compliant libre version of Pushpananda Ekanayakes's FM Abhaya font which was originally released in 1997.
 
 This font only contain the basic glyph set requierd for Sinhala rendering. Bandi Akuru(ligatures) and Touching clusters are not specifically designed. Using this font for Pali and Sanskrit texts is not advised.
 
