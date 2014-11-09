@@ -1,5 +1,5 @@
 StartChar: si_MatraOo
-Encoding: 114 3549 177
+Encoding: 114 3549 200
 Width: 1313
 GlyphClass: 2
 Flags: W
@@ -8,8 +8,8 @@ VStem: 33 44.1899<158.872 303.856> 202.965 33.0351<211.586 279.246> 345 34<210.7
 LayerCount: 2
 Back
 Fore
-Refer: 173 3545 N 1 0 0 1 0 0 2
-Refer: 178 -1 N 1 0 0 1 990 0 2
+Refer: 196 3545 N 1 0 0 1 0 0 2
+Refer: 201 -1 N 1 0 0 1 990 0 2
 Refer: 2 9676 N 1 0 0 1 540 0 2
 Substitution2: "'pstf' Post Base Forms in Sinhala lookup 7 subtable" si_O.mark
 EndChar

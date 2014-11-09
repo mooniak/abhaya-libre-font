@@ -1,0 +1,20 @@
+StartChar: smalldot
+Encoding: 256 -1 234
+Width: 137
+GlyphClass: 2
+Flags: W
+HStem: -4 70<33.7705 91.6248>
+VStem: 32 72<-2.07739 57.6548>
+LayerCount: 2
+Back
+Fore
+SplineSet
+67 66 m 0,0,1
+ 80 66 80 66 92 58 c 0,2,3
+ 104 47 104 47 104 30 c 0,4,5
+ 104 -4 104 -4 69 -4 c 0,6,7
+ 32 -4 32 -4 32 31 c 128,-1,8
+ 32 66 32 66 67 66 c 0,0,1
+EndSplineSet
+Validated: 1
+EndChar
