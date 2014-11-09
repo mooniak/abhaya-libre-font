@@ -1,0 +1,19 @@
+StartChar: apostrophe
+Encoding: 3 39 233
+Width: 60
+GlyphClass: 2
+Flags: W
+HStem: 349 173<18 159>
+VStem: 18 141<349 522>
+LayerCount: 2
+Back
+Fore
+SplineSet
+18 522 m 1,0,-1
+ 159 522 l 1,1,-1
+ 159 349 l 1,2,-1
+ 18 349 l 1,3,-1
+ 18 522 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar

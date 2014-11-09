@@ -1,0 +1,18 @@
+StartChar: slash
+Encoding: 11 47 209
+Width: 407
+GlyphClass: 2
+Flags: W
+VStem: 49 307
+LayerCount: 2
+Back
+Fore
+SplineSet
+329 607 m 1,0,-1
+ 356 607 l 1,1,-1
+ 74 -32 l 1,2,-1
+ 49 -32 l 1,3,-1
+ 329 607 l 1,0,-1
+EndSplineSet
+Validated: 1
+EndChar
