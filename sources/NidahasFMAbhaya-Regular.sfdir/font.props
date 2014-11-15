@@ -13,15 +13,15 @@ Descent: 254
 InvalidEm: 0
 sfntRevision: 0x00000a7e
 LayerCount: 2
-Layer: 0 1 "Back" 1
-Layer: 1 1 "Fore" 0
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
 XUID: [1021 792 -450466945 2335315]
 FSType: 0
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1049611640
-ModificationTime: 1415552624
+ModificationTime: 1416079904
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -940,13 +940,12 @@ EndShort
 LangName: 1033 "" "" "" "mooniak - Nidahas FM Abhaya" "" "Version 0.01" "" "Nidahas is a tradmrk of mooniak." "mooniak PLC." "Pushpananda Ekanayake(isiwara.lk)" "Pushpananda Ekanayake and mooniak" "https://github.com/mooniak/nidahas-fm-abhaya" "http://www.mooniak.com/typography" "Licensed under OFL" "http://www.apache.org/licenses/LICENSE-2.0"
 GaspTable: 3 8 10 16 5 65535 15 1
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: NidahasFMAbhaya-Regular
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 198 11 5
+WinInfo: 0 8 2
 BeginPrivate: 0
 EndPrivate
 EndSplineFont
