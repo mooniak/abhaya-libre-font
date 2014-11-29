@@ -1,0 +1,18 @@
+StartChar: uni0304
+Encoding: 336 772 141
+Width: 0
+GlyphClass: 4
+Flags: W
+HStem: 498 42<-374.462 -146.479>
+LayerCount: 2
+Back
+Fore
+SplineSet
+-151 498 m 1
+ -197 498 -300 498 -375 498 c 1
+ -385 502 -378 534 -369 540 c 9
+ -282 540 -232 540 -145 540 c 1
+ -138 535 -141 509 -151 498 c 1
+EndSplineSet
+Validated: 33
+EndChar

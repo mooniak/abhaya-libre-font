@@ -1,0 +1,25 @@
+StartChar: O
+Encoding: 273 79 272
+Width: 765
+VWidth: 1048
+Flags: W
+HStem: -10 35<316.155 477.392> 648 35<287.247 448.434>
+VStem: 50 102<222.454 454.921> 614 102<214.691 450.696>
+LayerCount: 2
+Back
+Fore
+SplineSet
+367 648 m 0
+ 213 648 152 495 152 358 c 0
+ 152 199 239 25 398 25 c 0
+ 552 25 614 178 614 316 c 0
+ 614 475 526 648 367 648 c 0
+382 683 m 0
+ 562 683 716 540 716 336 c 0
+ 716 145 562 -10 382 -10 c 0
+ 202 -10 50 133 50 336 c 0
+ 50 527 202 683 382 683 c 0
+EndSplineSet
+Validated: 1
+Substitution2: "Crimson-Roman-'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" o.sc
+EndChar

@@ -2,7 +2,7 @@ StartChar: two
 Encoding: 14 50 217
 Width: 447
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 HStem: -1 48<101 355.809> 513 50<116.952 245.847>
 VStem: 29 26<394.923 435.141> 297 65<323.726 460.891>
 LayerCount: 2
@@ -30,5 +30,4 @@ SplineSet
  28 -1 l 1
  28 9 l 1
 EndSplineSet
-Validated: 1
 EndChar

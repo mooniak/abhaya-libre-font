@@ -1,0 +1,18 @@
+StartChar: slash
+Encoding: 14 47 14
+Width: 413
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+369 761 m 0
+ 377 761 381 755 382 752 c 1
+ 382 752 87 -12 87 -12 c 2
+ 84 -19 71 -35 48 -35 c 0
+ 33 -35 30 -28 30 -28 c 1
+ 30 -28 329 746 329 746 c 1
+ 330 749 345 761 369 761 c 0
+EndSplineSet
+Validated: 1
+EndChar

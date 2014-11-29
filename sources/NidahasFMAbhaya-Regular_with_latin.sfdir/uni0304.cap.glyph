@@ -1,0 +1,19 @@
+StartChar: uni0304.cap
+Encoding: 704 -1 442
+Width: 0
+VWidth: 1048
+GlyphClass: 4
+Flags: W
+HStem: 745 43<-390.111 -134.479>
+LayerCount: 2
+Back
+Fore
+SplineSet
+-139 745 m 1
+ -186 745 -314 745 -391 745 c 1
+ -401 749 -394 782 -385 788 c 9
+ -385 788 -222 788 -133 788 c 1
+ -126 783 -129 756 -139 745 c 1
+EndSplineSet
+Validated: 33
+EndChar

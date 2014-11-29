@@ -1,0 +1,21 @@
+StartChar: backslash
+Encoding: 286 92 285
+Width: 410
+VWidth: 1048
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+32 768 m 1
+ 35 773 45 775 52 775 c 0
+ 63 775 78 767 81 759 c 2
+ 81 759 378 -11 378 -17 c 1
+ 377 -21 366 -29 354 -29 c 0
+ 347 -29 336 -21 333 -14 c 0
+ 219 282 122 537 32 768 c 1
+EndSplineSet
+Validated: 1
+Substitution2: "Crimson-Roman-'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" backslash.sc
+Substitution2: "Crimson-Roman-'smcp' Lowercase to Small Capitals lookup 2-1" backslash.sc
+EndChar

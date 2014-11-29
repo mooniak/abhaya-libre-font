@@ -1,0 +1,23 @@
+StartChar: uni0314
+Encoding: 1385 788 259
+Width: 0
+VWidth: 1000
+GlyphClass: 4
+Flags: W
+HStem: 493 13<-209.866 -194.631>
+VStem: -298 51<532.504 614.68>
+LayerCount: 2
+Back
+Fore
+SplineSet
+-235 680 m 0
+ -218 680 -188 660 -188 648 c 3
+ -188 646 -189 644 -191 643 c 0
+ -207 629 -247 609 -247 562 c 0
+ -247 538 -225 514 -193 506 c 1
+ -193 498 -201 493 -205 493 c 0
+ -215 493 -298 509 -298 602 c 0
+ -298 640 -266 680 -235 680 c 0
+EndSplineSet
+Validated: 1
+EndChar

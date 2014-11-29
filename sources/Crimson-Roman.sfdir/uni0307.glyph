@@ -1,0 +1,19 @@
+StartChar: uni0307
+Encoding: 339 775 144
+Width: 0
+GlyphClass: 4
+Flags: W
+HStem: 498 100<-296.562 -213.438>
+VStem: -305 100<506.438 589.562>
+LayerCount: 2
+Back
+Fore
+SplineSet
+-305 548 m 0
+ -305 576 -283 598 -255 598 c 0
+ -227 598 -205 576 -205 548 c 0
+ -205 520 -227 498 -255 498 c 0
+ -283 498 -305 520 -305 548 c 0
+EndSplineSet
+Validated: 1
+EndChar

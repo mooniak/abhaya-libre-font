@@ -1,0 +1,20 @@
+StartChar: figuredash
+Encoding: 413 8210 158
+Width: 529
+Flags: W
+HStem: 200 62<61.5596 462.904>
+LayerCount: 2
+Back
+Fore
+SplineSet
+58 209 m 0
+ 58 211 61 262 72 262 c 2
+ 72 262 466 262 466 262 c 2
+ 468 262 471 261 471 255 c 0
+ 471 250 468 225 463 207 c 0
+ 461 201 456 200 456 200 c 1
+ 456 200 64 200 64 200 c 1
+ 64 200 58 199 58 209 c 0
+EndSplineSet
+Validated: 1
+EndChar

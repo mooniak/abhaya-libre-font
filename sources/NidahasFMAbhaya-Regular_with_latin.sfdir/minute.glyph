@@ -1,0 +1,21 @@
+StartChar: minute
+Encoding: 642 8242 380
+Width: 163
+VWidth: 1048
+Flags: W
+HStem: 506 210
+VStem: 50 89<603.34 695.912> 62 77<603.38 704.794>
+LayerCount: 2
+Back
+Fore
+SplineSet
+114 716 m 0xa0
+ 124 716 139 711 139 691 c 0xc0
+ 139 643 104 572 74 514 c 0
+ 71 508 66 506 62 506 c 0xa0
+ 56 506 50 511 50 518 c 0xc0
+ 50 521 54 627 62 682 c 0
+ 64 694 95 716 114 716 c 0xa0
+EndSplineSet
+Validated: 1
+EndChar

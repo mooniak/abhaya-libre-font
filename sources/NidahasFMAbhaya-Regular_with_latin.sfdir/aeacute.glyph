@@ -1,0 +1,22 @@
+StartChar: aeacute
+Encoding: 741 509 479
+Width: 668
+VWidth: 1048
+Flags: HW
+HStem: -8 55<142.374 215.972> -8 65<426.287 554.89> 254 38<347 537.462> 412 37<173.135 267 402.565 499.665> 507 164
+VStem: 38 85<66.1501 170.866> 53 83<301.51 361.807> 271 71<146.077 225> 322 164 538 87<292.353 377.159>
+LayerCount: 2
+Back
+Fore
+SplineSet
+449 671 m 0
+ 485 671 486 646 486 641 c 0
+ 486 608 342 507 332 507 c 0
+ 325 507 322 514 322 520 c 0
+ 322 526 389 622 422 663 c 0
+ 423 664 435 671 449 671 c 0
+EndSplineSet
+Refer: 348 230 N 1 0 0 1 0 0 3
+Validated: 8389121
+Substitution2: "Crimson-Roman-'smcp' Lowercase to Small Capitals lookup 2-1" aeacute.sc
+EndChar

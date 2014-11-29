@@ -1,0 +1,28 @@
+StartChar: bracketleft
+Encoding: 285 91 284
+Width: 265
+VWidth: 1048
+Flags: W
+VStem: 81 49<-98 692>
+LayerCount: 2
+Back
+Fore
+SplineSet
+100 735 m 0
+ 184 735 257 741 257 741 c 1
+ 257 741 260 738 260 732 c 0
+ 260 726 256 718 250 716 c 0
+ 211 703 130 692 130 692 c 1
+ 130 692 130 -98 130 -98 c 1
+ 130 -98 211 -109 250 -122 c 0
+ 256 -124 260 -132 260 -138 c 0
+ 260 -144 257 -147 257 -147 c 1
+ 257 -147 184 -141 100 -141 c 0
+ 82 -141 81 -119 81 -118 c 2
+ 81 -118 81 712 81 712 c 2
+ 81 713 82 735 100 735 c 0
+EndSplineSet
+Validated: 1
+Substitution2: "Crimson-Roman-'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" bracketleft.sc
+Substitution2: "Crimson-Roman-'smcp' Lowercase to Small Capitals lookup 2-1" bracketleft.sc
+EndChar

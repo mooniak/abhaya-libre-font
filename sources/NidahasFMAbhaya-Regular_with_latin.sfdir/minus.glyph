@@ -1,0 +1,18 @@
+StartChar: minus
+Encoding: 662 8722 400
+Width: 625
+VWidth: 1048
+Flags: W
+HStem: 223 58<84.9133 545.998>
+LayerCount: 2
+Back
+Fore
+SplineSet
+539 223 m 5
+ 374 223 252 223 76 223 c 5
+ 64 223 78 276 92 281 c 13
+ 92 281 552 281 552 281 c 21
+ 566 281 553 230 539 223 c 5
+EndSplineSet
+Validated: 33
+EndChar

@@ -1,0 +1,24 @@
+StartChar: equals
+Encoding: 24 61 230
+Width: 364
+GlyphClass: 2
+Flags: W
+HStem: 157 38<51 310> 254 38<53 312>
+VStem: 53 259
+LayerCount: 2
+Back
+Fore
+SplineSet
+53 292 m 1
+ 53 292 312 292 312 292 c 1
+ 312 292 312 254 312 254 c 1
+ 312 254 53 254 53 254 c 1
+ 53 254 53 292 53 292 c 1
+51 195 m 1
+ 51 195 310 195 310 195 c 1
+ 310 195 310 157 310 157 c 1
+ 310 157 51 157 51 157 c 1
+ 51 157 51 195 51 195 c 1
+EndSplineSet
+Validated: 1
+EndChar

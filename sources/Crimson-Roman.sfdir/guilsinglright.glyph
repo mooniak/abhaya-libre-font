@@ -1,0 +1,23 @@
+StartChar: guilsinglright
+Encoding: 434 8250 179
+Width: 308
+Flags: W
+VStem: 44 236
+LayerCount: 2
+Back
+Fore
+SplineSet
+67 73 m 1
+ 44 79 44 87 44 91 c 0
+ 44 102 54 107 104 157 c 1
+ 104 157 191 247 191 247 c 1
+ 172 266 126 316 103 338 c 0
+ 44 395 43 396 43 404 c 0
+ 43 416 60 420 66 423 c 1
+ 68 421 141 347 271 268 c 1
+ 278 260 280 251 280 241 c 0
+ 280 235 277 229 272 227 c 1
+ 145 145 79 86 67 73 c 1
+EndSplineSet
+Validated: 1
+EndChar

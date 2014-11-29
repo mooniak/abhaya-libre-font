@@ -1,0 +1,23 @@
+StartChar: uni030C.cap
+Encoding: 502 -1 221
+Width: 262
+GlyphClass: 4
+Flags: W
+HStem: 727 132
+VStem: 22 229
+LayerCount: 2
+Back
+Fore
+SplineSet
+136 727 m 0
+ 132 727 128 731 124 735 c 0
+ 84 778 65 796 22 842 c 1
+ 22 848 26 859 32 859 c 1
+ 49 848 136 795 136 795 c 25
+ 136 795 214 843 240 859 c 1
+ 246 859 251 848 251 842 c 1
+ 208 797 189 780 148 735 c 0
+ 144 731 140 727 136 727 c 0
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,20 @@
+StartChar: parenright.sc
+Encoding: 1002 -1 514
+Width: 265
+VWidth: 1089
+Flags: W
+VStem: 143 67<89.0615 348.855>
+LayerCount: 2
+Back
+Fore
+SplineSet
+143 219 m 0
+ 143 330 108 452 42 510 c 1
+ 41 510 50 521 54 524 c 1
+ 145 459 210 356 210 219 c 0
+ 210 83 145 -22 54 -87 c 1
+ 50 -84 41 -73 42 -73 c 1
+ 108 -15 143 108 143 219 c 0
+EndSplineSet
+Validated: 1
+EndChar

@@ -1,0 +1,22 @@
+StartChar: quoteright
+Encoding: 418 8217 163
+Width: 192
+Flags: W
+HStem: 484 224
+VStem: 106 58<561.191 647.5>
+LayerCount: 2
+Back
+Fore
+SplineSet
+164 635 m 0
+ 164 541 64 484 55 484 c 0
+ 47 484 39 491 35 502 c 1
+ 95 538 106 584 106 593 c 0
+ 106 607 93 619 82 632 c 0
+ 73 642 65 653 65 665 c 0
+ 65 689 98 708 130 708 c 0
+ 137 708 143 707 150 705 c 1
+ 159 692 164 660 164 635 c 0
+EndSplineSet
+Validated: 1
+EndChar

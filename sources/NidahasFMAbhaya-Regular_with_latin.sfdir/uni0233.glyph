@@ -1,0 +1,20 @@
+StartChar: uni0233
+Encoding: 745 563 483
+Width: 480
+VWidth: 1048
+Flags: HW
+HStem: -233 73<45.3594 135.653> 411 29<0.747559 52.5449 153.093 206.887 296.188 349.305 428.782 478.352> 522 43<157.889 390.599>
+LayerCount: 2
+Back
+Fore
+SplineSet
+386 522 m 1
+ 339 522 234 522 157 522 c 1
+ 147 526 154 559 163 565 c 9
+ 252 565 304 565 393 565 c 1
+ 400 560 396 533 386 522 c 1
+EndSplineSet
+Refer: 314 121 N 1 0 0 1 0 0 3
+Validated: 545
+Substitution2: "Crimson-Roman-'smcp' Lowercase to Small Capitals lookup 2-1" uni0233.sc
+EndChar

@@ -1,0 +1,19 @@
+StartChar: short_dash2
+Encoding: 114 8208 214
+Width: 352
+GlyphClass: 2
+Flags: W
+HStem: 191 49<44 278>
+VStem: 44 234<191 240>
+LayerCount: 2
+Back
+Fore
+SplineSet
+44 240 m 1
+ 44 240 278 240 278 240 c 1
+ 278 240 278 191 278 191 c 1
+ 278 191 44 191 44 191 c 1
+ 44 191 44 240 44 240 c 1
+EndSplineSet
+Validated: 1
+EndChar

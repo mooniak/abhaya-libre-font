@@ -1,0 +1,21 @@
+StartChar: uni203E
+Encoding: 647 8254 385
+Width: 885
+VWidth: 1048
+Flags: W
+HStem: 757 64<142 736>
+LayerCount: 2
+Back
+Fore
+SplineSet
+136 767 m 0
+ 136 769 139 821 150 821 c 2
+ 150 821 746 821 746 821 c 2
+ 748 821 752 820 752 812 c 0
+ 752 794 745 768 744 764 c 0
+ 742 758 736 757 736 757 c 129
+ 736 757 142 757 142 757 c 129
+ 142 757 136 757 136 767 c 0
+EndSplineSet
+Validated: 1
+EndChar

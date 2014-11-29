@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1049611640
-ModificationTime: 1416079904
+ModificationTime: 1416501511
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -945,7 +945,7 @@ NameList: NidahasFMAbhaya-Regular
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 14 14 7
 BeginPrivate: 0
 EndPrivate
 EndSplineFont

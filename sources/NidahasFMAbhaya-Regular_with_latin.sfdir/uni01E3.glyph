@@ -1,0 +1,24 @@
+StartChar: uni01E3
+Encoding: 737 483 475
+Width: 668
+VWidth: 0
+Flags: HW
+HStem: -8 55<142.374 215.972> -8 65<426.287 554.89> 254 38<347 537.462> 412 37<173.135 267 402.565 499.665> 510 47<135 517>
+VStem: 38 85<66.1501 170.866> 53 83<301.51 361.807> 271 71<146.077 225> 538 87<292.353 377.159>
+LayerCount: 2
+Back
+Fore
+SplineSet
+129 519 m 0x3980
+ 129 521 130 557 141 557 c 2
+ 141 557 525 557 525 557 c 2
+ 527 557 530 556 530 550 c 0
+ 530 545 529 535 524 517 c 0
+ 522 511 517 510 517 510 c 1
+ 517 510 135 510 135 510 c 1
+ 135 510 129 509 129 519 c 0x3980
+EndSplineSet
+Refer: 348 230 N 1 0 0 1 0 0 3
+Validated: 8389121
+Substitution2: "Crimson-Roman-'smcp' Lowercase to Small Capitals lookup 2-1" uni01E3.sc
+EndChar

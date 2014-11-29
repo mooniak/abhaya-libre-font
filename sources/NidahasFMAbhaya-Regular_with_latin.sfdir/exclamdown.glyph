@@ -1,0 +1,28 @@
+StartChar: exclamdown
+Encoding: 320 161 319
+Width: 220
+VWidth: 1048
+Flags: W
+HStem: 328 112<65.9218 154.694>
+VStem: 54 113<339.538 427.694> 60 97<-217.815 92.469>
+LayerCount: 2
+Back
+Fore
+SplineSet
+54 383 m 0xc0
+ 54 414 79 440 110 440 c 0
+ 141 440 167 414 167 383 c 0
+ 167 352 141 328 110 328 c 0
+ 79 328 54 352 54 383 c 0xc0
+105 -228 m 0
+ 73 -228 60 -196 60 -169 c 0
+ 60 -140 73 -3 95 253 c 1
+ 99 261 103 265 112 266 c 1
+ 117 264 123 261 126 255 c 1
+ 140 90 157 -117 157 -169 c 0xa0
+ 157 -198 138 -228 105 -228 c 0
+EndSplineSet
+Validated: 1
+Substitution2: "Crimson-Roman-'c2sc' Capitals to Small Capitals in Latin lookup 0 subtable" exclamdown.sc
+Substitution2: "Crimson-Roman-'smcp' Lowercase to Small Capitals lookup 2-1" exclamdown.sc
+EndChar
