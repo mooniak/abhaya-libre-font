@@ -73,7 +73,7 @@ border-spacing: 0;
 
 body {
 margin: 0px;
-font-family: 'NidahasFMAbhaya';text-align:left; font-weight:bold;
+font-family: 'NidahasFMAbhaya' ,serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 
