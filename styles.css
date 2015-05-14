@@ -2,28 +2,28 @@
 Author - Pathum Egodawatta
 Site - mooniak.com
 */
-@font-face {
-font-family:'StickNoBills-Regular';
-src: url('fonts/StickNoBills.eot');
-src: url('fonts/StickNoBills.eot?#iefix') format('embedded-opentype'),
-url('fonts/StickNoBills.woff') format('woff'),
-url('fonts/StickNoBills.ttf') format('truetype'),
-url('fonts/StickNoBills.svg#StickNoBills-Regular') format('svg');
-font-weight: 400;
-font-style: normal;
-font-stretch: normal;
+/* Webfont: NidahasFMAbhaya-Bold */@font-face {
+    font-family: 'NidahasFMAbhaya';
+    src: url('fonts/NidahasFMAbhaya-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/NidahasFMAbhaya-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/NidahasFMAbhaya-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/NidahasFMAbhaya-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/NidahasFMAbhaya-Bold.svg#NidahasFMAbhaya-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
 }
-@font-face {
-	font-family:'StickNoBills-Italic';
-	src: url('fonts/StickNoBills-Italic.eot');
-	src: url('fonts/StickNoBills-Italic.eot?#iefix') format('embedded-opentype'),
-		url('fonts/StickNoBills-Italic.woff') format('woff'),
-		url('fonts/StickNoBills-Italic.ttf') format('truetype'),
-		url('fonts/StickNoBills-Italic.otf') format('opentype'),
-		url('fonts/StickNoBills-Italic.svg#StickNoBills-Italic') format('svg');
-	font-weight: 400;
-	font-style: italic;
-	font-stretch: normal;
+
+/* Webfont: NidahasFMAbhaya-Regular */@font-face {
+    font-family: 'NidahasFMAbhaya';
+    src: url('fonts/NidahasFMAbhaya-Regular.eot'); /* IE9 Compat Modes */
+    src: url('fonts/NidahasFMAbhaya-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/NidahasFMAbhaya-Regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/NidahasFMAbhaya-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/NidahasFMAbhaya-Regular.svg#NidahasFMAbhaya-Regular') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -73,7 +73,7 @@ border-spacing: 0;
 
 body {
 margin: 0px;
-font-family: 'StickNoBills-Regular',sans-serif;
+font-family: 'NidahasFMAbhaya';text-align:left; font-weight:bold;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 
