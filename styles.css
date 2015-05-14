@@ -1,0 +1,155 @@
+/*
+Author - Pathum Egodawatta
+Site - mooniak.com
+*/
+@font-face {
+font-family:'StickNoBills-Regular';
+src: url('fonts/StickNoBills.eot');
+src: url('fonts/StickNoBills.eot?#iefix') format('embedded-opentype'),
+url('fonts/StickNoBills.woff') format('woff'),
+url('fonts/StickNoBills.ttf') format('truetype'),
+url('fonts/StickNoBills.svg#StickNoBills-Regular') format('svg');
+font-weight: 400;
+font-style: normal;
+font-stretch: normal;
+}
+@font-face {
+	font-family:'StickNoBills-Italic';
+	src: url('fonts/StickNoBills-Italic.eot');
+	src: url('fonts/StickNoBills-Italic.eot?#iefix') format('embedded-opentype'),
+		url('fonts/StickNoBills-Italic.woff') format('woff'),
+		url('fonts/StickNoBills-Italic.ttf') format('truetype'),
+		url('fonts/StickNoBills-Italic.otf') format('opentype'),
+		url('fonts/StickNoBills-Italic.svg#StickNoBills-Italic') format('svg');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+body {
+margin: 0px;
+font-family: 'StickNoBills-Regular',sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+}
+
+.italic{
+	font-family:'StickNoBills-Italic';
+    	font-style: italic;
+}
+
+h1 {
+font-size:100px;
+}
+a{
+text-decoration:none;
+color:#555;
+}
+a:hover{
+background:#000;
+color:#fff;
+}
+.alphabet {
+font-size:70px;
+
+}
+
+
+h2.parking {
+font-size:50px;
+
+}
+
+.test {
+font-size:60px;
+text-align:center;
+}
+.test:hover {
+background:#eee;
+}
+
+.description{
+font-size:25px;
+
+}
+
+#download{
+font-size: 36px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 82px;
+  width: 215px;
+  height: 215px;
+  background: #000;
+  color: #fff;
+}
+#footer{
+font-size: 28px;
+}
+#footer a{
+color:#444;
+}
+.button{
+color:#fff;
+background:#000;
+font-size:40px;
+text-align:center;
+border:1px dotted #000;
+}
+.button a{
+color:#fff;
+background:#000;
+}
+.button a:hover{
+
+background:#666;
+}
+.button:hover{
+background:#666;
+}
