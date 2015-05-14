@@ -1,1 +1,1 @@
-Demo is a trademark of FontStudio, Inc.
+Abhaya is a trademark of Pushpananda Ekanayake.

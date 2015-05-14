@@ -1,7 +1,7 @@
 FONTLOG for  Nidahas FM Abhaya
 -------------------
 
-This file provides detailed information on the Nidahas FM Abhaya font software.
+This file provides detailed information on the Abhaya Libre font software.
 This information should be distributed along with the Nidahas FM Abhaya fonts
 and any derivative works.
 
@@ -41,10 +41,6 @@ following the format of the other entries, to the start of this section.
 - ASCII Encoded Font
 
 
-7 March 2006 (Fred Foobar) Bar v1.1
-- Tweaked contextual behaviours
-
-
 
 Acknowledgements
 -------------------------
@@ -52,6 +48,11 @@ Acknowledgements
 When you make modifications, be sure to add your name (N), email (E),
 web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
+
+N: Pushpananda Ekanayake
+E: 
+W: 
+D: Designer Sinhala Charachter Set
 
 N: Pathum Egodawatta
 E: pathum@mooniak.com
