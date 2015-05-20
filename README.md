@@ -6,7 +6,7 @@
 
 
 
-Nidahas FM Abhaya
+Abhaya Libre Font
 ==============
 
 Nidahas FM Abhaya - is the unicode compliant libre version of Pushpananda Ekanayakes's FM Abhaya font which was originally released in 1997.
