@@ -21,7 +21,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1049611640
-ModificationTime: 1417886496
+ModificationTime: 1432415511
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -941,11 +941,11 @@ LangName: 1033 "" "" "" "mooniak - Nidahas FM Abhaya" "" "Version 0.01" "" "Nida
 GaspTable: 3 8 10 16 5 65535 15 1
 Encoding: Custom
 UnicodeInterp: none
-NameList: NidahasFMAbhaya-Regular
+NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 14 14 7
+WinInfo: 180 12 6
 BeginPrivate: 0
 EndPrivate
 EndSplineFont

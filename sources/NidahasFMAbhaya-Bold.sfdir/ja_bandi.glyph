@@ -2,13 +2,13 @@ StartChar: ja_bandi
 Encoding: 65636 -1 133
 Width: 448
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 116<153.161 436.466> 385 47<149.609 227.334> 406 27<406.093 471.385> 541 79<500.392 573.815>
 VStem: 33 53<163.626 242.229> 236 30<311.147 371.708> 293 30<309.328 379.284> 489 31<320.992 390.992> 495 54<161.136 241.241>
 LayerCount: 2
 Back
 Fore
 Refer: 132 3490 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand in Sinhala lookup 3 subtable" ja uni200D al
 EndChar
