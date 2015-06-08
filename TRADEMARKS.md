@@ -1,1 +1,1 @@
-Abhaya is a trademark of Pushpananda Ekanayake.
+Abhaya is a trademark of Pushpananda Ekanayaka.

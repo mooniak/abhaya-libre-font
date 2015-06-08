@@ -1,4 +1,4 @@
-FONTLOG for  Nidahas FM Abhaya
+FONTLOG for Abhaya Libre
 -------------------
 
 This file provides detailed information on the Abhaya Libre font software.
@@ -19,7 +19,7 @@ Security and Integrity
 Information for Contributors
 ------------------------------
 
-Nidahas FM Abhaya is released under the OFL 1.1 - http://scripts.sil.org/OFL
+Abhaya Libre is released under the OFL 1.1 - http://scripts.sil.org/OFL
 
 For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
@@ -37,7 +37,7 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
-1997 (ushpanada Ekanayake) FM Abhaya, v1.001
+1997 (Pushpanada Ekanayake) FM Abhaya, v1.001
 - ASCII Encoded Font
 
 
