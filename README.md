@@ -9,9 +9,8 @@
 Abhaya Libre Font
 ==============
 
-Nidahas FM Abhaya - is the unicode compliant libre version of Pushpananda Ekanayakes's FM Abhaya font which was originally released in 1997.
+Abhaya Libre - is the unicode compliant, complete libre version of Pushpananda Ekanayakes's FM Abhaya font, with Tamil and Latin designed by Sol Matas.
 
-This font only contain the basic glyph set requierd for Sinhala rendering. Bandi Akuru(ligatures) and Touching clusters are not specifically designed. Using this font for Pali and Sanskrit texts is not advised.
 
 
 ## Repository Structure
@@ -27,13 +26,14 @@ This font only contain the basic glyph set requierd for Sinhala rendering. Bandi
 
 ## Credits
 
-- Pushpanada Ekanayake
-- Path Nirvana
-- mooniak
+-
+- Pushpanada Ekanayake (Sinhala)
+- Sol Matas(Sinhala)
+- Pathum Egodawatta (Refactoring and Project coordination)
 
 ## License
 
-Nidahas FM Abhaya is released under the  [SIL Open Font License](http://scripts.sil.org/OFL)
+Abhaya Libre will be released under the  [SIL Open Font License](http://scripts.sil.org/OFL)
 
 For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
