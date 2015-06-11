@@ -11,7 +11,8 @@ Abhaya Libre Font
 
 Abhaya Libre - is the unicode compliant, complete libre version of Pushpananda Ekanayakes's FM Abhaya font, with Tamil and Latin designed by Sol Matas.
 
-
+See the discussions on mailing list https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion
+See the video discussions https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv
 
 ## Repository Structure
 
