@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'AbhayaLibre';
+  src: url('AbhayaLibre-Bold.eot'); /* IE9 Compat Modes */
+  src: url('AbhayaLibre-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AbhayaLibre-Bold.woff') format('woff'), /* Modern Browsers */
+       url('AbhayaLibre-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AbhayaLibre-Bold.svg#59d87ad9f31f9656e933fda32e9c2abf') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  src: url('AbhayaLibre-ExtraBold.eot'); /* IE9 Compat Modes */
+  src: url('AbhayaLibre-ExtraBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AbhayaLibre-ExtraBold.woff') format('woff'), /* Modern Browsers */
+       url('AbhayaLibre-ExtraBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AbhayaLibre-ExtraBold.svg#0b4fa13c956532f8836bbbf2885ee4d0') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  800;
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  src: url('AbhayaLibre-Heavy.eot'); /* IE9 Compat Modes */
+  src: url('AbhayaLibre-Heavy.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AbhayaLibre-Heavy.woff') format('woff'), /* Modern Browsers */
+       url('AbhayaLibre-Heavy.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AbhayaLibre-Heavy.svg#483dc1a723973d8cf419e4fc90464f0c') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  900;
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  src: url('AbhayaLibre-Medium.eot'); /* IE9 Compat Modes */
+  src: url('AbhayaLibre-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AbhayaLibre-Medium.woff') format('woff'), /* Modern Browsers */
+       url('AbhayaLibre-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AbhayaLibre-Medium.svg#761058bb3e6a46254edff6a25775ba3f') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  500;
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  src: url('AbhayaLibre-Regular.eot'); /* IE9 Compat Modes */
+  src: url('AbhayaLibre-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AbhayaLibre-Regular.woff') format('woff'), /* Modern Browsers */
+       url('AbhayaLibre-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AbhayaLibre-Regular.svg#6b1ad60c44ef407415e9b237dd784990') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'AbhayaLibre';
+  src: url('AbhayaLibre-SemiBold.eot'); /* IE9 Compat Modes */
+  src: url('AbhayaLibre-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('AbhayaLibre-SemiBold.woff') format('woff'), /* Modern Browsers */
+       url('AbhayaLibre-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('AbhayaLibre-SemiBold.svg#9d8943f6ee27058166b633645f0d7a66') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  600;
+}
+
