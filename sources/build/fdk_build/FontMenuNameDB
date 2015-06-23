@@ -1,0 +1,34 @@
+#!opentype
+
+# This file must be synced to `masters/instances`.
+# `l` is the style-linking family name. `m` is deprecated.
+
+# [PostScriptName]
+#   f = Preferred Family Name
+#   s = Subfamily Name (Style Name)
+#   l = Compatible Family Menu Name
+#   m = 1, Macintosh Compatible Full Name
+
+[SomeDevanagari-Light]
+  f = Some Devanagari
+  s = Light
+  l = Some Devanagari Light
+
+[SomeDevanagari-Regular]
+  f = Some Devanagari
+  s = Regular
+
+[SomeDevanagari-Medium]
+  f = Some Devanagari
+  s = Medium
+  l = Some Devanagari Medium
+
+[SomeDevanagari-SemiBold]
+  f = Some Devanagari
+  s = SemiBold
+  l = Some Devanagari SemiBold
+
+[SomeDevanagari-Bold]
+  f = Some Devanagari
+  s = Bold
+  # styles/Bold/fontinfo: IsBoldStyle true
