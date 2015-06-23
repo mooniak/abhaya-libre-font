@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ttFont sfntVersion="OTTO" ttLibVersion="2.5">
+
+  <GlyphOrder>
+    <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
+    <GlyphID id="0" name=".notdef"/>
+    <GlyphID id="1" name="si_A"/>
+    <GlyphID id="2" name="si_E"/>
+    <GlyphID id="3" name="si_U"/>
+    <GlyphID id="4" name="si_Ka"/>
+    <GlyphID id="5" name="si_Ii"/>
+    <GlyphID id="6" name="si_Os"/>
+    <GlyphID id="7" name="si_Tta"/>
+    <GlyphID id="8" name="si_I"/>
+    <GlyphID id="9" name="si_Na"/>
+    <GlyphID id="10" name="si_Ca"/>
+    <GlyphID id="11" name="si_Va"/>
+    <GlyphID id="12" name="si_Pa"/>
+    <GlyphID id="13" name="si_Gha"/>
+    <GlyphID id="14" name="si_Ga"/>
+    <GlyphID id="15" name="si_Kha"/>
+    <GlyphID id="16" name="si_Dda"/>
+    <GlyphID id="17" name="si_Ha"/>
+    <GlyphID id="18" name="si_DIi"/>
+  </GlyphOrder>
+
+  <head>
+    <!-- Most of this table will be recalculated by the compiler -->
+    <tableVersion value="1.0"/>
+    <fontRevision value="1.0"/>
+    <checkSumAdjustment value="0x374919d5"/>
+    <magicNumber value="0x5f0f3cf5"/>
+    <flags value="00000000 00001011"/>
+    <unitsPerEm value="1000"/>
+    <created value="Thu Jun 18 16:59:36 2015"/>
+    <modified value="Thu Jun 18 17:33:44 2015"/>
+    <xMin value="5"/>
+    <yMin value="-215"/>
+    <xMax value="760"/>
+    <yMax value="670"/>
+    <macStyle value="00000000 00000001"/>
+    <lowestRecPPEM value="8"/>
+    <fontDirectionHint value="2"/>
+    <indexToLocFormat value="0"/>
+    <glyphDataFormat value="0"/>
+  </head>
+
+  <hhea>
+    <tableVersion value="1.0"/>
+    <ascent value="670"/>
+    <descent value="-215"/>
+    <lineGap value="90"/>
+    <advanceWidthMax value="806"/>
+    <minLeftSideBearing value="0"/>
+    <minRightSideBearing value="0"/>
+    <xMaxExtent value="760"/>
+    <caretSlopeRise value="1"/>
+    <caretSlopeRun value="0"/>
+    <caretOffset value="0"/>
+    <reserved0 value="0"/>
+    <reserved1 value="0"/>
+    <reserved2 value="0"/>
+    <reserved3 value="0"/>
+    <metricDataFormat value="0"/>
+    <numberOfHMetrics value="19"/>
+  </hhea>
+
+  <maxp>
+    <tableVersion value="0x5000"/>
+    <numGlyphs value="19"/>
+  </maxp>
+
+  <OS_2>
+    <!-- The fields 'fsFirstCharIndex' and 'fsLastCharIndex'
+         will be recalculated by the compiler -->
+    <version value="4"/>
+    <xAvgCharWidth value="634"/>
+    <usWeightClass value="700"/>
+    <usWidthClass value="5"/>
+    <fsType value="00000000 00000000"/>
+    <ySubscriptXSize value="650"/>
+    <ySubscriptYSize value="700"/>
+    <ySubscriptXOffset value="0"/>
+    <ySubscriptYOffset value="140"/>
+    <ySuperscriptXSize value="650"/>
+    <ySuperscriptYSize value="700"/>
+    <ySuperscriptXOffset value="0"/>
+    <ySuperscriptYOffset value="480"/>
+    <yStrikeoutSize value="49"/>
+    <yStrikeoutPosition value="258"/>
+    <sFamilyClass value="0"/>
+    <panose>
+      <bFamilyType value="2"/>
+      <bSerifStyle value="0"/>
+      <bWeight value="8"/>
+      <bProportion value="3"/>
+      <bContrast value="0"/>
+      <bStrokeVariation value="0"/>
+      <bArmStyle value="0"/>
+      <bLetterForm value="0"/>
+      <bMidline value="0"/>
+      <bXHeight value="0"/>
+    </panose>
+    <ulUnicodeRange1 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange2 value="00000000 00000000 00000000 00000000"/>
+    <ulUnicodeRange3 value="00000000 00000000 00000010 00000000"/>
+    <ulUnicodeRange4 value="00000000 00000000 00000000 00000000"/>
+    <achVendID value="PfEd"/>
+    <fsSelection value="00000000 10100000"/>
+    <fsFirstCharIndex value="3461"/>
+    <fsLastCharIndex value="3524"/>
+    <sTypoAscender value="800"/>
+    <sTypoDescender value="-200"/>
+    <sTypoLineGap value="90"/>
+    <usWinAscent value="670"/>
+    <usWinDescent value="215"/>
+    <ulCodePageRange1 value="00000000 00000000 00000000 00000001"/>
+    <ulCodePageRange2 value="00000000 00000000 00000000 00000000"/>
+    <sxHeight value="0"/>
+    <sCapHeight value="0"/>
+    <usDefaultChar value="32"/>
+    <usBreakChar value="32"/>
+    <usMaxContex value="1"/>
+  </OS_2>
+
+  <name>
+    <namerecord nameID="0" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Copyright (c) 2015, Pathum Egodawatta
+    </namerecord>
+    <namerecord nameID="1" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      AbhayaLibre
+    </namerecord>
+    <namerecord nameID="2" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Bold
+    </namerecord>
+    <namerecord nameID="3" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      FontForge : AbhayaLibre Bold : 18-6-2015
+    </namerecord>
+    <namerecord nameID="4" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      AbhayaLibre Bold
+    </namerecord>
+    <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      Version 001.000
+    </namerecord>
+    <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
+      AbhayaLibre-Bold
+    </namerecord>
+    <namerecord nameID="0" platformID="3" platEncID="1" langID="0x409">
+      Copyright (c) 2015, Pathum Egodawatta
+    </namerecord>
+    <namerecord nameID="1" platformID="3" platEncID="1" langID="0x409">
+      AbhayaLibre
+    </namerecord>
+    <namerecord nameID="2" platformID="3" platEncID="1" langID="0x409">
+      Bold
+    </namerecord>
+    <namerecord nameID="3" platformID="3" platEncID="1" langID="0x409">
+      FontForge : AbhayaLibre Bold : 18-6-2015
+    </namerecord>
+    <namerecord nameID="4" platformID="3" platEncID="1" langID="0x409">
+      AbhayaLibre Bold
+    </namerecord>
+    <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
+      Version 001.000
+    </namerecord>
+    <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
+      AbhayaLibre-Bold
+    </namerecord>
+  </name>
+
+  <cmap>
+    <tableVersion version="0"/>
+    <cmap_format_4 platformID="0" platEncID="3" language="0">
+      <map code="0xd85" name="si_A"/><!-- SINHALA LETTER AYANNA -->
+      <map code="0xd89" name="si_I"/><!-- SINHALA LETTER IYANNA -->
+      <map code="0xd8a" name="si_Ii"/><!-- SINHALA LETTER IIYANNA -->
+      <map code="0xd8b" name="si_U"/><!-- SINHALA LETTER UYANNA -->
+      <map code="0xd91" name="si_E"/><!-- SINHALA LETTER EYANNA -->
+      <map code="0xd94" name="si_Os"/><!-- SINHALA LETTER OYANNA -->
+      <map code="0xd9a" name="si_Ka"/><!-- SINHALA LETTER ALPAPRAANA KAYANNA -->
+      <map code="0xd9b" name="si_Kha"/><!-- SINHALA LETTER MAHAAPRAANA KAYANNA -->
+      <map code="0xd9c" name="si_Ga"/><!-- SINHALA LETTER ALPAPRAANA GAYANNA -->
+      <map code="0xd9d" name="si_Gha"/><!-- SINHALA LETTER MAHAAPRAANA GAYANNA -->
+      <map code="0xda0" name="si_Ca"/><!-- SINHALA LETTER ALPAPRAANA CAYANNA -->
+      <map code="0xda7" name="si_Tta"/><!-- SINHALA LETTER ALPAPRAANA TTAYANNA -->
+      <map code="0xda9" name="si_Dda"/><!-- SINHALA LETTER ALPAPRAANA DDAYANNA -->
+      <map code="0xdb1" name="si_Na"/><!-- SINHALA LETTER DANTAJA NAYANNA -->
+      <map code="0xdb4" name="si_Pa"/><!-- SINHALA LETTER ALPAPRAANA PAYANNA -->
+      <map code="0xdc0" name="si_Va"/><!-- SINHALA LETTER VAYANNA -->
+      <map code="0xdc4" name="si_Ha"/><!-- SINHALA LETTER HAYANNA -->
+    </cmap_format_4>
+    <cmap_format_0 platformID="1" platEncID="0" language="0">
+      <map code="0x0" name="si_A"/>
+      <map code="0x1" name=".notdef"/>
+      <map code="0x2" name=".notdef"/>
+      <map code="0x3" name=".notdef"/>
+      <map code="0x4" name=".notdef"/>
+      <map code="0x5" name=".notdef"/>
+      <map code="0x6" name=".notdef"/>
+      <map code="0x7" name=".notdef"/>
+      <map code="0x8" name=".notdef"/>
+      <map code="0x9" name=".notdef"/>
+      <map code="0xa" name=".notdef"/>
+      <map code="0xb" name=".notdef"/>
+      <map code="0xc" name=".notdef"/>
+      <map code="0xd" name=".notdef"/>
+      <map code="0xe" name=".notdef"/>
+      <map code="0xf" name=".notdef"/>
+      <map code="0x10" name=".notdef"/>
+      <map code="0x11" name=".notdef"/>
+      <map code="0x12" name=".notdef"/>
+      <map code="0x13" name=".notdef"/>
+      <map code="0x14" name=".notdef"/>
+      <map code="0x15" name=".notdef"/>
+      <map code="0x16" name=".notdef"/>
+      <map code="0x17" name=".notdef"/>
+      <map code="0x18" name=".notdef"/>
+      <map code="0x19" name=".notdef"/>
+      <map code="0x1a" name=".notdef"/>
+      <map code="0x1b" name=".notdef"/>
+      <map code="0x1c" name=".notdef"/>
+      <map code="0x1d" name=".notdef"/>
+      <map code="0x1e" name=".notdef"/>
+      <map code="0x1f" name=".notdef"/>
+      <map code="0x20" name=".notdef"/>
+      <map code="0x21" name=".notdef"/>
+      <map code="0x22" name=".notdef"/>
+      <map code="0x23" name=".notdef"/>
+      <map code="0x24" name=".notdef"/>
+      <map code="0x25" name=".notdef"/>
+      <map code="0x26" name=".notdef"/>
+      <map code="0x27" name=".notdef"/>
+      <map code="0x28" name=".notdef"/>
+      <map code="0x29" name=".notdef"/>
+      <map code="0x2a" name=".notdef"/>
+      <map code="0x2b" name=".notdef"/>
+      <map code="0x2c" name=".notdef"/>
+      <map code="0x2d" name=".notdef"/>
+      <map code="0x2e" name=".notdef"/>
+      <map code="0x2f" name=".notdef"/>
+      <map code="0x30" name=".notdef"/>
+      <map code="0x31" name=".notdef"/>
+      <map code="0x32" name=".notdef"/>
+      <map code="0x33" name=".notdef"/>
+      <map code="0x34" name=".notdef"/>
+      <map code="0x35" name=".notdef"/>
+      <map code="0x36" name=".notdef"/>
+      <map code="0x37" name=".notdef"/>
+      <map code="0x38" name=".notdef"/>
+      <map code="0x39" name=".notdef"/>
+      <map code="0x3a" name=".notdef"/>
+      <map code="0x3b" name=".notdef"/>
+      <map code="0x3c" name=".notdef"/>
+      <map code="0x3d" name=".notdef"/>
+      <map code="0x3e" name=".notdef"/>
+      <map code="0x3f" name=".notdef"/>
+      <map code="0x40" name=".notdef"/>
+      <map code="0x41" name=".notdef"/>
+      <map code="0x42" name=".notdef"/>
+      <map code="0x43" name=".notdef"/>
+      <map code="0x44" name=".notdef"/>
+      <map code="0x45" name=".notdef"/>
+      <map code="0x46" name=".notdef"/>
+      <map code="0x47" name=".notdef"/>
+      <map code="0x48" name=".notdef"/>
+      <map code="0x49" name=".notdef"/>
+      <map code="0x4a" name=".notdef"/>
+      <map code="0x4b" name=".notdef"/>
+      <map code="0x4c" name=".notdef"/>
+      <map code="0x4d" name=".notdef"/>
+      <map code="0x4e" name=".notdef"/>
+      <map code="0x4f" name=".notdef"/>
+      <map code="0x50" name=".notdef"/>
+      <map code="0x51" name=".notdef"/>
+      <map code="0x52" name=".notdef"/>
+      <map code="0x53" name=".notdef"/>
+      <map code="0x54" name=".notdef"/>
+      <map code="0x55" name=".notdef"/>
+      <map code="0x56" name=".notdef"/>
+      <map code="0x57" name=".notdef"/>
+      <map code="0x58" name=".notdef"/>
+      <map code="0x59" name=".notdef"/>
+      <map code="0x5a" name=".notdef"/>
+      <map code="0x5b" name=".notdef"/>
+      <map code="0x5c" name=".notdef"/>
+      <map code="0x5d" name=".notdef"/>
+      <map code="0x5e" name=".notdef"/>
+      <map code="0x5f" name=".notdef"/>
+      <map code="0x60" name=".notdef"/>
+      <map code="0x61" name=".notdef"/>
+      <map code="0x62" name=".notdef"/>
+      <map code="0x63" name=".notdef"/>
+      <map code="0x64" name=".notdef"/>
+      <map code="0x65" name=".notdef"/>
+      <map code="0x66" name=".notdef"/>
+      <map code="0x67" name=".notdef"/>
+      <map code="0x68" name=".notdef"/>
+      <map code="0x69" name=".notdef"/>
+      <map code="0x6a" name=".notdef"/>
+      <map code="0x6b" name=".notdef"/>
+      <map code="0x6c" name=".notdef"/>
+      <map code="0x6d" name=".notdef"/>
+      <map code="0x6e" name=".notdef"/>
+      <map code="0x6f" name=".notdef"/>
+      <map code="0x70" name=".notdef"/>
+      <map code="0x71" name=".notdef"/>
+      <map code="0x72" name=".notdef"/>
+      <map code="0x73" name=".notdef"/>
+      <map code="0x74" name=".notdef"/>
+      <map code="0x75" name=".notdef"/>
+      <map code="0x76" name=".notdef"/>
+      <map code="0x77" name=".notdef"/>
+      <map code="0x78" name=".notdef"/>
+      <map code="0x79" name=".notdef"/>
+      <map code="0x7a" name=".notdef"/>
+      <map code="0x7b" name=".notdef"/>
+      <map code="0x7c" name=".notdef"/>
+      <map code="0x7d" name=".notdef"/>
+      <map code="0x7e" name=".notdef"/>
+      <map code="0x7f" name=".notdef"/>
+      <map code="0x80" name=".notdef"/>
+      <map code="0x81" name=".notdef"/>
+      <map code="0x82" name=".notdef"/>
+      <map code="0x83" name=".notdef"/>
+      <map code="0x84" name=".notdef"/>
+      <map code="0x85" name=".notdef"/>
+      <map code="0x86" name=".notdef"/>
+      <map code="0x87" name=".notdef"/>
+      <map code="0x88" name=".notdef"/>
+      <map code="0x89" name=".notdef"/>
+      <map code="0x8a" name=".notdef"/>
+      <map code="0x8b" name=".notdef"/>
+      <map code="0x8c" name=".notdef"/>
+      <map code="0x8d" name=".notdef"/>
+      <map code="0x8e" name=".notdef"/>
+      <map code="0x8f" name=".notdef"/>
+      <map code="0x90" name=".notdef"/>
+      <map code="0x91" name=".notdef"/>
+      <map code="0x92" name=".notdef"/>
+      <map code="0x93" name=".notdef"/>
+      <map code="0x94" name=".notdef"/>
+      <map code="0x95" name=".notdef"/>
+      <map code="0x96" name=".notdef"/>
+      <map code="0x97" name=".notdef"/>
+      <map code="0x98" name=".notdef"/>
+      <map code="0x99" name=".notdef"/>
+      <map code="0x9a" name=".notdef"/>
+      <map code="0x9b" name=".notdef"/>
+      <map code="0x9c" name=".notdef"/>
+      <map code="0x9d" name=".notdef"/>
+      <map code="0x9e" name=".notdef"/>
+      <map code="0x9f" name=".notdef"/>
+      <map code="0xa0" name=".notdef"/>
+      <map code="0xa1" name=".notdef"/>
+      <map code="0xa2" name=".notdef"/>
+      <map code="0xa3" name=".notdef"/>
+      <map code="0xa4" name=".notdef"/>
+      <map code="0xa5" name=".notdef"/>
+      <map code="0xa6" name=".notdef"/>
+      <map code="0xa7" name=".notdef"/>
+      <map code="0xa8" name=".notdef"/>
+      <map code="0xa9" name=".notdef"/>
+      <map code="0xaa" name=".notdef"/>
+      <map code="0xab" name=".notdef"/>
+      <map code="0xac" name=".notdef"/>
+      <map code="0xad" name=".notdef"/>
+      <map code="0xae" name=".notdef"/>
+      <map code="0xaf" name=".notdef"/>
+      <map code="0xb0" name=".notdef"/>
+      <map code="0xb1" name=".notdef"/>
+      <map code="0xb2" name=".notdef"/>
+      <map code="0xb3" name=".notdef"/>
+      <map code="0xb4" name=".notdef"/>
+      <map code="0xb5" name=".notdef"/>
+      <map code="0xb6" name=".notdef"/>
+      <map code="0xb7" name=".notdef"/>
+      <map code="0xb8" name=".notdef"/>
+      <map code="0xb9" name=".notdef"/>
+      <map code="0xba" name=".notdef"/>
+      <map code="0xbb" name=".notdef"/>
+      <map code="0xbc" name=".notdef"/>
+      <map code="0xbd" name=".notdef"/>
+      <map code="0xbe" name=".notdef"/>
+      <map code="0xbf" name=".notdef"/>
+      <map code="0xc0" name=".notdef"/>
+      <map code="0xc1" name=".notdef"/>
+      <map code="0xc2" name=".notdef"/>
+      <map code="0xc3" name=".notdef"/>
+      <map code="0xc4" name=".notdef"/>
+      <map code="0xc5" name=".notdef"/>
+      <map code="0xc6" name=".notdef"/>
+      <map code="0xc7" name=".notdef"/>
+      <map code="0xc8" name=".notdef"/>
+      <map code="0xc9" name=".notdef"/>
+      <map code="0xca" name=".notdef"/>
+      <map code="0xcb" name=".notdef"/>
+      <map code="0xcc" name=".notdef"/>
+      <map code="0xcd" name=".notdef"/>
+      <map code="0xce" name=".notdef"/>
+      <map code="0xcf" name=".notdef"/>
+      <map code="0xd0" name=".notdef"/>
+      <map code="0xd1" name=".notdef"/>
+      <map code="0xd2" name=".notdef"/>
+      <map code="0xd3" name=".notdef"/>
+      <map code="0xd4" name=".notdef"/>
+      <map code="0xd5" name=".notdef"/>
+      <map code="0xd6" name=".notdef"/>
+      <map code="0xd7" name=".notdef"/>
+      <map code="0xd8" name=".notdef"/>
+      <map code="0xd9" name=".notdef"/>
+      <map code="0xda" name=".notdef"/>
+      <map code="0xdb" name=".notdef"/>
+      <map code="0xdc" name=".notdef"/>
+      <map code="0xdd" name=".notdef"/>
+      <map code="0xde" name=".notdef"/>
+      <map code="0xdf" name=".notdef"/>
+      <map code="0xe0" name=".notdef"/>
+      <map code="0xe1" name=".notdef"/>
+      <map code="0xe2" name=".notdef"/>
+      <map code="0xe3" name=".notdef"/>
+      <map code="0xe4" name=".notdef"/>
+      <map code="0xe5" name=".notdef"/>
+      <map code="0xe6" name=".notdef"/>
+      <map code="0xe7" name=".notdef"/>
+      <map code="0xe8" name=".notdef"/>
+      <map code="0xe9" name=".notdef"/>
+      <map code="0xea" name=".notdef"/>
+      <map code="0xeb" name=".notdef"/>
+      <map code="0xec" name=".notdef"/>
+      <map code="0xed" name=".notdef"/>
+      <map code="0xee" name=".notdef"/>
+      <map code="0xef" name=".notdef"/>
+      <map code="0xf0" name=".notdef"/>
+      <map code="0xf1" name=".notdef"/>
+      <map code="0xf2" name=".notdef"/>
+      <map code="0xf3" name=".notdef"/>
+      <map code="0xf4" name=".notdef"/>
+      <map code="0xf5" name=".notdef"/>
+      <map code="0xf6" name=".notdef"/>
+      <map code="0xf7" name=".notdef"/>
+      <map code="0xf8" name=".notdef"/>
+      <map code="0xf9" name=".notdef"/>
+      <map code="0xfa" name=".notdef"/>
+      <map code="0xfb" name=".notdef"/>
+      <map code="0xfc" name=".notdef"/>
+      <map code="0xfd" name=".notdef"/>
+      <map code="0xfe" name=".notdef"/>
+      <map code="0xff" name=".notdef"/>
+    </cmap_format_0>
+    <cmap_format_4 platformID="3" platEncID="1" language="0">
+      <map code="0xd85" name="si_A"/><!-- SINHALA LETTER AYANNA -->
+      <map code="0xd89" name="si_I"/><!-- SINHALA LETTER IYANNA -->
+      <map code="0xd8a" name="si_Ii"/><!-- SINHALA LETTER IIYANNA -->
+      <map code="0xd8b" name="si_U"/><!-- SINHALA LETTER UYANNA -->
+      <map code="0xd91" name="si_E"/><!-- SINHALA LETTER EYANNA -->
+      <map code="0xd94" name="si_Os"/><!-- SINHALA LETTER OYANNA -->
+      <map code="0xd9a" name="si_Ka"/><!-- SINHALA LETTER ALPAPRAANA KAYANNA -->
+      <map code="0xd9b" name="si_Kha"/><!-- SINHALA LETTER MAHAAPRAANA KAYANNA -->
+      <map code="0xd9c" name="si_Ga"/><!-- SINHALA LETTER ALPAPRAANA GAYANNA -->
+      <map code="0xd9d" name="si_Gha"/><!-- SINHALA LETTER MAHAAPRAANA GAYANNA -->
+      <map code="0xda0" name="si_Ca"/><!-- SINHALA LETTER ALPAPRAANA CAYANNA -->
+      <map code="0xda7" name="si_Tta"/><!-- SINHALA LETTER ALPAPRAANA TTAYANNA -->
+      <map code="0xda9" name="si_Dda"/><!-- SINHALA LETTER ALPAPRAANA DDAYANNA -->
+      <map code="0xdb1" name="si_Na"/><!-- SINHALA LETTER DANTAJA NAYANNA -->
+      <map code="0xdb4" name="si_Pa"/><!-- SINHALA LETTER ALPAPRAANA PAYANNA -->
+      <map code="0xdc0" name="si_Va"/><!-- SINHALA LETTER VAYANNA -->
+      <map code="0xdc4" name="si_Ha"/><!-- SINHALA LETTER HAYANNA -->
+    </cmap_format_4>
+  </cmap>
+
+  <post>
+    <formatType value="3.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-125"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+  </post>
+
+  <CFF>
+    <CFFFont name="AbhayaLibre-Bold">
+      <version value="001.000"/>
+      <Notice value="Copyright (c) 2015, Pathum Egodawatta"/>
+      <FullName value="AbhayaLibre Bold"/>
+      <FamilyName value="AbhayaLibre"/>
+      <Weight value="Bold"/>
+      <isFixedPitch value="0"/>
+      <ItalicAngle value="0"/>
+      <UnderlineThickness value="50"/>
+      <PaintType value="0"/>
+      <CharstringType value="2"/>
+      <FontMatrix value="0.001 0 0 0.001 0 0"/>
+      <FontBBox value="5 -215 760 670"/>
+      <StrokeWidth value="0"/>
+      <!-- charset is dumped separately as the 'GlyphOrder' element -->
+      <Encoding name="StandardEncoding"/>
+      <Private>
+        <BlueScale value="0.039625"/>
+        <BlueShift value="0"/>
+        <BlueFuzz value="1"/>
+        <StdHW value="26"/>
+        <StdVW value="31"/>
+        <StemSnapH value="26 113"/>
+        <StemSnapV value="31 42 47 53 59 65 81"/>
+        <ForceBold value="1"/>
+        <LanguageGroup value="0"/>
+        <ExpansionFactor value="0.06"/>
+        <initialRandomSeed value="0"/>
+        <defaultWidthX value="597"/>
+        <nominalWidthX value="570"/>
+        <Subrs>
+          <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+          <CharString index="0">
+            -36 30 -29 36 36 29 29 36 36 -29 29 -36 -36 -30 -29 -36 vhcurveto
+            return
+          </CharString>
+        </Subrs>
+      </Private>
+      <CharStrings>
+        <CharString name=".notdef">
+          -70 0 50 433 50 hstem
+          50 50 300 50 vstem
+          50 hmoveto
+          400 533 -400 hlineto
+          50 -483 rmoveto
+          433 300 -433 vlineto
+          endchar
+        </CharString>
+        <CharString name="si_A">
+          3 -4 33 171 30 56 23 81 43 hstemhm
+          33 126 154 32 12 31 -4 4 33 24 11 71 hintmask 1111110111000000
+          428 200 rmoveto
+          51 48 26 55 hvcurveto
+          0 76 -82 12 0 34 0 11 6 4 6 3 rrcurveto
+          -19 -3 -17 -14 rlineto
+          0 -2 0 -5 0 -2 0 -23 9 -9 10 -17 10 -16 6 -19 0 -24 0 -35 -16 -22 -29 0 -7 0 -11 1 -9 5 rrcurveto
+          -29 vlineto
+          16 -5 15 -2 13 0 rrcurveto
+          35 224 rmoveto
+          -24 11 rlineto
+          -20 -5 -20 -12 -15 -18 rrcurveto
+          hintmask 1111111011000000
+          -19 -21 -8 -29 0 -37 rrcurveto
+          -528 31 527 vlineto
+          0 39 5 43 70 30 rrcurveto
+          60 -373 rmoveto
+          33 vlineto
+          -43 -33 -64 -22 -96 0 rrcurveto
+          -106 -55 59 76 36 15 86 112 hvcurveto
+          59 hlineto
+          0 1 0 2 0 1 rrcurveto
+          92 -50 51 -84 -57 -48 -23 -41 -24 19 -15 22 vhcurveto
+          25 0 14 15 6 13 7 14 7 18 36 0 46 0 24 -41 1 -40 rrcurveto
+          -111 hlineto
+          -108 -61 -61 -88 -98 85 -66 164 hvcurveto
+          104 0 86 21 51 34 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Ca">
+          1 113 156 33 -26 26 90 39 121 25 hstemhm
+          57 51 -32 79 124 33 209 47 hintmask 1011101110000000
+          312 277 rmoveto
+          0 3 0 8 0 3 rrcurveto
+          86 -43 55 -88 -55 -50 -25 -47 -26 19 -11 18 vhcurveto
+          27 0 9 14 6 19 6 16 11 21 38 0 37 0 32 -33 0 -51 0 -2 0 -2 0 -2 rrcurveto
+          -16 hlineto
+          -37 0 -41 -12 -34 -12 -26 -5 -19 -11 -16 -14 rrcurveto
+          hintmask 1011110110000000
+          -23 -20 -10 -32 0 -31 rrcurveto
+          -119 110 -46 121 183 97 114 160 169 -112 134 -160 vhcurveto
+          -98 0 -72 -37 -49 -70 rrcurveto
+          33 hlineto
+          45 53 62 29 79 0 rrcurveto
+          135 90 -109 -126 -124 -77 -80 -153 -90 -93 18 64 hvcurveto
+          0 21 10 22 28 15 23 13 35 10 52 0 rrcurveto
+          -115 hmoveto
+          167 0 -31 26 rlineto
+          hintmask 1101100110000000
+          -271 -33 hlineto
+          16 2 48 4 71 1 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_DIi">
+          77 0 113 174 28 74 43 32 24 101 81 hstemhm
+          46 53 -22 55 166 28 54 33 107 41 -10 47 hintmask 1111110110100000
+          260 315 rmoveto
+          -245 -28 111 hlineto
+          -53 -24 -27 -50 0 -55 0 -85 65 -73 87 0 48 0 36 20 31 39 31 -38 25 -21 62 0 121 0 46 141 0 114 0 111 -45 65 -71 34 rrcurveto
+          hintmask 1111101111000000
+          49 4 30 36 0 41 0 52 -33 32 -52 18 -45 16 -60 6 -64 0 -139 0 -91 -31 0 -82 0 -98 125 10 122 -5 rrcurveto
+          hintmask 1111110110100000
+          128 -6 99 -23 0 -155 rrcurveto
+          -68 -30 -99 -96 -50 -48 19 48 vhcurveto
+          24 -29 -24 vlineto
+          -50 -50 -17 -49 -70 -30 37 46 39 33 52 92 vhcurveto
+          71 hlineto
+          -1 88 -48 57 -81 0 rrcurveto
+          -42 -47 -17 -42 -21 18 -14 20 hvcurveto
+          15 0 13 5 10 18 15 26 16 2 15 0 rrcurveto
+          29 0 30 -31 3 -43 rrcurveto
+          153 219 rmoveto
+          24 20 21 32 vhcurveto
+          hintmask 1111100111000000
+          29 26 -17 -30 -27 -22 -16 -32 -31 -22 19 26 hvcurveto
+          -3 -50 rmoveto
+          -39 7 -66 2 -42 1 rrcurveto
+          hintmask 1111101110000000
+          -98 -33 14 27 46 95 8 62 hvcurveto
+          37 0 39 -2 33 -3 -13 -15 -5 -16 0 -18 0 -17 8 -24 22 -10 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Dda">
+          77 0 113 174 28 74 43 123 27 hstem
+          46 53 199 28 222 50 vstem
+          76 373 rmoveto
+          -21 18 -14 20 vhcurveto
+          15 0 13 5 10 18 15 26 16 2 15 0 29 0 30 -31 3 -43 rrcurveto
+          -245 -28 110 hlineto
+          -54 -24 -25 -51 0 -50 0 -81 52 -81 101 0 51 0 33 22 30 37 22 -30 28 -29 65 0 rrcurveto
+          119 51 126 132 186 -119 138 -175 hvcurveto
+          -94 0 -83 -36 -54 -78 rrcurveto
+          34 hlineto
+          48 56 63 31 80 0 rrcurveto
+          158 92 -126 -145 -97 -49 -74 -82 -58 -32 24 39 hvcurveto
+          26 -29 -26 vlineto
+          -41 -37 -22 -60 -59 -43 29 54 38 31 53 93 vhcurveto
+          72 hlineto
+          -1 90 -48 55 -81 0 rrcurveto
+          -42 -47 -17 -42 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="si_E">
+          25 0 113 156 33 -26 26 57 42 -10 41 hstemhm
+          45 55 162 33 -12 32 188 42 hintmask 1010111010000000
+          503 287 rmoveto
+          -99 -71 -75 -153 -87 -92 19 66 vhcurveto
+          0 22 11 20 19 12 24 15 31 9 45 0 rrcurveto
+          65 hlineto
+          0 3 0 8 0 3 rrcurveto
+          73 -38 69 -88 vhcurveto
+          hintmask 1001011010000000
+          -55 -50 -26 -47 -26 20 -11 17 hvcurveto
+          25 0 12 11 7 22 rrcurveto
+          hintmask 1010111010000000
+          5 16 15 20 28 0 37 0 32 -35 0 -48 0 -2 0 -2 0 -2 rrcurveto
+          -11 hlineto
+          -37 0 -41 -12 -34 -12 -26 -5 -19 -11 -16 -14 -23 -20 -10 -32 0 -31 rrcurveto
+          -119 110 -46 121 183 86 117 128 vhcurveto
+          0 70 -13 48 -39 67 -36 62 -71 72 -61 33 rrcurveto
+          hintmask 1011010110000000
+          -27 -31 -15 -36 0 -50 0 -66 37 -55 63 0 43 0 30 20 15 32 rrcurveto
+          17 -27 15 -40 0 -57 rrcurveto
+          -374 -11 rmoveto
+          162 0 -31 26 rlineto
+          hintmask 1100010010000000
+          -244 -33 hlineto
+          16 2 26 4 71 1 rrcurveto
+          322 164 rmoveto
+          hintmask 1001010110000000
+          -10 -28 -27 -11 -24 0 -51 0 -24 36 0 50 0 34 9 22 10 16 38 -28 49 -46 30 -45 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Ga">
+          66 -2 115 -114 26 191 25 99 92 -25 24 hstemhm
+          34 43 139 26 62 48 168 66 hintmask 1010111110000000
+          233 407 rmoveto
+          24 vlineto
+          -4 0 -5 1 -4 0 rrcurveto
+          -111 -75 -102 -123 -111 63 -98 111 87 57 58 80 66 -33 40 -49 hvcurveto
+          -7 0 -8 -2 -7 -3 rrcurveto
+          hintmask 0111011110000000
+          13 56 37 47 73 0 rrcurveto
+          99 50 -80 -84 -77 -51 -74 -107 hvcurveto
+          -8 0 -8 1 -8 1 rrcurveto
+          -26 vlineto
+          11 -1 10 -1 10 0 rrcurveto
+          131 86 96 122 115 -64 100 -112 hvcurveto
+          -122 0 -62 -115 -10 -125 rrcurveto
+          26 hlineto
+          0 3 1 9 1 6 6 4 9 2 9 0 rrcurveto
+          15 21 -8 -31 hvcurveto
+          hintmask 1010111110000000
+          -36 -39 -28 -59 -81 -48 51 81 88 59 74 86 vhcurveto
+          3 0 5 0 3 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Gha">
+          107 -1 114 80 30 52 33 -26 26 -18 26 75 41 hstemhm
+          51 47 144 31 7 33 65 43 118 40 4 45 hintmask 1101011111110000
+          187 432 rmoveto
+          -55 -50 -26 -47 -26 20 -11 17 hvcurveto
+          25 0 12 13 7 20 6 19 14 17 28 0 38 0 32 -36 -1 -47 rrcurveto
+          -11 hlineto
+          -37 0 -54 -12 -34 -12 -52 -16 -41 -42 0 -72 0 -78 57 -77 91 0 19 0 28 3 31 9 3 6 1 19 0 7 0 47 -16 9 7 43 rrcurveto
+          4 34 24 17 32 0 34 0 19 -21 5 -28 9 -40 -21 -23 0 -39 0 -7 1 -19 3 -4 31 -8 27 -4 24 0 92 0 72 58 0 108 rrcurveto
+          0 55 -31 53 -47 23 18 10 11 22 0 22 0 55 -48 26 -54 0 -80 0 -48 -62 4 -89 rrcurveto
+          hintmask 1100111111110000
+          33 7 26 2 36 0 rrcurveto
+          91 44 -40 -55 -54 -53 -28 -51 hvcurveto
+          -32 0 -19 4 -7 6 1 12 -2 13 -2 10 -10 46 -39 18 -37 0 -41 0 -40 -21 -8 -52 -2 -8 0 -11 1 -10 -6 -5 -20 -2 -17 0 rrcurveto
+          -50 -51 25 52 hvcurveto
+          0 36 26 27 31 14 rrcurveto
+          hintmask 1101011111110000
+          21 10 22 5 21 0 rrcurveto
+          94 hlineto
+          2 82 -35 68 -93 0 rrcurveto
+          hintmask 1110011111110000
+          -182 -124 rmoveto
+          -33 vlineto
+          hintmask 1101011111110000
+          16 2 55 4 71 1 rrcurveto
+          162 0 -31 26 rlineto
+          105 2 rmoveto
+          5 55 31 26 52 0 31 0 37 -14 0 -32 0 -17 -6 -12 -10 -9 rrcurveto
+          hintmask 1100111111110000
+          -14 5 -30 4 -34 0 -26 0 -23 -2 -13 -4 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Ha">
+          83 -1 29 -29 114 99 25 42 25 30 98 -51 51 hstemhm
+          33 53 119 34 0 23 60 44 180 59 hintmask 0111011011100000
+          262 182 rmoveto
+          7 21 13 9 13 0 rrcurveto
+          16 11 -12 -19 -53 -67 -14 -47 -59 -63 24 60 46 39 35 80 hvcurveto
+          11 0 11 -1 12 -1 rrcurveto
+          85 -42 70 -79 -56 -29 -38 -30 -26 16 -12 20 vhcurveto
+          16 0 15 8 7 19 8 20 11 8 22 0 rrcurveto
+          hintmask 0111101101100000
+          33 24 -38 -40 hvcurveto
+          -4 0 -3 0 -4 0 rrcurveto
+          -94 -67 -57 -91 -94 70 -62 98 95 70 54 92 54 -28 38 -38 hvcurveto
+          -9 0 -10 -2 -10 -6 21 68 43 37 78 0 rrcurveto
+          90 43 -72 -69 hvcurveto
+          hintmask 1011101011100000
+          -100 -59 -65 -99 vhcurveto
+          -12 0 -12 0 -12 2 rrcurveto
+          -28 vlineto
+          14 -2 14 -1 13 0 rrcurveto
+          123 89 93 119 118 -63 103 -112 hvcurveto
+          -101 0 -81 -115 -9 -125 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_I">
+          23 -160 24 121 29 40 28 22 29 98 29 73 99 hstemhm
+          33 55 85 64 -30 31 100 39 -6 68 51 54 hintmask 1111111100110000
+          273 14 rmoveto
+          -11 0 -1 0 -12 -1 rrcurveto
+          -29 vlineto
+          10 1 0 0 8 0 rrcurveto
+          67 37 -26 -42 -38 -32 -16 -39 -54 -13 23 20 hvcurveto
+          0 12 3 11 0 6 rrcurveto
+          17 -14 10 -15 -17 -17 -12 -26 -63 63 -21 62 66 75 26 59 vhcurveto
+          0 39 -22 24 -33 6 89 16 71 82 0 106 rrcurveto
+          155 -100 79 -160 -143 -108 -75 -136 -104 80 -63 107 vhcurveto
+          hintmask 1111111011010000
+          90 67 36 80 53 -33 37 -58 -45 -34 -35 -46 -40 35 -35 43 hvcurveto
+          14 0 19 4 15 12 -16 -24 -40 -14 -54 0 rrcurveto
+          -83 -52 50 60 90 82 51 115 125 80 -74 -94 -93 -68 -60 -98 hvcurveto
+          -17 0 -17 2 -17 0 rrcurveto
+          15 217 rmoveto
+          27 23 -21 -28 -27 -22 -22 -28 -27 -23 21 28 27 22 22 28 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Ii">
+          -42 0 111 292 28 -18 24 36 28 5 27 43 27 hstemhm
+          31 41 45 27 77 27 134 27 8 65 4 27 hintmask 1101111111110000
+          410 468 rmoveto
+          21 17 17 21 21 17 -17 -21 -21 -17 -17 -21 vhcurveto
+          -21 -17 17 21 hvcurveto
+          -28 hmoveto
+          -107 callsubr
+          -237 70 rmoveto
+          21 17 17 21 21 17 -17 -21 -21 -17 -17 -21 -21 -17 17 21 vhcurveto
+          -28 hmoveto
+          -107 callsubr
+          53 -116 rmoveto
+          -75 -40 -64 -59 0 -110 rrcurveto
+          -124 93 -89 124 136 98 102 123 vhcurveto
+          0 56 -17 45 -35 40 rrcurveto
+          hintmask 1011111111110000
+          -42 47 -55 24 -71 0 -9 0 -1 0 -5 -1 46 26 34 21 32 28 49 41 23 25 0 20 0 16 -11 12 -23 0 -28 0 -14 -16 -12 -22 rrcurveto
+          -13 -20 -12 -26 -21 -23 -38 -41 -36 -27 -53 -28 rrcurveto
+          -98 -176 rmoveto
+          102 105 65 84 92 64 -50 -89 -101 -82 -62 -105 -108 -50 66 69 vhcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Ka">
+          176 -1 114 -114 28 46 63 151 26 39 82 -45 44 hstemhm
+          21 27 -19 80 85 31 56 26 149 59 111 75 hintmask 0011010111110000
+          109 323 rmoveto
+          7 17 -3 2 7 21 6 17 18 9 14 0 25 0 11 -21 0 -26 0 -5 0 -8 -1 -5 -30 -27 -28 -29 -26 -36 rrcurveto
+          hintmask 0011001011110000
+          -35 -48 -45 -93 -8 -69 rrcurveto
+          27 -11 rlineto
+          3 40 14 22 22 0 rrcurveto
+          hintmask 1001100111110000
+          33 0 -3 -74 87 0 42 0 33 23 17 41 21 -43 34 -21 46 0 rrcurveto
+          85 33 69 58 123 -90 65 -120 hvcurveto
+          -27 0 -34 -2 -30 -8 35 30 51 18 67 0 rrcurveto
+          134 125 -83 -140 hvcurveto
+          hintmask 0101100111110000
+          -54 -28 -48 -47 vhcurveto
+          -19 0 -17 5 -9 7 rrcurveto
+          -2 -27 rlineto
+          17 -12 19 -1 10 0 rrcurveto
+          108 43 111 82 136 -98 106 -150 hvcurveto
+          -87 0 -82 -33 -59 -55 rrcurveto
+          4 vlineto
+          hintmask 0011010111110000
+          49 -37 34 -52 -57 -50 -39 -54 -12 6 -31 36 vhcurveto
+          15 0 16 8 7 18 rrcurveto
+          70 -55 rmoveto
+          25 12 40 7 57 0 rrcurveto
+          102 53 -44 -57 hvcurveto
+          hintmask 1001000011110000
+          -40 -26 -33 -47 -44 -32 12 66 vhcurveto
+          1 -26 -1 vlineto
+          -61 -31 -17 -42 vhcurveto
+          hintmask 0011000011110000
+          -45 0 -19 23 -31 0 -9 0 -11 -3 -10 -8 10 25 10 22 27 40 16 23 16 19 17 14 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Kha">
+          60 -1 30 -29 109 8 30 147 102 179 26 hstemhm
+          32 33 116 31 144 57 124 47 hintmask 1011111110000000
+          93 73 rmoveto
+          24 20 20 24 24 20 -20 -24 -24 -20 -20 -24 vhcurveto
+          -24 -20 20 24 hvcurveto
+          -20 29 rmoveto
+          -6 17 -2 17 0 12 rrcurveto
+          94 86 52 85 92 28 -39 -41 vhcurveto
+          0 -34 -17 -34 -52 -62 -42 -50 -29 -39 -13 -13 rrcurveto
+          37 -3 rlineto
+          42 55 26 20 13 0 rrcurveto
+          hintmask 0111111110000000
+          27 0 4 -54 64 0 rrcurveto
+          108 60 150 136 187 -120 128 -166 hvcurveto
+          -112 0 -77 -48 -45 -83 rrcurveto
+          34 hlineto
+          42 71 65 34 89 0 rrcurveto
+          151 92 -109 -156 -103 -34 -98 -62 hvcurveto
+          -40 0 4 33 -29 0 -3 0 -3 0 -3 -1 20 25 26 35 0 57 rrcurveto
+          85 -80 53 -93 -116 -92 -74 -139 vhcurveto
+          hintmask 1011111110000000
+          -75 24 -109 85 40 30 38 36 46 -31 28 -44 vhcurveto
+          -29 0 -28 -19 -6 -26 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Na">
+          236 -1 30 -30 113 171 25 43 82 -50 48 hstemhm
+          55 83 84 31 185 60 181 81 hintmask 1011011110000000
+          267 296 rmoveto
+          37 39 55 16 59 0 rrcurveto
+          133 128 -78 -140 -71 -28 -34 -45 hvcurveto
+          -17 0 -17 6 -17 10 rrcurveto
+          -13 -23 rlineto
+          22 -15 24 -7 25 0 rrcurveto
+          74 73 64 120 152 -114 98 -140 hvcurveto
+          -105 0 -98 -58 -50 -58 0 1 0 1 0 1 rrcurveto
+          hintmask 0110111110000000
+          67 -34 44 -65 -65 -34 -47 -42 -33 23 -11 18 vhcurveto
+          29 0 11 27 3 20 2 23 14 15 24 0 29 0 14 -27 0 -34 0 -13 -1 -13 -7 -11 -82 -77 -2 -70 -64 0 -15 0 -15 5 -11 6 rrcurveto
+          15 -100 104 -50 132 0 rrcurveto
+          122 100 54 116 80 -69 59 -84 hvcurveto
+          -28 0 -24 -3 -26 -9 rrcurveto
+          68 -13 rmoveto
+          61 42 -34 -47 -63 -64 -27 -110 hvcurveto
+          -58 0 -48 5 -36 14 67 42 -12 110 158 0 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Os">
+          66 0 113 110 30 33 28 95 25 120 24 hstem
+          30 37 105 28 44 30 18 25 72 30 124 47 vstem
+          274 362 rmoveto
+          26 21 21 26 26 21 -21 -26 -26 -21 -21 -26 -26 -21 21 26 vhcurveto
+          114 -31 rmoveto
+          1 -2 0 -2 0 -1 rrcurveto
+          -45 -41 -27 -53 -55 -40 30 53 vhcurveto
+          0 3 0 17 0 14 0 30 -8 14 -11 8 -7 5 -7 4 -19 0 rrcurveto
+          -74 -44 -100 -108 -97 48 -127 118 hvcurveto
+          50 0 37 15 22 40 16 -39 44 -16 41 0 rrcurveto
+          137 47 127 127 177 -104 147 -184 hvcurveto
+          -127 0 -68 -47 -45 -65 rrcurveto
+          31 hlineto
+          47 57 59 31 99 0 rrcurveto
+          160 85 -119 -131 -93 -41 -97 -95 -62 -27 27 37 hvcurveto
+          15 -26 -14 vlineto
+          -34 -17 -32 -74 -83 -51 63 93 59 27 77 51 23 4 -13 -20 vhcurveto
+          0 -9 0 -19 0 -5 rrcurveto
+          -74 53 -42 71 71 52 43 64 59 -36 45 -61 -47 -31 -32 -42 -37 27 -37 47 vhcurveto
+          43 0 22 31 5 14 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Pa">
+          46 0 113 188 26 67 40 -29 28 hstemhm
+          31 52 -26 84 363 37 -16 49 hintmask 11100100
+          158 434 rmoveto
+          -55 -46 -25 -42 -28 22 -11 17 hvcurveto
+          25 0 15 15 5 17 5 19 13 15 32 0 32 0 26 -24 -6 -45 -12 1 -11 1 -13 0 rrcurveto
+          hintmask 11011001
+          -108 -68 -52 -91 -138 128 -46 148 141 126 56 130 hvcurveto
+          0 55 -20 38 -40 24 rrcurveto
+          hintmask 11010010
+          19 14 8 17 0 20 0 39 -36 40 -66 0 -85 0 -45 -50 15 -87 23 4 24 3 23 0 rrcurveto
+          hintmask 11101001
+          78 53 -25 -56 -79 -118 -30 -100 -105 -118 26 79 61 56 22 77 hvcurveto
+          1 0 35 -1 18 -3 rrcurveto
+          17 87 -42 50 -88 0 rrcurveto
+          330 -119 rmoveto
+          -25 9 -27 4 -33 0 -16 0 -15 -1 -17 -2 rrcurveto
+          hintmask 11010010
+          -7 52 38 28 46 0 47 0 25 -25 0 -29 0 -13 -5 -12 -11 -11 rrcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Tta">
+          33 -1 115 250 27 161 25 hstem
+          32 53 419 53 vstem
+          85 244 rmoveto
+          76 67 44 82 vhcurveto
+          32 0 28 -6 27 -13 rrcurveto
+          30 vlineto
+          -29 11 -33 5 -27 0 rrcurveto
+          -106 -94 -68 -115 -127 101 -82 152 162 110 116 156 162 -111 144 -173 hvcurveto
+          -96 0 -73 -38 -47 -69 rrcurveto
+          34 hlineto
+          43 54 61 28 80 0 rrcurveto
+          142 87 -120 -122 -131 -98 -66 -129 -93 -99 39 92 hvcurveto
+          endchar
+        </CharString>
+        <CharString name="si_U">
+          81 -161 49 382 26 91 45 hstem
+          32 126 415 30 vstem
+          539 270 rmoveto
+          0 1 0 3 0 2 rrcurveto
+          94 -70 62 -93 -63 -46 -22 -45 -20 15 -18 27 vhcurveto
+          25 0 14 15 7 12 14 23 20 10 22 0 47 0 45 -41 3 -50 rrcurveto
+          -242 hlineto
+          -143 -89 -86 -111 -161 145 -99 151 152 123 97 133 hvcurveto
+          -30 hlineto
+          -105 -98 -76 -103 -107 -107 87 140 94 49 61 124 vhcurveto
+          endchar
+        </CharString>
+        <CharString name="si_Va">
+          0 113 166 25 87 41 120 25 hstemhm
+          33 55 -32 79 123 34 209 47 hintmask 11110111
+          292 279 rmoveto
+          0 3 0 5 0 3 rrcurveto
+          86 -43 56 -88 -55 -50 -26 -47 -26 20 -11 18 vhcurveto
+          25 0 9 14 7 19 5 16 12 20 37 0 37 0 32 -32 0 -51 0 -2 0 0 0 -2 rrcurveto
+          -59 hlineto
+          hintmask 11111011
+          -101 -65 -54 -85 -119 113 -46 121 183 98 114 160 169 -112 134 -160 hvcurveto
+          -98 0 -72 -37 -49 -70 rrcurveto
+          33 hlineto
+          45 53 62 29 79 0 rrcurveto
+          134 91 -111 -131 -117 -78 -80 -153 -86 -96 19 69 49 45 29 74 hvcurveto
+          endchar
+        </CharString>
+      </CharStrings>
+    </CFFFont>
+
+    <GlobalSubrs>
+      <!-- The 'index' attribute is only for humans; it is ignored when parsed. -->
+    </GlobalSubrs>
+  </CFF>
+
+  <FFTM>
+    <!-- FontForge's timestamp, font source creation and modification dates -->
+    <version value="1"/>
+    <FFTimeStamp value="Wed May 27 06:52:01 2015"/>
+    <sourceCreated value="Thu Jun 18 11:29:38 2015"/>
+    <sourceModified value="Thu Jun 18 16:56:06 2015"/>
+  </FFTM>
+
+  <PfEd raw="True">
+    <hexdata>
+      00010000 00000001 66636d74 00000010
+      00010038 32303135 2d362d31 383a2043
+      72656174 65642077 69746820 466f6e74
+      466f7267 65202868 7474703a 2f2f666f
+      6e74666f 7267652e 6f726729 00000000
+    </hexdata>
+  </PfEd>
+
+  <hmtx>
+    <mtx name=".notdef" width="500" lsb="0"/>
+    <mtx name="si_A" width="573" lsb="33"/>
+    <mtx name="si_Ca" width="597" lsb="6"/>
+    <mtx name="si_DIi" width="647" lsb="15"/>
+    <mtx name="si_Dda" width="647" lsb="15"/>
+    <mtx name="si_E" width="595" lsb="16"/>
+    <mtx name="si_Ga" width="636" lsb="34"/>
+    <mtx name="si_Gha" width="677" lsb="5"/>
+    <mtx name="si_Ha" width="653" lsb="32"/>
+    <mtx name="si_I" width="593" lsb="32"/>
+    <mtx name="si_Ii" width="528" lsb="31"/>
+    <mtx name="si_Ka" width="746" lsb="21"/>
+    <mtx name="si_Kha" width="630" lsb="32"/>
+    <mtx name="si_Na" width="806" lsb="24"/>
+    <mtx name="si_Os" width="636" lsb="30"/>
+    <mtx name="si_Pa" width="616" lsb="31"/>
+    <mtx name="si_Tta" width="603" lsb="31"/>
+    <mtx name="si_U" width="651" lsb="32"/>
+    <mtx name="si_Va" width="597" lsb="33"/>
+  </hmtx>
+
+</ttFont>
