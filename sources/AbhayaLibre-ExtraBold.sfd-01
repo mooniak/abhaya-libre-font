@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1435558859
+ModificationTime: 1435558880
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -1392,7 +1392,7 @@ StartChar: uni0DAB
 Encoding: 37 3499 20
 Width: 963
 VWidth: 1000
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 Fore
