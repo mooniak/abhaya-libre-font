@@ -1,0 +1,22 @@
+title: Abhaya Libre Font by mooniak - අභය අකුරු රටාව  
+desc: the unicode compliant libre release of Pushpananda Ekanayakess FM Abhaya font. A mooniak release.
+baseurl:  /abhaya-libre-font
+thumb_url: 
+glyphs: අ ඉ ඊ උ එ ඔ ක ඛ ග ඝ ච ට ඩ න ප ව හ
+
+safe: false
+lsi: false
+pygments: true
+
+
+# About/contact
+author:
+  name:              Pathum Egodawatta
+  url:               https://twitter.com/pathumego
+  email:             pathum@mooniak.com
+
+# Custom vars
+version:             0.0.1
+
+exclude:
+  - README.md
