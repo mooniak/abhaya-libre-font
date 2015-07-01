@@ -1,0 +1,69 @@
+languagesystem DFLT dflt;
+languagesystem hani dflt;
+languagesystem latn dflt;
+
+
+# GPOS 
+
+
+lookup kernHorizontalKerninglookup0 {
+  lookupflag 0;
+    @kc3_first_1 = [\A ];
+    @kc3_first_2 = [\T \Y \P \F ];
+    @kc3_first_3 = [\f \r \v \w \y ];
+    @kc3_first_4 = [\L ];
+    @kc3_first_5 = [\W \V ];
+    @kc3_first_6 = [];
+    @kc3_second_1 = [\W \V \T \Y ];
+    @kc3_second_2 = [\period \comma ];
+    @kc3_second_3 = [\a \e \s \o \q \d \c \g \u ];
+    @kc3_second_4 = [\A ];
+    @kc3_second_5 = [\w \v \t ];
+    @kc3_second_6 = [\semicolon \colon ];
+    pos @kc3_first_1 @kc3_second_1 -68;
+    pos @kc3_first_1 @kc3_second_2 60;
+    pos @kc3_first_1 @kc3_second_3 -22;
+    pos @kc3_first_1 @kc3_second_5 -66;
+    pos @kc3_first_1 @kc3_second_6 44;
+    pos @kc3_first_2 @kc3_second_1 16;
+    pos @kc3_first_2 @kc3_second_2 -78;
+    pos @kc3_first_2 @kc3_second_3 -29;
+    pos @kc3_first_2 @kc3_second_4 -98;
+    pos @kc3_first_2 @kc3_second_5 -22;
+    pos @kc3_first_2 @kc3_second_6 -62;
+    pos @kc3_first_3 @kc3_second_2 -40;
+    pos @kc3_first_4 @kc3_second_1 -80;
+    pos @kc3_first_4 @kc3_second_3 82;
+    pos @kc3_first_4 @kc3_second_5 -75;
+    pos @kc3_first_4 @kc3_second_6 61;
+    pos @kc3_first_5 @kc3_second_2 -106;
+    pos @kc3_first_5 @kc3_second_3 -54;
+    pos @kc3_first_5 @kc3_second_4 -127;
+    pos @kc3_first_5 @kc3_second_6 -73;
+} kernHorizontalKerninglookup0;
+
+feature kern {
+
+ script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script hani;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninglookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\anusvara \si_NnI \si_A \si_E \si_U \si_Ka \si_Ii \si_Os \si_Tta 
+	\si_I \si_Na \si_Ca \si_Va \si_Pa \si_Ja \si_Gha \si_Ga \si_Kha \si_Dda \si_Ha 
+	\si_DIi ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

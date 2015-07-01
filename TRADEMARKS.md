@@ -1,0 +1,1 @@
+Abhaya is a trademark of Pushpananda Ekanayaka.
