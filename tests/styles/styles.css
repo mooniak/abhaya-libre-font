@@ -13,8 +13,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 margin: 0;
@@ -25,22 +25,21 @@ font: inherit;
 vertical-align: baseline;
 }
 		.content {
-			
+
 			padding: 10px;
 			}
-        
-        
-    
+
+
+
 h3{ font-size: 18px;
-    font-family: sans-serif;
     font-weight: 100;}
+		
 .sample{
 font-size:60px;
-    font-family: 'AbhayaLibre';
     margin-top: 60px;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 display: block;
 }
@@ -66,15 +65,9 @@ border-spacing: 0;
 
 body {
 margin: 0px;
-font-family: 'AbhayaLibre' ,serif;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 
-}
-
-.italic{
-	font-family:'StickNoBills-Italic';
-    	font-style: italic;
 }
 
 h1 {
