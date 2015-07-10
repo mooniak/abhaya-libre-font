@@ -1,7 +1,7 @@
 
-|  WORK IN PROGRESS      | 
-| ------------- |:-------------:| 
-| This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       | 
+|  WORK IN PROGRESS      |
+| ------------- |:-------------:|
+| This repo is the active development repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       |
 
 
 
@@ -27,9 +27,8 @@ See the video discussions https://www.youtube.com/playlist?list=PLpw12zH02-An-6i
 
 ## Credits
 
--
 - Pushpanada Ekanayake (Sinhala)
-- Sol Matas(Sinhala)
+- Sol Matas(Latin)
 - Pathum Egodawatta (Refactoring and Project coordination)
 
 ## License
@@ -45,5 +44,5 @@ contribute to the project or make your own version of the font.
 
 ***
 
-|   This repository follows the [Unified Font Repository](https://github.com/raphaelbastide/Unified-Font-Repository) v2.0, a standard way to organize font project source files.           | 
+|   This repository follows the [Unified Font Repository](https://github.com/raphaelbastide/Unified-Font-Repository) v2.0, a standard way to organize font project source files.           |
 | ------------- |:
