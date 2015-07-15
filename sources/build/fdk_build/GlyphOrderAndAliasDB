@@ -1,6 +1,5 @@
 #!opentype
 
-# This GOADB file is synced to `itf_gfd_dv.enc`.
 
 .notdef .notdef
 NULL NULL uni0000
@@ -8,801 +7,527 @@ CR CR uni000D
 space space uni0020
 
 # Vowel letters
-
-
-si_A	si_A	uni0D85
-si_Aa	si_Aa	uni0D86
-si_Ae	si_Ae	uni0D87
-si_Aae	si_Aae	uni0D88
-si_I	si_I	uni0D89
-si_Ii	si_Ii	uni0D8A
-si_U	si_U	uni0D8B
-si_Uu	si_Uu	uni0D8C
-si_vocalicR	si_vocalicR	uni0D8D
-si_vocalicRr	si_vocalicRr	uni0D8E
-si_vocalicL	si_vocalicL	uni0D8F
-si_vocalicLL	si_vocalicLL	uni0D90
-si_E	si_E	uni0D91
-si_Ee	si_Ee	uni0D92
-si_Ai	si_Ai	uni0D93
-si_Os	si_Os	uni0D94
-si_Oo	si_Oo	uni0D95
-si_Au	si_Au	uni0D96
-
-# Half Vowel letters
-
-anusvara	anusvara	uni0D82
-visarga	visarga	uni0D83
-
-# Matras
-
-dvmAA dvmAA uni093E
-dvmI dvmI uni093F
-dvmII dvmII uni0940
-dvmU dvmU uni0941
-dvmUU dvmUU uni0942
-dvmvR dvmvR uni0943
-dvmvRR dvmvRR uni0944
-dvmvL dvmvL uni0962
-dvmvLL dvmvLL uni0963
-dvmE dvmE uni0947
-dvmAI dvmAI uni0948
-dvmO dvmO uni094B
-dvmAU dvmAU uni094C
-dvmEcandra dvmEcandra uni0945
-dvmOcandra dvmOcandra uni0949
-
+anusvara	anusvara	  uni0D82
+visarga	visarga	  uni0D83
+si_A	si_A	  uni0D85
+si_Aa	si_Aa	  uni0D86
+si_Ae	si_Ae	  uni0D87
+si_Aae	si_Aae	  uni0D88
+si_I	si_I	  uni0D89
+si_Ii	si_Ii	  uni0D8A
+si_U	si_U	  uni0D8B
+si_Uu	si_Uu	  uni0D8C
+si_vocalicR	si_vocalicR	  uni0D8D
+si_vocalicRr	si_vocalicRr	  uni0D8E
+si_vocalicL	si_vocalicL	  uni0D8F
+si_vocalicLL	si_vocalicLL	  uni0D90
+si_E	si_E	  uni0D91
+si_Ee	si_Ee	  uni0D92
+si_Ai	si_Ai	  uni0D93
+si_Os	si_Os	  uni0D94
+si_Oo	si_Oo	  uni0D95
+si_Au	si_Au	  uni0D96
 # Consonant letters: basic
+si_Ka	si_Ka	  uni0D9A
+si_Kha	si_Kha	  uni0D9B
+si_Ga	si_Ga	  uni0D9C
+si_Gha	si_Gha	  uni0D9D
+si_Nga	si_Nga	  uni0D9E
+si_Nnga	si_Nnga	  uni0D9F
+si_Ca	si_Ca	  uni0DA0
+si_Cha	si_Cha	  uni0DA1
+si_Ja	si_Ja	  uni0DA2
+si_Jha	si_Jha	  uni0DA3
+si_Nya	si_Nya	  uni0DA4
+si_Jnya	si_Jnya	  uni0DA5
+si_Ndja	si_Ndja	  uni0DA6
+si_Tta	si_Tta	  uni0DA7
+si_Ttha	si_Ttha	  uni0DA8
+si_Dda	si_Dda	  uni0DA9
+si_Ddha	si_Ddha	  uni0DAA
+si_Nna	si_Nna	  uni0DAB
+si_Ndda	si_Ndda	  uni0DAC
+si_Ta	si_Ta	  uni0DAD
+si_Tha	si_Tha	  uni0DAE
+si_Da	si_Da	  uni0DAF
+si_Dha	si_Dha	  uni0DB0
+si_Na	si_Na	  uni0DB1
+si_Nda	si_Nda	  uni0DB3
+si_Pa	si_Pa	  uni0DB4
+si_Pha	si_Pha	  uni0DB5
+si_Ba	si_Ba	  uni0DB6
+si_Bha	si_Bha	  uni0DB7
+si_Ma	si_Ma	  uni0DB8
+si_Mba	si_Mba	  uni0DB9
+si_Ya	si_Ya	  uni0DBA
+si_Ra	si_Ra	  uni0DBB
+si_La	si_La	  uni0DBD
+si_Va	si_Va	  uni0DC0
+si_Sha	si_Sha	  uni0DC1
+si_Ssa	si_Ssa	  uni0DC2
+si_Sa	si_Sa	  uni0DC3
+si_Ha	si_Ha	  uni0DC4
+si_Lla	si_Lla	  uni0DC5
+si_Fa	si_Fa	  uni0DC6
+# Matras පිල්ලම්
+si_Viarma	si_Viarma	  uni0DCA
+si_MatraAa	si_MatraAa	  uni0DCF
+si_MatraAe	si_MatraAe	  uni0DD0
+si_MatraAae	si_MatraAae	  uni0DD1
+si_MatraI	si_MatraI	  uni0DD2
+si_MatraIi	si_MatraIi	  uni0DD3
+si_MatraU	si_MatraU	  uni0DD4
+si_MatraUu	si_MatraUu	  uni0DD6
+si_MatraR	si_MatraR	  uni0DD8
+si_MatraE	si_MatraE	  uni0DD9
+si_MatraEe	si_MatraEe	  uni0DDA
+si_MatraAi	si_MatraAi	  uni0DDB
+si_MatraO	si_MatraO	  uni0DDC
+si_MatraOo	si_MatraOo	  uni0DDD
+si_MatraAu	si_MatraAu	  uni0DDE
+si_MatraLs	si_MatraLs	  uni0DDF
+si_MatraLl	si_MatraLl	  uni0DF3
+si_MatraRr	si_MatraRr	  uni0DF2
+si_kundaliya	si_kundaliya	  uni0DF4
+
+
+si_MatraAa.halant	si_MatraAa.halant
+#Ya Post forms
+si_Ya.post	si_Ya.post
+si_Y.reph.post	si_Y.reph.post
+
+si_Rakar
+si_Reph
+
+#Akhand Forms
+si_KSsa	si_KSsa
+si_KVa	si_KVa
+si_TVa	si_TVa
+si_TTha	si_TTha
+si_NDa	si_NDa
+si_NVa	si_NVa
+si_NDha	si_NDha
+si_NTha	si_NTha
+si_DV	si_DV
+si_DDha	si_DDha
+si_TtTha	si_TtTha
+
+#Astrological digits
+si_Lith.Zero	si_Lith.Zero
+si_Lith.One	si_Lith.One
+si_Lith.Two	si_Lith.Two
+si_Lith.Three	si_Lith.Three
+si_Lith.Four	si_Lith.Four
+si_Lith.Five	si_Lith.Five
+si_Lith.Six	si_Lith.Six
+si_Lith.Seven	si_Lith.Seven
+si_Lith.Eight	si_Lith.Eight
+si_Lith.Nine	si_Lith.Nine
+
+#####	#####
+si_K.halant	si_K.halant
+si_Kh.halant	si_Kh.halant
+si_G.halant	si_G.halant
+si_Gh.halant	si_Gh.halant
+si_Ng.halant	si_Ng.halant
+si_Nng.halant	si_Nng.halant
+si_C.halant	si_C.halant
+si_Ch.halant	si_Ch.halant
+si_J.halant	si_J.halant
+si_Jh.halant	si_Jh.halant
+si_Ny.halant	si_Ny.halant
+si_Jny.halant	si_Jny.halant
+si_Ndj.halant	si_Ndj.halant
+si_Tt.halant	si_Tt.halant
+si_Tth.halant	si_Tth.halant
+si_Dd.halant	si_Dd.halant
+si_Ddh.halant	si_Ddh.halant
+si_Nn.halant	si_Nn.halant
+si_Nndd.halant	si_Nndd.halant
+si_T.halant	si_T.halant
+si_Th.halant 	si_Th.halant
+si_D.halant	si_D.halant
+si_Dh.halant	si_Dh.halant
+si_N.halant	si_N.halant
+si_Nd.halant	si_Nd.halant
+si_P.halant	si_P.halant
+si_Ph.halant	si_Ph.halant
+si_B.halant	si_B.halant
+si_Bh.halant	si_Bh.halant
+si_M.halant	si_M.halant
+si_Mb.halant	si_Mb.halant
+si_Y.halant	si_Y.halant
+si_R.halant	si_R.halant
+si_L.halant	si_L.halant
+si_V.halant	si_V.halant
+si_Sh.halant	si_Sh.halant
+si_Ss.halant	si_Ss.halant
+si_S.halant	si_S.halant
+si_H.halant	si_H.halant
+si_Ll.halant	si_Ll.halant
+si_F.halant	si_F.halant
+#####	#####
+si_KSs.halant	si_KSs.halant
+si_KV.halant	si_KV.halant
+si_TV.halant	si_TV.halant
+si_TTh.halant	si_TTh.halant
+si_ND.halant	si_ND.halant
+si_NV.halant	si_NV.halant
+si_NDh.halant	si_NDh.halant
+si_NTh.halant	si_NTh.halant
+si_DV.halant	si_DV.halant
+si_DDh.halant	si_DDh.halant
+si_TtTh.halant	si_TtTh.halant
+
+
+#####	#####
+si_KI	si_KI
+si_KhI	si_KhI
+si_GI	si_GI
+si_GhI	si_GhI
+si_NgI	si_NgI
+si_NngI	si_NngI
+si_CI	si_CI
+si_ChI	si_ChI
+si_JI	si_JI
+si_JhI	si_JhI
+si_NyI	si_NyI
+si_JnyI	si_JnyI
+si_NdjI	si_NdjI
+si_TtI	si_TtI
+si_TthI	si_TthI
+si_DdI	si_DdI
+si_DdhI	si_DdhI
+si_NnI	si_NnI
+si_NddI	si_NddI
+si_TI	si_TI
+si_ThI	si_ThI
+si_DI	si_DI
+si_DhI	si_DhI
+si_NI	si_NI
+si_NdI	si_NdI
+si_PI	si_PI
+si_PhI	si_PhI
+si_BI	si_BI
+si_BhI	si_BhI
+si_MI	si_MI
+si_MbI	si_MbI
+si_YI	si_YI
+si_RI	si_RI
+si_LI	si_LI
+si_VI	si_VI
+si_ShI	si_ShI
+si_SsI	si_SsI
+si_SI	si_SI
+si_HI	si_HI
+si_LlI	si_LlI
+si_FI	si_FI
+#
+si_KSsI	si_KSsI
+si_KVI	si_KVI
+si_TVI	si_TVI
+si_TThI	si_TThI
+si_NDI	si_NDI
+si_NVI	si_NVI
+si_NDhI	si_NDhI
+si_NThI	si_NThI
+si_DVI	si_DVI
+si_DDhI	si_DDhI
+si_TtThI	si_TtThI
+###################	###################
+si_KIi	si_KIi
+si_KhIi	si_KhIi
+si_GIi	si_GIi
+si_GhIi	si_GhIi
+si_NgIi	si_NgIi
+si_NngIi	si_NngIi
+si_CIi	si_CIi
+si_ChIi	si_ChIi
+si_JIi	si_JIi
+si_JhIi	si_JhIi
+si_NyIi	si_NyIi
+si_JnyIi	si_JnyIi
+si_NdjIi	si_NdjIi
+si_TtIi	si_TtIi
+si_TthIi	si_TthIi
+si_DdIi	si_DdIi
+si_DdhIi	si_DdhIi
+si_NnIi	si_NnIi
+si_NddIi	si_NddIi
+si_TIi	si_TIi
+si_ThIi	si_ThIi
+si_DIi	si_DIi
+si_DhIi	si_DhIi
+si_NIi	si_NIi
+si_NdIi	si_NdIi
+si_PIi	si_PIi
+si_PhIi	si_PhIi
+si_BIi	si_BIi
+si_BhIi	si_BhIi
+si_MIi	si_MIi
+si_MbIi	si_MbIi
+si_YIi	si_YIi
+si_RIi	si_RIi
+si_LIi	si_LIi
+si_VIi	si_VIi
+si_ShIi	si_ShIi
+si_SsIi	si_SsIi
+si_SIi	si_SIi
+si_HIi	si_HIi
+si_LlIi	si_LlIi
+si_FIi	si_FIi
+####	####
+si_KSsIi	si_KSsIi
+si_KVIi	si_KVIi
+si_TVIi	si_TVIi
+si_TThIi	si_TThIi
+si_NDIi	si_NDIi
+si_NVIi	si_NVIi
+si_NDhIi	si_NDhIi
+si_NThIi	si_NThIi
+si_DVIi	si_DVIi
+si_DDhIi	si_DDhIi
+si_TtThIi	si_TtThIi
+
+### පාපිල්
+si_KU	si_KU
+si_KhU	si_KhU
+si_GU	si_GU
+si_GhU	si_GhU
+si_NgU	si_NgU
+si_NngU	si_NngU
+si_CU	si_CU
+si_ChU	si_ChU
+si_JU	si_JU
+si_JhU	si_JhU
+si_NyU	si_NyU
+si_JnyU	si_JnyU
+si_NdjU	si_NdjU
+si_TtU	si_TtU
+si_TthU	si_TthU
+si_DdU	si_DdU
+si_DdhU	si_DdhU
+si_NnU	si_NnU
+si_NddU	si_NddU
+si_TU	si_TU
+si_ThU	si_ThU
+si_DU	si_DU
+si_DhU	si_DhU
+si_NU	si_NU
+si_NdU	si_NdU
+si_PU	si_PU
+si_PhU	si_PhU
+si_BU	si_BU
+si_BhU	si_BhU
+si_MU	si_MU
+si_MbU	si_MbU
+si_YU	si_YU
+si_RU	si_RU
+si_LU	si_LU
+si_VU	si_VU
+si_ShU	si_ShU
+si_SsU	si_SsU
+si_SU	si_SU
+si_HU	si_HU
+si_LlU	si_LlU
+si_FU	si_FU
+###	###
+si_KSsU	si_KSsU
+si_KVU	si_KVU
+si_TVU	si_TVU
+si_TThU	si_TThU
+si_NDU	si_NDU
+si_NVU	si_NVU
+si_NDhU	si_NDhU
+si_NThU	si_NThU
+si_DVU	si_DVU
+si_DDhU	si_DDhU
+si_TtThU	si_TtThU
+si_YU.post
+
+
+
+##########	##########
+si_KUu	si_KUu
+si_KhUu	si_KhUu
+si_GUu	si_GUu
+si_GhUu	si_GhUu
+si_NgUu	si_NgUu
+si_NngUu	si_NngUu
+si_CUu	si_CUu
+si_ChUu	si_ChUu
+si_JUu	si_JUu
+si_JhUu	si_JhUu
+si_NyUu	si_NyUu
+si_JnyUu	si_JnyUu
+si_NdjUu	si_NdjUu
+si_TtUu	si_TtUu
+si_TthUu	si_TthUu
+si_DdUu	si_DdUu
+si_DdhUu	si_DdhUu
+si_NnUu	si_NnUu
+si_NddUu	si_NddUu
+si_TUu	si_TUu
+si_ThUu	si_ThUu
+si_DUu	si_DUu
+si_DhUu	si_DhUu
+si_NUu	si_NUu
+si_NdUu	si_NdUu
+si_PUu	si_PUu
+si_PhUu	si_PhUu
+si_BUu	si_BUu
+si_BhUu	si_BhUu
+si_MUu	si_MUu
+si_MbUu	si_MbUu
+si_YUu	si_YUu
+si_RUu	si_RUu
+si_LUu	si_LUu
+si_VUu	si_VUu
+si_ShUu	si_ShUu
+si_SsUu	si_SsUu
+si_SUu	si_SUu
+si_HUu	si_HUu
+si_LlUu	si_LlUu
+si_FUu	si_FUu
+##########
+si_KSsUu	si_KSsUu
+si_KVUu	si_KVUu
+si_TVUu	si_TVUu
+si_TThUu	si_TThUu
+si_NDUu	si_NDUu
+si_NVUu	si_NVUu
+si_NDhUu	si_NDhUu
+si_NThUu	si_NThUu
+si_DVUu	si_DVUu
+si_DDhUu	si_DDhUu
+si_TtThUu	si_TtThUu
+si_YUu.post
+
+
+#-------------------------------
+
+
+si_KRa
+si_KhRa
+si_GRa
+si_GhRa
+si_CRa
+si_JRa
+si_TtRa
+si_DdRa
+si_TRa
+si_DRa
+si_DhRa
+si_PRa
+si_BRa
+si_BhRa
+si_VRa
+si_ShRa
+si_SsRa
+si_SRa
+si_HRa
+si_FRa
+### Akhnds Rakar Forms
+si_NDRa
+
+### Rakar Forms Matra I
+si_KRI
+si_KhRI
+si_GRI
+si_GhRI
+si_CRI
+si_JRI
+si_TtRI
+si_DdRI
+si_TRI
+si_DRI
+si_DhRI
+si_PRI
+si_BRI
+si_BhRI
+si_VRI
+si_ShRI
+si_SsRI
+si_SRI
+si_HRI
+si_FRI
+### Akhnds Rakar Forms
+si_NDRI
+
+si_KRIi
+si_KhRIi
+si_GRIi
+si_GhRIi
+si_CRIi
+si_JRIi
+si_TtRIi
+si_DdRIi
+si_TRIi
+si_DRIi
+si_DhRIi
+si_PRIi
+si_BRIi
+si_BhRIi
+si_VRIi
+si_ShRIi
+si_SsRIi
+si_SRIi
+si_HRIi
+si_FRIi
+### Akhnds Rakar Forms
+si_NDRIi
+
+
+### Reph Forms
+si_K.reph
+si_Kh.reph
+si_G.reph
+si_Gh.reph
+si_Ng.reph
+si_Nng.reph
+si_C.reph
+si_Ch.reph
+si_J.reph
+si_Jh.reph
+si_Ny.reph
+si_Jny.reph
+si_Ndj.reph
+si_Tt.reph
+si_Tth.reph
+si_Dd.reph
+si_Ddh.reph
+si_Nn.reph
+si_Ndd.reph
+si_T.reph
+si_Th.reph
+si_D.reph
+si_Dh.reph
+si_N.reph
+si_Nd.reph
+si_P.reph
+si_Ph.reph
+si_B.reph
+si_Bh.reph
+si_M.reph
+si_Mb.reph
+si_Y.reph
+
+si_L.reph
+si_V.reph
+si_Sh.reph
+si_Ss.reph
+si_S.reph
+si_H.reph
+si_Ll.reph
+si_F.reph
+
+#####
+si_DYa.post
+si_DYAa.post
 
-dvKA dvKA uni0915
-dvKHA dvKHA uni0916
-dvGA dvGA uni0917
-dvGHA dvGHA uni0918
-dvNGA dvNGA uni0919
-dvCA dvCA uni091A
-dvCHA dvCHA uni091B
-dvJA dvJA uni091C
-dvJHA dvJHA uni091D
-dvNYA dvNYA uni091E
-dvTTA dvTTA uni091F
-dvTTHA dvTTHA uni0920
-dvDDA dvDDA uni0921
-dvDDHA dvDDHA uni0922
-dvNNA dvNNA uni0923
-dvTA dvTA uni0924
-dvTHA dvTHA uni0925
-dvDA dvDA uni0926
-dvDHA dvDHA uni0927
-dvNA dvNA uni0928
-dvPA dvPA uni092A
-dvPHA dvPHA uni092B
-dvBA dvBA uni092C
-dvBHA dvBHA uni092D
-dvMA dvMA uni092E
-dvYA dvYA uni092F
-dvRA dvRA uni0930
-dvLA dvLA uni0932
-dvVA dvVA uni0935
-dvSHA dvSHA uni0936
-dvSSA dvSSA uni0937
-dvSA dvSA uni0938
-dvHA dvHA uni0939
-dvLLA dvLLA uni0933
 
-dvK_SSA dvK_SSA
-dvJ_NYA dvJ_NYA
 
-# Consonant letters: nukta
 
-dvKxA dvKxA uni0958
-dvKHxA dvKHxA uni0959
-dvGxA dvGxA uni095A
-dvJxA dvJxA uni095B
-dvDDxA dvDDxA uni095C
-dvDDHxA dvDDHxA uni095D
-dvPHxA dvPHxA uni095E
-dvRxA dvRxA uni0931
-
-# Consonant letters: half
-
-dvK dvK
-dvKH dvKH
-dvG dvG
-dvGH dvGH
-dvNG dvNG
-dvC dvC
-dvCH dvCH
-dvJ dvJ
-dvJH dvJH
-dvNY dvNY
-dvTT dvTT
-dvTTH dvTTH
-dvDD dvDD
-dvDDH dvDDH
-dvNN dvNN
-dvT dvT
-dvTH dvTH
-dvD dvD
-dvDH dvDH
-dvN dvN
-dvP dvP
-dvPH dvPH
-dvB dvB
-dvBH dvBH
-dvM dvM
-dvY dvY
-dvR dvR
-dvL dvL
-dvV dvV
-dvSH dvSH
-dvSS dvSS
-dvS dvS
-dvH dvH
-dvLL dvLL
-
-dvK_SS dvK_SS
-dvJ_NY dvJ_NY
-
-# Consonant letters: half nukta
-
-dvKx dvKx
-dvKHx dvKHx
-dvGx dvGx
-dvJx dvJx
-dvPHx dvPHx
-
-# Phonological marks
-
-dvAnusvara dvAnusvara uni0902
-dvCandrabindu dvCandrabindu uni0901
-dvVisarga dvVisarga uni0903
-dvAvagraha dvAvagraha uni093D
-dvVirama dvVirama uni094D
-dvNukta dvNukta uni093C
-
-# Digits
-
-dvZero dvZero uni0966
-dvOne dvOne uni0967
-dvTwo dvTwo uni0968
-dvThree dvThree uni0969
-dvFour dvFour uni096A
-dvFive dvFive uni096B
-dvSix dvSix uni096C
-dvSeven dvSeven uni096D
-dvEight dvEight uni096E
-dvNine dvNine uni096F
-
-# Additional signs
-
-dvOm dvOm uni0950
-dvAbbreviationsign dvAbbreviationsign uni0970
-danda danda uni0964
-doubledanda doubledanda uni0965
-
-# Miscellaneous
-
-rupee rupee uni20A8
-indianrupee indianrupee uni20B9
-apostrophemod apostrophemod uni02BC
-
-zerowidthspace zerowidthspace uni200B
-zerowidthnonjoiner zerowidthnonjoiner uni200C
-zerowidthjoiner zerowidthjoiner uni200D
-dottedcircle dottedcircle uni25CC
-
-# ---
-
-itfLogo itfLogo
-
-# ---
-
-# RA variants
-
-dvReph dvReph
-dvEyelash dvEyelash
-dvRashtrasign dvRashtrasign
-
-# Consonant letters: vattu
-
-dvK_RA dvK_RA
-dvKH_RA dvKH_RA
-dvG_RA dvG_RA
-dvGH_RA dvGH_RA
-dvNG_RA dvNG_RA
-dvC_RA dvC_RA
-dvCH_RA dvCH_RA
-dvJ_RA dvJ_RA
-dvJH_RA dvJH_RA
-dvNY_RA dvNY_RA
-dvTT_RA dvTT_RA
-dvTTH_RA dvTTH_RA
-dvDD_RA dvDD_RA
-dvDDH_RA dvDDH_RA
-dvNN_RA dvNN_RA
-dvT_RA dvT_RA
-dvTH_RA dvTH_RA
-dvD_RA dvD_RA
-dvDH_RA dvDH_RA
-dvN_RA dvN_RA
-dvP_RA dvP_RA
-dvPH_RA dvPH_RA
-dvB_RA dvB_RA
-dvBH_RA dvBH_RA
-dvM_RA dvM_RA
-dvY_RA dvY_RA
-# Reph
-dvL_RA dvL_RA
-dvV_RA dvV_RA
-dvSH_RA dvSH_RA
-dvSS_RA dvSS_RA
-dvS_RA dvS_RA
-dvH_RA dvH_RA
-dvLL_RA dvLL_RA
-
-# Consonant letters: vattu nukta
-
-dvKx_RA dvKx_RA
-dvKHx_RA dvKHx_RA
-dvGx_RA dvGx_RA
-dvJx_RA dvJx_RA
-dvPHx_RA dvPHx_RA
-
-# Consonant letters: half vattu
-
-dvK_R dvK_R
-dvKH_R dvKH_R
-dvG_R dvG_R
-dvGH_R dvGH_R
-dvNG_R dvNG_R
-dvC_R dvC_R
-dvCH_R dvCH_R
-dvJ_R dvJ_R
-dvJH_R dvJH_R
-dvNY_R dvNY_R
-dvTT_R dvTT_R
-dvTTH_R dvTTH_R
-dvDD_R dvDD_R
-dvDDH_R dvDDH_R
-dvNN_R dvNN_R
-dvT_R dvT_R
-dvTH_R dvTH_R
-dvD_R dvD_R
-dvDH_R dvDH_R
-dvN_R dvN_R
-dvP_R dvP_R
-dvPH_R dvPH_R
-dvB_R dvB_R
-dvBH_R dvBH_R
-dvM_R dvM_R
-dvY_R dvY_R
-# Reph
-dvL_R dvL_R
-dvV_R dvV_R
-dvSH_R dvSH_R
-dvSS_R dvSS_R
-dvS_R dvS_R
-dvH_R dvH_R
-dvLL_R dvLL_R
-
-# Consonant letters: half vattu nukta
-
-dvKx_R dvKx_R
-dvKHx_R dvKHx_R
-dvGx_R dvGx_R
-dvJx_R dvJx_R
-dvPHx_R dvPHx_R
-
-# Consonant conjuncts
-
-dvK_KA dvK_KA
-dvKx_KxA dvKx_KxA
-dvK_KHA dvK_KHA
-dvK_CA dvK_CA
-dvK_JA dvK_JA
-dvK_TTA dvK_TTA
-dvK_NNA dvK_NNA
-dvK_TA dvK_TA
-dvKx_TA dvKx_TA
-dvK_T_YA dvK_T_YA
-dvK_T_RA dvK_T_RA
-dvK_T_VA dvK_T_VA
-dvK_THA dvK_THA
-dvK_DA dvK_DA
-dvK_NA dvK_NA
-dvK_PA dvK_PA
-dvK_P_RA dvK_P_RA
-dvK_PHA dvK_PHA
-dvKx_PHA dvKx_PHA
-dvKx_PHxA dvKx_PHxA
-dvKx_BA dvKx_BA
-dvK_MA dvK_MA
-dvKx_MA dvKx_MA
-dvK_YA dvK_YA
-dvK_LA dvK_LA
-dvK_VA dvK_VA
-dvK_V_YA dvK_V_YA
-dvK_SHA dvK_SHA
-dvK_SS_MA dvK_SS_MA
-dvK_SS_M_YA dvK_SS_M_YA
-dvK_SS_YA dvK_SS_YA
-dvK_SS_VA dvK_SS_VA
-dvK_SA dvK_SA
-dvK_S_TTA dvK_S_TTA
-dvK_S_DDA dvK_S_DDA
-dvK_S_TA dvK_S_TA
-dvK_S_P_RA dvK_S_P_RA
-dvK_S_P_LA dvK_S_P_LA
-
-dvKH_KHA dvKH_KHA
-dvKH_TA dvKH_TA
-dvKHx_TA dvKHx_TA
-dvKH_NA dvKH_NA
-dvKH_MA dvKH_MA
-dvKHx_MA dvKHx_MA
-dvKH_YA dvKH_YA
-dvKHx_YA dvKHx_YA
-dvKH_VA dvKH_VA
-dvKHx_VA dvKHx_VA
-dvKH_SHA dvKH_SHA
-dvKHx_SHA dvKHx_SHA
-dvKHx_SA dvKHx_SA
-
-dvG_GA dvG_GA
-dvG_GHA dvG_GHA
-dvG_JA dvG_JA
-dvG_NNA dvG_NNA
-dvG_DA dvG_DA
-dvG_DHA dvG_DHA
-dvG_DH_YA dvG_DH_YA
-dvG_DH_VA dvG_DH_VA
-dvG_NA dvG_NA
-dvG_N_YA dvG_N_YA
-dvG_BA dvG_BA
-dvG_BHA dvG_BHA
-dvG_BH_YA dvG_BH_YA
-dvG_MA dvG_MA
-dvG_YA dvG_YA
-dvG_R_YA dvG_R_YA
-dvG_LA dvG_LA
-dvG_VA dvG_VA
-dvG_SA dvG_SA
-
-dvGH_NA dvGH_NA
-dvGH_MA dvGH_MA
-dvGH_YA dvGH_YA
-
-dvC_CA dvC_CA
-dvC_CHA dvC_CHA
-dvC_CH_VA dvC_CH_VA
-dvC_NA dvC_NA
-dvC_MA dvC_MA
-dvC_YA dvC_YA
-
-dvCH_YA dvCH_YA
-dvCH_R_YA dvCH_R_YA
-
-dvJ_KA dvJ_KA
-dvJ_JA dvJ_JA
-dvJx_JxA dvJx_JxA
-dvJ_J_NYA dvJ_J_NYA
-dvJ_J_YA dvJ_J_YA
-dvJ_J_VA dvJ_J_VA
-dvJ_JHA dvJ_JHA
-dvJ_NY_YA dvJ_NY_YA
-dvJ_TTA dvJ_TTA
-dvJ_DDA dvJ_DDA
-dvJ_TA dvJ_TA
-dvJ_DA dvJ_DA
-dvJ_NA dvJ_NA
-dvJ_BA dvJ_BA
-dvJ_MA dvJ_MA
-dvJ_YA dvJ_YA
-dvJx_YA dvJx_YA
-dvJ_VA dvJ_VA
-
-dvJH_NA dvJH_NA
-dvJH_MA dvJH_MA
-dvJH_YA dvJH_YA
-
-dvNY_CA dvNY_CA
-dvNY_CHA dvNY_CHA
-dvNY_JA dvNY_JA
-dvNY_SHA dvNY_SHA
-
-dvTT_TTA dvTT_TTA
-dvTT_TTHA dvTT_TTHA
-dvTT_YA dvTT_YA
-dvTT_VA dvTT_VA
-
-dvTTH_TTHA dvTTH_TTHA
-dvTTH_YA dvTTH_YA
-dvTTH_VA dvTTH_VA
-
-dvDD_DDA dvDD_DDA
-dvDD_DDHA dvDD_DDHA
-dvDD_YA dvDD_YA
-dvDD_VA dvDD_VA
-
-dvDDH_DDHA dvDDH_DDHA
-dvDDH_YA dvDDH_YA
-dvDDH_VA dvDDH_VA
-
-dvNN_TTA dvNN_TTA
-dvNN_TTHA dvNN_TTHA
-dvNN_DDA dvNN_DDA
-dvNN_DDHA dvNN_DDHA
-dvNN_NNA dvNN_NNA
-dvNN_MA dvNN_MA
-dvNN_YA dvNN_YA
-dvNN_VA dvNN_VA
-
-dvT_KA dvT_KA
-dvT_K_YA dvT_K_YA
-dvT_K_RA dvT_K_RA
-dvT_K_VA dvT_K_VA
-dvT_K_SSA dvT_K_SSA
-dvT_KHA dvT_KHA
-dvT_KH_RA dvT_KH_RA
-dvT_TA dvT_TA
-dvT_T_YA dvT_T_YA
-dvT_T_VA dvT_T_VA
-dvT_THA dvT_THA
-dvT_NA dvT_NA
-dvT_N_YA dvT_N_YA
-dvT_PA dvT_PA
-dvT_P_RA dvT_P_RA
-dvT_P_LA dvT_P_LA
-dvT_PHA dvT_PHA
-dvT_MA dvT_MA
-dvT_M_YA dvT_M_YA
-dvT_YA dvT_YA
-dvT_R_YA dvT_R_YA
-dvT_LA dvT_LA
-dvT_VA dvT_VA
-dvT_SA dvT_SA
-dvT_S_NA dvT_S_NA
-dvT_S_YA dvT_S_YA
-dvT_S_VA dvT_S_VA
-
-dvTH_NA dvTH_NA
-dvTH_YA dvTH_YA
-dvTH_VA dvTH_VA
-
-dvD_GA dvD_GA
-dvD_G_RA dvD_G_RA
-dvD_GHA dvD_GHA
-dvD_DA dvD_DA
-dvD_DHA dvD_DHA
-dvD_NA dvD_NA
-dvD_BA dvD_BA
-dvD_B_RA dvD_B_RA
-dvD_BHA dvD_BHA
-dvD_MA dvD_MA
-dvD_YA dvD_YA
-dvD_VA dvD_VA
-
-dvDH_NA dvDH_NA
-dvDH_N_YA dvDH_N_YA
-dvDH_MA dvDH_MA
-dvDH_YA dvDH_YA
-dvDH_VA dvDH_VA
-
-dvN_KA dvN_KA
-dvN_K_SA dvN_K_SA
-dvN_CA dvN_CA
-dvN_CHA dvN_CHA
-dvN_TTA dvN_TTA
-dvN_DDA dvN_DDA
-dvN_TA dvN_TA
-dvN_T_YA dvN_T_YA
-dvN_T_RA dvN_T_RA
-dvN_T_SA dvN_T_SA
-dvN_THA dvN_THA
-dvN_TH_YA dvN_TH_YA
-dvN_TH_VA dvN_TH_VA
-dvN_DA dvN_DA
-dvN_D_RA dvN_D_RA
-dvN_D_VA dvN_D_VA
-dvN_DHA dvN_DHA
-dvN_DH_YA dvN_DH_YA
-dvN_DH_RA dvN_DH_RA
-dvN_DH_VA dvN_DH_VA
-dvN_NA dvN_NA
-dvN_N_YA dvN_N_YA
-dvN_PA dvN_PA
-dvN_P_RA dvN_P_RA
-dvN_PHA dvN_PHA
-dvN_PH_RA dvN_PH_RA
-dvN_BHA dvN_BHA
-dvN_BH_YA dvN_BH_YA
-dvN_BH_VA dvN_BH_VA
-dvN_MA dvN_MA
-dvN_M_YA dvN_M_YA
-dvN_YA dvN_YA
-dvN_VA dvN_VA
-dvN_SA dvN_SA
-dvN_S_TTA dvN_S_TTA
-dvN_S_M_YA dvN_S_M_YA
-dvN_S_YA dvN_S_YA
-dvN_HA dvN_HA
-
-dvP_TTA dvP_TTA
-dvP_TTHA dvP_TTHA
-dvP_TA dvP_TA
-dvP_T_YA dvP_T_YA
-dvP_NA dvP_NA
-dvP_PA dvP_PA
-dvP_PHA dvP_PHA
-dvP_MA dvP_MA
-dvP_YA dvP_YA
-dvP_LA dvP_LA
-dvP_VA dvP_VA
-dvP_SA dvP_SA
-
-dvPH_JA dvPH_JA
-dvPHx_JxA dvPHx_JxA
-dvPH_TTA dvPH_TTA
-dvPH_TA dvPH_TA
-dvPHx_TA dvPHx_TA
-dvPH_NA dvPH_NA
-dvPH_PA dvPH_PA
-dvPH_PHA dvPH_PHA
-dvPHx_PHxA dvPHx_PHxA
-dvPH_YA dvPH_YA
-dvPH_LA dvPH_LA
-dvPH_SHA dvPH_SHA
-dvPHx_SA dvPHx_SA
-
-dvB_JA dvB_JA
-dvB_JxA dvB_JxA
-dvB_J_YA dvB_J_YA
-dvB_JHA dvB_JHA
-dvB_TA dvB_TA
-dvB_DA dvB_DA
-dvB_DHA dvB_DHA
-dvB_DH_VA dvB_DH_VA
-dvB_NA dvB_NA
-dvB_BA dvB_BA
-dvB_BHA dvB_BHA
-dvB_BH_RA dvB_BH_RA
-dvB_YA dvB_YA
-dvB_LA dvB_LA
-dvB_L_YA dvB_L_YA
-dvB_VA dvB_VA
-dvB_SHA dvB_SHA
-dvB_SA dvB_SA
-
-dvBH_NA dvBH_NA
-dvBH_YA dvBH_YA
-dvBH_R_YA dvBH_R_YA
-dvBH_LA dvBH_LA
-dvBH_VA dvBH_VA
-
-dvM_TA dvM_TA
-dvM_DA dvM_DA
-dvM_NA dvM_NA
-dvM_PA dvM_PA
-dvM_P_RA dvM_P_RA
-dvM_BA dvM_BA
-dvM_B_YA dvM_B_YA
-dvM_B_RA dvM_B_RA
-dvM_BHA dvM_BHA
-dvM_BH_YA dvM_BH_YA
-dvM_BH_RA dvM_BH_RA
-dvM_BH_VA dvM_BH_VA
-dvM_MA dvM_MA
-dvM_YA dvM_YA
-dvM_LA dvM_LA
-dvM_VA dvM_VA
-dvM_SHA dvM_SHA
-dvM_SA dvM_SA
-dvM_HA dvM_HA
-
-dvY_NA dvY_NA
-dvY_YA dvY_YA
-
-dvEyelash_YA dvEyelash_YA
-dvEyelash_HA dvEyelash_HA
-
-dvL_KA dvL_KA
-dvL_K_YA dvL_K_YA
-dvL_KHA dvL_KHA
-dvL_GA dvL_GA
-dvL_JA dvL_JA
-dvL_JxA dvL_JxA
-dvL_TTA dvL_TTA
-dvL_TTHA dvL_TTHA
-dvL_DDA dvL_DDA
-dvL_DDHA dvL_DDHA
-dvL_TA dvL_TA
-dvL_THA dvL_THA
-dvL_TH_YA dvL_TH_YA
-dvL_DA dvL_DA
-dvL_D_RA dvL_D_RA
-dvL_PA dvL_PA
-dvL_PHA dvL_PHA
-dvL_BA dvL_BA
-dvL_BHA dvL_BHA
-dvL_MA dvL_MA
-dvL_YA dvL_YA
-dvL_LA dvL_LA
-dvL_L_YA dvL_L_YA
-dvL_VA dvL_VA
-dvL_V_DDA dvL_V_DDA
-dvL_SA dvL_SA
-dvL_HA dvL_HA
-
-dvV_NA dvV_NA
-dvV_YA dvV_YA
-dvV_LA dvV_LA
-dvV_VA dvV_VA
-dvV_HA dvV_HA
-
-dvSH_KA dvSH_KA
-dvSH_KxA dvSH_KxA
-dvSH_CA dvSH_CA
-dvSH_CHA dvSH_CHA
-dvSH_TTA dvSH_TTA
-dvSH_TA dvSH_TA
-dvSH_NA dvSH_NA
-dvSH_MA dvSH_MA
-dvSH_YA dvSH_YA
-dvSH_LA dvSH_LA
-dvSH_VA dvSH_VA
-dvSH_SHA dvSH_SHA
-
-dvSS_KA dvSS_KA
-dvSS_K_RA dvSS_K_RA
-dvSS_TTA dvSS_TTA
-dvSS_TT_YA dvSS_TT_YA
-dvSS_TT_RA dvSS_TT_RA
-dvSS_TT_VA dvSS_TT_VA
-dvSS_TTHA dvSS_TTHA
-dvSS_TTH_YA dvSS_TTH_YA
-dvSS_TTH_RA dvSS_TTH_RA
-dvSS_NNA dvSS_NNA
-dvSS_NN_YA dvSS_NN_YA
-dvSS_PA dvSS_PA
-dvSS_P_RA dvSS_P_RA
-dvSS_PHA dvSS_PHA
-dvSS_MA dvSS_MA
-dvSS_M_YA dvSS_M_YA
-dvSS_YA dvSS_YA
-dvSS_VA dvSS_VA
-dvSS_SSA dvSS_SSA
-
-dvS_KA dvS_KA
-dvS_K_RA dvS_K_RA
-dvS_K_VA dvS_K_VA
-dvS_KHA dvS_KHA
-dvS_JA dvS_JA
-dvS_TTA dvS_TTA
-dvS_TA dvS_TA
-dvS_T_YA dvS_T_YA
-dvS_T_RA dvS_T_RA
-dvS_T_VA dvS_T_VA
-dvS_THA dvS_THA
-dvS_TH_YA dvS_TH_YA
-dvS_DA dvS_DA
-dvS_NA dvS_NA
-dvS_PA dvS_PA
-dvS_P_RA dvS_P_RA
-dvS_PHA dvS_PHA
-dvS_BA dvS_BA
-dvS_MA dvS_MA
-dvS_M_YA dvS_M_YA
-dvS_YA dvS_YA
-dvS_LA dvS_LA
-dvS_VA dvS_VA
-dvS_SA dvS_SA
-
-dvH_NNA dvH_NNA
-dvH_NA dvH_NA
-dvH_MA dvH_MA
-dvH_YA dvH_YA
-dvH_LA dvH_LA
-dvH_VA dvH_VA
-
-dvLL_YA dvLL_YA
-
-# Mark ligatures and variants
-
-dvmII.aLong dvmII.aLong
-
-dvReph_Anusvara dvReph_Anusvara
-
-dvAnusvara.amI dvAnusvara.amI
-dvReph.amI dvReph.amI
-dvReph_Anusvara.amI dvReph_Anusvara.amI
-
-dvII_Anusvara dvII_Anusvara
-
-dvmII_Anusvara dvmII_Anusvara
-dvmII_Reph dvmII_Reph
-dvmII_Reph_Anusvara dvmII_Reph_Anusvara
-
-dvmII_Anusvara.aLong dvmII_Anusvara.aLong
-dvmII_Reph.aLong dvmII_Reph.aLong
-dvmII_Reph_Anusvara.aLong dvmII_Reph_Anusvara.aLong
-
-dvmE_Anusvara dvmE_Anusvara
-dvmE_Reph dvmE_Reph
-dvmE_Reph_Anusvara dvmE_Reph_Anusvara
-
-dvmAI_Anusvara dvmAI_Anusvara
-dvmAI_Reph dvmAI_Reph
-dvmAI_Reph_Anusvara dvmAI_Reph_Anusvara
-
-dvmO_Anusvara dvmO_Anusvara
-dvmO_Reph dvmO_Reph
-dvmO_Reph_Anusvara dvmO_Reph_Anusvara
-
-dvmAU_Anusvara dvmAU_Anusvara
-dvmAU_Reph dvmAU_Reph
-dvmAU_Reph_Anusvara dvmAU_Reph_Anusvara
-
-dvmEcandra_Anusvara dvmEcandra_Anusvara
-dvmOcandra_Anusvara dvmOcandra_Anusvara
-
-dvRA_mU dvRA_mU
-dvRA_mUU dvRA_mUU
-dvHA_mU dvHA_mU
-dvHA_mUU dvHA_mUU
-dvDA_mvR dvDA_mvR
-dvSHA_mvR dvSHA_mvR
-dvHA_mvR dvHA_mvR
-
-dvmI.a01 dvmI.a01
-dvmI.a02 dvmI.a02
-dvmI.a03 dvmI.a03
-dvmI.a04 dvmI.a04
-dvmI.a05 dvmI.a05
-dvmI.a06 dvmI.a06
-dvmI.a07 dvmI.a07
-dvmI.a08 dvmI.a08
-dvmI.a09 dvmI.a09
-dvmI.a10 dvmI.a10
-dvmI.a11 dvmI.a11
-dvmI.a12 dvmI.a12
-dvmI.a13 dvmI.a13
-dvmI.a14 dvmI.a14
-dvmI.a15 dvmI.a15
-dvmI.a16 dvmI.a16
-dvmI.a17 dvmI.a17
-dvmI.a18 dvmI.a18
-dvmI.a19 dvmI.a19
-dvmI.a20 dvmI.a20
-dvmI.a21 dvmI.a21
-dvmI.a22 dvmI.a22
-dvmI.a23 dvmI.a23
-dvmI.a24 dvmI.a24
-dvmI.a25 dvmI.a25
-dvmI.a26 dvmI.a26
-dvmI.a27 dvmI.a27
-dvmI.a28 dvmI.a28
-dvmI.a29 dvmI.a29
-dvmI.a30 dvmI.a30
-dvmI.a31 dvmI.a31
-dvmI.a32 dvmI.a32
-dvmI.a33 dvmI.a33
-dvmI.a34 dvmI.a34
-dvmI.a35 dvmI.a35
-dvmI.a36 dvmI.a36
-dvmI.a37 dvmI.a37
-dvmI.a38 dvmI.a38
-dvmI.a39 dvmI.a39
-dvmI.a40 dvmI.a40
-dvmI.a41 dvmI.a41
-dvmI.a42 dvmI.a42
-dvmI.a43 dvmI.a43
-dvmI.a44 dvmI.a44
-dvmI.a45 dvmI.a45
-dvmI.a46 dvmI.a46
-dvmI.a47 dvmI.a47
-dvmI.a48 dvmI.a48
-dvmI.a49 dvmI.a49
-dvmI.a50 dvmI.a50
 
 # ---
 

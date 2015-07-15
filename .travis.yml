@@ -1,4 +1,4 @@
-script: bash ./deploy-gh-pages.sh
+script: bash ./scripts/deploy-gh-pages.sh
 env:
   global:
   - GH_REF: github.com/mooniak/abhaya-libre-font.git
