@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1437062445
+ModificationTime: 1437115266
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -487,22 +487,22 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.fontMasterID'
+asS'com.schriftgestaltung.useNiceNames'
 p185
-S'DC4431BF-9234-4C16-9154-22D387E42D10'
-p186
-sS'com.schriftgestaltung.useNiceNames'
-p187
 L0L
+sS'com.schriftgestaltung.fontMasterID'
+p186
+S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p187
 s."
 Encoding: Custom
 UnicodeInterp: none
-NameList: AGL For New Fonts
+NameList: sinhala
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 154
-WinInfo: 65490 10 6
+WinInfo: 0 10 6
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -565,7 +565,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D85
+StartChar: si_A
 Encoding: 2 3461 2
 Width: 573
 VWidth: 1000
@@ -659,7 +659,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DA0
+StartChar: si_Ca
 Encoding: 26 3488 3
 Width: 597
 VWidth: 1000
@@ -739,7 +739,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D89
+StartChar: si_I
 Encoding: 6 3465 4
 Width: 593
 VWidth: 1000
@@ -858,7 +858,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC0
+StartChar: si_Va
 Encoding: 54 3520 5
 Width: 597
 VWidth: 1000
@@ -920,7 +920,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D8A
+StartChar: si_Ii
 Encoding: 7 3466 6
 Width: 528
 VWidth: 1000
@@ -1012,7 +1012,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D8B
+StartChar: si_U
 Encoding: 8 3467 7
 Width: 651
 VWidth: 1000
@@ -1064,7 +1064,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DA7
+StartChar: si_Tta
 Encoding: 33 3495 8
 Width: 603
 VWidth: 1000
@@ -1112,7 +1112,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D91
+StartChar: si_E
 Encoding: 14 3473 9
 Width: 595
 VWidth: 1000
@@ -1204,7 +1204,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D94
+StartChar: si_Os
 Encoding: 17 3476 10
 Width: 636
 VWidth: 1000
@@ -1298,7 +1298,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D9A
+StartChar: si_Ka
 Encoding: 20 3482 11
 Width: 746
 VWidth: 1000
@@ -1400,7 +1400,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DB1
+StartChar: si_Na
 Encoding: 43 3505 12
 Width: 806
 VWidth: 1000
@@ -1476,7 +1476,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D9B
+StartChar: si_Kha
 Encoding: 21 3483 13
 Width: 630
 VWidth: 1000
@@ -1554,7 +1554,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DB4
+StartChar: si_Pa
 Encoding: 45 3508 14
 Width: 616
 VWidth: 1000
@@ -1636,7 +1636,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D9C
+StartChar: si_Ga
 Encoding: 22 3484 15
 Width: 636
 VWidth: 1000
@@ -1704,7 +1704,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0D9D
+StartChar: si_Gha
 Encoding: 23 3485 16
 Width: 677
 VWidth: 1000
@@ -1824,7 +1824,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DA2
+StartChar: si_Ja
 Encoding: 28 3490 17
 Width: 598
 VWidth: 1000
@@ -1934,7 +1934,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DA1
+StartChar: si_Cha
 Encoding: 27 3489 18
 Width: 598
 VWidth: 1000
@@ -2028,7 +2028,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DAA
+StartChar: si_Ddha
 Encoding: 36 3498 19
 Width: 647
 VWidth: 1000
@@ -2114,7 +2114,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DAB
+StartChar: si_Nna
 Encoding: 37 3499 20
 Width: 963
 VWidth: 1000
@@ -2248,7 +2248,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DAC
+StartChar: si_Nndda
 Encoding: 38 3500 21
 Width: 731
 VWidth: 1000
@@ -2340,7 +2340,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DAD
+StartChar: si_Ta
 Encoding: 39 3501 22
 Width: 704
 VWidth: 1000
@@ -2422,7 +2422,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DA9
+StartChar: si_Dda
 Encoding: 35 3497 23
 Width: 647
 VWidth: 1000
@@ -2498,7 +2498,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DAE
+StartChar: si_Tha
 Encoding: 40 3502 24
 Width: 614
 VWidth: 1000
@@ -2554,7 +2554,7 @@ EndSplineSet
 Layer: 3
 EndChar
 
-StartChar: uni0DC4
+StartChar: si_Ha
 Encoding: 58 3524 25
 Width: 653
 VWidth: 1000
@@ -2698,6 +2698,7 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 2-1" si_Dda si_MatraIi
 EndChar
 
 StartChar: NameMe.10
@@ -2778,7 +2779,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D8D
+StartChar: si_vocalicR
 Encoding: 10 3469 29
 Width: 894
 VWidth: 1000
@@ -2856,7 +2857,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D8E
+StartChar: si_vocalicRr
 Encoding: 11 3470 30
 Width: 1140
 VWidth: 1000
@@ -2959,7 +2960,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D92
+StartChar: si_Ee
 Encoding: 15 3474 31
 Width: 595
 VWidth: 1000
@@ -3024,7 +3025,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D95
+StartChar: si_Oo
 Encoding: 18 3477 32
 Width: 636
 VWidth: 1000
@@ -3092,7 +3093,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D9F
+StartChar: si_Nnga
 Encoding: 25 3487 33
 Width: 749
 VWidth: 1000
@@ -3141,7 +3142,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DA4
+StartChar: si_Nya
 Encoding: 30 3492 34
 Width: 1024
 VWidth: 1000
@@ -3225,7 +3226,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DA5
+StartChar: si_Jnya
 Encoding: 31 3493 35
 Width: 842
 VWidth: 1000
@@ -3292,7 +3293,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DAF
+StartChar: si_Da
 Encoding: 41 3503 36
 Width: 456
 VWidth: 1000
@@ -3330,7 +3331,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DB3
+StartChar: si_Nda
 Encoding: 44 3507 37
 Width: 526
 VWidth: 1000
@@ -3377,7 +3378,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DB5
+StartChar: si_Pha
 Encoding: 46 3509 38
 Width: 579
 VWidth: 1000
@@ -3421,7 +3422,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DB6
+StartChar: si_Ba
 Encoding: 47 3510 39
 Width: 619
 VWidth: 1000
@@ -3463,7 +3464,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DB7
+StartChar: si_Bha
 Encoding: 48 3511 40
 Width: 670
 VWidth: 1000
@@ -3514,7 +3515,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DB8
+StartChar: si_Ma
 Encoding: 49 3512 41
 Width: 631
 VWidth: 1000
@@ -3561,7 +3562,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DB9
+StartChar: si_Mba
 Encoding: 50 3513 42
 Width: 636
 VWidth: 1000
@@ -3620,7 +3621,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DBA
+StartChar: si_Ya
 Encoding: 51 3514 43
 Width: 636
 VWidth: 1000
@@ -3666,7 +3667,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DBB
+StartChar: si_Ra
 Encoding: 52 3515 44
 Width: 528
 VWidth: 1000
@@ -3698,7 +3699,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DBD
+StartChar: si_La
 Encoding: 53 3517 45
 Width: 670
 VWidth: 1000
@@ -3736,7 +3737,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DC1
+StartChar: si_Sha
 Encoding: 55 3521 46
 Width: 631
 VWidth: 1000
@@ -3787,7 +3788,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DC2
+StartChar: si_Ssa
 Encoding: 56 3522 47
 Width: 598
 VWidth: 1000
@@ -3848,7 +3849,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DC3
+StartChar: si_Sa
 Encoding: 57 3523 48
 Width: 677
 VWidth: 1000
@@ -3966,6 +3967,7 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 2-1" si_Kha si_Halant
 EndChar
 
 StartChar: si_Ca.halant
@@ -4027,6 +4029,7 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 2-1" si_Ca si_Halant
 EndChar
 
 StartChar: si_Cha.halant
@@ -4093,6 +4096,7 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 2-1" si_Cha si_Halant
 EndChar
 
 StartChar: si_Ja.halant
@@ -4167,9 +4171,10 @@ SplineSet
 EndSplineSet
 Layer: 2
 Layer: 3
+Ligature2: "'abvs' Above Base Substitutions in Sinhala lookup 2-1" si_Ja si_Halant
 EndChar
 
-StartChar: uni0D86
+StartChar: si_Aa
 Encoding: 3 3462 53
 Width: 850
 VWidth: 1000
@@ -4238,7 +4243,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D82
+StartChar: anusvara
 Encoding: 0 3458 54
 Width: 364
 VWidth: 1000
@@ -4264,7 +4269,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D83
+StartChar: visarga
 Encoding: 1 3459 55
 Width: 248
 VWidth: 1000
@@ -4300,7 +4305,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D87
+StartChar: si_Ae
 Encoding: 4 3463 56
 Width: 878
 VWidth: 1000
@@ -4366,7 +4371,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D88
+StartChar: si_Aae
 Encoding: 5 3464 57
 Width: 878
 VWidth: 1000
@@ -4437,7 +4442,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D8C
+StartChar: si_Uu
 Encoding: 9 3468 58
 Width: 991
 VWidth: 1000
@@ -4493,7 +4498,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D96
+StartChar: si_Au
 Encoding: 19 3478 59
 Width: 1034
 VWidth: 1000
@@ -4570,7 +4575,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D9E
+StartChar: si_Nga
 Encoding: 24 3486 60
 Width: 745
 VWidth: 1000
@@ -4622,7 +4627,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DA3
+StartChar: si_Jha
 Encoding: 29 3491 61
 Width: 1087
 VWidth: 1000
@@ -4698,7 +4703,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DA6
+StartChar: si_Ndja
 Encoding: 32 3494 62
 Width: 699
 VWidth: 1000
@@ -4768,7 +4773,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DA8
+StartChar: si_Ttha
 Encoding: 34 3496 63
 Width: 614
 VWidth: 1000
@@ -4812,7 +4817,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DB0
+StartChar: si_Dha
 Encoding: 42 3504 64
 Width: 638
 VWidth: 1000
@@ -4850,7 +4855,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DC5
+StartChar: si_Lla
 Encoding: 59 3525 65
 Width: 636
 VWidth: 1000
@@ -4890,7 +4895,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DC6
+StartChar: si_Fa
 Encoding: 60 3526 66
 Width: 607
 VWidth: 1000
@@ -4929,7 +4934,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DCA
+StartChar: si_Halant
 Encoding: 61 3530 67
 Width: 2
 VWidth: 1000
@@ -4957,7 +4962,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DCF
+StartChar: si_MatraAa
 Encoding: 62 3535 68
 Width: 312
 VWidth: 1000
@@ -4988,7 +4993,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DD0
+StartChar: si_MatraAe
 Encoding: 63 3536 69
 Width: 334
 VWidth: 1000
@@ -5016,7 +5021,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DD1
+StartChar: si_MatraAae
 Encoding: 64 3537 70
 Width: 336
 VWidth: 1000
@@ -5049,7 +5054,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DD2
+StartChar: si_MatraI
 Encoding: 65 3538 71
 Width: 2
 VWidth: 1000
@@ -5076,7 +5081,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DD3
+StartChar: si_MatraIi
 Encoding: 66 3539 72
 Width: 2
 VWidth: 1000
@@ -5108,7 +5113,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DD4
+StartChar: si_MatraU
 Encoding: 67 3540 73
 Width: 2
 VWidth: 1000
@@ -5137,7 +5142,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DD6
+StartChar: si_MatraUu
 Encoding: 68 3542 74
 Width: 2
 VWidth: 1000
@@ -5169,7 +5174,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DD8
+StartChar: si_MatraR
 Encoding: 69 3544 75
 Width: 313
 VWidth: 1000
@@ -5210,7 +5215,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DD9
+StartChar: si_MatraE
 Encoding: 70 3545 76
 Width: 603
 VWidth: 1000
@@ -5247,7 +5252,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DDF
+StartChar: si_MatraLs
 Encoding: 76 3551 77
 Width: 441
 VWidth: 1000
@@ -5286,7 +5291,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DF3
+StartChar: si_MatraLl
 Encoding: 77 3571 78
 Width: 441
 VWidth: 1000
@@ -5325,7 +5330,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0DF2
+StartChar: si_MatraRr
 Encoding: 78 3570 79
 Width: 571
 VWidth: 1000
@@ -5391,7 +5396,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: uni0D93
+StartChar: si_Ai
 Encoding: 16 3475 80
 Width: 1178
 VWidth: 1000
@@ -5465,7 +5470,7 @@ Layer: 2
 Layer: 3
 EndChar
 
-StartChar: space
+StartChar: uni0020
 Encoding: 65541 32 81
 Width: 200
 VWidth: 0
