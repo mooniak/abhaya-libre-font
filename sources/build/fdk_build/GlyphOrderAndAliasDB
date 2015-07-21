@@ -6,7 +6,7 @@ NULL NULL uni0000
 CR CR uni000D
 space space uni0020
 
-# Vowel letters
+# Vowel letters	# Vowel letters
 anusvara	anusvara	  uni0D82
 visarga	visarga	  uni0D83
 si_A	si_A	  uni0D85
@@ -27,7 +27,7 @@ si_Ai	si_Ai	  uni0D93
 si_Os	si_Os	  uni0D94
 si_Oo	si_Oo	  uni0D95
 si_Au	si_Au	  uni0D96
-# Consonant letters: basic
+# Consonant letters: basic	# Consonant letters: basic
 si_Ka	si_Ka	  uni0D9A
 si_Kha	si_Kha	  uni0D9B
 si_Ga	si_Ga	  uni0D9C
@@ -69,7 +69,7 @@ si_Sa	si_Sa	  uni0DC3
 si_Ha	si_Ha	  uni0DC4
 si_Lla	si_Lla	  uni0DC5
 si_Fa	si_Fa	  uni0DC6
-# Matras පිල්ලම්
+# Matras පිල්ලම්	# Matras පිල්ලම්
 si_Viarma	si_Viarma	  uni0DCA
 si_MatraAa	si_MatraAa	  uni0DCF
 si_MatraAe	si_MatraAe	  uni0DD0
@@ -92,14 +92,23 @@ si_kundaliya	si_kundaliya	  uni0DF4
 
 
 si_MatraAa.halant	si_MatraAa.halant
-#Ya Post forms
+#Ya Post forms	#Ya Post forms
 si_Ya.post	si_Ya.post
-si_Y.reph.post	si_Y.reph.post
+si_YAa.post	si_YAa.post
+si_Y.post.halant	si_Y.post.halant
+si_Yu.post	si_Yu.post
+si_YUu.post	si_YUu.post
+si_Ya.post.reph	si_Ya.post.reph
+si_Yu.post.reph	si_Yu.post.reph
+si_YUu.post.reph	si_YUu.post.reph
 
-si_Rakar
-si_Reph
 
-#Akhand Forms
+
+
+si_Rakar	si_Rakar
+si_Reph	si_Reph
+
+#Akhand Forms	#Akhand Forms
 si_KSsa	si_KSsa
 si_KVa	si_KVa
 si_TVa	si_TVa
@@ -108,11 +117,11 @@ si_NDa	si_NDa
 si_NVa	si_NVa
 si_NDha	si_NDha
 si_NTha	si_NTha
-si_DV	si_DV
+si_DVa	si_DVa
 si_DDha	si_DDha
 si_TtTha	si_TtTha
 
-#Astrological digits
+#Astrological digits	#Astrological digits
 si_Lith.Zero	si_Lith.Zero
 si_Lith.One	si_Lith.One
 si_Lith.Two	si_Lith.Two
@@ -222,7 +231,7 @@ si_SI	si_SI
 si_HI	si_HI
 si_LlI	si_LlI
 si_FI	si_FI
-#
+#	#
 si_KSsI	si_KSsI
 si_KVI	si_KVI
 si_TVI	si_TVI
@@ -289,7 +298,7 @@ si_DVIi	si_DVIi
 si_DDhIi	si_DDhIi
 si_TtThIi	si_TtThIi
 
-### පාපිල්
+### පාපිල්	### පාපිල්
 si_KU	si_KU
 si_KhU	si_KhU
 si_GU	si_GU
@@ -343,7 +352,7 @@ si_NThU	si_NThU
 si_DVU	si_DVU
 si_DDhU	si_DDhU
 si_TtThU	si_TtThU
-si_YU.post
+si_YU.post	si_YU.post
 
 
 
@@ -389,7 +398,7 @@ si_SUu	si_SUu
 si_HUu	si_HUu
 si_LlUu	si_LlUu
 si_FUu	si_FUu
-##########
+##########	##########
 si_KSsUu	si_KSsUu
 si_KVUu	si_KVUu
 si_TVUu	si_TVUu
@@ -401,134 +410,131 @@ si_NThUu	si_NThUu
 si_DVUu	si_DVUu
 si_DDhUu	si_DDhUu
 si_TtThUu	si_TtThUu
-si_YUu.post
-
-
-#-------------------------------
-
-
-si_KRa
-si_KhRa
-si_GRa
-si_GhRa
-si_CRa
-si_JRa
-si_TtRa
-si_DdRa
-si_TRa
-si_DRa
-si_DhRa
-si_PRa
-si_BRa
-si_BhRa
-si_VRa
-si_ShRa
-si_SsRa
-si_SRa
-si_HRa
-si_FRa
-### Akhnds Rakar Forms
-si_NDRa
-
-### Rakar Forms Matra I
-si_KRI
-si_KhRI
-si_GRI
-si_GhRI
-si_CRI
-si_JRI
-si_TtRI
-si_DdRI
-si_TRI
-si_DRI
-si_DhRI
-si_PRI
-si_BRI
-si_BhRI
-si_VRI
-si_ShRI
-si_SsRI
-si_SRI
-si_HRI
-si_FRI
-### Akhnds Rakar Forms
-si_NDRI
-
-si_KRIi
-si_KhRIi
-si_GRIi
-si_GhRIi
-si_CRIi
-si_JRIi
-si_TtRIi
-si_DdRIi
-si_TRIi
-si_DRIi
-si_DhRIi
-si_PRIi
-si_BRIi
-si_BhRIi
-si_VRIi
-si_ShRIi
-si_SsRIi
-si_SRIi
-si_HRIi
-si_FRIi
-### Akhnds Rakar Forms
-si_NDRIi
-
-
-### Reph Forms
-si_K.reph
-si_Kh.reph
-si_G.reph
-si_Gh.reph
-si_Ng.reph
-si_Nng.reph
-si_C.reph
-si_Ch.reph
-si_J.reph
-si_Jh.reph
-si_Ny.reph
-si_Jny.reph
-si_Ndj.reph
-si_Tt.reph
-si_Tth.reph
-si_Dd.reph
-si_Ddh.reph
-si_Nn.reph
-si_Ndd.reph
-si_T.reph
-si_Th.reph
-si_D.reph
-si_Dh.reph
-si_N.reph
-si_Nd.reph
-si_P.reph
-si_Ph.reph
-si_B.reph
-si_Bh.reph
-si_M.reph
-si_Mb.reph
-si_Y.reph
-
-si_L.reph
-si_V.reph
-si_Sh.reph
-si_Ss.reph
-si_S.reph
-si_H.reph
-si_Ll.reph
-si_F.reph
-
-#####
-si_DYa.post
-si_DYAa.post
+si_YUu.post	si_YUu.post
 
 
 
+si_KRa	si_KRa
+si_KhRa	si_KhRa
+si_GRa	si_GRa
+si_GhRa	si_GhRa
+si_CRa	si_CRa
+si_JRa	si_JRa
+si_TtRa	si_TtRa
+si_DdRa	si_DdRa
+si_TRa	si_TRa
+si_DRa	si_DRa
+si_DhRa	si_DhRa
+si_PRa	si_PRa
+si_BRa	si_BRa
+si_BhRa	si_BhRa
+si_VRa	si_VRa
+si_ShRa	si_ShRa
+si_SsRa	si_SsRa
+si_SRa	si_SRa
+si_HRa	si_HRa
+si_FRa	si_FRa
+### Akhnds Rakar Forms	### Akhnds Rakar Forms
+si_NDRa	si_NDRa
+
+### Rakar Forms Matra I	### Rakar Forms Matra I
+si_KRI	si_KRI
+si_KhRI	si_KhRI
+si_GRI	si_GRI
+si_GhRI	si_GhRI
+si_CRI	si_CRI
+si_JRI	si_JRI
+si_TtRI	si_TtRI
+si_DdRI	si_DdRI
+si_TRI	si_TRI
+si_DRI	si_DRI
+si_DhRI	si_DhRI
+si_PRI	si_PRI
+si_BRI	si_BRI
+si_BhRI	si_BhRI
+si_VRI	si_VRI
+si_ShRI	si_ShRI
+si_SsRI	si_SsRI
+si_SRI	si_SRI
+si_HRI	si_HRI
+si_FRI	si_FRI
+### Akhnds Rakar Forms	### Akhnds Rakar Forms
+si_NDRI	si_NDRI
+
+si_KRIi	si_KRIi
+si_KhRIi	si_KhRIi
+si_GRIi	si_GRIi
+si_GhRIi	si_GhRIi
+si_CRIi	si_CRIi
+si_JRIi	si_JRIi
+si_TtRIi	si_TtRIi
+si_DdRIi	si_DdRIi
+si_TRIi	si_TRIi
+si_DRIi	si_DRIi
+si_DhRIi	si_DhRIi
+si_PRIi	si_PRIi
+si_BRIi	si_BRIi
+si_BhRIi	si_BhRIi
+si_VRIi	si_VRIi
+si_ShRIi	si_ShRIi
+si_SsRIi	si_SsRIi
+si_SRIi	si_SRIi
+si_HRIi	si_HRIi
+si_FRIi	si_FRIi
+### Akhnds Rakar Forms	### Akhnds Rakar Forms
+si_NDRIi	si_NDRIi
 
 
+### Reph Forms	### Reph Forms
+si_K.reph	si_K.reph
+si_Kh.reph	si_Kh.reph
+si_G.reph	si_G.reph
+si_Gh.reph	si_Gh.reph
+si_Ng.reph	si_Ng.reph
+si_Nng.reph	si_Nng.reph
+si_C.reph	si_C.reph
+si_Ch.reph	si_Ch.reph
+si_J.reph	si_J.reph
+si_Jh.reph	si_Jh.reph
+si_Ny.reph	si_Ny.reph
+si_Jny.reph	si_Jny.reph
+si_Ndj.reph	si_Ndj.reph
+si_Tt.reph	si_Tt.reph
+si_Tth.reph	si_Tth.reph
+si_Dd.reph	si_Dd.reph
+si_Ddh.reph	si_Ddh.reph
+si_Nn.reph	si_Nn.reph
+si_Ndd.reph	si_Ndd.reph
+si_T.reph	si_T.reph
+si_Th.reph	si_Th.reph
+si_D.reph	si_D.reph
+si_Dh.reph	si_Dh.reph
+si_N.reph	si_N.reph
+si_Nd.reph	si_Nd.reph
+si_P.reph	si_P.reph
+si_Ph.reph	si_Ph.reph
+si_B.reph	si_B.reph
+si_Bh.reph	si_Bh.reph
+si_M.reph	si_M.reph
+si_Mb.reph	si_Mb.reph
+si_Y.reph	si_Y.reph
+
+si_L.reph	si_L.reph
+si_V.reph	si_V.reph
+si_Sh.reph	si_Sh.reph
+si_Ss.reph	si_Ss.reph
+si_S.reph	si_S.reph
+si_H.reph	si_H.reph
+si_Ll.reph	si_Ll.reph
+si_F.reph	si_F.reph
+
+#####	#####
+si_DYa.post	si_DYa.post
+si_DYAa.post	si_DYAa.post
+si_DYu.post	si_DYu.post
+si_DYUu.post	si_DYUu.post
+si_DYo.post	si_DYo.post
+si_DYOo.post	si_DYOo.post
 # ---
 
 # Adobe Latin 3
