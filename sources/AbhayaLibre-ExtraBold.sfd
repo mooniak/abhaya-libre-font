@@ -494,14 +494,14 @@ p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p187
 s."
-Encoding: Custom
+Encoding: Sinhala
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 154
-WinInfo: 0 9 6
+WinInfo: 0 9 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -515,10 +515,10 @@ Grid
  2048 140.137435913 l 1024
 EndSplineSet
 TeXData: 1 0 0 307200 153600 102400 526336 1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 27 29
+BeginChars: 65538 29
 
 StartChar: anusvara
-Encoding: -1 -1 0
+Encoding: 65536 -1 0
 Width: 1024
 VWidth: 893
 Flags: M
@@ -538,7 +538,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NnI
-Encoding: -1 -1 1
+Encoding: 237 -1 1
 Width: 1024
 VWidth: 893
 LayerCount: 3
@@ -561,7 +561,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D85
-Encoding: 0 3461 2
+Encoding: 2 3461 2
 Width: 573
 VWidth: 1000
 Flags: HW
@@ -612,7 +612,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DA0
-Encoding: 10 3488 3
+Encoding: 26 3488 3
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -656,7 +656,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D89
-Encoding: 1 3465 4
+Encoding: 6 3465 4
 Width: 593
 VWidth: 1000
 Flags: HW
@@ -702,7 +702,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DC0
-Encoding: 22 3520 5
+Encoding: 54 3520 5
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -737,7 +737,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D8A
-Encoding: 2 3466 6
+Encoding: 7 3466 6
 Width: 528
 VWidth: 1000
 Flags: HW
@@ -787,7 +787,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D8B
-Encoding: 3 3467 7
+Encoding: 8 3467 7
 Width: 651
 VWidth: 1000
 Flags: HW
@@ -817,7 +817,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DA7
-Encoding: 13 3495 8
+Encoding: 33 3495 8
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -845,7 +845,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D91
-Encoding: 4 3473 9
+Encoding: 14 3473 9
 Width: 595
 VWidth: 1000
 Flags: HW
@@ -895,7 +895,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D94
-Encoding: 5 3476 10
+Encoding: 17 3476 10
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -946,7 +946,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D9A
-Encoding: 6 3482 11
+Encoding: 20 3482 11
 Width: 746
 VWidth: 1000
 Flags: HW
@@ -1001,7 +1001,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DB1
-Encoding: 20 3505 12
+Encoding: 43 3505 12
 Width: 806
 VWidth: 1000
 Flags: HW
@@ -1043,7 +1043,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D9B
-Encoding: 7 3483 13
+Encoding: 21 3483 13
 Width: 630
 VWidth: 1000
 Flags: HW
@@ -1086,7 +1086,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DB4
-Encoding: 21 3508 14
+Encoding: 45 3508 14
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -1130,7 +1130,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D9C
-Encoding: 8 3484 15
+Encoding: 22 3484 15
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -1168,7 +1168,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0D9D
-Encoding: 9 3485 16
+Encoding: 23 3485 16
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -1232,7 +1232,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DA2
-Encoding: 12 3490 17
+Encoding: 28 3490 17
 Width: 598
 VWidth: 1000
 Flags: HW
@@ -1281,7 +1281,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DA1
-Encoding: 11 3489 18
+Encoding: 27 3489 18
 Width: 598
 VWidth: 1000
 Flags: HW
@@ -1332,7 +1332,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DAA
-Encoding: 15 3498 19
+Encoding: 36 3498 19
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -1379,7 +1379,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DAB
-Encoding: 16 3499 20
+Encoding: 37 3499 20
 Width: 963
 VWidth: 1000
 Flags: HW
@@ -1510,7 +1510,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0DAC
-Encoding: 17 3500 21
+Encoding: 38 3500 21
 Width: 731
 VWidth: 1000
 Flags: HW
@@ -1560,7 +1560,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DAD
-Encoding: 18 3501 22
+Encoding: 39 3501 22
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -1605,7 +1605,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DA9
-Encoding: 14 3497 23
+Encoding: 35 3497 23
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -1647,7 +1647,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DAE
-Encoding: 19 3502 24
+Encoding: 40 3502 24
 Width: 614
 VWidth: 1000
 Flags: HW
@@ -1679,7 +1679,7 @@ Layer: 2
 EndChar
 
 StartChar: uni0DC4
-Encoding: 23 3524 25
+Encoding: 58 3524 25
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -1721,7 +1721,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DdI
-Encoding: 24 -1 26
+Encoding: 223 -1 26
 Width: 1024
 VWidth: 0
 Flags: HW
@@ -1732,7 +1732,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DdIi
-Encoding: 25 -1 27
+Encoding: 224 -1 27
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -1787,7 +1787,7 @@ Layer: 2
 EndChar
 
 StartChar: space
-Encoding: 26 -1 28
+Encoding: 65537 -1 28
 Width: 200
 VWidth: 0
 Flags: HW
