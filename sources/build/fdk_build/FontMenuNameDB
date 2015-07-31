@@ -1,0 +1,13 @@
+#!opentype
+
+# [PostScriptName]
+#   f = Preferred Family Name
+#   s = Subfamily Name (Style Name)
+#   l = Compatible Family Menu Name
+#   m = 1, Macintosh Compatible Full Name
+
+[AbhayaLibre-Regular]
+  f=  AbhayaLibre
+  s=  Regular
+  l=  AbhayaLibre
+  m=1,AbhayaLibre

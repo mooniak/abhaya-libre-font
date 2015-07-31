@@ -1,0 +1,5 @@
+FontMenuDBPath	../FontMenuNameDB
+GlyphAliasDBPath	../GlyphOrderAndAliasDB
+FeaturePath	./features
+InputFontPath	./font.ufo
+OutputFontPath	./AbhayaLibre-Regular.otf
