@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1438772075
+ModificationTime: 1438775270
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -500,13 +500,13 @@ aS'ring'
 p183
 aS'tilde'
 p184
-asS'com.schriftgestaltung.useNiceNames'
+asS'com.schriftgestaltung.fontMasterID'
 p185
-L0L
-sS'com.schriftgestaltung.fontMasterID'
-p186
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
+p186
+sS'com.schriftgestaltung.useNiceNames'
 p187
+L0L
 s."
 Encoding: Custom
 Compacted: 1
@@ -2077,30 +2077,12 @@ StartChar: si_Aae
 Encoding: 5 3464 36
 Width: 878
 VWidth: 1000
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 Fore
-SplineSet
-545 312.5 m 1
- 545 339 l 1
- 790 339 l 1
- 790 317 l 1
- 663 223 l 1
- 813 223 l 1
- 813 200.5 l 1
- 767.4375 165.33984375 729 118.344726562 729 36 c 0
- 729 -28.8525390625 767.107421875 -99.75 847 -99.75 c 1
- 847 -126.75 l 1
- 813.6484375 -141.067382812 778.3515625 -148 748.25 -148 c 0
- 657.658203125 -148 596.75 -100.616210938 596.75 -18 c 0
- 596.75 96.337890625 700.166992188 155.98046875 768.5 196.5 c 1
- 613 196.5 l 1
- 613 221.25 l 1
- 738.75 312.5 l 1
- 545 312.5 l 1
-EndSplineSet
-Refer: 2 3461 S 1 0 0 1 0 0 2
+Refer: 70 3537 S 1 0 0 1 541 0 2
+Refer: 2 3461 N 1 0 0 1 0 0 2
 Layer: 2
 EndChar
 
