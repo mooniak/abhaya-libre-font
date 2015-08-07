@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_BhI">
+  <advance width="670" />
+  <outline>
+    <contour>
+      <point type="line" x="441" y="432" />
+      <point x="440" y="431" />
+      <point x="440" y="431" />
+      <point type="curve" x="439" y="431" />
+      <point x="353" y="432" />
+      <point x="231" y="455" />
+      <point type="curve" x="231" y="511" />
+      <point x="231" y="556" />
+      <point x="301" y="585" />
+      <point type="curve" x="382" y="585" />
+      <point x="462" y="585" />
+      <point x="553" y="567" />
+      <point type="curve" x="553" y="506" />
+      <point x="553" y="464" />
+      <point x="515" y="431" />
+      <point type="curve" x="457" y="431" />
+      <point type="line" x="449" y="431" />
+      <point type="line" x="467" y="408" />
+      <point x="548" y="414" />
+      <point x="587" y="461" />
+      <point type="curve" x="587" y="523" />
+      <point x="587" y="618" />
+      <point x="485" y="667" />
+      <point type="curve" x="379" y="667" />
+      <point x="277" y="667" />
+      <point x="178" y="628" />
+      <point type="curve" x="178" y="537" />
+      <point x="178" y="462" />
+      <point x="265" y="413" />
+      <point type="curve" x="425" y="409" />
+    </contour>
+  </outline>
+</glyph>

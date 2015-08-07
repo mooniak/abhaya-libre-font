@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_ChUu" format="1">
+  <advance width="598"/>
+  <outline>
+    <contour>
+      <point x="39" y="-138" type="curve" smooth="yes"/>
+      <point x="39" y="-80"/>
+      <point x="88" y="-40"/>
+      <point x="141" y="-40" type="curve" smooth="yes"/>
+      <point x="183" y="-40"/>
+      <point x="215" y="-55"/>
+      <point x="238" y="-91" type="curve"/>
+      <point x="207" y="-102" type="line"/>
+      <point x="196" y="-83"/>
+      <point x="175" y="-68"/>
+      <point x="146" y="-68" type="curve" smooth="yes"/>
+      <point x="107" y="-68"/>
+      <point x="76" y="-93"/>
+      <point x="76" y="-127" type="curve" smooth="yes"/>
+      <point x="76" y="-163"/>
+      <point x="107" y="-187"/>
+      <point x="148" y="-187" type="curve" smooth="yes"/>
+      <point x="231" y="-187"/>
+      <point x="296" y="-116"/>
+      <point x="393" y="-116" type="curve" smooth="yes"/>
+      <point x="441" y="-116"/>
+      <point x="482" y="-137"/>
+      <point x="508" y="-168" type="curve"/>
+      <point x="508" y="143" type="line"/>
+      <point x="541" y="203" type="line"/>
+      <point x="541" y="-231" type="line"/>
+      <point x="517" y="-231" type="line"/>
+      <point x="502" y="-195"/>
+      <point x="462" y="-144"/>
+      <point x="397" y="-144" type="curve" smooth="yes"/>
+      <point x="306" y="-144"/>
+      <point x="248" y="-237"/>
+      <point x="150" y="-237" type="curve" smooth="yes"/>
+      <point x="95" y="-237"/>
+      <point x="39" y="-206"/>
+    </contour>
+    <component base="si_Cha"/>
+  </outline>
+</glyph>

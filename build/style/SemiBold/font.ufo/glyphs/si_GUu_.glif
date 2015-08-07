@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_GUu" format="1">
+  <advance width="636"/>
+  <outline>
+    <contour>
+      <point x="336" y="-129" type="curve" smooth="yes"/>
+      <point x="336" y="-93"/>
+      <point x="366" y="-72"/>
+      <point x="400" y="-67" type="curve"/>
+      <point x="345" y="-39" type="line"/>
+      <point x="431" y="-14" type="line"/>
+      <point x="338" y="1" type="line"/>
+      <point x="389" y="13" type="line"/>
+      <point x="510" y="-7" type="line"/>
+      <point x="404" y="-44" type="line"/>
+      <point x="464" y="-76" type="line"/>
+      <point x="436" y="-83"/>
+      <point x="380" y="-85"/>
+      <point x="380" y="-110" type="curve" smooth="yes"/>
+      <point x="380" y="-136"/>
+      <point x="418" y="-144"/>
+      <point x="460" y="-144" type="curve" smooth="yes"/>
+      <point x="514" y="-144"/>
+      <point x="559" y="-124"/>
+      <point x="559" y="-82" type="curve" smooth="yes"/>
+      <point x="559" y="-77"/>
+      <point x="558" y="-68"/>
+      <point x="553" y="-59" type="curve"/>
+      <point x="587" y="-59" type="line"/>
+      <point x="591" y="-71"/>
+      <point x="591" y="-83"/>
+      <point x="591" y="-94" type="curve" smooth="yes"/>
+      <point x="591" y="-161"/>
+      <point x="540" y="-205"/>
+      <point x="458" y="-205" type="curve" smooth="yes"/>
+      <point x="400" y="-205"/>
+      <point x="336" y="-187"/>
+    </contour>
+    <component base="si_Ga"/>
+  </outline>
+</glyph>

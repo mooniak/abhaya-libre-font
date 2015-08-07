@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_KRI" format="1">
+  <advance width="746"/>
+  <outline>
+    <contour>
+      <point x="218" y="421" type="curve" smooth="yes"/>
+      <point x="218" y="389.837"/>
+      <point x="220.903" y="360.752"/>
+      <point x="225" y="343" type="curve"/>
+      <point x="250.25" y="365.5" type="line"/>
+      <point x="247.657" y="375.107"/>
+      <point x="246.5" y="386.95"/>
+      <point x="246.5" y="396.25" type="curve" smooth="yes"/>
+      <point x="246.5" y="473.841"/>
+      <point x="336" y="549.75"/>
+      <point x="473" y="549.75" type="curve" smooth="yes"/>
+      <point x="555" y="549.75"/>
+      <point x="633" y="514.546"/>
+      <point x="633" y="456" type="curve" smooth="yes"/>
+      <point x="633" y="426.338"/>
+      <point x="612.845" y="407.907"/>
+      <point x="578.75" y="403.5" type="curve"/>
+      <point x="610" y="383" type="line"/>
+      <point x="658" y="402"/>
+      <point x="688" y="444"/>
+      <point x="688" y="505" type="curve" smooth="yes"/>
+      <point x="688" y="610"/>
+      <point x="603" y="671"/>
+      <point x="473" y="671" type="curve" smooth="yes"/>
+      <point x="330" y="671"/>
+      <point x="218" y="590"/>
+    </contour>
+    <contour>
+      <point x="114" y="-44" type="curve"/>
+      <point x="143.5" y="-44" type="line"/>
+      <point x="177.033" y="-93.29"/>
+      <point x="247.552" y="-112.75"/>
+      <point x="360.75" y="-112.75" type="curve" smooth="yes"/>
+      <point x="512.314" y="-112.75"/>
+      <point x="655.75" y="-31.0107"/>
+      <point x="655.75" y="63.25" type="curve" smooth="yes"/>
+      <point x="655.75" y="78.2842"/>
+      <point x="653" y="90.793"/>
+      <point x="646" y="102" type="curve"/>
+      <point x="659" y="133" type="line"/>
+      <point x="677" y="106.333"/>
+      <point x="686" y="74.667"/>
+      <point x="686" y="38" type="curve" smooth="yes"/>
+      <point x="686" y="-123.729"/>
+      <point x="536.3" y="-219"/>
+      <point x="384.75" y="-219" type="curve" smooth="yes"/>
+      <point x="244.907" y="-219"/>
+      <point x="151.333" y="-153.333"/>
+    </contour>
+    <component base="si_Ka"/>
+  </outline>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_K.halant" format="1">
+  <advance width="746"/>
+  <outline>
+    <contour>
+      <point x="549.5" y="348" type="line"/>
+      <point x="578" y="331" type="line"/>
+      <point x="578" y="478" type="line"/>
+      <point x="593.333" y="471.333"/>
+      <point x="608.333" y="468"/>
+      <point x="623" y="468" type="curve" smooth="yes"/>
+      <point x="666.191" y="468"/>
+      <point x="701" y="498"/>
+      <point x="701" y="542" type="curve" smooth="yes"/>
+      <point x="701" y="634"/>
+      <point x="603.5" y="639"/>
+      <point x="549.5" y="681" type="curve"/>
+    </contour>
+    <contour>
+      <point x="578.105" y="504.273" type="curve"/>
+      <point x="578.105" y="636.587" type="line"/>
+      <point x="624.17" y="606.203"/>
+      <point x="656" y="586.602"/>
+      <point x="656" y="545.438" type="curve" smooth="yes"/>
+      <point x="656" y="521.915"/>
+      <point x="642.454" y="497.413"/>
+      <point x="610.448" y="497.413" type="curve" smooth="yes"/>
+      <point x="597.382" y="497.413"/>
+      <point x="586.6" y="499.699"/>
+    </contour>
+    <component base="si_Ka"/>
+  </outline>
+</glyph>

@@ -1,0 +1,7 @@
+InputFontPath	./font.ufo
+OutputFontPath	../../build/AbhayaLibre-Regular.otf
+FontMenuDBPath	../../FontMenuNameDB
+GlyphAliasDBPath	../../GlyphOrderAndAliasDB
+ReleaseMode	true
+SuppressHintWarnings	true
+FeaturePath	./features
