@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_Tta">
+  <advance width="603" />
+  <unicode hex="0DA7" />
+  <outline>
+    <contour>
+      <point type="line" x="91" y="470" />
+      <point x="134" y="524" />
+      <point x="195" y="552" />
+      <point type="curve" x="275" y="552" />
+      <point x="417" y="552" />
+      <point x="509" y="431" />
+      <point type="curve" x="509" y="308" />
+      <point x="509" y="170" />
+      <point x="411" y="99" />
+      <point type="curve" x="277" y="99" />
+      <point x="181" y="99" />
+      <point x="79" y="140" />
+      <point type="curve" x="79" y="236" />
+      <point x="79" y="317" />
+      <point x="150" y="364" />
+      <point type="curve" x="234" y="364" />
+      <point x="266" y="364" />
+      <point x="294" y="358" />
+      <point type="curve" x="321" y="345" />
+      <point type="line" x="321" y="375" />
+      <point x="292" y="386" />
+      <point x="259" y="391" />
+      <point type="curve" x="232" y="391" />
+      <point x="126" y="391" />
+      <point x="32" y="323" />
+      <point type="curve" x="32" y="208" />
+      <point x="32" y="81" />
+      <point x="133" y="-1" />
+      <point type="curve" x="285" y="-1" />
+      <point x="447" y="-1" />
+      <point x="557" y="115" />
+      <point type="curve" x="557" y="271" />
+      <point x="557" y="433" />
+      <point x="446" y="577" />
+      <point type="curve" x="273" y="577" />
+      <point x="177" y="577" />
+      <point x="104" y="539" />
+      <point type="curve" x="57" y="470" />
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_MatraI">
+  <advance width="2" />
+  <unicode hex="0DD2" />
+  <outline>
+    <contour>
+      <point type="line" x="-402" y="426" />
+      <point x="-456" y="429" />
+      <point x="-511" y="454" />
+      <point type="curve" x="-511" y="509" />
+      <point x="-511" y="580" />
+      <point x="-402" y="598" />
+      <point type="curve" x="-313" y="598" />
+      <point x="-224" y="598" />
+      <point x="-115" y="580" />
+      <point type="curve" x="-115" y="509" />
+      <point x="-115" y="454" />
+      <point x="-170" y="429" />
+      <point type="curve" x="-224" y="426" />
+      <point type="line" x="-224" y="405" />
+      <point x="-147" y="408" />
+      <point x="-81" y="443" />
+      <point type="curve" x="-81" y="518" />
+      <point x="-81" y="626" />
+      <point x="-194" y="671" />
+      <point type="curve" x="-313" y="671" />
+      <point x="-432" y="671" />
+      <point x="-545" y="626" />
+      <point type="curve" x="-545" y="518" />
+      <point x="-545" y="443" />
+      <point x="-479" y="408" />
+      <point type="curve" x="-402" y="405" />
+    </contour>
+  </outline>
+</glyph>

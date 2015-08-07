@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Ca.reph" format="1">
+  <advance width="597"/>
+  <outline>
+    <contour>
+      <point x="274" y="619" type="curve" smooth="yes"/>
+      <point x="274" y="639"/>
+      <point x="293" y="655"/>
+      <point x="314" y="655" type="curve" smooth="yes"/>
+      <point x="336" y="655"/>
+      <point x="355" y="639"/>
+      <point x="355" y="619" type="curve" smooth="yes"/>
+      <point x="355" y="599"/>
+      <point x="336" y="583"/>
+      <point x="314" y="583" type="curve" smooth="yes"/>
+      <point x="293" y="583"/>
+      <point x="274" y="599"/>
+    </contour>
+    <contour>
+      <point x="172" y="638" type="curve" smooth="yes"/>
+      <point x="172" y="582"/>
+      <point x="230" y="553"/>
+      <point x="290" y="553" type="curve" smooth="yes"/>
+      <point x="348" y="553"/>
+      <point x="382" y="579"/>
+      <point x="382" y="618" type="curve" smooth="yes"/>
+      <point x="382" y="653"/>
+      <point x="354" y="680"/>
+      <point x="314" y="680" type="curve" smooth="yes"/>
+      <point x="278" y="680"/>
+      <point x="246" y="655"/>
+      <point x="246" y="620" type="curve" smooth="yes"/>
+      <point x="246" y="599"/>
+      <point x="257" y="585"/>
+      <point x="265" y="579" type="curve"/>
+      <point x="247" y="582"/>
+      <point x="204" y="599"/>
+      <point x="204" y="638" type="curve" smooth="yes"/>
+      <point x="204" y="688"/>
+      <point x="258" y="710"/>
+      <point x="310" y="710" type="curve" smooth="yes"/>
+      <point x="372" y="710"/>
+      <point x="420" y="679"/>
+      <point x="420" y="624" type="curve" smooth="yes"/>
+      <point x="420" y="597"/>
+      <point x="405" y="572"/>
+      <point x="392" y="560" type="curve"/>
+      <point x="428" y="560" type="line"/>
+      <point x="444" y="579"/>
+      <point x="452" y="601"/>
+      <point x="452" y="625" type="curve" smooth="yes"/>
+      <point x="452" y="696"/>
+      <point x="388" y="739"/>
+      <point x="312" y="739" type="curve" smooth="yes"/>
+      <point x="230" y="739"/>
+      <point x="172" y="702"/>
+    </contour>
+    <component base="si_Ca"/>
+  </outline>
+</glyph>

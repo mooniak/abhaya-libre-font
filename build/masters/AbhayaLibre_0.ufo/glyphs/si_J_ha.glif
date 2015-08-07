@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Jha" format="1">
+  <advance width="1087"/>
+  <unicode hex="0DA3"/>
+  <outline>
+    <component base="si_Dha" xOffset="450"/>
+    <component base="si_Ka.half"/>
+  </outline>
+</glyph>

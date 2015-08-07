@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_PhI">
+  <advance width="583" />
+  <outline>
+    <contour>
+      <point type="curve" x="77" y="574" />
+      <point x="77" y="516" />
+      <point x="129" y="489" />
+      <point type="curve" x="186" y="489" />
+      <point x="228" y="489" />
+      <point x="253" y="497" />
+      <point type="curve" x="277" y="505" />
+      <point x="280" y="521" />
+      <point x="279" y="528" />
+      <point type="curve" x="280" y="535" />
+      <point x="264" y="527" />
+      <point x="232" y="514" />
+      <point type="curve" x="188" y="514" />
+      <point x="156" y="514" />
+      <point x="115" y="527" />
+      <point type="curve" x="115" y="566" />
+      <point x="115" y="611" />
+      <point x="179" y="635" />
+      <point type="curve" x="293" y="635" />
+      <point x="364" y="635" />
+      <point x="466" y="622" />
+      <point type="curve" x="466" y="565" />
+      <point x="466" y="524" />
+      <point x="421" y="521" />
+      <point type="curve" x="409" y="521" />
+      <point x="412" y="513" />
+      <point x="421" y="504" />
+      <point type="curve" x="426" y="499" />
+      <point x="464" y="499" />
+      <point x="503" y="526" />
+      <point type="curve" x="503" y="573" />
+      <point x="503" y="664" />
+      <point x="389" y="700" />
+      <point type="curve" x="290" y="700" />
+      <point x="187" y="700" />
+      <point x="77" y="666" />
+    </contour>
+  </outline>
+</glyph>
