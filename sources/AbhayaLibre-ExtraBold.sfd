@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1438944184
+ModificationTime: 1438949665
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -516,7 +516,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 154
-WinInfo: 289 17 9
+WinInfo: 70 14 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -530,7 +530,7 @@ Grid
  2048 140.137435913 l 1024
 EndSplineSet
 TeXData: 1 0 0 307200 153600 102400 526336 1048576 102400 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65707 583
+BeginChars: 65707 581
 
 StartChar: anusvara
 Encoding: 65536 -1 0
@@ -2004,7 +2004,6 @@ LayerCount: 3
 Back
 Fore
 Refer: 2 3461 S 1 0 0 1 0 0 2
-Refer: 69 3535 N 1 0 0 1 545 0 2
 Layer: 2
 EndChar
 
@@ -2255,18 +2254,18 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-440.5 444 m 5
- 440.5 694 l 5
- 494.5 652 592 647 592 555 c 4
- 592 511 557.19140625 481 514 481 c 4
- 499.333007812 481 484.333007812 484.333007812 469 491 c 5
- 469 427 l 5
- 440.5 444 l 5
-469.10546875 517.2734375 m 5
- 477.599609375 512.69921875 488.381835938 510.413085938 501.448242188 510.413085938 c 4
- 533.454101562 510.413085938 547 534.915039062 547 558.4375 c 4
- 547 599.6015625 515.169921875 619.203125 469.10546875 649.586914062 c 5
- 469.10546875 517.2734375 l 5
+440.5 444 m 1
+ 440.5 694 l 1
+ 494.5 652 592 647 592 555 c 0
+ 592 511 557.19140625 481 514 481 c 0
+ 499.333007812 481 484.333007812 484.333007812 469 491 c 1
+ 469 427 l 1
+ 440.5 444 l 1
+469.10546875 517.2734375 m 1
+ 477.599609375 512.69921875 488.381835938 510.413085938 501.448242188 510.413085938 c 0
+ 533.454101562 510.413085938 547 534.915039062 547 558.4375 c 0
+ 547 599.6015625 515.169921875 619.203125 469.10546875 649.586914062 c 1
+ 469.10546875 517.2734375 l 1
 45 165 m 0
  45 195.720703125 54.775390625 227.831054688 78 248 c 0
  94.126953125 262.004882812 113 273 139 278 c 1
@@ -2502,6 +2501,44 @@ LayerCount: 3
 Back
 Fore
 SplineSet
+91 143 m 1
+ 103 153 115 160 129 160 c 0
+ 161 160 172 140 212 140 c 0
+ 258 140 280 157 280 214 c 0
+ 280 216.208984375 280.041015625 214.3046875 280 216 c 1
+ 308 216 l 1
+ 307.963867188 214.6640625 308 216.330078125 308 215 c 0
+ 308 154 332 140 377 140 c 0
+ 418 140 443 169 443 204 c 0
+ 443 246 402 287 301 287 c 0
+ 244.333007812 287 204.666992188 280 180 268 c 1
+ 162.666992188 253.333007812 146.522460938 234.99609375 131 212 c 0
+ 104 172 101 163 91 143 c 1
+21 22 m 1
+ 28.6962890625 91.26953125 74.4521484375 184.165039062 109 232 c 0
+ 135 268 148 280 171 304 c 1
+ 180 314 191.75 331 191.75 352 c 0
+ 191.75 371 182 386 158 386 c 0
+ 144 386 128.438476562 378.533203125 124 363 c 0
+ 118 342 122 342 113 323 c 0
+ 104.732421875 305.545898438 87 297 72 297 c 128
+ 35 297 29 328 29 340 c 0
+ 29 394.098632812 79.36328125 433 136 433 c 0
+ 188.34765625 433 220 399 220 358 c 0
+ 220 352 220 349 219 341 c 1
+ 278 396 377 431.5 464 431.5 c 0
+ 569.1640625 431.5 649.122070312 403.737304688 671 398 c 1
+ 663.516601562 397.319335938 615.7578125 385.375976562 603.25 384.5 c 1
+ 563.634765625 395.022460938 515.625 402 471 402 c 0
+ 331.958984375 402 252.755859375 335.149414062 216.5 304.5 c 1
+ 246.5 312.5 277.666992188 314 305 314 c 0
+ 425 314 515 250 515 126 c 0
+ 515 67.84765625 482 -1 397 -1 c 0
+ 351 -1 317.333007812 20.3330078125 296 63 c 1
+ 278.666992188 21.6669921875 246.021484375 -1 204 -1 c 0
+ 117 -1 120 73 87 73 c 0
+ 64.6748046875 73 52 51 49 11 c 1
+ 21 22 l 1
 483 195 m 4
  483 288 536.248046875 363.668945312 602 387 c 4
  622.666992188 394.333007812 645.666992188 398 671 398 c 5
@@ -2524,44 +2561,6 @@ SplineSet
  822.666992188 0 783 19.6669921875 753 59 c 5
  722.333007812 20.3330078125 684.671875 0 640 0 c 4
  538 0 483 96 483 195 c 4
-21 22 m 5
- 28.6966338402 91.2697045622 74.4524773728 184.16496867 109 232 c 4
- 135 268 148 280 171 304 c 5
- 180 314 191.75 331 191.75 352 c 4
- 191.75 371 182 386 158 386 c 4
- 144 386 128.438133087 378.533465805 124 363 c 4
- 118 342 122 342 113 323 c 4
- 104.732279418 305.545923216 87 297 72 297 c 132
- 35 297 29 328 29 340 c 4
- 29 394.098632812 79.3632281498 433 136 433 c 4
- 188.347731079 433 220 399 220 358 c 4
- 220 352 220 349 219 341 c 5
- 278 396 377 431.5 464 431.5 c 4
- 569.163963853 431.5 649.122409915 403.737001099 671 398 c 5
- 663.516601562 397.319335938 615.7578125 385.375976562 603.25 384.5 c 5
- 563.634765625 395.022460938 515.625 402 471 402 c 4
- 331.959020027 402 252.755505443 335.149339557 216.5 304.5 c 5
- 246.5 312.5 277.666992188 314 305 314 c 4
- 425 314 515 250 515 126 c 4
- 515 67.8472233203 482 -1 397 -1 c 4
- 351 -1 317.333333333 20.3333333333 296 63 c 5
- 278.666666667 21.6666666667 246.021148364 -1 204 -1 c 4
- 117 -1 120 73 87 73 c 4
- 64.6748046875 73 52 51 49 11 c 5
- 21 22 l 5
-91 143 m 5
- 103 153 115 160 129 160 c 4
- 161 160 172 140 212 140 c 4
- 258 140 280 157 280 214 c 4
- 280 216.208984375 280.041015625 214.3046875 280 216 c 5
- 308 216 l 5
- 307.963867188 214.6640625 308 216.330078125 308 215 c 4
- 308 154 332 140 377 140 c 4
- 418 140 443 169 443 204 c 4
- 443 246 402 287 301 287 c 4
- 244.333007812 287 204.666992188 280 180 268 c 5
- 162.666992188 253.333007812 146.522390704 234.996134377 131 212 c 4
- 104 172 101 163 91 143 c 5
 EndSplineSet
 Layer: 2
 EndChar
@@ -2575,55 +2574,55 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-603 169 m 4
- 603 274 676 317 795 317 c 6
- 912.25 317 l 5
- 898.161553144 364.752017498 846.514648438 390 814 390 c 4
- 795 390 780.548828125 378.911132812 772 361 c 132
- 761.5 339 744.579101562 333 724.75 333 c 4
- 699.75 333 682 349.75 682 370.75 c 4
- 682 407.033203125 723 433 778 433 c 4
- 863.739257812 433 933.740234375 388.541992188 951 291 c 5
- 889.25 291 l 6
- 801.25 291 756.25 257 756.25 173 c 4
- 756.25 89 807.989257812 44 857.5 44 c 4
- 887.848632812 44 912.75 48.25 952.75 94.25 c 5
- 979 75 l 5
- 948.459960938 39.3701171875 907 -16 907 -92 c 4
- 907 -133.841796875 919.4453125 -185.983398438 981 -205.75 c 5
- 981 -238 l 5
- 960.735351562 -242.8046875 938.184570312 -246 921 -246 c 4
- 840.534179688 -246 806.75 -193.268554688 806.75 -136.25 c 4
- 806.75 -78.984375 839.2109375 -39.884765625 887 8.5 c 5
- 861.784179688 1.806640625 833.333007812 -1 806 -1 c 4
- 675 -1 603 69 603 169 c 4
-146 22 m 5
- 153.696289062 91.26953125 199.452148438 184.165039062 234 232 c 4
- 260 268 273 280 296 304 c 5
- 305 314 316.25 331 316.25 352 c 4
- 316.25 371 307 386 283 386 c 4
- 269 386 253.438476562 378.533203125 249 363 c 4
- 243 342 247 342 238 323 c 4
- 229.732421875 305.545898438 212 297 197 297 c 132
- 160 297 154 328 154 340 c 4
- 154 394.098632812 204.36328125 433 261 433 c 4
- 313.34765625 433 345 399 345 358 c 4
- 345 352 345 349 344 341 c 5
- 380.112530688 368.974909455 427.488348148 396.378177664 492 417 c 4
- 558.128952026 438.138809204 632.859375 442 676.25 442 c 4
- 761.634943966 442 805.122070312 432.737304688 827 427 c 5
- 819.516601562 426.319335938 734.5078125 410.875976562 722 410 c 5
- 706.982398595 410.562546663 686.475585938 412 674 412 c 4
- 615.313476562 412 564.895871383 403.342910212 536.5 397 c 4
- 449.890617371 377.653682709 387.160734558 337.115349256 345.25 306.25 c 5
- 373.415424347 312.696125031 402.666992188 314 430 314 c 4
- 550 314 640 250 640 126 c 4
- 640 67.84765625 607 -1 522 -1 c 4
- 476 -1 442.333007812 20.3330078125 421 63 c 5
- 403.666992188 21.6669921875 371.021484375 -1 329 -1 c 4
- 242 -1 245 73 212 73 c 4
- 189.674804688 73 177 51 174 11 c 5
- 146 22 l 5
+603 169 m 0
+ 603 274 676 317 795 317 c 2
+ 912.25 317 l 1
+ 898.161553144 364.752017498 846.514648438 390 814 390 c 0
+ 795 390 780.548828125 378.911132812 772 361 c 128
+ 761.5 339 744.579101562 333 724.75 333 c 0
+ 699.75 333 682 349.75 682 370.75 c 0
+ 682 407.033203125 723 433 778 433 c 0
+ 863.739257812 433 933.740234375 388.541992188 951 291 c 1
+ 889.25 291 l 2
+ 801.25 291 756.25 257 756.25 173 c 0
+ 756.25 89 807.989257812 44 857.5 44 c 0
+ 887.848632812 44 912.75 48.25 952.75 94.25 c 1
+ 979 75 l 1
+ 948.459960938 39.3701171875 907 -16 907 -92 c 0
+ 907 -133.841796875 919.4453125 -185.983398438 981 -205.75 c 1
+ 981 -238 l 1
+ 960.735351562 -242.8046875 938.184570312 -246 921 -246 c 0
+ 840.534179688 -246 806.75 -193.268554688 806.75 -136.25 c 0
+ 806.75 -78.984375 839.2109375 -39.884765625 887 8.5 c 1
+ 861.784179688 1.806640625 833.333007812 -1 806 -1 c 0
+ 675 -1 603 69 603 169 c 0
+146 22 m 1
+ 153.696289062 91.26953125 199.452148438 184.165039062 234 232 c 0
+ 260 268 273 280 296 304 c 1
+ 305 314 316.25 331 316.25 352 c 0
+ 316.25 371 307 386 283 386 c 0
+ 269 386 253.438476562 378.533203125 249 363 c 0
+ 243 342 247 342 238 323 c 0
+ 229.732421875 305.545898438 212 297 197 297 c 128
+ 160 297 154 328 154 340 c 0
+ 154 394.098632812 204.36328125 433 261 433 c 0
+ 313.34765625 433 345 399 345 358 c 0
+ 345 352 345 349 344 341 c 1
+ 380.112530688 368.974909455 427.488348148 396.378177664 492 417 c 0
+ 558.128952026 438.138809204 632.859375 442 676.25 442 c 0
+ 761.634943966 442 805.122070312 432.737304688 827 427 c 1
+ 819.516601562 426.319335938 734.5078125 410.875976562 722 410 c 1
+ 706.982398595 410.562546663 686.475585938 412 674 412 c 0
+ 615.313476562 412 564.895871383 403.342910212 536.5 397 c 0
+ 449.890617371 377.653682709 387.160734558 337.115349256 345.25 306.25 c 1
+ 373.415424347 312.696125031 402.666992188 314 430 314 c 0
+ 550 314 640 250 640 126 c 0
+ 640 67.84765625 607 -1 522 -1 c 0
+ 476 -1 442.333007812 20.3330078125 421 63 c 1
+ 403.666992188 21.6669921875 371.021484375 -1 329 -1 c 0
+ 242 -1 245 73 212 73 c 0
+ 189.674804688 73 177 51 174 11 c 1
+ 146 22 l 1
 216 143 m 5
  228 153 240 160 254 160 c 4
  286 160 297 140 337 140 c 4
@@ -2637,14 +2636,14 @@ SplineSet
  369.333007812 287 329.666992188 280 305 268 c 5
  287.666992188 253.333007812 271.522460938 234.99609375 256 212 c 4
  229 172 226 163 216 143 c 5
-27 221 m 4
- 27 352.699751668 99.755859375 434.25 239 434.25 c 4
- 248 434.25 271 434.25 293 428.25 c 5
- 272 417.25 195 404.5 178 398.5 c 5
- 106 381.5 59 319.267578125 59 218 c 4
- 59 137.333007812 86 78 135 34 c 5
- 135 0 l 5
- 68.5828449348 33.2085775326 27 120.069879655 27 221 c 4
+27 221 m 0
+ 27 352.699751668 99.755859375 434.25 239 434.25 c 0
+ 248 434.25 271 434.25 293 428.25 c 1
+ 272 417.25 195 404.5 178 398.5 c 1
+ 106 381.5 59 319.267578125 59 218 c 0
+ 59 137.333007812 86 78 135 34 c 1
+ 135 0 l 1
+ 68.5828449348 33.2085775326 27 120.069879655 27 221 c 0
 EndSplineSet
 Layer: 2
 EndChar
@@ -3278,45 +3277,51 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-31.3313942639 183.554236057 m 4xdb40
- 31.3313942639 274.623686336 99.2294921875 328.427734375 207 328.427734375 c 0
- 220 328.427734375 229.708007812 327.7890625 242.5 326.5 c 1
- 242.9609375 330.32421875 243.181640625 332.491210938 243.181640625 336 c 0
- 243.181640625 375 216.345723122 392 191 392 c 0
- 158.969726562 392 150.906640712 374.802887263 146 356 c 0
- 142.346679688 342 127.345703125 326 99 326 c 0
- 72.2289886475 326 54.8251953125 341 54.8251953125 366 c 0
- 54.8251953125 408.1953125 103 433.625654084 158.189212207 433.625654084 c 0xe7
- 230.547628845 433.625654084 274.869626667 401 274.869626667 334.000351519 c 0
- 274.869626667 322.637138529 273.631835938 311.303710938 271 298 c 1
- 253.180664062 300.375976562 218.23046875 301.717773438 217 301.717773438 c 0
- 139.720703125 301.717773438 94 278.626006301 94 228 c 0
- 94 161.950720459 193 131 307 131 c 0
- 413.55078125 131 514 159.633682856 514 228 c 0
- 514 276.973621952 472 303.612307156 394.000002487 303.612307156 c 0
- 370.819078063 303.612307156 346.926878013 301.168523275 324 297 c 1
- 322.072237276 307.92398877 321.143157328 318.266754681 321.143157328 327.99999265 c 0
- 321.143157328 397 365.956884184 433.118522656 438.844851469 433.118522656 c 0xdb40
- 505 433.118522656 541.018818118 392.966132064 541.018818118 354.00000109 c 0xd380
- 541.018818118 291.661319681 449.03125 269.26171875 399 259.5 c 1
- 418.333007812 250.833007812 432 237.419356346 432 220.5 c 0
- 432 175.5 375 161.5 296 161.5 c 0
- 240.326171875 161.5 172 172.5 172 221.5 c 0
- 172 246.551269531 192 273.5 288 273.5 c 0
- 311 273.5 358.092773438 274.952148438 389 280.5 c 0
- 439.352539062 289.538085938 502.228515625 306.337890625 502.228515625 351 c 0
- 502.228515625 380 474.540222168 402.387695312 432 402.387695312 c 0
- 388.77734375 402.387695312 354.684570312 377.065429688 354.684570312 336 c 0
- 354.684570312 332.227539062 354.962890625 330.364257812 355.5 326.5 c 1
- 372.455078125 328.5546875 387.344726562 329.59765625 403 329.59765625 c 0
- 494.353515625 329.59765625 574.005875264 293.413498729 574.005875264 186.451529958 c 0
- 574.005875264 55.5619188946 447.644682871 -7.1054273576e-15 307 0 c 0
- 158.589562849 0 31.3313942639 45.9203100819 31.3313942639 183.554236057 c 4xdb40
-204 221.459960938 m 0
- 204 198.919921875 235.686523438 188.139648438 299.059570312 188.139648438 c 0
- 365.700195312 188.139648438 400 198.919921875 400 220.48046875 c 0
- 400 244.662109375 366.6796875 250.860351562 298.080078125 250.860351562 c 0
- 234.379882812 250.860351562 204 243.01953125 204 221.459960938 c 0
+204 221.459960938 m 4
+ 204 198.919921875 235.686523438 188.139648438 299.059570312 188.139648438 c 4
+ 365.700195312 188.139648438 400 198.919921875 400 220.48046875 c 4
+ 400 244.662109375 366.6796875 250.860351562 298.080078125 250.860351562 c 4
+ 234.379882812 250.860351562 204 243.01953125 204 221.459960938 c 4
+172 221.5 m 4
+ 172 246.551269531 192 273.5 288 273.5 c 4
+ 311 273.5 358.092748307 274.952288446 389 280.5 c 4
+ 417.298519361 285.579455928 449.552610619 293.110469017 472.377929688 306.661132812 c 5
+ 496 291 l 5
+ 465.180367377 273.707635926 425.986629255 264.765358304 399 259.5 c 5
+ 418.333007812 250.833007812 432 237.419356346 432 220.5 c 4
+ 432 175.5 375 161.5 296 161.5 c 4
+ 240.326171875 161.5 172 172.5 172 221.5 c 4
+354.684570312 336 m 4
+ 354.684570312 332.227539062 354.962890625 330.364257812 355.5 326.5 c 4
+ 372.455078125 328.5546875 387.344726562 329.59765625 403 329.59765625 c 4
+ 432.810383355 329.59765625 461.374780142 325.744620339 486.332037844 316.836496334 c 5
+ 496.129171279 325.882085347 502.228515625 337.089637893 502.228515625 351 c 4
+ 502.228515625 380 474.540222168 402.387695312 432 402.387695312 c 4
+ 388.77734375 402.387695312 354.684570312 377.065429688 354.684570312 336 c 4
+31.3313942639 183.554236057 m 4
+ 31.3313942639 274.623686336 99.2294921875 328.427734375 207 328.427734375 c 4
+ 220 328.427734375 229.708007812 327.7890625 242.5 326.5 c 4
+ 242.9609375 330.32421875 243.181640625 332.491210938 243.181640625 336 c 4
+ 243.181640625 375 216.345723122 392 191 392 c 4
+ 158.969726562 392 150.906640712 374.802887263 146 356 c 4
+ 142.346679688 342 127.345703125 326 99 326 c 4
+ 72.2289886475 326 54.8251953125 341 54.8251953125 366 c 4
+ 54.8251953125 408.1953125 103 433.625654084 158.189212207 433.625654084 c 4
+ 230.547628845 433.625654084 274.869626667 401 274.869626667 334.000351519 c 4
+ 274.869626667 322.637138529 273.631835938 311.303710938 271 298 c 5
+ 253.180664062 300.375976562 218.23046875 301.717773438 217 301.717773438 c 4
+ 139.720703125 301.717773438 94 278.626006301 94 228 c 4
+ 94 161.950720459 193 131 307 131 c 4
+ 413.55078125 131 514 159.633682856 514 228 c 4
+ 514 276.973621952 472 303.612307156 394.000002487 303.612307156 c 4
+ 370.819078063 303.612307156 346.926878013 301.168523275 324 297 c 5
+ 322.072237276 307.92398877 321.143157328 318.266754681 321.143157328 327.99999265 c 4
+ 321.143157328 397 365.956884184 433.118522656 438.844851469 433.118522656 c 4
+ 505 433.118522656 541.018818118 392.966132064 541.018818118 354.00000109 c 4
+ 541.018818122 332.630193633 530.596584601 315.868857504 514.860413385 303.3620573 c 5
+ 550.707577724 281.446050898 574.005875264 244.30003748 574.005875264 186.451529958 c 4
+ 574.005875264 55.5619188946 447.644682871 0 307 0 c 4
+ 158.589562849 0 31.3313942639 45.9203100819 31.3313942639 183.554236057 c 4
 EndSplineSet
 Layer: 2
 EndChar
@@ -3960,22 +3965,22 @@ StartChar: si_KI
 Encoding: 90 -1 84
 Width: 746
 VWidth: 1000
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 Fore
 SplineSet
-218 421 m 0
- 218 389.836914062 220.903461411 360.75166722 225 343 c 1
- 250.25 365.5 l 1
- 247.657329559 375.107318878 246.5 386.950195312 246.5 396.25 c 0
- 246.5 473.840780973 336 549.75 473 549.75 c 0
- 555 549.75 633 514.546212673 633 456 c 0
- 633 426.337890625 612.844726562 407.907226562 578.75 403.5 c 1
- 610 383 l 1
- 658 402 688 444 688 505 c 0
- 688 610 603 671 473 671 c 0
- 330 671 218 590 218 421 c 0
+218 421 m 4
+ 218 590 330 671 473 671 c 4
+ 603 671 688 610 688 505 c 4
+ 688 444 658 402 610 383 c 5
+ 578.75 403.5 l 5
+ 612.844726562 407.907226562 633 426.337890625 633 456 c 4
+ 633 514.546212673 555 549.75 473 549.75 c 4
+ 336 549.75 246.5 473.840780973 246.5 396.25 c 4
+ 246.5 386.950195312 247.657329559 375.107318878 250.25 365.5 c 5
+ 225 343 l 5
+ 220.903461411 360.75166722 218 389.836914062 218 421 c 4
 EndSplineSet
 Refer: 11 3482 S 1 0 0 1 0 0 2
 Layer: 2
@@ -6066,19 +6071,8 @@ Refer: 48 3491 N 1 0 0 1 0 0 2
 Layer: 2
 EndChar
 
-StartChar: si_JnyIi.rakar
-Encoding: 65569 -1 133
-Width: 0
-VWidth: 1000
-Flags: HW
-LayerCount: 3
-Back
-Fore
-Layer: 2
-EndChar
-
 StartChar: si_NyAa
-Encoding: 172 -1 134
+Encoding: 172 -1 133
 Width: 1288
 VWidth: 1000
 Flags: HW
@@ -6178,7 +6172,7 @@ Ligature2: "si_blws_5 subtable" si_Nya si_MatraAa
 EndChar
 
 StartChar: si_NyI
-Encoding: 173 -1 135
+Encoding: 173 -1 134
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -6206,7 +6200,7 @@ Ligature2: "si_abvs_1 subtable" si_Nya si_MatraI
 EndChar
 
 StartChar: si_NyIi
-Encoding: 174 -1 136
+Encoding: 174 -1 135
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -6238,7 +6232,7 @@ Ligature2: "si_abvs_2 subtable" si_Nya si_MatraIi
 EndChar
 
 StartChar: si_NyU
-Encoding: 175 -1 137
+Encoding: 175 -1 136
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -6328,19 +6322,8 @@ Layer: 2
 Ligature2: "si_blws_1 subtable" si_Nya si_MatraU
 EndChar
 
-StartChar: si_Jnya_halant
-Encoding: 65571 -1 138
-Width: 0
-VWidth: 1000
-Flags: HW
-LayerCount: 3
-Back
-Fore
-Layer: 2
-EndChar
-
 StartChar: si_JnyAa
-Encoding: 181 -1 139
+Encoding: 181 -1 137
 Width: 1104
 VWidth: 1000
 Flags: HW
@@ -6420,7 +6403,7 @@ Ligature2: "si_blws_5 subtable" si_Jnya si_MatraAa
 EndChar
 
 StartChar: si_JnyI
-Encoding: 182 -1 140
+Encoding: 182 -1 138
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -6447,7 +6430,7 @@ Ligature2: "si_abvs_1 subtable" si_Jnya si_MatraI
 EndChar
 
 StartChar: si_JnyIi
-Encoding: 183 -1 141
+Encoding: 183 -1 139
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -6479,7 +6462,7 @@ Ligature2: "si_abvs_2 subtable" si_Jnya si_MatraIi
 EndChar
 
 StartChar: si_JnyU
-Encoding: 184 -1 142
+Encoding: 184 -1 140
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -6551,7 +6534,7 @@ Ligature2: "si_blws_1 subtable" si_Jnya si_MatraU
 EndChar
 
 StartChar: si_NyUu
-Encoding: 176 -1 143
+Encoding: 176 -1 141
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -6645,7 +6628,7 @@ Ligature2: "si_blws_3 subtable" si_Nya si_MatraUu
 EndChar
 
 StartChar: si_JnyUu
-Encoding: 185 -1 144
+Encoding: 185 -1 142
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -6720,7 +6703,7 @@ Ligature2: "si_blws_3 subtable" si_Jnya si_MatraUu
 EndChar
 
 StartChar: si_Ndja.halant
-Encoding: 65577 -1 145
+Encoding: 65577 -1 143
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -6731,7 +6714,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NdjI
-Encoding: 190 -1 146
+Encoding: 190 -1 144
 Width: 699
 VWidth: 1000
 Flags: HW
@@ -6759,7 +6742,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NdjIi
-Encoding: 191 -1 147
+Encoding: 191 -1 145
 Width: 699
 VWidth: 1000
 Flags: HW
@@ -6793,7 +6776,7 @@ Ligature2: "si_abvs_2 subtable" si_Ndja si_MatraIi
 EndChar
 
 StartChar: si_NdjU
-Encoding: 192 -1 148
+Encoding: 192 -1 146
 Width: 699
 VWidth: 1000
 Flags: HW
@@ -6820,7 +6803,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NdjUu
-Encoding: 193 -1 149
+Encoding: 193 -1 147
 Width: 699
 VWidth: 1000
 Flags: HW
@@ -6852,7 +6835,7 @@ Ligature2: "si_blws_3 subtable" si_Ndja si_MatraUu
 EndChar
 
 StartChar: si_Ndja.rakar
-Encoding: 65578 -1 150
+Encoding: 65578 -1 148
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -6863,7 +6846,7 @@ Layer: 2
 EndChar
 
 StartChar: si_TtI
-Encoding: 196 -1 151
+Encoding: 196 -1 149
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -6903,7 +6886,7 @@ Ligature2: "si_abvs_1 subtable" si_Tta si_MatraI
 EndChar
 
 StartChar: si_TtIi
-Encoding: 197 -1 152
+Encoding: 197 -1 150
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -6948,7 +6931,7 @@ Ligature2: "si_abvs_2 subtable" si_Tta si_MatraIi
 EndChar
 
 StartChar: si_TtU
-Encoding: 198 -1 153
+Encoding: 198 -1 151
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -6977,7 +6960,7 @@ Ligature2: "si_blws_1 subtable" si_Tta si_MatraU
 EndChar
 
 StartChar: si_TtUu
-Encoding: 199 -1 154
+Encoding: 199 -1 152
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -7008,7 +6991,7 @@ Ligature2: "si_blws_3 subtable" si_Tta si_MatraUu
 EndChar
 
 StartChar: si_Tta.reph
-Encoding: 200 -1 155
+Encoding: 200 -1 153
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -7042,7 +7025,7 @@ Ligature2: "si_abvs_7 subtable" si_Tta si_Reph
 EndChar
 
 StartChar: si_TthI
-Encoding: 205 -1 156
+Encoding: 205 -1 154
 Width: 637
 VWidth: 1000
 Flags: HW
@@ -7070,7 +7053,7 @@ Ligature2: "si_abvs_1 subtable" si_Ttha si_MatraI
 EndChar
 
 StartChar: si_TthIi
-Encoding: 206 -1 157
+Encoding: 206 -1 155
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -7104,7 +7087,7 @@ Ligature2: "si_abvs_2 subtable" si_Ttha si_MatraIi
 EndChar
 
 StartChar: si_TthU
-Encoding: 207 -1 158
+Encoding: 207 -1 156
 Width: 637
 VWidth: 1000
 Flags: HW
@@ -7132,7 +7115,7 @@ Ligature2: "si_blws_1 subtable" si_Ttha si_MatraU
 EndChar
 
 StartChar: si_TthUu
-Encoding: 208 -1 159
+Encoding: 208 -1 157
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -7163,7 +7146,7 @@ Ligature2: "si_blws_3 subtable" si_Ttha si_MatraUu
 EndChar
 
 StartChar: si_DdU
-Encoding: 212 -1 160
+Encoding: 212 -1 158
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -7192,7 +7175,7 @@ Ligature2: "si_blws_1 subtable" si_Dda si_MatraU
 EndChar
 
 StartChar: si_DdUu
-Encoding: 213 -1 161
+Encoding: 213 -1 159
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -7224,7 +7207,7 @@ Ligature2: "si_blws_3 subtable" si_Dda si_MatraUu
 EndChar
 
 StartChar: si_Dda.reph
-Encoding: 214 -1 162
+Encoding: 214 -1 160
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -7258,7 +7241,7 @@ Ligature2: "si_abvs_7 subtable" si_Dda si_Reph
 EndChar
 
 StartChar: si_Ddha.halant
-Encoding: 65588 -1 163
+Encoding: 65588 -1 161
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -7269,7 +7252,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DdhI
-Encoding: 219 -1 164
+Encoding: 219 -1 162
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -7329,7 +7312,7 @@ Ligature2: "si_abvs_1 subtable" si_Ddha si_MatraI
 EndChar
 
 StartChar: si_DdhIi
-Encoding: 220 -1 165
+Encoding: 220 -1 163
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -7394,7 +7377,7 @@ Ligature2: "si_abvs_2 subtable" si_Ddha si_MatraIi
 EndChar
 
 StartChar: si_DdhU
-Encoding: 221 -1 166
+Encoding: 221 -1 164
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -7422,7 +7405,7 @@ Ligature2: "si_blws_1 subtable" si_Ddha si_MatraU
 EndChar
 
 StartChar: si_DdhUu
-Encoding: 222 -1 167
+Encoding: 222 -1 165
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -7453,7 +7436,7 @@ Ligature2: "si_blws_3 subtable" si_Ddha si_MatraUu
 EndChar
 
 StartChar: si_Nna_hlant
-Encoding: 65589 -1 168
+Encoding: 65589 -1 166
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -7464,7 +7447,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NnIi
-Encoding: 225 -1 169
+Encoding: 225 -1 167
 Width: 963
 VWidth: 1000
 Flags: HW
@@ -7548,7 +7531,7 @@ Ligature2: "si_abvs_2 subtable" si_Nna si_MatraIi
 EndChar
 
 StartChar: si_NnU
-Encoding: 226 -1 170
+Encoding: 226 -1 168
 Width: 963
 VWidth: 1000
 Flags: HW
@@ -7577,7 +7560,7 @@ Ligature2: "si_blws_1 subtable" si_Nna si_MatraU
 EndChar
 
 StartChar: si_NnUu
-Encoding: 227 -1 171
+Encoding: 227 -1 169
 Width: 963
 VWidth: 1000
 Flags: HW
@@ -7610,7 +7593,7 @@ Ligature2: "si_blws_3 subtable" si_Nna si_MatraUu
 EndChar
 
 StartChar: si_Nna.reph
-Encoding: 228 -1 172
+Encoding: 228 -1 170
 Width: 963
 VWidth: 1000
 Flags: HW
@@ -7645,7 +7628,7 @@ Ligature2: "si_abvs_7 subtable" si_Nna si_Reph
 EndChar
 
 StartChar: si_Nndda_halant
-Encoding: 65590 -1 173
+Encoding: 65590 -1 171
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -7656,7 +7639,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NnddI
-Encoding: 230 -1 174
+Encoding: 230 -1 172
 Width: 731
 VWidth: 1000
 Flags: HW
@@ -7718,7 +7701,7 @@ Ligature2: "si_abvs_1 subtable" si_Nndda si_MatraI
 EndChar
 
 StartChar: si_NnddIi
-Encoding: 231 -1 175
+Encoding: 231 -1 173
 Width: 731
 VWidth: 1000
 Flags: HW
@@ -7785,7 +7768,7 @@ Ligature2: "si_abvs_2 subtable" si_Nndda si_MatraIi
 EndChar
 
 StartChar: si_NnddU
-Encoding: 232 -1 176
+Encoding: 232 -1 174
 Width: 731
 VWidth: 1000
 Flags: HW
@@ -7849,7 +7832,7 @@ Ligature2: "si_blws_1 subtable" si_Nndda si_MatraU
 EndChar
 
 StartChar: si_NnddUu
-Encoding: 233 -1 177
+Encoding: 233 -1 175
 Width: 731
 VWidth: 1000
 Flags: HW
@@ -7916,7 +7899,7 @@ Ligature2: "si_blws_3 subtable" si_Nndda si_MatraUu
 EndChar
 
 StartChar: si_Ta.halant
-Encoding: 65591 -1 178
+Encoding: 65591 -1 176
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -7927,7 +7910,7 @@ Layer: 2
 EndChar
 
 StartChar: si_TI
-Encoding: 235 -1 179
+Encoding: 235 -1 177
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -7954,7 +7937,7 @@ Ligature2: "si_abvs_1 subtable" si_Ta si_MatraI
 EndChar
 
 StartChar: si_TIi
-Encoding: 236 -1 180
+Encoding: 236 -1 178
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -7986,7 +7969,7 @@ Ligature2: "si_abvs_2 subtable" si_Ta si_MatraIi
 EndChar
 
 StartChar: si_TU
-Encoding: 237 -1 181
+Encoding: 237 -1 179
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -8043,7 +8026,7 @@ Ligature2: "si_blws_1 subtable" si_Ta si_MatraU
 EndChar
 
 StartChar: si_TUu
-Encoding: 238 -1 182
+Encoding: 238 -1 180
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -8076,7 +8059,7 @@ Ligature2: "si_blws_3 subtable" si_Ta si_MatraUu
 EndChar
 
 StartChar: si_Ta.reph
-Encoding: 239 -1 183
+Encoding: 239 -1 181
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -8141,7 +8124,7 @@ Ligature2: "si_abvs_7 subtable" si_Ta si_Reph
 EndChar
 
 StartChar: si_ThI
-Encoding: 244 -1 184
+Encoding: 244 -1 182
 Width: 614
 VWidth: 1000
 Flags: HW
@@ -8187,7 +8170,7 @@ Ligature2: "si_abvs_1 subtable" si_Tha si_MatraI
 EndChar
 
 StartChar: si_ThIi
-Encoding: 245 -1 185
+Encoding: 245 -1 183
 Width: 614
 VWidth: 1000
 Flags: HW
@@ -8238,7 +8221,7 @@ Ligature2: "si_abvs_2 subtable" si_Tha si_MatraIi
 EndChar
 
 StartChar: si_ThU
-Encoding: 246 -1 186
+Encoding: 246 -1 184
 Width: 614
 VWidth: 1000
 Flags: HW
@@ -8284,7 +8267,7 @@ Ligature2: "si_blws_1 subtable" si_Tha si_MatraU
 EndChar
 
 StartChar: si_ThUu
-Encoding: 247 -1 187
+Encoding: 247 -1 185
 Width: 614
 VWidth: 1000
 Flags: HW
@@ -8333,7 +8316,7 @@ Ligature2: "si_blws_3 subtable" si_Tha si_MatraUu
 EndChar
 
 StartChar: si_Tha.reph
-Encoding: 248 -1 188
+Encoding: 248 -1 186
 Width: 614
 VWidth: 1000
 Flags: HW
@@ -8385,7 +8368,7 @@ Ligature2: "si_abvs_7 subtable" si_Tha si_Reph
 EndChar
 
 StartChar: si_Da.halant
-Encoding: 65596 -1 189
+Encoding: 65596 -1 187
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -8396,7 +8379,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DAa
-Encoding: 250 -1 190
+Encoding: 250 -1 188
 Width: 719
 VWidth: 1000
 Flags: HW
@@ -8426,7 +8409,7 @@ Ligature2: "si_blws_5 subtable" si_Da si_MatraAa
 EndChar
 
 StartChar: si_DAe
-Encoding: 251 -1 191
+Encoding: 251 -1 189
 Width: 738
 VWidth: 1000
 Flags: HW
@@ -8451,7 +8434,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DAae
-Encoding: 252 -1 192
+Encoding: 252 -1 190
 Width: 738
 VWidth: 1000
 Flags: HW
@@ -8482,7 +8465,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DI
-Encoding: 253 -1 193
+Encoding: 253 -1 191
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -8509,7 +8492,7 @@ Ligature2: "si_abvs_1 subtable" si_Da si_MatraI
 EndChar
 
 StartChar: si_DIi
-Encoding: 254 -1 194
+Encoding: 254 -1 192
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -8540,7 +8523,7 @@ Ligature2: "si_abvs_2 subtable" si_Da si_MatraIi
 EndChar
 
 StartChar: si_DU
-Encoding: 255 -1 195
+Encoding: 255 -1 193
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -8583,7 +8566,7 @@ Ligature2: "si_blws_1 subtable" si_Da si_MatraU
 EndChar
 
 StartChar: si_DUu
-Encoding: 256 -1 196
+Encoding: 256 -1 194
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -8629,7 +8612,7 @@ Ligature2: "si_blws_3 subtable" si_Da si_MatraUu
 EndChar
 
 StartChar: si_Da.r
-Encoding: 65597 -1 197
+Encoding: 65597 -1 195
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -8640,7 +8623,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Da.rr
-Encoding: 65598 -1 198
+Encoding: 65598 -1 196
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -8651,7 +8634,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DOo.alt
-Encoding: 65599 -1 199
+Encoding: 65599 -1 197
 Width: 716
 VWidth: 1000
 Flags: HW
@@ -8713,7 +8696,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Da.reph
-Encoding: 260 -1 200
+Encoding: 260 -1 198
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -8748,7 +8731,7 @@ Ligature2: "si_abvs_7 subtable" si_Da si_Reph
 EndChar
 
 StartChar: si_Da.rakar
-Encoding: 65600 -1 201
+Encoding: 65600 -1 199
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -8759,7 +8742,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DAa.rakar
-Encoding: 65601 -1 202
+Encoding: 65601 -1 200
 Width: 716
 VWidth: 1000
 Flags: HW
@@ -8812,7 +8795,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Da.yans
-Encoding: 65604 -1 203
+Encoding: 65604 -1 201
 Width: 950
 VWidth: 1000
 Flags: HW
@@ -8872,7 +8855,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DAa.yansa
-Encoding: 65605 -1 204
+Encoding: 65605 -1 202
 Width: 1220
 VWidth: 1000
 Flags: HW
@@ -8947,7 +8930,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DOo.yansa
-Encoding: 65606 -1 205
+Encoding: 65606 -1 203
 Width: 1220
 VWidth: 1000
 Flags: HW
@@ -9034,7 +9017,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DU.yansa
-Encoding: 65607 -1 206
+Encoding: 65607 -1 204
 Width: 950
 VWidth: 1000
 Flags: HW
@@ -9107,7 +9090,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DhI
-Encoding: 271 -1 207
+Encoding: 271 -1 205
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -9154,7 +9137,7 @@ Ligature2: "si_abvs_1 subtable" si_Dha si_MatraI
 EndChar
 
 StartChar: si_DhIi
-Encoding: 272 -1 208
+Encoding: 272 -1 206
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -9206,7 +9189,7 @@ Ligature2: "si_abvs_2 subtable" si_Dha si_MatraIi
 EndChar
 
 StartChar: si_DhU
-Encoding: 273 -1 209
+Encoding: 273 -1 207
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -9235,7 +9218,7 @@ Ligature2: "si_blws_1 subtable" si_Dha si_MatraU
 EndChar
 
 StartChar: si_DhUu
-Encoding: 274 -1 210
+Encoding: 274 -1 208
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -9266,7 +9249,7 @@ Ligature2: "si_blws_3 subtable" si_Dha si_MatraUu
 EndChar
 
 StartChar: si_Dha.reph
-Encoding: 275 -1 211
+Encoding: 275 -1 209
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -9300,7 +9283,7 @@ Ligature2: "si_abvs_7 subtable" si_Dha si_Reph
 EndChar
 
 StartChar: si_NI
-Encoding: 280 -1 212
+Encoding: 280 -1 210
 Width: 806
 VWidth: 1000
 Flags: HW
@@ -9326,7 +9309,7 @@ Ligature2: "si_abvs_1 subtable" si_Na si_MatraI
 EndChar
 
 StartChar: si_NIi
-Encoding: 281 -1 213
+Encoding: 281 -1 211
 Width: 806
 VWidth: 1000
 Flags: HW
@@ -9357,7 +9340,7 @@ Ligature2: "si_abvs_2 subtable" si_Na si_MatraIi
 EndChar
 
 StartChar: si_NU
-Encoding: 282 -1 214
+Encoding: 282 -1 212
 Width: 806
 VWidth: 1000
 Flags: HW
@@ -9385,7 +9368,7 @@ Ligature2: "si_blws_1 subtable" si_Na si_MatraU
 EndChar
 
 StartChar: si_NUu
-Encoding: 283 -1 215
+Encoding: 283 -1 213
 Width: 806
 VWidth: 1000
 Flags: HW
@@ -9416,7 +9399,7 @@ Ligature2: "si_blws_3 subtable" si_Na si_MatraUu
 EndChar
 
 StartChar: si_Na.reph
-Encoding: 284 -1 216
+Encoding: 284 -1 214
 Width: 806
 VWidth: 1000
 Flags: HW
@@ -9449,7 +9432,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NdAa
-Encoding: 286 -1 217
+Encoding: 286 -1 215
 Width: 795
 VWidth: 1000
 Flags: HW
@@ -9508,7 +9491,7 @@ Ligature2: "si_blws_5 subtable" si_Nda si_MatraAa
 EndChar
 
 StartChar: si_NdAe
-Encoding: 287 -1 218
+Encoding: 287 -1 216
 Width: 825
 VWidth: 1000
 Flags: HW
@@ -9562,7 +9545,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NdAae
-Encoding: 288 -1 219
+Encoding: 288 -1 217
 Width: 825
 VWidth: 1000
 Flags: HW
@@ -9622,7 +9605,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NdI
-Encoding: 289 -1 220
+Encoding: 289 -1 218
 Width: 538
 VWidth: 1000
 Flags: HW
@@ -9677,7 +9660,7 @@ Ligature2: "si_abvs_1 subtable" si_Nda si_MatraI
 EndChar
 
 StartChar: si_NdIi
-Encoding: 290 -1 221
+Encoding: 290 -1 219
 Width: 538
 VWidth: 1000
 Flags: HW
@@ -9737,7 +9720,7 @@ Ligature2: "si_abvs_2 subtable" si_Nda si_MatraIi
 EndChar
 
 StartChar: si_NdU
-Encoding: 291 -1 222
+Encoding: 291 -1 220
 Width: 538
 VWidth: 1000
 Flags: HW
@@ -9788,7 +9771,7 @@ Ligature2: "si_blws_1 subtable" si_Nda si_MatraU
 EndChar
 
 StartChar: si_NdUu
-Encoding: 292 -1 223
+Encoding: 292 -1 221
 Width: 538
 VWidth: 1000
 Flags: HW
@@ -9842,7 +9825,7 @@ Ligature2: "si_blws_3 subtable" si_Nda si_MatraUu
 EndChar
 
 StartChar: si_PI
-Encoding: 295 -1 224
+Encoding: 295 -1 222
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -9869,7 +9852,7 @@ Ligature2: "si_abvs_1 subtable" si_Pa si_MatraI
 EndChar
 
 StartChar: si_PIi
-Encoding: 296 -1 225
+Encoding: 296 -1 223
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -9901,7 +9884,7 @@ Ligature2: "si_abvs_2 subtable" si_Pa si_MatraIi
 EndChar
 
 StartChar: si_PU
-Encoding: 297 -1 226
+Encoding: 297 -1 224
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -9929,7 +9912,7 @@ Ligature2: "si_blws_1 subtable" si_Pa si_MatraU
 EndChar
 
 StartChar: si_PUu
-Encoding: 298 -1 227
+Encoding: 298 -1 225
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -9961,7 +9944,7 @@ Ligature2: "si_blws_3 subtable" si_Pa si_MatraUu
 EndChar
 
 StartChar: si_Pa.reph
-Encoding: 299 -1 228
+Encoding: 299 -1 226
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -9995,7 +9978,7 @@ Ligature2: "si_abvs_7 subtable" si_Pa si_Reph
 EndChar
 
 StartChar: si_PhI
-Encoding: 304 -1 229
+Encoding: 304 -1 227
 Width: 583
 VWidth: 1000
 Flags: HW
@@ -10023,7 +10006,7 @@ Ligature2: "si_abvs_1 subtable" si_Pha si_MatraI
 EndChar
 
 StartChar: si_PhIi
-Encoding: 305 -1 230
+Encoding: 305 -1 228
 Width: 583
 VWidth: 1000
 Flags: HW
@@ -10056,7 +10039,7 @@ Ligature2: "si_abvs_2 subtable" si_Pha si_MatraIi
 EndChar
 
 StartChar: si_PhU
-Encoding: 306 -1 231
+Encoding: 306 -1 229
 Width: 583
 VWidth: 1000
 Flags: HW
@@ -10084,7 +10067,7 @@ Ligature2: "si_blws_1 subtable" si_Pha si_MatraU
 EndChar
 
 StartChar: si_PhUu
-Encoding: 307 -1 232
+Encoding: 307 -1 230
 Width: 583
 VWidth: 1000
 Flags: HW
@@ -10115,7 +10098,7 @@ Ligature2: "si_blws_3 subtable" si_Pha si_MatraUu
 EndChar
 
 StartChar: si_Pha.reph
-Encoding: 308 -1 233
+Encoding: 308 -1 231
 Width: 583
 VWidth: 1000
 Flags: HW
@@ -10176,7 +10159,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ba.halant
-Encoding: 65620 -1 234
+Encoding: 65620 -1 232
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -10187,7 +10170,7 @@ Layer: 2
 EndChar
 
 StartChar: si_BI
-Encoding: 310 -1 235
+Encoding: 310 -1 233
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -10238,7 +10221,7 @@ Ligature2: "si_abvs_1 subtable" si_Ba si_MatraI
 EndChar
 
 StartChar: si_BIi
-Encoding: 311 -1 236
+Encoding: 311 -1 234
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -10294,7 +10277,7 @@ Ligature2: "si_abvs_2 subtable" si_Ba si_MatraIi
 EndChar
 
 StartChar: si_BU
-Encoding: 312 -1 237
+Encoding: 312 -1 235
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -10323,7 +10306,7 @@ Ligature2: "si_blws_1 subtable" si_Ba si_MatraU
 EndChar
 
 StartChar: si_BUu
-Encoding: 313 -1 238
+Encoding: 313 -1 236
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -10355,7 +10338,7 @@ Ligature2: "si_blws_3 subtable" si_Ba si_MatraUu
 EndChar
 
 StartChar: si_Ba.reph
-Encoding: 314 -1 239
+Encoding: 314 -1 237
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -10389,7 +10372,7 @@ Ligature2: "si_abvs_7 subtable" si_Ba si_Reph
 EndChar
 
 StartChar: si_Bha.halant
-Encoding: 65624 -1 240
+Encoding: 65624 -1 238
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -10400,7 +10383,7 @@ Layer: 2
 EndChar
 
 StartChar: si_BhI
-Encoding: 319 -1 241
+Encoding: 319 -1 239
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -10429,7 +10412,7 @@ Ligature2: "si_abvs_1 subtable" si_Bha si_MatraI
 EndChar
 
 StartChar: si_BhIi
-Encoding: 320 -1 242
+Encoding: 320 -1 240
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -10462,7 +10445,7 @@ Ligature2: "si_abvs_2 subtable" si_Bha si_MatraIi
 EndChar
 
 StartChar: si_BhU
-Encoding: 321 -1 243
+Encoding: 321 -1 241
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -10522,7 +10505,7 @@ Ligature2: "si_blws_1 subtable" si_Bha si_MatraU
 EndChar
 
 StartChar: si_BhUu
-Encoding: 322 -1 244
+Encoding: 322 -1 242
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -10554,7 +10537,7 @@ Ligature2: "si_blws_3 subtable" si_Bha si_MatraUu
 EndChar
 
 StartChar: si_Bha.reph
-Encoding: 323 -1 245
+Encoding: 323 -1 243
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -10589,7 +10572,7 @@ Ligature2: "si_abvs_7 subtable" si_Bha si_Reph
 EndChar
 
 StartChar: si_Ma.halant
-Encoding: 65628 -1 246
+Encoding: 65628 -1 244
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -10600,7 +10583,7 @@ Layer: 2
 EndChar
 
 StartChar: si_MI
-Encoding: 328 -1 247
+Encoding: 328 -1 245
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -10656,7 +10639,7 @@ Ligature2: "si_abvs_1 subtable" si_Ma si_MatraI
 EndChar
 
 StartChar: si_MIi
-Encoding: 329 -1 248
+Encoding: 329 -1 246
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -10717,7 +10700,7 @@ Ligature2: "si_abvs_2 subtable" si_Ma si_MatraIi
 EndChar
 
 StartChar: si_Mu
-Encoding: 65629 -1 249
+Encoding: 65629 -1 247
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -10728,7 +10711,7 @@ Layer: 2
 EndChar
 
 StartChar: si_MUu
-Encoding: 331 -1 250
+Encoding: 331 -1 248
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -10760,10 +10743,10 @@ Ligature2: "si_blws_3 subtable" si_Ma si_MatraUu
 EndChar
 
 StartChar: si_Ma.reph
-Encoding: 332 -1 251
+Encoding: 332 -1 249
 Width: 635
 VWidth: 1000
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 Fore
@@ -10795,7 +10778,7 @@ Ligature2: "si_abvs_7 subtable" si_Ma si_Reph
 EndChar
 
 StartChar: si_MbI
-Encoding: 337 -1 252
+Encoding: 337 -1 250
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -10865,7 +10848,7 @@ Ligature2: "si_abvs_1 subtable" si_Mba si_MatraI
 EndChar
 
 StartChar: si_MbIi
-Encoding: 338 -1 253
+Encoding: 338 -1 251
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -10940,7 +10923,7 @@ Ligature2: "si_abvs_2 subtable" si_Mba si_MatraIi
 EndChar
 
 StartChar: si_MbU
-Encoding: 339 -1 254
+Encoding: 339 -1 252
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -10969,7 +10952,7 @@ Ligature2: "si_blws_1 subtable" si_Mba si_MatraU
 EndChar
 
 StartChar: si_MbUu
-Encoding: 340 -1 255
+Encoding: 340 -1 253
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -11000,7 +10983,7 @@ Ligature2: "si_blws_3 subtable" si_Mba si_MatraUu
 EndChar
 
 StartChar: si_YI
-Encoding: 342 -1 256
+Encoding: 342 -1 254
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -11026,7 +11009,7 @@ Ligature2: "si_abvs_1 subtable" si_Ya si_MatraI
 EndChar
 
 StartChar: si_YIi
-Encoding: 343 -1 257
+Encoding: 343 -1 255
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -11057,7 +11040,7 @@ Ligature2: "si_abvs_2 subtable" si_Ya si_MatraIi
 EndChar
 
 StartChar: si_YU
-Encoding: 344 -1 258
+Encoding: 344 -1 256
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -11085,7 +11068,7 @@ Ligature2: "si_blws_1 subtable" si_Ya si_MatraU
 EndChar
 
 StartChar: si_YUu
-Encoding: 345 -1 259
+Encoding: 345 -1 257
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -11116,7 +11099,7 @@ Ligature2: "si_blws_3 subtable" si_Ya si_MatraUu
 EndChar
 
 StartChar: si_Ya.reph
-Encoding: 346 -1 260
+Encoding: 346 -1 258
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -11150,7 +11133,7 @@ Ligature2: "si_abvs_7 subtable" si_Ya si_Reph
 EndChar
 
 StartChar: si_Yanse.MatraAa
-Encoding: 65635 -1 261
+Encoding: 65635 -1 259
 Width: 815
 VWidth: 1000
 Flags: HW
@@ -11203,7 +11186,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Yanse.Halant
-Encoding: 65636 -1 262
+Encoding: 65636 -1 260
 Width: 544
 VWidth: 1000
 Flags: HW
@@ -11253,7 +11236,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Yanse.MatraOo
-Encoding: 65637 -1 263
+Encoding: 65637 -1 261
 Width: 815
 VWidth: 1000
 Flags: HW
@@ -11318,7 +11301,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Yanse.MatraU
-Encoding: 65638 -1 264
+Encoding: 65638 -1 262
 Width: 544
 VWidth: 1000
 Flags: HW
@@ -11369,7 +11352,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Yanse.MatraUu
-Encoding: 65639 -1 265
+Encoding: 65639 -1 263
 Width: 544
 VWidth: 1000
 Flags: HW
@@ -11423,7 +11406,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Yanse.reph
-Encoding: 65640 -1 266
+Encoding: 65640 -1 264
 Width: 544
 VWidth: 1000
 Flags: HW
@@ -11480,7 +11463,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Yanse.Reph.Halant
-Encoding: 65641 -1 267
+Encoding: 65641 -1 265
 Width: 544
 VWidth: 1000
 Flags: HW
@@ -11549,7 +11532,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Yanse.Reph.MatraOo
-Encoding: 65642 -1 268
+Encoding: 65642 -1 266
 Width: 815
 VWidth: 1000
 Flags: HW
@@ -11633,7 +11616,7 @@ Layer: 2
 EndChar
 
 StartChar: yanseta_ba
-Encoding: 65643 -1 269
+Encoding: 65643 -1 267
 Width: 544
 VWidth: 1000
 Flags: HW
@@ -11703,7 +11686,7 @@ Layer: 2
 EndChar
 
 StartChar: i_Yanse
-Encoding: 65644 -1 270
+Encoding: 65644 -1 268
 Width: 544
 VWidth: 1000
 Flags: HW
@@ -11776,7 +11759,7 @@ Layer: 2
 EndChar
 
 StartChar: si_RAe
-Encoding: 356 -1 271
+Encoding: 356 -1 269
 Width: 681
 VWidth: 1000
 Flags: HW
@@ -11801,7 +11784,7 @@ Layer: 2
 EndChar
 
 StartChar: si_RAae
-Encoding: 357 -1 272
+Encoding: 357 -1 270
 Width: 681
 VWidth: 1000
 Flags: HW
@@ -11837,7 +11820,7 @@ Layer: 2
 EndChar
 
 StartChar: si_RI
-Encoding: 358 -1 273
+Encoding: 358 -1 271
 Width: 528
 VWidth: 1000
 Flags: HW
@@ -11864,7 +11847,7 @@ Ligature2: "si_abvs_1 subtable" si_Ra si_MatraI
 EndChar
 
 StartChar: si_RIi
-Encoding: 359 -1 274
+Encoding: 359 -1 272
 Width: 528
 VWidth: 1000
 Flags: HW
@@ -11910,7 +11893,7 @@ Ligature2: "si_abvs_2 subtable" si_Ra si_MatraIi
 EndChar
 
 StartChar: si_RU
-Encoding: 360 -1 275
+Encoding: 360 -1 273
 Width: 813
 VWidth: 1000
 Flags: HW
@@ -11936,7 +11919,7 @@ Ligature2: "si_blws_1 subtable" si_Ra si_MatraU
 EndChar
 
 StartChar: si_RUu
-Encoding: 361 -1 276
+Encoding: 361 -1 274
 Width: 813
 VWidth: 1000
 Flags: HW
@@ -11968,7 +11951,7 @@ Ligature2: "si_blws_3 subtable" si_Ra si_MatraUu
 EndChar
 
 StartChar: si_LI
-Encoding: 363 -1 277
+Encoding: 363 -1 275
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -11995,7 +11978,7 @@ Ligature2: "si_abvs_1 subtable" si_La si_MatraI
 EndChar
 
 StartChar: si_LIi
-Encoding: 364 -1 278
+Encoding: 364 -1 276
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -12028,7 +12011,7 @@ Ligature2: "si_abvs_2 subtable" si_La si_MatraIi
 EndChar
 
 StartChar: si_LU
-Encoding: 365 -1 279
+Encoding: 365 -1 277
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -12075,7 +12058,7 @@ Ligature2: "si_blws_1 subtable" si_La si_MatraU
 EndChar
 
 StartChar: si_LUu
-Encoding: 366 -1 280
+Encoding: 366 -1 278
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -12125,7 +12108,7 @@ Ligature2: "si_blws_3 subtable" si_La si_MatraUu
 EndChar
 
 StartChar: si_VI
-Encoding: 368 -1 281
+Encoding: 368 -1 279
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -12172,7 +12155,7 @@ Ligature2: "si_abvs_1 subtable" si_Va si_MatraI
 EndChar
 
 StartChar: si_VIi
-Encoding: 369 -1 282
+Encoding: 369 -1 280
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -12224,7 +12207,7 @@ Ligature2: "si_abvs_2 subtable" si_Va si_MatraIi
 EndChar
 
 StartChar: si_VU
-Encoding: 370 -1 283
+Encoding: 370 -1 281
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -12253,7 +12236,7 @@ Ligature2: "si_blws_1 subtable" si_Va si_MatraU
 EndChar
 
 StartChar: si_VUu
-Encoding: 371 -1 284
+Encoding: 371 -1 282
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -12284,7 +12267,7 @@ Ligature2: "si_blws_3 subtable" si_Va si_MatraUu
 EndChar
 
 StartChar: si_Va.reph
-Encoding: 372 -1 285
+Encoding: 372 -1 283
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -12318,7 +12301,7 @@ Ligature2: "si_abvs_7 subtable" si_Va si_Reph
 EndChar
 
 StartChar: si_Va.rakar
-Encoding: 65647 -1 286
+Encoding: 65647 -1 284
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -12329,7 +12312,7 @@ Layer: 2
 EndChar
 
 StartChar: si_ShI
-Encoding: 377 -1 287
+Encoding: 377 -1 285
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -12392,7 +12375,7 @@ Ligature2: "si_abvs_1 subtable" si_Sha si_MatraI
 EndChar
 
 StartChar: si_ShIi
-Encoding: 378 -1 288
+Encoding: 378 -1 286
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -12458,7 +12441,7 @@ Ligature2: "si_abvs_2 subtable" si_Sha si_MatraIi
 EndChar
 
 StartChar: si_ShU
-Encoding: 379 -1 289
+Encoding: 379 -1 287
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -12484,7 +12467,7 @@ Ligature2: "si_blws_1 subtable" si_Sha si_MatraU
 EndChar
 
 StartChar: si_ShUu
-Encoding: 380 -1 290
+Encoding: 380 -1 288
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -12516,7 +12499,7 @@ Ligature2: "si_blws_3 subtable" si_Sha si_MatraUu
 EndChar
 
 StartChar: si_Sha.reph
-Encoding: 381 -1 291
+Encoding: 381 -1 289
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -12550,7 +12533,7 @@ Ligature2: "si_abvs_7 subtable" si_Sha si_Reph
 EndChar
 
 StartChar: si_Sha.rakar
-Encoding: 65651 -1 292
+Encoding: 65651 -1 290
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -12561,7 +12544,7 @@ Layer: 2
 EndChar
 
 StartChar: si_SsI
-Encoding: 386 -1 293
+Encoding: 386 -1 291
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -12587,7 +12570,7 @@ Ligature2: "si_abvs_1 subtable" si_Ssa si_MatraI
 EndChar
 
 StartChar: si_SsIi
-Encoding: 387 -1 294
+Encoding: 387 -1 292
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -12618,7 +12601,7 @@ Ligature2: "si_abvs_2 subtable" si_Ssa si_MatraIi
 EndChar
 
 StartChar: si_SsU
-Encoding: 388 -1 295
+Encoding: 388 -1 293
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -12646,7 +12629,7 @@ Ligature2: "si_blws_1 subtable" si_Ssa si_MatraU
 EndChar
 
 StartChar: si_SsUu
-Encoding: 389 -1 296
+Encoding: 389 -1 294
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -12677,7 +12660,7 @@ Ligature2: "si_blws_3 subtable" si_Ssa si_MatraUu
 EndChar
 
 StartChar: si_Ssa.reph
-Encoding: 390 -1 297
+Encoding: 390 -1 295
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -12711,7 +12694,7 @@ Ligature2: "si_abvs_7 subtable" si_Ssa si_Reph
 EndChar
 
 StartChar: si_Ssa.rakar
-Encoding: 65655 -1 298
+Encoding: 65655 -1 296
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -12722,7 +12705,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Si
-Encoding: 65658 -1 299
+Encoding: 65658 -1 297
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -12733,7 +12716,7 @@ Layer: 2
 EndChar
 
 StartChar: si_SIi
-Encoding: 395 -1 300
+Encoding: 395 -1 298
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -12765,7 +12748,7 @@ Ligature2: "si_abvs_2 subtable" si_Sa si_MatraIi
 EndChar
 
 StartChar: si_Su
-Encoding: 65659 -1 301
+Encoding: 65659 -1 299
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -12776,7 +12759,7 @@ Layer: 2
 EndChar
 
 StartChar: si_SUu
-Encoding: 397 -1 302
+Encoding: 397 -1 300
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -12807,7 +12790,7 @@ Ligature2: "si_blws_3 subtable" si_Sa si_MatraUu
 EndChar
 
 StartChar: si_Sa.reph
-Encoding: 398 -1 303
+Encoding: 398 -1 301
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -12841,7 +12824,7 @@ Ligature2: "si_abvs_7 subtable" si_Sa si_Reph
 EndChar
 
 StartChar: si_HIi
-Encoding: 404 -1 304
+Encoding: 404 -1 302
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -12873,7 +12856,7 @@ Ligature2: "si_abvs_2 subtable" si_Ha si_MatraIi
 EndChar
 
 StartChar: si_HUu
-Encoding: 406 -1 305
+Encoding: 406 -1 303
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -12904,7 +12887,7 @@ Ligature2: "si_blws_3 subtable" si_Ha si_MatraUu
 EndChar
 
 StartChar: si_Ha.reph
-Encoding: 407 -1 306
+Encoding: 407 -1 304
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -12938,7 +12921,7 @@ Ligature2: "si_abvs_7 subtable" si_Ha si_Reph
 EndChar
 
 StartChar: si_Ll.halant
-Encoding: 410 -1 307
+Encoding: 410 -1 305
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -12989,7 +12972,7 @@ Ligature2: "si_halant_1 subtable" si_Lla si_Halant
 EndChar
 
 StartChar: si_LlIi
-Encoding: 412 -1 308
+Encoding: 412 -1 306
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -13043,7 +13026,7 @@ Ligature2: "si_abvs_2 subtable" si_Lla si_MatraIi
 EndChar
 
 StartChar: si_LlU
-Encoding: 413 -1 309
+Encoding: 413 -1 307
 Width: 662
 VWidth: 1000
 Flags: HW
@@ -13095,7 +13078,7 @@ Ligature2: "si_blws_1 subtable" si_Lla si_MatraU
 EndChar
 
 StartChar: si_LlUu
-Encoding: 414 -1 310
+Encoding: 414 -1 308
 Width: 929
 VWidth: 1000
 Flags: HW
@@ -13164,7 +13147,7 @@ Ligature2: "si_blws_3 subtable" si_Lla si_MatraUu
 EndChar
 
 StartChar: si_FI
-Encoding: 416 -1 311
+Encoding: 416 -1 309
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -13191,7 +13174,7 @@ Ligature2: "si_abvs_1 subtable" si_Fa si_MatraI
 EndChar
 
 StartChar: si_FIi
-Encoding: 417 -1 312
+Encoding: 417 -1 310
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -13224,7 +13207,7 @@ Colour: ff0000
 EndChar
 
 StartChar: si_FU
-Encoding: 418 -1 313
+Encoding: 418 -1 311
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -13252,7 +13235,7 @@ Ligature2: "si_blws_1 subtable" si_Fa si_MatraU
 EndChar
 
 StartChar: si_FUu
-Encoding: 419 -1 314
+Encoding: 419 -1 312
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -13283,7 +13266,7 @@ Ligature2: "si_blws_3 subtable" si_Fa si_MatraUu
 EndChar
 
 StartChar: si_Fa.reph
-Encoding: 420 -1 315
+Encoding: 420 -1 313
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -13316,7 +13299,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KVa
-Encoding: 425 -1 316
+Encoding: 425 -1 314
 Width: 1061
 VWidth: 1000
 Flags: HW
@@ -13390,7 +13373,7 @@ Ligature2: "si_akhands subtable" si_Ka si_Halant si_Va
 EndChar
 
 StartChar: si_NDha
-Encoding: 426 -1 317
+Encoding: 426 -1 315
 Width: 1078
 VWidth: 1000
 Flags: HW
@@ -13451,7 +13434,7 @@ Ligature2: "si_akhands subtable" si_Na si_Halant si_Dha
 EndChar
 
 StartChar: si_NDa
-Encoding: 427 -1 318
+Encoding: 427 -1 316
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -13512,7 +13495,7 @@ Ligature2: "si_akhands subtable" si_Na si_Halant si_Da
 EndChar
 
 StartChar: si_NVa
-Encoding: 429 -1 319
+Encoding: 429 -1 317
 Width: 1032
 VWidth: 1000
 Flags: HW
@@ -13572,7 +13555,7 @@ Ligature2: "si_akhands subtable" si_Na si_Halant si_Va
 EndChar
 
 StartChar: si_TtTha
-Encoding: 430 -1 320
+Encoding: 430 -1 318
 Width: 1016
 VWidth: 1000
 Flags: HW
@@ -13632,7 +13615,7 @@ Ligature2: "si_akhands subtable" si_Tta si_Halant si_Tha
 EndChar
 
 StartChar: si_TtVa
-Encoding: 476 -1 321
+Encoding: 476 -1 319
 Width: 1001
 VWidth: 1000
 Flags: HW
@@ -13696,7 +13679,7 @@ Layer: 2
 EndChar
 
 StartChar: si_GDha
-Encoding: 432 -1 322
+Encoding: 432 -1 320
 Width: 942
 VWidth: 1000
 Flags: HW
@@ -13752,7 +13735,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KSsI
-Encoding: 436 -1 323
+Encoding: 436 -1 321
 Width: 1069
 VWidth: 1000
 Flags: HW
@@ -13854,7 +13837,7 @@ Ligature2: "si_abvs_5 subtable" si_KSsa si_MatraI
 EndChar
 
 StartChar: si_KSsIi
-Encoding: 437 -1 324
+Encoding: 437 -1 322
 Width: 1069
 VWidth: 1000
 Flags: HW
@@ -13961,7 +13944,7 @@ Ligature2: "si_abvs_6 subtable" si_KSsa si_MatraIi
 EndChar
 
 StartChar: si_KSsU
-Encoding: 438 -1 325
+Encoding: 438 -1 323
 Width: 1069
 VWidth: 1000
 Flags: HW
@@ -14065,7 +14048,7 @@ Ligature2: "si_blws_2 subtable" si_KSsa si_MatraU
 EndChar
 
 StartChar: si_KSsaUu
-Encoding: 65677 -1 326
+Encoding: 65677 -1 324
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -14076,7 +14059,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KVa.halant
-Encoding: 65678 -1 327
+Encoding: 65678 -1 325
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -14087,7 +14070,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KVi
-Encoding: 65679 -1 328
+Encoding: 65679 -1 326
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -14098,7 +14081,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KVIi
-Encoding: 442 -1 329
+Encoding: 442 -1 327
 Width: 1061
 VWidth: 1000
 Flags: HW
@@ -14188,7 +14171,7 @@ Ligature2: "si_abvs_6 subtable" si_KVa si_MatraIi
 EndChar
 
 StartChar: si_KVU
-Encoding: 443 -1 330
+Encoding: 443 -1 328
 Width: 1061
 VWidth: 1000
 Flags: HW
@@ -14275,7 +14258,7 @@ Ligature2: "si_blws_2 subtable" si_KVa si_MatraU
 EndChar
 
 StartChar: si_KVUu
-Encoding: 444 -1 331
+Encoding: 444 -1 329
 Width: 1061
 VWidth: 1000
 Flags: HW
@@ -14365,7 +14348,7 @@ Ligature2: "si_blws_4 subtable" si_KVa si_MatraUu
 EndChar
 
 StartChar: si_NDha.halnt
-Encoding: 445 -1 332
+Encoding: 445 -1 330
 Width: 1078
 VWidth: 1000
 Flags: HW
@@ -14439,7 +14422,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NDhI
-Encoding: 446 -1 333
+Encoding: 446 -1 331
 Width: 1078
 VWidth: 1000
 Flags: HW
@@ -14511,7 +14494,7 @@ Ligature2: "si_abvs_5 subtable" si_NDha si_MatraI
 EndChar
 
 StartChar: si_NDhIi
-Encoding: 447 -1 334
+Encoding: 447 -1 332
 Width: 1078
 VWidth: 1000
 Flags: HW
@@ -14588,7 +14571,7 @@ Ligature2: "si_abvs_6 subtable" si_NDha si_MatraIi
 EndChar
 
 StartChar: si_NDhU
-Encoding: 448 -1 335
+Encoding: 448 -1 333
 Width: 1078
 VWidth: 1000
 Flags: HW
@@ -14662,7 +14645,7 @@ Ligature2: "si_blws_2 subtable" si_NDha si_MatraU
 EndChar
 
 StartChar: si_NDhUu
-Encoding: 449 -1 336
+Encoding: 449 -1 334
 Width: 1078
 VWidth: 1000
 Flags: HW
@@ -14739,7 +14722,7 @@ Ligature2: "si_blws_4 subtable" si_NDha si_MatraUu
 EndChar
 
 StartChar: si_NDAe.
-Encoding: 452 -1 337
+Encoding: 452 -1 335
 Width: 1177
 VWidth: 1000
 Flags: HW
@@ -14810,7 +14793,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NDAee
-Encoding: 453 -1 338
+Encoding: 453 -1 336
 Width: 1175
 VWidth: 1000
 Flags: HW
@@ -14887,7 +14870,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NDI
-Encoding: 454 -1 339
+Encoding: 454 -1 337
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -14959,7 +14942,7 @@ Ligature2: "si_abvs_5 subtable" si_NDa si_MatraI
 EndChar
 
 StartChar: si_NDIi
-Encoding: 455 -1 340
+Encoding: 455 -1 338
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -15036,7 +15019,7 @@ Ligature2: "si_abvs_6 subtable" si_NDa si_MatraIi
 EndChar
 
 StartChar: si_NDUu
-Encoding: 457 -1 341
+Encoding: 457 -1 339
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -15107,7 +15090,7 @@ Ligature2: "si_blws_4 subtable" si_NDa si_MatraUu
 EndChar
 
 StartChar: si_NDa.rakar
-Encoding: 65683 -1 342
+Encoding: 65683 -1 340
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -15118,7 +15101,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NDI.rakar
-Encoding: 65684 -1 343
+Encoding: 65684 -1 341
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -15129,7 +15112,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NDIi.rakar
-Encoding: 65685 -1 344
+Encoding: 65685 -1 342
 Width: 0
 VWidth: 1000
 Flags: HW
@@ -15140,7 +15123,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NThI
-Encoding: 462 -1 345
+Encoding: 462 -1 343
 Width: 1046
 VWidth: 1000
 Flags: HW
@@ -15211,7 +15194,7 @@ Ligature2: "si_abvs_5 subtable" si_NTha si_MatraI
 EndChar
 
 StartChar: si_NThIi
-Encoding: 463 -1 346
+Encoding: 463 -1 344
 Width: 1046
 VWidth: 1000
 Flags: HW
@@ -15287,7 +15270,7 @@ Ligature2: "si_abvs_6 subtable" si_NTha si_MatraIi
 EndChar
 
 StartChar: si_NThU
-Encoding: 464 -1 347
+Encoding: 464 -1 345
 Width: 1046
 VWidth: 1000
 Flags: HW
@@ -15358,7 +15341,7 @@ Ligature2: "si_blws_2 subtable" si_NTha si_MatraU
 EndChar
 
 StartChar: si_NThUu
-Encoding: 465 -1 348
+Encoding: 465 -1 346
 Width: 1046
 VWidth: 1000
 Flags: HW
@@ -15432,7 +15415,7 @@ Ligature2: "si_blws_4 subtable" si_NTha si_MatraUu
 EndChar
 
 StartChar: si_NVI
-Encoding: 467 -1 349
+Encoding: 467 -1 347
 Width: 1032
 VWidth: 1000
 Flags: HW
@@ -15503,7 +15486,7 @@ Ligature2: "si_abvs_5 subtable" si_NVa si_MatraI
 EndChar
 
 StartChar: si_NVIi
-Encoding: 468 -1 350
+Encoding: 468 -1 348
 Width: 1032
 VWidth: 1000
 Flags: HW
@@ -15579,7 +15562,7 @@ Ligature2: "si_abvs_6 subtable" si_NVa si_MatraIi
 EndChar
 
 StartChar: si_NVU
-Encoding: 469 -1 351
+Encoding: 469 -1 349
 Width: 1032
 VWidth: 1000
 Flags: HW
@@ -15652,7 +15635,7 @@ Ligature2: "si_blws_2 subtable" si_NVa si_MatraU
 EndChar
 
 StartChar: si_NVUu
-Encoding: 470 -1 352
+Encoding: 470 -1 350
 Width: 1032
 VWidth: 1000
 Flags: HW
@@ -15728,7 +15711,7 @@ Ligature2: "si_blws_4 subtable" si_NVa si_MatraUu
 EndChar
 
 StartChar: si_TTha
-Encoding: 471 -1 353
+Encoding: 471 -1 351
 Width: 1016
 VWidth: 1000
 Flags: HW
@@ -15798,7 +15781,7 @@ Ligature2: "si_akhands subtable" si_Ta si_Halant si_Tha
 EndChar
 
 StartChar: si_TThI
-Encoding: 472 -1 354
+Encoding: 472 -1 352
 Width: 1016
 VWidth: 1000
 Flags: HW
@@ -15871,7 +15854,7 @@ Ligature2: "si_abvs_5 subtable" si_TTha si_MatraI
 EndChar
 
 StartChar: si_TThIi
-Encoding: 473 -1 355
+Encoding: 473 -1 353
 Width: 1016
 VWidth: 1000
 Flags: HW
@@ -15949,7 +15932,7 @@ Ligature2: "si_abvs_6 subtable" si_TTha si_MatraIi
 EndChar
 
 StartChar: si_TThU
-Encoding: 474 -1 356
+Encoding: 474 -1 354
 Width: 1016
 VWidth: 1000
 Flags: HW
@@ -16022,7 +16005,7 @@ Ligature2: "si_blws_2 subtable" si_TTha si_MatraU
 EndChar
 
 StartChar: si_TThUu
-Encoding: 475 -1 357
+Encoding: 475 -1 355
 Width: 1016
 VWidth: 1000
 Flags: HW
@@ -16098,7 +16081,7 @@ Ligature2: "si_blws_4 subtable" si_TTha si_MatraUu
 EndChar
 
 StartChar: si_TV.halant
-Encoding: 65688 -1 358
+Encoding: 65688 -1 356
 Width: 1001
 VWidth: 1000
 Flags: HW
@@ -16176,7 +16159,7 @@ Layer: 2
 EndChar
 
 StartChar: si_TVI
-Encoding: 477 -1 359
+Encoding: 477 -1 357
 Width: 1001
 VWidth: 1000
 Flags: HW
@@ -16252,7 +16235,7 @@ Ligature2: "si_abvs_5 subtable" si_TVa si_MatraI
 EndChar
 
 StartChar: si_TVIi
-Encoding: 478 -1 360
+Encoding: 478 -1 358
 Width: 1001
 VWidth: 1000
 Flags: HW
@@ -16334,7 +16317,7 @@ Ligature2: "si_abvs_6 subtable" si_TVa si_MatraIi
 EndChar
 
 StartChar: si_TVU
-Encoding: 479 -1 361
+Encoding: 479 -1 359
 Width: 1001
 VWidth: 1000
 Flags: HW
@@ -16412,7 +16395,7 @@ Ligature2: "si_blws_2 subtable" si_TVa si_MatraU
 EndChar
 
 StartChar: si_TVUu
-Encoding: 480 -1 362
+Encoding: 480 -1 360
 Width: 1001
 VWidth: 1000
 Flags: HW
@@ -16493,7 +16476,7 @@ Ligature2: "si_blws_4 subtable" si_TVa si_MatraUu
 EndChar
 
 StartChar: si_Ka.touch
-Encoding: 496 -1 363
+Encoding: 496 -1 361
 Width: 746
 VWidth: 1000
 Flags: HW
@@ -16548,7 +16531,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Kha.touch
-Encoding: 497 -1 364
+Encoding: 497 -1 362
 Width: 630
 VWidth: 1000
 Flags: HW
@@ -16591,7 +16574,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ga.touch
-Encoding: 498 -1 365
+Encoding: 498 -1 363
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -16629,7 +16612,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Gha.touch
-Encoding: 499 -1 366
+Encoding: 499 -1 364
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -16641,7 +16624,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Nga.touch
-Encoding: 500 -1 367
+Encoding: 500 -1 365
 Width: 617
 VWidth: 1000
 Flags: HW
@@ -16689,7 +16672,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Nnga.touch
-Encoding: 501 -1 368
+Encoding: 501 -1 366
 Width: 749
 VWidth: 1000
 Flags: HW
@@ -16735,7 +16718,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ca.touch
-Encoding: 502 -1 369
+Encoding: 502 -1 367
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -16779,7 +16762,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Cha.touch
-Encoding: 503 -1 370
+Encoding: 503 -1 368
 Width: 598
 VWidth: 1000
 Flags: HW
@@ -16829,7 +16812,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ja.touch
-Encoding: 504 -1 371
+Encoding: 504 -1 369
 Width: 598
 VWidth: 1000
 Flags: HW
@@ -16878,7 +16861,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Jha.touch
-Encoding: 505 -1 372
+Encoding: 505 -1 370
 Width: 1087
 VWidth: 1000
 Flags: HW
@@ -16951,7 +16934,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ny.touch
-Encoding: 506 -1 373
+Encoding: 506 -1 371
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -17034,7 +17017,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ndja.touch
-Encoding: 507 -1 374
+Encoding: 507 -1 372
 Width: 699
 VWidth: 1000
 Flags: HW
@@ -17091,7 +17074,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Tta.touch
-Encoding: 508 -1 375
+Encoding: 508 -1 373
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -17119,7 +17102,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ttha.touch
-Encoding: 509 -1 376
+Encoding: 509 -1 374
 Width: 614
 VWidth: 1000
 Flags: HW
@@ -17160,7 +17143,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Dda.touch
-Encoding: 510 -1 377
+Encoding: 510 -1 375
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -17172,7 +17155,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ddha.touch
-Encoding: 511 -1 378
+Encoding: 511 -1 376
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -17219,7 +17202,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Nna.touch
-Encoding: 512 -1 379
+Encoding: 512 -1 377
 Width: 963
 VWidth: 1000
 Flags: HW
@@ -17231,7 +17214,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Nddha.touch
-Encoding: 513 -1 380
+Encoding: 513 -1 378
 Width: 731
 VWidth: 1000
 Flags: HW
@@ -17281,7 +17264,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ta.touch
-Encoding: 514 -1 381
+Encoding: 514 -1 379
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -17326,7 +17309,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Tha.touch
-Encoding: 515 -1 382
+Encoding: 515 -1 380
 Width: 614
 VWidth: 1000
 Flags: HW
@@ -17358,7 +17341,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Da.touch
-Encoding: 516 -1 383
+Encoding: 516 -1 381
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -17370,7 +17353,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Dha.touch
-Encoding: 517 -1 384
+Encoding: 517 -1 382
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -17382,7 +17365,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Na.touch
-Encoding: 518 -1 385
+Encoding: 518 -1 383
 Width: 806
 VWidth: 1000
 Flags: HW
@@ -17424,7 +17407,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Nda.touch
-Encoding: 519 -1 386
+Encoding: 519 -1 384
 Width: 538
 VWidth: 1000
 Flags: HW
@@ -17467,7 +17450,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Pa.touch
-Encoding: 520 -1 387
+Encoding: 520 -1 385
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -17511,7 +17494,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Pha.touch
-Encoding: 521 -1 388
+Encoding: 521 -1 386
 Width: 583
 VWidth: 1000
 Flags: HW
@@ -17553,7 +17536,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ba.touch
-Encoding: 522 -1 389
+Encoding: 522 -1 387
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -17592,7 +17575,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Bha.touch
-Encoding: 523 -1 390
+Encoding: 523 -1 388
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -17604,7 +17587,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ma.touch
-Encoding: 524 -1 391
+Encoding: 524 -1 389
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -17616,7 +17599,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Mba.touch
-Encoding: 525 -1 392
+Encoding: 525 -1 390
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -17674,7 +17657,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ya.touch
-Encoding: 526 -1 393
+Encoding: 526 -1 391
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -17686,7 +17669,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ra.touch
-Encoding: 527 -1 394
+Encoding: 527 -1 392
 Width: 528
 VWidth: 1000
 Flags: HW
@@ -17715,7 +17698,7 @@ Layer: 2
 EndChar
 
 StartChar: si_La.touch
-Encoding: 528 -1 395
+Encoding: 528 -1 393
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -17750,7 +17733,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Va.touch
-Encoding: 529 -1 396
+Encoding: 529 -1 394
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -17785,7 +17768,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Sha.touch
-Encoding: 530 -1 397
+Encoding: 530 -1 395
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -17833,7 +17816,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ssa.touch
-Encoding: 531 -1 398
+Encoding: 531 -1 396
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -17885,7 +17868,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Sa.touch
-Encoding: 532 -1 399
+Encoding: 532 -1 397
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -17942,7 +17925,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Ha.touch
-Encoding: 533 -1 400
+Encoding: 533 -1 398
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -17984,7 +17967,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Lla.touch
-Encoding: 534 -1 401
+Encoding: 534 -1 399
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -18021,7 +18004,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Jnya.touch
-Encoding: 535 -1 402
+Encoding: 535 -1 400
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -18085,7 +18068,7 @@ Layer: 2
 EndChar
 
 StartChar: NameMe.550
-Encoding: 65704 -1 403
+Encoding: 65704 -1 401
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -18162,7 +18145,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KRa
-Encoding: 96 -1 404
+Encoding: 96 -1 402
 Width: 746
 VWidth: 1000
 Flags: HW
@@ -18186,7 +18169,7 @@ Ligature2: "si_rakaar subtable" si_Ka si_Halant si_Ra
 EndChar
 
 StartChar: si_KRI
-Encoding: 97 -1 405
+Encoding: 97 -1 403
 Width: 746
 VWidth: 1000
 Flags: HW
@@ -18221,7 +18204,7 @@ Ligature2: "si_abvs_3 subtable" si_KRa si_MatraI
 EndChar
 
 StartChar: si_KRIi
-Encoding: 98 -1 406
+Encoding: 98 -1 404
 Width: 746
 VWidth: 1000
 Flags: HW
@@ -18262,7 +18245,7 @@ Ligature2: "si_abvs_4 subtable" si_KRa si_MatraIi
 EndChar
 
 StartChar: si_KhUu
-Encoding: 103 -1 407
+Encoding: 103 -1 405
 Width: 630
 VWidth: 1000
 Flags: HW
@@ -18294,7 +18277,7 @@ Ligature2: "si_blws_3 subtable" si_Kha si_MatraUu
 EndChar
 
 StartChar: si_KhRa
-Encoding: 104 -1 408
+Encoding: 104 -1 406
 Width: 630
 VWidth: 1000
 Flags: HW
@@ -18318,7 +18301,7 @@ Ligature2: "si_rakaar subtable" si_Kha si_Halant si_Ra
 EndChar
 
 StartChar: si_KhR.halant
-Encoding: 105 -1 409
+Encoding: 105 -1 407
 Width: 630
 VWidth: 1000
 Flags: HW
@@ -18384,7 +18367,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KhRI
-Encoding: 106 -1 410
+Encoding: 106 -1 408
 Width: 630
 VWidth: 1000
 Flags: HW
@@ -18448,7 +18431,7 @@ Ligature2: "si_abvs_3 subtable" si_KhRa si_MatraI
 EndChar
 
 StartChar: si_KhRIi
-Encoding: 107 -1 411
+Encoding: 107 -1 409
 Width: 630
 VWidth: 1000
 Flags: HW
@@ -18517,7 +18500,7 @@ Ligature2: "si_abvs_4 subtable" si_KhRa si_MatraIi
 EndChar
 
 StartChar: si_GRa
-Encoding: 115 -1 412
+Encoding: 115 -1 410
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -18541,7 +18524,7 @@ Ligature2: "si_rakaar subtable" si_Ga si_Halant si_Ra
 EndChar
 
 StartChar: si_GR.halant
-Encoding: 116 -1 413
+Encoding: 116 -1 411
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -18576,7 +18559,7 @@ Layer: 2
 EndChar
 
 StartChar: si_GRI
-Encoding: 117 -1 414
+Encoding: 117 -1 412
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -18638,7 +18621,7 @@ Ligature2: "si_abvs_3 subtable" si_GRa si_MatraI
 EndChar
 
 StartChar: si_GRIi
-Encoding: 118 -1 415
+Encoding: 118 -1 413
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -18704,7 +18687,7 @@ Ligature2: "si_abvs_4 subtable" si_GRa si_MatraIi
 EndChar
 
 StartChar: si_GhRI
-Encoding: 126 -1 416
+Encoding: 126 -1 414
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -18740,7 +18723,7 @@ Ligature2: "si_abvs_3 subtable" si_GhRa si_MatraI
 EndChar
 
 StartChar: si_GhRIi
-Encoding: 127 -1 417
+Encoding: 127 -1 415
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -18780,7 +18763,7 @@ Ligature2: "si_abvs_4 subtable" si_GhRa si_MatraIi
 EndChar
 
 StartChar: si_GhRa
-Encoding: 128 -1 418
+Encoding: 128 -1 416
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -18804,7 +18787,7 @@ Ligature2: "si_rakaar subtable" si_Gha si_Halant si_Ra
 EndChar
 
 StartChar: si_Ng.halant
-Encoding: 129 -1 419
+Encoding: 129 -1 417
 Width: 617
 VWidth: 1000
 Flags: HW
@@ -18867,7 +18850,7 @@ Ligature2: "si_halant_1 subtable" si_Nga si_Halant
 EndChar
 
 StartChar: si_Nng.halant
-Encoding: 132 -1 420
+Encoding: 132 -1 418
 Width: 749
 VWidth: 1000
 Flags: HW
@@ -18895,7 +18878,7 @@ Ligature2: "si_halant_1 subtable" si_Nnga si_Halant
 EndChar
 
 StartChar: si_C.halant
-Encoding: 137 -1 421
+Encoding: 137 -1 419
 Width: 621
 VWidth: 1000
 Flags: HW
@@ -18954,7 +18937,7 @@ Ligature2: "si_halant_1 subtable" si_Ca si_Halant
 EndChar
 
 StartChar: si_MRa
-Encoding: 333 -1 422
+Encoding: 333 -1 420
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -18978,7 +18961,7 @@ Ligature2: "si_rakaar subtable" si_Ma si_Halant si_Ra
 EndChar
 
 StartChar: si_MRI
-Encoding: 334 -1 423
+Encoding: 334 -1 421
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -19043,7 +19026,7 @@ Ligature2: "si_abvs_3 subtable" si_MRa si_MatraI
 EndChar
 
 StartChar: si_MRIi
-Encoding: 335 -1 424
+Encoding: 335 -1 422
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -19113,7 +19096,7 @@ Ligature2: "si_abvs_4 subtable" si_MRa si_MatraIi
 EndChar
 
 StartChar: si_Mb.halant
-Encoding: 336 -1 425
+Encoding: 336 -1 423
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -19186,7 +19169,7 @@ Ligature2: "si_halant_1 subtable" si_Mba si_Halant
 EndChar
 
 StartChar: si_K.halant
-Encoding: 89 -1 426
+Encoding: 89 -1 424
 Width: 746
 VWidth: 1000
 Flags: HW
@@ -19195,26 +19178,26 @@ Back
 Fore
 SplineSet
 549.5 348 m 1
+ 549.5 681 l 1
+ 603.5 639 701 634 701 542 c 0
+ 701 498 666.19140625 468 623 468 c 0
+ 608.333007812 468 593.333007812 471.333007812 578 478 c 1
  578 331 l 1
- 578 478 l 1
- 593.333007812 471.333007812 608.333007812 468 623 468 c 0
- 666.19140625 468 701 498 701 542 c 0
- 701 634 603.5 639 549.5 681 c 1
  549.5 348 l 1
 578.10546875 504.2734375 m 1
- 578.10546875 636.586914062 l 1
- 624.169921875 606.203125 656 586.6015625 656 545.4375 c 0
- 656 521.915039062 642.454101562 497.413085938 610.448242188 497.413085938 c 0
- 597.381835938 497.413085938 586.599609375 499.69921875 578.10546875 504.2734375 c 1
+ 586.599609375 499.69921875 597.381835938 497.413085938 610.448242188 497.413085938 c 0
+ 642.454101562 497.413085938 656 521.915039062 656 545.4375 c 0
+ 656 586.6015625 624.169921875 606.203125 578.10546875 636.586914062 c 1
+ 578.10546875 504.2734375 l 1
 EndSplineSet
-Refer: 11 3482 S 1 0 0 1 0 0 2
+Refer: 11 3482 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
 Ligature2: "si_halant_1 subtable" si_Ka si_Halant
 EndChar
 
 StartChar: si_G.halant
-Encoding: 108 -1 427
+Encoding: 108 -1 425
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -19242,7 +19225,7 @@ Ligature2: "si_halant_1 subtable" si_Ga si_Halant
 EndChar
 
 StartChar: si_J.halant
-Encoding: 151 -1 428
+Encoding: 151 -1 426
 Width: 598
 VWidth: 1000
 Flags: HW
@@ -19270,7 +19253,7 @@ Ligature2: "si_halant_1 subtable" si_Ja si_Halant
 EndChar
 
 StartChar: si_JIi
-Encoding: 153 -1 429
+Encoding: 153 -1 427
 Width: 598
 VWidth: 1000
 Flags: HW
@@ -19303,7 +19286,32 @@ Ligature2: "si_abvs_2 subtable" si_Ja si_MatraIi
 EndChar
 
 StartChar: si_JRa
-Encoding: 157 -1 430
+Encoding: 157 -1 428
+Width: 598
+VWidth: 1000
+Flags: HW
+LayerCount: 3
+Back
+Fore
+SplineSet
+40.5 -44 m 5
+ 70 -44 l 5
+ 107.475585938 -86.9580078125 170.166992188 -114.25 275.5 -114.25 c 4
+ 418.5 -114.25 518 -31.0107421875 518 63.25 c 4
+ 518 78.2841796875 516.4375 90.4462890625 511 102 c 5
+ 524 133 l 5
+ 542 106.333007812 551 74.6669921875 551 38 c 4
+ 551 -123.729492188 432.75 -219 288.75 -219 c 4
+ 155.75 -219 77.8330078125 -153.333007812 40.5 -44 c 5
+EndSplineSet
+Refer: 17 3490 N 1 0 0 1 0 0 2
+Layer: 2
+LCarets2: 2 0 0
+Ligature2: "si_rakaar subtable" si_Ja si_Halant si_Ra
+EndChar
+
+StartChar: si_JRI
+Encoding: 158 -1 429
 Width: 598
 VWidth: 1000
 Flags: HW
@@ -19320,21 +19328,6 @@ SplineSet
  542 106.333007812 551 74.6669921875 551 38 c 0
  551 -123.729492188 432.75 -219 288.75 -219 c 0
  155.75 -219 77.8330078125 -153.333007812 40.5 -44 c 1
-EndSplineSet
-Refer: 17 3490 N 1 0 0 1 0 0 2
-Layer: 2
-Ligature2: "si_rakaar subtable" si_Ja si_Halant si_Ra
-EndChar
-
-StartChar: si_JRI
-Encoding: 158 -1 431
-Width: 598
-VWidth: 1000
-Flags: HW
-LayerCount: 3
-Back
-Fore
-SplineSet
 233 489.5 m 0
  233 576.568344116 303.321289062 657 382 657 c 256
  428.882360791 657 460.703125 626.416015625 460.705078125 583 c 0
@@ -19346,26 +19339,18 @@ SplineSet
  295 450.19140625 309.158203125 430.75 340 430.75 c 0
  349.46745345 430.75 357.15418162 431.185490911 374 436 c 1
  373.999205737 435.977760632 370.000994788 425.000980856 370 425 c 1
- 357.177734375 416.841796875 329.2297384 407.634579889 327 407 c 1
+ 327 407 l 1
  325.947157499 406.998779664 324.051330601 406.952148437 323 406.952148438 c 0
  260.12493891 406.952148438 233 439.4896989 233 489.5 c 0
-40.5 -44 m 1
- 70 -44 l 1
- 107.475585938 -86.9580078125 170.166992188 -114.25 275.5 -114.25 c 0
- 418.5 -114.25 518 -31.0107421875 518 63.25 c 0
- 518 78.2841796875 516.4375 90.4462890625 511 102 c 1
- 524 133 l 1
- 542 106.333007812 551 74.6669921875 551 38 c 0
- 551 -123.729492188 432.75 -219 288.75 -219 c 0
- 155.75 -219 77.8330078125 -153.333007812 40.5 -44 c 1
 EndSplineSet
 Refer: 17 3490 N 1 0 0 1 0 0 2
 Layer: 2
+LCarets2: 1 0
 Ligature2: "si_abvs_3 subtable" si_JRa si_MatraI
 EndChar
 
 StartChar: si_JRIi
-Encoding: 159 -1 432
+Encoding: 159 -1 430
 Width: 598
 VWidth: 1000
 Flags: HW
@@ -19407,7 +19392,7 @@ Ligature2: "si_abvs_4 subtable" si_JRa si_MatraIi
 EndChar
 
 StartChar: si_Jh.halant
-Encoding: 160 -1 433
+Encoding: 160 -1 431
 Width: 1087
 VWidth: 1000
 Flags: HW
@@ -19495,7 +19480,7 @@ Ligature2: "si_halant_1 subtable" si_Jha si_Halant
 EndChar
 
 StartChar: si_JhRa
-Encoding: 168 -1 434
+Encoding: 168 -1 432
 Width: 1087
 VWidth: 1000
 Flags: HW
@@ -19519,7 +19504,7 @@ Ligature2: "si_rakaar subtable" si_Jha si_Halant si_Ra
 EndChar
 
 StartChar: si_JhRI
-Encoding: 169 -1 435
+Encoding: 169 -1 433
 Width: 1087
 VWidth: 1000
 Flags: HW
@@ -19613,7 +19598,7 @@ Ligature2: "si_abvs_3 subtable" si_JhRa si_MatraI
 EndChar
 
 StartChar: si_JhRIi
-Encoding: 170 -1 436
+Encoding: 170 -1 434
 Width: 1087
 VWidth: 1000
 Flags: HW
@@ -19712,7 +19697,7 @@ Ligature2: "si_abvs_4 subtable" si_JhRa si_MatraIi
 EndChar
 
 StartChar: si_Dd.halant
-Encoding: 209 -1 437
+Encoding: 209 -1 435
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -19769,7 +19754,7 @@ Ligature2: "si_halant_1 subtable" si_Dda si_Halant
 EndChar
 
 StartChar: si_DdRa
-Encoding: 215 -1 438
+Encoding: 215 -1 436
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -19793,7 +19778,7 @@ Ligature2: "si_rakaar subtable" si_Dda si_Halant si_Ra
 EndChar
 
 StartChar: si_DdRI
-Encoding: 216 -1 439
+Encoding: 216 -1 437
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -19856,7 +19841,7 @@ Ligature2: "si_abvs_3 subtable" si_DdRa si_MatraI
 EndChar
 
 StartChar: si_DdRIi
-Encoding: 217 -1 440
+Encoding: 217 -1 438
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -19924,7 +19909,7 @@ Ligature2: "si_abvs_4 subtable" si_DdRa si_MatraIi
 EndChar
 
 StartChar: si_TtRa
-Encoding: 201 -1 441
+Encoding: 201 -1 439
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -19948,7 +19933,7 @@ Ligature2: "si_rakaar subtable" si_Tta si_Halant si_Ra
 EndChar
 
 StartChar: si_TtRI
-Encoding: 202 -1 442
+Encoding: 202 -1 440
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -19997,7 +19982,7 @@ Ligature2: "si_abvs_3 subtable" si_TtRa si_MatraI
 EndChar
 
 StartChar: si_TtRIi
-Encoding: 203 -1 443
+Encoding: 203 -1 441
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -20051,7 +20036,7 @@ Ligature2: "si_abvs_4 subtable" si_TtRa si_MatraIi
 EndChar
 
 StartChar: si_TRa
-Encoding: 240 -1 444
+Encoding: 240 -1 442
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -20076,7 +20061,7 @@ Ligature2: "si_rakaar subtable" si_Ta si_Halant si_Ra
 EndChar
 
 StartChar: si_TRI
-Encoding: 241 -1 445
+Encoding: 241 -1 443
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -20111,7 +20096,7 @@ Ligature2: "si_abvs_3 subtable" si_TRa si_MatraI
 EndChar
 
 StartChar: si_TRIi
-Encoding: 242 -1 446
+Encoding: 242 -1 444
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -20152,7 +20137,7 @@ Ligature2: "si_abvs_4 subtable" si_TRa si_MatraIi
 EndChar
 
 StartChar: si_PRa
-Encoding: 300 -1 447
+Encoding: 300 -1 445
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -20176,7 +20161,7 @@ Ligature2: "si_rakaar subtable" si_Pa si_Halant si_Ra
 EndChar
 
 StartChar: si_PRI
-Encoding: 301 -1 448
+Encoding: 301 -1 446
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -20212,7 +20197,7 @@ Ligature2: "si_abvs_3 subtable" si_PRa si_MatraI
 EndChar
 
 StartChar: si_PRIi
-Encoding: 302 -1 449
+Encoding: 302 -1 447
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -20253,7 +20238,7 @@ Ligature2: "si_abvs_4 subtable" si_PRa si_MatraIi
 EndChar
 
 StartChar: si_VRa
-Encoding: 373 -1 450
+Encoding: 373 -1 448
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -20277,7 +20262,7 @@ Ligature2: "si_rakaar subtable" si_Va si_Halant si_Ra
 EndChar
 
 StartChar: si_VRI
-Encoding: 374 -1 451
+Encoding: 374 -1 449
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -20333,7 +20318,7 @@ Ligature2: "si_abvs_3 subtable" si_VRa si_MatraI
 EndChar
 
 StartChar: si_VRIi
-Encoding: 375 -1 452
+Encoding: 375 -1 450
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -20394,7 +20379,7 @@ Ligature2: "si_abvs_4 subtable" si_VRa si_MatraIi
 EndChar
 
 StartChar: si_BRa
-Encoding: 315 -1 453
+Encoding: 315 -1 451
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -20417,7 +20402,7 @@ Layer: 2
 EndChar
 
 StartChar: si_BRI
-Encoding: 316 -1 454
+Encoding: 316 -1 452
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -20477,7 +20462,7 @@ Ligature2: "si_abvs_3 subtable" si_BRa si_MatraI
 EndChar
 
 StartChar: si_BRIi
-Encoding: 317 -1 455
+Encoding: 317 -1 453
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -20542,7 +20527,7 @@ Ligature2: "si_abvs_4 subtable" si_BRa si_MatraIi
 EndChar
 
 StartChar: si_SsRa
-Encoding: 391 -1 456
+Encoding: 391 -1 454
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -20566,7 +20551,7 @@ Ligature2: "si_rakaar subtable" si_Ssa si_Halant si_Ra
 EndChar
 
 StartChar: si_SsRI
-Encoding: 392 -1 457
+Encoding: 392 -1 455
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -20600,7 +20585,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DhRa
-Encoding: 276 -1 458
+Encoding: 276 -1 456
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -20624,7 +20609,7 @@ Ligature2: "si_rakaar subtable" si_Dha si_Halant si_Ra
 EndChar
 
 StartChar: si_DhRI
-Encoding: 277 -1 459
+Encoding: 277 -1 457
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -20680,7 +20665,7 @@ Ligature2: "si_abvs_3 subtable" si_DhRa si_MatraI
 EndChar
 
 StartChar: si_DhRIi
-Encoding: 278 -1 460
+Encoding: 278 -1 458
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -20741,7 +20726,7 @@ Ligature2: "si_abvs_4 subtable" si_DhRa si_MatraIi
 EndChar
 
 StartChar: si_BhRa
-Encoding: 324 -1 461
+Encoding: 324 -1 459
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -20766,7 +20751,7 @@ Ligature2: "si_rakaar subtable" si_Bha si_Halant si_Ra
 EndChar
 
 StartChar: si_BhRI
-Encoding: 325 -1 462
+Encoding: 325 -1 460
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -20803,7 +20788,7 @@ Ligature2: "si_abvs_3 subtable" si_BhRa si_MatraI
 EndChar
 
 StartChar: si_BhRIi
-Encoding: 326 -1 463
+Encoding: 326 -1 461
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -20844,7 +20829,7 @@ Ligature2: "si_abvs_4 subtable" si_BhRa si_MatraIi
 EndChar
 
 StartChar: si_ShRa
-Encoding: 382 -1 464
+Encoding: 382 -1 462
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -20902,7 +20887,7 @@ Ligature2: "si_rakaar subtable" si_Sha si_Halant si_Ra
 EndChar
 
 StartChar: si_ShRI
-Encoding: 383 -1 465
+Encoding: 383 -1 463
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -20974,7 +20959,7 @@ Ligature2: "si_abvs_3 subtable" si_ShRa si_MatraI
 EndChar
 
 StartChar: si_ShRIi
-Encoding: 384 -1 466
+Encoding: 384 -1 464
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -21049,7 +21034,7 @@ Ligature2: "si_abvs_4 subtable" si_ShRa si_MatraIi
 EndChar
 
 StartChar: si_FRa
-Encoding: 421 -1 467
+Encoding: 421 -1 465
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -21073,7 +21058,7 @@ Ligature2: "si_rakaar subtable" si_Fa si_Halant si_Ra
 EndChar
 
 StartChar: si_FRI
-Encoding: 422 -1 468
+Encoding: 422 -1 466
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -21107,7 +21092,7 @@ Layer: 2
 EndChar
 
 StartChar: si_FRIi
-Encoding: 423 -1 469
+Encoding: 423 -1 467
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -21147,7 +21132,7 @@ Colour: ff0000
 EndChar
 
 StartChar: si_KSsa
-Encoding: 424 -1 470
+Encoding: 424 -1 468
 Width: 1069
 VWidth: 1000
 Flags: HW
@@ -21238,7 +21223,7 @@ Ligature2: "si_akhands subtable" si_Ka si_Halant si_Ssa
 EndChar
 
 StartChar: si_NTha
-Encoding: 428 -1 471
+Encoding: 428 -1 469
 Width: 1046
 VWidth: 1000
 Flags: HW
@@ -21296,7 +21281,7 @@ Ligature2: "si_akhands subtable" si_Na si_Halant si_Tha
 EndChar
 
 StartChar: si_SRa
-Encoding: 399 -1 472
+Encoding: 399 -1 470
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -21321,7 +21306,7 @@ Ligature2: "si_rakaar subtable" si_Sa si_Halant si_Ra
 EndChar
 
 StartChar: si_SRI
-Encoding: 400 -1 473
+Encoding: 400 -1 471
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -21350,14 +21335,14 @@ SplineSet
  616 -123.729492188 481.5 -219 337.5 -219 c 0
  198.367810726 -219 111.583007812 -153.333007812 74.25 -44 c 1
 EndSplineSet
-Refer: 472 -1 N 1 0 0 1 0 0 2
+Refer: 470 -1 N 1 0 0 1 0 0 2
 Refer: 65 3523 N 1 0 0 1 0 0 2
 Layer: 2
 Ligature2: "si_abvs_3 subtable" si_SRa si_MatraI
 EndChar
 
 StartChar: si_SRIi
-Encoding: 401 -1 474
+Encoding: 401 -1 472
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -21391,13 +21376,13 @@ SplineSet
  616 -123.729492188 481.5 -219 337.5 -219 c 0
  198.367810726 -219 111.583007812 -153.333007812 74.25 -44 c 1
 EndSplineSet
-Refer: 472 -1 N 1 0 0 1 0 0 2
+Refer: 470 -1 N 1 0 0 1 0 0 2
 Layer: 2
 Ligature2: "si_abvs_4 subtable" si_SRa si_MatraIi
 EndChar
 
 StartChar: si_DRa
-Encoding: 261 -1 475
+Encoding: 261 -1 473
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -21436,7 +21421,7 @@ Ligature2: "si_rakaar subtable" si_Da si_Halant si_Ra
 EndChar
 
 StartChar: si_DRAa
-Encoding: 262 -1 476
+Encoding: 262 -1 474
 Width: 1024
 VWidth: 0
 Flags: HW
@@ -21448,7 +21433,7 @@ Ligature2: "si_blws_5 subtable" si_DRa si_MatraAa
 EndChar
 
 StartChar: si_DRI
-Encoding: 263 -1 477
+Encoding: 263 -1 475
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -21498,7 +21483,7 @@ Ligature2: "si_abvs_3 subtable" si_DRa si_MatraI
 EndChar
 
 StartChar: si_DRIi
-Encoding: 264 -1 478
+Encoding: 264 -1 476
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -21553,7 +21538,7 @@ Ligature2: "si_abvs_4 subtable" si_DRa si_MatraIi
 EndChar
 
 StartChar: si_Ya.post
-Encoding: 347 -1 479
+Encoding: 347 -1 477
 Width: 544
 VWidth: 1000
 Flags: HW
@@ -21592,7 +21577,7 @@ Ligature2: "si_pstf subtable" si_Halant si_Ya
 EndChar
 
 StartChar: si_Tt.halant
-Encoding: 195 -1 480
+Encoding: 195 -1 478
 Width: 603
 VWidth: 1000
 Flags: HW
@@ -21635,7 +21620,7 @@ Ligature2: "si_halant_1 subtable" si_Tta si_Halant
 EndChar
 
 StartChar: si_Tth.halant
-Encoding: 204 -1 481
+Encoding: 204 -1 479
 Width: 640
 VWidth: 1000
 Flags: HW
@@ -21690,7 +21675,7 @@ Ligature2: "si_halant_1 subtable" si_Ttha si_Halant
 EndChar
 
 StartChar: si_Ddh.halant
-Encoding: 218 -1 482
+Encoding: 218 -1 480
 Width: 647
 VWidth: 1000
 Flags: HW
@@ -21750,7 +21735,7 @@ Ligature2: "si_halant_1 subtable" si_Ddha si_Halant
 EndChar
 
 StartChar: si_CRa
-Encoding: 143 -1 483
+Encoding: 143 -1 481
 Width: 0
 VWidth: 0
 Flags: HW
@@ -21763,7 +21748,7 @@ Colour: ff0000
 EndChar
 
 StartChar: si_CRI
-Encoding: 144 -1 484
+Encoding: 144 -1 482
 Width: 0
 VWidth: 0
 Flags: HW
@@ -21776,7 +21761,7 @@ Colour: ff0000
 EndChar
 
 StartChar: si_CRIi
-Encoding: 145 -1 485
+Encoding: 145 -1 483
 Width: 0
 VWidth: 0
 Flags: HW
@@ -21789,7 +21774,7 @@ Colour: ff0000
 EndChar
 
 StartChar: si_Ch.halant
-Encoding: 146 -1 486
+Encoding: 146 -1 484
 Width: 0
 VWidth: 0
 Flags: HW
@@ -21802,7 +21787,7 @@ Colour: ff0000
 EndChar
 
 StartChar: si_NyRa
-Encoding: 177 -1 487
+Encoding: 177 -1 485
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -21810,31 +21795,31 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-605.661132812 -43 m 5
- 632.84375 -43 l 5
- 660.137695312 -84.4013671875 698.961914062 -103.25 775.75 -103.25 c 4
- 865.528320312 -103.25 951.654296875 -38.443359375 951.654296875 51 c 4
- 951.654296875 72 951.189453125 66.0068359375 950.25 74 c 5
- 979 78.75 l 5
- 979.00390625 58.4794921875 979.25 75.6669921875 979.25 39 c 4
- 979.25 -108.599609375 891.975585938 -204.25 787 -204.25 c 4
- 681.80859375 -204.25 625.283203125 -144.603515625 605.661132812 -43 c 5
-603 169 m 4
- 603 274 676 317 795 317 c 6
- 912.25 317 l 5
- 902.526367188 363.185546875 847.264648438 390 814.75 390 c 4
- 795.75 390 781.298828125 378.911132812 772.75 361 c 132
- 762.25 339 745.329101562 333 725.5 333 c 4
- 700.5 333 682.75 349.75 682.75 370.75 c 4
- 682.75 407.033203125 723.75 433 778.75 433 c 4
- 864.489257812 433 933.740234375 388.541992188 951 291 c 5
- 889.25 291 l 6
- 801.25 291 756.25 257 756.25 173 c 4
- 756.25 89 807.989257812 44 857.5 44 c 4
- 887.848632812 44 912.75 48.25 952.75 94.25 c 5
- 978.5 79 l 5
- 941.8671875 31.455078125 894.708007812 -1 806 -1 c 4
- 675 -1 603 69 603 169 c 4
+605.661132812 -43 m 1
+ 632.84375 -43 l 1
+ 660.137695312 -84.4013671875 698.961914062 -103.25 775.75 -103.25 c 0
+ 865.528320312 -103.25 951.654296875 -38.443359375 951.654296875 51 c 0
+ 951.654296875 72 951.189453125 66.0068359375 950.25 74 c 1
+ 979 78.75 l 1
+ 979.00390625 58.4794921875 979.25 75.6669921875 979.25 39 c 0
+ 979.25 -108.599609375 891.975585938 -204.25 787 -204.25 c 0
+ 681.80859375 -204.25 625.283203125 -144.603515625 605.661132812 -43 c 1
+603 169 m 0
+ 603 274 676 317 795 317 c 2
+ 912.25 317 l 1
+ 902.526367188 363.185546875 847.264648438 390 814.75 390 c 0
+ 795.75 390 781.298828125 378.911132812 772.75 361 c 128
+ 762.25 339 745.329101562 333 725.5 333 c 0
+ 700.5 333 682.75 349.75 682.75 370.75 c 0
+ 682.75 407.033203125 723.75 433 778.75 433 c 0
+ 864.489257812 433 933.740234375 388.541992188 951 291 c 1
+ 889.25 291 l 2
+ 801.25 291 756.25 257 756.25 173 c 0
+ 756.25 89 807.989257812 44 857.5 44 c 0
+ 887.848632812 44 912.75 48.25 952.75 94.25 c 1
+ 978.5 79 l 1
+ 941.8671875 31.455078125 894.708007812 -1 806 -1 c 0
+ 675 -1 603 69 603 169 c 0
 146 22 m 5
  153.696289062 91.26953125 199.452148438 184.165039062 234 232 c 4
  260 268 273 280 296 304 c 5
@@ -21862,19 +21847,19 @@ SplineSet
  242 -1 245 73 212 73 c 4
  189.674804688 73 177 51 174 11 c 5
  146 22 l 5
-216 143 m 5
- 228 153 240 160 254 160 c 4
- 286 160 297 140 337 140 c 4
- 383 140 405 157 405 214 c 4
- 405 216.208984375 405.041015625 214.3046875 405 216 c 5
- 433 216 l 5
- 432.963867188 214.6640625 433 216.330078125 433 215 c 4
- 433 154 457 140 502 140 c 4
- 543 140 568 169 568 204 c 4
- 568 246 527 287 426 287 c 4
- 369.333007812 287 329.666992188 280 305 268 c 5
- 287.666992188 253.333007812 271.522460938 234.99609375 256 212 c 4
- 229 172 226 163 216 143 c 5
+216 143 m 1
+ 228 153 240 160 254 160 c 0
+ 286 160 297 140 337 140 c 0
+ 383 140 405 157 405 214 c 0
+ 405 216.208984375 405.041015625 214.3046875 405 216 c 1
+ 433 216 l 1
+ 432.963867188 214.6640625 433 216.330078125 433 215 c 0
+ 433 154 457 140 502 140 c 0
+ 543 140 568 169 568 204 c 0
+ 568 246 527 287 426 287 c 0
+ 369.333007812 287 329.666992188 280 305 268 c 1
+ 287.666992188 253.333007812 271.522460938 234.99609375 256 212 c 0
+ 229 172 226 163 216 143 c 1
 27 221 m 4
  27 352.699751668 99.755859375 434.25 239 434.25 c 4
  248 434.25 271 434.25 293 428.25 c 5
@@ -21885,11 +21870,12 @@ SplineSet
  68.5828449348 33.2085775326 27 120.069879655 27 221 c 4
 EndSplineSet
 Layer: 2
+LCarets2: 2 0 0
 Ligature2: "si_rakaar subtable" si_Nya si_Halant si_Ra
 EndChar
 
 StartChar: si_NyRI
-Encoding: 178 -1 488
+Encoding: 178 -1 486
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -21988,7 +21974,7 @@ Ligature2: "si_abvs_3 subtable" si_NyRa si_MatraI
 EndChar
 
 StartChar: si_NyRIi
-Encoding: 179 -1 489
+Encoding: 179 -1 487
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -22091,7 +22077,7 @@ Ligature2: "si_abvs_4 subtable" si_NyRa si_MatraIi
 EndChar
 
 StartChar: si_JnyRa
-Encoding: 186 -1 490
+Encoding: 186 -1 488
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -22159,7 +22145,7 @@ Ligature2: "si_rakaar subtable" si_Jnya si_Halant si_Ra
 EndChar
 
 StartChar: si_JnyRI
-Encoding: 187 -1 491
+Encoding: 187 -1 489
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -22238,7 +22224,7 @@ Ligature2: "si_abvs_3 subtable" si_JnyRa si_MatraI
 EndChar
 
 StartChar: si_Ny.halant
-Encoding: 171 -1 492
+Encoding: 171 -1 490
 Width: 1024
 VWidth: 1000
 Flags: HW
@@ -22266,7 +22252,7 @@ Ligature2: "si_halant_1 subtable" si_Nya si_Halant
 EndChar
 
 StartChar: si_Jny.halant
-Encoding: 180 -1 493
+Encoding: 180 -1 491
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -22294,7 +22280,7 @@ Ligature2: "si_halant_1 subtable" si_Jnya si_Halant
 EndChar
 
 StartChar: si_JnyRIi
-Encoding: 188 -1 494
+Encoding: 188 -1 492
 Width: 842
 VWidth: 1000
 Flags: HW
@@ -22378,7 +22364,7 @@ Ligature2: "si_abvs_4 subtable" si_JnyRa si_MatraIi
 EndChar
 
 StartChar: si_Ndj.halant
-Encoding: 189 -1 495
+Encoding: 189 -1 493
 Width: 699
 VWidth: 1000
 Flags: HW
@@ -22406,7 +22392,7 @@ Ligature2: "si_halant_1 subtable" si_Ndja si_Halant
 EndChar
 
 StartChar: si_NdjRa
-Encoding: 194 -1 496
+Encoding: 194 -1 494
 Width: 699
 VWidth: 1000
 Flags: HW
@@ -22431,7 +22417,7 @@ Ligature2: "si_rakaar subtable" si_Ndja si_Halant si_Ra
 EndChar
 
 StartChar: si_Nn.halant
-Encoding: 223 -1 497
+Encoding: 223 -1 495
 Width: 963
 VWidth: 1000
 Flags: HW
@@ -22511,7 +22497,7 @@ Ligature2: "si_halant_1 subtable" si_Nna si_Halant
 EndChar
 
 StartChar: si_Nndd.halant
-Encoding: 229 -1 498
+Encoding: 229 -1 496
 Width: 731
 VWidth: 1000
 Flags: HW
@@ -22576,7 +22562,7 @@ Ligature2: "si_halant_1 subtable" si_Nndda si_Halant
 EndChar
 
 StartChar: si_T.halant
-Encoding: 234 -1 499
+Encoding: 234 -1 497
 Width: 704
 VWidth: 1000
 Flags: HW
@@ -22604,7 +22590,7 @@ Ligature2: "si_halant_1 subtable" si_Ta si_Halant
 EndChar
 
 StartChar: si_Th.halant
-Encoding: 243 -1 500
+Encoding: 243 -1 498
 Width: 0
 VWidth: 0
 Flags: HW
@@ -22616,7 +22602,7 @@ Ligature2: "si_halant_1 subtable" si_Tha si_Halant
 EndChar
 
 StartChar: si_D.halant
-Encoding: 249 -1 501
+Encoding: 249 -1 499
 Width: 456
 VWidth: 1000
 Flags: HW
@@ -22644,7 +22630,7 @@ Ligature2: "si_halant_1 subtable" si_Da si_Halant
 EndChar
 
 StartChar: si_DvocR
-Encoding: 257 -1 502
+Encoding: 257 -1 500
 Width: 703
 VWidth: 1000
 Flags: HW
@@ -22684,7 +22670,7 @@ Ligature2: "si_blws_5 subtable" si_Da si_MatraR
 EndChar
 
 StartChar: si_DvocRr
-Encoding: 258 -1 503
+Encoding: 258 -1 501
 Width: 962
 VWidth: 1000
 Flags: HW
@@ -22747,7 +22733,7 @@ Ligature2: "si_blws_5 subtable" si_Da si_MatraRr
 EndChar
 
 StartChar: si_DAa.halant
-Encoding: 259 -1 504
+Encoding: 259 -1 502
 Width: 0
 VWidth: 0
 Flags: HW
@@ -22759,7 +22745,7 @@ Ligature2: "si_blws_5 subtable" si_DAa si_Halant
 EndChar
 
 StartChar: si_DYa.post
-Encoding: 265 -1 505
+Encoding: 265 -1 503
 Width: 0
 VWidth: 0
 Flags: HW
@@ -22771,7 +22757,7 @@ Ligature2: "si_blws_5 subtable" si_Da si_Ya.post
 EndChar
 
 StartChar: si_DYAa.post
-Encoding: 266 -1 506
+Encoding: 266 -1 504
 Width: 0
 VWidth: 0
 Flags: HW
@@ -22783,7 +22769,7 @@ Ligature2: "si_blws_5 subtable" si_Da si_Ya.post si_MatraAa
 EndChar
 
 StartChar: si_DYu.post
-Encoding: 267 -1 507
+Encoding: 267 -1 505
 Width: 0
 VWidth: 0
 Flags: HW
@@ -22794,7 +22780,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DYUu.post
-Encoding: 268 -1 508
+Encoding: 268 -1 506
 Width: 0
 VWidth: 0
 Flags: HW
@@ -22805,7 +22791,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DYOo.post
-Encoding: 269 -1 509
+Encoding: 269 -1 507
 Width: 0
 VWidth: 0
 Flags: HW
@@ -22816,7 +22802,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Dh.halant
-Encoding: 270 -1 510
+Encoding: 270 -1 508
 Width: 638
 VWidth: 1000
 Flags: HW
@@ -22866,7 +22852,7 @@ Ligature2: "si_halant_1 subtable" si_Dha si_Halant
 EndChar
 
 StartChar: si_N.halant
-Encoding: 279 -1 511
+Encoding: 279 -1 509
 Width: 806
 VWidth: 1000
 Flags: HW
@@ -22894,7 +22880,7 @@ Ligature2: "si_halant_1 subtable" si_Na si_Halant
 EndChar
 
 StartChar: si_Nd.halant
-Encoding: 285 -1 512
+Encoding: 285 -1 510
 Width: 538
 VWidth: 1000
 Flags: HW
@@ -22950,7 +22936,7 @@ Ligature2: "si_halant_1 subtable" si_Nda si_Halant
 EndChar
 
 StartChar: si_NdRa
-Encoding: 293 -1 513
+Encoding: 293 -1 511
 Width: 538
 VWidth: 1000
 Flags: HW
@@ -22996,7 +22982,7 @@ Layer: 2
 EndChar
 
 StartChar: si_P.halant
-Encoding: 294 -1 514
+Encoding: 294 -1 512
 Width: 616
 VWidth: 1000
 Flags: HW
@@ -23024,7 +23010,7 @@ Ligature2: "si_halant_1 subtable" si_Pa si_Halant
 EndChar
 
 StartChar: si_Ph.halant
-Encoding: 303 -1 515
+Encoding: 303 -1 513
 Width: 583
 VWidth: 1000
 Flags: HW
@@ -23080,7 +23066,7 @@ Ligature2: "si_halant_1 subtable" si_Pha si_Halant
 EndChar
 
 StartChar: si_B.halant
-Encoding: 309 -1 516
+Encoding: 309 -1 514
 Width: 619
 VWidth: 1000
 Flags: HW
@@ -23134,7 +23120,7 @@ Ligature2: "si_halant_1 subtable" si_Ba si_Halant
 EndChar
 
 StartChar: si_Bh.halant
-Encoding: 318 -1 517
+Encoding: 318 -1 515
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -23162,7 +23148,7 @@ Ligature2: "si_halant_1 subtable" si_Bha si_Halant
 EndChar
 
 StartChar: si_M.halant
-Encoding: 327 -1 518
+Encoding: 327 -1 516
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -23221,7 +23207,7 @@ Ligature2: "si_halant_1 subtable" si_Ma si_Halant
 EndChar
 
 StartChar: si_MU
-Encoding: 330 -1 519
+Encoding: 330 -1 517
 Width: 635
 VWidth: 1000
 Flags: HW
@@ -23250,7 +23236,7 @@ Ligature2: "si_blws_1 subtable" si_Ma si_MatraU
 EndChar
 
 StartChar: si_Y.halant
-Encoding: 341 -1 520
+Encoding: 341 -1 518
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -23278,7 +23264,7 @@ Ligature2: "si_halant_1 subtable" si_Ya si_Halant
 EndChar
 
 StartChar: si_YAa.post
-Encoding: 348 -1 521
+Encoding: 348 -1 519
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23289,7 +23275,7 @@ Layer: 2
 EndChar
 
 StartChar: si_Y.post.halant
-Encoding: 349 -1 522
+Encoding: 349 -1 520
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23300,7 +23286,7 @@ Layer: 2
 EndChar
 
 StartChar: si_YU.post
-Encoding: 350 -1 523
+Encoding: 350 -1 521
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23312,7 +23298,7 @@ Ligature2: "si_blws_2 subtable" si_Ya.post si_MatraU
 EndChar
 
 StartChar: si_YUu.post
-Encoding: 351 -1 524
+Encoding: 351 -1 522
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23324,7 +23310,7 @@ Ligature2: "si_blws_4 subtable" si_Ya.post si_MatraUu
 EndChar
 
 StartChar: si_Ya.post.reph
-Encoding: 352 -1 525
+Encoding: 352 -1 523
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23336,7 +23322,7 @@ Ligature2: "si_abvs_7 subtable" si_Ya.post si_Reph
 EndChar
 
 StartChar: si_Yu.post.reph
-Encoding: 353 -1 526
+Encoding: 353 -1 524
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23347,7 +23333,7 @@ Layer: 2
 EndChar
 
 StartChar: si_YUu.post.reph
-Encoding: 354 -1 527
+Encoding: 354 -1 525
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23358,7 +23344,7 @@ Layer: 2
 EndChar
 
 StartChar: si_R.halant
-Encoding: 355 -1 528
+Encoding: 355 -1 526
 Width: 528
 VWidth: 1000
 Flags: HW
@@ -23386,7 +23372,7 @@ Ligature2: "si_halant_1 subtable" si_Ra si_Halant
 EndChar
 
 StartChar: si_L.halant
-Encoding: 362 -1 529
+Encoding: 362 -1 527
 Width: 670
 VWidth: 1000
 Flags: HW
@@ -23414,7 +23400,7 @@ Ligature2: "si_halant_1 subtable" si_La si_Halant
 EndChar
 
 StartChar: si_V.halant
-Encoding: 367 -1 530
+Encoding: 367 -1 528
 Width: 597
 VWidth: 1000
 Flags: HW
@@ -23464,7 +23450,7 @@ Ligature2: "si_halant_1 subtable" si_Va si_Halant
 EndChar
 
 StartChar: si_Sh.halant
-Encoding: 376 -1 531
+Encoding: 376 -1 529
 Width: 631
 VWidth: 1000
 Flags: HW
@@ -23492,7 +23478,7 @@ Ligature2: "si_halant_1 subtable" si_Sha si_Halant
 EndChar
 
 StartChar: si_Ss.halant
-Encoding: 385 -1 532
+Encoding: 385 -1 530
 Width: 622
 VWidth: 1000
 Flags: HW
@@ -23520,7 +23506,7 @@ Ligature2: "si_halant_1 subtable" si_Ssa si_Halant
 EndChar
 
 StartChar: si_S.halant
-Encoding: 393 -1 533
+Encoding: 393 -1 531
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23532,7 +23518,7 @@ Ligature2: "si_halant_1 subtable" si_Sa si_Halant
 EndChar
 
 StartChar: si_SI
-Encoding: 394 -1 534
+Encoding: 394 -1 532
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -23559,7 +23545,7 @@ Ligature2: "si_abvs_1 subtable" si_Sa si_MatraI
 EndChar
 
 StartChar: si_SU
-Encoding: 396 -1 535
+Encoding: 396 -1 533
 Width: 677
 VWidth: 1000
 Flags: HW
@@ -23587,7 +23573,7 @@ Ligature2: "si_blws_1 subtable" si_Sa si_MatraU
 EndChar
 
 StartChar: si_H.halant
-Encoding: 402 -1 536
+Encoding: 402 -1 534
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -23615,7 +23601,7 @@ Ligature2: "si_halant_1 subtable" si_Ha si_Halant
 EndChar
 
 StartChar: si_HI
-Encoding: 403 -1 537
+Encoding: 403 -1 535
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -23643,7 +23629,7 @@ Ligature2: "si_abvs_1 subtable" si_Ha si_MatraI
 EndChar
 
 StartChar: si_HU
-Encoding: 405 -1 538
+Encoding: 405 -1 536
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -23671,7 +23657,7 @@ Ligature2: "si_blws_1 subtable" si_Ha si_MatraU
 EndChar
 
 StartChar: si_HRa
-Encoding: 408 -1 539
+Encoding: 408 -1 537
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -23695,7 +23681,7 @@ Ligature2: "si_rakaar subtable" si_Ha si_Halant si_Ra
 EndChar
 
 StartChar: si_HRIi
-Encoding: 409 -1 540
+Encoding: 409 -1 538
 Width: 653
 VWidth: 1000
 Flags: HW
@@ -23736,7 +23722,7 @@ Ligature2: "si_abvs_4 subtable" si_HRa si_MatraIi
 EndChar
 
 StartChar: si_LlI
-Encoding: 411 -1 541
+Encoding: 411 -1 539
 Width: 636
 VWidth: 1000
 Flags: HW
@@ -23785,7 +23771,7 @@ Ligature2: "si_abvs_1 subtable" si_Lla si_MatraI
 EndChar
 
 StartChar: si_F.halant
-Encoding: 415 -1 542
+Encoding: 415 -1 540
 Width: 607
 VWidth: 1000
 Flags: HW
@@ -23813,7 +23799,7 @@ Ligature2: "si_halant_1 subtable" si_Fa si_Halant
 EndChar
 
 StartChar: si_TVa
-Encoding: 431 -1 543
+Encoding: 431 -1 541
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -23864,7 +23850,7 @@ Ligature2: "si_akhands subtable" si_Ta si_Halant si_Va
 EndChar
 
 StartChar: si_DDha
-Encoding: 433 -1 544
+Encoding: 433 -1 542
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -23909,7 +23895,7 @@ Ligature2: "si_akhands subtable" si_Da si_Halant si_Dha
 EndChar
 
 StartChar: si_DVa
-Encoding: 434 -1 545
+Encoding: 434 -1 543
 Width: 0
 VWidth: 0
 Flags: HW
@@ -23922,7 +23908,7 @@ Colour: ff0000
 EndChar
 
 StartChar: si_KSs.halant
-Encoding: 435 -1 546
+Encoding: 435 -1 544
 Width: 1069
 VWidth: 1000
 Flags: HW
@@ -24024,7 +24010,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KSsUu
-Encoding: 439 -1 547
+Encoding: 439 -1 545
 Width: 1069
 VWidth: 1000
 Flags: HW
@@ -24131,7 +24117,7 @@ Ligature2: "si_blws_4 subtable" si_KSsa si_MatraUu
 EndChar
 
 StartChar: si_KV.halant
-Encoding: 440 -1 548
+Encoding: 440 -1 546
 Width: 1061
 VWidth: 1000
 Flags: HW
@@ -24218,7 +24204,7 @@ Layer: 2
 EndChar
 
 StartChar: si_KVI
-Encoding: 441 -1 549
+Encoding: 441 -1 547
 Width: 1061
 VWidth: 1000
 Flags: HW
@@ -24303,7 +24289,7 @@ Ligature2: "si_abvs_5 subtable" si_KVa si_MatraI
 EndChar
 
 StartChar: si_ND.halant
-Encoding: 450 -1 550
+Encoding: 450 -1 548
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -24375,7 +24361,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NDAa
-Encoding: 451 -1 551
+Encoding: 451 -1 549
 Width: 1157
 VWidth: 1000
 Flags: HW
@@ -24451,7 +24437,7 @@ Ligature2: "si_blws_5 subtable" si_NDa si_MatraAa
 EndChar
 
 StartChar: si_NDU
-Encoding: 456 -1 552
+Encoding: 456 -1 550
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -24519,7 +24505,7 @@ Ligature2: "si_blws_2 subtable" si_NDa si_MatraU
 EndChar
 
 StartChar: si_NDRa
-Encoding: 458 -1 553
+Encoding: 458 -1 551
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -24583,7 +24569,7 @@ Ligature2: "si_rakaar subtable" si_NDa si_Halant si_Ra
 EndChar
 
 StartChar: si_NDRI
-Encoding: 459 -1 554
+Encoding: 459 -1 552
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -24657,7 +24643,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NDRIi
-Encoding: 460 -1 555
+Encoding: 460 -1 553
 Width: 894
 VWidth: 1000
 Flags: HW
@@ -24736,7 +24722,7 @@ Layer: 2
 EndChar
 
 StartChar: si_NTh.halant
-Encoding: 461 -1 556
+Encoding: 461 -1 554
 Width: 1046
 VWidth: 1000
 Flags: HW
@@ -24803,7 +24789,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DDdh.halant
-Encoding: 481 -1 557
+Encoding: 481 -1 555
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -24861,7 +24847,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DDhI
-Encoding: 482 -1 558
+Encoding: 482 -1 556
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -24917,7 +24903,7 @@ Ligature2: "si_abvs_5 subtable" si_DDha si_MatraI
 EndChar
 
 StartChar: si_DDhIi
-Encoding: 483 -1 559
+Encoding: 483 -1 557
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -24978,7 +24964,7 @@ Ligature2: "si_abvs_6 subtable" si_DDha si_MatraIi
 EndChar
 
 StartChar: si_DDhU
-Encoding: 484 -1 560
+Encoding: 484 -1 558
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -25036,7 +25022,7 @@ Ligature2: "si_blws_2 subtable" si_DDha si_MatraU
 EndChar
 
 StartChar: si_DDhUu
-Encoding: 485 -1 561
+Encoding: 485 -1 559
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -25097,7 +25083,7 @@ Ligature2: "si_blws_4 subtable" si_DDha si_MatraUu
 EndChar
 
 StartChar: si_DV.halant
-Encoding: 486 -1 562
+Encoding: 486 -1 560
 Width: 688
 VWidth: 1000
 Flags: HW
@@ -25154,7 +25140,7 @@ Layer: 2
 EndChar
 
 StartChar: si_DVI
-Encoding: 487 -1 563
+Encoding: 487 -1 561
 Width: 688
 VWidth: 1000
 Flags: HW
@@ -25209,7 +25195,7 @@ Ligature2: "si_abvs_5 subtable" si_DVa si_MatraI
 EndChar
 
 StartChar: si_DVIi
-Encoding: 488 -1 564
+Encoding: 488 -1 562
 Width: 688
 VWidth: 1000
 Flags: HW
@@ -25269,7 +25255,7 @@ Ligature2: "si_abvs_6 subtable" si_DVa si_MatraIi
 EndChar
 
 StartChar: si_DVU
-Encoding: 489 -1 565
+Encoding: 489 -1 563
 Width: 688
 VWidth: 1000
 Flags: HW
@@ -25326,7 +25312,7 @@ Ligature2: "si_blws_2 subtable" si_DVa si_MatraU
 EndChar
 
 StartChar: si_DVUu
-Encoding: 490 -1 566
+Encoding: 490 -1 564
 Width: 688
 VWidth: 1000
 Flags: HW
@@ -25386,7 +25372,7 @@ Ligature2: "si_blws_4 subtable" si_DVa si_MatraUu
 EndChar
 
 StartChar: si_TtTh.halant
-Encoding: 491 -1 567
+Encoding: 491 -1 565
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -25448,7 +25434,7 @@ Layer: 2
 EndChar
 
 StartChar: si_TtThI
-Encoding: 492 -1 568
+Encoding: 492 -1 566
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -25512,7 +25498,7 @@ Ligature2: "si_abvs_5 subtable" si_TtTha si_MatraI
 EndChar
 
 StartChar: si_TtThIi
-Encoding: 493 -1 569
+Encoding: 493 -1 567
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -25581,7 +25567,7 @@ Ligature2: "si_abvs_6 subtable" si_TtTha si_MatraIi
 EndChar
 
 StartChar: si_TtThU
-Encoding: 494 -1 570
+Encoding: 494 -1 568
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -25645,7 +25631,7 @@ Ligature2: "si_blws_2 subtable" si_TtTha si_MatraU
 EndChar
 
 StartChar: si_TtThUu
-Encoding: 495 -1 571
+Encoding: 495 -1 569
 Width: 729
 VWidth: 1000
 Flags: HW
@@ -25712,7 +25698,7 @@ Ligature2: "si_blws_4 subtable" si_TtTha si_MatraUu
 EndChar
 
 StartChar: si_NV.halant
-Encoding: 466 -1 572
+Encoding: 466 -1 570
 Width: 1032
 VWidth: 1000
 Flags: HW
@@ -25785,7 +25771,7 @@ Layer: 2
 EndChar
 
 StartChar: si_MatraAi
-Encoding: 72 3547 573
+Encoding: 72 3547 571
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25796,7 +25782,7 @@ Layer: 2
 EndChar
 
 StartChar: si_MatraO
-Encoding: 73 3548 574
+Encoding: 73 3548 572
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25807,7 +25793,7 @@ Layer: 2
 EndChar
 
 StartChar: si_MatraOo
-Encoding: 74 3549 575
+Encoding: 74 3549 573
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25818,7 +25804,7 @@ Layer: 2
 EndChar
 
 StartChar: si_MatraAu
-Encoding: 75 3550 576
+Encoding: 75 3550 574
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25829,7 +25815,7 @@ Layer: 2
 EndChar
 
 StartChar: si_kundaliya
-Encoding: 79 3572 577
+Encoding: 79 3572 575
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25840,7 +25826,7 @@ Layer: 2
 EndChar
 
 StartChar: zwnj
-Encoding: 80 8204 578
+Encoding: 80 8204 576
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25851,7 +25837,7 @@ Layer: 2
 EndChar
 
 StartChar: zwj
-Encoding: 81 8205 579
+Encoding: 81 8205 577
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25862,7 +25848,7 @@ Layer: 2
 EndChar
 
 StartChar: dottedcircle
-Encoding: 82 9676 580
+Encoding: 82 9676 578
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25873,7 +25859,7 @@ Layer: 2
 EndChar
 
 StartChar: si_MatraAa.halant
-Encoding: 83 -1 581
+Encoding: 83 -1 579
 Width: 0
 VWidth: 0
 Flags: HW
@@ -25885,7 +25871,7 @@ Ligature2: "si_halant_1 subtable" si_MatraAa si_Halant
 EndChar
 
 StartChar: si_Matra.halant.alt
-Encoding: 86 -1 582
+Encoding: 86 -1 580
 Width: 0
 VWidth: 0
 Flags: HW
