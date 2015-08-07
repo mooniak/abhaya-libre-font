@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1438929949
+ModificationTime: 1438944184
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -10763,7 +10763,7 @@ StartChar: si_Ma.reph
 Encoding: 332 -1 251
 Width: 635
 VWidth: 1000
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 Fore
@@ -10790,6 +10790,7 @@ SplineSet
 EndSplineSet
 Refer: 58 3512 N 1 0 0 1 0 0 2
 Layer: 2
+LCarets2: 1 0
 Ligature2: "si_abvs_7 subtable" si_Ma si_Reph
 EndChar
 
