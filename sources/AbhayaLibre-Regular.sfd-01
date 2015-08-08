@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1438981370
+ModificationTime: 1438961122
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -531,7 +531,7 @@ DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 154
-WinInfo: 100 20 12
+WinInfo: 0 20 12
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -18567,22 +18567,22 @@ StartChar: si_Ndj.halant
 Encoding: 189 -1 412
 Width: 699
 VWidth: 1000
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 Fore
 SplineSet
-427 581 m 21
- 433 578 450.229492188 575 461 575 c 4
- 495 575 511 595 511 621 c 4
- 511 677 448 695 427 712 c 13
- 427 581 l 21
+427 581 m 9
+ 427 712 l 17
+ 448 695 511 677 511 621 c 0
+ 511 595 495 575 461 575 c 0
+ 450.229492188 575 433 578 427 581 c 9
 401 366 m 25
- 401 757 l 17
- 457 710 548 706 548 624 c 0
- 548 589 521 550 470 550 c 0
- 453 550 436 553 427 556 c 9
  427 405 l 25
+ 427 556 l 17
+ 436 553 453 550 470 550 c 0
+ 521 550 548 589 548 624 c 0
+ 548 706 457 710 401 757 c 9
  401 366 l 25
 EndSplineSet
 Refer: 58 3494 N 1 0 0 1 0 0 2

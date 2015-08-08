@@ -516,7 +516,7 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 154
-WinInfo: 140 14 7
+WinInfo: 14 14 7
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -18208,7 +18208,7 @@ StartChar: si_KRIi
 Encoding: 98 -1 404
 Width: 746
 VWidth: 1000
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 Fore
@@ -22368,7 +22368,7 @@ StartChar: si_Ndj.halant
 Encoding: 189 -1 493
 Width: 699
 VWidth: 1000
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 Fore
