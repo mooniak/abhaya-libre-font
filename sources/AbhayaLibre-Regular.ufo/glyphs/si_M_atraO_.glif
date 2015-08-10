@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0DDC" format="1">
+<glyph name="si_MatraO" format="1">
   <advance width="1122"/>
   <unicode hex="0DDC"/>
   <outline>
-    <component base="uni0DCF" xOffset="822"/>
-    <component base="uni0DD9"/>
+    <component base="si_MatraAa" xOffset="822"/>
+    <component base="si_MatraE"/>
   </outline>
 </glyph>
