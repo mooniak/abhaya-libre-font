@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_SsI">
+  <advance width="622" />
+  <outline>
+    <contour>
+      <point type="line" x="208" y="426" />
+      <point x="155" y="429" />
+      <point x="128" y="450" />
+      <point type="curve" x="128" y="479" />
+      <point x="128" y="522" />
+      <point x="211" y="536" />
+      <point type="curve" x="300" y="536" />
+      <point x="386" y="536" />
+      <point x="467" y="521" />
+      <point type="curve" x="467" y="479" />
+      <point x="467" y="447" />
+      <point x="445" y="429" />
+      <point type="curve" x="392" y="426" />
+      <point type="line" x="389" y="405" />
+      <point x="466" y="408" />
+      <point x="532" y="443" />
+      <point type="curve" x="532" y="518" />
+      <point x="532" y="626" />
+      <point x="419" y="671" />
+      <point type="curve" x="300" y="671" />
+      <point x="181" y="671" />
+      <point x="68" y="626" />
+      <point type="curve" x="68" y="518" />
+      <point x="68" y="443" />
+      <point x="134" y="408" />
+      <point type="curve" x="211" y="405" />
+    </contour>
+  </outline>
+</glyph>

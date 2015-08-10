@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_KRI" format="1">
-  <advance width="0"/>
+  <advance width="746"/>
   <outline>
+    <contour>
+      <point x="218" y="421" type="curve" smooth="yes"/>
+      <point x="218" y="590"/>
+      <point x="330" y="671"/>
+      <point x="473" y="671" type="curve" smooth="yes"/>
+      <point x="603" y="671"/>
+      <point x="688" y="610"/>
+      <point x="688" y="505" type="curve" smooth="yes"/>
+      <point x="688" y="444"/>
+      <point x="658" y="402"/>
+      <point x="610" y="383" type="curve"/>
+      <point x="578" y="403" type="line"/>
+      <point x="616" y="406"/>
+      <point x="647" y="434"/>
+      <point x="647" y="474" type="curve" smooth="yes"/>
+      <point x="647" y="550"/>
+      <point x="555" y="578"/>
+      <point x="473" y="578" type="curve" smooth="yes"/>
+      <point x="336" y="578"/>
+      <point x="245" y="506"/>
+      <point x="245" y="401" type="curve" smooth="yes"/>
+      <point x="245" y="388"/>
+      <point x="247" y="376"/>
+      <point x="249" y="365" type="curve"/>
+      <point x="225" y="343" type="line"/>
+      <point x="221" y="361"/>
+      <point x="218" y="390"/>
+    </contour>
+    <contour>
+      <point x="114" y="-44" type="curve"/>
+      <point x="142" y="-44" type="line"/>
+      <point x="176" y="-108"/>
+      <point x="257" y="-139"/>
+      <point x="366" y="-139" type="curve" smooth="yes"/>
+      <point x="512" y="-139"/>
+      <point x="658" y="-66"/>
+      <point x="658" y="55" type="curve" smooth="yes"/>
+      <point x="658" y="74"/>
+      <point x="654" y="92"/>
+      <point x="647" y="102" type="curve"/>
+      <point x="659" y="133" type="line"/>
+      <point x="677" y="106"/>
+      <point x="686" y="75"/>
+      <point x="686" y="38" type="curve" smooth="yes"/>
+      <point x="686" y="-124"/>
+      <point x="536" y="-219"/>
+      <point x="385" y="-219" type="curve" smooth="yes"/>
+      <point x="244" y="-219"/>
+      <point x="151" y="-153"/>
+    </contour>
+    <component base="si_Ka"/>
   </outline>
 </glyph>

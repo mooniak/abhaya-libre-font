@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_JIi" format="1">
-  <advance width="0"/>
+  <advance width="598"/>
   <outline>
+    <contour>
+      <point x="339" y="579" type="curve" smooth="yes"/>
+      <point x="339" y="552"/>
+      <point x="360" y="531"/>
+      <point x="386" y="531" type="curve" smooth="yes"/>
+      <point x="413" y="531"/>
+      <point x="434" y="552"/>
+      <point x="434" y="579" type="curve" smooth="yes"/>
+      <point x="434" y="606"/>
+      <point x="413" y="627"/>
+      <point x="386" y="627" type="curve" smooth="yes"/>
+      <point x="360" y="627"/>
+      <point x="339" y="606"/>
+    </contour>
+    <contour>
+      <point x="233" y="490" type="curve" smooth="yes"/>
+      <point x="233" y="577"/>
+      <point x="303" y="656"/>
+      <point x="387" y="656" type="curve" smooth="yes"/>
+      <point x="432" y="656"/>
+      <point x="464" y="619"/>
+      <point x="464" y="579" type="curve" smooth="yes"/>
+      <point x="464" y="541"/>
+      <point x="434" y="502"/>
+      <point x="387" y="502" type="curve" smooth="yes"/>
+      <point x="338" y="502"/>
+      <point x="314" y="541"/>
+      <point x="314" y="563" type="curve" smooth="yes"/>
+      <point x="314" y="563"/>
+      <point x="314" y="565"/>
+      <point x="314" y="565" type="curve"/>
+      <point x="300" y="545"/>
+      <point x="289" y="517"/>
+      <point x="289" y="487" type="curve" smooth="yes"/>
+      <point x="289" y="453"/>
+      <point x="309" y="429"/>
+      <point x="339" y="429" type="curve" smooth="yes"/>
+      <point x="350" y="429"/>
+      <point x="362" y="431"/>
+      <point x="373" y="436" type="curve"/>
+      <point x="370" y="425" type="line"/>
+      <point x="357" y="417"/>
+      <point x="329" y="408"/>
+      <point x="327" y="407" type="curve"/>
+      <point x="326" y="407"/>
+      <point x="324" y="407"/>
+      <point x="323" y="407" type="curve" smooth="yes"/>
+      <point x="260" y="407"/>
+      <point x="233" y="439"/>
+    </contour>
+    <component base="si_Ja"/>
   </outline>
 </glyph>

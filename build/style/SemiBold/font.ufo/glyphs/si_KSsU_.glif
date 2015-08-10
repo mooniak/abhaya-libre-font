@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_KSsU" format="1">
-  <advance width="0"/>
+  <advance width="1069"/>
   <outline>
+    <contour>
+      <point x="492" y="-142" type="curve" smooth="yes"/>
+      <point x="492" y="-90"/>
+      <point x="539" y="-50"/>
+      <point x="594" y="-50" type="curve" smooth="yes"/>
+      <point x="636" y="-50"/>
+      <point x="673" y="-74"/>
+      <point x="688" y="-110" type="curve"/>
+      <point x="657" y="-122" type="line"/>
+      <point x="650" y="-103"/>
+      <point x="627" y="-81"/>
+      <point x="594" y="-81" type="curve" smooth="yes"/>
+      <point x="557" y="-81"/>
+      <point x="527" y="-108"/>
+      <point x="527" y="-142" type="curve" smooth="yes"/>
+      <point x="527" y="-172"/>
+      <point x="549" y="-196"/>
+      <point x="617" y="-196" type="curve" smooth="yes"/>
+      <point x="981" y="-196" type="line"/>
+      <point x="981" y="128" type="line"/>
+      <point x="1015" y="207" type="line"/>
+      <point x="1015" y="-235" type="line"/>
+      <point x="598" y="-235" type="line" smooth="yes"/>
+      <point x="524" y="-235"/>
+      <point x="492" y="-186"/>
+    </contour>
   </outline>
 </glyph>

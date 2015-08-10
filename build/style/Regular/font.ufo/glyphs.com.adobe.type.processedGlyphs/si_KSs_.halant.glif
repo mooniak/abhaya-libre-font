@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_KSs.halant">
+  <advance width="1069" />
+  <outline>
+    <contour>
+      <point type="line" x="897" y="637" />
+      <point x="944" y="606" />
+      <point x="983" y="586" />
+      <point type="curve" x="983" y="544" />
+      <point x="983" y="520" />
+      <point x="968" y="495" />
+      <point type="curve" x="930" y="495" />
+      <point x="917" y="495" />
+      <point x="906" y="497" />
+      <point type="curve" x="897" y="502" />
+    </contour>
+    <contour>
+      <point type="line" x="897" y="410" />
+      <point type="line" x="897" y="477" />
+      <point x="913" y="470" />
+      <point x="928" y="467" />
+      <point type="curve" x="942" y="467" />
+      <point x="985" y="467" />
+      <point x="1020" y="497" />
+      <point type="curve" x="1020" y="541" />
+      <point x="1020" y="633" />
+      <point x="924" y="638" />
+      <point type="curve" x="870" y="680" />
+      <point type="line" x="870" y="413" />
+    </contour>
+  </outline>
+</glyph>

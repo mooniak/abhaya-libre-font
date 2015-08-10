@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_SsU">
+  <advance width="622" />
+  <outline>
+    <contour>
+      <point type="line" x="568" y="-235" />
+      <point type="line" x="568" y="202" />
+      <point type="line" x="535" y="128" />
+      <point type="line" x="535" y="-198" />
+      <point type="line" x="169" y="-198" />
+      <point x="102" y="-198" />
+      <point x="79" y="-172" />
+      <point type="curve" x="79" y="-142" />
+      <point x="79" y="-108" />
+      <point x="110" y="-80" />
+      <point type="curve" x="147" y="-80" />
+      <point x="180" y="-80" />
+      <point x="203" y="-102" />
+      <point type="curve" x="210" y="-122" />
+      <point type="line" x="241" y="-110" />
+      <point x="226" y="-74" />
+      <point x="189" y="-50" />
+      <point type="curve" x="147" y="-50" />
+      <point x="92" y="-50" />
+      <point x="45" y="-90" />
+      <point type="curve" x="45" y="-142" />
+      <point x="45" y="-186" />
+      <point x="80" y="-235" />
+      <point type="curve" x="151" y="-235" />
+    </contour>
+  </outline>
+</glyph>

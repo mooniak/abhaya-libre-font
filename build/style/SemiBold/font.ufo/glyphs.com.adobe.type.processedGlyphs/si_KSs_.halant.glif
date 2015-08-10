@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_KSs.halant">
+  <advance width="1069" />
+  <outline>
+    <contour>
+      <point type="line" x="870" y="417" />
+      <point type="line" x="885" y="522" />
+      <point x="890" y="519" />
+      <point x="895" y="517" />
+      <point type="curve" x="900" y="517" />
+      <point x="899" y="508" />
+      <point x="898" y="502" />
+      <point type="curve" x="897" y="503" />
+      <point x="899" y="502" />
+      <point x="901" y="508" />
+      <point type="curve" x="903" y="517" />
+      <point x="925" y="518" />
+      <point x="948" y="533" />
+      <point type="curve" x="948" y="504" />
+      <point x="957" y="482" />
+      <point x="952" y="467" />
+      <point type="curve" x="942" y="467" />
+      <point x="961" y="467" />
+      <point x="976" y="486" />
+      <point type="curve" x="969" y="515" />
+      <point x="969" y="532" />
+      <point x="964" y="541" />
+      <point type="curve" x="955" y="546" />
+      <point x="972" y="545" />
+      <point x="980" y="546" />
+      <point type="curve" x="980" y="544" />
+      <point x="980" y="560" />
+      <point x="951" y="561" />
+      <point type="curve" x="911" y="579" />
+      <point x="909" y="579" />
+      <point x="907" y="570" />
+      <point type="curve" x="905" y="558" />
+      <point x="897" y="560" />
+      <point x="888" y="563" />
+      <point type="curve" x="881" y="568" />
+    </contour>
+  </outline>
+</glyph>
