@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_BhUu" format="1">
+  <advance width="670"/>
+  <outline>
+    <contour>
+      <point x="373.021" y="-129" type="curve" smooth="yes"/>
+      <point x="373.021" y="-93.3486"/>
+      <point x="404.584" y="-72"/>
+      <point x="437.021" y="-67" type="curve"/>
+      <point x="382.021" y="-39" type="line"/>
+      <point x="469.021" y="-14" type="line"/>
+      <point x="375.521" y="1" type="line"/>
+      <point x="424.021" y="13" type="line"/>
+      <point x="543.521" y="-7" type="line"/>
+      <point x="438.521" y="-44" type="line"/>
+      <point x="498.021" y="-76" type="line"/>
+      <point x="470.021" y="-83"/>
+      <point x="413.021" y="-85.5"/>
+      <point x="413.021" y="-115" type="curve" smooth="yes"/>
+      <point x="413.021" y="-146"/>
+      <point x="454.945" y="-155"/>
+      <point x="497.021" y="-155" type="curve" smooth="yes"/>
+      <point x="551.021" y="-155"/>
+      <point x="596.75" y="-131"/>
+      <point x="596.75" y="-82" type="curve" smooth="yes"/>
+      <point x="596.75" y="-77"/>
+      <point x="596.215" y="-69.3867"/>
+      <point x="591.021" y="-59" type="curve"/>
+      <point x="624.021" y="-59" type="line"/>
+      <point x="627.612" y="-71.1182"/>
+      <point x="628.325" y="-82.833"/>
+      <point x="628.325" y="-94" type="curve" smooth="yes"/>
+      <point x="628.325" y="-161"/>
+      <point x="577.021" y="-205"/>
+      <point x="495.021" y="-205" type="curve" smooth="yes"/>
+      <point x="437.021" y="-205"/>
+      <point x="373.021" y="-187.466"/>
+    </contour>
+    <component base="uni0DB7"/>
+  </outline>
+</glyph>

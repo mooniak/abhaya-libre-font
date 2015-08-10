@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_ShU" format="1">
+  <advance width="631"/>
+  <outline>
+    <contour>
+      <point x="306.065" y="-80" type="curve" smooth="yes"/>
+      <point x="306.065" y="-30"/>
+      <point x="334.426" y="12.0898"/>
+      <point x="386" y="24.25" type="curve"/>
+      <point x="412.5" y="1.5" type="line"/>
+      <point x="375.955" y="-0.914062"/>
+      <point x="351.065" y="-23.638"/>
+      <point x="351.065" y="-49.5" type="curve" smooth="yes"/>
+      <point x="351.065" y="-85.8662"/>
+      <point x="394.113" y="-105"/>
+      <point x="445.565" y="-105" type="curve" smooth="yes"/>
+      <point x="506.565" y="-105"/>
+      <point x="553.758" y="-82.5625"/>
+      <point x="553.758" y="-45" type="curve" smooth="yes"/>
+      <point x="553.758" y="-42.0391"/>
+      <point x="553.484" y="-39.0381"/>
+      <point x="553.065" y="-36" type="curve"/>
+      <point x="583.065" y="-36" type="line"/>
+      <point x="585.42" y="-45.416"/>
+      <point x="585.5" y="-60.29"/>
+      <point x="585.5" y="-69.5" type="curve" smooth="yes"/>
+      <point x="585.5" y="-122.146"/>
+      <point x="541.767" y="-191.5"/>
+      <point x="441.065" y="-191.5" type="curve" smooth="yes"/>
+      <point x="373.327" y="-191.5"/>
+      <point x="306.065" y="-149.233"/>
+    </contour>
+    <component base="si_Sha"/>
+  </outline>
+</glyph>

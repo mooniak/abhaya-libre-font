@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_NnIi" format="1">
+  <advance width="963"/>
+  <outline>
+    <contour>
+      <point x="472.5" y="502.75" type="curve" smooth="yes"/>
+      <point x="472.5" y="471.75"/>
+      <point x="502.5" y="445.75"/>
+      <point x="538.5" y="445.75" type="curve" smooth="yes"/>
+      <point x="574.5" y="445.75"/>
+      <point x="604.5" y="471.75"/>
+      <point x="604.5" y="502.75" type="curve" smooth="yes"/>
+      <point x="604.5" y="533.75"/>
+      <point x="574.5" y="559.75"/>
+      <point x="538.5" y="559.75" type="curve" smooth="yes"/>
+      <point x="502.5" y="559.75"/>
+      <point x="472.5" y="533.75"/>
+    </contour>
+    <contour>
+      <point x="203.25" y="500" type="curve" smooth="yes"/>
+      <point x="203.25" y="605.729"/>
+      <point x="350.827" y="636.75"/>
+      <point x="430.5" y="636.75" type="curve" smooth="yes"/>
+      <point x="524.053" y="636.75"/>
+      <point x="635" y="603.615"/>
+      <point x="635" y="506.5" type="curve" smooth="yes"/>
+      <point x="635" y="465.723"/>
+      <point x="607.052" y="419"/>
+      <point x="540" y="419" type="curve" smooth="yes"/>
+      <point x="477.633" y="419"/>
+      <point x="441.5" y="464.077"/>
+      <point x="441.5" y="501.75" type="curve" smooth="yes"/>
+      <point x="441.5" y="538.606"/>
+      <point x="468.052" y="563.825"/>
+      <point x="487.5" y="573" type="curve"/>
+      <point x="481.416" y="573.767"/>
+      <point x="470.395" y="574.5"/>
+      <point x="457" y="574.5" type="curve" smooth="yes"/>
+      <point x="363.922" y="574.5"/>
+      <point x="240" y="557.795"/>
+      <point x="240" y="486.75" type="curve" smooth="yes"/>
+      <point x="240" y="453.946"/>
+      <point x="270.61" y="432.845"/>
+      <point x="316" y="429" type="curve"/>
+      <point x="286.117" y="422.867"/>
+      <point x="286.837" y="419.095"/>
+      <point x="270" y="416" type="curve"/>
+      <point x="235.969" y="423.25"/>
+      <point x="203.25" y="453.854"/>
+    </contour>
+    <component base="uni0DAB"/>
+  </outline>
+</glyph>

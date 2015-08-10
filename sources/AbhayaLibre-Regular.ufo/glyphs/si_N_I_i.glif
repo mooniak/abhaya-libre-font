@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_NIi" format="1">
+  <advance width="806"/>
+  <outline>
+    <contour>
+      <point x="580.61" y="476" type="curve" smooth="yes"/>
+      <point x="580.61" y="444.07"/>
+      <point x="607.929" y="417.29"/>
+      <point x="640.5" y="417.29" type="curve" smooth="yes"/>
+      <point x="673.071" y="417.29"/>
+      <point x="700.39" y="444.07"/>
+      <point x="700.39" y="476" type="curve" smooth="yes"/>
+      <point x="700.39" y="507.93"/>
+      <point x="673.071" y="534.71"/>
+      <point x="640.5" y="534.71" type="curve" smooth="yes"/>
+      <point x="607.929" y="534.71"/>
+      <point x="580.61" y="507.93"/>
+    </contour>
+    <contour>
+      <point x="267.5" y="421" type="curve" smooth="yes"/>
+      <point x="267.5" y="590"/>
+      <point x="379.5" y="671"/>
+      <point x="522.5" y="671" type="curve" smooth="yes"/>
+      <point x="652.5" y="671"/>
+      <point x="738.5" y="600"/>
+      <point x="738.5" y="495" type="curve" smooth="yes"/>
+      <point x="738.5" y="444"/>
+      <point x="700.5" y="388"/>
+      <point x="642.5" y="388" type="curve" smooth="yes"/>
+      <point x="584.5" y="388"/>
+      <point x="549.5" y="433"/>
+      <point x="549.5" y="477" type="curve" smooth="yes"/>
+      <point x="549.5" y="529"/>
+      <point x="590.5" y="566"/>
+      <point x="640.5" y="566" type="curve" smooth="yes"/>
+      <point x="645.835" y="566"/>
+      <point x="657.5" y="565"/>
+      <point x="669.5" y="561.896" type="curve"/>
+      <point x="630.5" y="590"/>
+      <point x="569.445" y="598"/>
+      <point x="522.5" y="598" type="curve" smooth="yes"/>
+      <point x="385.5" y="598"/>
+      <point x="295.25" y="527.637"/>
+      <point x="295.25" y="404" type="curve" smooth="yes"/>
+      <point x="295.25" y="389.333"/>
+      <point x="297.667" y="367.833"/>
+      <point x="301" y="356.5" type="curve"/>
+      <point x="276" y="338" type="line"/>
+      <point x="271.903" y="355.752"/>
+      <point x="267.5" y="389.837"/>
+    </contour>
+    <component base="uni0DB1"/>
+  </outline>
+</glyph>

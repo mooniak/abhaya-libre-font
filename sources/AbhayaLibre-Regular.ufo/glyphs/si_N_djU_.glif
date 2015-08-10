@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_NdjU" format="1">
+  <advance width="699"/>
+  <outline>
+    <contour>
+      <point x="139.75" y="-142.5" type="curve" smooth="yes"/>
+      <point x="139.75" y="-90.4912"/>
+      <point x="186.043" y="-50.5"/>
+      <point x="241.25" y="-50.5" type="curve" smooth="yes"/>
+      <point x="283.156" y="-50.5"/>
+      <point x="320.5" y="-74.1416"/>
+      <point x="335.25" y="-110" type="curve"/>
+      <point x="305.25" y="-121.5" type="line"/>
+      <point x="298.232" y="-101.896"/>
+      <point x="274.25" y="-80"/>
+      <point x="241.25" y="-80" type="curve" smooth="yes"/>
+      <point x="204.546" y="-80"/>
+      <point x="173.25" y="-106.714"/>
+      <point x="173.25" y="-142.5" type="curve" smooth="yes"/>
+      <point x="173.25" y="-171.663"/>
+      <point x="196.634" y="-199"/>
+      <point x="262.25" y="-199" type="curve" smooth="yes"/>
+      <point x="608.5" y="-199" type="line"/>
+      <point x="608.5" y="128" type="line"/>
+      <point x="641.5" y="198" type="line"/>
+      <point x="641.5" y="-235" type="line"/>
+      <point x="245.25" y="-235" type="line" smooth="yes"/>
+      <point x="176.09" y="-235"/>
+      <point x="139.75" y="-186.092"/>
+    </contour>
+    <component base="uni0DA6"/>
+  </outline>
+</glyph>
