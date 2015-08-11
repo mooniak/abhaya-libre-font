@@ -28,20 +28,6 @@
       <point x="518.457" y="-235"/>
       <point x="492.5" y="-186.092"/>
     </contour>
-    <contour>
-      <point x="651.244" y="221.46" type="curve" smooth="yes"/>
-      <point x="651.244" y="198.92"/>
-      <point x="682.931" y="188.14"/>
-      <point x="746.304" y="188.14" type="curve" smooth="yes"/>
-      <point x="812.944" y="188.14"/>
-      <point x="847.244" y="198.92"/>
-      <point x="847.244" y="220.48" type="curve" smooth="yes"/>
-      <point x="847.244" y="244.662"/>
-      <point x="813.924" y="250.86"/>
-      <point x="745.324" y="250.86" type="curve" smooth="yes"/>
-      <point x="681.624" y="250.86"/>
-      <point x="651.244" y="243.02"/>
-    </contour>
     <component base="si_KSsa"/>
   </outline>
 </glyph>

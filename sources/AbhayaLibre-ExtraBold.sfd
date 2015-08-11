@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1439259333
+ModificationTime: 1439278984
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -47,23 +47,6 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 4 0 0 "si_akhands" { "si_akhands subtable"  } ['akhn' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_reph" { "si_reph subtable"  } ['rphf' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_halant_1" { "si_halant_1 subtable"  } ['haln' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_abvs_1" { "si_abvs_1 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_abvs_2" { "si_abvs_2 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_abvs_3" { "si_abvs_3 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_abvs_4" { "si_abvs_4 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_abvs_5" { "si_abvs_5 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_abvs_6" { "si_abvs_6 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_abvs_7" { "si_abvs_7 subtable"  } ['abvs' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_blws_1" { "si_blws_1 subtable"  } ['blws' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_blws_2" { "si_blws_2 subtable"  } ['blws' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_blws_3" { "si_blws_3 subtable"  } ['blws' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_blws_4" { "si_blws_4 subtable"  } ['blws' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_blws_5" { "si_blws_5 subtable"  } ['blws' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_pstf" { "si_pstf subtable"  } ['pstf' ('sinh' <'dflt' > ) ]
-Lookup: 4 0 0 "si_rakaar" { "si_rakaar subtable"  } ['rkrf' ('sinh' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning lookup 0" { "'kern' Horizontal Kerning lookup 0-1" [153,15,0] } ['kern' ('DFLT' <'dflt' > 'hani' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -509,14 +492,13 @@ p187
 L0L
 s."
 Encoding: sinhala
-Compacted: 1
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
 WidthSeparation: 154
-WinInfo: 50 25 16
+WinInfo: 0 30 16
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -558,7 +540,6 @@ Refer: 19 3499 N 1 0 0 1 0 0 2
 Validated: 37
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Nna si_MatraI
 EndChar
 
 StartChar: si_A
@@ -1821,7 +1802,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Dda si_MatraI
 EndChar
 
 StartChar: si_DdIi
@@ -1882,7 +1862,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Dda si_MatraIi
 EndChar
 
 StartChar: uni0020
@@ -4083,7 +4062,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
-Ligature2: "si_reph subtable" si_Ra si_Halant
 EndChar
 
 StartChar: si_Rakar
@@ -4136,7 +4114,6 @@ Refer: 10 3482 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Ka si_MatraI
 EndChar
 
 StartChar: si_KIi
@@ -4170,7 +4147,6 @@ Refer: 10 3482 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Ka si_MatraIi
 EndChar
 
 StartChar: si_KU
@@ -4183,17 +4159,17 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-444.065429688 -80 m 0
- 444.065429688 -30 473.817077637 6.66508483887 513.565429688 23 c 1
- 523 -5.5 l 1
- 507.994140625 -11.1513671875 489.065429688 -26.0908203125 489.065429688 -48.25 c 0
- 489.065429688 -84.6162109375 532.11328125 -105 583.565429688 -105 c 0
- 644.565429688 -105 691.7578125 -82.5625 691.7578125 -45 c 0
- 691.7578125 -42.0390625 691.484375 -39.0380859375 691.065429688 -36 c 1
- 721.065429688 -36 l 1
- 723.419921875 -45.416015625 723.5 -60.2900390625 723.5 -69.5 c 0
- 723.5 -122.145507812 679.766601562 -191.5 579.065429688 -191.5 c 0
- 511.327148438 -191.5 444.065429688 -149.233398438 444.065429688 -80 c 0
+444.065429688 -80 m 4
+ 444.065429688 -28.6569442749 470.996861581 4.6650390625 512.565429688 23 c 5
+ 522 -5.5 l 5
+ 505.490274771 -11.1513671875 489.065429688 -26.0908203125 489.065429688 -48.25 c 4
+ 489.065429688 -84.6162109375 533.479879712 -105 586.565429688 -105 c 4
+ 645.873998228 -105 691.7578125 -82.5625 691.7578125 -45 c 4
+ 691.7578125 -42.0390625 691.484375 -39.0380859375 691.065429688 -36 c 5
+ 721.065429688 -36 l 5
+ 723.419921875 -45.416015625 723.5 -60.2900390625 723.5 -69.5 c 4
+ 723.5 -122.145507812 680.674972702 -191.5 582.065429688 -191.5 c 4
+ 512.821853299 -191.5 444.065429688 -149.233398438 444.065429688 -80 c 4
 21 22 m 1
  28.6966338402 91.2697045622 74.4524773728 184.16496867 109 232 c 0
  135 268 148 280 171 304 c 1
@@ -4223,23 +4199,22 @@ SplineSet
  117 -1 120 73 87 73 c 0
  64.6748046875 73 52 51 49 11 c 1
  21 22 l 1
-91 143 m 5
- 103 153 115 160 129 160 c 4
- 161 160 172 140 212 140 c 4
- 258 140 280 157 280 214 c 4
- 280 216.208984375 280.041015625 214.3046875 280 216 c 5
- 308 216 l 5
- 307.963867188 214.6640625 308 216.330078125 308 215 c 4
- 308 154 332 140 377 140 c 4
- 418 140 443 169 443 204 c 4
- 443 246 402 287 301 287 c 4
- 244.333007812 287 204.666992188 280 180 268 c 5
- 162.666992188 253.333007812 146.522390704 234.996134377 131 212 c 4
- 104 172 101 163 91 143 c 5
+91 143 m 1
+ 103 153 115 160 129 160 c 0
+ 161 160 172 140 212 140 c 0
+ 258 140 280 157 280 214 c 0
+ 280 216.208984375 280.041015625 214.3046875 280 216 c 1
+ 308 216 l 1
+ 307.963867188 214.6640625 308 216.330078125 308 215 c 0
+ 308 154 332 140 377 140 c 0
+ 418 140 443 169 443 204 c 0
+ 443 246 402 287 301 287 c 0
+ 244.333007812 287 204.666992188 280 180 268 c 1
+ 162.666992188 253.333007812 146.522390704 234.996134377 131 212 c 0
+ 104 172 101 163 91 143 c 1
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Ka si_MatraU
 EndChar
 
 StartChar: si_KUu
@@ -4273,7 +4248,6 @@ EndSplineSet
 Refer: 10 3482 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Ka si_MatraUu
 EndChar
 
 StartChar: si_Ka.reph
@@ -4286,11 +4260,11 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-390.900390625 511 m 0
- 390.900390625 490.854492188 409.127929688 474.546875 431 474.546875 c 0
- 452.872070312 474.546875 471.099609375 490.854492188 471.099609375 511 c 0
- 471.099609375 531.145507812 452.872070312 547.453125 431 547.453125 c 0
- 409.127929688 547.453125 390.900390625 531.145507812 390.900390625 511 c 0
+390.900390625 511 m 4
+ 390.900390625 490.854492188 409.127929688 474.546875 431 474.546875 c 4
+ 452.872070312 474.546875 471.099609375 490.854492188 471.099609375 511 c 4
+ 471.099609375 531.145507812 452.872070312 547.453125 431 547.453125 c 4
+ 409.127929688 547.453125 390.900390625 531.145507812 390.900390625 511 c 4
 288 530 m 0
  288 594 346.120117188 631 428 631 c 0
  505 631 569 588 569 517 c 0
@@ -4306,10 +4280,9 @@ SplineSet
  499 471 464 445 406 445 c 0
  347 445 288 474 288 530 c 0
 EndSplineSet
-Refer: 10 3482 S 1 0 0 1 0 0 2
+Refer: 10 3482 N 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Ka si_Reph
 EndChar
 
 StartChar: si_Kh.halant
@@ -4369,7 +4342,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Kha si_Halant
 EndChar
 
 StartChar: si_KhI
@@ -4426,7 +4398,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Kha si_MatraI
 EndChar
 
 StartChar: si_KhIi
@@ -4488,7 +4459,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Kha si_MatraIi
 EndChar
 
 StartChar: si_KhU
@@ -4519,7 +4489,6 @@ Refer: 12 3483 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Kha si_MatraU
 EndChar
 
 StartChar: si_GI
@@ -4573,7 +4542,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Ga si_MatraI
 EndChar
 
 StartChar: si_GIi
@@ -4628,7 +4596,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Ga si_MatraIi
 EndChar
 
 StartChar: si_GU
@@ -4641,47 +4608,46 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-306.065429688 -80 m 0
- 306.065429688 -24.6569442749 331.817382812 6.6650390625 371.565429688 23 c 1
- 381 -5.5 l 1
- 365.994140625 -11.1513671875 351.065429688 -26.0908203125 351.065429688 -48.25 c 0
- 351.065429688 -84.6162109375 394.11328125 -105 445.565429688 -105 c 0
- 506.565429688 -105 553.7578125 -82.5625 553.7578125 -45 c 0
- 553.7578125 -42.0390625 553.484375 -39.0380859375 553.065429688 -36 c 1
- 583.065429688 -36 l 1
- 585.419921875 -45.416015625 585.5 -60.2900390625 585.5 -69.5 c 0
- 585.5 -122.145507812 541.766601562 -191.5 441.065429688 -191.5 c 0
- 373.327148438 -191.5 306.065429688 -149.233398438 306.065429688 -80 c 0
-34 207 m 4
- 34 330 109 431.5 220 431.5 c 4
- 223.953128016 431.5 228.954101562 431.25 233 431 c 5
- 233 405 l 5
- 229.64453125 405.284179688 225.310546875 405.450195312 222 405.450195312 c 4
- 138 405.450195312 88 329 88 258 c 4
- 88 186 142 140 211 140 c 4
- 270 140 294 164 294 191 c 4
- 294 216 276 220 269 220 c 4
- 258 220 251 217 246 214 c 5
- 245 208 244 197.333007812 244 194 c 5
- 216 194 l 5
- 225 321 288 431.5 410 431.5 c 4
- 522 431.5 586 332 586 217 c 4
- 586 95 508.19415158 -1 417 -1 c 4
- 396.650390625 -1 385.123046875 -3.65234375 377.25 -7 c 5
- 368.25 21.5 l 5
- 374.126953125 24.84375 391.461914062 29 404.75 29 c 4
- 465.888373375 29 498 110 498 175 c 4
- 498 255 461 320 363 320 c 4
- 292 320 257 277 250 241 c 5
- 256 244 263.333007812 246 270 246 c 4
- 320 246 352 202 352 136 c 4
- 352 56 295 -2 208 -2 c 4
- 97 -2 34 96 34 207 c 4
+306.065429688 -80 m 4
+ 306.065429688 -24.6569442749 331.817382812 6.6650390625 371.565429688 23 c 5
+ 381 -5.5 l 5
+ 365.994140625 -11.1513671875 351.065429688 -26.0908203125 351.065429688 -48.25 c 4
+ 351.065429688 -84.6162109375 394.11328125 -105 445.565429688 -105 c 4
+ 506.565429688 -105 553.7578125 -82.5625 553.7578125 -45 c 4
+ 553.7578125 -42.0390625 553.484375 -39.0380859375 553.065429688 -36 c 5
+ 583.065429688 -36 l 5
+ 585.419921875 -45.416015625 585.5 -60.2900390625 585.5 -69.5 c 4
+ 585.5 -122.145507812 541.766601562 -191.5 441.065429688 -191.5 c 4
+ 373.327148438 -191.5 306.065429688 -149.233398438 306.065429688 -80 c 4
+34 207 m 0
+ 34 330 109 431.5 220 431.5 c 0
+ 223.953128016 431.5 228.954101562 431.25 233 431 c 1
+ 233 405 l 1
+ 229.64453125 405.284179688 225.310546875 405.450195312 222 405.450195312 c 0
+ 138 405.450195312 88 329 88 258 c 0
+ 88 186 142 140 211 140 c 0
+ 270 140 294 164 294 191 c 0
+ 294 216 276 220 269 220 c 0
+ 258 220 251 217 246 214 c 1
+ 245 208 244 197.333007812 244 194 c 1
+ 216 194 l 1
+ 225 321 288 431.5 410 431.5 c 0
+ 522 431.5 586 332 586 217 c 0
+ 586 95 508.19415158 -1 417 -1 c 0
+ 396.650390625 -1 385.123046875 -3.65234375 377.25 -7 c 1
+ 368.25 21.5 l 1
+ 374.126953125 24.84375 391.461914062 29 404.75 29 c 0
+ 465.888373375 29 498 110 498 175 c 0
+ 498 255 461 320 363 320 c 0
+ 292 320 257 277 250 241 c 1
+ 256 244 263.333007812 246 270 246 c 0
+ 320 246 352 202 352 136 c 0
+ 352 56 295 -2 208 -2 c 0
+ 97 -2 34 96 34 207 c 0
 EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Ga si_MatraU
 EndChar
 
 StartChar: si_GUu
@@ -4716,7 +4682,6 @@ Refer: 14 3484 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Ga si_MatraUu
 EndChar
 
 StartChar: si_Ga.reph
@@ -4732,7 +4697,6 @@ Refer: 81 -1 N 1 0 0 1 703 -28 2
 Refer: 14 3484 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_7 subtable" si_Ga si_Reph
 EndChar
 
 StartChar: si_GA.reph
@@ -4812,7 +4776,6 @@ Refer: 15 3485 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Gha si_Halant
 EndChar
 
 StartChar: si_GhI
@@ -4841,7 +4804,6 @@ Refer: 15 3485 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Gha si_MatraI
 EndChar
 
 StartChar: si_GhIi
@@ -4875,7 +4837,6 @@ Refer: 15 3485 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Gha si_MatraIi
 EndChar
 
 StartChar: si_GhU
@@ -4906,7 +4867,6 @@ Refer: 15 3485 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Gha si_MatraU
 EndChar
 
 StartChar: si_GhUu
@@ -4940,7 +4900,6 @@ Refer: 15 3485 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Gha si_MatraUu
 EndChar
 
 StartChar: si_Gha.reph
@@ -4976,7 +4935,6 @@ EndSplineSet
 Refer: 15 3485 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Gha si_Reph
 EndChar
 
 StartChar: si_GhAa.reph
@@ -5088,7 +5046,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Nga si_MatraI
 EndChar
 
 StartChar: si_NgIi
@@ -5155,7 +5112,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Nga si_MatraIi
 EndChar
 
 StartChar: si_NngUu
@@ -5190,7 +5146,6 @@ Refer: 46 3487 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Nnga si_MatraUu
 EndChar
 
 StartChar: si_NngU
@@ -5251,7 +5206,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Nnga si_MatraU
 EndChar
 
 StartChar: si_NngI
@@ -5314,7 +5268,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Nnga si_MatraI
 EndChar
 
 StartChar: si_NngIi
@@ -5381,7 +5334,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Nnga si_MatraIi
 EndChar
 
 StartChar: si_CI
@@ -5440,7 +5392,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Ca si_MatraI
 EndChar
 
 StartChar: si_CIi
@@ -5504,7 +5455,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Ca si_MatraIi
 EndChar
 
 StartChar: si_CU
@@ -5535,7 +5485,6 @@ Refer: 2 3488 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Ca si_MatraU
 EndChar
 
 StartChar: si_CUu
@@ -5568,7 +5517,6 @@ EndSplineSet
 Refer: 2 3488 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Ca si_MatraUu
 EndChar
 
 StartChar: si_Ca.reph
@@ -5605,7 +5553,6 @@ Refer: 2 3488 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_7 subtable" si_Ca si_Reph
 Colour: ff0000
 EndChar
 
@@ -5638,7 +5585,6 @@ Refer: 17 3489 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Cha si_MatraI
 EndChar
 
 StartChar: si_ChIi
@@ -5674,7 +5620,6 @@ Refer: 17 3489 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Cha si_MatraIi
 Colour: ff0000
 EndChar
 
@@ -5706,7 +5651,6 @@ Refer: 17 3489 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Cha si_MatraU
 EndChar
 
 StartChar: si_ChUu
@@ -5739,7 +5683,6 @@ EndSplineSet
 Refer: 17 3489 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Cha si_MatraUu
 EndChar
 
 StartChar: si_JI
@@ -5771,7 +5714,6 @@ Refer: 16 3490 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Ja si_MatraI
 EndChar
 
 StartChar: si_JU
@@ -5801,7 +5743,6 @@ EndSplineSet
 Refer: 16 3490 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Ja si_MatraU
 EndChar
 
 StartChar: si_JUu
@@ -5835,7 +5776,6 @@ Refer: 16 3490 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Ja si_MatraUu
 EndChar
 
 StartChar: si_Ja.reph
@@ -5871,7 +5811,6 @@ EndSplineSet
 Refer: 16 3490 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Ja si_Reph
 EndChar
 
 StartChar: si_JhI
@@ -5958,7 +5897,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Jha si_MatraI
 EndChar
 
 StartChar: si_JhIi
@@ -6050,7 +5988,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Jha si_MatraIi
 EndChar
 
 StartChar: si_JhU
@@ -6081,7 +6018,6 @@ Refer: 47 3491 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Jha si_MatraU
 EndChar
 
 StartChar: si_JhUu
@@ -6114,7 +6050,6 @@ EndSplineSet
 Refer: 47 3491 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Jha si_MatraUu
 EndChar
 
 StartChar: si_Jha.reph
@@ -6350,7 +6285,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_5 subtable" si_Nya si_MatraAa
 EndChar
 
 StartChar: si_NyI
@@ -6380,7 +6314,6 @@ Refer: 48 3492 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Nya si_MatraI
 EndChar
 
 StartChar: si_NyIi
@@ -6414,7 +6347,6 @@ Refer: 48 3492 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Nya si_MatraIi
 EndChar
 
 StartChar: si_NyU
@@ -6507,7 +6439,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Nya si_MatraU
 EndChar
 
 StartChar: si_JnyAa
@@ -6589,7 +6520,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_Jnya si_MatraAa
 EndChar
 
 StartChar: si_JnyI
@@ -6618,7 +6548,6 @@ Refer: 49 3493 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Jnya si_MatraI
 EndChar
 
 StartChar: si_JnyIi
@@ -6652,7 +6581,6 @@ Refer: 49 3493 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Jnya si_MatraIi
 EndChar
 
 StartChar: si_JnyU
@@ -6726,7 +6654,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Jnya si_MatraU
 EndChar
 
 StartChar: si_NyUu
@@ -6822,7 +6749,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Nya si_MatraUu
 EndChar
 
 StartChar: si_JnyUu
@@ -6899,7 +6825,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Jnya si_MatraUu
 EndChar
 
 StartChar: si_NdjI
@@ -6965,7 +6890,6 @@ Refer: 50 3494 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Ndja si_MatraIi
 EndChar
 
 StartChar: si_NdjU
@@ -7028,7 +6952,6 @@ Refer: 50 3494 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Ndja si_MatraUu
 EndChar
 
 StartChar: si_TtI
@@ -7070,7 +6993,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Tta si_MatraI
 EndChar
 
 StartChar: si_TtIi
@@ -7117,7 +7039,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Tta si_MatraIi
 EndChar
 
 StartChar: si_TtU
@@ -7148,7 +7069,6 @@ Refer: 7 3495 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Tta si_MatraU
 EndChar
 
 StartChar: si_TtUu
@@ -7181,7 +7101,6 @@ EndSplineSet
 Refer: 7 3495 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Tta si_MatraUu
 EndChar
 
 StartChar: si_Tta.reph
@@ -7217,7 +7136,6 @@ EndSplineSet
 Refer: 7 3495 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Tta si_Reph
 EndChar
 
 StartChar: si_TthI
@@ -7247,7 +7165,6 @@ EndSplineSet
 Refer: 51 3496 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Ttha si_MatraI
 EndChar
 
 StartChar: si_TthIi
@@ -7283,7 +7200,6 @@ Refer: 51 3496 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Ttha si_MatraIi
 EndChar
 
 StartChar: si_TthU
@@ -7313,7 +7229,6 @@ EndSplineSet
 Refer: 51 3496 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Ttha si_MatraU
 EndChar
 
 StartChar: si_TthUu
@@ -7346,7 +7261,6 @@ EndSplineSet
 Refer: 51 3496 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Ttha si_MatraUu
 EndChar
 
 StartChar: si_DdU
@@ -7377,7 +7291,6 @@ Refer: 22 3497 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Dda si_MatraU
 EndChar
 
 StartChar: si_DdUu
@@ -7411,7 +7324,6 @@ Refer: 22 3497 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Dda si_MatraUu
 EndChar
 
 StartChar: si_Dda.reph
@@ -7447,7 +7359,6 @@ EndSplineSet
 Refer: 22 3497 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Dda si_Reph
 EndChar
 
 StartChar: si_DdhI
@@ -7509,7 +7420,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Ddha si_MatraI
 EndChar
 
 StartChar: si_DdhIi
@@ -7576,7 +7486,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Ddha si_MatraIi
 EndChar
 
 StartChar: si_DdhU
@@ -7606,7 +7515,6 @@ EndSplineSet
 Refer: 18 3498 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Ddha si_MatraU
 EndChar
 
 StartChar: si_DdhUu
@@ -7639,7 +7547,6 @@ EndSplineSet
 Refer: 18 3498 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Ddha si_MatraUu
 EndChar
 
 StartChar: si_NnIi
@@ -7725,7 +7632,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Nna si_MatraIi
 EndChar
 
 StartChar: si_NnU
@@ -7756,7 +7662,6 @@ Refer: 19 3499 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Nna si_MatraU
 EndChar
 
 StartChar: si_NnUu
@@ -7791,7 +7696,6 @@ Refer: 19 3499 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Nna si_MatraUu
 EndChar
 
 StartChar: si_Nna.reph
@@ -7828,7 +7732,6 @@ Refer: 19 3499 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_7 subtable" si_Nna si_Reph
 EndChar
 
 StartChar: si_NnddI
@@ -7892,7 +7795,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Nndda si_MatraI
 EndChar
 
 StartChar: si_NnddIi
@@ -7961,7 +7863,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Nndda si_MatraIi
 EndChar
 
 StartChar: si_NnddU
@@ -7991,7 +7892,6 @@ EndSplineSet
 Refer: 20 3500 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Nndda si_MatraU
 EndChar
 
 StartChar: si_NnddUu
@@ -8023,7 +7923,6 @@ SplineSet
 EndSplineSet
 Refer: 20 3500 N 1 0 0 1 0 0 2
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Nndda si_MatraUu
 EndChar
 
 StartChar: si_TI
@@ -8052,7 +7951,6 @@ Refer: 21 3501 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Ta si_MatraI
 EndChar
 
 StartChar: si_TIi
@@ -8086,7 +7984,6 @@ Refer: 21 3501 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Ta si_MatraIi
 EndChar
 
 StartChar: si_TU
@@ -8145,7 +8042,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Ta si_MatraU
 EndChar
 
 StartChar: si_TUu
@@ -8180,7 +8076,6 @@ Refer: 21 3501 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Ta si_MatraUu
 EndChar
 
 StartChar: si_Ta.reph
@@ -8247,7 +8142,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Ta si_Reph
 EndChar
 
 StartChar: si_ThI
@@ -8295,7 +8189,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Tha si_MatraI
 EndChar
 
 StartChar: si_ThIi
@@ -8348,7 +8241,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Tha si_MatraIi
 EndChar
 
 StartChar: si_ThU
@@ -8396,7 +8288,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Tha si_MatraU
 EndChar
 
 StartChar: si_ThUu
@@ -8447,7 +8338,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Tha si_MatraUu
 EndChar
 
 StartChar: si_Tha.reph
@@ -8501,7 +8391,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Tha si_Reph
 EndChar
 
 StartChar: si_DAa
@@ -8533,7 +8422,6 @@ EndSplineSet
 Refer: 52 3503 S 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_Da si_MatraAa
 EndChar
 
 StartChar: si_DAe
@@ -8622,7 +8510,6 @@ Refer: 52 3503 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Da si_MatraI
 EndChar
 
 StartChar: si_DIi
@@ -8655,7 +8542,6 @@ EndSplineSet
 Refer: 52 3503 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Da si_MatraIi
 EndChar
 
 StartChar: si_DU
@@ -8700,7 +8586,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Da si_MatraU
 EndChar
 
 StartChar: si_DUu
@@ -8748,7 +8633,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Da si_MatraUu
 EndChar
 
 StartChar: si_Da.reph
@@ -8785,7 +8669,6 @@ Refer: 52 3503 N 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_7 subtable" si_Da si_Reph
 EndChar
 
 StartChar: si_DhI
@@ -8796,27 +8679,11 @@ VWidth: 1000
 Flags: HW
 LayerCount: 3
 Back
-Fore
 SplineSet
-75 562 m 4
- 75 476 195.75 481 284.75 476 c 4
- 385.768554688 470.325195312 451.716796875 468.323242188 493.5 413.25 c 4
- 520.366210938 377.838867188 526 330.218841505 526 288.5 c 5
- 589 256 l 5
- 589 344.512207031 546.896484375 423.256835938 497.75 459 c 4
- 442.750141778 499.000194944 348.619140625 501.456054688 283.75 504 c 4
- 181.75 508 134 511.05859375 134 538 c 4
- 134 573.2109375 230.09375 581 305.75 581 c 4
- 413.75 581 476.75 564.30859375 476.75 527 c 4
- 476.75 504.56640625 449.75 491 413.75 490 c 5
- 463.75 474 l 5
- 497.75 480 551.75 502 551.75 554 c 4
- 551.75 639 441.75 670 305.75 670 c 4
- 205.75 670 75 652 75 562 c 4
 33 195 m 4
  33 288 86.2482372121 363.668729333 152 387 c 4
  172.666666667 394.333333333 195.666666667 398 221 398 c 5
- 221 371.5 l 5
+ 221 371.5 l 6
  217.651367188 371.7890625 214.31640625 371.936523438 211 371.936523438 c 4
  132 371.936523438 88 307.145507812 88 242 c 4
  88 186.850143433 119.567382812 140 193 140 c 4
@@ -8825,16 +8692,67 @@ SplineSet
  319.25 249 l 5
  319.25 225 l 6
  319.25 161 362.830078125 140 412 140 c 4
- 507.709960938 140 526 246.44203556 526 293.5 c 5
- 543.087890625 276.198242188 562.966888178 278.076642274 589 261 c 5
- 589 139 547.875544195 0 422 0 c 4
+ 506.412698925 140 525.489967017 243.576139232 525.989775126 291.554199395 c 4
+ 525.713393786 332.527995364 519.712783087 378.70011718 493.5 413.25 c 4
+ 451.716796875 468.323242188 385.768554688 470.325195312 284.75 476 c 4
+ 195.75 481 75 476 75 562 c 4
+ 75 652 205.75 670 305.75 670 c 4
+ 441.75 670 551.75 639 551.75 554 c 4
+ 551.75 504.81089438 503.430222621 482.466109526 469.427309902 475.115469917 c 5
+ 479.646749304 470.561352311 489.174072906 465.237084361 497.75 459 c 4
+ 545.963576233 423.935319642 587.399027977 347.48620436 588.954727119 261.029682097 c 4
+ 588.969816011 261.019794431 588.984906971 261.009900401 589 261 c 4
+ 589 260.03058829 588.992188586 259.060103218 588.992188586 258.088623053 c 4
+ 588.997390407 257.393031547 589 256.696818457 589 256 c 6
+ 588.977057096 256.011835625 l 5
+ 587.865388448 135.243771785 546.163114572 2.84217094304e-14 422 0 c 4
  372.666666667 0 333 19.6666666667 303 59 c 5
  272.333333333 20.3333333333 234.671641514 0 190 0 c 4
  88 0 33 96 33 195 c 4
+421.696253843 490.435972057 m 5
+ 453.650882843 493.08641046 476.750000006 506.250164448 476.75 527 c 4
+ 476.75 564.30859375 413.75 581 305.75 581 c 4
+ 230.09375 581 134 573.2109375 134 538 c 4
+ 134 511.05859375 181.75 508 283.75 504 c 4
+ 323.924058046 502.424511167 375.321325143 500.88280702 421.696253843 490.435972057 c 5
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+33 195 m 0
+ 33 288 86.2482372121 363.668729333 152 387 c 0
+ 172.666666667 394.333333333 195.666666667 398 221 398 c 1
+ 221 371.5 l 2
+ 217.651367188 371.7890625 214.31640625 371.936523438 211 371.936523438 c 0
+ 132 371.936523438 88 307.145507812 88 242 c 0
+ 88 186.850143433 119.567382812 140 193 140 c 0
+ 243.911132812 140 288.5 161 288.5 225 c 2
+ 288.5 249 l 1
+ 319.25 249 l 1
+ 319.25 225 l 2
+ 319.25 161 362.830078125 140 412 140 c 0
+ 506.412698925 140 525.489967017 243.576139232 525.989775126 291.554199395 c 0
+ 525.713393786 332.527995364 519.712783087 378.70011718 493.5 413.25 c 0
+ 451.716796875 468.323242188 385.768554688 470.325195312 284.75 476 c 0
+ 195.75 481 75 476 75 562 c 0
+ 75 652 205.75 670 305.75 670 c 0
+ 441.75 670 551.75 639 551.75 554 c 0
+ 551.75 504.81089438 503.430222621 482.466109526 469.427309902 475.115469917 c 1
+ 479.646749304 470.561352311 489.174072906 465.237084361 497.75 459 c 0
+ 546.80280301 423.500707419 589 343.571428571 589 257 c 0
+ 588.977539062 257.01171875 l 1
+ 587.865867206 135.771981604 546.163472959 0 422 0 c 0
+ 372.666666667 0 333 19.6666666667 303 59 c 1
+ 272.333333333 20.3333333333 234.671641514 0 190 0 c 0
+ 88 0 33 96 33 195 c 0
+421.696253843 490.435972057 m 1
+ 453.650882843 493.08641046 476.750000006 506.250164448 476.75 527 c 0
+ 476.75 564.30859375 413.75 581 305.75 581 c 0
+ 230.09375 581 134 573.2109375 134 538 c 0
+ 134 511.05859375 181.75 508 283.75 504 c 0
+ 323.924058046 502.424511167 375.321325143 500.88280702 421.696253843 490.435972057 c 1
+EndSplineSet
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Dha si_MatraI
+LCarets2: 1 0
 EndChar
 
 StartChar: si_DhIi
@@ -8845,32 +8763,11 @@ VWidth: 1000
 Flags: HW
 LayerCount: 3
 Back
-Fore
 SplineSet
-400.897460938 538.75 m 4
- 400.897460938 568.331054688 427.526367188 592.123046875 460 592.123046875 c 4
- 492.473632812 592.123046875 519.102539062 568.331054688 519.102539062 538.75 c 4
- 519.102539062 509.168945312 492.473632812 485.376953125 460 485.376953125 c 4
- 427.526367188 485.376953125 400.897460938 509.168945312 400.897460938 538.75 c 4
-75 562 m 4
- 75 476 196 481 285 476 c 4
- 386.018532566 470.324801541 445.522460938 468.921875 490 416 c 4
- 517.6640625 383.083007812 526 348.020507812 526 295.25 c 5
- 589 256 l 5
- 589 348.934883118 547.146484375 423.256835938 498 459 c 4
- 443.000141778 499.000194944 348.869140625 501.456054688 284 504 c 4
- 182 508 130 510.989257812 130 540 c 4
- 130 580.369140625 228.34375 588.5 304 588.5 c 4
- 340.481445312 588.5 373.659179688 585.578125 382 584 c 5
- 378.022460938 578.984375 368 565.349609375 368 541.75 c 4
- 368 488.75 416 457.75 460 457.75 c 4
- 504 457.75 552 488.75 552 541.75 c 4
- 552 640.053710938 442 670 306 670 c 4
- 205.75 670 75 652 75 562 c 4
 33 195 m 4
- 33 288 86.2482372121 363.668729333 152 387 c 4
+ 33 288 86.2482372115 363.668729335 152 387 c 4
  172.666666667 394.333333333 195.666666667 398 221 398 c 5
- 221 371.5 l 5
+ 221 371.5 l 6
  217.651367188 371.7890625 214.31640625 371.936523438 211 371.936523438 c 4
  132 371.936523438 88 307.145507812 88 242 c 4
  88 186.850143433 119.567382812 140 193 140 c 4
@@ -8879,16 +8776,75 @@ SplineSet
  319.25 249 l 5
  319.25 225 l 6
  319.25 161 362.830078125 140 412 140 c 4
- 507.709960938 140 526 251.692382812 526 298.75 c 5
- 543.087890625 281.448242188 562.966888178 278.076642274 589 261 c 5
- 589 139 547.875544195 0 422 0 c 4
+ 506.820953165 140 525.653544141 249.627096401 525.99521915 297.422119165 c 4
+ 525.76652133 348.986705789 517.282739444 383.536736866 490 416 c 4
+ 445.523043993 468.922365016 386.018532566 470.324801541 285 476 c 4
+ 196 481 75 476 75 562 c 4
+ 75 652 205.75 670 306 670 c 4
+ 442 670 552 640.053710938 552 541.75 c 4
+ 552 501.621021998 524.482707716 474.104136292 492.01908324 463.105855206 c 5
+ 494.059674784 461.783111416 496.054322998 460.415048364 498 459 c 4
+ 546.342285523 423.841712189 588.99251947 350.11543524 588.99251947 258.150878923 c 4
+ 588.997500912 257.43503663 589 256.718073918 588.977079589 256.01427978 c 5
+ 587.865951104 135.24559654 546.163952195 2.84217094304e-14 422 0 c 4
  372.666666667 0 333 19.6666666667 303 59 c 5
  272.333333333 20.3333333333 234.671641514 0 190 0 c 4
  88 0 33 96 33 195 c 4
+400.897460938 538.75 m 4
+ 400.897460938 509.168945312 427.526367188 485.376953125 460 485.376953125 c 4
+ 492.473632812 485.376953125 519.102539062 509.168945312 519.102539062 538.75 c 4
+ 519.102539062 568.331054688 492.473632812 592.123046875 460 592.123046875 c 4
+ 427.526367188 592.123046875 400.897460938 568.331054688 400.897460938 538.75 c 4
+381.385662183 497.412930737 m 5
+ 373.054113784 509.670483565 368 524.552007374 368 541.75 c 4
+ 368 565.349609375 378.022460938 578.984375 382 584 c 5
+ 373.659179688 585.578125 340.481445312 588.5 304 588.5 c 4
+ 228.34375 588.5 130 580.369140625 130 540 c 4
+ 130 510.989257812 182 508 284 504 c 4
+ 312.707047463 502.874233433 347.144728036 501.765695052 381.385662183 497.412930737 c 5
 EndSplineSet
-Validated: 5
+Fore
+SplineSet
+33 195 m 0
+ 33 288 86.2482372115 363.668729335 152 387 c 0
+ 172.666666667 394.333333333 195.666666667 398 221 398 c 1
+ 221 371.5 l 2
+ 217.651367188 371.7890625 214.31640625 371.936523438 211 371.936523438 c 0
+ 132 371.936523438 88 307.145507812 88 242 c 0
+ 88 186.850143433 119.567382812 140 193 140 c 0
+ 243.911132812 140 288.5 161 288.5 225 c 2
+ 288.5 249 l 1
+ 319.25 249 l 1
+ 319.25 225 l 2
+ 319.25 161 362.830078125 140 412 140 c 0
+ 506.820953165 140 525.653544141 249.627096401 525.99521915 297.422119165 c 0
+ 525.76652133 348.986705789 517.282739444 383.536736866 490 416 c 0
+ 445.523043993 468.922365016 386.018532566 470.324801541 285 476 c 0
+ 196 481 75 476 75 562 c 0
+ 75 652 205.75 670 306 670 c 0
+ 442 670 552 640.053710938 552 541.75 c 0
+ 552 501.621021998 524.482707716 474.104136292 492.01908324 463.105855206 c 1
+ 494.059674784 461.783111416 496.054322998 460.415048364 498 459 c 0
+ 545.263265487 424.62645988 588.981680167 350.273546154 588.977079589 256.01427978 c 1
+ 588.865951104 136.24559654 546.163952195 2.84217094304e-14 422 0 c 0
+ 372.666666667 0 333 19.6666666667 303 59 c 1
+ 272.333333333 20.3333333333 234.671641514 0 190 0 c 0
+ 88 0 33 96 33 195 c 0
+400.897460938 538.75 m 0
+ 400.897460938 509.168945312 427.526367188 485.376953125 460 485.376953125 c 0
+ 492.473632812 485.376953125 519.102539062 509.168945312 519.102539062 538.75 c 0
+ 519.102539062 568.331054688 492.473632812 592.123046875 460 592.123046875 c 0
+ 427.526367188 592.123046875 400.897460938 568.331054688 400.897460938 538.75 c 0
+381.385662183 497.412930737 m 1
+ 373.054113784 509.670483565 368 524.552007374 368 541.75 c 0
+ 368 565.349609375 378.022460938 578.984375 382 584 c 1
+ 373.659179688 585.578125 340.481445312 588.5 304 588.5 c 0
+ 228.34375 588.5 130 580.369140625 130 540 c 0
+ 130 510.989257812 182 508 284 504 c 0
+ 312.707047463 502.874233433 347.144728036 501.765695052 381.385662183 497.412930737 c 1
+EndSplineSet
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Dha si_MatraIi
+LCarets2: 1 0
 EndChar
 
 StartChar: si_DhU
@@ -8919,7 +8875,6 @@ Refer: 53 3504 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Dha si_MatraU
 EndChar
 
 StartChar: si_DhUu
@@ -8952,7 +8907,6 @@ EndSplineSet
 Refer: 53 3504 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Dha si_MatraUu
 EndChar
 
 StartChar: si_Dha.reph
@@ -8988,7 +8942,6 @@ EndSplineSet
 Refer: 53 3504 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Dha si_Reph
 EndChar
 
 StartChar: si_NI
@@ -9016,7 +8969,6 @@ EndSplineSet
 Refer: 11 3505 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Na si_MatraI
 EndChar
 
 StartChar: si_NIi
@@ -9029,27 +8981,26 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-581.801757812 476 m 4
- 581.801757812 444.706054688 608.577148438 418.458007812 640.5 418.458007812 c 4
- 672.422851562 418.458007812 699.198242188 444.706054688 699.198242188 476 c 4
- 699.198242188 507.293945312 672.422851562 533.541992188 640.5 533.541992188 c 4
- 608.577148438 533.541992188 581.801757812 507.293945312 581.801757812 476 c 4
-267.5 421 m 4
- 267.5 590 379.5 671 522.5 671 c 4
- 652.5 671 738.5 600 738.5 495 c 4
- 738.5 444 700.5 388 642.5 388 c 4
- 584.5 388 549.5 433 549.5 477 c 4
- 549.5 509.014648438 563.697265625 528.212890625 580.75 543.25 c 5
- 567.443359375 547.2734375 541.114257812 550 523.75 550 c 4
- 373.4921875 550 298 466.55747446 298 383 c 4
- 298 371.432207525 299.0194664 366.978135109 301 358 c 5
- 276 336 l 5
- 271.903320312 353.751953125 267.5 389.836914062 267.5 421 c 4
+581.801757812 476 m 0
+ 581.801757812 444.706054688 608.577148438 418.458007812 640.5 418.458007812 c 0
+ 672.422851562 418.458007812 699.198242188 444.706054688 699.198242188 476 c 0
+ 699.198242188 507.293945312 672.422851562 533.541992188 640.5 533.541992188 c 0
+ 608.577148438 533.541992188 581.801757812 507.293945312 581.801757812 476 c 0
+267.5 421 m 0
+ 267.5 590 379.5 671 522.5 671 c 0
+ 652.5 671 738.5 600 738.5 495 c 0
+ 738.5 444 700.5 388 642.5 388 c 0
+ 584.5 388 549.5 433 549.5 477 c 0
+ 549.5 509.014648438 563.697265625 528.212890625 580.75 543.25 c 1
+ 567.443359375 547.2734375 541.114257812 550 523.75 550 c 0
+ 373.4921875 550 298 466.55747446 298 383 c 0
+ 298 371.432207525 299.0194664 366.978135109 301 358 c 1
+ 276 336 l 1
+ 271.903320312 353.751953125 267.5 389.836914062 267.5 421 c 0
 EndSplineSet
-Refer: 11 3505 S 1 0 0 1 0 0 2
+Refer: 11 3505 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Na si_MatraIi
 EndChar
 
 StartChar: si_NU
@@ -9079,7 +9030,6 @@ EndSplineSet
 Refer: 11 3505 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Na si_MatraU
 EndChar
 
 StartChar: si_NUu
@@ -9112,7 +9062,6 @@ EndSplineSet
 Refer: 11 3505 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Na si_MatraUu
 EndChar
 
 StartChar: si_Na.reph
@@ -9208,7 +9157,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_Nda si_MatraAa
 EndChar
 
 StartChar: si_NdAe
@@ -9383,7 +9331,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Nda si_MatraI
 EndChar
 
 StartChar: si_NdIi
@@ -9445,7 +9392,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Nda si_MatraIi
 EndChar
 
 StartChar: si_NdU
@@ -9498,7 +9444,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Nda si_MatraU
 EndChar
 
 StartChar: si_NdUu
@@ -9554,7 +9499,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Nda si_MatraUu
 EndChar
 
 StartChar: si_PI
@@ -9583,7 +9527,6 @@ Refer: 13 3508 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Pa si_MatraI
 EndChar
 
 StartChar: si_PIi
@@ -9617,7 +9560,6 @@ Refer: 13 3508 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Pa si_MatraIi
 EndChar
 
 StartChar: si_PU
@@ -9647,7 +9589,6 @@ EndSplineSet
 Refer: 13 3508 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Pa si_MatraU
 EndChar
 
 StartChar: si_PUu
@@ -9681,7 +9622,6 @@ Refer: 13 3508 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Pa si_MatraUu
 EndChar
 
 StartChar: si_Pa.reph
@@ -9717,7 +9657,6 @@ EndSplineSet
 Refer: 13 3508 N 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Pa si_Reph
 EndChar
 
 StartChar: si_PhI
@@ -9747,7 +9686,6 @@ EndSplineSet
 Refer: 28 3509 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Pha si_MatraI
 EndChar
 
 StartChar: si_PhIi
@@ -9782,7 +9720,6 @@ EndSplineSet
 Refer: 28 3509 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Pha si_MatraIi
 EndChar
 
 StartChar: si_PhU
@@ -9813,7 +9750,6 @@ Refer: 28 3509 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Pha si_MatraU
 EndChar
 
 StartChar: si_PhUu
@@ -9846,7 +9782,6 @@ EndSplineSet
 Refer: 28 3509 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Pha si_MatraUu
 EndChar
 
 StartChar: si_Pha.reph
@@ -10010,7 +9945,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Ba si_MatraI
 EndChar
 
 StartChar: si_BIi
@@ -10068,7 +10002,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Ba si_MatraIi
 EndChar
 
 StartChar: si_BU
@@ -10099,7 +10032,6 @@ Refer: 55 3510 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Ba si_MatraU
 EndChar
 
 StartChar: si_BUu
@@ -10133,7 +10065,6 @@ Refer: 55 3510 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Ba si_MatraUu
 EndChar
 
 StartChar: si_Ba.reph
@@ -10149,7 +10080,6 @@ Refer: 81 -1 N 1 0 0 1 618 112 2
 Refer: 55 3510 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_7 subtable" si_Ba si_Reph
 EndChar
 
 StartChar: si_BhI
@@ -10162,25 +10092,23 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-178.25 537 m 4
- 178.25 628 277.234375 667 379.25 667 c 4
- 484.594726562 667 587.25 618 587.25 523 c 4
- 587.25 461 548.25 413 467.25 407 c 5
- 449.25 431 l 5
- 451.943359375 430.8671875 454.610351562 430.805664062 457.25 430.805664062 c 4
- 515.25 430.805664062 545.25 465.788085938 545.25 498 c 4
- 545.25 552.286132812 465.923828125 566 386.25 566 c 4
- 304.77734375 566 249.25 537.78125 249.25 503 c 4
+178.25 537 m 0
+ 178.25 628 277.234375 667 379.25 667 c 0
+ 484.594726562 667 587.25 618 587.25 523 c 0
+ 587.25 461 548.25 413 467.25 407 c 1
+ 449.25 431 l 1
+ 451.943359375 430.8671875 454.610351562 430.805664062 457.25 430.805664062 c 0
+ 515.25 430.805664062 545.25 465.788085938 545.25 498 c 0
+ 545.25 552.286132812 465.923828125 566 386.25 566 c 0
+ 304.77734375 566 249.25 537.78125 249.25 503 c 0
  249.25 453.810546875 353.25 431.4921875 439.25 431.4921875 c 4
- 440.255859375 431.4921875 440.255859375 431.494140625 441.25 431.5 c 5
- 425.25 407.5 l 5
- 265.25 410.833007812 178.25 462 178.25 537 c 4
+ 440.255859375 431.4921875 440.255859375 431.494140625 441.25 431.5 c 1
+ 425.25 407.5 l 1
+ 265.25 410.833007812 178.25 462 178.25 537 c 0
 EndSplineSet
-Refer: 56 3511 S 1 0 0 1 0 0 2
-Validated: 5
+Refer: 56 3511 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Bha si_MatraI
 EndChar
 
 StartChar: si_BhIi
@@ -10215,7 +10143,6 @@ Refer: 56 3511 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Bha si_MatraIi
 EndChar
 
 StartChar: si_BhU
@@ -10277,7 +10204,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Bha si_MatraU
 EndChar
 
 StartChar: si_BhUu
@@ -10311,7 +10237,6 @@ EndSplineSet
 Refer: 56 3511 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Bha si_MatraUu
 EndChar
 
 StartChar: si_Bha.reph
@@ -10348,7 +10273,6 @@ Refer: 56 3511 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_7 subtable" si_Bha si_Reph
 EndChar
 
 StartChar: si_MI
@@ -10406,7 +10330,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Ma si_MatraI
 EndChar
 
 StartChar: si_MIi
@@ -10469,7 +10392,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Ma si_MatraIi
 EndChar
 
 StartChar: si_MUu
@@ -10503,7 +10425,6 @@ Refer: 57 3512 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Ma si_MatraUu
 EndChar
 
 StartChar: si_Ma.reph
@@ -10540,7 +10461,6 @@ Refer: 57 3512 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_7 subtable" si_Ma si_Reph
 EndChar
 
 StartChar: si_MbI
@@ -10612,7 +10532,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Mba si_MatraI
 EndChar
 
 StartChar: si_MbIi
@@ -10689,7 +10608,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Mba si_MatraIi
 EndChar
 
 StartChar: si_MbU
@@ -10720,7 +10638,6 @@ Refer: 58 3513 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Mba si_MatraU
 EndChar
 
 StartChar: si_MbUu
@@ -10753,7 +10670,6 @@ EndSplineSet
 Refer: 58 3513 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Mba si_MatraUu
 EndChar
 
 StartChar: si_YI
@@ -10781,7 +10697,6 @@ EndSplineSet
 Refer: 59 3514 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Ya si_MatraI
 EndChar
 
 StartChar: si_YIi
@@ -10814,7 +10729,6 @@ EndSplineSet
 Refer: 59 3514 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Ya si_MatraIi
 EndChar
 
 StartChar: si_YU
@@ -10844,7 +10758,6 @@ EndSplineSet
 Refer: 59 3514 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Ya si_MatraU
 EndChar
 
 StartChar: si_YUu
@@ -10877,7 +10790,6 @@ EndSplineSet
 Refer: 59 3514 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Ya si_MatraUu
 EndChar
 
 StartChar: si_Ya.reph
@@ -10913,7 +10825,6 @@ EndSplineSet
 Refer: 59 3514 N 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Ya si_Reph
 EndChar
 
 StartChar: si_RAe
@@ -11007,7 +10918,6 @@ EndSplineSet
 Refer: 60 3515 S 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Ra si_MatraI
 EndChar
 
 StartChar: si_RIi
@@ -11015,7 +10925,7 @@ Encoding: 360 -1 240
 GlifName: si_R_I_i
 Width: 528
 VWidth: 1000
-Flags: HWO
+Flags: HW
 LayerCount: 3
 Back
 Fore
@@ -11055,7 +10965,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Ra si_MatraIi
 EndChar
 
 StartChar: si_RU
@@ -11084,7 +10993,6 @@ EndSplineSet
 Refer: 60 3515 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Ra si_MatraU
 EndChar
 
 StartChar: si_RUu
@@ -11118,7 +11026,6 @@ EndSplineSet
 Refer: 60 3515 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Ra si_MatraUu
 EndChar
 
 StartChar: si_LI
@@ -11147,7 +11054,6 @@ Refer: 61 3517 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_La si_MatraI
 EndChar
 
 StartChar: si_LIi
@@ -11182,7 +11088,6 @@ Refer: 61 3517 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_La si_MatraIi
 EndChar
 
 StartChar: si_LU
@@ -11231,7 +11136,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_La si_MatraU
 EndChar
 
 StartChar: si_LUu
@@ -11284,7 +11188,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_La si_MatraUu
 EndChar
 
 StartChar: si_VI
@@ -11297,43 +11200,42 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-46.5 562 m 4
- 46.5 476 162 481 251 476 c 4
- 352.018554688 470.325195312 414.478515625 470.641601562 456.5 415.75 c 4
- 483.23046875 380.83203125 484 333.802734375 484 319.75 c 5
- 548 268.75 l 5
- 548 357.26171875 511.896484375 423.256835938 462.75 459 c 4
- 407.75 499 314.869140625 501.456054688 250 504 c 4
- 148 508 106.75 511.05859375 106.75 538 c 4
- 106.75 573.2109375 196.34375 581 272 581 c 4
- 380 581 441.75 564.30859375 441.75 527 c 4
- 441.75 504.56640625 414.75 491 378.75 490 c 5
- 428.75 474 l 5
- 462.75 480 516.75 502 516.75 554 c 4
- 516.75 639 408 670 272 670 c 4
- 172 670 46.5 652 46.5 562 c 4
-33 165 m 4
- 33 250 98 304 199 304 c 6
- 256 304 l 5
- 256.08203125 306.041015625 256.0859375 306.041015625 256.0859375 308 c 4
- 256.0859375 358 224 387 191 387 c 132
- 157 387 146 371 140.5 355 c 132
- 133.951171875 335.948242188 122 319 96 319 c 4
- 73 319 56 333.368164062 56 359 c 4
- 56 406 106 431.5 161 431.5 c 4
- 249 431.5 292.146076529 376 292.146076529 290.0000267 c 4
- 292.146076529 286.721575577 292.100585938 280.387695312 292 277 c 5
- 211 277 l 6
- 137 277 101 250 101 213 c 4
- 101 151 196 140 270 140 c 4
- 423 140 484 213.738002777 484 325.75 c 5
- 502.348632812 310.213867188 525.998493555 291.052740609 548 274 c 5
- 548 114 450 0 267 0 c 4
- 146 0 33 46 33 165 c 4
+46.5 562 m 0
+ 46.5 652 172 670 272 670 c 0
+ 408 670 516.75 639 516.75 554 c 0
+ 516.75 502 462.75 480 428.75 474 c 1
+ 378.75 490 l 1
+ 414.75 491 441.75 504.56640625 441.75 527 c 0
+ 441.75 564.30859375 380 581 272 581 c 0
+ 196.34375 581 106.75 573.2109375 106.75 538 c 0
+ 106.75 511.05859375 148 508 250 504 c 0
+ 314.869140625 501.456054688 407.75 499 462.75 459 c 0
+ 511.896484375 423.256835938 548 357.26171875 548 268.75 c 1
+ 484 319.75 l 1
+ 484 333.802734375 483.23046875 380.83203125 456.5 415.75 c 0
+ 414.478515625 470.641601562 352.018554688 470.325195312 251 476 c 0
+ 162 481 46.5 476 46.5 562 c 0
+33 165 m 0
+ 33 250 98 304 199 304 c 2
+ 256 304 l 1
+ 256.08203125 306.041015625 256.0859375 306.041015625 256.0859375 308 c 0
+ 256.0859375 358 224 387 191 387 c 128
+ 157 387 146 371 140.5 355 c 128
+ 133.951171875 335.948242188 122 319 96 319 c 0
+ 73 319 56 333.368164062 56 359 c 0
+ 56 406 106 431.5 161 431.5 c 0
+ 249 431.5 292.146076529 376 292.146076529 290.0000267 c 0
+ 292.146076529 286.721575577 292.100585938 280.387695312 292 277 c 1
+ 211 277 l 2
+ 137 277 101 250 101 213 c 0
+ 101 151 196 140 270 140 c 0
+ 423 140 484 213.738002777 484 325.75 c 1
+ 502.348632812 310.213867188 525.998493555 291.052740609 548 274 c 1
+ 548 114 450 0 267 0 c 0
+ 146 0 33 46 33 165 c 0
 EndSplineSet
-Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Va si_MatraI
+LCarets2: 1 0
 EndChar
 
 StartChar: si_VIi
@@ -11346,48 +11248,46 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-365.897460938 538.75 m 4
- 365.897460938 568.331054688 392.526367188 592.123046875 425 592.123046875 c 4
- 457.473632812 592.123046875 484.102539062 568.331054688 484.102539062 538.75 c 4
- 484.102539062 509.168945312 457.473632812 485.376953125 425 485.376953125 c 4
- 392.526367188 485.376953125 365.897460938 509.168945312 365.897460938 538.75 c 4
-47 562 m 4
- 47 476 161 481 250 476 c 4
- 351.018554688 470.325195312 410.560546875 468.954101562 455 416 c 4
- 480.655892089 385.428410572 484 346.583007812 484 322 c 5
- 548 269.25 l 5
- 548 359.205078125 512.146484375 423.256835938 463 459 c 4
- 408 499 313.869140625 501.456054688 249 504 c 4
- 147 508 102 510.989257812 102 540 c 4
- 102 580.369140625 193.34375 588.5 269 588.5 c 4
- 305.481445312 588.5 338.659179688 585.578125 347 584 c 5
- 343.022460938 578.984375 333 565.349609375 333 541.75 c 4
- 333 488.75 381 457.75 425 457.75 c 4
- 469 457.75 517 488.75 517 541.75 c 4
- 517 640.053710938 407 670 271 670 c 4
- 170.75 670 47 652 47 562 c 4
-33 165 m 4
- 33 250 98 304 199 304 c 6
- 256 304 l 5
- 256.08203125 306.041015625 256.0859375 306.041015625 256.0859375 308 c 4
- 256.0859375 358 224 387 191 387 c 132
- 157 387 146 371 140.5 355 c 132
- 133.951171875 335.948242188 122 319 96 319 c 4
- 73 319 56 333.368164062 56 359 c 4
- 56 406 106 431.5 161 431.5 c 4
- 249 431.5 292.146076529 376 292.146076529 290.0000267 c 4
- 292.146076529 286.721575577 292.100585938 280.387695312 292 277 c 5
- 211 277 l 6
- 137 277 101 250 101 213 c 4
- 101 151 196 140 270 140 c 4
- 423 140 484 213.738002777 484 325.75 c 5
- 502.348632812 310.213867188 525.998493555 291.052740609 548 274 c 5
- 548 114 450 0 267 0 c 4
- 146 0 33 46 33 165 c 4
+365.897460938 538.75 m 0
+ 365.897460938 509.168945312 392.526367188 485.376953125 425 485.376953125 c 0
+ 457.473632812 485.376953125 484.102539062 509.168945312 484.102539062 538.75 c 0
+ 484.102539062 568.331054688 457.473632812 592.123046875 425 592.123046875 c 0
+ 392.526367188 592.123046875 365.897460938 568.331054688 365.897460938 538.75 c 0
+47 562 m 0
+ 47 652 170.75 670 271 670 c 0
+ 407 670 517 640.053710938 517 541.75 c 0
+ 517 488.75 469 457.75 425 457.75 c 0
+ 381 457.75 333 488.75 333 541.75 c 0
+ 333 565.349609375 343.022460938 578.984375 347 584 c 1
+ 338.659179688 585.578125 305.481445312 588.5 269 588.5 c 0
+ 193.34375 588.5 102 580.369140625 102 540 c 0
+ 102 510.989257812 147 508 249 504 c 0
+ 313.869140625 501.456054688 408 499 463 459 c 0
+ 512.146484375 423.256835938 548 359.205078125 548 269.25 c 1
+ 484 322 l 1
+ 484 346.583007812 480.655892089 385.428410572 455 416 c 0
+ 410.560546875 468.954101562 351.018554688 470.325195312 250 476 c 0
+ 161 481 47 476 47 562 c 0
+33 165 m 0
+ 33 250 98 304 199 304 c 2
+ 256 304 l 1
+ 256.08203125 306.041015625 256.0859375 306.041015625 256.0859375 308 c 0
+ 256.0859375 358 224 387 191 387 c 128
+ 157 387 146 371 140.5 355 c 128
+ 133.951171875 335.948242188 122 319 96 319 c 0
+ 73 319 56 333.368164062 56 359 c 0
+ 56 406 106 431.5 161 431.5 c 0
+ 249 431.5 292.146076529 376 292.146076529 290.0000267 c 0
+ 292.146076529 286.721575577 292.100585938 280.387695312 292 277 c 1
+ 211 277 l 2
+ 137 277 101 250 101 213 c 0
+ 101 151 196 140 270 140 c 0
+ 423 140 484 213.738002777 484 325.75 c 1
+ 502.348632812 310.213867188 525.998493555 291.052740609 548 274 c 1
+ 548 114 450 0 267 0 c 0
+ 146 0 33 46 33 165 c 0
 EndSplineSet
-Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Va si_MatraIi
 EndChar
 
 StartChar: si_VU
@@ -11418,7 +11318,6 @@ Refer: 4 3520 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Va si_MatraU
 EndChar
 
 StartChar: si_VUu
@@ -11451,7 +11350,6 @@ EndSplineSet
 Refer: 4 3520 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Va si_MatraUu
 EndChar
 
 StartChar: si_Va.reph
@@ -11487,7 +11385,6 @@ EndSplineSet
 Refer: 4 3520 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Va si_Reph
 EndChar
 
 StartChar: si_ShI
@@ -11552,7 +11449,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Sha si_MatraI
 EndChar
 
 StartChar: si_ShIi
@@ -11621,7 +11517,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Sha si_MatraIi
 EndChar
 
 StartChar: si_ShU
@@ -11650,7 +11545,6 @@ Refer: 62 3521 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Sha si_MatraU
 EndChar
 
 StartChar: si_ShUu
@@ -11685,7 +11579,6 @@ Refer: 62 3521 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Sha si_MatraUu
 EndChar
 
 StartChar: si_Sha.reph
@@ -11721,7 +11614,6 @@ EndSplineSet
 Refer: 62 3521 N 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Sha si_Reph
 EndChar
 
 StartChar: si_SsI
@@ -11749,7 +11641,6 @@ EndSplineSet
 Refer: 63 3522 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Ssa si_MatraI
 EndChar
 
 StartChar: si_SsIi
@@ -11782,7 +11673,6 @@ EndSplineSet
 Refer: 63 3522 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Ssa si_MatraIi
 EndChar
 
 StartChar: si_SsU
@@ -11812,7 +11702,6 @@ EndSplineSet
 Refer: 63 3522 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Ssa si_MatraU
 EndChar
 
 StartChar: si_SsUu
@@ -11845,7 +11734,6 @@ EndSplineSet
 Refer: 63 3522 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Ssa si_MatraUu
 EndChar
 
 StartChar: si_Ssa.reph
@@ -11881,7 +11769,6 @@ EndSplineSet
 Refer: 63 3522 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Ssa si_Reph
 EndChar
 
 StartChar: si_SIi
@@ -11915,7 +11802,6 @@ Refer: 64 3523 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Sa si_MatraIi
 EndChar
 
 StartChar: si_SUu
@@ -11948,7 +11834,6 @@ EndSplineSet
 Refer: 64 3523 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Sa si_MatraUu
 EndChar
 
 StartChar: si_Sa.reph
@@ -11984,7 +11869,6 @@ EndSplineSet
 Refer: 64 3523 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Sa si_Reph
 EndChar
 
 StartChar: si_HIi
@@ -12018,7 +11902,6 @@ EndSplineSet
 Refer: 24 3524 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Ha si_MatraIi
 EndChar
 
 StartChar: si_HUu
@@ -12051,7 +11934,6 @@ EndSplineSet
 Refer: 24 3524 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Ha si_MatraUu
 EndChar
 
 StartChar: si_Ha.reph
@@ -12087,7 +11969,6 @@ EndSplineSet
 Refer: 24 3524 N 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Ha si_Reph
 EndChar
 
 StartChar: si_Ll.halant
@@ -12116,7 +11997,6 @@ EndSplineSet
 Refer: 65 3525 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Lla si_Halant
 EndChar
 
 StartChar: si_LlIi
@@ -12148,7 +12028,6 @@ SplineSet
 EndSplineSet
 Refer: 65 3525 N 1 0 0 1 0 0 2
 Layer: 2
-Ligature2: "si_abvs_2 subtable" si_Lla si_MatraIi
 EndChar
 
 StartChar: si_LlU
@@ -12202,7 +12081,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Lla si_MatraU
 EndChar
 
 StartChar: si_LlUu
@@ -12272,7 +12150,6 @@ SplineSet
  395.5 540 386.5 518 386.5 488 c 0
 EndSplineSet
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Lla si_MatraUu
 EndChar
 
 StartChar: si_FI
@@ -12301,7 +12178,6 @@ Refer: 66 3526 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Fa si_MatraI
 EndChar
 
 StartChar: si_FIi
@@ -12335,7 +12211,6 @@ Refer: 66 3526 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Fa si_MatraIi
 Colour: ff0000
 EndChar
 
@@ -12366,7 +12241,6 @@ EndSplineSet
 Refer: 66 3526 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Fa si_MatraU
 EndChar
 
 StartChar: si_FUu
@@ -12399,7 +12273,6 @@ EndSplineSet
 Refer: 66 3526 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_3 subtable" si_Fa si_MatraUu
 EndChar
 
 StartChar: si_Fa.reph
@@ -12447,33 +12320,33 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-21 22 m 1
- 28.696289062 91.26953125 74.452148438 184.165039062 109 232 c 0
- 135 268 148 280 171 304 c 1
- 180 314 191.25 331 191.25 352 c 0
- 191.25 371 182 386 158 386 c 0
- 144 386 128.438476562 378.533203125 124 363 c 0
- 118 342 122 342 113 323 c 0
- 104.732421875 305.545898438 87 297 72 297 c 128
- 35 297 29 328 29 340 c 0
- 29 394.098632812 79.36328125 433 136 433 c 0
- 188.34765625 433 220 399 220 358 c 0
- 220 352 220 349 219 341 c 1
- 255.112530688 366.766363972 302.488348148 392.006216269 367 411 c 0
- 433.128952026 432.138809204 507.859375 436 551.25 436 c 0
- 620.209316271 436 655.330759937 429.207356771 673 425 c 1
- 667.58344494 424.159179688 606.05327381 405.082088694 597 404 c 1
- 581.982398595 404.562546663 561.475585938 406 549 406 c 0
- 490.313476562 406 439.895871383 397.342910212 411.5 391 c 0
- 324.890617371 372.932778067 262.160734558 335.074665008 220.25 306.25 c 1
- 248.415424347 312.696125031 277.666992188 314 305 314 c 0
- 425 314 515 250 515 126 c 0
- 515 67.84765625 482 -1 397 -1 c 0
- 351 -1 317.333007812 20.3330078125 296 63 c 1
- 278.666992188 21.6669921875 246.021484375 -1 204 -1 c 0
- 117 -1 120 73 87 73 c 0
- 64.674804688 73 52 51 49 11 c 1
- 21 22 l 1
+21 22 m 5
+ 28.696289062 91.26953125 74.452148438 184.165039062 109 232 c 4
+ 135 268 148 280 171 304 c 5
+ 180 314 191.25 331 191.25 352 c 4
+ 191.25 371 182 386 158 386 c 4
+ 144 386 128.438476562 378.533203125 124 363 c 4
+ 118 342 122 342 113 323 c 4
+ 104.732421875 305.545898438 87 297 72 297 c 132
+ 35 297 29 328 29 340 c 4
+ 29 394.098632812 79.36328125 433 136 433 c 4
+ 188.34765625 433 220 399 220 358 c 4
+ 220 352 220 349 219 341 c 5
+ 255.112530688 366.766363972 302.488348148 392.006216269 367 411 c 4
+ 433.128952026 432.138809204 507.859375 436 551.25 436 c 4
+ 620.209316271 436 655.330759937 429.207356771 673 425 c 5
+ 667.58344494 424.159179688 606.05327381 405.082088694 597 404 c 5
+ 581.982398595 404.562546663 561.475585938 406 549 406 c 4
+ 490.313476562 406 439.895871383 397.342910212 411.5 391 c 4
+ 324.890617371 372.932778067 262.160734558 335.074665008 220.25 306.25 c 5
+ 248.415424347 312.696125031 277.666992188 314 305 314 c 4
+ 425 314 515 250 515 126 c 4
+ 515 67.84765625 482 -1 397 -1 c 4
+ 351 -1 317.333007812 20.3330078125 296 63 c 5
+ 278.666992188 21.6669921875 246.021484375 -1 204 -1 c 4
+ 117 -1 120 73 87 73 c 4
+ 64.674804688 73 52 51 49 11 c 5
+ 21 22 l 5
 497.75 165 m 0
  497.75 250 562.75 304 663.75 304 c 2
  720.75 304 l 1
@@ -12496,23 +12369,22 @@ SplineSet
  900.901367188 577 1012.75 443 1012.75 274 c 0
  1012.75 114 914.75 0 731.75 0 c 0
  610.75 0 497.75 46 497.75 165 c 0
-91 143 m 1
- 103 153 115 160 129 160 c 0
- 161 160 172 140 212 140 c 0
- 258 140 280 157 280 214 c 0
- 280 216.208984375 280.041015625 214.3046875 280 216 c 1
- 308 216 l 1
- 307.963867188 214.6640625 308 216.330078125 308 215 c 0
- 308 154 332 140 377 140 c 0
- 418 140 443 169 443 204 c 0
- 443 246 402 287 301 287 c 0
- 244.333007812 287 204.666992188 280 180 268 c 1
- 162.666992188 253.333007812 146.522460938 234.99609375 131 212 c 0
- 104 172 101 163 91 143 c 1
+91 143 m 5
+ 103 153 115 160 129 160 c 4
+ 161 160 172 140 212 140 c 4
+ 258 140 280 157 280 214 c 4
+ 280 216.208984375 280.041015625 214.3046875 280 216 c 5
+ 308 216 l 5
+ 307.963867188 214.6640625 308 216.330078125 308 215 c 4
+ 308 154 332 140 377 140 c 4
+ 418 140 443 169 443 204 c 4
+ 443 246 402 287 301 287 c 4
+ 244.333007812 287 204.666992188 280 180 268 c 5
+ 162.666992188 253.333007812 146.522460938 234.99609375 131 212 c 4
+ 104 172 101 163 91 143 c 5
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_akhands subtable" si_Ka si_Halantnsi_Va
 EndChar
 
 StartChar: si_NDha
@@ -12538,7 +12410,7 @@ SplineSet
  253 325.205851828 251.925740219 317.791706395 251 315 c 1
  302 375 400.63630409 432.77820916 505.999705561 432.778158251 c 0
  594.576682457 432.778115453 641.6484375 406.271484375 662.25 397.75 c 1
- 642.919677167 393.83196347 617.772460938 390.280273438 605.5 390.25 c 1
+ 605.5 390.25 l 1
  588.208984375 396.052734375 558.901367188 405 501 405 c 0
  400.868164062 405 314.729492188 343.107421875 270.75 297.75 c 1xb780
  296.261199951 306.460601807 317.103110119 308.102003375 345.043984241 308.102003375 c 0
@@ -12550,32 +12422,10 @@ SplineSet
  360 133 418 177 418 225 c 0
  418 259 390 281 334 281 c 0
  190 281 189 190 125 147 c 1
-474 195 m 0
- 474 288 527.248046875 363.668945312 593 387 c 0
- 613.666992188 394.333007812 636.666992188 398 662 398 c 1
- 662 371.5 l 1
- 658.651367188 371.7890625 655.31640625 371.936523438 652 371.936523438 c 0
- 573 371.936523438 529 307.145507812 529 242 c 0
- 529 186.850585938 560.567382812 140 634 140 c 0
- 684.911132812 140 729.5 161 729.5 225 c 2
- 729.5 249 l 1
- 760.25 249 l 1
- 760.25 225 l 2
- 760.25 161 803.830078125 140 853 140 c 0
- 948.709960938 140 967 230.977539062 967 304 c 0
- 967 426.934570312 881.908203125 554 735 554 c 0
- 654.333007812 554 592.536132812 525.40625 540.25 468 c 1
- 506 468 l 1
- 562.666992188 542.666992188 640.666992188 580 740 580 c 0
- 903 580 1030 446 1030 261 c 0
- 1030 139 988.875976562 0 863 0 c 0
- 813.666992188 0 774 19.6669921875 744 59 c 1
- 713.333007812 20.3330078125 675.671875 0 631 0 c 0
- 529 0 474 96 474 195 c 0
 EndSplineSet
+Refer: 53 3504 N 1 0 0 1 441 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_akhands subtable" si_Na si_Halantnsi_Dha
 EndChar
 
 StartChar: si_NDa
@@ -12588,57 +12438,35 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 385.367651547 253 333.5 c 4
- 253 325.698242188 252.003900809 319.25216273 251 315 c 5
- 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 4
- 616.138671875 436.25 675.465478722 435.936715865 710 429.25 c 5
- 690.669921875 425.33203125 618.272460938 406.530273438 606 406.5 c 5
- 596.779296875 406.634765625 594.533203125 407 585 407 c 4
- 428.30859375 407 342.519597832 359.80258244 272.25 298.5 c 5xb780
- 298.067016602 307.036010742 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
-125 147 m 5
- 153.727224532 138.227602737 190.042916095 133 248 133 c 4
- 360 133 418 177 418 225 c 4
- 418 259 390 281 334 281 c 4
- 190 281 189 190 125 147 c 5
-469.5 169 m 4
- 469.5 274 542.5 317 661.5 317 c 6
- 778.75 317 l 5
- 769.026367188 363.185546875 739.014648438 390 706.5 390 c 4
- 687.5 390 673.048828125 378.911132812 664.5 361 c 132
- 654 339 637.079101562 333 617.25 333 c 4
- 592.25 333 574.5 349.75 574.5 370.75 c 4
- 574.5 407.033203125 615.5 433 670.5 433 c 4
- 756.239257812 433 800.240234375 388.541992188 817.5 291 c 5
- 755.75 291 l 6
- 667.75 291 622.75 257 622.75 173 c 4
- 622.75 89 674.489257812 44 724 44 c 4
- 754.348632812 44 779.25 48.25 819.25 94.25 c 5
- 845.5 75 l 5
- 814.959960938 39.3701171875 773.5 -16 773.5 -92 c 4
- 773.5 -133.841796875 785.9453125 -185.983398438 847.5 -205.75 c 5
- 847.5 -238 l 5
- 827.235351562 -242.8046875 804.684570312 -246 787.5 -246 c 4
- 707.034179688 -246 673.25 -193.268554688 673.25 -136.25 c 4
- 673.25 -78.984375 705.7109375 -39.884765625 753.5 8.5 c 5
- 728.284179688 1.806640625 699.833007812 -1 672.5 -1 c 4
- 541.5 -1 469.5 69 469.5 169 c 4
+24 176 m 1
+ 32 167 50 160.127929688 67 160.127929688 c 0
+ 130 160.127929688 131 206 208 279 c 1
+ 221 292 222.818359375 309.123046875 222.818359375 322 c 0
+ 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 0
+ 160 379.551757812 146 370 143.747070312 345 c 0
+ 141.766601562 323.01953125 131 294 99 294 c 0
+ 82 294 55.1414577919 304 55.1414577919 338.999999066 c 0
+ 55.1414577919 384.002988141 89.0173697483 431 154 431 c 0
+ 219.024722972 431 253 385.367651547 253 333.5 c 0
+ 253 325.698242188 252.003900809 319.25216273 251 315 c 1
+ 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 0
+ 616.138671875 436.25 675.465478722 435.936715865 710 429.25 c 1
+ 606 406.5 l 1
+ 596.779296875 406.634765625 594.533203125 407 585 407 c 0
+ 428.30859375 407 342.519597832 359.80258244 272.25 298.5 c 1xb780
+ 298.067016602 307.036010742 317.103110119 308.102003375 345.043984241 308.102003375 c 0
+ 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 0
+ 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 0
+ 136 -1.12218963832 24 65 24 176 c 1
+125 147 m 1
+ 153.727224532 138.227602737 190.042916095 133 248 133 c 0
+ 360 133 418 177 418 225 c 0
+ 418 259 390 281 334 281 c 0
+ 190 281 189 190 125 147 c 1
 EndSplineSet
-Validated: 5
+Refer: 52 3503 N 1 0 0 1 439 0 2
 Layer: 2
-Ligature2: "si_akhands subtable" si_Na si_Halantnsi_Da
+LCarets2: 1 0
 EndChar
 
 StartChar: si_NVa
@@ -12700,7 +12528,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_akhands subtable" si_Na si_Halantnsi_Va
+LCarets2: 1 0
 EndChar
 
 StartChar: si_TtTha
@@ -12713,56 +12541,37 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-22 25 m 5
- 35 130 104 245 165 313 c 5
- 172 321 177.959960938 332 177.959960938 346 c 4
- 177.959960938 372 166 385 152 385 c 4
- 135.319335938 385 124.702148438 374.211914062 124 353.5 c 132
- 123 324 113 293 78 293 c 4
- 49 293 37 316.58246164 37 342 c 4
- 37 392 78 433 127 433 c 4
- 177.34375 433 206.099609375 398.928581297 206.099609375 356 c 4
- 206.099609375 352.364034537 205.833318949 349.628149271 205 347 c 5
- 293.122304861 410.021781276 381.274979539 434 548.5 434 c 4
- 572.415039062 434 610.103515013 433.615532581 643 430 c 5
- 621.103515625 418.442382812 583.872070312 414.022460938 567 406 c 5
- 414.023942739 405.999882548 291.600669861 387.650428772 206.75 308.5 c 5
- 228.019698143 315.419356346 249 320 281 320 c 4
- 382 320 459 268 459 162 c 4
- 459 70 392 -2 282 -2 c 4
- 134 -2 140 79 89 79 c 4
- 65 79 54.6669921875 53 46 9 c 5
- 22 25 l 5
-95 156 m 5
- 104 163 116.666992188 165 128 165 c 4
- 165 165 195 140 263 140 c 4
- 338 140 389 161 389 217 c 4
- 389 256 352 294 283 294 c 4
- 233.649414062 294 191 282 159 259 c 5
- 127.500976562 220.500976562 114 194 95 156 c 5
-434 235 m 4
- 434 344.829101562 529.994140625 430 646 430 c 5
- 646 403 l 5
- 563 403 488 347 488 265 c 4
- 488 169 594.377929688 140 700.25 140 c 4
- 822.25 140 915 213.1953125 915 319 c 4
- 915 351.16015625 910 380 893 417 c 5
- 880.357421875 387.822265625 849 367 806 367 c 4
- 742.844726562 367 706 422 706 488 c 4
- 706 538 723.66015625 575.446289062 748 605 c 5
- 809 572 879.96484375 500.2421875 916 438 c 4
- 954.783203125 371.01171875 967 322 967 252 c 4
- 967 102.630859375 851 -1 696 -1 c 4
- 551.697265625 -1 434 92.060546875 434 235 c 4
-738 492 m 4
- 738 442.666992188 762.21875 408 813 408 c 4
- 837 408 865.345703125 420.612304688 872 448 c 5
- 842 494 796 536 758 564 c 5
- 750.837890625 554.026367188 738 526.666992188 738 492 c 4
+22 25 m 1
+ 35 130 104 245 165 313 c 1
+ 172 321 177.959960938 332 177.959960938 346 c 0
+ 177.959960938 372 166 385 152 385 c 0
+ 135.319335938 385 124.702148438 374.211914062 124 353.5 c 128
+ 123 324 113 293 78 293 c 0
+ 49 293 37 316.58246164 37 342 c 0
+ 37 392 78 433 127 433 c 0
+ 177.34375 433 206.099609375 398.928581297 206.099609375 356 c 0
+ 206.099609375 352.364034537 205.833318949 349.628149271 205 347 c 1
+ 293.122304861 410.021781276 381.274979539 434 548.5 434 c 0
+ 572.415039062 434 610.103515013 433.615532581 643 430 c 1
+ 621.103515625 418.442382812 583.872070312 414.022460938 567 406 c 1
+ 414.023942739 405.999882548 291.600669861 387.650428772 206.75 308.5 c 1
+ 228.019698143 315.419356346 249 320 281 320 c 0
+ 382 320 459 268 459 162 c 0
+ 459 70 392 -2 282 -2 c 0
+ 134 -2 140 79 89 79 c 0
+ 65 79 54.6669921875 53 46 9 c 1
+ 22 25 l 1
+95 156 m 1
+ 104 163 116.666992188 165 128 165 c 0
+ 165 165 195 140 263 140 c 0
+ 338 140 389 161 389 217 c 0
+ 389 256 352 294 283 294 c 0
+ 233.649414062 294 191 282 159 259 c 1
+ 127.500976562 220.500976562 114 194 95 156 c 1
 EndSplineSet
-Validated: 5
+Refer: 23 3502 N 1 0 0 1 401 0 2
 Layer: 2
-Ligature2: "si_akhands subtable" si_Tta si_Halant si_Tha
+LCarets2: 2 0 0
 EndChar
 
 StartChar: si_TtVa
@@ -12841,51 +12650,29 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-34 207 m 4
- 34 330 109 431.5 220 431.5 c 4
- 223.953128016 431.5 228.954101562 431.25 233 431 c 5
- 233 405 l 5
- 229.64453125 405.284179688 225.310546875 405.450195312 222 405.450195312 c 4
- 138 405.450195312 88 329 88 258 c 4
- 88 186 142 140 211 140 c 4
- 270 140 294 164 294 191 c 4
- 294 216 276 220 269 220 c 4
- 258 220 251 217 246 214 c 5
- 245 208 244 197.333007812 244 194 c 5
- 214.75 194 l 5
- 224.946289062 318.901367188 288 431.5 410 431.5 c 4x7780
- 466.521498786 431.5 491.822504708 420.777049818 527.75 398 c 5
- 514.926757812 390.982421875 488.755859375 394.639648438 476.75 392 c 5
- 455.327636719 399.842140675 431.431640625 402.25 414.5 402.25 c 4
- 309.653320312 402.25 266.732888386 315.34719564 251 241.75 c 5
- 254.837158203 244.271911621 265.251787603 246 270 246 c 4
- 320 246 352 202 352 136 c 4
- 352 56 295 -2 208 -2 c 4
- 97 -2 34 96 34 207 c 4
-339.75 195 m 4
- 339.75 288 392.998046875 363.668945312 458.75 387 c 4
- 479.416992188 394.333007812 502.416992188 398 527.75 398 c 5
- 527.75 371.5 l 5
- 524.401367188 371.7890625 521.06640625 371.936523438 517.75 371.936523438 c 4
- 438.75 371.936523438 394.75 307.145507812 394.75 242 c 4
- 394.75 186.850585938 426.317382812 140 499.75 140 c 4
- 550.661132812 140 595.25 161 595.25 225 c 6
- 595.25 249 l 5
- 626 249 l 5
- 626 225 l 6
- 626 161 669.580078125 140 718.75 140 c 4
- 814.459960938 140 832.75 230.977539062 832.75 304 c 4
- 832.75 426.934570312 747.658203125 554 600.75 554 c 4
- 520.083007812 554 458.286132812 525.40625 406 468 c 5
- 371.75 468 l 5
- 428.416992188 542.666992188 506.416992188 580 605.75 580 c 4
- 768.75 580 895.75 446 895.75 261 c 4
- 895.75 139 854.625976562 0 728.75 0 c 4
- 679.416992188 0 639.75 19.6669921875 609.75 59 c 5
- 579.083007812 20.3330078125 541.421875 0 496.75 0 c 4
- 394.75 0 339.75 96 339.75 195 c 4
+34 207 m 0
+ 34 330 109 431.5 220 431.5 c 0
+ 223.953128016 431.5 228.954101562 431.25 233 431 c 1
+ 233 405 l 1
+ 229.64453125 405.284179688 225.310546875 405.450195312 222 405.450195312 c 0
+ 138 405.450195312 88 329 88 258 c 0
+ 88 186 142 140 211 140 c 0
+ 270 140 294 164 294 191 c 0
+ 294 216 276 220 269 220 c 0
+ 258 220 251 217 246 214 c 1
+ 245 208 244 197.333007812 244 194 c 1
+ 214.75 194 l 1
+ 224.946289062 318.901367188 288 431.5 410 431.5 c 0x7780
+ 466.521498786 431.5 491.822504708 420.777049818 527.75 398 c 1
+ 514.926757812 390.982421875 488.755859375 394.639648438 476.75 392 c 1
+ 455.327636719 399.842140675 431.431640625 402.25 414.5 402.25 c 0
+ 309.653320312 402.25 266.732888386 315.34719564 251 241.75 c 1
+ 254.837158203 244.271911621 265.251787603 246 270 246 c 0
+ 320 246 352 202 352 136 c 0
+ 352 56 295 -2 208 -2 c 0
+ 97 -2 34 96 34 207 c 0
 EndSplineSet
-Validated: 5
+Refer: 53 3504 N 1 0 0 1 306 0 2
 Layer: 2
 EndChar
 
@@ -12914,7 +12701,6 @@ EndSplineSet
 Refer: 424 -1 S 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_5 subtable" si_KSsa si_MatraI
 EndChar
 
 StartChar: si_KSsIi
@@ -12947,7 +12733,6 @@ EndSplineSet
 Refer: 424 -1 S 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_6 subtable" si_KSsa si_MatraIi
 EndChar
 
 StartChar: si_KSsU
@@ -12977,7 +12762,6 @@ EndSplineSet
 Refer: 424 -1 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_2 subtable" si_KSsa si_MatraU
 EndChar
 
 StartChar: si_KVIi
@@ -12990,86 +12774,50 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-830.647460938 538.75 m 4
- 830.647460938 568.331054688 857.276367188 592.123046875 889.75 592.123046875 c 4
- 922.223632812 592.123046875 948.852539062 568.331054688 948.852539062 538.75 c 4
- 948.852539062 509.168945312 922.223632812 485.376953125 889.75 485.376953125 c 4
- 857.276367188 485.376953125 830.647460938 509.168945312 830.647460938 538.75 c 4
-511.75 562 m 4
- 511.75 476 625.75 481 714.75 476 c 4
- 815.768554688 470.325195312 875.310546875 468.954101562 919.75 416 c 4
- 945.40625 385.428710938 948.75 346.583007812 948.75 322 c 5
- 1012.75 269.25 l 5
- 1012.75 359.205078125 976.896484375 423.256835938 927.75 459 c 4
- 872.75 499 778.619140625 501.456054688 713.75 504 c 4
- 611.75 508 566.75 510.989257812 566.75 540 c 4
- 566.75 580.369140625 658.09375 588.5 733.75 588.5 c 4
- 770.231445312 588.5 803.409179688 585.578125 811.75 584 c 5
- 807.772460938 578.984375 797.75 565.349609375 797.75 541.75 c 4
- 797.75 488.75 845.75 457.75 889.75 457.75 c 4
- 933.75 457.75 981.75 488.75 981.75 541.75 c 4
- 981.75 640.053710938 871.75 670 735.75 670 c 4
- 635.5 670 511.75 652 511.75 562 c 4
-497.75 165 m 4
- 497.75 250 562.75 304 663.75 304 c 6
- 720.75 304 l 5
- 720.83203125 306.041015625 720.8359375 306.041015625 720.8359375 308 c 4
- 720.8359375 358 688.75 387 655.75 387 c 132
- 621.75 387 610.75 371 605.25 355 c 132
- 598.701171875 335.948242188 586.75 319 560.75 319 c 4
- 537.75 319 520.75 333.368164062 520.75 359 c 4
- 520.75 406 570.75 431.5 625.75 431.5 c 4
- 713.75 431.5 756.896484375 376 756.896484375 290 c 4
- 756.896484375 286.721679688 756.850585938 280.387695312 756.75 277 c 5
- 675.75 277 l 6
- 601.75 277 565.75 250 565.75 213 c 4
- 565.75 151 660.75 140 734.75 140 c 4
- 887.75 140 948.75 213.73828125 948.75 325.75 c 5
- 967.098632812 310.213867188 990.748046875 291.052734375 1012.75 274 c 5
- 1012.75 114 914.75 0 731.75 0 c 4
- 610.75 0 497.75 46 497.75 165 c 4
-21 22 m 5
- 28.6962890625 91.26953125 74.4521484375 184.165039062 109 232 c 4
- 135 268 148 280 171 304 c 5
- 180 314 191.25 331 191.25 352 c 4
- 191.25 371 182 386 158 386 c 4
- 144 386 128.438476562 378.533203125 124 363 c 4
- 118 342 122 342 113 323 c 4
- 104.732421875 305.545898438 87 297 72 297 c 132
- 35 297 29 328 29 340 c 4
- 29 394.098632812 79.36328125 433 136 433 c 4
- 188.34765625 433 219.75 401.921640933 219.75 354 c 4
- 219.75 350.413085938 219.43896268 345.816388127 219 341 c 5
- 291.237304688 390.928710938 389.963867188 435.75 562.75 435.75 c 4
- 573.693359375 435.75 634.9375 434.973632812 663 427.25 c 5
- 543.5 403.5 l 5
- 538.6953125 404.267578125 533.307617188 404.5 523.25 404.5 c 4
- 416.274414062 404.5 295.357421875 366.213867188 220.25 306.25 c 5
- 248.415039062 312.696289062 277.666992188 314 305 314 c 4
- 425 314 515 250 515 126 c 4
- 515 67.84765625 482 -1 397 -1 c 4
- 351 -1 317.333007812 20.3330078125 296 63 c 5
- 278.666992188 21.6669921875 246.021484375 -1 204 -1 c 4
- 117 -1 120 73 87 73 c 4
- 64.6748046875 73 52 51 49 11 c 5
- 21 22 l 5
-91 143 m 5
- 103 153 115 160 129 160 c 4
- 161 160 172 140 212 140 c 4
- 258 140 280 157 280 214 c 4
- 280 216.208984375 280.041015625 214.3046875 280 216 c 5
- 308 216 l 5
- 307.963867188 214.6640625 308 216.330078125 308 215 c 4
- 308 154 332 140 377 140 c 4
- 418 140 443 169 443 204 c 4
- 443 246 402 287 301 287 c 4
- 244.333007812 287 204.666992188 280 180 268 c 5
- 162.666992188 253.333007812 146.522460938 234.99609375 131 212 c 4
- 104 172 101 163 91 143 c 5
+21 22 m 1
+ 28.696289062 91.26953125 74.452148438 184.165039062 109 232 c 0
+ 135 268 148 280 171 304 c 1
+ 180 314 191.25 331 191.25 352 c 0
+ 191.25 371 182 386 158 386 c 0
+ 144 386 128.438476562 378.533203125 124 363 c 0
+ 118 342 122 342 113 323 c 0
+ 104.732421875 305.545898438 87 297 72 297 c 128
+ 35 297 29 328 29 340 c 0
+ 29 394.098632812 79.36328125 433 136 433 c 0
+ 188.34765625 433 220 399 220 358 c 0
+ 220 352 220 349 219 341 c 1
+ 255.112530688 366.766363972 302.488348148 392.006216269 367 411 c 0
+ 433.128952026 432.138809204 507.859375 436 551.25 436 c 0
+ 620.209316271 436 655.330759937 429.207356771 673 425 c 1
+ 667.58344494 424.159179688 606.05327381 405.082088694 597 404 c 1
+ 581.982398595 404.562546663 561.475585938 406 549 406 c 0
+ 490.313476562 406 439.895871383 397.342910212 411.5 391 c 0
+ 324.890617371 372.932778067 262.160734558 335.074665008 220.25 306.25 c 1
+ 248.415424347 312.696125031 277.666992188 314 305 314 c 0
+ 425 314 515 250 515 126 c 0
+ 515 67.84765625 482 -1 397 -1 c 0
+ 351 -1 317.333007812 20.3330078125 296 63 c 1
+ 278.666992188 21.6669921875 246.021484375 -1 204 -1 c 0
+ 117 -1 120 73 87 73 c 0
+ 64.674804688 73 52 51 49 11 c 1
+ 21 22 l 1
+91 143 m 1
+ 103 153 115 160 129 160 c 0
+ 161 160 172 140 212 140 c 0
+ 258 140 280 157 280 214 c 0
+ 280 216.208984375 280.041015625 214.3046875 280 216 c 1
+ 308 216 l 1
+ 307.963867188 214.6640625 308 216.330078125 308 215 c 0
+ 308 154 332 140 377 140 c 0
+ 418 140 443 169 443 204 c 0
+ 443 246 402 287 301 287 c 0
+ 244.333007812 287 204.666992188 280 180 268 c 1
+ 162.666992188 253.333007812 146.522460938 234.99609375 131 212 c 0
+ 104 172 101 163 91 143 c 1
 EndSplineSet
-Validated: 5
+Refer: 248 -1 N 1 0 0 1 465 0 2
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_KVa si_MatraIi
+LCarets2: 1 0
 EndChar
 
 StartChar: si_KVU
@@ -13099,7 +12847,6 @@ EndSplineSet
 Refer: 277 -1 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_2 subtable" si_KVa si_MatraU
 EndChar
 
 StartChar: si_KVUu
@@ -13132,7 +12879,6 @@ EndSplineSet
 Refer: 277 -1 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_4 subtable" si_KVa si_MatraUu
 EndChar
 
 StartChar: si_NDha.halnt
@@ -13221,68 +12967,35 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-516 562 m 4
- 516 476 636.75 481 725.75 476 c 4
- 826.768554688 470.325195312 892.716796875 468.323242188 934.5 413.25 c 4
- 961.366210938 377.838867188 967 330.21875 967 288.5 c 5
- 1030 256 l 5
- 1030 344.51171875 987.896484375 423.256835938 938.75 459 c 4
- 883.75 499 789.619140625 501.456054688 724.75 504 c 4
- 622.75 508 575 511.05859375 575 538 c 4
- 575 573.2109375 671.09375 581 746.75 581 c 4
- 854.75 581 917.75 564.30859375 917.75 527 c 4
- 917.75 504.56640625 890.75 491 854.75 490 c 5
- 904.75 474 l 5
- 938.75 480 992.75 502 992.75 554 c 4
- 992.75 639 882.75 670 746.75 670 c 4
- 646.75 670 516 652 516 562 c 4
-474 195 m 4
- 474 288 527.248046875 363.668945312 593 387 c 4
- 613.666992188 394.333007812 636.666992188 398 662 398 c 5
- 662 371.5 l 5
- 658.651367188 371.7890625 655.31640625 371.936523438 652 371.936523438 c 4
- 573 371.936523438 529 307.145507812 529 242 c 4
- 529 186.850585938 560.567382812 140 634 140 c 4
- 684.911132812 140 729.5 161 729.5 225 c 6
- 729.5 249 l 5
- 760.25 249 l 5
- 760.25 225 l 6
- 760.25 161 803.830078125 140 853 140 c 4
- 948.709960938 140 967 246.442382812 967 293.5 c 5
- 984.087890625 276.198242188 1003.96679688 278.076171875 1030 261 c 5
- 1030 139 988.875976562 0 863 0 c 4
- 813.666992188 0 774 19.6669921875 744 59 c 5
- 713.333007812 20.3330078125 675.671875 0 631 0 c 4
- 529 0 474 96 474 195 c 4
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 385.86030829 253 331 c 4
- 253 325.205851828 251.925740219 317.791706395 251 315 c 5
- 302 375 400.63630409 432.77820916 505.999705561 432.778158251 c 4
- 594.576682457 432.778115453 641.6484375 406.271484375 662.25 397.75 c 5
- 642.919677167 393.83196347 617.772460938 390.280273438 605.5 390.25 c 5
- 588.208984375 396.052734375 558.901367188 405 501 405 c 4
- 400.868164062 405 314.729492188 343.107421875 270.75 297.75 c 5xb780
- 296.261199951 306.460601807 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
-125 147 m 5
- 153.727224532 138.227602737 190.042916095 133 248 133 c 4
- 360 133 418 177 418 225 c 4
- 418 259 390 281 334 281 c 4
- 190 281 189 190 125 147 c 5
+125 147 m 1
+ 153.727224532 138.227602737 190.042916095 133 248 133 c 0
+ 360 133 418 177 418 225 c 0
+ 418 259 390 281 334 281 c 0
+ 190 281 189 190 125 147 c 1
+24 176 m 1
+ 32 167 50 160.127929688 67 160.127929688 c 0
+ 130 160.127929688 131 206 208 279 c 1
+ 221 292 222.818359375 309.123046875 222.818359375 322 c 0
+ 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 0
+ 160 379.551757812 146 370 143.747070312 345 c 0
+ 141.766601562 323.01953125 131 294 99 294 c 0
+ 82 294 55.1414577919 304 55.1414577919 338.999999066 c 0
+ 55.1414577919 384.002988141 89.0173697483 431 154 431 c 0
+ 219.024722972 431 253 385.86030829 253 331 c 0
+ 253 325.205851828 251.925740219 317.791706395 251 315 c 1
+ 302 375 400.63630409 432.77820916 505.999705561 432.778158251 c 0
+ 594.576682457 432.778115453 641.6484375 406.271484375 662.25 397.75 c 1
+ 642.919677167 393.83196347 617.772460938 390.280273438 605.5 390.25 c 1
+ 588.208984375 396.052734375 558.901367188 405 501 405 c 0
+ 400.868164062 405 314.729492188 343.107421875 270.75 297.75 c 1xb780
+ 296.261199951 306.460601807 317.103110119 308.102003375 345.043984241 308.102003375 c 0
+ 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 0
+ 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 0
+ 136 -1.12218963832 24 65 24 176 c 1
 EndSplineSet
-Validated: 5
+Refer: 187 -1 N 1 0 0 1 441 0 2
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_NDha si_MatraI
+LCarets2: 1 0
 EndChar
 
 StartChar: si_NDhIi
@@ -13295,73 +13008,35 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-841.897460938 538.75 m 4
- 841.897460938 568.331054688 868.526367188 592.123046875 901 592.123046875 c 4
- 933.473632812 592.123046875 960.102539062 568.331054688 960.102539062 538.75 c 4
- 960.102539062 509.168945312 933.473632812 485.376953125 901 485.376953125 c 4
- 868.526367188 485.376953125 841.897460938 509.168945312 841.897460938 538.75 c 4
-516 562 m 4
- 516 476 637 481 726 476 c 4
- 827.018554688 470.325195312 886.522460938 468.921875 931 416 c 4
- 958.6640625 383.083007812 967 348.020507812 967 295.25 c 5
- 1030 256 l 5
- 1030 348.934570312 988.146484375 423.256835938 939 459 c 4
- 884 499 789.869140625 501.456054688 725 504 c 4
- 623 508 571 510.989257812 571 540 c 4
- 571 580.369140625 669.34375 588.5 745 588.5 c 4
- 781.481445312 588.5 814.659179688 585.578125 823 584 c 5
- 819.022460938 578.984375 809 565.349609375 809 541.75 c 4
- 809 488.75 857 457.75 901 457.75 c 4
- 945 457.75 993 488.75 993 541.75 c 4
- 993 640.053710938 883 670 747 670 c 4
- 646.75 670 516 652 516 562 c 4
-474 195 m 4
- 474 288 527.248046875 363.668945312 593 387 c 4
- 613.666992188 394.333007812 636.666992188 398 662 398 c 5
- 662 371.5 l 5
- 658.651367188 371.7890625 655.31640625 371.936523438 652 371.936523438 c 4
- 573 371.936523438 529 307.145507812 529 242 c 4
- 529 186.850585938 560.567382812 140 634 140 c 4
- 684.911132812 140 729.5 161 729.5 225 c 6
- 729.5 249 l 5
- 760.25 249 l 5
- 760.25 225 l 6
- 760.25 161 803.830078125 140 853 140 c 4
- 948.709960938 140 967 251.692382812 967 298.75 c 5
- 984.087890625 281.448242188 1003.96679688 278.076171875 1030 261 c 5
- 1030 139 988.875976562 0 863 0 c 4
- 813.666992188 0 774 19.6669921875 744 59 c 5
- 713.333007812 20.3330078125 675.671875 0 631 0 c 4
- 529 0 474 96 474 195 c 4
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 385.86030829 253 331 c 4
- 253 325.205851828 251.925740219 317.791706395 251 315 c 5
- 302 375 400.63630409 432.77820916 505.999705561 432.778158251 c 4
- 594.576682457 432.778115453 641.6484375 406.271484375 662.25 397.75 c 5
- 642.919677167 393.83196347 617.772460938 390.280273438 605.5 390.25 c 5
- 588.208984375 396.052734375 558.901367188 405 501 405 c 4
- 400.868164062 405 314.729492188 343.107421875 270.75 297.75 c 5xb780
- 296.261199951 306.460601807 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
-125 147 m 5
- 153.727224532 138.227602737 190.042916095 133 248 133 c 4
- 360 133 418 177 418 225 c 4
- 418 259 390 281 334 281 c 4
- 190 281 189 190 125 147 c 5
+24 176 m 1
+ 32 167 50 160.127929688 67 160.127929688 c 0
+ 130 160.127929688 131 206 208 279 c 1
+ 221 292 222.818359375 309.123046875 222.818359375 322 c 0
+ 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 0
+ 160 379.551757812 146 370 143.747070312 345 c 0
+ 141.766601562 323.01953125 131 294 99 294 c 0
+ 82 294 55.1414577919 304 55.1414577919 338.999999066 c 0
+ 55.1414577919 384.002988141 89.0173697483 431 154 431 c 0
+ 219.024722972 431 253 385.86030829 253 331 c 0
+ 253 325.205851828 251.925740219 317.791706395 251 315 c 1
+ 302 375 400.63630409 432.77820916 505.999705561 432.778158251 c 0
+ 594.576682457 432.778115453 641.6484375 406.271484375 662.25 397.75 c 1
+ 642.919677167 393.83196347 617.772460938 390.280273438 605.5 390.25 c 1
+ 588.208984375 396.052734375 558.901367188 405 501 405 c 0
+ 400.868164062 405 314.729492188 343.107421875 270.75 297.75 c 1xb780
+ 296.261199951 306.460601807 317.103110119 308.102003375 345.043984241 308.102003375 c 0
+ 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 0
+ 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 0
+ 136 -1.12218963832 24 65 24 176 c 1
+125 147 m 1
+ 153.727224532 138.227602737 190.042916095 133 248 133 c 0
+ 360 133 418 177 418 225 c 0
+ 418 259 390 281 334 281 c 0
+ 190 281 189 190 125 147 c 1
 EndSplineSet
-Validated: 5
+Refer: 188 -1 N 1 0 0 1 440 0 2
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_NDha si_MatraIi
+LCarets2: 1 0
 EndChar
 
 StartChar: si_NDhU
@@ -13437,7 +13112,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_NDha si_MatraU
 EndChar
 
 StartChar: si_NDhUu
@@ -13516,7 +13190,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_NDha si_MatraUu
 EndChar
 
 StartChar: si_NDAe.
@@ -13742,7 +13415,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_NDa si_MatraI
 EndChar
 
 StartChar: si_NDIi
@@ -13821,7 +13493,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_NDa si_MatraIi
 EndChar
 
 StartChar: si_NDUu
@@ -13894,7 +13565,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_NDa si_MatraUu
 EndChar
 
 StartChar: si_NThI
@@ -13907,67 +13577,23 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-467 235 m 4
- 467 344.829101562 562.994140625 430 679 430 c 5
- 679 403 l 5
- 596 403 521 347 521 265 c 4
- 521 169 627.377929688 140 733.25 140 c 4
- 855.25 140 948 213.1953125 948 319 c 4
- 948 351.16015625 943 380 926 417 c 5
- 913.357421875 387.822265625 882 367 839 367 c 4
- 775.844726562 367 739 422 739 488 c 4
- 739 538 756.66015625 575.446289062 781 605 c 5
- 842 572 912.96484375 500.2421875 949 438 c 4
- 987.783203125 371.01171875 1000 322 1000 252 c 4
- 1000 102.630859375 884 -1 729 -1 c 4
- 584.697265625 -1 467 92.060546875 467 235 c 4
-771 492 m 4
- 771 442.666992188 795.21875 408 846 408 c 4
- 870 408 898.345703125 420.612304688 905 448 c 5
- 875 494 829 536 791 564 c 5
- 783.837890625 554.026367188 771 526.666992188 771 492 c 4
-539.75 574 m 4
- 539.75 665.8203125 654.109375 700.25 762.25 700.25 c 4
- 864.416992188 700.25 983.75 664.08984375 983.75 573 c 4
- 983.75 526.275390625 946.137695312 498.25 891.25 498.25 c 5
- 885.66796875 502.86328125 878.575195312 513.196289062 874.75 520.75 c 5
- 887.3125 521.309570312 933.75 525.59375 933.75 557 c 4
- 933.75 602.026367188 839.223632812 618.5 764.75 618.5 c 4
- 646.083007812 618.5 587.75 593.236328125 587.75 556.75 c 4
- 587.75 528.928710938 621.890625 516 655.75 516 c 4
- 701.06640625 516 734.69140625 528.609375 751.75 536.75 c 5
- 750.329101562 530.495117188 751.46484375 519.611328125 747.75 503.75 c 5
- 722.716796875 496.057617188 697.1171875 487.75 653.75 487.75 c 4
- 593.549804688 487.75 539.75 515.942382812 539.75 574 c 4
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 384.850598995 253 332 c 4
- 253 326.711972173 251.900986958 318.204269823 251 315 c 5
- 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 4
- 616.138671875 436.25 655.829625003 433.599845814 679 430.25 c 5
- 659.669921875 426.33203125 618.272460938 406.280273438 606 406.25 c 5
- 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 4
- 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 5xb780
- 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
-125 147 m 5
- 153.727224532 138.227602737 190.042916095 133 248 133 c 4
- 360 133 418 177 418 225 c 4
- 418 259 390 281 334 281 c 4
- 190 281 189 190 125 147 c 5
+539.75 574 m 0
+ 539.75 665.8203125 654.109375 700.25 762.25 700.25 c 0
+ 864.416992188 700.25 983.75 664.08984375 983.75 573 c 0
+ 983.75 526.275390625 946.137695312 498.25 891.25 498.25 c 1
+ 885.66796875 502.86328125 878.575195312 513.196289062 874.75 520.75 c 1
+ 887.3125 521.309570312 933.75 525.59375 933.75 557 c 0
+ 933.75 602.026367188 839.223632812 618.5 764.75 618.5 c 0
+ 646.083007812 618.5 587.75 593.236328125 587.75 556.75 c 0
+ 587.75 528.928710938 621.890625 516 655.75 516 c 0
+ 701.06640625 516 734.69140625 528.609375 751.75 536.75 c 1
+ 750.329101562 530.495117188 751.46484375 519.611328125 747.75 503.75 c 1
+ 722.716796875 496.057617188 697.1171875 487.75 653.75 487.75 c 0
+ 593.549804688 487.75 539.75 515.942382812 539.75 574 c 0
 EndSplineSet
-Validated: 5
+Refer: 425 -1 N 1 0 0 1 0 0 2
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_NTha si_MatraI
+LCarets2: 1 0
 EndChar
 
 StartChar: si_NThIi
@@ -13981,71 +13607,70 @@ Back
 Fore
 SplineSet
 866.515625 554 m 4
- 866.515625 581.432617188 888.067382812 602.984375 915.5 602.984375 c 4
- 942.932617188 602.984375 964.484375 581.432617188 964.484375 554 c 4
- 964.484375 526.567382812 942.932617188 505.015625 915.5 505.015625 c 4
- 888.067382812 505.015625 866.515625 526.567382812 866.515625 554 c 4
+ 866.515625 526.567382812 888.067382812 505.015625 915.5 505.015625 c 4
+ 942.932617188 505.015625 964.484375 526.567382812 964.484375 554 c 4
+ 964.484375 581.432617188 942.932617188 602.984375 915.5 602.984375 c 4
+ 888.067382812 602.984375 866.515625 581.432617188 866.515625 554 c 4
 532.75 574 m 4
- 532.75 515.942382812 586.549804688 487 646.75 487 c 4
- 690.1171875 487 715.716796875 495.307617188 740.75 503 c 5
- 744.46484375 518.861328125 743.329101562 530.245117188 744.75 536.5 c 5
- 727.69140625 528.359375 694.06640625 515.75 648.75 515.75 c 4
- 614.890625 515.75 585.75 529.833984375 585.75 558 c 4
- 585.75 596.782226562 650.31640625 623.5 764.75 623.5 c 4
- 813.508789062 623.5 851.793945312 615.69921875 861.75 611 c 5
- 838.77734375 594.436523438 835 566.609375 835 552.75 c 4
- 835 512.857421875 867.198242188 473.5 915.25 473.5 c 4
- 965.115234375 473.5 1000 512.42578125 1000 565.25 c 4
- 1000 646.784179688 923.333007812 699.75 756 699.75 c 4
- 647.108398438 699.75 532.75 665.8203125 532.75 574 c 4
-467 235 m 4
- 467 344.829101562 562.994140625 430 679 430 c 5
- 679 403 l 5
- 596 403 521 347 521 265 c 4
- 521 169 627.377929688 140 733.25 140 c 4
- 855.25 140 947 208.154296875 947 319 c 4
- 947 351.16015625 934.1015625 390.4453125 916 417 c 5
- 903.357421875 387.822265625 871 367 828 367 c 4
- 764.844726562 367 729.75 422 729.75 488 c 4
- 729.75 538 747.41015625 575.446289062 771.75 605 c 5
- 832.75 572 901.490234375 498.900390625 939.75 438 c 4
- 979.39453125 374.895507812 1000 322 1000 252 c 4
- 1000 102.630859375 884 -1 729 -1 c 4
- 584.697265625 -1 467 92.060546875 467 235 c 4
-761.75 492 m 4
- 761.75 442.666992188 784.21875 408 835 408 c 4
- 859 408 886.595703125 420.612304688 893.25 448 c 5
- 863.25 494 819.75 536 781.75 564 c 5
- 774.587890625 554.026367188 761.75 526.666992188 761.75 492 c 4
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 384.850598995 253 332 c 4
- 253 326.711972173 251.900986958 318.204269823 251 315 c 5
- 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 4
- 616.138671875 436.25 655.829625003 433.599845814 679 430.25 c 5
- 659.669921875 426.33203125 618.272460938 406.280273438 606 406.25 c 5
- 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 4
- 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 5xb780
- 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
-125 147 m 5
- 153.727224532 138.227602737 190.042916095 133 248 133 c 4
- 360 133 418 177 418 225 c 4
- 418 259 390 281 334 281 c 4
- 190 281 189 190 125 147 c 5
+ 532.75 665.8203125 647.108398438 699.75 756 699.75 c 4
+ 923.333007812 699.75 1000 646.784179688 1000 565.25 c 4
+ 1000 512.42578125 965.115234375 473.5 915.25 473.5 c 4
+ 867.198242188 473.5 835 512.857421875 835 552.75 c 4
+ 835 566.609375 838.77734375 594.436523438 861.75 611 c 5
+ 851.793945312 615.69921875 813.508789062 623.5 764.75 623.5 c 4
+ 650.31640625 623.5 585.75 596.782226562 585.75 558 c 4
+ 585.75 529.833984375 614.890625 515.75 648.75 515.75 c 4
+ 694.06640625 515.75 727.69140625 528.359375 744.75 536.5 c 5
+ 743.329101562 530.245117188 744.46484375 518.861328125 740.75 503 c 5
+ 715.716796875 495.307617188 690.1171875 487 646.75 487 c 4
+ 586.549804688 487 532.75 515.942382812 532.75 574 c 4
+467 235 m 0
+ 467 344.829101562 562.994140625 430 679 430 c 1
+ 679 403 l 1
+ 596 403 521 347 521 265 c 0
+ 521 169 627.377929688 140 733.25 140 c 0
+ 855.25 140 947 208.154296875 947 319 c 0
+ 947 351.16015625 934.1015625 390.4453125 916 417 c 1
+ 903.357421875 387.822265625 871 367 828 367 c 0
+ 764.844726562 367 729.75 422 729.75 488 c 0
+ 729.75 538 747.41015625 575.446289062 771.75 605 c 1
+ 832.75 572 901.490234375 498.900390625 939.75 438 c 0
+ 979.39453125 374.895507812 1000 322 1000 252 c 0
+ 1000 102.630859375 884 -1 729 -1 c 0
+ 584.697265625 -1 467 92.060546875 467 235 c 0
+761.75 492 m 0
+ 761.75 442.666992188 784.21875 408 835 408 c 0
+ 859 408 886.595703125 420.612304688 893.25 448 c 1
+ 863.25 494 819.75 536 781.75 564 c 1
+ 774.587890625 554.026367188 761.75 526.666992188 761.75 492 c 0
+24 176 m 1
+ 32 167 50 160.127929688 67 160.127929688 c 0
+ 130 160.127929688 131 206 208 279 c 1
+ 221 292 222.818359375 309.123046875 222.818359375 322 c 0
+ 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 0
+ 160 379.551757812 146 370 143.747070312 345 c 0
+ 141.766601562 323.01953125 131 294 99 294 c 0
+ 82 294 55.1414577919 304 55.1414577919 338.999999066 c 0
+ 55.1414577919 384.002988141 89.0173697483 431 154 431 c 0
+ 219.024722972 431 253 384.850598995 253 332 c 0
+ 253 326.711972173 251.900986958 318.204269823 251 315 c 1
+ 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 0
+ 616.138671875 436.25 655.829625003 433.599845814 679 430.25 c 1
+ 659.669921875 426.33203125 618.272460938 406.280273438 606 406.25 c 1
+ 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 0
+ 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 1xb780
+ 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 0
+ 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 0
+ 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 0
+ 136 -1.12218963832 24 65 24 176 c 1
+125 147 m 1
+ 153.727224532 138.227602737 190.042916095 133 248 133 c 0
+ 360 133 418 177 418 225 c 0
+ 418 259 390 281 334 281 c 0
+ 190 281 189 190 125 147 c 1
 EndSplineSet
-Validated: 5
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_NTha si_MatraIi
+LCarets2: 1 0
 EndChar
 
 StartChar: si_NThU
@@ -14058,67 +13683,23 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-487.25 -142.5 m 4
- 487.25 -90.4912109375 533.54296875 -50.5 588.75 -50.5 c 4
- 630.65625 -50.5 668 -74.1416015625 682.75 -110 c 5
- 650 -121.5 l 5
- 643.17578125 -104.358398438 621.75 -81.75 588.75 -81.75 c 4
- 552.045898438 -81.75 522.75 -109.715820312 522.75 -142.5 c 4
- 522.75 -171.663085938 544.498046875 -192.5 614.25 -192.5 c 6
- 955.75 -192.5 l 5
- 955.75 128 l 5
- 991 219 l 5
- 991 -235 l 5
- 592.75 -235 l 6
- 513.20703125 -235 487.25 -186.091796875 487.25 -142.5 c 4
-467 235 m 4
- 467 344.829101562 562.994140625 430 679 430 c 5
- 679 403 l 5
- 596 403 521 347 521 265 c 4
- 521 169 627.377929688 140 733.25 140 c 4
- 855.25 140 948 213.1953125 948 319 c 4
- 948 351.16015625 943 380 926 417 c 5
- 913.357421875 387.822265625 882 367 839 367 c 4
- 775.844726562 367 739 422 739 488 c 4
- 739 538 756.66015625 575.446289062 781 605 c 5
- 842 572 912.96484375 500.2421875 949 438 c 4
- 987.783203125 371.01171875 1000 322 1000 252 c 4
- 1000 102.630859375 884 -1 729 -1 c 4
- 584.697265625 -1 467 92.060546875 467 235 c 4
-771 492 m 4
- 771 442.666992188 795.21875 408 846 408 c 4
- 870 408 898.345703125 420.612304688 905 448 c 5
- 875 494 829 536 791 564 c 5
- 783.837890625 554.026367188 771 526.666992188 771 492 c 4
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 384.850598995 253 332 c 4
- 253 326.711972173 251.900986958 318.204269823 251 315 c 5
- 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 4
- 616.138671875 436.25 655.829625003 433.599845814 679 430.25 c 5
- 659.669921875 426.33203125 618.272460938 406.280273438 606 406.25 c 5
- 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 4
- 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 5xb780
- 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
-125 147 m 5
- 153.727224532 138.227602737 190.042916095 133 248 133 c 4
- 360 133 418 177 418 225 c 4
- 418 259 390 281 334 281 c 4
- 190 281 189 190 125 147 c 5
+487.25 -142.5 m 0
+ 487.25 -90.4912109375 533.54296875 -50.5 588.75 -50.5 c 0
+ 630.65625 -50.5 668 -74.1416015625 682.75 -110 c 1
+ 650 -121.5 l 1
+ 643.17578125 -104.358398438 621.75 -81.75 588.75 -81.75 c 0
+ 552.045898438 -81.75 522.75 -109.715820312 522.75 -142.5 c 0
+ 522.75 -171.663085938 544.498046875 -192.5 614.25 -192.5 c 2
+ 955.75 -192.5 l 1
+ 955.75 128 l 1
+ 991 219 l 1
+ 991 -235 l 1
+ 592.75 -235 l 2
+ 513.20703125 -235 487.25 -186.091796875 487.25 -142.5 c 0
 EndSplineSet
-Validated: 5
+Refer: 425 -1 N 1 0 0 1 0 0 2
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_NTha si_MatraU
+LCarets2: 1 0
 EndChar
 
 StartChar: si_NThUu
@@ -14131,70 +13712,25 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-486.5 -138 m 4
- 486.5 -80 535.5 -40 588.5 -40 c 4
- 630.5 -40 662.833007812 -55 685.5 -91 c 5
- 652.5 -102 l 5
- 641.18359375 -84.69921875 622.5 -70 593.5 -70 c 4
- 554.5 -70 529.5 -95.076171875 529.5 -120 c 4
- 529.5 -151.995117188 558.315429688 -167 592.5 -167 c 4
- 668.71484375 -167 727.577148438 -114.5 835.25 -114.5 c 4
- 886.33203125 -114.5 929 -133.75 956 -165.75 c 5
- 956 152 l 5
- 991 212 l 5
- 991 -231 l 5
- 965.5 -231 l 5
- 950.5 -195 908.19921875 -146.25 845.25 -146.25 c 4
- 754.25 -146.25 695.5 -237 597.5 -237 c 4
- 542.5 -237 486.5 -206 486.5 -138 c 4
-467 235 m 4
- 467 344.829101562 562.994140625 430 679 430 c 5
- 679 403 l 5
- 596 403 521 347 521 265 c 4
- 521 169 627.377929688 140 733.25 140 c 4
- 855.25 140 948 213.1953125 948 319 c 4
- 948 351.16015625 943 380 926 417 c 5
- 913.357421875 387.822265625 882 367 839 367 c 4
- 775.844726562 367 739 422 739 488 c 4
- 739 538 756.66015625 575.446289062 781 605 c 5
- 842 572 912.96484375 500.2421875 949 438 c 4
- 987.783203125 371.01171875 1000 322 1000 252 c 4
- 1000 102.630859375 884 -1 729 -1 c 4
- 584.697265625 -1 467 92.060546875 467 235 c 4
-771 492 m 4
- 771 442.666992188 795.21875 408 846 408 c 4
- 870 408 898.345703125 420.612304688 905 448 c 5
- 875 494 829 536 791 564 c 5
- 783.837890625 554.026367188 771 526.666992188 771 492 c 4
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 384.850598995 253 332 c 4
- 253 326.711972173 251.900986958 318.204269823 251 315 c 5
- 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 4
- 616.138671875 436.25 655.829625003 433.599845814 679 430.25 c 5
- 659.669921875 426.33203125 618.272460938 406.280273438 606 406.25 c 5
- 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 4
- 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 5xb780
- 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
-125 147 m 5
- 153.727224532 138.227602737 190.042916095 133 248 133 c 4
- 360 133 418 177 418 225 c 4
- 418 259 390 281 334 281 c 4
- 190 281 189 190 125 147 c 5
+486.5 -138 m 0
+ 486.5 -80 535.5 -40 588.5 -40 c 0
+ 630.5 -40 662.833007812 -55 685.5 -91 c 1
+ 652.5 -102 l 1
+ 641.18359375 -84.69921875 622.5 -70 593.5 -70 c 0
+ 554.5 -70 529.5 -95.076171875 529.5 -120 c 0
+ 529.5 -151.995117188 558.315429688 -167 592.5 -167 c 0
+ 668.71484375 -167 727.577148438 -114.5 835.25 -114.5 c 0
+ 886.33203125 -114.5 929 -133.75 956 -165.75 c 1
+ 956 152 l 1
+ 991 212 l 1
+ 991 -231 l 1
+ 965.5 -231 l 1
+ 950.5 -195 908.19921875 -146.25 845.25 -146.25 c 0
+ 754.25 -146.25 695.5 -237 597.5 -237 c 0
+ 542.5 -237 486.5 -206 486.5 -138 c 0
 EndSplineSet
-Validated: 5
+Refer: 425 -1 N 1 0 0 1 0 0 2
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_NTha si_MatraUu
 EndChar
 
 StartChar: si_NVI
@@ -14267,7 +13803,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_NVa si_MatraI
 EndChar
 
 StartChar: si_NVIi
@@ -14345,7 +13880,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_NVa si_MatraIi
 EndChar
 
 StartChar: si_NVU
@@ -14420,7 +13954,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_NVa si_MatraU
 EndChar
 
 StartChar: si_NVUu
@@ -14498,7 +14031,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_NVa si_MatraUu
 EndChar
 
 StartChar: si_TTha
@@ -14570,7 +14102,7 @@ SplineSet
 EndSplineSet
 Validated: 37
 Layer: 2
-Ligature2: "si_akhands subtable" si_Ta si_Halantnsi_Tha
+LCarets2: 1 0
 EndChar
 
 StartChar: si_TThI
@@ -14645,7 +14177,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_TTha si_MatraI
 EndChar
 
 StartChar: si_TThIi
@@ -14725,7 +14256,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_TTha si_MatraIi
 EndChar
 
 StartChar: si_TThU
@@ -14800,7 +14330,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_TTha si_MatraU
 EndChar
 
 StartChar: si_TThUu
@@ -14878,7 +14407,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_TTha si_MatraUu
 EndChar
 
 StartChar: si_TV.halant
@@ -15036,7 +14564,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_TVa si_MatraI
 EndChar
 
 StartChar: si_TVIi
@@ -15120,7 +14647,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_6 subtable" si_TVa si_MatraIi
 EndChar
 
 StartChar: si_TVU
@@ -15200,7 +14726,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_TVa si_MatraU
 EndChar
 
 StartChar: si_TVUu
@@ -15283,7 +14808,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_TVa si_MatraUu
 EndChar
 
 StartChar: si_Ka.touch
@@ -16981,7 +16505,6 @@ EndSplineSet
 Refer: 10 3482 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Ka si_Halantnsi_Ra
 EndChar
 
 StartChar: si_KRI
@@ -17019,7 +16542,6 @@ Refer: 10 3482 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_KRa si_MatraI
 EndChar
 
 StartChar: si_KRIi
@@ -17062,7 +16584,6 @@ Refer: 10 3482 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_KRa si_MatraIi
 EndChar
 
 StartChar: si_KhUu
@@ -17096,7 +16617,6 @@ Refer: 12 3483 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_3 subtable" si_Kha si_MatraUu
 EndChar
 
 StartChar: si_KhRa
@@ -17122,7 +16642,6 @@ EndSplineSet
 Refer: 12 3483 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Kha si_Halant si_Ra
 EndChar
 
 StartChar: si_KhR.halant
@@ -17256,7 +16775,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_KhRa si_MatraI
 EndChar
 
 StartChar: si_KhRIi
@@ -17328,7 +16846,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_KhRa si_MatraIi
 EndChar
 
 StartChar: si_GRa
@@ -17354,7 +16871,6 @@ EndSplineSet
 Refer: 14 3484 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Ga si_Halantnsi_Ra
 EndChar
 
 StartChar: si_GR.halant
@@ -17416,7 +16932,6 @@ EndSplineSet
 Refer: 92 -1 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_GRa si_MatraI
 EndChar
 
 StartChar: si_GRIi
@@ -17484,7 +16999,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_GRa si_MatraIi
 EndChar
 
 StartChar: si_GhRI
@@ -17522,7 +17036,6 @@ Refer: 15 3485 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_GhRa si_MatraI
 EndChar
 
 StartChar: si_GhRIi
@@ -17564,7 +17077,6 @@ EndSplineSet
 Refer: 15 3485 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_GhRa si_MatraIi
 EndChar
 
 StartChar: si_GhRa
@@ -17590,7 +17102,6 @@ EndSplineSet
 Refer: 15 3485 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Gha si_Halant si_Ra
 EndChar
 
 StartChar: si_Ng.halant
@@ -17655,7 +17166,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Nga si_Halant
 EndChar
 
 StartChar: si_Nng.halant
@@ -17685,7 +17195,6 @@ Refer: 46 3487 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Nnga si_Halant
 EndChar
 
 StartChar: si_C.halant
@@ -17747,7 +17256,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ca si_Halant
 EndChar
 
 StartChar: si_MRa
@@ -17773,7 +17281,6 @@ EndSplineSet
 Refer: 57 3512 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Ma si_Halantnsi_Ra
 EndChar
 
 StartChar: si_MRI
@@ -17840,7 +17347,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_MRa si_MatraI
 EndChar
 
 StartChar: si_MRIi
@@ -17912,7 +17418,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_MRa si_MatraIi
 EndChar
 
 StartChar: si_Mb.halant
@@ -17986,7 +17491,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Mba si_Halant
 EndChar
 
 StartChar: si_K.halant
@@ -18016,7 +17520,6 @@ Refer: 10 3482 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ka si_Halant
 EndChar
 
 StartChar: si_G.halant
@@ -18046,7 +17549,6 @@ Refer: 14 3484 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ga si_Halant
 EndChar
 
 StartChar: si_J.halant
@@ -18076,7 +17578,6 @@ Refer: 16 3490 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ja si_Halant
 EndChar
 
 StartChar: si_JIi
@@ -18112,7 +17613,6 @@ Refer: 16 3490 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_2 subtable" si_Ja si_MatraIi
 EndChar
 
 StartChar: si_JRa
@@ -18139,7 +17639,6 @@ Refer: 16 3490 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "si_rakaar subtable" si_Ja si_Halantnsi_Ra
 EndChar
 
 StartChar: si_JRI
@@ -18180,7 +17679,6 @@ Refer: 16 3490 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_JRa si_MatraI
 EndChar
 
 StartChar: si_JRIi
@@ -18225,7 +17723,6 @@ Refer: 16 3490 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_JRa si_MatraIi
 EndChar
 
 StartChar: si_Jh.halant
@@ -18315,7 +17812,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Jha si_Halant
 EndChar
 
 StartChar: si_JhRa
@@ -18341,7 +17837,6 @@ EndSplineSet
 Refer: 47 3491 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Jha si_Halant si_Ra
 EndChar
 
 StartChar: si_JhRI
@@ -18349,95 +17844,61 @@ Encoding: 170 -1 389
 GlifName: si_J_hR_I_
 Width: 1087
 VWidth: 1000
-Flags: HW
+Flags: HWO
 LayerCount: 3
 Back
 Fore
 SplineSet
-525 562 m 4
- 525 476 645.75 481 734.75 476 c 4
- 835.768554688 470.325195312 901.716796875 468.323242188 943.5 413.25 c 4
- 970.366210938 377.838867188 976 330.21875 976 288.5 c 5
- 1039 256 l 5
- 1039 344.51171875 996.896484375 423.256835938 947.75 459 c 4
- 892.75 499 798.619140625 501.456054688 733.75 504 c 4
- 631.75 508 584 511.05859375 584 538 c 4
- 584 573.2109375 680.09375 581 755.75 581 c 4
- 863.75 581 926.75 564.30859375 926.75 527 c 4
- 926.75 504.56640625 899.75 491 863.75 490 c 5
- 913.75 474 l 5
- 947.75 480 1001.75 502 1001.75 554 c 4
- 1001.75 639 891.75 670 755.75 670 c 4
- 655.75 670 525 652 525 562 c 4
-483 195 m 4
- 483 288 536.248046875 363.668945312 602 387 c 4
- 622.666992188 394.333007812 645.666992188 398 671 398 c 5
- 671 371.5 l 5
- 667.651367188 371.7890625 664.31640625 371.936523438 661 371.936523438 c 4
- 582 371.936523438 538 307.145507812 538 242 c 4
- 538 186.850585938 569.567382812 140 643 140 c 4
- 693.911132812 140 738.5 161 738.5 225 c 6
- 738.5 249 l 5
- 769.25 249 l 5
- 769.25 225 l 6
- 769.25 161 812.830078125 140 862 140 c 4
- 957.709960938 140 976 246.442382812 976 293.5 c 5
- 993.087890625 276.198242188 1012.96679688 278.076171875 1039 261 c 5
- 1039 139 997.875976562 0 872 0 c 4
- 822.666992188 0 783 19.6669921875 753 59 c 5
- 722.333007812 20.3330078125 684.671875 0 640 0 c 4
- 538 0 483 96 483 195 c 4
-505.75 -44 m 5
- 535.25 -44 l 5
- 572.725585938 -86.9580078125 639.666992188 -114.25 745 -114.25 c 4
- 888 -114.25 999 -31.0107421875 999 63.25 c 4
- 999 78.2841796875 997.4375 90.4462890625 992 102 c 5
- 1005 133 l 5
- 1023 106.333007812 1032 74.6669921875 1032 38 c 4
- 1032 -123.729492188 903.75 -219 759.75 -219 c 4
- 626.75 -219 543.083007812 -153.333007812 505.75 -44 c 5
-21 22 m 5
- 28.6966338402 91.2697045622 74.4524773728 184.16496867 109 232 c 4
- 135 268 148 280 171 304 c 5
- 180 314 191.75 331 191.75 352 c 4
- 191.75 371 182 386 158 386 c 4
- 144 386 128.438133087 378.533465805 124 363 c 4
- 118 342 122 342 113 323 c 4
- 104.732279418 305.545923216 87 297 72 297 c 132
- 35 297 29 328 29 340 c 4
- 29 394.098632812 79.3632281498 433 136 433 c 4
- 188.347731079 433 220 399 220 358 c 4
- 220 352 220 349 219 341 c 5
- 278 396 377 431.5 464 431.5 c 4
- 569.163963853 431.5 649.122409915 403.737001099 671 398 c 5
- 663.516601562 397.319335938 615.7578125 385.375976562 603.25 384.5 c 5
- 563.634765625 395.022460938 515.625 402 471 402 c 4
- 331.959020027 402 252.755505443 335.149339557 216.5 304.5 c 5
- 246.5 312.5 277.666992188 314 305 314 c 4
- 425 314 515 250 515 126 c 4
- 515 67.8472233203 482 -1 397 -1 c 4
- 351 -1 317.333333333 20.3333333333 296 63 c 5
- 278.666666667 21.6666666667 246.021148364 -1 204 -1 c 4
- 117 -1 120 73 87 73 c 4
- 64.6748046875 73 52 51 49 11 c 5
- 21 22 l 5
-91 143 m 5
- 103 153 115 160 129 160 c 4
- 161 160 172 140 212 140 c 4
- 258 140 280 157 280 214 c 4
- 280 216.208984375 280.041015625 214.3046875 280 216 c 5
- 308 216 l 5
- 307.963867188 214.6640625 308 216.330078125 308 215 c 4
- 308 154 332 140 377 140 c 4
- 418 140 443 169 443 204 c 4
- 443 246 402 287 301 287 c 4
- 244.333007812 287 204.666992188 280 180 268 c 5
- 162.666992188 253.333007812 146.522390704 234.996134377 131 212 c 4
- 104 172 101 163 91 143 c 5
+505.75 -44 m 1
+ 535.25 -44 l 1
+ 572.725585938 -86.9580078125 639.666992188 -114.25 745 -114.25 c 0
+ 888 -114.25 999 -31.0107421875 999 63.25 c 0
+ 999 78.2841796875 997.4375 90.4462890625 992 102 c 1
+ 1005 133 l 1
+ 1023 106.333007812 1032 74.6669921875 1032 38 c 0
+ 1032 -123.729492188 903.75 -219 759.75 -219 c 0
+ 626.75 -219 543.083007812 -153.333007812 505.75 -44 c 1
+21 22 m 1
+ 28.6966338402 91.2697045622 74.4524773728 184.16496867 109 232 c 0
+ 135 268 148 280 171 304 c 1
+ 180 314 191.75 331 191.75 352 c 0
+ 191.75 371 182 386 158 386 c 0
+ 144 386 128.438133087 378.533465805 124 363 c 0
+ 118 342 122 342 113 323 c 0
+ 104.732279418 305.545923216 87 297 72 297 c 128
+ 35 297 29 328 29 340 c 0
+ 29 394.098632812 79.3632281498 433 136 433 c 0
+ 188.347731079 433 220 399 220 358 c 0
+ 220 352 220 349 219 341 c 1
+ 278 396 377 431.5 464 431.5 c 0
+ 569.163963853 431.5 649.122409915 403.737001099 671 398 c 1
+ 663.516601562 397.319335938 615.7578125 385.375976562 603.25 384.5 c 1
+ 563.634765625 395.022460938 515.625 402 471 402 c 0
+ 331.959020027 402 252.755505443 335.149339557 216.5 304.5 c 1
+ 246.5 312.5 277.666992188 314 305 314 c 0
+ 425 314 515 250 515 126 c 0
+ 515 67.8472233203 482 -1 397 -1 c 0
+ 351 -1 317.333333333 20.3333333333 296 63 c 1
+ 278.666666667 21.6666666667 246.021148364 -1 204 -1 c 0
+ 117 -1 120 73 87 73 c 0
+ 64.6748046875 73 52 51 49 11 c 1
+ 21 22 l 1
+91 143 m 1
+ 103 153 115 160 129 160 c 0
+ 161 160 172 140 212 140 c 0
+ 258 140 280 157 280 214 c 0
+ 280 216.208984375 280.041015625 214.3046875 280 216 c 1
+ 308 216 l 1
+ 307.963867188 214.6640625 308 216.330078125 308 215 c 0
+ 308 154 332 140 377 140 c 0
+ 418 140 443 169 443 204 c 0
+ 443 246 402 287 301 287 c 0
+ 244.333007812 287 204.666992188 280 180 268 c 1
+ 162.666992188 253.333007812 146.522390704 234.996134377 131 212 c 0
+ 104 172 101 163 91 143 c 1
 EndSplineSet
-Validated: 5
+Refer: 187 -1 N 1 0 0 1 450 0 2
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_JhRa si_MatraI
 EndChar
 
 StartChar: si_JhRIi
@@ -18450,95 +17911,56 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-850.897460938 538.75 m 4
- 850.897460938 568.331054688 877.526367188 592.123046875 910 592.123046875 c 4
- 942.473632812 592.123046875 969.102539062 568.331054688 969.102539062 538.75 c 4
- 969.102539062 509.168945312 942.473632812 485.376953125 910 485.376953125 c 4
- 877.526367188 485.376953125 850.897460938 509.168945312 850.897460938 538.75 c 4
-525 562 m 4
- 525 476 646 481 735 476 c 4
- 836.018554688 470.325195312 895.522460938 468.921875 940 416 c 4
- 967.6640625 383.083007812 976 348.020507812 976 295.25 c 5
- 1039 256 l 5
- 1039 348.934570312 997.146484375 423.256835938 948 459 c 4
- 893 499 798.869140625 501.456054688 734 504 c 4
- 632 508 580 510.989257812 580 540 c 4
- 580 580.369140625 678.34375 588.5 754 588.5 c 4
- 790.481445312 588.5 823.659179688 585.578125 832 584 c 5
- 828.022460938 578.984375 818 565.349609375 818 541.75 c 4
- 818 488.75 866 457.75 910 457.75 c 4
- 954 457.75 1002 488.75 1002 541.75 c 4
- 1002 640.053710938 892 670 756 670 c 4
- 655.75 670 525 652 525 562 c 4
-483 195 m 4
- 483 288 536.248046875 363.668945312 602 387 c 4
- 622.666992188 394.333007812 645.666992188 398 671 398 c 5
- 671 371.5 l 5
- 667.651367188 371.7890625 664.31640625 371.936523438 661 371.936523438 c 4
- 582 371.936523438 538 307.145507812 538 242 c 4
- 538 186.850585938 569.567382812 140 643 140 c 4
- 693.911132812 140 738.5 161 738.5 225 c 6
- 738.5 249 l 5
- 769.25 249 l 5
- 769.25 225 l 6
- 769.25 161 812.830078125 140 862 140 c 4
- 957.709960938 140 976 251.692382812 976 298.75 c 5
- 993.087890625 281.448242188 1012.96679688 278.076171875 1039 261 c 5
- 1039 139 997.875976562 0 872 0 c 4
- 822.666992188 0 783 19.6669921875 753 59 c 5
- 722.333007812 20.3330078125 684.671875 0 640 0 c 4
- 538 0 483 96 483 195 c 4
-505.75 -44 m 5
- 535.25 -44 l 5
- 572.725585938 -86.9580078125 639.666992188 -114.25 745 -114.25 c 4
- 888 -114.25 999 -31.0107421875 999 63.25 c 4
- 999 78.2841796875 997.4375 90.4462890625 992 102 c 5
- 1005 133 l 5
- 1023 106.333007812 1032 74.6669921875 1032 38 c 4
- 1032 -123.729492188 903.75 -219 759.75 -219 c 4
- 626.75 -219 543.083007812 -153.333007812 505.75 -44 c 5
-21 22 m 5
- 28.6966338402 91.2697045622 74.4524773728 184.16496867 109 232 c 4
- 135 268 148 280 171 304 c 5
- 180 314 191.75 331 191.75 352 c 4
- 191.75 371 182 386 158 386 c 4
- 144 386 128.438133087 378.533465805 124 363 c 4
- 118 342 122 342 113 323 c 4
- 104.732279418 305.545923216 87 297 72 297 c 132
- 35 297 29 328 29 340 c 4
- 29 394.098632812 79.3632281498 433 136 433 c 4
- 188.347731079 433 220 399 220 358 c 4
- 220 352 220 349 219 341 c 5
- 278 396 377 431.5 464 431.5 c 4
- 569.163963853 431.5 649.122409915 403.737001099 671 398 c 5
- 663.516601562 397.319335938 615.7578125 385.375976562 603.25 384.5 c 5
- 563.634765625 395.022460938 515.625 402 471 402 c 4
- 331.959020027 402 252.755505443 335.149339557 216.5 304.5 c 5
- 246.5 312.5 277.666992188 314 305 314 c 4
- 425 314 515 250 515 126 c 4
- 515 67.8472233203 482 -1 397 -1 c 4
- 351 -1 317.333333333 20.3333333333 296 63 c 5
- 278.666666667 21.6666666667 246.021148364 -1 204 -1 c 4
- 117 -1 120 73 87 73 c 4
- 64.6748046875 73 52 51 49 11 c 5
- 21 22 l 5
-91 143 m 5
- 103 153 115 160 129 160 c 4
- 161 160 172 140 212 140 c 4
- 258 140 280 157 280 214 c 4
- 280 216.208984375 280.041015625 214.3046875 280 216 c 5
- 308 216 l 5
- 307.963867188 214.6640625 308 216.330078125 308 215 c 4
- 308 154 332 140 377 140 c 4
- 418 140 443 169 443 204 c 4
- 443 246 402 287 301 287 c 4
- 244.333007812 287 204.666992188 280 180 268 c 5
- 162.666992188 253.333007812 146.522390704 234.996134377 131 212 c 4
- 104 172 101 163 91 143 c 5
+505.75 -44 m 1
+ 535.25 -44 l 1
+ 572.725585938 -86.9580078125 639.666992188 -114.25 745 -114.25 c 0
+ 888 -114.25 999 -31.0107421875 999 63.25 c 0
+ 999 78.2841796875 997.4375 90.4462890625 992 102 c 1
+ 1005 133 l 1
+ 1023 106.333007812 1032 74.6669921875 1032 38 c 0
+ 1032 -123.729492188 903.75 -219 759.75 -219 c 0
+ 626.75 -219 543.083007812 -153.333007812 505.75 -44 c 1
+21 22 m 1
+ 28.6966338402 91.2697045622 74.4524773728 184.16496867 109 232 c 0
+ 135 268 148 280 171 304 c 1
+ 180 314 191.75 331 191.75 352 c 0
+ 191.75 371 182 386 158 386 c 0
+ 144 386 128.438133087 378.533465805 124 363 c 0
+ 118 342 122 342 113 323 c 0
+ 104.732279418 305.545923216 87 297 72 297 c 128
+ 35 297 29 328 29 340 c 0
+ 29 394.098632812 79.3632281498 433 136 433 c 0
+ 188.347731079 433 220 399 220 358 c 0
+ 220 352 220 349 219 341 c 1
+ 278 396 377 431.5 464 431.5 c 0
+ 569.163963853 431.5 649.122409915 403.737001099 671 398 c 1
+ 663.516601562 397.319335938 615.7578125 385.375976562 603.25 384.5 c 1
+ 563.634765625 395.022460938 515.625 402 471 402 c 0
+ 331.959020027 402 252.755505443 335.149339557 216.5 304.5 c 1
+ 246.5 312.5 277.666992188 314 305 314 c 0
+ 425 314 515 250 515 126 c 0
+ 515 67.8472233203 482 -1 397 -1 c 0
+ 351 -1 317.333333333 20.3333333333 296 63 c 1
+ 278.666666667 21.6666666667 246.021148364 -1 204 -1 c 0
+ 117 -1 120 73 87 73 c 0
+ 64.6748046875 73 52 51 49 11 c 1
+ 21 22 l 1
+91 143 m 1
+ 103 153 115 160 129 160 c 0
+ 161 160 172 140 212 140 c 0
+ 258 140 280 157 280 214 c 0
+ 280 216.208984375 280.041015625 214.3046875 280 216 c 1
+ 308 216 l 1
+ 307.963867188 214.6640625 308 216.330078125 308 215 c 0
+ 308 154 332 140 377 140 c 0
+ 418 140 443 169 443 204 c 0
+ 443 246 402 287 301 287 c 0
+ 244.333007812 287 204.666992188 280 180 268 c 1
+ 162.666992188 253.333007812 146.522390704 234.996134377 131 212 c 0
+ 104 172 101 163 91 143 c 1
 EndSplineSet
-Validated: 5
+Refer: 188 -1 N 1 0 0 1 449 0 2
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_JhRa si_MatraIi
 EndChar
 
 StartChar: si_Dd.halant
@@ -18597,7 +18019,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Dda si_Halant
 EndChar
 
 StartChar: si_DdRa
@@ -18623,7 +18044,6 @@ EndSplineSet
 Refer: 22 3497 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Dda si_Halant si_Ra
 EndChar
 
 StartChar: si_DdRI
@@ -18688,7 +18108,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_DdRa si_MatraI
 EndChar
 
 StartChar: si_DdRIi
@@ -18758,7 +18177,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_DdRa si_MatraIi
 EndChar
 
 StartChar: si_TtRa
@@ -18785,7 +18203,6 @@ Refer: 7 3495 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "si_rakaar subtable" si_Tta si_Halant si_Ra
 EndChar
 
 StartChar: si_TtRI
@@ -18837,7 +18254,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_TtRa si_MatraI
 EndChar
 
 StartChar: si_TtRIi
@@ -18893,7 +18309,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_TtRa si_MatraIi
 EndChar
 
 StartChar: si_TRa
@@ -18920,7 +18335,6 @@ Refer: 21 3501 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "si_rakaar subtable" si_Ta si_Halantnsi_Ra
 EndChar
 
 StartChar: si_TRI
@@ -18957,7 +18371,6 @@ EndSplineSet
 Refer: 21 3501 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_TRa si_MatraI
 EndChar
 
 StartChar: si_TRIi
@@ -19000,7 +18413,6 @@ Refer: 21 3501 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_TRa si_MatraIi
 EndChar
 
 StartChar: si_PRa
@@ -19026,7 +18438,6 @@ EndSplineSet
 Refer: 13 3508 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Pa si_Halantnsi_Ra
 EndChar
 
 StartChar: si_PRI
@@ -19064,7 +18475,6 @@ Refer: 13 3508 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_PRa si_MatraI
 EndChar
 
 StartChar: si_PRIi
@@ -19107,7 +18517,6 @@ Refer: 13 3508 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_PRa si_MatraIi
 EndChar
 
 StartChar: si_VRa
@@ -19133,7 +18542,6 @@ EndSplineSet
 Refer: 4 3520 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Va si_Halantnsi_Ra
 EndChar
 
 StartChar: si_VRI
@@ -19191,7 +18599,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_VRa si_MatraI
 EndChar
 
 StartChar: si_VRIi
@@ -19254,7 +18661,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_VRa si_MatraIi
 EndChar
 
 StartChar: si_BRa
@@ -19341,7 +18747,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_BRa si_MatraI
 EndChar
 
 StartChar: si_BRIi
@@ -19408,7 +18813,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_BRa si_MatraIi
 EndChar
 
 StartChar: si_SsRa
@@ -19434,7 +18838,6 @@ EndSplineSet
 Refer: 63 3522 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Ssa si_Halant si_Ra
 EndChar
 
 StartChar: si_SsRI
@@ -19496,7 +18899,6 @@ EndSplineSet
 Refer: 53 3504 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Dha si_Halant si_Ra
 EndChar
 
 StartChar: si_DhRI
@@ -19552,7 +18954,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_DhRa si_MatraI
 EndChar
 
 StartChar: si_DhRIi
@@ -19615,7 +19016,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_DhRa si_MatraIi
 EndChar
 
 StartChar: si_BhRa
@@ -19642,7 +19042,6 @@ Refer: 56 3511 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "si_rakaar subtable" si_Bha si_Halant si_Ra
 EndChar
 
 StartChar: si_BhRI
@@ -19681,7 +19080,6 @@ EndSplineSet
 Refer: 56 3511 S 1 0 0 1 0 3.13744 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_BhRa si_MatraI
 EndChar
 
 StartChar: si_BhRIi
@@ -19723,7 +19121,6 @@ SplineSet
 EndSplineSet
 Refer: 56 3511 N 1 0 0 1 0 0 2
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_BhRa si_MatraIi
 EndChar
 
 StartChar: si_ShRa
@@ -19783,7 +19180,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Sha si_Halant si_Ra
 EndChar
 
 StartChar: si_ShRI
@@ -19857,7 +19253,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_ShRa si_MatraI
 EndChar
 
 StartChar: si_ShRIi
@@ -19934,7 +19329,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_ShRa si_MatraIi
 EndChar
 
 StartChar: si_FRa
@@ -19960,7 +19354,6 @@ EndSplineSet
 Refer: 66 3526 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Fa si_Halantnsi_Ra
 EndChar
 
 StartChar: si_FRI
@@ -20131,7 +19524,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_akhands subtable" si_Ka si_Halantnsi_Ssa
 EndChar
 
 StartChar: si_NTha
@@ -20144,55 +19536,35 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 384.850598995 253 332 c 4
- 253 326.711972173 251.900986958 318.204269823 251 315 c 5
- 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 4
- 616.138671875 436.25 655.829625003 433.599845814 679 430.25 c 5
- 659.669921875 426.33203125 618.272460938 406.280273438 606 406.25 c 5
- 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 4
- 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 5xb780
- 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
+24 176 m 1
+ 32 167 50 160.127929688 67 160.127929688 c 0
+ 130 160.127929688 131 206 208 279 c 1
+ 221 292 222.818359375 309.123046875 222.818359375 322 c 0
+ 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 0
+ 160 379.551757812 146 370 143.747070312 345 c 0
+ 141.766601562 323.01953125 131 294 99 294 c 0
+ 82 294 55.1414577919 304 55.1414577919 338.999999066 c 0
+ 55.1414577919 384.002988141 89.0173697483 431 154 431 c 0
+ 219.024722972 431 253 384.850598995 253 332 c 0
+ 253 326.711972173 251.900986958 318.204269823 251 315 c 1
+ 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 0
+ 616.138671875 436.25 655.829625003 433.599845814 679 430.25 c 1
+ 659.669921875 426.33203125 618.272460938 406.280273438 606 406.25 c 1
+ 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 0
+ 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 1xb780
+ 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 0
+ 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 0
+ 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 0
+ 136 -1.12218963832 24 65 24 176 c 1
 125 147 m 1
  153.727224532 138.227602737 190.042916095 133 248 133 c 0
  360 133 418 177 418 225 c 0
  418 259 390 281 334 281 c 0
  190 281 189 190 125 147 c 1
-467 235 m 0
- 467 344.829101562 562.994140625 430 679 430 c 1
- 679 403 l 1
- 596 403 521 347 521 265 c 0
- 521 169 627.377929688 140 733.25 140 c 0
- 855.25 140 948 213.1953125 948 319 c 0
- 948 351.16015625 943 380 926 417 c 1
- 913.357421875 387.822265625 882 367 839 367 c 0
- 775.844726562 367 739 422 739 488 c 0
- 739 538 756.66015625 575.446289062 781 605 c 1
- 842 572 912.96484375 500.2421875 949 438 c 0
- 987.783203125 371.01171875 1000 322 1000 252 c 0
- 1000 102.630859375 884 -1 729 -1 c 0
- 584.697265625 -1 467 92.060546875 467 235 c 0
-771 492 m 0
- 771 442.666992188 795.21875 408 846 408 c 0
- 870 408 898.345703125 420.612304688 905 448 c 1
- 875 494 829 536 791 564 c 1
- 783.837890625 554.026367188 771 526.666992188 771 492 c 0
 EndSplineSet
-Validated: 5
+Refer: 23 3502 N 1 0 0 1 433 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_akhands subtable" si_Na si_Halantnsi_Tha
 EndChar
 
 StartChar: si_SRa
@@ -20219,7 +19591,6 @@ Refer: 64 3523 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "si_rakaar subtable" si_Sa si_Halantnsi_Ra
 EndChar
 
 StartChar: si_SRI
@@ -20258,7 +19629,6 @@ Refer: 64 3523 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_SRa si_MatraI
 EndChar
 
 StartChar: si_SRIi
@@ -20300,7 +19670,6 @@ EndSplineSet
 Refer: 64 3523 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_SRa si_MatraIi
 EndChar
 
 StartChar: si_DRa
@@ -20341,7 +19710,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Da si_Halantnsi_Ra
 EndChar
 
 StartChar: si_DRAa
@@ -20355,7 +19723,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_DRa si_MatraAa
 EndChar
 
 StartChar: si_DRI
@@ -20407,7 +19774,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_DRa si_MatraI
 EndChar
 
 StartChar: si_DRIi
@@ -20464,7 +19830,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_DRa si_MatraIi
 EndChar
 
 StartChar: si_Ya.post
@@ -20505,7 +19870,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 Layer: 2
-Ligature2: "si_pstf subtable" si_Halant si_Ya
 EndChar
 
 StartChar: si_Tt.halant
@@ -20550,7 +19914,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Tta si_Halant
 EndChar
 
 StartChar: si_Tth.halant
@@ -20607,7 +19970,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ttha si_Halant
 EndChar
 
 StartChar: si_Ddh.halant
@@ -20669,7 +20031,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ddha si_Halant
 EndChar
 
 StartChar: si_CRa
@@ -20696,7 +20057,6 @@ Refer: 2 3488 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "si_rakaar subtable" si_Ca si_Halantnsi_Ra
 Colour: ff0000
 EndChar
 
@@ -20724,7 +20084,6 @@ Refer: 111 -1 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_3 subtable" si_CRa si_MatraI
 Colour: ff0000
 EndChar
 
@@ -20752,7 +20111,6 @@ Refer: 112 -1 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_4 subtable" si_CRa si_MatraIi
 Colour: ff0000
 EndChar
 
@@ -20779,7 +20137,6 @@ EndSplineSet
 Refer: 2 3488 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Cha si_Halant
 Colour: ff0000
 EndChar
 
@@ -20870,7 +20227,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "si_rakaar subtable" si_Nya si_Halant si_Ra
 EndChar
 
 StartChar: si_NyRI
@@ -20971,7 +20327,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_NyRa si_MatraI
 EndChar
 
 StartChar: si_NyRIi
@@ -21076,7 +20431,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_NyRa si_MatraIi
 EndChar
 
 StartChar: si_JnyRa
@@ -21146,7 +20500,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Jnya si_Halant si_Ra
 EndChar
 
 StartChar: si_JnyRI
@@ -21227,7 +20580,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_3 subtable" si_JnyRa si_MatraI
 EndChar
 
 StartChar: si_Ny.halant
@@ -21257,7 +20609,6 @@ Refer: 48 3492 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Nya si_Halant
 EndChar
 
 StartChar: si_Jny.halant
@@ -21287,7 +20638,6 @@ Refer: 49 3493 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Jnya si_Halant
 EndChar
 
 StartChar: si_JnyRIi
@@ -21373,7 +20723,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_JnyRa si_MatraIi
 EndChar
 
 StartChar: si_Ndj.halant
@@ -21403,7 +20752,6 @@ Refer: 50 3494 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ndja si_Halant
 EndChar
 
 StartChar: si_NdjRa
@@ -21430,7 +20778,6 @@ Refer: 50 3494 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 2 0 0
-Ligature2: "si_rakaar subtable" si_Ndja si_Halant si_Ra
 EndChar
 
 StartChar: si_Nn.halant
@@ -21512,7 +20859,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Nna si_Halant
 EndChar
 
 StartChar: si_Nndd.halant
@@ -21579,7 +20925,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Nndda si_Halant
 EndChar
 
 StartChar: si_T.halant
@@ -21609,7 +20954,6 @@ Refer: 21 3501 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ta si_Halant
 EndChar
 
 StartChar: si_Th.halant
@@ -21623,7 +20967,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Tha si_Halant
 EndChar
 
 StartChar: si_D.halant
@@ -21653,7 +20996,6 @@ Refer: 52 3503 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Da si_Halant
 EndChar
 
 StartChar: si_DvocR
@@ -21695,7 +21037,6 @@ Refer: 52 3503 N 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_5 subtable" si_Da si_MatraR
 EndChar
 
 StartChar: si_DvocRr
@@ -21760,7 +21101,6 @@ EndSplineSet
 Refer: 52 3503 N 1 0 0 1 0 0 2
 Validated: 1
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_Da si_MatraRr
 EndChar
 
 StartChar: si_DAa.halant
@@ -21774,7 +21114,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_DAa si_Halant
 EndChar
 
 StartChar: si_DYa.post
@@ -21788,7 +21127,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_Da si_Ya.post
 EndChar
 
 StartChar: si_DYAa.post
@@ -21802,7 +21140,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_Da si_Ya.post si_MatraAa
 EndChar
 
 StartChar: si_DYu.post
@@ -21893,7 +21230,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Dha si_Halant
 EndChar
 
 StartChar: si_N.halant
@@ -21923,7 +21259,6 @@ Refer: 11 3505 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Na si_Halant
 EndChar
 
 StartChar: si_Nd.halant
@@ -21981,7 +21316,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Nda si_Halant
 EndChar
 
 StartChar: si_NdRa
@@ -22058,7 +21392,6 @@ EndSplineSet
 Refer: 13 3508 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Pa si_Halant
 EndChar
 
 StartChar: si_Ph.halant
@@ -22114,7 +21447,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Pha si_Halant
 EndChar
 
 StartChar: si_B.halant
@@ -22168,7 +21500,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ba si_Halant
 EndChar
 
 StartChar: si_Bh.halant
@@ -22198,7 +21529,6 @@ Refer: 56 3511 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Bha si_Halant
 EndChar
 
 StartChar: si_M.halant
@@ -22211,24 +21541,24 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-147 538 m 0
- 147 526 166 526 166 515 c 0
- 166 513 165 510 163 508 c 1
- 196 514 235.674804688 519 282 519 c 0
- 390 519 472.076171875 489.188476562 527.5 425.25 c 1
- 494.6171875 535.950195312 403 574.25 287 574.25 c 0
- 215 574.25 147 557.5390625 147 538 c 0
-45 440 m 9
- 45 473 l 17
- 77 485 126.5 499 126.5 508 c 0
- 126.5 520 98.5 520.303710938 98.5 546 c 0
- 98.5 583 166 629 281 629 c 0
- 489 629 560 490 572 356 c 1
- 580.416187763 330.668254256 585 301.756388219 585 275.5 c 1
- 515.5 314 l 1
- 515.5 322 515.326171875 318 515.326171875 322 c 0
- 515.326171875 408.190272102 448 491.75 279 491.75 c 0
- 203 491.75 126 478 45 440 c 9
+147 538 m 4
+ 147 526 166 526 166 515 c 4
+ 166 513 165 510 163 508 c 5
+ 196 514 235.674804688 519 282 519 c 4
+ 390 519 472.076171875 489.188476562 527.5 425.25 c 5
+ 494.6171875 535.950195312 403 574.25 287 574.25 c 4
+ 215 574.25 147 557.5390625 147 538 c 4
+45 440 m 13
+ 45 473 l 21
+ 77 485 126.5 499 126.5 508 c 4
+ 126.5 520 98.5 520.303710938 98.5 546 c 4
+ 98.5 583 166 629 281 629 c 4
+ 489 629 560 490 572 356 c 5
+ 580.416187763 330.668254256 585 301.756388219 585 275.5 c 5
+ 515.5 314 l 5
+ 515.5 322 515.326171875 318 515.326171875 322 c 4
+ 515.326171875 408.190272102 448 491.75 279 491.75 c 4
+ 203 491.75 126 478 45 440 c 13
 264.975585938 352 m 0
  264.975585938 325.537109375 286.537109375 303.975585938 313 303.975585938 c 0
  339.462890625 303.975585938 361.024414062 325.537109375 361.024414062 352 c 0
@@ -22260,7 +21590,6 @@ EndSplineSet
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ma si_Halant
 EndChar
 
 StartChar: si_MU
@@ -22291,7 +21620,6 @@ Refer: 57 3512 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_1 subtable" si_Ma si_MatraU
 EndChar
 
 StartChar: si_Y.halant
@@ -22321,7 +21649,6 @@ Refer: 59 3514 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ya si_Halant
 EndChar
 
 StartChar: si_YAa.post
@@ -22361,7 +21688,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_Ya.post si_MatraU
 EndChar
 
 StartChar: si_YUu.post
@@ -22375,7 +21701,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_Ya.post si_MatraUu
 EndChar
 
 StartChar: si_Ya.post.reph
@@ -22389,7 +21714,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_abvs_7 subtable" si_Ya.post si_Reph
 EndChar
 
 StartChar: si_Yu.post.reph
@@ -22445,7 +21769,6 @@ Refer: 60 3515 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ra si_Halant
 EndChar
 
 StartChar: si_L.halant
@@ -22475,7 +21798,6 @@ Refer: 61 3517 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_La si_Halant
 EndChar
 
 StartChar: si_V.halant
@@ -22488,46 +21810,44 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-141.25 538 m 4
- 141.25 557.5390625 195 574.25 267 574.25 c 4
- 383 574.25 462.8671875 535.950195312 495.75 425.25 c 5
- 440.326171875 489.188476562 370 519 262 519 c 4
- 215.674804688 519 189.12890625 514.68359375 157.25 508 c 5
- 159.25 510 160.25 513 160.25 515 c 4
- 160.25 526 141.25 526 141.25 538 c 4
-39.25 440 m 21
- 120.25 478 183 491.75 259 491.75 c 4
- 428 491.75 483.826171875 403.081054688 483.826171875 321.75 c 4
- 483.826171875 317.75 484 321.75 484 313.75 c 5
- 548 269 l 5
- 548 293.06640625 546.9609375 326.220703125 540.25 356 c 5
- 528.25 490 468.162189484 629 265.25 629 c 4
- 158.814864279 629 92.75 583 92.75 546 c 4
- 92.75 520.303710938 120.75 520 120.75 508 c 4
- 120.75 499 71.25 485 39.25 473 c 13
- 39.25 440 l 21
-33 165 m 4
- 33 250 98 304 199 304 c 6
- 256 304 l 5
- 256.08203125 306.041015625 256.0859375 306.041015625 256.0859375 308 c 4
- 256.0859375 358 224 387 191 387 c 132
- 157 387 146 371 140.5 355 c 132
- 133.951171875 335.948242188 122 319 96 319 c 4
- 73 319 56 333.368164062 56 359 c 4
- 56 406 106 431.5 161 431.5 c 4
- 249 431.5 292.146076529 376 292.146076529 290.0000267 c 4
- 292.146076529 286.721575577 292.100585938 280.387695312 292 277 c 5
- 211 277 l 6
- 137 277 101 250 101 213 c 4
- 101 151 196 140 270 140 c 4
- 423 140 484 212 484 318 c 5
- 502.348632812 302.463867188 525.998493555 291.052740609 548 274 c 5
- 548 114 450 0 267 0 c 4
- 146 0 33 46 33 165 c 4
+141.25 538 m 0
+ 141.25 526 160.25 526 160.25 515 c 0
+ 160.25 513 159.25 510 157.25 508 c 1
+ 189.12890625 514.68359375 215.674804688 519 262 519 c 0
+ 370 519 440.326171875 489.188476562 495.75 425.25 c 1
+ 462.8671875 535.950195312 383 574.25 267 574.25 c 0
+ 195 574.25 141.25 557.5390625 141.25 538 c 0
+39.25 440 m 9
+ 39.25 473 l 17
+ 71.25 485 120.75 499 120.75 508 c 0
+ 120.75 520 92.75 520.303710938 92.75 546 c 0
+ 92.75 583 158.814864279 629 265.25 629 c 0
+ 468.162189484 629 528.25 490 540.25 356 c 1
+ 546.9609375 326.220703125 548 293.06640625 548 269 c 1
+ 484 313.75 l 1
+ 484 397.992065872 435.495274513 491.75 259 491.75 c 0
+ 183 491.75 120.25 478 39.25 440 c 9
+33 165 m 0
+ 33 250 98 304 199 304 c 2
+ 256 304 l 1
+ 256.08203125 306.041015625 256.0859375 306.041015625 256.0859375 308 c 0
+ 256.0859375 358 224 387 191 387 c 128
+ 157 387 146 371 140.5 355 c 128
+ 133.951171875 335.948242188 122 319 96 319 c 0
+ 73 319 56 333.368164062 56 359 c 0
+ 56 406 106 431.5 161 431.5 c 0
+ 249 431.5 292.146076529 376 292.146076529 290.0000267 c 0
+ 292.146076529 286.721575577 292.100585938 280.387695312 292 277 c 1
+ 211 277 l 2
+ 137 277 101 250 101 213 c 0
+ 101 151 196 140 270 140 c 0
+ 423 140 484 212 484 318 c 1
+ 548 274 l 1
+ 548 114 450 0 267 0 c 0
+ 146 0 33 46 33 165 c 0
 EndSplineSet
-Validated: 5
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Va si_Halant
+LCarets2: 1 0
 EndChar
 
 StartChar: si_Sh.halant
@@ -22556,7 +21876,6 @@ EndSplineSet
 Refer: 62 3521 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Sha si_Halant
 EndChar
 
 StartChar: si_Ss.halant
@@ -22586,7 +21905,6 @@ Refer: 63 3522 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ssa si_Halant
 EndChar
 
 StartChar: si_S.halant
@@ -22600,7 +21918,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_Sa si_Halant
 EndChar
 
 StartChar: si_SI
@@ -22629,7 +21946,6 @@ Refer: 64 3523 S 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Sa si_MatraI
 EndChar
 
 StartChar: si_SU
@@ -22659,7 +21975,6 @@ EndSplineSet
 Refer: 64 3523 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Sa si_MatraU
 EndChar
 
 StartChar: si_H.halant
@@ -22689,7 +22004,6 @@ Refer: 24 3524 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Ha si_Halant
 EndChar
 
 StartChar: si_HI
@@ -22719,7 +22033,6 @@ EndSplineSet
 Refer: 24 3524 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_1 subtable" si_Ha si_MatraI
 EndChar
 
 StartChar: si_HU
@@ -22749,7 +22062,6 @@ EndSplineSet
 Refer: 24 3524 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_1 subtable" si_Ha si_MatraU
 EndChar
 
 StartChar: si_HRa
@@ -22775,7 +22087,6 @@ EndSplineSet
 Refer: 24 3524 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_Ha si_Halantnsi_Ra
 EndChar
 
 StartChar: si_HRIi
@@ -22818,7 +22129,6 @@ EndSplineSet
 Refer: 24 3524 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_4 subtable" si_HRa si_MatraIi
 EndChar
 
 StartChar: si_LlI
@@ -22846,7 +22156,6 @@ EndSplineSet
 Refer: 65 3525 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_abvs_1 subtable" si_Lla si_MatraI
 EndChar
 
 StartChar: si_F.halant
@@ -22876,7 +22185,6 @@ Refer: 66 3526 N 1 0 0 1 0 0 2
 Validated: 5
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_halant_1 subtable" si_Fa si_Halant
 EndChar
 
 StartChar: si_TVa
@@ -22929,7 +22237,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_akhands subtable" si_Ta si_Halantnsi_Va
 EndChar
 
 StartChar: si_DDha
@@ -22942,41 +22249,19 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-27 211.5 m 4
- 27 343.200195312 101.730686994 433 220.25 433 c 4
- 246.319335938 433 288.875726221 427.134206154 313.25 398 c 5
- 300.255060768 396.26520199 275.70703125 393.11328125 271.75 393 c 5
- 266.632278323 398.878934681 247.8203125 404.5 223.75 404.5 c 4
- 97.2451171875 404.5 58.75 297.871948331 58.75 208.5 c 4
- 58.75 131.216796875 85.9996948242 75.2388023734 135 33.75 c 5
- 135 0 l 5
- 68.5828449348 33.2085775326 27 110.5703125 27 211.5 c 4
-125.25 195 m 4
- 125.25 288 178.498046875 363.668945312 244.25 387 c 4
- 264.916992188 394.333007812 287.916992188 398 313.25 398 c 5
- 313.25 371.5 l 5
- 309.901367188 371.7890625 306.56640625 371.936523438 303.25 371.936523438 c 4
- 224.25 371.936523438 180.25 307.145507812 180.25 242 c 4
- 180.25 186.850585938 211.817382812 140 285.25 140 c 4
- 336.161132812 140 380.75 161 380.75 225 c 6
- 380.75 249 l 5
- 411.5 249 l 5
- 411.5 225 l 6
- 411.5 161 455.080078125 140 504.25 140 c 4
- 599.959960938 140 618.25 230.977539062 618.25 304 c 4
- 618.25 426.934570312 533.158203125 554 386.25 554 c 4
- 305.583007812 554 243.786132812 525.40625 191.5 468 c 5
- 157.25 468 l 5
- 213.916992188 542.666992188 291.916992188 580 391.25 580 c 4
- 554.25 580 681.25 446 681.25 261 c 4
- 681.25 139 640.125976562 0 514.25 0 c 4
- 464.916992188 0 425.25 19.6669921875 395.25 59 c 5
- 364.583007812 20.3330078125 326.921875 0 282.25 0 c 4
- 180.25 0 125.25 96 125.25 195 c 4
+27 211.5 m 0
+ 27 343.200195312 101.730686994 433 220.25 433 c 0
+ 246.319335938 433 288.875726221 427.134206154 313.25 398 c 1
+ 300.255060768 396.26520199 275.70703125 393.11328125 271.75 393 c 1
+ 266.632278323 398.878934681 247.8203125 404.5 223.75 404.5 c 0
+ 97.2451171875 404.5 58.75 297.871948331 58.75 208.5 c 0
+ 58.75 131.216796875 85.9996948242 75.2388023734 135 33.75 c 1
+ 135 0 l 1
+ 68.5828449348 33.2085775326 27 110.5703125 27 211.5 c 0
 EndSplineSet
-Validated: 5
+Refer: 53 3504 N 1 0 0 1 93 0 2
 Layer: 2
-Ligature2: "si_akhands subtable" si_Da si_Halantnsi_Dha
+LCarets2: 1 0
 EndChar
 
 StartChar: si_DVa
@@ -23022,7 +22307,6 @@ SplineSet
 EndSplineSet
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_akhands subtable" si_Da si_Halantnsi_Va
 Colour: ff0000
 EndChar
 
@@ -23083,7 +22367,6 @@ EndSplineSet
 Refer: 424 -1 N 1 0 0 1 0 0 2
 Layer: 2
 LCarets2: 1 0
-Ligature2: "si_blws_4 subtable" si_KSsa si_MatraUu
 EndChar
 
 StartChar: si_KV.halant
@@ -23185,81 +22468,50 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-511.25 562 m 4
- 511.25 476 626.75 481 715.75 476 c 4
- 816.768554688 470.325195312 879.228515625 470.641601562 921.25 415.75 c 4
- 947.98046875 380.83203125 948.75 333.802734375 948.75 319.75 c 5
- 1012.75 268.75 l 5
- 1012.75 357.26171875 976.646484375 423.256835938 927.5 459 c 4
- 872.5 499 779.619140625 501.456054688 714.75 504 c 4
- 612.75 508 571.5 511.05859375 571.5 538 c 4
- 571.5 573.2109375 661.09375 581 736.75 581 c 4
- 844.75 581 906.5 564.30859375 906.5 527 c 4
- 906.5 504.56640625 879.5 491 843.5 490 c 5
- 893.5 474 l 5
- 927.5 480 981.5 502 981.5 554 c 4
- 981.5 639 872.75 670 736.75 670 c 4
- 636.75 670 511.25 652 511.25 562 c 4
-497.75 165 m 4
- 497.75 250 562.75 304 663.75 304 c 6
- 720.75 304 l 5
- 720.83203125 306.041015625 720.8359375 306.041015625 720.8359375 308 c 4
- 720.8359375 358 688.75 387 655.75 387 c 132
- 621.75 387 610.75 371 605.25 355 c 132
- 598.701171875 335.948242188 586.75 319 560.75 319 c 4
- 537.75 319 520.75 333.368164062 520.75 359 c 4
- 520.75 406 570.75 431.5 625.75 431.5 c 4
- 713.75 431.5 756.896484375 376 756.896484375 290 c 4
- 756.896484375 286.721679688 756.850585938 280.387695312 756.75 277 c 5
- 675.75 277 l 6
- 601.75 277 565.75 250 565.75 213 c 4
- 565.75 151 660.75 140 734.75 140 c 4
- 887.75 140 948.75 213.73828125 948.75 325.75 c 5
- 967.098632812 310.213867188 990.748046875 291.052734375 1012.75 274 c 5
- 1012.75 114 914.75 0 731.75 0 c 4
- 610.75 0 497.75 46 497.75 165 c 4
-21 22 m 5
- 28.6962890625 91.26953125 74.4521484375 184.165039062 109 232 c 4
- 135 268 148 280 171 304 c 5
- 180 314 191.25 331 191.25 352 c 4
- 191.25 371 182 386 158 386 c 4
- 144 386 128.438476562 378.533203125 124 363 c 4
- 118 342 122 342 113 323 c 4
- 104.732421875 305.545898438 87 297 72 297 c 132
- 35 297 29 328 29 340 c 4
- 29 394.098632812 79.36328125 433 136 433 c 4
- 188.34765625 433 219.75 401.921640933 219.75 354 c 4
- 219.75 350.413085938 219.43896268 345.816388127 219 341 c 5
- 291.237304688 390.928710938 389.963867188 435.75 562.75 435.75 c 4
- 573.693359375 435.75 634.9375 434.973632812 663 427.25 c 5
- 543.5 403.5 l 5
- 538.6953125 404.267578125 533.307617188 404.5 523.25 404.5 c 4
- 416.274414062 404.5 295.357421875 366.213867188 220.25 306.25 c 5
- 248.415039062 312.696289062 277.666992188 314 305 314 c 4
- 425 314 515 250 515 126 c 4
- 515 67.84765625 482 -1 397 -1 c 4
- 351 -1 317.333007812 20.3330078125 296 63 c 5
- 278.666992188 21.6669921875 246.021484375 -1 204 -1 c 4
- 117 -1 120 73 87 73 c 4
- 64.6748046875 73 52 51 49 11 c 5
- 21 22 l 5
-91 143 m 5
- 103 153 115 160 129 160 c 4
- 161 160 172 140 212 140 c 4
- 258 140 280 157 280 214 c 4
- 280 216.208984375 280.041015625 214.3046875 280 216 c 5
- 308 216 l 5
- 307.963867188 214.6640625 308 216.330078125 308 215 c 4
- 308 154 332 140 377 140 c 4
- 418 140 443 169 443 204 c 4
- 443 246 402 287 301 287 c 4
- 244.333007812 287 204.666992188 280 180 268 c 5
- 162.666992188 253.333007812 146.522460938 234.99609375 131 212 c 4
- 104 172 101 163 91 143 c 5
+21 22 m 1
+ 28.696289062 91.26953125 74.452148438 184.165039062 109 232 c 0
+ 135 268 148 280 171 304 c 1
+ 180 314 191.25 331 191.25 352 c 0
+ 191.25 371 182 386 158 386 c 0
+ 144 386 128.438476562 378.533203125 124 363 c 0
+ 118 342 122 342 113 323 c 0
+ 104.732421875 305.545898438 87 297 72 297 c 128
+ 35 297 29 328 29 340 c 0
+ 29 394.098632812 79.36328125 433 136 433 c 0
+ 188.34765625 433 220 399 220 358 c 0
+ 220 352 220 349 219 341 c 1
+ 255.112530688 366.766363972 302.488348148 392.006216269 367 411 c 0
+ 433.128952026 432.138809204 507.859375 436 551.25 436 c 0
+ 620.209316271 436 655.330759937 429.207356771 673 425 c 1
+ 667.58344494 424.159179688 606.05327381 405.082088694 597 404 c 1
+ 581.982398595 404.562546663 561.475585938 406 549 406 c 0
+ 490.313476562 406 439.895871383 397.342910212 411.5 391 c 0
+ 324.890617371 372.932778067 262.160734558 335.074665008 220.25 306.25 c 1
+ 248.415424347 312.696125031 277.666992188 314 305 314 c 0
+ 425 314 515 250 515 126 c 0
+ 515 67.84765625 482 -1 397 -1 c 0
+ 351 -1 317.333007812 20.3330078125 296 63 c 1
+ 278.666992188 21.6669921875 246.021484375 -1 204 -1 c 0
+ 117 -1 120 73 87 73 c 0
+ 64.674804688 73 52 51 49 11 c 1
+ 21 22 l 1
+91 143 m 1
+ 103 153 115 160 129 160 c 0
+ 161 160 172 140 212 140 c 0
+ 258 140 280 157 280 214 c 0
+ 280 216.208984375 280.041015625 214.3046875 280 216 c 1
+ 308 216 l 1
+ 307.963867188 214.6640625 308 216.330078125 308 215 c 0
+ 308 154 332 140 377 140 c 0
+ 418 140 443 169 443 204 c 0
+ 443 246 402 287 301 287 c 0
+ 244.333007812 287 204.666992188 280 180 268 c 1
+ 162.666992188 253.333007812 146.522460938 234.99609375 131 212 c 0
+ 104 172 101 163 91 143 c 1
 EndSplineSet
-Validated: 5
+Refer: 247 -1 N 1 0 0 1 465 0 2
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_KVa si_MatraI
+LCarets2: 1 0
 EndChar
 
 StartChar: si_ND.halant
@@ -23411,7 +22663,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_5 subtable" si_NDa si_MatraAa
 EndChar
 
 StartChar: si_NDU
@@ -23481,7 +22732,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_NDa si_MatraU
 EndChar
 
 StartChar: si_NDRa
@@ -23494,31 +22744,31 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-472.161132812 -43 m 5
- 499.34375 -43 l 5
- 526.637695312 -84.4013671875 565.461914062 -103.25 642.25 -103.25 c 4
- 732.028320312 -103.25 818.154296875 -38.443359375 818.154296875 51 c 4
- 818.154296875 72 817.689453125 66.0068359375 816.75 74 c 5
- 845.5 78.75 l 5
- 845.50390625 58.4794921875 845.75 75.6669921875 845.75 39 c 4
- 845.75 -108.599609375 758.475585938 -204.25 653.5 -204.25 c 4
- 548.30859375 -204.25 491.783203125 -144.603515625 472.161132812 -43 c 5
-469.5 169 m 4
- 469.5 274 542.5 317 661.5 317 c 6
- 778.75 317 l 5
- 769.026367188 363.185546875 739.014648438 390 706.5 390 c 4
- 687.5 390 673.048828125 378.911132812 664.5 361 c 132
- 654 339 637.079101562 333 617.25 333 c 4
- 592.25 333 574.5 349.75 574.5 370.75 c 4
- 574.5 407.033203125 615.5 433 670.5 433 c 4
- 756.239257812 433 800.240234375 388.541992188 817.5 291 c 5
- 755.75 291 l 6
- 667.75 291 622.75 257 622.75 173 c 4
- 622.75 89 674.489257812 44 724 44 c 4
- 754.348632812 44 779.25 48.25 819.25 94.25 c 5
- 845.5 78.75 l 5
- 804.877929688 30.0625 761.208007812 -1 672.5 -1 c 4
- 541.5 -1 469.5 69 469.5 169 c 4
+472.161132812 -43 m 1
+ 499.34375 -43 l 1
+ 526.637695312 -84.4013671875 565.461914062 -103.25 642.25 -103.25 c 0
+ 732.028320312 -103.25 818.154296875 -38.443359375 818.154296875 51 c 0
+ 818.154296875 72 817.689453125 66.0068359375 816.75 74 c 1
+ 845.5 78.75 l 1
+ 845.50390625 58.4794921875 845.75 75.6669921875 845.75 39 c 0
+ 845.75 -108.599609375 758.475585938 -204.25 653.5 -204.25 c 0
+ 548.30859375 -204.25 491.783203125 -144.603515625 472.161132812 -43 c 1
+469.5 169 m 0
+ 469.5 274 542.5 317 661.5 317 c 2
+ 778.75 317 l 1
+ 769.026367188 363.185546875 739.014648438 390 706.5 390 c 0
+ 687.5 390 673.048828125 378.911132812 664.5 361 c 128
+ 654 339 637.079101562 333 617.25 333 c 0
+ 592.25 333 574.5 349.75 574.5 370.75 c 0
+ 574.5 407.033203125 615.5 433 670.5 433 c 0
+ 756.239257812 433 800.240234375 388.541992188 817.5 291 c 1
+ 755.75 291 l 2
+ 667.75 291 622.75 257 622.75 173 c 0
+ 622.75 89 674.489257812 44 724 44 c 0
+ 754.348632812 44 779.25 48.25 819.25 94.25 c 1
+ 845.5 78.75 l 1
+ 804.877929688 30.0625 761.208007812 -1 672.5 -1 c 0
+ 541.5 -1 469.5 69 469.5 169 c 0
 24 176 m 5
  32 167 50 160.127929688 67 160.127929688 c 4
  130 160.127929688 131 206 208 279 c 5
@@ -23547,7 +22797,7 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_rakaar subtable" si_NDa si_Halant si_Ra
+LCarets2: 2 0 0
 EndChar
 
 StartChar: si_NDRI
@@ -23717,18 +22967,18 @@ LayerCount: 3
 Back
 Fore
 SplineSet
-874.551757812 473 m 5
- 903.051757812 452 l 5
- 903.051757812 489.586914062 l 5
- 918.384765625 482.919921875 934.134765625 479.586914062 948.801757812 479.586914062 c 4
- 998.047851562 479.586914062 1029.38183594 509.586914062 1029.55175781 553.586914062 c 4
- 1029.91992188 649.022460938 928.551757812 650.586914062 874.551757812 692.586914062 c 5
- 874.551757812 473 l 5
-903.157226562 515.860351562 m 5
- 903.157226562 648.173828125 l 5
- 949.221679688 617.790039062 984.551757812 598.188476562 984.551757812 557.024414062 c 4
- 984.551757812 533.501953125 969.514648438 509 936.25 509 c 4
- 923.18359375 509 911.651367188 511.286132812 903.157226562 515.860351562 c 5
+874.551757812 473 m 1
+ 903.051757812 452 l 1
+ 903.051757812 489.586914062 l 1
+ 918.384765625 482.919921875 934.134765625 479.586914062 948.801757812 479.586914062 c 0
+ 998.047851562 479.586914062 1029.38183594 509.586914062 1029.55175781 553.586914062 c 0
+ 1029.91992188 649.022460938 928.551757812 650.586914062 874.551757812 692.586914062 c 1
+ 874.551757812 473 l 1
+903.157226562 515.860351562 m 1
+ 903.157226562 648.173828125 l 1
+ 949.221679688 617.790039062 984.551757812 598.188476562 984.551757812 557.024414062 c 0
+ 984.551757812 533.501953125 969.514648438 509 936.25 509 c 0
+ 923.18359375 509 911.651367188 511.286132812 903.157226562 515.860351562 c 1
 467 235 m 4
  467 344.829101562 561.202148438 430 664 430 c 5
  664 403 l 5
@@ -23746,33 +22996,32 @@ SplineSet
  836.608398438 541.546875 1000 394.013671875 1000 236.25 c 4
  1000 104.581054688 884 -1 729 -1 c 4
  584.697265625 -1 467 92.060546875 467 235 c 4
-24 176 m 5
- 32 167 50 160.127929688 67 160.127929688 c 4
- 130 160.127929688 131 206 208 279 c 5
- 221 292 222.818359375 309.123046875 222.818359375 322 c 4
- 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 4
- 160 379.551757812 146 370 143.747070312 345 c 4
- 141.766601562 323.01953125 131 294 99 294 c 4
- 82 294 55.1414577919 304 55.1414577919 338.999999066 c 4
- 55.1414577919 384.002988141 89.0173697483 431 154 431 c 4
- 219.024722972 431 253 384.850598995 253 332 c 4
- 253 326.711972173 251.900986958 318.204269823 251 315 c 5
- 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 4
- 616.138671875 436.25 645.978555048 433.209306861 664 430 c 5
- 644.669921875 426.08203125 618.272460938 406.280273438 606 406.25 c 5
- 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 4
- 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 5xb780
- 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 4
- 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 4
- 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 4
- 136 -1.12218963832 24 65 24 176 c 5
-125 147 m 5
- 153.727224532 138.227602737 190.042916095 133 248 133 c 4
- 360 133 418 177 418 225 c 4
- 418 259 390 281 334 281 c 4
- 190 281 189 190 125 147 c 5
+24 176 m 1
+ 32 167 50 160.127929688 67 160.127929688 c 0
+ 130 160.127929688 131 206 208 279 c 1
+ 221 292 222.818359375 309.123046875 222.818359375 322 c 0
+ 222.818359375 356 204 379.551757812 180.461914062 379.551757812 c 0
+ 160 379.551757812 146 370 143.747070312 345 c 0
+ 141.766601562 323.01953125 131 294 99 294 c 0
+ 82 294 55.1414577919 304 55.1414577919 338.999999066 c 0
+ 55.1414577919 384.002988141 89.0173697483 431 154 431 c 0
+ 219.024722972 431 253 384.850598995 253 332 c 0
+ 253 326.711972173 251.900986958 318.204269823 251 315 c 1
+ 307.982868352 369.401779533 401.404296875 436.25 591.25 436.25 c 0
+ 616.138671875 436.25 645.978555048 433.209306861 664 430 c 1
+ 644.669921875 426.08203125 618.272460938 406.280273438 606 406.25 c 1
+ 596.779296875 406.384765625 594.533203125 406.75 585 406.75 c 0
+ 428.30859375 406.75 342.818226695 358.885343671 274.5 300 c 1xb780
+ 297.033161163 305.304489136 317.103110119 308.102003375 345.043984241 308.102003375 c 0
+ 428.954738746 308.102003375 498.167706599 248.943565796 498.167706599 168.852729339 c 0
+ 498.167706599 52.8253283098 398.034743185 -1.12218963832 276.065197429 -1.12218963832 c 0
+ 136 -1.12218963832 24 65 24 176 c 1
+125 147 m 1
+ 153.727224532 138.227602737 190.042916095 133 248 133 c 0
+ 360 133 418 177 418 225 c 0
+ 418 259 390 281 334 281 c 0
+ 190 281 189 190 125 147 c 1
 EndSplineSet
-Validated: 37
 Layer: 2
 EndChar
 
@@ -23891,7 +23140,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_DDha si_MatraI
 EndChar
 
 StartChar: si_DDhIi
@@ -23954,7 +23202,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_DDha si_MatraIi
 EndChar
 
 StartChar: si_DDhU
@@ -24014,7 +23261,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_DDha si_MatraU
 EndChar
 
 StartChar: si_DDhUu
@@ -24077,7 +23323,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_DDha si_MatraUu
 EndChar
 
 StartChar: si_DV.halant
@@ -24193,7 +23438,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_DVa si_MatraI
 EndChar
 
 StartChar: si_DVIi
@@ -24255,7 +23499,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_DVa si_MatraIi
 EndChar
 
 StartChar: si_DVU
@@ -24314,7 +23557,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_DVa si_MatraU
 EndChar
 
 StartChar: si_DVUu
@@ -24376,7 +23618,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_DVa si_MatraUu
 EndChar
 
 StartChar: si_TtTh.halant
@@ -24506,7 +23747,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_5 subtable" si_TtTha si_MatraI
 EndChar
 
 StartChar: si_TtThIi
@@ -24577,7 +23817,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_abvs_6 subtable" si_TtTha si_MatraIi
 EndChar
 
 StartChar: si_TtThU
@@ -24643,7 +23882,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_2 subtable" si_TtTha si_MatraU
 EndChar
 
 StartChar: si_TtThUu
@@ -24712,7 +23950,6 @@ SplineSet
 EndSplineSet
 Validated: 5
 Layer: 2
-Ligature2: "si_blws_4 subtable" si_TtTha si_MatraUu
 EndChar
 
 StartChar: si_NV.halant
@@ -24916,7 +24153,6 @@ Back
 Fore
 Validated: 1
 Layer: 2
-Ligature2: "si_halant_1 subtable" si_MatraAa si_Halant
 EndChar
 
 StartChar: si_Matra.halant.alt
@@ -24935,13 +24171,14 @@ EndChar
 StartChar: si_KU.reph
 Encoding: 96 -1 537
 GlifName: si_K_U_.reph
-Width: 0
-VWidth: 0
+Width: 746
+VWidth: 1000
 Flags: HW
 LayerCount: 3
 Back
 Fore
-Validated: 1
+Refer: 81 -1 S 1 0 0 1 752 -24 2
+Refer: 85 -1 N 1 0 0 1 0 0 2
 Layer: 2
 EndChar
 

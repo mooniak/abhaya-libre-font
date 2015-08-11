@@ -75,58 +75,6 @@
       <point x="190" y="281"/>
       <point x="189" y="190"/>
     </contour>
-    <contour>
-      <point x="467" y="235" type="curve" smooth="yes"/>
-      <point x="467" y="344.829"/>
-      <point x="562.994" y="430"/>
-      <point x="679" y="430" type="curve"/>
-      <point x="679" y="403" type="line"/>
-      <point x="596" y="403"/>
-      <point x="521" y="347"/>
-      <point x="521" y="265" type="curve" smooth="yes"/>
-      <point x="521" y="169"/>
-      <point x="627.378" y="140"/>
-      <point x="733.25" y="140" type="curve" smooth="yes"/>
-      <point x="855.25" y="140"/>
-      <point x="948" y="213.195"/>
-      <point x="948" y="319" type="curve" smooth="yes"/>
-      <point x="948" y="351.16"/>
-      <point x="943" y="380"/>
-      <point x="926" y="417" type="curve"/>
-      <point x="913.357" y="387.822"/>
-      <point x="882" y="367"/>
-      <point x="839" y="367" type="curve" smooth="yes"/>
-      <point x="775.845" y="367"/>
-      <point x="739" y="422"/>
-      <point x="739" y="488" type="curve" smooth="yes"/>
-      <point x="739" y="538"/>
-      <point x="756.66" y="575.446"/>
-      <point x="781" y="605" type="curve"/>
-      <point x="842" y="572"/>
-      <point x="912.965" y="500.242"/>
-      <point x="949" y="438" type="curve" smooth="yes"/>
-      <point x="987.783" y="371.012"/>
-      <point x="1000" y="322"/>
-      <point x="1000" y="252" type="curve" smooth="yes"/>
-      <point x="1000" y="102.631"/>
-      <point x="884" y="-1"/>
-      <point x="729" y="-1" type="curve" smooth="yes"/>
-      <point x="584.697" y="-1"/>
-      <point x="467" y="92.0605"/>
-    </contour>
-    <contour>
-      <point x="771" y="492" type="curve" smooth="yes"/>
-      <point x="771" y="442.667"/>
-      <point x="795.219" y="408"/>
-      <point x="846" y="408" type="curve" smooth="yes"/>
-      <point x="870" y="408"/>
-      <point x="898.346" y="420.612"/>
-      <point x="905" y="448" type="curve"/>
-      <point x="875" y="494"/>
-      <point x="829" y="536"/>
-      <point x="791" y="564" type="curve"/>
-      <point x="783.838" y="554.026"/>
-      <point x="771" y="526.667"/>
-    </contour>
+    <component base="si_Tha" xOffset="433"/>
   </outline>
 </glyph>
