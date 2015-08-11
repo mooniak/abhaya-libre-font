@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1429518268
-ModificationTime: 1439204061
+ModificationTime: 1439259206
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -11069,7 +11069,7 @@ Encoding: 360 -1 242
 GlifName: si_R_I_i
 Width: 528
 VWidth: 1000
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Back
 Fore
@@ -11088,8 +11088,7 @@ SplineSet
 66 237 m 4
  66 143.670898438 131.981445312 73 240 73 c 4
  345 73 430 149 430 254 c 4
- 430 291.984375 419.681640625 323.450195312 402 347.985351562 c 4
- 372.200195312 389.3359375 321.485351562 411 264 411 c 4
+ 430 356 355.594726562 411 264 411 c 4
  166.78125 411 66 339.359375 66 237 c 4
 260.744140625 542.75 m 0
  260.744140625 509.135742188 287.635742188 482.244140625 321.25 482.244140625 c 0
@@ -11136,7 +11135,7 @@ SplineSet
  563 133 637 254 690 313 c 1
  442 313 l 1
 EndSplineSet
-Refer: 42 3515 N 1 0 0 1 0 0 2
+Refer: 42 3515 S 1 0 0 1 0 0 2
 LCarets2: 1 0
 Ligature2: "si_blws_1-0 subtable" si_Ra si_MatraU
 Ligature2: "si_blws_1 subtable" si_Ra si_MatraU
@@ -12488,7 +12487,7 @@ Encoding: 427 -1 279
 GlifName: si_K_V_a
 Width: 1061
 VWidth: 1000
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 Fore
