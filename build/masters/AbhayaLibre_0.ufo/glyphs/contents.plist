@@ -46,8 +46,6 @@
 	<string>si_B_hI_.glif</string>
 	<key>si_BhIi</key>
 	<string>si_B_hI_i.glif</string>
-	<key>si_BhRI</key>
-	<string>si_B_hR_I_.glif</string>
 	<key>si_BhRIi</key>
 	<string>si_B_hR_I_i.glif</string>
 	<key>si_BhRa</key>
@@ -130,8 +128,6 @@
 	<string>si_D_R_I_.glif</string>
 	<key>si_DRIi</key>
 	<string>si_D_R_I_i.glif</string>
-	<key>si_DRa</key>
-	<string>si_D_R_a.glif</string>
 	<key>si_DU</key>
 	<string>si_D_U_.glif</string>
 	<key>si_DUu</key>
@@ -148,16 +144,16 @@
 	<string>si_D_V_U_u.glif</string>
 	<key>si_DVa</key>
 	<string>si_D_V_a.glif</string>
-	<key>si_DYAa.post</key>
-	<string>si_D_Y_A_a.post.glif</string>
-	<key>si_DYOo.post</key>
-	<string>si_D_Y_O_o.post.glif</string>
-	<key>si_DYUu.post</key>
-	<string>si_D_Y_U_u.post.glif</string>
-	<key>si_DYa.post</key>
-	<string>si_D_Y_a.post.glif</string>
-	<key>si_DYu.post</key>
-	<string>si_D_Y_u.post.glif</string>
+	<key>si_DYAa.post.alt</key>
+	<string>si_D_Y_A_a.post.alt.glif</string>
+	<key>si_DYOo.post.alt</key>
+	<string>si_D_Y_O_o.post.alt.glif</string>
+	<key>si_DYUu.post.alt</key>
+	<string>si_D_Y_U_u.post.alt.glif</string>
+	<key>si_DYa.post.alt</key>
+	<string>si_D_Y_a.post.alt.glif</string>
+	<key>si_DYu.post.alt</key>
+	<string>si_D_Y_u.post.alt.glif</string>
 	<key>si_Da</key>
 	<string>si_D_a.glif</string>
 	<key>si_Da.reph</key>
@@ -252,8 +248,6 @@
 	<string>si_F_a.reph.glif</string>
 	<key>si_G.halant</key>
 	<string>si_G_.halant.glif</string>
-	<key>si_GA.reph</key>
-	<string>si_G_A_.reph.glif</string>
 	<key>si_GDha</key>
 	<string>si_G_D_ha.glif</string>
 	<key>si_GI</key>
@@ -280,8 +274,6 @@
 	<string>si_G_a.touch.glif</string>
 	<key>si_Gh.halant</key>
 	<string>si_G_h.halant.glif</string>
-	<key>si_GhAa.reph</key>
-	<string>si_G_hA_a.reph.glif</string>
 	<key>si_GhI</key>
 	<string>si_G_hI_.glif</string>
 	<key>si_GhIi</key>
@@ -378,8 +370,6 @@
 	<string>si_J_ha.touch.glif</string>
 	<key>si_Jny.halant</key>
 	<string>si_J_ny.halant.glif</string>
-	<key>si_JnyAa</key>
-	<string>si_J_nyA_a.glif</string>
 	<key>si_JnyI</key>
 	<string>si_J_nyI_.glif</string>
 	<key>si_JnyIi</key>
@@ -920,8 +910,6 @@
 	<string>si_T_U_.glif</string>
 	<key>si_TUu</key>
 	<string>si_T_U_u.glif</string>
-	<key>si_TV.halant</key>
-	<string>si_T_V_.halant.glif</string>
 	<key>si_TVI</key>
 	<string>si_T_V_I_.glif</string>
 	<key>si_TVIi</key>

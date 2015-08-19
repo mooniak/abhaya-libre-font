@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="si_GA.reph" format="1">
-  <advance width="0"/>
+<glyph name="si_Ga.reph" format="1">
+  <advance width="636"/>
   <outline>
+    <component base="si_Ga"/>
+    <component base="si_Reph" xOffset="379" yOffset="-26"/>
   </outline>
 </glyph>

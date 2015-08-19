@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="si_JhRa">
+  <advance width="1087" />
+  <outline>
+    <contour>
+      <point type="line" x="992" y="102" />
+      <point x="999" y="93" />
+      <point x="1004" y="71" />
+      <point type="curve" x="1004" y="50" />
+      <point x="1004" y="-90" />
+      <point x="886" y="-157" />
+      <point type="curve" x="743" y="-157" />
+      <point x="638" y="-157" />
+      <point x="568" y="-119" />
+      <point type="curve" x="533" y="-44" />
+      <point type="line" x="506" y="-44" />
+      <point x="543" y="-153" />
+      <point x="626" y="-219" />
+      <point type="curve" x="759" y="-219" />
+      <point x="903" y="-219" />
+      <point x="1032" y="-124" />
+      <point type="curve" x="1032" y="38" />
+      <point x="1032" y="75" />
+      <point x="1023" y="106" />
+      <point type="curve" x="1005" y="133" />
+    </contour>
+  </outline>
+</glyph>

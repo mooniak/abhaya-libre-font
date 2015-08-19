@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_LI" format="1">
+  <advance width="670"/>
+  <outline>
+    <contour>
+      <point x="121.25" y="518" type="curve" smooth="yes"/>
+      <point x="121.25" y="626.291"/>
+      <point x="233.871" y="671"/>
+      <point x="353.25" y="671" type="curve" smooth="yes"/>
+      <point x="472.629" y="671"/>
+      <point x="585.25" y="626.291"/>
+      <point x="585.25" y="518" type="curve" smooth="yes"/>
+      <point x="585.25" y="443.457"/>
+      <point x="519.107" y="408.074"/>
+      <point x="442.25" y="405" type="curve"/>
+      <point x="430.5" y="428" type="line"/>
+      <point x="484.176" y="430.825"/>
+      <point x="518" y="447.041"/>
+      <point x="518" y="479" type="curve" smooth="yes"/>
+      <point x="518" y="521.434"/>
+      <point x="439.688" y="535.75"/>
+      <point x="353.25" y="535.75" type="curve" smooth="yes"/>
+      <point x="264.342" y="535.75"/>
+      <point x="184.25" y="521.776"/>
+      <point x="184.25" y="479" type="curve" smooth="yes"/>
+      <point x="184.25" y="450.304"/>
+      <point x="222.733" y="428.011"/>
+      <point x="296" y="426" type="curve"/>
+      <point x="264.25" y="405" type="line"/>
+      <point x="187.393" y="408.074"/>
+      <point x="121.25" y="443.457"/>
+    </contour>
+    <component base="uni0DBD"/>
+  </outline>
+</glyph>

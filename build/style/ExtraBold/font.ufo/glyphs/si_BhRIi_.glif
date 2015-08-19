@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_BhRIi" format="1">
-  <advance width="0"/>
+  <advance width="670"/>
   <outline>
+    <contour>
+      <point x="422" y="520" type="curve" smooth="yes"/>
+      <point x="422" y="487"/>
+      <point x="451" y="460"/>
+      <point x="488" y="460" type="curve" smooth="yes"/>
+      <point x="525" y="460"/>
+      <point x="555" y="487"/>
+      <point x="555" y="520" type="curve" smooth="yes"/>
+      <point x="555" y="553"/>
+      <point x="525" y="580"/>
+      <point x="488" y="580" type="curve" smooth="yes"/>
+      <point x="451" y="580"/>
+      <point x="422" y="553"/>
+    </contour>
+    <contour>
+      <point x="178" y="537" type="curve" smooth="yes"/>
+      <point x="178" y="628"/>
+      <point x="277" y="667"/>
+      <point x="379" y="667" type="curve" smooth="yes"/>
+      <point x="485" y="667"/>
+      <point x="587" y="618"/>
+      <point x="587" y="525" type="curve" smooth="yes"/>
+      <point x="587" y="457"/>
+      <point x="530" y="431"/>
+      <point x="488" y="431" type="curve" smooth="yes"/>
+      <point x="443" y="431"/>
+      <point x="389" y="463"/>
+      <point x="389" y="520" type="curve" smooth="yes"/>
+      <point x="389" y="539"/>
+      <point x="396" y="554"/>
+      <point x="403" y="566" type="curve"/>
+      <point x="398" y="566"/>
+      <point x="392" y="566"/>
+      <point x="386" y="566" type="curve" smooth="yes"/>
+      <point x="305" y="566"/>
+      <point x="249" y="538"/>
+      <point x="249" y="503" type="curve" smooth="yes"/>
+      <point x="249" y="454"/>
+      <point x="353" y="431"/>
+      <point x="439" y="431" type="curve" smooth="yes"/>
+      <point x="440" y="431"/>
+      <point x="440" y="431"/>
+      <point x="441" y="432" type="curve"/>
+      <point x="425" y="406" type="line"/>
+      <point x="265" y="409"/>
+      <point x="178" y="462"/>
+    </contour>
+    <contour>
+      <point x="76" y="-44" type="curve"/>
+      <point x="105" y="-44" type="line"/>
+      <point x="139" y="-93"/>
+      <point x="195" y="-114"/>
+      <point x="308" y="-114" type="curve" smooth="yes"/>
+      <point x="460" y="-114"/>
+      <point x="572" y="-31"/>
+      <point x="572" y="63" type="curve" smooth="yes"/>
+      <point x="572" y="78"/>
+      <point x="569" y="91"/>
+      <point x="562" y="102" type="curve"/>
+      <point x="575" y="133" type="line"/>
+      <point x="593" y="106"/>
+      <point x="602" y="75"/>
+      <point x="602" y="38" type="curve" smooth="yes"/>
+      <point x="602" y="-124"/>
+      <point x="483" y="-219"/>
+      <point x="331" y="-219" type="curve" smooth="yes"/>
+      <point x="191" y="-219"/>
+      <point x="113" y="-153"/>
+    </contour>
+    <component base="si_Bha"/>
   </outline>
 </glyph>

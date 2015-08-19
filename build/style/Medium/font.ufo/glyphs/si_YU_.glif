@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_YU" format="1">
-  <advance width="0"/>
+  <advance width="636"/>
   <outline>
+    <contour>
+      <point x="50" y="-142" type="curve" smooth="yes"/>
+      <point x="50" y="-90"/>
+      <point x="96" y="-50"/>
+      <point x="152" y="-50" type="curve" smooth="yes"/>
+      <point x="193" y="-50"/>
+      <point x="231" y="-74"/>
+      <point x="246" y="-110" type="curve"/>
+      <point x="215" y="-122" type="line"/>
+      <point x="208" y="-102"/>
+      <point x="184" y="-80"/>
+      <point x="152" y="-80" type="curve" smooth="yes"/>
+      <point x="115" y="-80"/>
+      <point x="84" y="-108"/>
+      <point x="84" y="-142" type="curve" smooth="yes"/>
+      <point x="84" y="-172"/>
+      <point x="107" y="-198"/>
+      <point x="173" y="-198" type="curve" smooth="yes"/>
+      <point x="551" y="-198" type="line"/>
+      <point x="551" y="128" type="line"/>
+      <point x="584" y="202" type="line"/>
+      <point x="584" y="-235" type="line"/>
+      <point x="156" y="-235" type="line" smooth="yes"/>
+      <point x="84" y="-235"/>
+      <point x="50" y="-186"/>
+    </contour>
+    <component base="si_Ya"/>
   </outline>
 </glyph>

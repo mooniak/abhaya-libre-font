@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_KSsI" format="1">
+  <advance width="1069"/>
+  <outline>
+    <contour>
+      <point x="515.244" y="518" type="curve" smooth="yes"/>
+      <point x="515.244" y="626.291"/>
+      <point x="627.865" y="671"/>
+      <point x="747.244" y="671" type="curve" smooth="yes"/>
+      <point x="866.623" y="671"/>
+      <point x="979.244" y="626.291"/>
+      <point x="979.244" y="518" type="curve" smooth="yes"/>
+      <point x="979.244" y="443.457"/>
+      <point x="913.102" y="408.074"/>
+      <point x="836.244" y="405" type="curve"/>
+      <point x="836.244" y="426" type="line"/>
+      <point x="889.92" y="428.825"/>
+      <point x="945.244" y="454"/>
+      <point x="945.244" y="509" type="curve" smooth="yes"/>
+      <point x="945.244" y="580.089"/>
+      <point x="836.152" y="598"/>
+      <point x="747.244" y="598" type="curve" smooth="yes"/>
+      <point x="658.336" y="598"/>
+      <point x="549.244" y="580.089"/>
+      <point x="549.244" y="509" type="curve" smooth="yes"/>
+      <point x="549.244" y="454"/>
+      <point x="604.568" y="428.825"/>
+      <point x="658.244" y="426" type="curve"/>
+      <point x="658.244" y="405" type="line"/>
+      <point x="581.387" y="408.074"/>
+      <point x="515.244" y="443.457"/>
+    </contour>
+    <component base="si_KSsa"/>
+  </outline>
+</glyph>

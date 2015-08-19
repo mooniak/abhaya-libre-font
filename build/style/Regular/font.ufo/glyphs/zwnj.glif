@@ -3,5 +3,6 @@
   <advance width="44"/>
   <unicode hex="200C"/>
   <outline>
+    <component base="zwj"/>
   </outline>
 </glyph>

@@ -32,10 +32,6 @@ def fix_Glyphs_UFO_masters(masters):
             font.info.postscriptStemSnapH = []
         if not font.info.postscriptStemSnapV:
             font.info.postscriptStemSnapV = []
-        if not font.info.postscriptBlueValues:
-            font.info.postscriptBlueValues=[]
-        if not font.info.postscriptOtherBlues:
-            font.info.postscriptOtherBlues=[]
 
         font.save()
 
@@ -76,3 +72,5 @@ for font in STYLE_NAMES:
     f.close()
     otf_path=build_path+"/"+FAMILY_NAME+"-"+font+".otf"
     print check_output("makeotf -f "+style_dir+"/font.ufo -o "+otf_path+" -mf FontMenuNameDB -gf GlyphOrderAndAliasDB"+makeotf_args, shell=True)
+
+

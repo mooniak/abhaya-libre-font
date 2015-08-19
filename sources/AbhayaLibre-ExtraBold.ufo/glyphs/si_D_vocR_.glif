@@ -50,8 +50,11 @@
       <point x="454" y="76.335"/>
       <point x="467.87" y="29.5"/>
       <point x="507.5" y="29.5" type="curve" smooth="yes"/>
-      <point x="534.398" y="29.5"/>
-      <point x="536.751" y="40.627"/>
+      <point x="527.696" y="29.5"/>
+      <point x="534.054" y="35.7724"/>
+      <point x="542" y="39.4796" type="curve" smooth="yes"/>
+      <point x="544.637" y="40.71"/>
+      <point x="547.449" y="41.6578"/>
       <point x="551" y="42" type="curve"/>
       <point x="542.893" y="47.1436"/>
       <point x="542.25" y="75.833"/>
@@ -68,6 +71,6 @@
       <point x="476.448" y="174.578"/>
       <point x="454" y="150.545"/>
     </contour>
-    <component base="si_Da"/>
+    <component base="uni0DAF"/>
   </outline>
 </glyph>

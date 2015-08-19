@@ -46,8 +46,6 @@
 	<string>si_BhI_.glif</string>
 	<key>si_BhIi</key>
 	<string>si_BhIi_.glif</string>
-	<key>si_BhRI</key>
-	<string>si_BhRI_.glif</string>
 	<key>si_BhRIi</key>
 	<string>si_BhRIi_.glif</string>
 	<key>si_BhRa</key>
@@ -130,8 +128,6 @@
 	<string>si_DRI_.glif</string>
 	<key>si_DRIi</key>
 	<string>si_DRIi_.glif</string>
-	<key>si_DRa</key>
-	<string>si_DRa_.glif</string>
 	<key>si_DU</key>
 	<string>si_DU_.glif</string>
 	<key>si_DUu</key>
@@ -148,16 +144,6 @@
 	<string>si_DVUu_.glif</string>
 	<key>si_DVa</key>
 	<string>si_DVa_.glif</string>
-	<key>si_DYAa.post</key>
-	<string>si_DYAa_.post.glif</string>
-	<key>si_DYOo.post</key>
-	<string>si_DYOo_.post.glif</string>
-	<key>si_DYUu.post</key>
-	<string>si_DYUu_.post.glif</string>
-	<key>si_DYa.post</key>
-	<string>si_DYa_.post.glif</string>
-	<key>si_DYu.post</key>
-	<string>si_DYu_.post.glif</string>
 	<key>si_Da</key>
 	<string>si_Da_.glif</string>
 	<key>si_Da.reph</key>
@@ -252,8 +238,6 @@
 	<string>si_Fa_.reph.glif</string>
 	<key>si_G.halant</key>
 	<string>si_G_.halant.glif</string>
-	<key>si_GA.reph</key>
-	<string>si_GA_.reph.glif</string>
 	<key>si_GDha</key>
 	<string>si_GDha_.glif</string>
 	<key>si_GI</key>
@@ -280,8 +264,6 @@
 	<string>si_Ga_.touch.glif</string>
 	<key>si_Gh.halant</key>
 	<string>si_Gh_.halant.glif</string>
-	<key>si_GhAa.reph</key>
-	<string>si_GhAa_.reph.glif</string>
 	<key>si_GhI</key>
 	<string>si_GhI_.glif</string>
 	<key>si_GhIi</key>
@@ -378,8 +360,6 @@
 	<string>si_Jha_.touch.glif</string>
 	<key>si_Jny.halant</key>
 	<string>si_Jny_.halant.glif</string>
-	<key>si_JnyAa</key>
-	<string>si_JnyAa_.glif</string>
 	<key>si_JnyI</key>
 	<string>si_JnyI_.glif</string>
 	<key>si_JnyIi</key>
@@ -920,8 +900,6 @@
 	<string>si_TU_.glif</string>
 	<key>si_TUu</key>
 	<string>si_TUu_.glif</string>
-	<key>si_TV.halant</key>
-	<string>si_TV_.halant.glif</string>
 	<key>si_TVI</key>
 	<string>si_TVI_.glif</string>
 	<key>si_TVIi</key>
@@ -1072,6 +1050,8 @@
 	<string>si_vocalicR_.glif</string>
 	<key>si_vocalicRr</key>
 	<string>si_vocalicRr_.glif</string>
+	<key>uni0020</key>
+	<string>uni0020.glif</string>
 	<key>visarga</key>
 	<string>visarga.glif</string>
 	<key>zwj</key>

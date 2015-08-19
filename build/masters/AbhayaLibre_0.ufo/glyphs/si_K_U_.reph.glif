@@ -2,7 +2,59 @@
 <glyph name="si_KU.reph" format="1">
   <advance width="746"/>
   <outline>
-    <component base="si_Reph" xOffset="742" yOffset="-25"/>
+    <contour>
+      <point x="411" y="486" type="curve" smooth="yes"/>
+      <point x="411" y="465"/>
+      <point x="430" y="449"/>
+      <point x="452" y="449" type="curve" smooth="yes"/>
+      <point x="474" y="449"/>
+      <point x="493" y="465"/>
+      <point x="493" y="486" type="curve" smooth="yes"/>
+      <point x="493" y="507"/>
+      <point x="474" y="523"/>
+      <point x="452" y="523" type="curve" smooth="yes"/>
+      <point x="430" y="523"/>
+      <point x="411" y="507"/>
+    </contour>
+    <contour>
+      <point x="309" y="505" type="curve" smooth="yes"/>
+      <point x="309" y="569"/>
+      <point x="367" y="606"/>
+      <point x="449" y="606" type="curve" smooth="yes"/>
+      <point x="526" y="606"/>
+      <point x="590" y="563"/>
+      <point x="590" y="492" type="curve" smooth="yes"/>
+      <point x="590" y="468"/>
+      <point x="582" y="446"/>
+      <point x="565" y="427" type="curve"/>
+      <point x="531" y="427" type="line"/>
+      <point x="544" y="439"/>
+      <point x="560" y="464"/>
+      <point x="560" y="491" type="curve" smooth="yes"/>
+      <point x="560" y="548"/>
+      <point x="509" y="579"/>
+      <point x="448" y="579" type="curve" smooth="yes"/>
+      <point x="395" y="579"/>
+      <point x="340" y="558"/>
+      <point x="340" y="505" type="curve" smooth="yes"/>
+      <point x="340" y="466"/>
+      <point x="381" y="447"/>
+      <point x="404" y="445" type="curve"/>
+      <point x="396" y="451"/>
+      <point x="384" y="466"/>
+      <point x="384" y="487" type="curve" smooth="yes"/>
+      <point x="384" y="522"/>
+      <point x="415" y="547"/>
+      <point x="451" y="547" type="curve" smooth="yes"/>
+      <point x="492" y="547"/>
+      <point x="520" y="520"/>
+      <point x="520" y="485" type="curve" smooth="yes"/>
+      <point x="520" y="446"/>
+      <point x="485" y="420"/>
+      <point x="427" y="420" type="curve" smooth="yes"/>
+      <point x="368" y="420"/>
+      <point x="309" y="449"/>
+    </contour>
     <component base="si_KU"/>
   </outline>
 </glyph>
