@@ -122,7 +122,7 @@ feature kern {
 	\si_NDRIi \si_NTh.halant \si_SsRIi \si_NV.halant \si_KSsUu \si_JhRa 
 	\si_KU.reph \si_BRa \si_DYa.post \si_DYAa.post \si_DYu.post \si_DYUu.post 
 	\si_DYOo.post \si_JnyAa \si_DRa \NameMe.544 \si_JnyOo \NameMe.559 \NameMe.560 
-	\NameMe.561 \NameMe.562 \NameMe.563 \NameMe.564 \si_BhRI \si_TV.halant ];
+	\NameMe.562 \NameMe.563 \NameMe.564 \si_BhRI \si_TV.halant ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
