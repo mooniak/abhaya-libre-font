@@ -50,8 +50,11 @@
       <point x="710" y="76"/>
       <point x="724" y="30"/>
       <point x="763" y="30" type="curve" smooth="yes"/>
-      <point x="790" y="30"/>
-      <point x="793" y="41"/>
+      <point x="783" y="30"/>
+      <point x="789" y="35"/>
+      <point x="797" y="39" type="curve" smooth="yes"/>
+      <point x="800" y="41"/>
+      <point x="803" y="42"/>
       <point x="807" y="42" type="curve"/>
       <point x="799" y="47"/>
       <point x="798" y="76"/>
@@ -116,8 +119,11 @@
       <point x="454" y="76"/>
       <point x="468" y="30"/>
       <point x="508" y="30" type="curve" smooth="yes"/>
-      <point x="534" y="30"/>
-      <point x="537" y="41"/>
+      <point x="527" y="30"/>
+      <point x="533" y="35"/>
+      <point x="541" y="39" type="curve" smooth="yes"/>
+      <point x="544" y="40"/>
+      <point x="547" y="42"/>
       <point x="551" y="42" type="curve"/>
       <point x="543" y="47"/>
       <point x="542" y="76"/>
@@ -134,6 +140,6 @@
       <point x="476" y="175"/>
       <point x="454" y="151"/>
     </contour>
-    <component base="si_Da"/>
+    <component base="uni0DAF"/>
   </outline>
 </glyph>

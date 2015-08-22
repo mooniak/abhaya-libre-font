@@ -13,6 +13,7 @@
       <point x="801" y="443"/>
       <point x="737" y="406"/>
       <point x="685" y="405" type="curve"/>
+      <point x="648" y="428" type="line"/>
       <point x="667" y="427" type="line"/>
       <point x="724" y="427"/>
       <point x="744" y="459"/>
@@ -30,6 +31,6 @@
       <point x="485" y="427"/>
       <point x="425" y="451"/>
     </contour>
-    <component base="si_Jnya"/>
+    <component base="uni0DA5"/>
   </outline>
 </glyph>

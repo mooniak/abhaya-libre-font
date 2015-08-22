@@ -42,10 +42,11 @@
       <point x="147" y="446"/>
       <point x="203" y="430"/>
       <point x="237" y="428" type="curve"/>
+      <point x="267" y="424" type="line"/>
       <point x="189" y="409" type="line"/>
       <point x="142" y="418"/>
       <point x="87" y="456"/>
     </contour>
-    <component base="si_Lla"/>
+    <component base="uni0DC5"/>
   </outline>
 </glyph>

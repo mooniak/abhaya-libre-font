@@ -26,10 +26,11 @@
       <point x="184" y="450"/>
       <point x="223" y="428"/>
       <point x="296" y="426" type="curve"/>
+      <point x="326" y="424" type="line"/>
       <point x="264" y="405" type="line"/>
       <point x="187" y="408"/>
       <point x="121" y="443"/>
     </contour>
-    <component base="si_La"/>
+    <component base="uni0DBD"/>
   </outline>
 </glyph>
