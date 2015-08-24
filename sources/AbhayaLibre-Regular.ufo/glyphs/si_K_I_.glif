@@ -21,15 +21,15 @@
       <point x="555" y="598"/>
       <point x="473" y="598" type="curve" smooth="yes"/>
       <point x="336" y="598"/>
-      <point x="244" y="527.637"/>
+      <point x="244" y="528"/>
       <point x="244" y="404" type="curve" smooth="yes"/>
-      <point x="244" y="389.333"/>
-      <point x="245.667" y="376.333"/>
+      <point x="244" y="389"/>
+      <point x="246" y="376"/>
       <point x="249" y="365" type="curve"/>
       <point x="225" y="343" type="line"/>
-      <point x="220.903" y="360.752"/>
-      <point x="218" y="389.837"/>
+      <point x="221" y="361"/>
+      <point x="218" y="390"/>
     </contour>
-    <component base="si_Ka"/>
+    <component base="uni0D9A"/>
   </outline>
 </glyph>

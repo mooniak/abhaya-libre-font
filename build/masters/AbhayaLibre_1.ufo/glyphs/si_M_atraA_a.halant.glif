@@ -2,7 +2,7 @@
 <glyph name="si_MatraAa.halant" format="1">
   <advance width="350"/>
   <outline>
-    <component base="si_MatraAa" xOffset="17"/>
-    <component base="si_Halant" xOffset="317"/>
+    <component base="uni0DCF" xOffset="17"/>
+    <component base="uni0DCA" xOffset="317"/>
   </outline>
 </glyph>

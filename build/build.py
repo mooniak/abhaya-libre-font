@@ -32,6 +32,10 @@ def fix_Glyphs_UFO_masters(masters):
             font.info.postscriptStemSnapH = []
         if not font.info.postscriptStemSnapV:
             font.info.postscriptStemSnapV = []
+        if not font.info.postscriptBlueValues:
+            font.info.postscriptBlueValues=[]
+        if not font.info.postscriptOtherBlues:
+            font.info.postscriptOtherBlues=[]
 
         font.save()
 

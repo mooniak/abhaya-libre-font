@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Halant.alt" format="1">
+  <advance width="8"/>
+  <outline>
+    <contour>
+      <point x="-98" y="516" type="line"/>
+      <point x="-89" y="512"/>
+      <point x="-79" y="510"/>
+      <point x="-68" y="510" type="curve" smooth="yes"/>
+      <point x="-31" y="510"/>
+      <point x="-12" y="526"/>
+      <point x="-12" y="559" type="curve" smooth="yes"/>
+      <point x="-12" y="596"/>
+      <point x="-38" y="626"/>
+      <point x="-98" y="659" type="curve"/>
+    </contour>
+    <contour>
+      <point x="29" y="514"/>
+      <point x="-3" y="487"/>
+      <point x="-48" y="487" type="curve" smooth="yes"/>
+      <point x="-63" y="487"/>
+      <point x="-80" y="490"/>
+      <point x="-98" y="496" type="curve"/>
+      <point x="-98" y="396" type="line"/>
+      <point x="-126" y="439" type="line"/>
+      <point x="-126" y="703" type="line"/>
+      <point x="-115" y="694"/>
+      <point x="-95" y="682"/>
+      <point x="-64" y="668" type="curve"/>
+      <point x="-40" y="656"/>
+      <point x="-26" y="649"/>
+      <point x="-9" y="636" type="curve" smooth="yes"/>
+      <point x="8" y="623"/>
+      <point x="17" y="610"/>
+      <point x="24" y="590" type="curve"/>
+      <point x="27" y="580"/>
+      <point x="29" y="569"/>
+      <point x="29" y="557" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

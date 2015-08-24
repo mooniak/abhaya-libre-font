@@ -6,16 +6,17 @@ STYLE_NAMES = [
     'SemiBold',
     'Bold',
     'ExtraBold',
+
 ]
 
 UFOIG_ARGS = [
-    #'-kern',
+    # '-kern',
     #'-mark',
-    #'-hint',
-    '-flat',
+    # '-hint',
+    #'-flat',
     #'-mkmk',
     #'-clas',
-    #'-indi',
+    '-indi',
 ]
 
 MAKEOTF_ARGS = [

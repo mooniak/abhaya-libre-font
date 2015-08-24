@@ -3,27 +3,27 @@
   <advance width="677"/>
   <outline>
     <contour>
-      <point x="74.25" y="-44" type="curve"/>
-      <point x="103.75" y="-44" type="line"/>
-      <point x="141.226" y="-86.958"/>
-      <point x="217.417" y="-114.25"/>
-      <point x="322.75" y="-114.25" type="curve" smooth="yes"/>
-      <point x="465.75" y="-114.25"/>
-      <point x="583" y="-31.0107"/>
-      <point x="583" y="63.25" type="curve" smooth="yes"/>
-      <point x="583" y="78.2842"/>
-      <point x="581.438" y="90.4463"/>
+      <point x="74" y="-44" type="curve"/>
+      <point x="104" y="-44" type="line"/>
+      <point x="141" y="-87"/>
+      <point x="217" y="-114"/>
+      <point x="323" y="-114" type="curve" smooth="yes"/>
+      <point x="466" y="-114"/>
+      <point x="583" y="-31"/>
+      <point x="583" y="63" type="curve" smooth="yes"/>
+      <point x="583" y="78"/>
+      <point x="581" y="90"/>
       <point x="576" y="102" type="curve"/>
       <point x="589" y="133" type="line"/>
-      <point x="607" y="106.333"/>
-      <point x="616" y="74.667"/>
+      <point x="607" y="106"/>
+      <point x="616" y="75"/>
       <point x="616" y="38" type="curve" smooth="yes"/>
-      <point x="616" y="-123.729"/>
-      <point x="481.5" y="-219"/>
-      <point x="337.5" y="-219" type="curve" smooth="yes"/>
-      <point x="198.368" y="-219"/>
-      <point x="111.583" y="-153.333"/>
+      <point x="616" y="-124"/>
+      <point x="482" y="-219"/>
+      <point x="338" y="-219" type="curve" smooth="yes"/>
+      <point x="198" y="-219"/>
+      <point x="112" y="-153"/>
     </contour>
-    <component base="si_Sa"/>
+    <component base="uni0DC3"/>
   </outline>
 </glyph>

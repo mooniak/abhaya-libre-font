@@ -3,31 +3,31 @@
   <advance width="1024"/>
   <outline>
     <contour>
-      <point x="834.75" y="401" type="line"/>
-      <point x="834.75" y="681" type="line"/>
-      <point x="888.75" y="639"/>
-      <point x="986.25" y="634"/>
-      <point x="986.25" y="542" type="curve" smooth="yes"/>
-      <point x="986.25" y="498"/>
-      <point x="951.441" y="468"/>
-      <point x="908.25" y="468" type="curve" smooth="yes"/>
-      <point x="893.583" y="468"/>
-      <point x="878.583" y="471.333"/>
-      <point x="863.25" y="478" type="curve"/>
-      <point x="863.25" y="384" type="line"/>
+      <point x="835" y="401" type="line"/>
+      <point x="835" y="681" type="line"/>
+      <point x="889" y="639"/>
+      <point x="986" y="634"/>
+      <point x="986" y="542" type="curve" smooth="yes"/>
+      <point x="986" y="498"/>
+      <point x="951" y="468"/>
+      <point x="908" y="468" type="curve" smooth="yes"/>
+      <point x="894" y="468"/>
+      <point x="879" y="471"/>
+      <point x="863" y="478" type="curve"/>
+      <point x="863" y="384" type="line"/>
     </contour>
     <contour>
-      <point x="863.355" y="504.273" type="line"/>
-      <point x="871.85" y="499.699"/>
-      <point x="882.632" y="497.413"/>
-      <point x="895.698" y="497.413" type="curve" smooth="yes"/>
-      <point x="927.704" y="497.413"/>
-      <point x="941.25" y="521.915"/>
-      <point x="941.25" y="545.438" type="curve" smooth="yes"/>
-      <point x="941.25" y="586.602"/>
-      <point x="909.42" y="606.203"/>
-      <point x="863.355" y="636.587" type="curve"/>
+      <point x="863" y="504" type="line"/>
+      <point x="872" y="500"/>
+      <point x="883" y="497"/>
+      <point x="896" y="497" type="curve" smooth="yes"/>
+      <point x="928" y="497"/>
+      <point x="941" y="522"/>
+      <point x="941" y="545" type="curve" smooth="yes"/>
+      <point x="941" y="587"/>
+      <point x="909" y="606"/>
+      <point x="863" y="637" type="curve"/>
     </contour>
-    <component base="si_Nya"/>
+    <component base="uni0DA4"/>
   </outline>
 </glyph>

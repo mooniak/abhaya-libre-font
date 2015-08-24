@@ -3,33 +3,33 @@
   <advance width="456"/>
   <outline>
     <contour>
-      <point x="35.0801" y="518" type="curve" smooth="yes"/>
-      <point x="35.0801" y="618.565"/>
-      <point x="126.303" y="671"/>
+      <point x="35" y="518" type="curve" smooth="yes"/>
+      <point x="35" y="619"/>
+      <point x="126" y="671"/>
       <point x="223" y="671" type="curve" smooth="yes"/>
-      <point x="319.697" y="671"/>
-      <point x="410.92" y="617.064"/>
-      <point x="410.92" y="518" type="curve" smooth="yes"/>
-      <point x="410.92" y="443.457"/>
-      <point x="347.584" y="406.19"/>
-      <point x="295.09" y="405" type="curve"/>
-      <point x="283.09" y="426" type="line"/>
-      <point x="337.176" y="426.005"/>
-      <point x="380.63" y="461.523"/>
-      <point x="380.63" y="509" type="curve" smooth="yes"/>
-      <point x="380.63" y="570.685"/>
-      <point x="295.016" y="598"/>
+      <point x="320" y="671"/>
+      <point x="411" y="617"/>
+      <point x="411" y="518" type="curve" smooth="yes"/>
+      <point x="411" y="443"/>
+      <point x="348" y="406"/>
+      <point x="295" y="405" type="curve"/>
+      <point x="283" y="426" type="line"/>
+      <point x="337" y="426"/>
+      <point x="381" y="462"/>
+      <point x="381" y="509" type="curve" smooth="yes"/>
+      <point x="381" y="571"/>
+      <point x="295" y="598"/>
       <point x="223" y="598" type="curve" smooth="yes"/>
-      <point x="150.984" y="598"/>
-      <point x="66.1201" y="573.424"/>
-      <point x="66.1201" y="509" type="curve" smooth="yes"/>
-      <point x="66.1201" y="460.729"/>
-      <point x="108.769" y="425"/>
+      <point x="151" y="598"/>
+      <point x="66" y="573"/>
+      <point x="66" y="509" type="curve" smooth="yes"/>
+      <point x="66" y="461"/>
+      <point x="109" y="425"/>
       <point x="194" y="425" type="curve"/>
-      <point x="150.91" y="405" type="line"/>
-      <point x="84.9511" y="414.727"/>
-      <point x="35.0801" y="450.955"/>
+      <point x="151" y="405" type="line"/>
+      <point x="85" y="415"/>
+      <point x="35" y="451"/>
     </contour>
-    <component base="si_Da"/>
+    <component base="uni0DAF"/>
   </outline>
 </glyph>

@@ -13,23 +13,23 @@
       <point x="688" y="444"/>
       <point x="658" y="402"/>
       <point x="610" y="383" type="curve"/>
-      <point x="578.75" y="403.5" type="line"/>
-      <point x="612.845" y="407.907"/>
-      <point x="633" y="426.338"/>
+      <point x="579" y="404" type="line"/>
+      <point x="613" y="408"/>
+      <point x="633" y="426"/>
       <point x="633" y="456" type="curve" smooth="yes"/>
-      <point x="633" y="514.546"/>
-      <point x="555" y="549.75"/>
-      <point x="473" y="549.75" type="curve" smooth="yes"/>
-      <point x="336" y="549.75"/>
-      <point x="246.5" y="473.841"/>
-      <point x="246.5" y="396.25" type="curve" smooth="yes"/>
-      <point x="246.5" y="386.95"/>
-      <point x="247.657" y="375.107"/>
-      <point x="250.25" y="365.5" type="curve"/>
+      <point x="633" y="515"/>
+      <point x="555" y="550"/>
+      <point x="473" y="550" type="curve" smooth="yes"/>
+      <point x="336" y="550"/>
+      <point x="246" y="474"/>
+      <point x="246" y="396" type="curve" smooth="yes"/>
+      <point x="246" y="387"/>
+      <point x="248" y="375"/>
+      <point x="250" y="366" type="curve"/>
       <point x="225" y="343" type="line"/>
-      <point x="220.903" y="360.752"/>
-      <point x="218" y="389.837"/>
+      <point x="221" y="361"/>
+      <point x="218" y="390"/>
     </contour>
-    <component base="si_Ka"/>
+    <component base="uni0D9A"/>
   </outline>
 </glyph>

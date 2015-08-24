@@ -8,176 +8,538 @@
 	<false/>
 	<key>public.glyphOrder</key>
 	<array>
+		<string>uni00B9</string>
+		<string>uni00B2</string>
+		<string>uni00B3</string>
+		<string>uni00AD</string>
+		<string>uni00C6</string>
+		<string>uni00D0</string>
+		<string>uni0152</string>
+		<string>uni00DE</string>
+		<string>uni0041</string>
+		<string>uni0042</string>
+		<string>uni0043</string>
+		<string>uni0044</string>
+		<string>uni0045</string>
+		<string>uni0046</string>
+		<string>uni0047</string>
+		<string>uni0048</string>
+		<string>uni0049</string>
+		<string>uni004A</string>
+		<string>uni004B</string>
+		<string>uni004C</string>
+		<string>uni004D</string>
+		<string>uni004E</string>
+		<string>uni004F</string>
+		<string>uni0050</string>
+		<string>uni0051</string>
+		<string>uni0052</string>
+		<string>uni0053</string>
+		<string>uni0054</string>
+		<string>uni0055</string>
+		<string>uni0056</string>
+		<string>uni0057</string>
+		<string>uni0058</string>
+		<string>uni0059</string>
+		<string>uni005A</string>
+		<string>uni00C0</string>
+		<string>uni00C1</string>
+		<string>uni00C2</string>
+		<string>uni00C3</string>
+		<string>uni00C4</string>
+		<string>uni00C5</string>
+		<string>uni00C7</string>
+		<string>uni00C8</string>
+		<string>uni00C9</string>
+		<string>uni00CA</string>
+		<string>uni00CB</string>
+		<string>uni00CC</string>
+		<string>uni00CD</string>
+		<string>uni00CE</string>
+		<string>uni00CF</string>
+		<string>uni00D1</string>
+		<string>uni00D2</string>
+		<string>uni00D3</string>
+		<string>uni00D4</string>
+		<string>uni00D5</string>
+		<string>uni00D6</string>
+		<string>uni00D8</string>
+		<string>uni00D9</string>
+		<string>uni00DA</string>
+		<string>uni00DB</string>
+		<string>uni00DC</string>
+		<string>uni00DD</string>
+		<string>uni0100</string>
+		<string>uni0102</string>
+		<string>uni0104</string>
+		<string>uni0106</string>
+		<string>uni010C</string>
+		<string>uni010E</string>
+		<string>uni0110</string>
+		<string>uni0112</string>
+		<string>uni0116</string>
+		<string>uni0118</string>
+		<string>uni011A</string>
+		<string>uni011E</string>
+		<string>uni0122</string>
+		<string>uni012A</string>
+		<string>uni012E</string>
+		<string>uni0130</string>
+		<string>uni0136</string>
+		<string>uni0139</string>
+		<string>uni013B</string>
+		<string>uni013D</string>
+		<string>uni0141</string>
+		<string>uni0143</string>
+		<string>uni0145</string>
+		<string>uni0147</string>
+		<string>uni014C</string>
+		<string>uni0150</string>
+		<string>uni0154</string>
+		<string>uni0156</string>
+		<string>uni0158</string>
+		<string>uni015A</string>
+		<string>uni015E</string>
+		<string>uni0160</string>
+		<string>uni0162</string>
+		<string>uni0164</string>
+		<string>uni016A</string>
+		<string>uni016E</string>
+		<string>uni0170</string>
+		<string>uni0172</string>
+		<string>uni0178</string>
+		<string>uni0179</string>
+		<string>uni017B</string>
+		<string>uni017D</string>
+		<string>uni0218</string>
+		<string>uni021A</string>
+		<string>uni00E6</string>
+		<string>uni00F0</string>
+		<string>uni0131</string>
+		<string>uni0153</string>
+		<string>uni00FE</string>
+		<string>uni00DF</string>
+		<string>uni0061</string>
+		<string>uni0062</string>
+		<string>uni0063</string>
+		<string>uni0064</string>
+		<string>uni0065</string>
+		<string>uni0066</string>
+		<string>uni0067</string>
+		<string>uni0068</string>
+		<string>uni0069</string>
+		<string>uni006A</string>
+		<string>uni006B</string>
+		<string>uni006C</string>
+		<string>uni006D</string>
+		<string>uni006E</string>
+		<string>uni006F</string>
+		<string>uni0070</string>
+		<string>uni0071</string>
+		<string>uni0072</string>
+		<string>uni0073</string>
+		<string>uni0074</string>
+		<string>uni0075</string>
+		<string>uni0076</string>
+		<string>uni0077</string>
+		<string>uni0078</string>
+		<string>uni0079</string>
+		<string>uni007A</string>
+		<string>uni00E0</string>
+		<string>uni00E1</string>
+		<string>uni00E2</string>
+		<string>uni00E3</string>
+		<string>uni00E4</string>
+		<string>uni00E5</string>
+		<string>uni00E7</string>
+		<string>uni00E8</string>
+		<string>uni00E9</string>
+		<string>uni00EA</string>
+		<string>uni00EB</string>
+		<string>uni00EC</string>
+		<string>uni00ED</string>
+		<string>uni00EE</string>
+		<string>uni00EF</string>
+		<string>uni00F1</string>
+		<string>uni00F2</string>
+		<string>uni00F3</string>
+		<string>uni00F4</string>
+		<string>uni00F5</string>
+		<string>uni00F6</string>
+		<string>uni00F8</string>
+		<string>uni00F9</string>
+		<string>uni00FA</string>
+		<string>uni00FB</string>
+		<string>uni00FC</string>
+		<string>uni00FD</string>
+		<string>uni00FF</string>
+		<string>uni0101</string>
+		<string>uni0103</string>
+		<string>uni0105</string>
+		<string>uni0107</string>
+		<string>uni010D</string>
+		<string>uni010F</string>
+		<string>uni0111</string>
+		<string>uni0113</string>
+		<string>uni0117</string>
+		<string>uni0119</string>
+		<string>uni011B</string>
+		<string>uni011F</string>
+		<string>uni0123</string>
+		<string>uni012B</string>
+		<string>uni012F</string>
+		<string>uni0137</string>
+		<string>uni013A</string>
+		<string>uni013C</string>
+		<string>uni013E</string>
+		<string>uni0142</string>
+		<string>uni0144</string>
+		<string>uni0146</string>
+		<string>uni0148</string>
+		<string>uni014D</string>
+		<string>uni0151</string>
+		<string>uni0155</string>
+		<string>uni0157</string>
+		<string>uni0159</string>
+		<string>uni015B</string>
+		<string>uni015F</string>
+		<string>uni0161</string>
+		<string>uni0163</string>
+		<string>uni0165</string>
+		<string>uni016B</string>
+		<string>uni016F</string>
+		<string>uni0171</string>
+		<string>uni0173</string>
+		<string>uni017A</string>
+		<string>uni017C</string>
+		<string>uni017E</string>
+		<string>uni0219</string>
+		<string>uni021B</string>
+		<string>uniFB01</string>
+		<string>uniFB02</string>
+		<string>uni00AA</string>
+		<string>uni00BA</string>
+		<string>uni03C0</string>
+		<string>uni0030</string>
+		<string>uni0031</string>
+		<string>uni0032</string>
+		<string>uni0033</string>
+		<string>uni0034</string>
+		<string>uni0035</string>
+		<string>uni0036</string>
+		<string>uni0037</string>
+		<string>uni0038</string>
+		<string>uni0039</string>
+		<string>uni0030.numr</string>
+		<string>uni0031.numr</string>
+		<string>uni0032.numr</string>
+		<string>uni0033.numr</string>
+		<string>uni0034.numr</string>
+		<string>uni0035.numr</string>
+		<string>uni0036.numr</string>
+		<string>uni0037.numr</string>
+		<string>uni0038.numr</string>
+		<string>uni0039.numr</string>
+		<string>uni0030.tf</string>
+		<string>uni0031.tf</string>
+		<string>uni0032.tf</string>
+		<string>uni0033.tf</string>
+		<string>uni0034.tf</string>
+		<string>uni0035.tf</string>
+		<string>uni0036.tf</string>
+		<string>uni0037.tf</string>
+		<string>uni0038.tf</string>
+		<string>uni0039.tf</string>
+		<string>uni2044</string>
+		<string>uni00BD</string>
+		<string>uni00BC</string>
+		<string>uni00BE</string>
+		<string>uni00B7</string>
+		<string>uni0021</string>
+		<string>uni0022</string>
+		<string>uni0023</string>
+		<string>uni0027</string>
+		<string>uni0027</string>
+		<string>uni002A</string>
+		<string>uni002C</string>
+		<string>uni002E</string>
+		<string>uni002E</string>
+		<string>uni002F</string>
+		<string>uni003A</string>
+		<string>uni003B</string>
+		<string>uni003F</string>
+		<string>uni005C</string>
+		<string>uni005F</string>
+		<string>uni00A1</string>
+		<string>uni00BF</string>
+		<string>uni2022</string>
+		<string>uni2026</string>
+		<string>uni0028</string>
+		<string>uni0029</string>
+		<string>uni005B</string>
+		<string>uni005D</string>
+		<string>uni007B</string>
+		<string>uni007D</string>
+		<string>uni002D</string>
+		<string>uni002D</string>
+		<string>uni2010</string>
+		<string>uni2013</string>
+		<string>uni2014</string>
+		<string>uni00AB</string>
+		<string>uni00BB</string>
+		<string>uni2018</string>
+		<string>uni2019</string>
+		<string>uni201A</string>
+		<string>uni201C</string>
+		<string>uni201C</string>
+		<string>uni201D</string>
+		<string>uni201D</string>
+		<string>uni201E</string>
+		<string>uni2039</string>
+		<string>uni203A</string>
+		<string>uni00A0</string>
 		<string>uni0020</string>
-		<string>zwj</string>
-		<string>zwnj</string>
-		<string>dottedcircle</string>
-		<string>anusvara</string>
-		<string>si_A</string>
-		<string>si_JnyAe</string>
+		<string>afii301</string>
+		<string>afii61664</string>
+		<string>uni000D</string>
+		<string>.notdef</string>
+		<string>uni0024</string>
+		<string>uni00A2</string>
+		<string>uni00A3</string>
+		<string>uni00A4</string>
+		<string>uni00A5</string>
+		<string>uni0192</string>
+		<string>uni20AC</string>
+		<string>uni20BA</string>
+		<string>uni20BD</string>
+		<string>uni007E</string>
+		<string>uni0025</string>
+		<string>uni002B</string>
+		<string>uni003C</string>
+		<string>uni003D</string>
+		<string>uni003E</string>
+		<string>uni00AC</string>
+		<string>uni00B1</string>
+		<string>uni00B5</string>
+		<string>uni00D7</string>
+		<string>uni00F7</string>
+		<string>uni2030</string>
+		<string>uni2126</string>
+		<string>uni2202</string>
+		<string>uni2206</string>
+		<string>uni220F</string>
+		<string>uni2211</string>
+		<string>uni2212</string>
+		<string>uni2215</string>
+		<string>uni2219</string>
+		<string>uni221A</string>
+		<string>uni221E</string>
+		<string>uni222B</string>
+		<string>uni2248</string>
+		<string>uni2260</string>
+		<string>uni2264</string>
+		<string>uni2265</string>
+		<string>uni25CC</string>
+		<string>uni25CA</string>
+		<string>uni00A6</string>
+		<string>uni0040</string>
+		<string>uni0026</string>
+		<string>uni00B6</string>
+		<string>uni00A9</string>
+		<string>uni00AE</string>
+		<string>uni00A7</string>
+		<string>uni2122</string>
+		<string>uni00B0</string>
+		<string>uni212E</string>
+		<string>uni2113</string>
+		<string>uni005E</string>
+		<string>uni007C</string>
+		<string>uni2020</string>
+		<string>uni2021</string>
+		<string>uni0026.001</string>
+		<string>uni0060</string>
+		<string>uni00A8</string>
+		<string>uni00AF</string>
+		<string>uni00B4</string>
+		<string>uni00B8</string>
+		<string>uni02C6</string>
+		<string>uni02C7</string>
+		<string>uni02D8</string>
+		<string>uni02D9</string>
+		<string>uni02DA</string>
+		<string>uni02DA</string>
+		<string>uni02DB</string>
+		<string>uni02DC</string>
+		<string>uni02DD</string>
+		<string>uni02C9</string>
+		<string>uni0D82</string>
+		<string>big_space</string>
+		<string>czechcaron</string>
 		<string>si_NdAa.halant</string>
+		<string>si_JnyAe</string>
 		<string>si_JnyAee</string>
-		<string>si_Aa</string>
-		<string>si_Aae</string>
-		<string>si_NyAa.halant</string>
-		<string>si_Ae</string>
 		<string>si_NyAe</string>
-		<string>si_Au</string>
-		<string>si_Ai</string>
+		<string>si_NyAa.halant</string>
 		<string>si_NyAee</string>
+		<string>uni0D86</string>
+		<string>uni0D87</string>
+		<string>uni0D88</string>
+		<string>uni0D93</string>
+		<string>uni0D96</string>
 		<string>si_Ba.reph</string>
+		<string>uni0D85</string>
 		<string>si_Bh.halant</string>
-		<string>si_Ba</string>
-		<string>si_B.halant</string>
-		<string>si_BhRa</string>
 		<string>si_BhI</string>
 		<string>si_Bha.reph</string>
-		<string>si_Bha</string>
+		<string>uni0DB6</string>
 		<string>si_BhIi</string>
+		<string>uni0DB7</string>
+		<string>si_B.halant</string>
+		<string>si_BhRa</string>
 		<string>si_BhRI</string>
 		<string>si_BhUu</string>
 		<string>si_BRa</string>
-		<string>si_BRI</string>
 		<string>si_BhRIi</string>
+		<string>si_BRI</string>
 		<string>si_BRIi</string>
+		<string>si_BI</string>
 		<string>si_BU</string>
 		<string>si_BhU</string>
-		<string>si_BI</string>
-		<string>si_BIi</string>
 		<string>si_BUu</string>
-		<string>si_Ca.reph</string>
+		<string>si_BIi</string>
 		<string>si_Ch.halant</string>
-		<string>si_Ca</string>
-		<string>si_C.halant</string>
-		<string>si_ChU</string>
+		<string>si_Ca.reph</string>
 		<string>si_ChI</string>
+		<string>uni0DA0</string>
+		<string>si_ChU</string>
+		<string>si_C.halant</string>
 		<string>si_ChIi</string>
 		<string>si_ChUu</string>
-		<string>si_Cha</string>
+		<string>uni0DA1</string>
 		<string>si_CRa</string>
 		<string>si_CRI</string>
 		<string>si_CRIi</string>
-		<string>si_CI</string>
 		<string>si_CU</string>
-		<string>si_CIi</string>
+		<string>si_CI</string>
 		<string>si_D.halant</string>
 		<string>si_CUu</string>
-		<string>si_Da</string>
-		<string>si_Da.reph</string>
+		<string>uni0DAF</string>
 		<string>si_DAa</string>
+		<string>si_Da.reph</string>
+		<string>si_CIi</string>
 		<string>si_DAe</string>
 		<string>si_DDha</string>
 		<string>si_DAa.halant</string>
 		<string>si_DAae</string>
 		<string>si_DDhI</string>
-		<string>si_DDhIi</string>
-		<string>si_DDhUu</string>
-		<string>si_DDhU</string>
 		<string>si_Dd.halant</string>
+		<string>si_DDhIi</string>
+		<string>si_DDhU</string>
 		<string>si_DDdh.halant</string>
+		<string>si_DDhUu</string>
 		<string>si_Dda.reph</string>
-		<string>si_Dda</string>
-		<string>si_DdhU</string>
-		<string>si_Ddha</string>
-		<string>si_DdhI</string>
+		<string>uni0DA9</string>
+		<string>uni0DAA</string>
 		<string>si_DdhUu</string>
+		<string>si_DdhU</string>
 		<string>si_Ddh.halant</string>
-		<string>si_DdhIi</string>
+		<string>si_DdRIi</string>
+		<string>si_DdhI</string>
 		<string>si_DdRa</string>
 		<string>si_DdRI</string>
-		<string>si_DdRIi</string>
-		<string>si_DdI</string>
-		<string>si_DdU</string>
 		<string>si_DdIi</string>
+		<string>si_DdhIi</string>
+		<string>si_DdU</string>
+		<string>si_DdI</string>
 		<string>si_DdUu</string>
-		<string>si_Dha</string>
-		<string>si_DhRI</string>
+		<string>uni0DB0</string>
 		<string>si_Dh.halant</string>
-		<string>si_DhRa</string>
-		<string>si_DhI</string>
-		<string>si_DhRIi</string>
 		<string>si_Dha.reph</string>
-		<string>si_DhU</string>
-		<string>si_DhUu</string>
-		<string>si_DhIi</string>
+		<string>si_DhRI</string>
+		<string>si_DhRa</string>
+		<string>si_DhRIi</string>
+		<string>si_DhI</string>
 		<string>si_DI</string>
 		<string>si_DIi</string>
+		<string>si_DhUu</string>
+		<string>si_DhU</string>
+		<string>si_DhIi</string>
 		<string>si_DRa</string>
 		<string>si_DRI</string>
-		<string>si_DU</string>
 		<string>si_DRIi</string>
-		<string>si_DVa</string>
+		<string>si_DU</string>
 		<string>si_DUu</string>
+		<string>si_DVa</string>
 		<string>si_DV.halant</string>
+		<string>si_DVIi</string>
 		<string>si_DVI</string>
 		<string>si_DVU</string>
-		<string>si_DVIi</string>
 		<string>si_DvocR</string>
 		<string>si_DVUu</string>
-		<string>si_DYa.post</string>
 		<string>si_DvocRr</string>
-		<string>si_DYAa.post</string>
-		<string>si_DYOo.post</string>
+		<string>si_DYa.post</string>
+		<string>uni0D91</string>
 		<string>si_F.halant</string>
-		<string>si_E</string>
 		<string>si_DYu.post</string>
+		<string>si_DYAa.post</string>
 		<string>si_DYUu.post</string>
-		<string>si_Fa</string>
+		<string>si_DYOo.post</string>
+		<string>uni0D92</string>
+		<string>uni0DC6</string>
 		<string>si_FI</string>
-		<string>si_Ee</string>
-		<string>si_Fa.reph</string>
 		<string>si_FRa</string>
+		<string>si_Fa.reph</string>
 		<string>si_FIi</string>
 		<string>si_FU</string>
-		<string>si_Ga.reph</string>
-		<string>si_FRI</string>
 		<string>si_FUu</string>
-		<string>si_G.halant</string>
+		<string>si_FRI</string>
 		<string>si_FRIi</string>
-		<string>si_Ga</string>
-		<string>si_GhI</string>
+		<string>si_Ga.reph</string>
+		<string>si_G.halant</string>
 		<string>si_Gh.halant</string>
 		<string>si_GDha</string>
-		<string>si_Gha.reph</string>
+		<string>uni0D9C</string>
+		<string>si_GhI</string>
 		<string>si_GhIi</string>
+		<string>si_Gha.reph</string>
+		<string>si_GhRI</string>
 		<string>si_GhRa</string>
 		<string>si_GhRIi</string>
-		<string>si_GhRI</string>
 		<string>si_GhU</string>
-		<string>si_GR.halant</string>
 		<string>si_GhUu</string>
+		<string>uni0D9D</string>
 		<string>si_GRa</string>
-		<string>si_Gha</string>
 		<string>si_GRI</string>
 		<string>si_GRIi</string>
-		<string>si_GI</string>
-		<string>si_GIi</string>
+		<string>si_GR.halant</string>
 		<string>si_H.halant</string>
+		<string>si_GIi</string>
 		<string>si_GUu</string>
-		<string>si_Halant</string>
+		<string>si_GI</string>
 		<string>si_Ha.reph</string>
 		<string>si_GU</string>
-		<string>si_Ha</string>
-		<string>si_HRa</string>
+		<string>uni0DC4</string>
+		<string>uni0DCA</string>
 		<string>si_HI</string>
+		<string>si_HRa</string>
 		<string>si_HIi</string>
 		<string>si_HU</string>
-		<string>si_HUu</string>
 		<string>si_HRIi</string>
+		<string>si_HUu</string>
 		<string>si_J.halant</string>
-		<string>si_I</string>
-		<string>si_Ii</string>
 		<string>si_Ja.reph</string>
-		<string>si_Ja</string>
+		<string>uni0D89</string>
+		<string>uni0D8A</string>
 		<string>si_Jha.reph</string>
-		<string>si_JhRa</string>
-		<string>si_JhI</string>
+		<string>uni0DA2</string>
 		<string>si_JhRI</string>
+		<string>si_JhI</string>
+		<string>si_JhRa</string>
 		<string>si_JhRIi</string>
-		<string>si_Jha</string>
-		<string>si_JhU</string>
-		<string>si_Jh.halant</string>
 		<string>si_JhIi</string>
+		<string>uni0DA3</string>
+		<string>si_Jh.halant</string>
+		<string>si_JhU</string>
 		<string>si_JhUu</string>
 		<string>si_JhU.reph</string>
 		<string>si_JI</string>
@@ -186,329 +548,334 @@
 		<string>si_JhUu.reph</string>
 		<string>si_JnyI</string>
 		<string>si_JnyIi</string>
+		<string>uni0DA5</string>
 		<string>si_JnyAa</string>
 		<string>si_JnyRa</string>
-		<string>si_Jnya</string>
 		<string>si_JnyAa.halant</string>
-		<string>si_JnyRI</string>
-		<string>si_JnyU</string>
-		<string>si_JnyUu</string>
-		<string>si_JnyRIi</string>
 		<string>si_JRa</string>
-		<string>si_JRI</string>
+		<string>si_JnyU</string>
+		<string>si_JnyRIi</string>
+		<string>si_JnyRI</string>
+		<string>si_JnyUu</string>
 		<string>si_JU</string>
-		<string>si_Ka.reph</string>
+		<string>si_JRI</string>
 		<string>si_JRIi</string>
-		<string>si_JUu</string>
+		<string>si_Ka.reph</string>
 		<string>si_K.halant</string>
+		<string>si_JUu</string>
 		<string>si_KhRa</string>
-		<string>si_Ka</string>
-		<string>si_Kha</string>
+		<string>uni0D9B</string>
+		<string>uni0D9A</string>
 		<string>si_Kh.halant</string>
 		<string>si_KhI</string>
-		<string>si_KhU</string>
 		<string>si_KhIi</string>
+		<string>si_KhU</string>
 		<string>si_KhR.halant</string>
 		<string>si_KhRI</string>
-		<string>si_KhUu</string>
 		<string>si_KI</string>
+		<string>si_KhUu</string>
 		<string>si_KRa</string>
-		<string>si_KIi</string>
 		<string>si_KhRIi</string>
+		<string>si_KIi</string>
 		<string>si_KRI</string>
 		<string>si_KRIi</string>
-		<string>si_KSsI</string>
 		<string>si_KSs.halant</string>
-		<string>si_KSsU</string>
+		<string>si_KSsI</string>
 		<string>si_KSsIi</string>
-		<string>si_KSsUu</string>
+		<string>si_KSsU</string>
 		<string>si_KU.reph</string>
+		<string>si_KSsUu</string>
 		<string>si_KUu</string>
 		<string>si_KVU</string>
 		<string>si_KVUu</string>
 		<string>si_KU</string>
+		<string>si_KVIi</string>
 		<string>si_KVI</string>
 		<string>si_KSsa</string>
-		<string>si_KVIi</string>
 		<string>si_L.halant</string>
-		<string>si_kundaliya</string>
 		<string>si_KVa</string>
-		<string>si_KV.halant</string>
-		<string>si_La</string>
+		<string>uni0DF4</string>
 		<string>si_LI</string>
-		<string>si_LIi</string>
+		<string>si_KV.halant</string>
 		<string>si_Ll.halant</string>
+		<string>uni0DBD</string>
+		<string>si_LIi</string>
 		<string>si_LlI</string>
-		<string>si_Lla</string>
 		<string>si_LlUu</string>
 		<string>si_LlIi</string>
+		<string>uni0DC5</string>
 		<string>si_LU</string>
 		<string>si_MatraAa.halant</string>
+		<string>uni0DCF</string>
 		<string>si_LlU</string>
+		<string>uni0DB8</string>
 		<string>si_LUu</string>
 		<string>si_Ma.reph</string>
-		<string>si_MatraAa</string>
-		<string>si_MatraAae</string>
-		<string>si_MatraAi</string>
-		<string>si_MatraAe</string>
-		<string>si_MatraAu</string>
-		<string>si_Ma</string>
-		<string>si_MatraEe</string>
+		<string>uni0DDB</string>
+		<string>uni0DD1</string>
+		<string>uni0DD0</string>
+		<string>uni0DDE</string>
+		<string>uni0DDA</string>
 		<string>si_M.halant</string>
-		<string>si_MatraI</string>
-		<string>si_MatraO</string>
-		<string>si_MatraE</string>
-		<string>si_MatraOo</string>
-		<string>si_MatraRr</string>
-		<string>si_MatraIi</string>
-		<string>si_MatraLl</string>
-		<string>si_MatraLs</string>
+		<string>uni0DD2</string>
+		<string>uni0DDC</string>
+		<string>uni0DDD</string>
+		<string>uni0DD3</string>
+		<string>uni0DF2</string>
+		<string>uni0DD9</string>
+		<string>uni0DDF</string>
+		<string>uni0DF3</string>
+		<string>uni0DD4</string>
+		<string>uni0DD8</string>
 		<string>si_MatraU.alt</string>
-		<string>si_MatraU</string>
-		<string>si_MatraR</string>
 		<string>si_MatraUu.alt</string>
-		<string>si_MatraUu</string>
-		<string>si_MbU</string>
+		<string>uni0DD6</string>
 		<string>si_MbUu</string>
+		<string>si_MbU</string>
 		<string>si_MRa</string>
-		<string>si_Mba</string>
-		<string>si_Mb.halant</string>
-		<string>si_MbI</string>
-		<string>si_MbIi</string>
+		<string>uni0DB9</string>
 		<string>si_MI</string>
+		<string>si_Mb.halant</string>
+		<string>si_MbIi</string>
+		<string>si_MbI</string>
 		<string>si_MIi</string>
 		<string>si_MU</string>
-		<string>si_MRI</string>
 		<string>si_MUu</string>
+		<string>si_MRI</string>
 		<string>si_MRIi</string>
-		<string>si_Nd.halant</string>
 		<string>si_N.halant</string>
+		<string>si_Nd.halant</string>
 		<string>si_ND.halant</string>
 		<string>si_Na.reph</string>
-		<string>si_Na</string>
-		<string>si_NDAee</string>
-		<string>si_NDAa</string>
 		<string>si_NDa</string>
+		<string>uni0DB1</string>
+		<string>si_NDAa</string>
+		<string>si_NDAee</string>
 		<string>si_NDAe</string>
 		<string>si_NDha</string>
-		<string>si_NDhI</string>
 		<string>si_NDhU</string>
+		<string>si_NDhI</string>
 		<string>si_NDhIi</string>
 		<string>si_NDhUu</string>
 		<string>si_NDI</string>
 		<string>si_NDIi</string>
 		<string>si_NDha.halnt</string>
-		<string>si_Nda</string>
 		<string>si_NDRa</string>
+		<string>uni0DB3</string>
 		<string>si_NdAa</string>
-		<string>si_NDUu</string>
 		<string>si_NDU</string>
-		<string>si_NDRIi</string>
 		<string>si_NDRI</string>
+		<string>si_NDUu</string>
+		<string>si_NDRIi</string>
 		<string>si_NdI</string>
-		<string>si_NdAae</string>
 		<string>si_NdIi</string>
-		<string>si_NdAe</string>
+		<string>si_NdAae</string>
 		<string>si_Ndj.halant</string>
+		<string>si_NdAe</string>
 		<string>si_NdjI</string>
-		<string>si_NdjRa</string>
 		<string>si_NdjU</string>
+		<string>si_NdjRa</string>
 		<string>si_NdjIi</string>
 		<string>si_NdjUu</string>
-		<string>si_Ndja</string>
+		<string>uni0DA6</string>
 		<string>si_NdRa</string>
+		<string>uni0D9E</string>
 		<string>si_NdU</string>
-		<string>si_Nga</string>
+		<string>si_NdUu</string>
 		<string>si_NI</string>
 		<string>si_NgI</string>
-		<string>si_NdUu</string>
+		<string>si_NIi</string>
 		<string>si_Ng.halant</string>
 		<string>si_NgIi</string>
-		<string>si_NIi</string>
 		<string>si_Nna.reph</string>
 		<string>si_NnddU</string>
-		<string>si_Nna</string>
-		<string>si_Nndda</string>
+		<string>uni0DAC</string>
+		<string>uni0DAB</string>
 		<string>si_NnddUu</string>
+		<string>si_Nndd.halant</string>
+		<string>si_NnddI</string>
 		<string>si_Nn.halant</string>
 		<string>si_Nng.halant</string>
 		<string>si_NnddIi</string>
-		<string>si_NnddI</string>
-		<string>si_Nndd.halant</string>
-		<string>si_NnU</string>
-		<string>si_Nnga</string>
 		<string>si_NnI</string>
+		<string>uni0D9F</string>
 		<string>si_NngUu</string>
+		<string>si_NnU</string>
+		<string>si_NnUu</string>
 		<string>si_NngI</string>
 		<string>si_NngU</string>
-		<string>si_NnUu</string>
 		<string>si_NngIi</string>
+		<string>si_NTha</string>
 		<string>si_NTh.halant</string>
 		<string>si_NThI</string>
-		<string>si_NTha</string>
 		<string>si_NThU</string>
-		<string>si_NThUu</string>
-		<string>si_NU</string>
 		<string>si_NnIi</string>
+		<string>si_NU</string>
+		<string>si_NThUu</string>
 		<string>si_NUu</string>
+		<string>si_NVU</string>
 		<string>si_NVI</string>
 		<string>si_NVIi</string>
-		<string>si_NVU</string>
-		<string>si_NVa</string>
-		<string>si_NVUu</string>
 		<string>si_NThIi</string>
+		<string>si_NVUu</string>
 		<string>si_Ny.halant</string>
-		<string>si_NyI</string>
+		<string>si_NVa</string>
 		<string>si_NV.halant</string>
+		<string>si_NyI</string>
 		<string>si_NyIi</string>
-		<string>si_Nya</string>
+		<string>uni0DA4</string>
 		<string>si_NyAa</string>
 		<string>si_NyRa</string>
-		<string>si_NyU</string>
-		<string>si_Oo</string>
-		<string>si_NyRI</string>
-		<string>si_NyRIi</string>
 		<string>si_NyUu</string>
-		<string>si_Os</string>
+		<string>uni0D95</string>
+		<string>si_NyRI</string>
+		<string>si_NyU</string>
+		<string>si_NyRIi</string>
 		<string>si_P.halant</string>
+		<string>uni0D94</string>
+		<string>uni0DB4</string>
 		<string>si_Pa.reph</string>
-		<string>si_Pa</string>
 		<string>si_PhI</string>
 		<string>si_PhU</string>
-		<string>si_Ph.halant</string>
-		<string>si_PhUu</string>
+		<string>uni0DB5</string>
 		<string>si_PhIi</string>
-		<string>si_Pha</string>
+		<string>si_PhUu</string>
+		<string>si_Ph.halant</string>
 		<string>si_PI</string>
+		<string>si_Pha.reph</string>
 		<string>si_PRa</string>
 		<string>si_PIi</string>
-		<string>si_Pha.reph</string>
 		<string>si_PRI</string>
 		<string>si_PU</string>
-		<string>si_PUu</string>
-		<string>si_PRIi</string>
 		<string>si_R.halant</string>
+		<string>si_PUu</string>
+		<string>uni0DBB</string>
+		<string>si_PRIi</string>
 		<string>si_Rakar</string>
-		<string>si_RAe</string>
 		<string>si_RAae</string>
-		<string>si_Ra</string>
-		<string>si_Reph</string>
+		<string>si_RAe</string>
 		<string>si_RI</string>
+		<string>si_Reph</string>
 		<string>si_RU</string>
-		<string>si_RUu</string>
 		<string>si_S.halant</string>
-		<string>si_Sh.halant</string>
-		<string>si_Sa.reph</string>
+		<string>si_RUu</string>
 		<string>si_RIi</string>
+		<string>si_Sa.reph</string>
+		<string>si_Sh.halant</string>
+		<string>uni0DC3</string>
 		<string>si_Sha.reph</string>
-		<string>si_Sa</string>
-		<string>si_Sha</string>
+		<string>uni0DC1</string>
 		<string>si_ShU</string>
-		<string>si_ShUu</string>
 		<string>si_ShI</string>
+		<string>si_ShUu</string>
 		<string>si_ShRa</string>
-		<string>si_SI</string>
 		<string>si_ShIi</string>
-		<string>si_SIi</string>
-		<string>si_SRa</string>
-		<string>si_SRI</string>
+		<string>si_SI</string>
 		<string>si_ShRI</string>
-		<string>si_Ss.halant</string>
-		<string>si_SRIi</string>
+		<string>si_SRa</string>
+		<string>si_SIi</string>
 		<string>si_ShRIi</string>
+		<string>si_SRI</string>
+		<string>si_SRIi</string>
+		<string>si_Ss.halant</string>
 		<string>si_SsI</string>
-		<string>si_SsIi</string>
+		<string>si_SsRa</string>
 		<string>si_Ssa.reph</string>
 		<string>si_SsRI</string>
-		<string>si_SsRa</string>
 		<string>si_SsRIi</string>
+		<string>si_SsIi</string>
 		<string>si_SsU</string>
-		<string>si_Ssa</string>
 		<string>si_SU</string>
 		<string>si_SsUu</string>
+		<string>uni0DC2</string>
 		<string>si_T.halant</string>
 		<string>si_SUu</string>
 		<string>si_Ta.reph</string>
-		<string>si_Ta</string>
+		<string>uni0DAE</string>
+		<string>uni0DAD</string>
+		<string>si_Th.halant</string>
 		<string>si_ThI</string>
 		<string>si_ThU</string>
-		<string>si_Th.halant</string>
-		<string>si_Tha</string>
 		<string>si_Tha.reph</string>
 		<string>si_ThUu</string>
-		<string>si_TRa</string>
 		<string>si_TI</string>
+		<string>si_TRa</string>
 		<string>si_TRI</string>
 		<string>si_TRIi</string>
-		<string>si_TIi</string>
 		<string>si_ThIi</string>
-		<string>si_TThI</string>
+		<string>si_TIi</string>
 		<string>si_TThU</string>
-		<string>si_TThUu</string>
+		<string>si_TThI</string>
 		<string>si_TTha</string>
+		<string>si_TThUu</string>
+		<string>uni0DA7</string>
 		<string>si_Tt.halant</string>
-		<string>si_Tta</string>
 		<string>si_Tta.reph</string>
-		<string>si_TthU</string>
 		<string>si_TthI</string>
-		<string>si_Ttha</string>
-		<string>si_TthUu</string>
+		<string>uni0DA8</string>
+		<string>si_TthU</string>
 		<string>si_TthIi</string>
-		<string>si_TThIi</string>
+		<string>si_TthUu</string>
 		<string>si_Tth.halant</string>
+		<string>si_TThIi</string>
 		<string>si_TtRa</string>
 		<string>si_TtI</string>
 		<string>si_TtIi</string>
 		<string>si_TtRI</string>
-		<string>si_TtRIi</string>
 		<string>si_TtTha</string>
+		<string>si_TtRIi</string>
 		<string>si_TtTh.halant</string>
-		<string>si_TtU</string>
-		<string>si_TtThIi</string>
-		<string>si_TtThU</string>
 		<string>si_TtThI</string>
+		<string>si_TtU</string>
 		<string>si_TtUu</string>
-		<string>si_TUu</string>
+		<string>si_TtThU</string>
+		<string>si_TtThIi</string>
 		<string>si_TtThUu</string>
+		<string>si_TUu</string>
 		<string>si_TtVa</string>
 		<string>si_TU</string>
 		<string>si_TVU</string>
-		<string>si_TVa</string>
 		<string>si_TVUu</string>
-		<string>si_Uu</string>
-		<string>si_U</string>
-		<string>si_TVI</string>
+		<string>si_TVa</string>
+		<string>uni0D8C</string>
+		<string>uni0D8B</string>
 		<string>si_TV.halant</string>
+		<string>uni0DC0</string>
+		<string>si_TVI</string>
 		<string>si_Va.reph</string>
 		<string>si_TVIi</string>
-		<string>si_Va</string>
 		<string>si_V.halant</string>
 		<string>si_VI</string>
-		<string>si_VRa</string>
-		<string>si_VU</string>
 		<string>si_VIi</string>
+		<string>si_VRa</string>
+		<string>uni0D90</string>
+		<string>si_VU</string>
 		<string>si_VUu</string>
-		<string>si_vocalicLL</string>
-		<string>si_VRI</string>
 		<string>si_Y.halant</string>
 		<string>si_Y.post.halant</string>
+		<string>si_VRI</string>
 		<string>si_VRIi</string>
-		<string>si_vocalicR</string>
-		<string>si_vocalicRr</string>
-		<string>si_Ya</string>
-		<string>si_vocalicL</string>
-		<string>si_Ya.reph</string>
+		<string>uni0D8D</string>
+		<string>uni0D8E</string>
 		<string>si_Ya.post.reph</string>
+		<string>uni0DBA</string>
 		<string>si_Ya.post</string>
 		<string>si_YI</string>
+		<string>uni0D8F</string>
+		<string>si_Ya.reph</string>
 		<string>si_YIi</string>
-		<string>si_YU.post</string>
 		<string>si_YU</string>
 		<string>si_YUu</string>
+		<string>si_YU.post</string>
 		<string>si_YUu.post</string>
 		<string>si_Yu.post.reph</string>
-		<string>visarga</string>
+		<string>smalldot</string>
 		<string>si_YUu.post.reph</string>
+		<string>uni0000</string>
+		<string>vertical_stem_upper</string>
+		<string>wide_space</string>
+		<string>uni0D83</string>
+		<string>uniF6C3</string>
 	</array>
 </dict>
 </plist>

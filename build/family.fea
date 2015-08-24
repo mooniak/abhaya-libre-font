@@ -3,27 +3,32 @@
 languagesystem DFLT dflt;
 languagesystem sinh dflt;
 
+table head {
+  FontRevision 1.000;
+} head;
+
+include (../../family_tables.fea);
 
 #---- --AKHN ------------
 
 lookup si_akhands {
-    sub si_Ka si_Halant si_Ssa by si_KSsa;
-    sub si_Ka si_Halant si_Va by si_KVa;
-    sub si_Ta si_Halant si_Va by si_TVa;
-    sub si_Ta si_Halant si_Tha by si_TTha;
-    sub si_Na si_Halant si_Da by si_NDa;
-    sub si_Na si_Halant si_Va by si_NVa;
-    sub si_Na si_Halant si_Dha by si_NDha;
-    sub si_Na si_Halant si_Tha by si_NTha;
-    sub si_Da si_Halant si_Va by si_DVa;
-    sub si_Da si_Halant si_Dha by si_DDha;
-    sub si_Tta si_Halant si_Tha by si_TtTha;
+    sub si_Ka si_Halant zwj si_Ssa by si_KSsa;
+    sub si_Ka si_Halant zwj si_Va by si_KVa;
+    sub si_Ta si_Halant zwj si_Va by si_TVa;
+    sub si_Ta si_Halant zwj si_Tha by si_TTha;
+    sub si_Na si_Halant zwj si_Da by si_NDa;
+    sub si_Na si_Halant zwj si_Va by si_NVa;
+    sub si_Na si_Halant zwj si_Dha by si_NDha;
+    sub si_Na si_Halant zwj si_Tha by si_NTha;
+    sub si_Da si_Halant zwj si_Va by si_DVa;
+    sub si_Da si_Halant zwj si_Dha by si_DDha;
+    sub si_Tta si_Halant zwj si_Tha by si_TtTha;
 } si_akhands;
 
 #---- REPH ----
 
 lookup si_reph {
-    sub si_Ra si_Halant by si_Reph;
+    sub si_Ra si_Halant zwj by si_Reph;
 } si_reph;
 
 #---- HALN ----
@@ -67,7 +72,7 @@ lookup si_halant_1 {
     sub si_Va si_Halant by si_V.halant;
     sub si_Sha si_Halant by si_Sh.halant;
     sub si_Ssa si_Halant by si_Ss.halant;
-    sub si_Sa si_Halant by si_S.halant;
+    # sub si_Sa si_Halant by si_S.halant;
     sub si_Ha si_Halant by si_H.halant;
     sub si_Lla si_Halant by si_Ll.halant;
     sub si_Fa si_Halant by si_F.halant;
@@ -151,7 +156,7 @@ lookup si_abvs_2 {
     sub si_Nnga si_MatraIi by si_NngIi;
     sub si_Ca si_MatraIi by si_CIi;
     sub si_Cha si_MatraIi by si_ChIi;
-    #sub si_Ja si_MatraIi by si_JIi;
+    # sub si_Ja si_MatraIi by si_JIi;
     sub si_Jha si_MatraIi by si_JhIi;
     sub si_Nya si_MatraIi by si_NyIi;
     sub si_Jnya si_MatraIi by si_JnyIi;
@@ -444,7 +449,6 @@ lookup si_blws_5 {
     sub si_NDa si_MatraAa by si_NDAa;
     sub si_Jnya si_MatraAa by si_JnyAa;
     sub si_Da si_MatraAa by si_DAa;
-    sub si_DRa si_MatraAa by si_DRAa;
     sub si_Nda si_MatraAa by si_NdAa;
     sub si_DAa si_Halant by si_DAa.halant;
     sub si_Da si_MatraR by si_DvocR;
@@ -452,59 +456,69 @@ lookup si_blws_5 {
 } si_blws_5;
 
 
-#----------- PSTF --------------
+#----------- Yansaya --------------
 #-------------------------------
 
-lookup si_pstf {
-    sub si_Halant si_Ya by si_Ya.post;
-} si_pstf;
+lookup si_yansaya {
+    sub si_Halant zwj si_Ya by si_Ya.post;
+} si_yansaya;
+
+#----------- Rae, Raae --------------
+#-------------------------------
+
+lookup si_raer {
+    sub si_Ra si_MatraAe by si_RAe;
+    sub si_Ra si_MatraAae by si_RAae;
+}  si_raer;
 
 
 #----------- Rakaar ------------
 #-------------------------------
 
 lookup si_rakaar {
-    sub si_Ka si_Halant si_Ra by si_KRa;
-    sub si_Kha si_Halant si_Ra by si_KhRa;
-    sub si_Ga si_Halant si_Ra by si_GRa;
-    sub si_Gha si_Halant si_Ra by si_GhRa;
-    #sub si_Nga si_Halant si_Ra by si_NgRa;
-    #sub si_Nnga si_Halant si_Ra by si_NngRa;
-    sub si_Ca si_Halant si_Ra by si_CRa;
-    #sub si_Cha si_Halant si_Ra by si_ChRa;
-    sub si_Ja si_Halant si_Ra by si_JRa;
-    sub si_Jha si_Halant si_Ra by si_JhRa;
-    sub si_Nya si_Halant si_Ra by si_NyRa;
-    sub si_Tta si_Halant si_Ra by si_TtRa;
-    sub si_Jnya si_Halant si_Ra by si_JnyRa;
-    sub si_Ndja si_Halant si_Ra by si_NdjRa;
-    #sub si_Ttha si_Halant si_Ra by si_TthRa;
-    sub si_Dda si_Halant si_Ra by si_DdRa;
-    #sub si_Ddha si_Halant si_Ra by si_DdhRa;
-    #sub si_Nna si_Halant si_Ra by si_NnRa;
-    #sub si_Nndda si_Halant si_Ra by si_NnddRa;
-    sub si_Ta si_Halant si_Ra by si_TRa;
-    #sub si_Tha si_Halant si_Ra by si_ThRa;
-    sub si_Da si_Halant si_Ra by si_DRa;
-    sub si_Dha si_Halant si_Ra by si_DhRa;
-    #sub si_Na si_Halant si_Ra by si_NRa;
-    sub si_Pa si_Halant si_Ra by si_PRa;
-    #sub si_Pha si_Halant si_Ra by si_PhRa;
-    # si_Bba si_Halant si_Ra by si_BRa;
-    sub si_Bha si_Halant si_Ra by si_BhRa;
-    sub si_Ma si_Halant si_Ra by si_MRa;
-    #sub si_Mba si_Halant si_Ra by si_MbRa;
-    #sub si_La si_Halant si_Ra by si_LRa;
-    sub si_Va si_Halant si_Ra by si_VRa;
-    sub si_Sha si_Halant si_Ra by si_ShRa;
-    sub si_Ssa si_Halant si_Ra by si_SsRa;
-    sub si_Sa si_Halant si_Ra by si_SRa;
-    sub si_Ha si_Halant si_Ra by si_HRa;
-    sub si_Fa si_Halant si_Ra by si_FRa;
-    sub si_NDa si_Halant si_Ra by si_NDRa;
+    sub si_Ka si_Halant zwj si_Ra by si_KRa;
+    sub si_Kha si_Halant zwj si_Ra by si_KhRa;
+    sub si_Ga si_Halant zwj si_Ra by si_GRa;
+    sub si_Gha si_Halant zwj si_Ra by si_GhRa;
+    # sub si_Nga si_Halant zwj si_Ra by si_NgRa;
+    # sub si_Nnga si_Halant zwj si_Ra by si_NngRa;
+    sub si_Ca si_Halant zwj si_Ra by si_CRa;
+    # sub si_Cha si_Halant zwj si_Ra by si_ChRa;
+    sub si_Ja si_Halant zwj si_Ra by si_JRa;
+    sub si_Jha si_Halant zwj si_Ra by si_JhRa;
+    sub si_Nya si_Halant zwj si_Ra by si_NyRa;
+    sub si_Tta si_Halant zwj si_Ra by si_TtRa;
+    sub si_Jnya si_Halant zwj si_Ra by si_JnyRa;
+    sub si_Ndja si_Halant zwj si_Ra by si_NdjRa;
+    # sub si_Ttha si_Halant zwj si_Ra by si_TthRa;
+    sub si_Dda si_Halant zwj si_Ra by si_DdRa;
+    # sub si_Ddha si_Halant zwj si_Ra by si_DdhRa;
+    # sub si_Nna si_Halant zwj si_Ra by si_NnRa;
+    # sub si_Nndda si_Halant zwj si_Ra by si_NnddRa;
+    sub si_Ta si_Halant zwj si_Ra by si_TRa;
+    # sub si_Tha si_Halant zwj si_Ra by si_ThRa;
+    sub si_Da si_Halant zwj si_Ra by si_DRa;
+    sub si_Dha si_Halant zwj si_Ra by si_DhRa;
+    # sub si_Na si_Halant zwj si_Ra by si_NRa;
+    sub si_Pa si_Halant zwj si_Ra by si_PRa;
+    # sub si_Pha si_Halant zwj si_Ra by si_PhRa;
+    # sub si_Bba si_Halant zwj si_Ra by si_BRa;
+    sub si_Bha si_Halant zwj si_Ra by si_BhRa;
+    sub si_Ma si_Halant zwj si_Ra by si_MRa;
+    # sub si_Mba si_Halant si_Ra by si_MbRa;
+    # sub si_La si_Halant si_Ra by si_LRa;
+    sub si_Va si_Halant zwj si_Ra by si_VRa;
+    sub si_Sha si_Halant zwj si_Ra by si_ShRa;
+    sub si_Ssa si_Halant zwj si_Ra by si_SsRa;
+    sub si_Sa si_Halant zwj si_Ra by si_SRa;
+    sub si_Ha si_Halant zwj si_Ra by si_HRa;
+    sub si_Fa si_Halant zwj si_Ra by si_FRa;
+    sub si_NDa si_Halant zwj si_Ra by si_NDRa;
 } si_rakaar;
 
-
+lookup si_kern {
+    pos si_A <0 0 0 0>;
+} si_kern;
 ##--------------- Lookups ---------------##
 
 feature akhn {
@@ -521,16 +535,9 @@ feature rphf {
 
 #-------------
 
-feature haln {
-    script sinh;
-        lookup si_halant_1;
-        #lookup si_halant_2;
-} haln;
-
-#-------------
-
 feature abvs {
     script sinh;
+        lookup si_halant_1;
         lookup si_abvs_1;
         lookup si_abvs_2;
         lookup si_abvs_3;
@@ -553,16 +560,35 @@ feature blws {
 
 #-------------
 
-feature pstf {
+feature vatu {
     script sinh;
-        lookup si_pstf;
-} pstf;
+        lookup si_rakaar;
+        lookup si_yansaya;
+} vatu;
 
 #-------------
 
-feature rkrf {
-    script sinh;
-        lookup si_rakaar;
-} rkrf;
+feature psts {
+  script sinh;
+      lookup si_raer;
+} psts;
 
+#-------------
+
+feature kern {
+    script sinh;
+        lookup si_kern;
+} kern;
+
+feature dist {
+    script sinh;
+} dist;
+
+feature abvm {
+    script sinh;
+} abvm;
+
+feature blwm {
+    script sinh;
+} blwm;
 #-------------

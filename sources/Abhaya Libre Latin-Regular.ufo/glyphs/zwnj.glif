@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zwnj" format="1">
+  <advance width="22"/>
+  <unicode hex="200C"/>
+  <outline>
+    <contour>
+      <point x="31" y="-226" type="line"/>
+      <point x="-9" y="-226" type="line"/>
+      <point x="-9" y="639" type="line"/>
+      <point x="31" y="639" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

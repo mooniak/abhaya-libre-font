@@ -3,31 +3,31 @@
   <advance width="677"/>
   <outline>
     <contour>
-      <point x="67.75" y="-142.5" type="curve" smooth="yes"/>
-      <point x="67.75" y="-90.4912"/>
-      <point x="114.043" y="-50.5"/>
-      <point x="169.25" y="-50.5" type="curve" smooth="yes"/>
-      <point x="211.156" y="-50.5"/>
-      <point x="248.5" y="-74.1416"/>
-      <point x="263.25" y="-110" type="curve"/>
-      <point x="230.5" y="-121.5" type="line"/>
-      <point x="223.676" y="-104.358"/>
-      <point x="202.25" y="-81.75"/>
-      <point x="169.25" y="-81.75" type="curve" smooth="yes"/>
-      <point x="132.546" y="-81.75"/>
-      <point x="103.25" y="-109.716"/>
-      <point x="103.25" y="-142.5" type="curve" smooth="yes"/>
-      <point x="103.25" y="-171.663"/>
-      <point x="124.998" y="-192.5"/>
-      <point x="194.75" y="-192.5" type="curve" smooth="yes"/>
-      <point x="583.75" y="-192.5" type="line"/>
-      <point x="583.75" y="128" type="line"/>
+      <point x="68" y="-142" type="curve" smooth="yes"/>
+      <point x="68" y="-90"/>
+      <point x="114" y="-50"/>
+      <point x="169" y="-50" type="curve" smooth="yes"/>
+      <point x="211" y="-50"/>
+      <point x="248" y="-74"/>
+      <point x="263" y="-110" type="curve"/>
+      <point x="230" y="-122" type="line"/>
+      <point x="224" y="-104"/>
+      <point x="202" y="-82"/>
+      <point x="169" y="-82" type="curve" smooth="yes"/>
+      <point x="133" y="-82"/>
+      <point x="103" y="-110"/>
+      <point x="103" y="-142" type="curve" smooth="yes"/>
+      <point x="103" y="-172"/>
+      <point x="125" y="-192"/>
+      <point x="195" y="-192" type="curve" smooth="yes"/>
+      <point x="584" y="-192" type="line"/>
+      <point x="584" y="128" type="line"/>
       <point x="619" y="219" type="line"/>
       <point x="619" y="-235" type="line"/>
-      <point x="173.25" y="-235" type="line" smooth="yes"/>
-      <point x="93.707" y="-235"/>
-      <point x="67.75" y="-186.092"/>
+      <point x="173" y="-235" type="line" smooth="yes"/>
+      <point x="94" y="-235"/>
+      <point x="68" y="-186"/>
     </contour>
-    <component base="si_Sa"/>
+    <component base="uni0DC3"/>
   </outline>
 </glyph>

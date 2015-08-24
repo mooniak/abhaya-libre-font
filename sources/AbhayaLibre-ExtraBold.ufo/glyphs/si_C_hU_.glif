@@ -3,31 +3,31 @@
   <advance width="598"/>
   <outline>
     <contour>
-      <point x="38.75" y="-142.5" type="curve" smooth="yes"/>
-      <point x="38.75" y="-90.4912"/>
-      <point x="85.043" y="-50.5"/>
-      <point x="140.25" y="-50.5" type="curve" smooth="yes"/>
-      <point x="182.156" y="-50.5"/>
-      <point x="219.5" y="-74.1416"/>
-      <point x="234.25" y="-110" type="curve"/>
-      <point x="201.5" y="-121.5" type="line"/>
-      <point x="194.676" y="-104.358"/>
-      <point x="173.25" y="-81.75"/>
-      <point x="140.25" y="-81.75" type="curve" smooth="yes"/>
-      <point x="103.546" y="-81.75"/>
-      <point x="74.25" y="-109.716"/>
-      <point x="74.25" y="-142.5" type="curve" smooth="yes"/>
-      <point x="74.25" y="-171.663"/>
-      <point x="95.998" y="-192.5"/>
-      <point x="165.75" y="-192.5" type="curve" smooth="yes"/>
-      <point x="505.25" y="-192.5" type="line"/>
-      <point x="505.25" y="128" type="line"/>
-      <point x="540.5" y="207" type="line"/>
-      <point x="540.5" y="-235" type="line"/>
-      <point x="144.25" y="-235" type="line" smooth="yes"/>
-      <point x="64.707" y="-235"/>
-      <point x="38.75" y="-186.092"/>
+      <point x="39" y="-142" type="curve" smooth="yes"/>
+      <point x="39" y="-90"/>
+      <point x="85" y="-50"/>
+      <point x="140" y="-50" type="curve" smooth="yes"/>
+      <point x="182" y="-50"/>
+      <point x="220" y="-74"/>
+      <point x="234" y="-110" type="curve"/>
+      <point x="202" y="-122" type="line"/>
+      <point x="195" y="-104"/>
+      <point x="173" y="-82"/>
+      <point x="140" y="-82" type="curve" smooth="yes"/>
+      <point x="104" y="-82"/>
+      <point x="74" y="-110"/>
+      <point x="74" y="-142" type="curve" smooth="yes"/>
+      <point x="74" y="-172"/>
+      <point x="96" y="-192"/>
+      <point x="166" y="-192" type="curve" smooth="yes"/>
+      <point x="505" y="-192" type="line"/>
+      <point x="505" y="128" type="line"/>
+      <point x="540" y="207" type="line"/>
+      <point x="540" y="-235" type="line"/>
+      <point x="144" y="-235" type="line" smooth="yes"/>
+      <point x="65" y="-235"/>
+      <point x="39" y="-186"/>
     </contour>
-    <component base="si_Cha"/>
+    <component base="uni0DA1"/>
   </outline>
 </glyph>
