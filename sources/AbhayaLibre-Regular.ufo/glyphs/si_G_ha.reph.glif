@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Gha.reph" format="1">
+  <advance width="677"/>
+  <outline>
+    <contour>
+      <point x="296.086" y="491" type="curve" smooth="yes"/>
+      <point x="296.086" y="470.446"/>
+      <point x="314.684" y="453.807"/>
+      <point x="337" y="453.807" type="curve" smooth="yes"/>
+      <point x="359.316" y="453.807"/>
+      <point x="377.914" y="470.446"/>
+      <point x="377.914" y="491" type="curve" smooth="yes"/>
+      <point x="377.914" y="511.554"/>
+      <point x="359.316" y="528.193"/>
+      <point x="337" y="528.193" type="curve" smooth="yes"/>
+      <point x="314.684" y="528.193"/>
+      <point x="296.086" y="511.554"/>
+    </contour>
+    <contour>
+      <point x="194" y="510" type="curve" smooth="yes"/>
+      <point x="194" y="574"/>
+      <point x="252.12" y="611"/>
+      <point x="334" y="611" type="curve" smooth="yes"/>
+      <point x="411" y="611"/>
+      <point x="475" y="568"/>
+      <point x="475" y="497" type="curve" smooth="yes"/>
+      <point x="475" y="473"/>
+      <point x="466.667" y="451.333"/>
+      <point x="450" y="432" type="curve"/>
+      <point x="416.25" y="432" type="line"/>
+      <point x="429.42" y="444.387"/>
+      <point x="444.75" y="468.734"/>
+      <point x="444.75" y="496" type="curve" smooth="yes"/>
+      <point x="444.75" y="553.241"/>
+      <point x="394" y="583.75"/>
+      <point x="333" y="583.75" type="curve" smooth="yes"/>
+      <point x="280.222" y="583.75"/>
+      <point x="225.25" y="562.556"/>
+      <point x="225.25" y="510" type="curve" smooth="yes"/>
+      <point x="225.25" y="470.925"/>
+      <point x="266.304" y="452.216"/>
+      <point x="289.5" y="450.25" type="curve"/>
+      <point x="281.5" y="456.25"/>
+      <point x="269" y="471"/>
+      <point x="269" y="492" type="curve" smooth="yes"/>
+      <point x="269" y="527"/>
+      <point x="300.354" y="552"/>
+      <point x="336" y="552" type="curve" smooth="yes"/>
+      <point x="377" y="552"/>
+      <point x="405" y="525"/>
+      <point x="405" y="490" type="curve" smooth="yes"/>
+      <point x="405" y="451"/>
+      <point x="370" y="425"/>
+      <point x="312" y="425" type="curve" smooth="yes"/>
+      <point x="253" y="425"/>
+      <point x="194" y="454"/>
+    </contour>
+    <component base="si_Gha"/>
+  </outline>
+</glyph>

@@ -1,6 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_YUu.post" format="1">
-  <advance width="0"/>
+  <advance width="544"/>
   <outline>
+    <contour>
+      <point x="18" y="-138" type="curve" smooth="yes"/>
+      <point x="18" y="-80"/>
+      <point x="66" y="-40"/>
+      <point x="120" y="-40" type="curve" smooth="yes"/>
+      <point x="162" y="-40"/>
+      <point x="194" y="-55"/>
+      <point x="216" y="-91" type="curve"/>
+      <point x="184" y="-102" type="line"/>
+      <point x="172" y="-85"/>
+      <point x="154" y="-70"/>
+      <point x="124" y="-70" type="curve" smooth="yes"/>
+      <point x="86" y="-70"/>
+      <point x="60" y="-95"/>
+      <point x="60" y="-120" type="curve" smooth="yes"/>
+      <point x="60" y="-152"/>
+      <point x="89" y="-167"/>
+      <point x="124" y="-167" type="curve" smooth="yes"/>
+      <point x="195" y="-167"/>
+      <point x="243" y="-114"/>
+      <point x="331" y="-114" type="curve" smooth="yes"/>
+      <point x="382" y="-114"/>
+      <point x="422" y="-134"/>
+      <point x="449" y="-166" type="curve"/>
+      <point x="449" y="152" type="line"/>
+      <point x="484" y="212" type="line"/>
+      <point x="484" y="-231" type="line"/>
+      <point x="458" y="-231" type="line"/>
+      <point x="444" y="-195"/>
+      <point x="404" y="-146"/>
+      <point x="341" y="-146" type="curve" smooth="yes"/>
+      <point x="260" y="-146"/>
+      <point x="221" y="-237"/>
+      <point x="128" y="-237" type="curve" smooth="yes"/>
+      <point x="74" y="-237"/>
+      <point x="18" y="-206"/>
+    </contour>
+    <component base="si_Ya.post"/>
   </outline>
 </glyph>

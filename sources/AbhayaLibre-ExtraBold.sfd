@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051463
-ModificationTime: 1440263851
+ModificationTime: 1440345580
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -473,13 +473,14 @@ S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p186
 s."
 Encoding: sinhala_final
+Compacted: 1
 UnicodeInterp: none
-NameList: AGL For New Fonts
+NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 312 26 12
-BeginChars: 65539 502
+WinInfo: 150 15 12
+BeginChars: 65538 502
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -492,103 +493,18 @@ Back
 Fore
 EndChar
 
-StartChar: si_JnyOo
-Encoding: 494 -1 1
-GlifName: N_ameM_e.559
-Width: 974
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-808.25 -67 m 257
- 808.25 681 l 257
- 862.25 639 959.75 634 959.75 542 c 256
- 959.75 498 924.941 468 881.75 468 c 256
- 867.083 468 852.083 471.333 836.75 478 c 257
- 836.75 -73 l 257
- 808.25 -67 l 257
-836.855 504.273 m 257
- 845.35 499.699 856.132 497.413 869.198 497.413 c 256
- 901.204 497.413 914.75 521.915 914.75 545.438 c 256
- 914.75 586.602 882.92 606.203 836.855 636.587 c 257
- 836.855 504.273 l 257
-680.5 2 m 257
- 668.95 0.592773 651.833 -1 624.5 -1 c 256
- 493.5 -1 421.5 69 421.5 169 c 256
- 421.5 274 494.5 317 613.5 317 c 258
- 730.75 317 l 257
- 721.026 363.186 691.015 390 658.5 390 c 256
- 639.5 390 625.049 378.911 616.5 361 c 256
- 606 339 589.079 333 569.25 333 c 256
- 544.25 333 526.5 349.75 526.5 370.75 c 256
- 526.5 407.033 567.5 433 622.5 433 c 256
- 708.239 433 752.24 388.542 769.5 291 c 257
- 707.75 291 l 258
- 619.75 291 574.75 257 574.75 173 c 256
- 574.75 89 626.489 44 676 44 c 256
- 706.349 44 731.25 48.25 771.25 94.25 c 257
- 803 75 l 257
- 783 58.333 766.617 41.1865 751.25 32.75 c 257
- 754.583 33.417 752.75 33.5 756.75 33.5 c 256
- 805.021 33.5 837.5 -17.8018 837.5 -87 c 256
- 837.5 -175 800.155 -212.5 732.25 -212.5 c 256
- 683.095 -212.5 665.5 -187.083 665.5 -166 c 257
- 700 -166 l 257
- 700.004 -173.44 706.647 -176 714.5 -176 c 256
- 738.949 -176 750.5 -151.479 750.5 -90 c 256
- 750.5 -45.0967 737.158 -17 718.5 -17 c 256
- 700.832 -17 694.818 -29.2295 694.75 -45 c 257
- 662 -45 l 257
- 662.047 -29.335 669.675 -8.01855 680.5 2 c 257
-674 426 m 257
- 553 408.5 l 257
- 547.395 408.655 545.467 408.75 539.75 408.75 c 256
- 442.528 408.75 370.746 347.596 349.75 240.75 c 257
- 357.75 244.75 363.333 245.75 370 245.75 c 256
- 418 245.75 452 202 452 136 c 256
- 452 56 395 -2 308 -2 c 256
- 197 -2 134 96 134 207 c 256
- 134 330 209 431.5 320 431.5 c 256
- 323.953 431.5 328.954 431.25 333 431 c 257
- 333 405.5 l 257
- 329.645 405.784 325.311 405.95 322 405.95 c 256
- 236 405.95 187.75 327.458 187.75 258.25 c 256
- 187.75 202.544 227.27 140 308 140 c 256
- 367 140 394 160.486 394 190.5 c 256
- 394 201.482 388.872 219.75 367 219.75 c 256
- 359.667 219.75 350.75 216.75 345.75 212.75 c 257
- 344.75 206.75 343.5 197.333 343.5 194 c 257
- 314.5 194 l 257
- 328.178 354.298 406.221 438 560 438 c 256
- 591 438 640.988 436.425 674 426 c 257
-326 431.25 m 257
- 305 420.25 253.84 413.676 238.25 405.5 c 257
- 135.583 405.5 59 347.259 59 218 c 256
- 59 137.333 86 78 135 34 c 257
- 135 0 l 257
- 68.5828 33.2086 27 120.07 27 221 c 256
- 27 352.7 99.7562 433 239 433 c 256
- 248 433 299.296 432.309 326 431.25 c 257
-EndSplineSet
-EndChar
-
 StartChar: si_JnyAe
-Encoding: 497 -1 2
+Encoding: 184 -1 1
 GlifName: N_ameM_e.560
 Width: 839
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-662 1 m 257
- 654.071 -0.615234 651.333 -1 624 -1 c 256
- 493 -1 421 69 421 169 c 256
+421 169 m 260
  421 274 494 317 613 317 c 258
  730.25 317 l 257
  720.526 363.186 690.515 390 658 390 c 256
@@ -614,6 +530,8 @@ SplineSet
  701.208 -229.427 690.885 -230.25 686 -230.25 c 256
  623.773 -230.25 576 -197.724 576 -132 c 256
  576 -78.6523 614.958 -41.1084 662 1 c 257
+ 654.071 -0.615234 651.333 -1 624 -1 c 256
+ 493 -1 421 69 421 169 c 260
 674 426 m 257
  553 408.5 l 257
  547.395 408.655 545.467 408.75 539.75 408.75 c 256
@@ -647,25 +565,17 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyAee
-Encoding: 498 -1 3
+Encoding: 185 -1 2
 GlifName: N_ameM_e.561
 Width: 839
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-715.75 4 m 257
- 698.69 -10.3359 666.75 -54.2383 666.75 -108 c 256
- 666.75 -157.651 686.454 -193.58 704.75 -201 c 257
- 704.75 -228.25 l 257
- 700.958 -229.427 690.635 -230.25 685.75 -230.25 c 256
- 623.523 -230.25 575.75 -197.724 575.75 -132 c 256
- 575.75 -78.6523 614.708 -41.1084 661.75 1 c 257
- 653.821 -0.615234 651.083 -1 623.75 -1 c 256
- 492.75 -1 420.75 69 420.75 169 c 256
+420.75 169 m 260
  420.75 274 493.75 317 612.75 317 c 258
  730 317 l 257
  720.276 363.186 690.265 390 657.75 390 c 256
@@ -695,6 +605,14 @@ SplineSet
  701.75 -40 l 257
  725.191 -25.7754 747.179 -9.8457 771.25 3.75 c 257
  769.147 3.75 715.75 4 715.75 4 c 257
+ 698.69 -10.3359 666.75 -54.2383 666.75 -108 c 256
+ 666.75 -157.651 686.454 -193.58 704.75 -201 c 257
+ 704.75 -228.25 l 257
+ 700.958 -229.427 690.635 -230.25 685.75 -230.25 c 256
+ 623.523 -230.25 575.75 -197.724 575.75 -132 c 256
+ 575.75 -78.6523 614.708 -41.1084 661.75 1 c 257
+ 653.821 -0.615234 651.083 -1 623.75 -1 c 256
+ 492.75 -1 420.75 69 420.75 169 c 260
 674 426 m 257
  553 408.5 l 257
  547.395 408.655 545.467 408.75 539.75 408.75 c 256
@@ -728,19 +646,17 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyAe
-Encoding: 500 -1 4
+Encoding: 172 -1 3
 GlifName: N_ameM_e.564
 Width: 1018
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-843.75 1 m 257
- 835.821 -0.615234 833.083 -1 805.75 -1 c 256
- 674.75 -1 602.75 69 602.75 169 c 256
+602.75 169 m 260
  602.75 274 675.75 317 794.75 317 c 258
  912 317 l 257
  902.276 363.186 850.015 390 817.5 390 c 256
@@ -766,7 +682,28 @@ SplineSet
  882.958 -229.427 872.635 -230.25 867.75 -230.25 c 256
  805.523 -230.25 757.75 -197.724 757.75 -132 c 256
  757.75 -78.6523 796.708 -41.1084 843.75 1 c 257
-238 323 m 256
+ 835.821 -0.615234 833.083 -1 805.75 -1 c 256
+ 674.75 -1 602.75 69 602.75 169 c 260
+305 268 m 257
+ 287.667 253.333 271.522 234.996 256 212 c 256
+ 229 172 226 163 216 143 c 257
+ 228 153 240 160 254 160 c 256
+ 286 160 297 140 337 140 c 256
+ 383 140 405 157 405 214 c 256
+ 405 216.209 405.041 214.305 405 216 c 257
+ 433 216 l 257
+ 432.964 214.664 433 216.33 433 215 c 256
+ 433 154 457 140 502 140 c 256
+ 543 140 568 169 568 204 c 256
+ 568 246 527 287 426 287 c 256
+ 369.333 287 329.667 280 305 268 c 257
+146 22 m 257
+ 153.696 91.2695 199.452 184.165 234 232 c 256
+ 260 268 273 280 296 304 c 257
+ 305 314 316.25 331 316.25 352 c 256
+ 316.25 371 307 386 283 386 c 256
+ 269 386 253.438 378.533 249 363 c 256
+ 243 342 247 342 238 323 c 256
  229.732 305.546 212 297 197 297 c 256
  160 297 154 328 154 340 c 256
  154 394.099 204.363 433 261 433 c 256
@@ -787,56 +724,29 @@ SplineSet
  242 -1 245 73 212 73 c 256
  189.675 73 177 51 174 11 c 257
  146 22 l 257
- 153.696 91.2695 199.452 184.165 234 232 c 256
- 260 268 273 280 296 304 c 257
- 305 314 316.25 331 316.25 352 c 256
- 316.25 371 307 386 283 386 c 256
- 269 386 253.438 378.533 249 363 c 256
- 243 342 247 342 238 323 c 256
-305 268 m 257
- 287.667 253.333 271.522 234.996 256 212 c 256
- 229 172 226 163 216 143 c 257
- 228 153 240 160 254 160 c 256
- 286 160 297 140 337 140 c 256
- 383 140 405 157 405 214 c 256
- 405 216.209 405.041 214.305 405 216 c 257
- 433 216 l 257
- 432.964 214.664 433 216.33 433 215 c 256
- 433 154 457 140 502 140 c 256
- 543 140 568 169 568 204 c 256
- 568 246 527 287 426 287 c 256
- 369.333 287 329.667 280 305 268 c 257
-293 428.25 m 257
+27 221 m 256
+ 27 352.7 99.7559 434.25 239 434.25 c 256
+ 248 434.25 271 434.25 293 428.25 c 257
  272 417.25 195 404.5 178 398.5 c 257
  106 381.5 59 319.268 59 218 c 256
  59 137.333 86 78 135 34 c 257
  135 0 l 257
  68.5828 33.2086 27 120.07 27 221 c 256
- 27 352.7 99.7559 434.25 239 434.25 c 256
- 248 434.25 271 434.25 293 428.25 c 257
 EndSplineSet
 EndChar
 
 StartChar: si_NyAee
-Encoding: 501 -1 5
+Encoding: 173 -1 4
 GlifName: N_ameM_e.565
 Width: 1018
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-897.75 4 m 257
- 880.69 -10.3359 848.75 -54.2383 848.75 -108 c 256
- 848.75 -157.651 868.454 -193.58 886.75 -201 c 257
- 886.75 -228.25 l 257
- 882.958 -229.427 872.635 -230.25 867.75 -230.25 c 256
- 805.523 -230.25 757.75 -197.724 757.75 -132 c 256
- 757.75 -78.6523 796.708 -41.1084 843.75 1 c 257
- 835.821 -0.615234 833.083 -1 805.75 -1 c 256
- 674.75 -1 602.75 69 602.75 169 c 256
+602.75 169 m 256
  602.75 274 675.75 317 794.75 317 c 258
  912 317 l 257
  902.276 363.186 850.265 390 817.75 390 c 256
@@ -866,7 +776,34 @@ SplineSet
  883.75 -40 l 257
  907.191 -25.7754 929.179 -9.8457 953.25 3.75 c 257
  951.147 3.75 897.75 4 897.75 4 c 257
-238 323 m 256
+ 880.69 -10.3359 848.75 -54.2383 848.75 -108 c 256
+ 848.75 -157.651 868.454 -193.58 886.75 -201 c 257
+ 886.75 -228.25 l 257
+ 882.958 -229.427 872.635 -230.25 867.75 -230.25 c 256
+ 805.523 -230.25 757.75 -197.724 757.75 -132 c 256
+ 757.75 -78.6523 796.708 -41.1084 843.75 1 c 257
+ 835.821 -0.615234 833.083 -1 805.75 -1 c 256
+ 674.75 -1 602.75 69 602.75 169 c 256
+305 268 m 257
+ 287.667 253.333 271.522 234.996 256 212 c 256
+ 229 172 226 163 216 143 c 257
+ 228 153 240 160 254 160 c 256
+ 286 160 297 140 337 140 c 256
+ 383 140 405 157 405 214 c 256
+ 405 216.209 405.041 214.305 405 216 c 257
+ 433 216 l 257
+ 432.964 214.664 433 216.33 433 215 c 256
+ 433 154 457 140 502 140 c 256
+ 543 140 568 169 568 204 c 256
+ 568 246 527 287 426 287 c 256
+ 369.333 287 329.667 280 305 268 c 257
+146 22 m 257
+ 153.696 91.2695 199.452 184.165 234 232 c 256
+ 260 268 273 280 296 304 c 257
+ 305 314 316.25 331 316.25 352 c 256
+ 316.25 371 307 386 283 386 c 256
+ 269 386 253.438 378.533 249 363 c 256
+ 243 342 247 342 238 323 c 256
  229.732 305.546 212 297 197 297 c 256
  160 297 154 328 154 340 c 256
  154 394.099 204.363 433 261 433 c 256
@@ -887,38 +824,19 @@ SplineSet
  242 -1 245 73 212 73 c 256
  189.675 73 177 51 174 11 c 257
  146 22 l 257
- 153.696 91.2695 199.452 184.165 234 232 c 256
- 260 268 273 280 296 304 c 257
- 305 314 316.25 331 316.25 352 c 256
- 316.25 371 307 386 283 386 c 256
- 269 386 253.438 378.533 249 363 c 256
- 243 342 247 342 238 323 c 256
-305 268 m 257
- 287.667 253.333 271.522 234.996 256 212 c 256
- 229 172 226 163 216 143 c 257
- 228 153 240 160 254 160 c 256
- 286 160 297 140 337 140 c 256
- 383 140 405 157 405 214 c 256
- 405 216.209 405.041 214.305 405 216 c 257
- 433 216 l 257
- 432.964 214.664 433 216.33 433 215 c 256
- 433 154 457 140 502 140 c 256
- 543 140 568 169 568 204 c 256
- 568 246 527 287 426 287 c 256
- 369.333 287 329.667 280 305 268 c 257
-293 428.25 m 257
+27 221 m 260
+ 27 352.7 99.7559 434.25 239 434.25 c 256
+ 248 434.25 271 434.25 293 428.25 c 257
  272 417.25 195 404.5 178 398.5 c 257
  106 381.5 59 319.268 59 218 c 256
  59 137.333 86 78 135 34 c 257
  135 0 l 257
- 68.5828 33.2086 27 120.07 27 221 c 256
- 27 352.7 99.7559 434.25 239 434.25 c 256
- 248 434.25 271 434.25 293 428.25 c 257
+ 68.5828 33.2086 27 120.07 27 221 c 260
 EndSplineSet
 EndChar
 
-StartChar: afii301
-Encoding: 82 8205 6
+StartChar: zwj
+Encoding: 83 8205 5
 GlifName: zwj
 Width: 0
 VWidth: 0
@@ -947,8 +865,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: afii61664
-Encoding: 81 8204 7
+StartChar: zwnj
+Encoding: 82 8204 6
 GlifName: zwnj
 Width: 0
 VWidth: 0
@@ -967,7 +885,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_B.halant
-Encoding: 306 -1 8
+Encoding: 314 -1 7
 GlifName: si_B_.halant
 Width: 619
 VWidth: 0
@@ -1018,7 +936,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_BI
-Encoding: 307 -1 9
+Encoding: 315 -1 8
 GlifName: si_B_I_
 Width: 619
 VWidth: 0
@@ -1069,7 +987,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_BIi
-Encoding: 308 -1 10
+Encoding: 316 -1 9
 GlifName: si_B_I_i
 Width: 619
 VWidth: 0
@@ -1125,8 +1043,32 @@ EndSplineSet
 EndChar
 
 StartChar: si_BRI
-Encoding: 313 -1 11
+Encoding: 321 -1 10
 GlifName: si_B_R_I_
+Width: 619
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+58.25 -44 m 257
+ 87.75 -44 l 257
+ 125.226 -86.958 179.667 -114.25 285 -114.25 c 256
+ 428 -114.25 535.5 -31.0107 535.5 63.25 c 256
+ 535.5 78.2842 533.938 90.4463 528.5 102 c 257
+ 541.5 133 l 257
+ 559.5 106.333 568.5 74.667 568.5 38 c 256
+ 568.5 -123.729 443.75 -219 299.75 -219 c 256
+ 174.652 -219 95.583 -153.333 58.25 -44 c 257
+EndSplineSet
+Refer: 8 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_BRIi
+Encoding: 322 -1 11
+GlifName: si_B_R_I_i
 Width: 619
 VWidth: 0
 GlyphClass: 2
@@ -1148,32 +1090,8 @@ EndSplineSet
 Refer: 9 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_BRIi
-Encoding: 314 -1 12
-GlifName: si_B_R_I_i
-Width: 619
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-58.25 -44 m 257
- 87.75 -44 l 257
- 125.226 -86.958 179.667 -114.25 285 -114.25 c 256
- 428 -114.25 535.5 -31.0107 535.5 63.25 c 256
- 535.5 78.2842 533.938 90.4463 528.5 102 c 257
- 541.5 133 l 257
- 559.5 106.333 568.5 74.667 568.5 38 c 256
- 568.5 -123.729 443.75 -219 299.75 -219 c 256
- 174.652 -219 95.583 -153.333 58.25 -44 c 257
-EndSplineSet
-Refer: 10 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_BRa
-Encoding: 312 -1 13
+Encoding: 320 -1 12
 GlifName: si_B_R_a
 Width: 619
 VWidth: 0
@@ -1193,11 +1111,11 @@ SplineSet
  568.5 -123.729 443.75 -219 299.75 -219 c 256
  174.652 -219 95.583 -153.333 58.25 -44 c 257
 EndSplineSet
-Refer: 467 3510 N 1 0 0 1 0 0 2
+Refer: 465 3510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BU
-Encoding: 309 -1 14
+Encoding: 317 -1 13
 GlifName: si_B_U_
 Width: 619
 VWidth: 0
@@ -1221,11 +1139,11 @@ SplineSet
  154.75 -235 l 258
  75.207 -235 49.25 -186.092 49.25 -142.5 c 256
 EndSplineSet
-Refer: 467 3510 N 1 0 0 1 0 0 2
+Refer: 465 3510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BUu
-Encoding: 310 -1 15
+Encoding: 318 -1 14
 GlifName: si_B_U_u
 Width: 619
 VWidth: 0
@@ -1252,11 +1170,11 @@ SplineSet
  325.25 -146.25 258.25 -237 160.25 -237 c 256
  105.25 -237 49.25 -206 49.25 -138 c 256
 EndSplineSet
-Refer: 467 3510 N 1 0 0 1 0 0 2
+Refer: 465 3510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ba.reph
-Encoding: 311 -1 16
+Encoding: 319 -1 15
 GlifName: si_B_a.reph
 Width: 619
 VWidth: 0
@@ -1265,12 +1183,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 321 -1 N 1 0 0 1 618 112 2
-Refer: 467 3510 N 1 0 0 1 0 0 2
+Refer: 320 -1 N 1 0 0 1 618 112 2
+Refer: 465 3510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Bh.halant
-Encoding: 315 -1 17
+Encoding: 323 -1 16
 GlifName: si_B_h.halant
 Width: 670
 VWidth: 0
@@ -1293,11 +1211,11 @@ SplineSet
  573 586.602 541.17 606.203 495.105 636.587 c 257
  495.105 504.273 l 257
 EndSplineSet
-Refer: 468 3511 N 1 0 0 1 0 0 2
+Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhI
-Encoding: 316 -1 18
+Encoding: 324 -1 17
 GlifName: si_B_hI_
 Width: 670
 VWidth: 0
@@ -1321,11 +1239,11 @@ SplineSet
  425.25 407.5 l 257
  265.25 410.833 178.25 462 178.25 537 c 256
 EndSplineSet
-Refer: 468 3511 N 1 0 0 1 0 0 2
+Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhIi
-Encoding: 317 -1 19
+Encoding: 325 -1 18
 GlifName: si_B_hI_i
 Width: 670
 VWidth: 0
@@ -1353,11 +1271,11 @@ SplineSet
  425.25 406 l 257
  265.25 409.333 178.25 462 178.25 537 c 256
 EndSplineSet
-Refer: 468 3511 N 1 0 0 1 0 0 2
+Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhRI
-Encoding: 322 -1 20
+Encoding: 330 -1 19
 GlifName: si_B_hR_I_
 Width: 670
 VWidth: 0
@@ -1377,11 +1295,11 @@ SplineSet
  601.75 -123.729 482.55 -219 331 -219 c 256
  191.156 -219 112.833 -153.333 75.5 -44 c 257
 EndSplineSet
-Refer: 18 -1 N 1 0 0 1 0 0 2
+Refer: 17 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhRIi
-Encoding: 323 -1 21
+Encoding: 331 -1 20
 GlifName: si_B_hR_I_i
 Width: 670
 VWidth: 0
@@ -1418,11 +1336,11 @@ SplineSet
  601.75 -123.729 482.55 -219 331 -219 c 256
  191.156 -219 112.833 -153.333 75.5 -44 c 257
 EndSplineSet
-Refer: 468 3511 N 1 0 0 1 0 0 2
+Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhRa
-Encoding: 321 -1 22
+Encoding: 329 -1 21
 GlifName: si_B_hR_a
 Width: 670
 VWidth: 0
@@ -1442,11 +1360,11 @@ SplineSet
  601.75 -123.729 482.55 -219 331 -219 c 256
  191.156 -219 112.833 -153.333 75.5 -44 c 257
 EndSplineSet
-Refer: 468 3511 N 1 0 0 1 0 0 2
+Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhU
-Encoding: 318 -1 23
+Encoding: 326 -1 22
 GlifName: si_B_hU_
 Width: 670
 VWidth: 0
@@ -1506,7 +1424,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_BhUu
-Encoding: 319 -1 24
+Encoding: 327 -1 23
 GlifName: si_B_hU_u
 Width: 670
 VWidth: 0
@@ -1534,11 +1452,11 @@ SplineSet
  628.25 -161 576.946 -205 494.946 -205 c 256
  436.946 -205 372.946 -187.466 372.946 -129 c 256
 EndSplineSet
-Refer: 468 3511 N 1 0 0 1 0 0 2
+Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Bha.reph
-Encoding: 320 -1 25
+Encoding: 328 -1 24
 GlifName: si_B_ha.reph
 Width: 670
 VWidth: 0
@@ -1568,11 +1486,11 @@ SplineSet
  405 471 370 445 312 445 c 256
  253 445 194 474 194 530 c 256
 EndSplineSet
-Refer: 468 3511 N 1 0 0 1 0 0 2
+Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_C.halant
-Encoding: 135 -1 26
+Encoding: 136 -1 25
 GlifName: si_C_.halant
 Width: 621
 VWidth: 0
@@ -1631,7 +1549,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_CI
-Encoding: 136 -1 27
+Encoding: 137 -1 26
 GlifName: si_C_I_
 Width: 621
 VWidth: 0
@@ -1687,7 +1605,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_CIi
-Encoding: 137 -1 28
+Encoding: 138 -1 27
 GlifName: si_C_I_i
 Width: 621
 VWidth: 0
@@ -1748,8 +1666,32 @@ EndSplineSet
 EndChar
 
 StartChar: si_CRI
-Encoding: 142 -1 29
+Encoding: 143 -1 28
 GlifName: si_C_R_I_
+Width: 597
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+46 -44 m 257
+ 75.5 -44 l 257
+ 112.976 -86.958 165.667 -114.25 271 -114.25 c 256
+ 414 -114.25 517.5 -31.0107 517.5 63.25 c 256
+ 517.5 78.2842 511.661 99.6465 501.75 110 c 257
+ 517.75 140 l 257
+ 539.14 115.406 550.5 74.667 550.5 38 c 256
+ 550.5 -123.729 430.25 -219 286.25 -219 c 256
+ 160.168 -219 83.333 -153.333 46 -44 c 257
+EndSplineSet
+Refer: 26 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_CRIi
+Encoding: 144 -1 29
+GlifName: si_C_R_I_i
 Width: 597
 VWidth: 0
 GlyphClass: 2
@@ -1771,32 +1713,8 @@ EndSplineSet
 Refer: 27 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_CRIi
-Encoding: 143 -1 30
-GlifName: si_C_R_I_i
-Width: 597
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-46 -44 m 257
- 75.5 -44 l 257
- 112.976 -86.958 165.667 -114.25 271 -114.25 c 256
- 414 -114.25 517.5 -31.0107 517.5 63.25 c 256
- 517.5 78.2842 511.661 99.6465 501.75 110 c 257
- 517.75 140 l 257
- 539.14 115.406 550.5 74.667 550.5 38 c 256
- 550.5 -123.729 430.25 -219 286.25 -219 c 256
- 160.168 -219 83.333 -153.333 46 -44 c 257
-EndSplineSet
-Refer: 28 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_CRa
-Encoding: 141 -1 31
+Encoding: 142 -1 30
 GlifName: si_C_R_a
 Width: 597
 VWidth: 0
@@ -1816,11 +1734,11 @@ SplineSet
  550.5 -123.729 430.25 -219 286.25 -219 c 256
  160.168 -219 83.333 -153.333 46 -44 c 257
 EndSplineSet
-Refer: 446 3488 N 1 0 0 1 0 0 2
+Refer: 444 3488 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_CU
-Encoding: 138 -1 32
+Encoding: 139 -1 31
 GlifName: si_C_U_
 Width: 597
 VWidth: 0
@@ -1844,11 +1762,11 @@ SplineSet
  176 -235 l 258
  96.457 -235 70.5 -186.092 70.5 -142.5 c 256
 EndSplineSet
-Refer: 446 3488 N 1 0 0 1 0 0 2
+Refer: 444 3488 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_CUu
-Encoding: 139 -1 33
+Encoding: 140 -1 32
 GlifName: si_C_U_u
 Width: 597
 VWidth: 0
@@ -1875,11 +1793,11 @@ SplineSet
  337.235 -146.25 279.5 -237 181.5 -237 c 256
  126.5 -237 70.5 -206 70.5 -138 c 256
 EndSplineSet
-Refer: 446 3488 N 1 0 0 1 0 0 2
+Refer: 444 3488 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ca.reph
-Encoding: 140 -1 34
+Encoding: 141 -1 33
 GlifName: si_C_a.reph
 Width: 597
 VWidth: 0
@@ -1909,11 +1827,11 @@ SplineSet
  382.5 579 347.5 553 289.5 553 c 256
  230.5 553 171.5 582 171.5 638 c 256
 EndSplineSet
-Refer: 446 3488 N 1 0 0 1 0 0 2
+Refer: 444 3488 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ch.halant
-Encoding: 144 -1 35
+Encoding: 145 -1 34
 GlifName: si_C_h.halant
 Width: 598
 VWidth: 0
@@ -1936,11 +1854,11 @@ SplineSet
  392.5 662.102 360.67 681.703 314.605 712.087 c 257
  314.605 579.773 l 257
 EndSplineSet
-Refer: 447 3489 N 1 0 0 1 0 0 2
+Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ChI
-Encoding: 145 -1 36
+Encoding: 146 -1 35
 GlifName: si_C_hI_
 Width: 598
 VWidth: 0
@@ -1965,11 +1883,11 @@ SplineSet
  325.947 406.999 324.051 406.952 323 406.952 c 256
  260.125 406.952 233 439.49 233 489.5 c 256
 EndSplineSet
-Refer: 447 3489 N 1 0 0 1 0 0 2
+Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ChIi
-Encoding: 146 -1 37
+Encoding: 147 -1 36
 GlifName: si_C_hI_i
 Width: 598
 VWidth: 0
@@ -1998,11 +1916,11 @@ SplineSet
  325.947 406.999 324.051 406.952 323 406.952 c 256
  260.125 406.952 233 439.49 233 489.5 c 256
 EndSplineSet
-Refer: 447 3489 N 1 0 0 1 0 0 2
+Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ChU
-Encoding: 147 -1 38
+Encoding: 148 -1 37
 GlifName: si_C_hU_
 Width: 598
 VWidth: 0
@@ -2026,11 +1944,11 @@ SplineSet
  144.25 -235 l 258
  64.707 -235 38.75 -186.092 38.75 -142.5 c 256
 EndSplineSet
-Refer: 447 3489 N 1 0 0 1 0 0 2
+Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ChUu
-Encoding: 148 -1 39
+Encoding: 149 -1 38
 GlifName: si_C_hU_u
 Width: 598
 VWidth: 0
@@ -2057,11 +1975,11 @@ SplineSet
  303 -146.25 248 -237 150 -237 c 256
  95 -237 39 -206 39 -138 c 256
 EndSplineSet
-Refer: 447 3489 N 1 0 0 1 0 0 2
+Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_D.halant
-Encoding: 247 -1 40
+Encoding: 254 -1 39
 GlifName: si_D_.halant
 Width: 456
 VWidth: 0
@@ -2084,11 +2002,11 @@ SplineSet
  369.25 586.602 337.42 606.203 291.355 636.587 c 257
  291.355 504.273 l 257
 EndSplineSet
-Refer: 461 3503 N 1 0 0 1 0 0 2
+Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DAa
-Encoding: 248 -1 41
+Encoding: 255 -1 40
 GlifName: si_D_A_a
 Width: 456
 VWidth: 0
@@ -2130,7 +2048,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DAa.halant
-Encoding: 257 -1 42
+Encoding: 264 -1 41
 GlifName: si_D_A_a.halant
 Width: 657
 VWidth: 0
@@ -2184,7 +2102,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DAae
-Encoding: 250 -1 43
+Encoding: 257 -1 42
 GlifName: si_D_A_ae
 Width: 461
 VWidth: 0
@@ -2236,7 +2154,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DAe
-Encoding: 249 -1 44
+Encoding: 256 -1 43
 GlifName: si_D_A_e
 Width: 456
 VWidth: 0
@@ -2278,7 +2196,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DDdh.halant
-Encoding: 479 -1 45
+Encoding: 487 -1 44
 GlifName: si_D_D_dh.halant
 Width: 729
 VWidth: 0
@@ -2333,8 +2251,32 @@ EndSplineSet
 EndChar
 
 StartChar: si_DDhI
-Encoding: 480 -1 46
+Encoding: 488 -1 45
 GlifName: si_D_D_hI_
+Width: 729
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+27 211.5 m 256
+ 27 343.2 101.731 433 220.25 433 c 256
+ 246.319 433 288.876 427.134 313.25 398 c 257
+ 300.255 396.265 275.707 393.113 271.75 393 c 257
+ 266.632 398.879 247.82 404.5 223.75 404.5 c 256
+ 97.2451 404.5 58.75 297.872 58.75 208.5 c 256
+ 58.75 131.217 85.9997 75.2388 135 33.75 c 257
+ 135 0 l 257
+ 68.5828 33.2086 27 110.57 27 211.5 c 256
+EndSplineSet
+Refer: 84 -1 N 1 0 0 1 92 0 2
+EndChar
+
+StartChar: si_DDhIi
+Encoding: 489 -1 46
+GlifName: si_D_D_hI_i
 Width: 729
 VWidth: 0
 GlyphClass: 2
@@ -2356,32 +2298,8 @@ EndSplineSet
 Refer: 85 -1 N 1 0 0 1 92 0 2
 EndChar
 
-StartChar: si_DDhIi
-Encoding: 481 -1 47
-GlifName: si_D_D_hI_i
-Width: 729
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-27 211.5 m 256
- 27 343.2 101.731 433 220.25 433 c 256
- 246.319 433 288.876 427.134 313.25 398 c 257
- 300.255 396.265 275.707 393.113 271.75 393 c 257
- 266.632 398.879 247.82 404.5 223.75 404.5 c 256
- 97.2451 404.5 58.75 297.872 58.75 208.5 c 256
- 58.75 131.217 85.9997 75.2388 135 33.75 c 257
- 135 0 l 257
- 68.5828 33.2086 27 110.57 27 211.5 c 256
-EndSplineSet
-Refer: 86 -1 N 1 0 0 1 92 0 2
-EndChar
-
 StartChar: si_DDhU
-Encoding: 482 -1 48
+Encoding: 490 -1 47
 GlifName: si_D_D_hU_
 Width: 729
 VWidth: 0
@@ -2405,11 +2323,11 @@ SplineSet
  249.25 -235 l 258
  169.707 -235 143.75 -186.092 143.75 -142.5 c 256
 EndSplineSet
-Refer: 50 -1 N 1 0 0 1 0 0 2
+Refer: 49 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DDhUu
-Encoding: 483 -1 49
+Encoding: 491 -1 48
 GlifName: si_D_D_hU_u
 Width: 729
 VWidth: 0
@@ -2436,11 +2354,11 @@ SplineSet
  427.25 -146.25 352.25 -237 254.25 -237 c 256
  199.25 -237 143.25 -206 143.25 -138 c 256
 EndSplineSet
-Refer: 50 -1 N 1 0 0 1 0 0 2
+Refer: 49 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DDha
-Encoding: 431 -1 50
+Encoding: 438 -1 49
 GlifName: si_D_D_ha
 Width: 729
 VWidth: 0
@@ -2460,11 +2378,11 @@ SplineSet
  135 0 l 257
  68.5828 33.2086 27 110.57 27 211.5 c 256
 EndSplineSet
-Refer: 462 3504 N 1 0 0 1 93 0 2
+Refer: 460 3504 N 1 0 0 1 93 0 2
 EndChar
 
 StartChar: si_DI
-Encoding: 251 -1 51
+Encoding: 258 -1 50
 GlifName: si_D_I_
 Width: 456
 VWidth: 0
@@ -2486,11 +2404,11 @@ SplineSet
  150.91 405 l 257
  84.9511 414.727 35.0801 450.955 35.0801 518 c 256
 EndSplineSet
-Refer: 461 3503 N 1 0 0 1 0 0 2
+Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DIi
-Encoding: 252 -1 52
+Encoding: 259 -1 51
 GlifName: si_D_I_i
 Width: 456
 VWidth: 0
@@ -2517,11 +2435,11 @@ SplineSet
  150.91 405 l 257
  84.9511 414.727 35.0801 450.955 35.0801 518 c 256
 EndSplineSet
-Refer: 461 3503 N 1 0 0 1 0 0 2
+Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DRI
-Encoding: 260 -1 53
+Encoding: 267 -1 52
 GlifName: si_D_R_I_
 Width: 456
 VWidth: 0
@@ -2571,7 +2489,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DRIi
-Encoding: 261 -1 54
+Encoding: 268 -1 53
 GlifName: si_D_R_I_i
 Width: 456
 VWidth: 0
@@ -2626,7 +2544,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DRa
-Encoding: 259 -1 55
+Encoding: 266 -1 54
 GlifName: si_D_R_a
 Width: 456
 VWidth: 0
@@ -2665,7 +2583,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DU
-Encoding: 253 -1 56
+Encoding: 260 -1 55
 GlifName: si_D_U_
 Width: 456
 VWidth: 0
@@ -2708,7 +2626,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DUu
-Encoding: 254 -1 57
+Encoding: 261 -1 56
 GlifName: si_D_U_u
 Width: 456
 VWidth: 0
@@ -2754,7 +2672,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DV.halant
-Encoding: 484 -1 58
+Encoding: 492 -1 57
 GlifName: si_D_V_.halant
 Width: 688
 VWidth: 0
@@ -2808,7 +2726,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVI
-Encoding: 485 -1 59
+Encoding: 493 -1 58
 GlifName: si_D_V_I_
 Width: 688
 VWidth: 0
@@ -2863,7 +2781,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVIi
-Encoding: 486 -1 60
+Encoding: 494 -1 59
 GlifName: si_D_V_I_i
 Width: 688
 VWidth: 0
@@ -2923,7 +2841,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVU
-Encoding: 487 -1 61
+Encoding: 495 -1 60
 GlifName: si_D_V_U_
 Width: 688
 VWidth: 0
@@ -2980,7 +2898,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVUu
-Encoding: 488 -1 62
+Encoding: 496 -1 61
 GlifName: si_D_V_U_u
 Width: 688
 VWidth: 0
@@ -3040,7 +2958,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVa
-Encoding: 432 -1 63
+Encoding: 439 -1 62
 GlifName: si_D_V_a
 Width: 688
 VWidth: 0
@@ -3084,7 +3002,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYAa.post
-Encoding: 263 -1 64
+Encoding: 270 -1 63
 GlifName: si_D_Y_A_a.post
 Width: 787
 VWidth: 0
@@ -3150,7 +3068,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYOo.post
-Encoding: 266 -1 65
+Encoding: 273 -1 64
 GlifName: si_D_Y_O_o.post
 Width: 895
 VWidth: 0
@@ -3228,7 +3146,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYUu.post
-Encoding: 265 -1 66
+Encoding: 272 -1 65
 GlifName: si_D_Y_U_u.post
 Width: 614
 VWidth: 0
@@ -3299,7 +3217,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYa.post
-Encoding: 262 -1 67
+Encoding: 269 -1 66
 GlifName: si_D_Y_a.post
 Width: 614
 VWidth: 0
@@ -3354,7 +3272,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYu.post
-Encoding: 264 -1 68
+Encoding: 271 -1 67
 GlifName: si_D_Y_u.post
 Width: 614
 VWidth: 0
@@ -3422,7 +3340,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Da.reph
-Encoding: 258 -1 69
+Encoding: 265 -1 68
 GlifName: si_D_a.reph
 Width: 456
 VWidth: 0
@@ -3452,11 +3370,11 @@ SplineSet
  307.5 471 272.5 445 214.5 445 c 256
  155.5 445 96.5 474 96.5 530 c 256
 EndSplineSet
-Refer: 461 3503 N 1 0 0 1 0 0 2
+Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Dd.halant
-Encoding: 207 -1 70
+Encoding: 214 -1 69
 GlifName: si_D_d.halant
 Width: 647
 VWidth: 0
@@ -3513,7 +3431,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdI
-Encoding: 208 -1 71
+Encoding: 215 -1 70
 GlifName: si_D_dI_
 Width: 647
 VWidth: 0
@@ -3567,7 +3485,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdIi
-Encoding: 209 -1 72
+Encoding: 216 -1 71
 GlifName: si_D_dI_i
 Width: 647
 VWidth: 0
@@ -3626,8 +3544,32 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdRI
-Encoding: 214 -1 73
+Encoding: 221 -1 72
 GlifName: si_D_dR_I_
+Width: 647
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+55.75 -44 m 257
+ 85.25 -44 l 257
+ 122.726 -86.9578 189.667 -114.25 295 -114.25 c 256
+ 438 -114.25 549 -31.0107 549 63.25 c 256
+ 549 78.2842 547.438 90.446 542 102 c 257
+ 555 133 l 257
+ 573 106.333 582 74.667 582 38 c 256
+ 582 -123.729 453.75 -219 309.75 -219 c 256
+ 176.75 -219 93.083 -153.333 55.75 -44 c 257
+EndSplineSet
+Refer: 70 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_DdRIi
+Encoding: 222 -1 73
+GlifName: si_D_dR_I_i
 Width: 647
 VWidth: 0
 GlyphClass: 2
@@ -3649,32 +3591,8 @@ EndSplineSet
 Refer: 71 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_DdRIi
-Encoding: 215 -1 74
-GlifName: si_D_dR_I_i
-Width: 647
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-55.75 -44 m 257
- 85.25 -44 l 257
- 122.726 -86.9578 189.667 -114.25 295 -114.25 c 256
- 438 -114.25 549 -31.0107 549 63.25 c 256
- 549 78.2842 547.438 90.446 542 102 c 257
- 555 133 l 257
- 573 106.333 582 74.667 582 38 c 256
- 582 -123.729 453.75 -219 309.75 -219 c 256
- 176.75 -219 93.083 -153.333 55.75 -44 c 257
-EndSplineSet
-Refer: 72 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_DdRa
-Encoding: 213 -1 75
+Encoding: 220 -1 74
 GlifName: si_D_dR_a
 Width: 647
 VWidth: 0
@@ -3694,11 +3612,11 @@ SplineSet
  582 -123.729 453.75 -219 309.75 -219 c 256
  176.75 -219 93.083 -153.333 55.75 -44 c 257
 EndSplineSet
-Refer: 455 3497 N 1 0 0 1 0 0 2
+Refer: 453 3497 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DdU
-Encoding: 210 -1 76
+Encoding: 217 -1 75
 GlifName: si_D_dU_
 Width: 647
 VWidth: 0
@@ -3722,11 +3640,11 @@ SplineSet
  157 -235 l 258
  77.457 -235 51.5 -186.092 51.5 -142.5 c 256
 EndSplineSet
-Refer: 455 3497 N 1 0 0 1 0 0 2
+Refer: 453 3497 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DdUu
-Encoding: 211 -1 77
+Encoding: 218 -1 76
 GlifName: si_D_dU_u
 Width: 647
 VWidth: 0
@@ -3753,11 +3671,11 @@ SplineSet
  346 -146.25 260 -237 162 -237 c 256
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
-Refer: 455 3497 N 1 0 0 1 0 0 2
+Refer: 453 3497 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Dda.reph
-Encoding: 212 -1 78
+Encoding: 219 -1 77
 GlifName: si_D_da.reph
 Width: 647
 VWidth: 0
@@ -3787,11 +3705,11 @@ SplineSet
  386.25 582 351.25 556 293.25 556 c 256
  234.25 556 175.25 585 175.25 641 c 256
 EndSplineSet
-Refer: 455 3497 N 1 0 0 1 0 0 2
+Refer: 453 3497 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ddh.halant
-Encoding: 216 -1 79
+Encoding: 223 -1 78
 GlifName: si_D_dh.halant
 Width: 647
 VWidth: 0
@@ -3853,7 +3771,7 @@ LCarets2: 1 174
 EndChar
 
 StartChar: si_DdhI
-Encoding: 217 -1 80
+Encoding: 224 -1 79
 GlifName: si_D_dhI_
 Width: 647
 VWidth: 0
@@ -3915,7 +3833,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdhIi
-Encoding: 218 -1 81
+Encoding: 225 -1 80
 GlifName: si_D_dhI_i
 Width: 647
 VWidth: 0
@@ -3982,7 +3900,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdhU
-Encoding: 219 -1 82
+Encoding: 226 -1 81
 GlifName: si_D_dhU_
 Width: 647
 VWidth: 0
@@ -4006,11 +3924,11 @@ SplineSet
  157 -235 l 258
  77.457 -235 51.5 -186.092 51.5 -142.5 c 256
 EndSplineSet
-Refer: 456 3498 N 1 0 0 1 0 0 2
+Refer: 454 3498 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DdhUu
-Encoding: 220 -1 83
+Encoding: 227 -1 82
 GlifName: si_D_dhU_u
 Width: 647
 VWidth: 0
@@ -4037,11 +3955,11 @@ SplineSet
  346 -146.25 260 -237 162 -237 c 256
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
-Refer: 456 3498 N 1 0 0 1 0 0 2
+Refer: 454 3498 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Dh.halant
-Encoding: 267 -1 84
+Encoding: 274 -1 83
 GlifName: si_D_h.halant
 Width: 638
 VWidth: 0
@@ -4087,7 +4005,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DhI
-Encoding: 268 -1 85
+Encoding: 275 -1 84
 GlifName: si_D_hI_
 Width: 638
 VWidth: 0
@@ -4132,7 +4050,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DhIi
-Encoding: 269 -1 86
+Encoding: 276 -1 85
 GlifName: si_D_hI_i
 Width: 638
 VWidth: 0
@@ -4183,8 +4101,32 @@ EndSplineSet
 EndChar
 
 StartChar: si_DhRI
-Encoding: 274 -1 87
+Encoding: 281 -1 86
 GlifName: si_D_hR_I_
+Width: 638
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+55.75 -44 m 257
+ 85.25 -44 l 257
+ 122.726 -86.9578 189.667 -114.25 295 -114.25 c 256
+ 438 -114.25 549 -31.0107 549 63.25 c 256
+ 549 78.2842 547.438 90.446 542 102 c 257
+ 555 133 l 257
+ 573 106.333 582 74.667 582 38 c 256
+ 582 -123.729 453.75 -219 309.75 -219 c 256
+ 176.75 -219 93.083 -153.333 55.75 -44 c 257
+EndSplineSet
+Refer: 84 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_DhRIi
+Encoding: 282 -1 87
+GlifName: si_D_hR_I_i
 Width: 638
 VWidth: 0
 GlyphClass: 2
@@ -4206,32 +4148,8 @@ EndSplineSet
 Refer: 85 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_DhRIi
-Encoding: 275 -1 88
-GlifName: si_D_hR_I_i
-Width: 638
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-55.75 -44 m 257
- 85.25 -44 l 257
- 122.726 -86.9578 189.667 -114.25 295 -114.25 c 256
- 438 -114.25 549 -31.0107 549 63.25 c 256
- 549 78.2842 547.438 90.446 542 102 c 257
- 555 133 l 257
- 573 106.333 582 74.667 582 38 c 256
- 582 -123.729 453.75 -219 309.75 -219 c 256
- 176.75 -219 93.083 -153.333 55.75 -44 c 257
-EndSplineSet
-Refer: 86 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_DhRa
-Encoding: 273 -1 89
+Encoding: 280 -1 88
 GlifName: si_D_hR_a
 Width: 638
 VWidth: 0
@@ -4251,11 +4169,11 @@ SplineSet
  582 -123.729 453.75 -219 309.75 -219 c 256
  176.75 -219 93.083 -153.333 55.75 -44 c 257
 EndSplineSet
-Refer: 462 3504 N 1 0 0 1 0 0 2
+Refer: 460 3504 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DhU
-Encoding: 270 -1 90
+Encoding: 277 -1 89
 GlifName: si_D_hU_
 Width: 638
 VWidth: 0
@@ -4279,11 +4197,11 @@ SplineSet
  157 -235 l 258
  77.457 -235 51.5 -186.092 51.5 -142.5 c 256
 EndSplineSet
-Refer: 462 3504 N 1 0 0 1 0 0 2
+Refer: 460 3504 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DhUu
-Encoding: 271 -1 91
+Encoding: 278 -1 90
 GlifName: si_D_hU_u
 Width: 638
 VWidth: 0
@@ -4310,11 +4228,11 @@ SplineSet
  335 -146.25 260 -237 162 -237 c 256
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
-Refer: 462 3504 N 1 0 0 1 0 0 2
+Refer: 460 3504 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Dha.reph
-Encoding: 272 -1 92
+Encoding: 279 -1 91
 GlifName: si_D_ha.reph
 Width: 638
 VWidth: 0
@@ -4344,11 +4262,11 @@ SplineSet
  452.5 699 388.5 742 311.5 742 c 256
  229.62 742 171.5 705 171.5 641 c 256
 EndSplineSet
-Refer: 462 3504 N 1 0 0 1 0 0 2
+Refer: 460 3504 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DvocR
-Encoding: 255 -1 93
+Encoding: 262 -1 92
 GlifName: si_D_vocR_
 Width: 703
 VWidth: 0
@@ -4384,11 +4302,11 @@ SplineSet
  539.718 192 520.903 187.953 512.75 185.5 c 256
  476.448 174.578 454 150.545 454 107 c 256
 EndSplineSet
-Refer: 461 3503 N 1 0 0 1 0 0 2
+Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DvocRr
-Encoding: 256 -1 94
+Encoding: 263 -1 93
 GlifName: si_D_vocR_r
 Width: 962
 VWidth: 0
@@ -4449,11 +4367,11 @@ SplineSet
  539.718 192 520.903 187.953 512.75 185.5 c 256
  476.448 174.578 454 150.545 454 107 c 256
 EndSplineSet
-Refer: 461 3503 N 1 0 0 1 0 0 2
+Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_F.halant
-Encoding: 413 -1 95
+Encoding: 420 -1 94
 GlifName: si_F_.halant
 Width: 607
 VWidth: 0
@@ -4476,11 +4394,11 @@ SplineSet
  510 586.602 478.17 606.203 432.105 636.587 c 257
  432.105 504.273 l 257
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FI
-Encoding: 414 -1 96
+Encoding: 421 -1 95
 GlifName: si_F_I_
 Width: 607
 VWidth: 0
@@ -4502,11 +4420,11 @@ SplineSet
  207 405 l 257
  130.143 408.074 64 443.457 64 518 c 256
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FIi
-Encoding: 415 -1 97
+Encoding: 422 -1 96
 GlifName: si_F_I_i
 Width: 607
 VWidth: 0
@@ -4533,11 +4451,11 @@ SplineSet
  138.25 406 l 257
  85.7639 412.961 48.25 455.368 48.25 511.75 c 256
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FRI
-Encoding: 420 -1 98
+Encoding: 427 -1 97
 GlifName: si_F_R_I_
 Width: 607
 VWidth: 0
@@ -4568,11 +4486,11 @@ SplineSet
  550.25 -123.729 437 -219 293 -219 c 256
  172.53 -219 97.083 -153.333 59.75 -44 c 257
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FRIi
-Encoding: 421 -1 99
+Encoding: 428 -1 98
 GlifName: si_F_R_I_i
 Width: 607
 VWidth: 0
@@ -4608,11 +4526,11 @@ SplineSet
  550.25 -123.729 437 -219 293 -219 c 256
  172.53 -219 97.083 -153.333 59.75 -44 c 257
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FRa
-Encoding: 419 -1 100
+Encoding: 426 -1 99
 GlifName: si_F_R_a
 Width: 607
 VWidth: 0
@@ -4632,11 +4550,11 @@ SplineSet
  550.25 -123.729 437 -219 293 -219 c 256
  172.53 -219 97.083 -153.333 59.75 -44 c 257
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FU
-Encoding: 416 -1 101
+Encoding: 423 -1 100
 GlifName: si_F_U_
 Width: 607
 VWidth: 0
@@ -4660,11 +4578,11 @@ SplineSet
  159 -235 l 258
  79.457 -235 53.5 -186.092 53.5 -142.5 c 256
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FUu
-Encoding: 417 -1 102
+Encoding: 424 -1 101
 GlifName: si_F_U_u
 Width: 607
 VWidth: 0
@@ -4691,11 +4609,11 @@ SplineSet
  310.25 -146.25 262 -237 164 -237 c 256
  109 -237 53 -206 53 -138 c 256
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Fa.reph
-Encoding: 418 -1 103
+Encoding: 425 -1 102
 GlifName: si_F_a.reph
 Width: 607
 VWidth: 0
@@ -4725,11 +4643,11 @@ SplineSet
  367.5 471 332.5 445 274.5 445 c 256
  215.5 445 156.5 474 156.5 530 c 256
 EndSplineSet
-Refer: 480 3526 N 1 0 0 1 0 0 2
+Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_G.halant
-Encoding: 108 -1 104
+Encoding: 109 -1 103
 GlifName: si_G_.halant
 Width: 636
 VWidth: 0
@@ -4752,11 +4670,11 @@ SplineSet
  541 586.602 509.17 606.203 463.105 636.587 c 257
  463.105 504.273 l 257
 EndSplineSet
-Refer: 442 3484 N 1 0 0 1 0 0 2
+Refer: 440 3484 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GDha
-Encoding: 430 -1 105
+Encoding: 437 -1 104
 GlifName: si_G_D_ha
 Width: 942
 VWidth: 0
@@ -4788,11 +4706,11 @@ SplineSet
  352 56 295 -2 208 -2 c 256
  97 -2 34 96 34 207 c 256
 EndSplineSet
-Refer: 462 3504 N 1 0 0 1 306 0 2
+Refer: 460 3504 N 1 0 0 1 306 0 2
 EndChar
 
 StartChar: si_GI
-Encoding: 109 -1 106
+Encoding: 110 -1 105
 GlifName: si_G_I_
 Width: 636
 VWidth: 0
@@ -4844,7 +4762,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_GIi
-Encoding: 110 -1 107
+Encoding: 111 -1 106
 GlifName: si_G_I_i
 Width: 636
 VWidth: 0
@@ -4897,7 +4815,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_GR.halant
-Encoding: 115 -1 108
+Encoding: 116 -1 107
 GlifName: si_G_R_.halant
 Width: 636
 VWidth: 0
@@ -4917,12 +4835,36 @@ SplineSet
  582 -123.729 462.8 -219 311.25 -219 c 256
  171.406 -219 93.083 -153.333 55.75 -44 c 257
 EndSplineSet
-Refer: 104 -1 N 1 0 0 1 0 0 2
+Refer: 103 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GRI
-Encoding: 116 -1 109
+Encoding: 117 -1 108
 GlifName: si_G_R_I_
+Width: 636
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+55.75 -44 m 257
+ 85.25 -44 l 257
+ 118.783 -93.29 175.552 -113.75 288.75 -113.75 c 256
+ 440.314 -113.75 551.75 -31.0107 551.75 63.25 c 256
+ 551.75 78.2842 549 90.793 542 102 c 257
+ 555 133 l 257
+ 573 106.333 582 74.667 582 38 c 256
+ 582 -123.729 462.8 -219 311.25 -219 c 256
+ 171.406 -219 93.083 -153.333 55.75 -44 c 257
+EndSplineSet
+Refer: 105 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_GRIi
+Encoding: 118 -1 109
+GlifName: si_G_R_I_i
 Width: 636
 VWidth: 0
 GlyphClass: 2
@@ -4944,32 +4886,8 @@ EndSplineSet
 Refer: 106 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_GRIi
-Encoding: 117 -1 110
-GlifName: si_G_R_I_i
-Width: 636
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-55.75 -44 m 257
- 85.25 -44 l 257
- 118.783 -93.29 175.552 -113.75 288.75 -113.75 c 256
- 440.314 -113.75 551.75 -31.0107 551.75 63.25 c 256
- 551.75 78.2842 549 90.793 542 102 c 257
- 555 133 l 257
- 573 106.333 582 74.667 582 38 c 256
- 582 -123.729 462.8 -219 311.25 -219 c 256
- 171.406 -219 93.083 -153.333 55.75 -44 c 257
-EndSplineSet
-Refer: 107 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_GRa
-Encoding: 114 -1 111
+Encoding: 115 -1 110
 GlifName: si_G_R_a
 Width: 636
 VWidth: 0
@@ -4989,11 +4907,11 @@ SplineSet
  582 -123.729 462.8 -219 311.25 -219 c 256
  171.406 -219 93.083 -153.333 55.75 -44 c 257
 EndSplineSet
-Refer: 442 3484 N 1 0 0 1 0 0 2
+Refer: 440 3484 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GU
-Encoding: 111 -1 112
+Encoding: 112 -1 111
 GlifName: si_G_U_
 Width: 636
 VWidth: 0
@@ -5043,7 +4961,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_GUu
-Encoding: 112 -1 113
+Encoding: 113 -1 112
 GlifName: si_G_U_u
 Width: 636
 VWidth: 0
@@ -5071,11 +4989,11 @@ SplineSet
  591.25 -161 539.946 -205 457.946 -205 c 256
  399.946 -205 335.946 -187.466 335.946 -129 c 256
 EndSplineSet
-Refer: 442 3484 N 1 0 0 1 0 0 2
+Refer: 440 3484 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ga.reph
-Encoding: 113 -1 114
+Encoding: 114 -1 113
 GlifName: si_G_a.reph
 Width: 636
 VWidth: 0
@@ -5084,12 +5002,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 321 -1 N 1 0 0 1 703 -28 2
-Refer: 442 3484 N 1 0 0 1 0 0 2
+Refer: 320 -1 N 1 0 0 1 703 -28 2
+Refer: 440 3484 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Gh.halant
-Encoding: 118 -1 115
+Encoding: 119 -1 114
 GlifName: si_G_h.halant
 Width: 677
 VWidth: 0
@@ -5112,11 +5030,11 @@ SplineSet
  583 586.602 551.17 606.203 505.105 636.587 c 257
  505.105 504.273 l 257
 EndSplineSet
-Refer: 443 3485 N 1 0 0 1 0 0 2
+Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhI
-Encoding: 119 -1 116
+Encoding: 120 -1 115
 GlifName: si_G_hI_
 Width: 677
 VWidth: 0
@@ -5138,11 +5056,11 @@ SplineSet
  245.5 404 l 257
  168.643 407.074 102.5 442.457 102.5 517 c 256
 EndSplineSet
-Refer: 443 3485 N 1 0 0 1 0 0 2
+Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhIi
-Encoding: 120 -1 117
+Encoding: 121 -1 116
 GlifName: si_G_hI_i
 Width: 677
 VWidth: 0
@@ -5169,12 +5087,36 @@ SplineSet
  175.5 406 l 257
  122.255 410.733 85.5 456 85.5 517 c 256
 EndSplineSet
-Refer: 443 3485 N 1 0 0 1 0 0 2
+Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhRI
-Encoding: 124 -1 118
+Encoding: 125 -1 117
 GlifName: si_G_hR_I_
+Width: 677
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+63.25 -44 m 257
+ 92.75 -44 l 257
+ 128.832 -87.3613 197.552 -115.5 310.75 -115.5 c 256
+ 462.314 -115.5 597.25 -31.0107 597.25 63.25 c 256
+ 597.25 78.2842 594.5 90.793 587.5 102 c 257
+ 600.5 133 l 257
+ 618.5 106.333 627.5 74.667 627.5 38 c 256
+ 627.5 -123.729 484.8 -219 333.25 -219 c 256
+ 193.406 -219 100.583 -153.333 63.25 -44 c 257
+EndSplineSet
+Refer: 115 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_GhRIi
+Encoding: 126 -1 118
+GlifName: si_G_hR_I_i
 Width: 677
 VWidth: 0
 GlyphClass: 2
@@ -5196,32 +5138,8 @@ EndSplineSet
 Refer: 116 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_GhRIi
-Encoding: 125 -1 119
-GlifName: si_G_hR_I_i
-Width: 677
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-63.25 -44 m 257
- 92.75 -44 l 257
- 128.832 -87.3613 197.552 -115.5 310.75 -115.5 c 256
- 462.314 -115.5 597.25 -31.0107 597.25 63.25 c 256
- 597.25 78.2842 594.5 90.793 587.5 102 c 257
- 600.5 133 l 257
- 618.5 106.333 627.5 74.667 627.5 38 c 256
- 627.5 -123.729 484.8 -219 333.25 -219 c 256
- 193.406 -219 100.583 -153.333 63.25 -44 c 257
-EndSplineSet
-Refer: 117 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_GhRa
-Encoding: 126 -1 120
+Encoding: 127 -1 119
 GlifName: si_G_hR_a
 Width: 677
 VWidth: 0
@@ -5241,11 +5159,11 @@ SplineSet
  627.5 -123.729 484.8 -219 333.25 -219 c 256
  193.406 -219 100.583 -153.333 63.25 -44 c 257
 EndSplineSet
-Refer: 443 3485 N 1 0 0 1 0 0 2
+Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhU
-Encoding: 121 -1 121
+Encoding: 122 -1 120
 GlifName: si_G_hU_
 Width: 677
 VWidth: 0
@@ -5269,11 +5187,11 @@ SplineSet
  172 -235 l 258
  92.457 -235 66.5 -186.092 66.5 -142.5 c 256
 EndSplineSet
-Refer: 443 3485 N 1 0 0 1 0 0 2
+Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhUu
-Encoding: 122 -1 122
+Encoding: 123 -1 121
 GlifName: si_G_hU_u
 Width: 677
 VWidth: 0
@@ -5300,11 +5218,11 @@ SplineSet
  376.75 -146.25 306.052 -237 184 -237 c 256
  129 -237 67.5 -206 67.5 -138 c 256
 EndSplineSet
-Refer: 443 3485 N 1 0 0 1 0 0 2
+Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Gha.reph
-Encoding: 123 -1 123
+Encoding: 124 -1 122
 GlifName: si_G_ha.reph
 Width: 677
 VWidth: 0
@@ -5334,11 +5252,11 @@ SplineSet
  405 471 370 445 312 445 c 256
  253 445 194 474 194 530 c 256
 EndSplineSet
-Refer: 443 3485 N 1 0 0 1 0 0 2
+Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_H.halant
-Encoding: 400 -1 124
+Encoding: 407 -1 123
 GlifName: si_H_.halant
 Width: 653
 VWidth: 0
@@ -5361,11 +5279,11 @@ SplineSet
  558 586.602 526.17 606.203 480.105 636.587 c 257
  480.105 504.273 l 257
 EndSplineSet
-Refer: 478 3524 N 1 0 0 1 0 0 2
+Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HI
-Encoding: 401 -1 125
+Encoding: 408 -1 124
 GlifName: si_H_I_
 Width: 653
 VWidth: 0
@@ -5389,11 +5307,11 @@ SplineSet
  397 407.5 l 257
  237 410.833 150 462 150 537 c 256
 EndSplineSet
-Refer: 478 3524 N 1 0 0 1 0 0 2
+Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HIi
-Encoding: 402 -1 126
+Encoding: 409 -1 125
 GlifName: si_H_I_i
 Width: 653
 VWidth: 0
@@ -5421,11 +5339,11 @@ SplineSet
  397 409.5 l 257
  237 412.833 150 462 150 537 c 256
 EndSplineSet
-Refer: 478 3524 N 1 0 0 1 0 0 2
+Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HRIi
-Encoding: 407 -1 127
+Encoding: 414 -1 126
 GlifName: si_H_R_I_i
 Width: 653
 VWidth: 0
@@ -5462,11 +5380,11 @@ SplineSet
  602.5 -123.729 471.55 -219 320 -219 c 256
  180.156 -219 98.583 -153.333 61.25 -44 c 257
 EndSplineSet
-Refer: 478 3524 N 1 0 0 1 0 0 2
+Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HRa
-Encoding: 406 -1 128
+Encoding: 413 -1 127
 GlifName: si_H_R_a
 Width: 653
 VWidth: 0
@@ -5486,11 +5404,11 @@ SplineSet
  602.5 -123.729 471.55 -219 320 -219 c 256
  180.156 -219 98.583 -153.333 61.25 -44 c 257
 EndSplineSet
-Refer: 478 3524 N 1 0 0 1 0 0 2
+Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HU
-Encoding: 403 -1 129
+Encoding: 410 -1 128
 GlifName: si_H_U_
 Width: 653
 VWidth: 0
@@ -5514,11 +5432,11 @@ SplineSet
  150.75 -235 l 258
  71.207 -235 45.25 -186.092 45.25 -142.5 c 256
 EndSplineSet
-Refer: 478 3524 N 1 0 0 1 0 0 2
+Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HUu
-Encoding: 404 -1 130
+Encoding: 411 -1 129
 GlifName: si_H_U_u
 Width: 653
 VWidth: 0
@@ -5545,11 +5463,11 @@ SplineSet
  358 -146.25 254 -237 156 -237 c 256
  101 -237 45 -206 45 -138 c 256
 EndSplineSet
-Refer: 478 3524 N 1 0 0 1 0 0 2
+Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ha.reph
-Encoding: 405 -1 131
+Encoding: 412 -1 130
 GlifName: si_H_a.reph
 Width: 653
 VWidth: 0
@@ -5579,11 +5497,11 @@ SplineSet
  379.25 471 344.25 445 286.25 445 c 256
  227.25 445 168.25 474 168.25 530 c 256
 EndSplineSet
-Refer: 478 3524 N 1 0 0 1 0 0 2
+Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_J.halant
-Encoding: 149 -1 132
+Encoding: 150 -1 131
 GlifName: si_J_.halant
 Width: 598
 VWidth: 0
@@ -5606,11 +5524,11 @@ SplineSet
  400.5 662.102 368.67 681.703 322.605 712.087 c 257
  322.605 579.773 l 257
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JI
-Encoding: 150 -1 133
+Encoding: 151 -1 132
 GlifName: si_J_I_
 Width: 598
 VWidth: 0
@@ -5635,11 +5553,11 @@ SplineSet
  325.947 406.999 324.051 406.952 323 406.952 c 256
  260.125 406.952 233 439.49 233 489.5 c 256
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JIi
-Encoding: 151 -1 134
+Encoding: 152 -1 133
 GlifName: si_J_I_i
 Width: 598
 VWidth: 0
@@ -5668,11 +5586,11 @@ SplineSet
  325.947 406.999 324.051 406.952 323 406.952 c 256
  260.125 406.952 233 439.49 233 489.5 c 256
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JRI
-Encoding: 156 -1 135
+Encoding: 157 -1 134
 GlifName: si_J_R_I_
 Width: 598
 VWidth: 0
@@ -5706,11 +5624,11 @@ SplineSet
  325.947 406.999 324.051 406.952 323 406.952 c 256
  260.125 406.952 233 439.49 233 489.5 c 256
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JRIi
-Encoding: 157 -1 136
+Encoding: 158 -1 135
 GlifName: si_J_R_I_i
 Width: 598
 VWidth: 0
@@ -5748,11 +5666,11 @@ SplineSet
  325.947 406.999 324.051 406.952 323 406.952 c 256
  260.125 406.952 233 439.49 233 489.5 c 256
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JRa
-Encoding: 155 -1 137
+Encoding: 156 -1 136
 GlifName: si_J_R_a
 Width: 598
 VWidth: 0
@@ -5772,11 +5690,11 @@ SplineSet
  551 -123.729 432.75 -219 288.75 -219 c 256
  155.75 -219 77.833 -153.333 40.5 -44 c 257
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JU
-Encoding: 152 -1 138
+Encoding: 153 -1 137
 GlifName: si_J_U_
 Width: 598
 VWidth: 0
@@ -5800,11 +5718,11 @@ SplineSet
  144.25 -235 l 258
  64.707 -235 38.75 -186.092 38.75 -142.5 c 256
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JUu
-Encoding: 153 -1 139
+Encoding: 154 -1 138
 GlifName: si_J_U_u
 Width: 598
 VWidth: 0
@@ -5831,11 +5749,11 @@ SplineSet
  303 -146.25 248 -237 150 -237 c 256
  95 -237 39 -206 39 -138 c 256
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ja.reph
-Encoding: 154 -1 140
+Encoding: 155 -1 139
 GlifName: si_J_a.reph
 Width: 598
 VWidth: 0
@@ -5865,11 +5783,11 @@ SplineSet
  311.25 471 276.25 445 218.25 445 c 256
  159.25 445 100.25 474 100.25 530 c 256
 EndSplineSet
-Refer: 448 3490 N 1 0 0 1 0 0 2
+Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Jh.halant
-Encoding: 158 -1 141
+Encoding: 159 -1 140
 GlifName: si_J_h.halant
 Width: 1087
 VWidth: 0
@@ -5953,8 +5871,61 @@ EndSplineSet
 EndChar
 
 StartChar: si_JhI
-Encoding: 159 -1 142
+Encoding: 160 -1 141
 GlifName: si_J_hI_
+Width: 1087
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+91 143 m 257
+ 103 153 115 160 129 160 c 256
+ 161 160 172 140 212 140 c 256
+ 258 140 280 157 280 214 c 256
+ 280 216.209 280.041 214.305 280 216 c 257
+ 308 216 l 257
+ 307.964 214.664 308 216.33 308 215 c 256
+ 308 154 332 140 377 140 c 256
+ 418 140 443 169 443 204 c 256
+ 443 246 402 287 301 287 c 256
+ 244.333 287 204.667 280 180 268 c 257
+ 162.667 253.333 146.522 234.996 131 212 c 256
+ 104 172 101 163 91 143 c 257
+21 22 m 257
+ 28.6963 91.2695 74.4521 184.165 109 232 c 256
+ 135 268 148 280 171 304 c 257
+ 180 314 191.75 331 191.75 352 c 256
+ 191.75 371 182 386 158 386 c 256
+ 144 386 128.438 378.533 124 363 c 256
+ 118 342 122 342 113 323 c 256
+ 104.732 305.546 87 297 72 297 c 256
+ 35 297 29 328 29 340 c 256
+ 29 394.099 79.3633 433 136 433 c 256
+ 188.348 433 220 399 220 358 c 256
+ 220 352 220 349 219 341 c 257
+ 278 396 377 431.5 464 431.5 c 256
+ 569.164 431.5 649.122 403.737 671 398 c 257
+ 663.517 397.319 615.758 385.376 603.25 384.5 c 257
+ 563.635 395.022 515.625 402 471 402 c 256
+ 331.959 402 252.756 335.149 216.5 304.5 c 257
+ 246.5 312.5 277.667 314 305 314 c 256
+ 425 314 515 250 515 126 c 256
+ 515 67.8477 482 -1 397 -1 c 256
+ 351 -1 317.333 20.333 296 63 c 257
+ 278.667 21.667 246.021 -1 204 -1 c 256
+ 117 -1 120 73 87 73 c 256
+ 64.6748 73 52 51 49 11 c 257
+ 21 22 l 257
+EndSplineSet
+Refer: 84 -1 N 1 0 0 1 450 0 2
+EndChar
+
+StartChar: si_JhIi
+Encoding: 161 -1 142
+GlifName: si_J_hI_i
 Width: 1087
 VWidth: 0
 GlyphClass: 2
@@ -6005,9 +5976,9 @@ EndSplineSet
 Refer: 85 -1 N 1 0 0 1 450 0 2
 EndChar
 
-StartChar: si_JhIi
-Encoding: 160 -1 143
-GlifName: si_J_hI_i
+StartChar: si_JhRI
+Encoding: 168 -1 143
+GlifName: si_J_hR_I_
 Width: 1087
 VWidth: 0
 GlyphClass: 2
@@ -6016,51 +5987,22 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-91 143 m 257
- 103 153 115 160 129 160 c 256
- 161 160 172 140 212 140 c 256
- 258 140 280 157 280 214 c 256
- 280 216.209 280.041 214.305 280 216 c 257
- 308 216 l 257
- 307.964 214.664 308 216.33 308 215 c 256
- 308 154 332 140 377 140 c 256
- 418 140 443 169 443 204 c 256
- 443 246 402 287 301 287 c 256
- 244.333 287 204.667 280 180 268 c 257
- 162.667 253.333 146.522 234.996 131 212 c 256
- 104 172 101 163 91 143 c 257
-21 22 m 257
- 28.6963 91.2695 74.4521 184.165 109 232 c 256
- 135 268 148 280 171 304 c 257
- 180 314 191.75 331 191.75 352 c 256
- 191.75 371 182 386 158 386 c 256
- 144 386 128.438 378.533 124 363 c 256
- 118 342 122 342 113 323 c 256
- 104.732 305.546 87 297 72 297 c 256
- 35 297 29 328 29 340 c 256
- 29 394.099 79.3633 433 136 433 c 256
- 188.348 433 220 399 220 358 c 256
- 220 352 220 349 219 341 c 257
- 278 396 377 431.5 464 431.5 c 256
- 569.164 431.5 649.122 403.737 671 398 c 257
- 663.517 397.319 615.758 385.376 603.25 384.5 c 257
- 563.635 395.022 515.625 402 471 402 c 256
- 331.959 402 252.756 335.149 216.5 304.5 c 257
- 246.5 312.5 277.667 314 305 314 c 256
- 425 314 515 250 515 126 c 256
- 515 67.8477 482 -1 397 -1 c 256
- 351 -1 317.333 20.333 296 63 c 257
- 278.667 21.667 246.021 -1 204 -1 c 256
- 117 -1 120 73 87 73 c 256
- 64.6748 73 52 51 49 11 c 257
- 21 22 l 257
+505.75 -44 m 257
+ 535.25 -44 l 257
+ 572.726 -86.958 639.667 -114.25 745 -114.25 c 256
+ 888 -114.25 999 -31.0107 999 63.25 c 256
+ 999 78.2842 997.438 90.4463 992 102 c 257
+ 1005 133 l 257
+ 1023 106.333 1032 74.667 1032 38 c 256
+ 1032 -123.729 903.75 -219 759.75 -219 c 256
+ 626.75 -219 543.083 -153.333 505.75 -44 c 257
 EndSplineSet
-Refer: 86 -1 N 1 0 0 1 450 0 2
+Refer: 141 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_JhRI
-Encoding: 167 -1 144
-GlifName: si_J_hR_I_
+StartChar: si_JhRIi
+Encoding: 169 -1 144
+GlifName: si_J_hR_I_i
 Width: 1087
 VWidth: 0
 GlyphClass: 2
@@ -6082,32 +6024,8 @@ EndSplineSet
 Refer: 142 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_JhRIi
-Encoding: 168 -1 145
-GlifName: si_J_hR_I_i
-Width: 1087
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-505.75 -44 m 257
- 535.25 -44 l 257
- 572.726 -86.958 639.667 -114.25 745 -114.25 c 256
- 888 -114.25 999 -31.0107 999 63.25 c 256
- 999 78.2842 997.438 90.4463 992 102 c 257
- 1005 133 l 257
- 1023 106.333 1032 74.667 1032 38 c 256
- 1032 -123.729 903.75 -219 759.75 -219 c 256
- 626.75 -219 543.083 -153.333 505.75 -44 c 257
-EndSplineSet
-Refer: 143 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_JhRa
-Encoding: 166 -1 146
+Encoding: 167 -1 145
 GlifName: si_J_hR_a
 Width: 1087
 VWidth: 0
@@ -6127,11 +6045,11 @@ SplineSet
  1032 -123.729 903.75 -219 759.75 -219 c 256
  626.75 -219 543.083 -153.333 505.75 -44 c 257
 EndSplineSet
-Refer: 449 3491 N 1 0 0 1 0 0 2
+Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhU
-Encoding: 161 -1 147
+Encoding: 162 -1 146
 GlifName: si_J_hU_
 Width: 1087
 VWidth: 0
@@ -6155,11 +6073,11 @@ SplineSet
  607 -235 l 258
  527.457 -235 501.5 -186.092 501.5 -142.5 c 256
 EndSplineSet
-Refer: 449 3491 N 1 0 0 1 0 0 2
+Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhU.reph
-Encoding: 164 -1 148
+Encoding: 165 -1 147
 GlifName: si_J_hU_.reph
 Width: 1087
 VWidth: 0
@@ -6189,11 +6107,11 @@ SplineSet
  832.5 582 797.5 556 739.5 556 c 256
  680.5 556 621.5 585 621.5 641 c 256
 EndSplineSet
-Refer: 147 -1 N 1 0 0 1 0 0 2
+Refer: 146 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhUu
-Encoding: 162 -1 149
+Encoding: 163 -1 148
 GlifName: si_J_hU_u
 Width: 1087
 VWidth: 0
@@ -6220,11 +6138,11 @@ SplineSet
  785 -146.25 710 -237 612 -237 c 256
  557 -237 501 -206 501 -138 c 256
 EndSplineSet
-Refer: 449 3491 N 1 0 0 1 0 0 2
+Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhUu.reph
-Encoding: 165 -1 150
+Encoding: 166 -1 149
 GlifName: si_J_hU_u.reph
 Width: 1087
 VWidth: 0
@@ -6270,11 +6188,11 @@ SplineSet
  785 -146.25 710 -237 612 -237 c 256
  557 -237 501 -206 501 -138 c 256
 EndSplineSet
-Refer: 449 3491 N 1 0 0 1 0 0 2
+Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Jha.reph
-Encoding: 163 -1 151
+Encoding: 164 -1 150
 GlifName: si_J_ha.reph
 Width: 1087
 VWidth: 0
@@ -6304,11 +6222,11 @@ SplineSet
  832.5 582 797.5 556 739.5 556 c 256
  680.5 556 621.5 585 621.5 641 c 256
 EndSplineSet
-Refer: 449 3491 N 1 0 0 1 0 0 2
+Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Jny.halant
-Encoding: 178 -1 152
+Encoding: 182 -1 151
 GlifName: si_J_ny.halant
 Width: 842
 VWidth: 0
@@ -6331,11 +6249,11 @@ SplineSet
  761 586.602 729.17 606.203 683.105 636.587 c 257
  683.105 504.273 l 257
 EndSplineSet
-Refer: 451 3493 N 1 0 0 1 0 0 2
+Refer: 449 3493 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JnyAa
-Encoding: 179 -1 153
+Encoding: 183 -1 152
 GlifName: si_J_nyA_a
 Width: 842
 VWidth: 0
@@ -6406,7 +6324,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyI
-Encoding: 180 -1 154
+Encoding: 187 -1 153
 GlifName: si_J_nyI_
 Width: 842
 VWidth: 0
@@ -6429,11 +6347,11 @@ SplineSet
  500 424 l 257
  484.693 427.02 424.91 450.955 424.91 518 c 256
 EndSplineSet
-Refer: 451 3493 N 1 0 0 1 0 0 2
+Refer: 449 3493 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JnyIi
-Encoding: 181 -1 155
+Encoding: 188 -1 154
 GlifName: si_J_nyI_i
 Width: 842
 VWidth: 0
@@ -6460,11 +6378,11 @@ SplineSet
  498 423 l 257
  473.658 429.052 424.91 462.996 424.91 522.25 c 256
 EndSplineSet
-Refer: 451 3493 N 1 0 0 1 0 0 2
+Refer: 449 3493 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JnyRI
-Encoding: 185 -1 156
+Encoding: 192 -1 155
 GlifName: si_J_nyR_I_
 Width: 842
 VWidth: 0
@@ -6544,7 +6462,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyRIi
-Encoding: 186 -1 157
+Encoding: 193 -1 156
 GlifName: si_J_nyR_I_i
 Width: 842
 VWidth: 0
@@ -6628,7 +6546,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyRa
-Encoding: 184 -1 158
+Encoding: 191 -1 157
 GlifName: si_J_nyR_a
 Width: 842
 VWidth: 0
@@ -6696,7 +6614,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyU
-Encoding: 182 -1 159
+Encoding: 189 -1 158
 GlifName: si_J_nyU_
 Width: 842
 VWidth: 0
@@ -6768,7 +6686,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyUu
-Encoding: 183 -1 160
+Encoding: 190 -1 159
 GlifName: si_J_nyU_u
 Width: 842
 VWidth: 0
@@ -6843,7 +6761,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_K.halant
-Encoding: 89 -1 161
+Encoding: 90 -1 160
 GlifName: si_K_.halant
 Width: 746
 VWidth: 0
@@ -6866,11 +6784,11 @@ SplineSet
  656 586.602 624.17 606.203 578.105 636.587 c 257
  578.105 504.273 l 257
 EndSplineSet
-Refer: 440 3482 N 1 0 0 1 0 0 2
+Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KI
-Encoding: 90 -1 162
+Encoding: 91 -1 161
 GlifName: si_K_I_
 Width: 746
 VWidth: 0
@@ -6892,11 +6810,11 @@ SplineSet
  225 343 l 257
  220.903 360.752 218 389.837 218 421 c 256
 EndSplineSet
-Refer: 440 3482 N 1 0 0 1 0 0 2
+Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KIi
-Encoding: 91 -1 163
+Encoding: 92 -1 162
 GlifName: si_K_I_i
 Width: 746
 VWidth: 0
@@ -6923,12 +6841,36 @@ SplineSet
  225 343 l 257
  220.903 360.752 218 389.837 218 421 c 256
 EndSplineSet
-Refer: 440 3482 N 1 0 0 1 0 0 2
+Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KRI
-Encoding: 97 -1 164
+Encoding: 98 -1 163
 GlifName: si_K_R_I_
+Width: 746
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+114 -44 m 257
+ 143.5 -44 l 257
+ 177.033 -93.29 247.552 -112.75 360.75 -112.75 c 256
+ 512.314 -112.75 655.75 -31.0107 655.75 63.25 c 256
+ 655.75 78.2842 653 90.793 646 102 c 257
+ 659 133 l 257
+ 677 106.333 686 74.667 686 38 c 256
+ 686 -123.729 536.3 -219 384.75 -219 c 256
+ 244.907 -219 151.333 -153.333 114 -44 c 257
+EndSplineSet
+Refer: 161 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_KRIi
+Encoding: 99 -1 164
+GlifName: si_K_R_I_i
 Width: 746
 VWidth: 0
 GlyphClass: 2
@@ -6950,32 +6892,8 @@ EndSplineSet
 Refer: 162 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_KRIi
-Encoding: 98 -1 165
-GlifName: si_K_R_I_i
-Width: 746
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-114 -44 m 257
- 143.5 -44 l 257
- 177.033 -93.29 247.552 -112.75 360.75 -112.75 c 256
- 512.314 -112.75 655.75 -31.0107 655.75 63.25 c 256
- 655.75 78.2842 653 90.793 646 102 c 257
- 659 133 l 257
- 677 106.333 686 74.667 686 38 c 256
- 686 -123.729 536.3 -219 384.75 -219 c 256
- 244.907 -219 151.333 -153.333 114 -44 c 257
-EndSplineSet
-Refer: 163 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_KRa
-Encoding: 96 -1 166
+Encoding: 97 -1 165
 GlifName: si_K_R_a
 Width: 746
 VWidth: 0
@@ -6995,11 +6913,11 @@ SplineSet
  686 -123.729 536.3 -219 384.75 -219 c 256
  244.907 -219 151.333 -153.333 114 -44 c 257
 EndSplineSet
-Refer: 440 3482 N 1 0 0 1 0 0 2
+Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSs.halant
-Encoding: 433 -1 167
+Encoding: 440 -1 166
 GlifName: si_K_S_s.halant
 Width: 1069
 VWidth: 0
@@ -7022,11 +6940,11 @@ SplineSet
  975.25 586.602 943.42 606.203 897.355 636.587 c 257
  897.355 504.273 l 257
 EndSplineSet
-Refer: 172 -1 N 1 0 0 1 0 0 2
+Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsI
-Encoding: 434 -1 168
+Encoding: 441 -1 167
 GlifName: si_K_S_sI_
 Width: 1069
 VWidth: 0
@@ -7048,11 +6966,11 @@ SplineSet
  658.25 405 l 257
  581.393 408.074 515.25 443.457 515.25 518 c 256
 EndSplineSet
-Refer: 172 -1 N 1 0 0 1 0 0 2
+Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsIi
-Encoding: 435 -1 169
+Encoding: 442 -1 168
 GlifName: si_K_S_sI_i
 Width: 1069
 VWidth: 0
@@ -7079,11 +6997,11 @@ SplineSet
  585.75 406 l 257
  532.505 410.733 495.75 456 495.75 517 c 256
 EndSplineSet
-Refer: 172 -1 N 1 0 0 1 0 0 2
+Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsU
-Encoding: 436 -1 170
+Encoding: 443 -1 169
 GlifName: si_K_S_sU_
 Width: 1069
 VWidth: 0
@@ -7107,11 +7025,11 @@ SplineSet
  598 -235 l 258
  518.457 -235 492.5 -186.092 492.5 -142.5 c 256
 EndSplineSet
-Refer: 172 -1 N 1 0 0 1 0 0 2
+Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsUu
-Encoding: 437 -1 171
+Encoding: 444 -1 170
 GlifName: si_K_S_sU_u
 Width: 1069
 VWidth: 0
@@ -7138,11 +7056,11 @@ SplineSet
  777.994 -146.25 729.546 -237 607.494 -237 c 256
  552.494 -237 490.994 -206 490.994 -138 c 256
 EndSplineSet
-Refer: 172 -1 N 1 0 0 1 0 0 2
+Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsa
-Encoding: 422 -1 172
+Encoding: 429 -1 171
 GlifName: si_K_S_sa
 Width: 1069
 VWidth: 0
@@ -7233,7 +7151,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KU
-Encoding: 92 -1 173
+Encoding: 93 -1 172
 GlifName: si_K_U_
 Width: 746
 VWidth: 0
@@ -7300,7 +7218,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KU.reph
-Encoding: 95 -1 174
+Encoding: 96 -1 173
 GlifName: si_K_U_.reph
 Width: 746
 VWidth: 0
@@ -7309,12 +7227,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 321 -1 N 1 0 0 1 752 -24 2
-Refer: 173 -1 N 1 0 0 1 0 0 2
+Refer: 320 -1 N 1 0 0 1 752 -24 2
+Refer: 172 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KUu
-Encoding: 93 -1 175
+Encoding: 94 -1 174
 GlifName: si_K_U_u
 Width: 746
 VWidth: 0
@@ -7342,11 +7260,11 @@ SplineSet
  701.25 -161 649.946 -205 567.946 -205 c 256
  509.946 -205 445.946 -187.466 445.946 -129 c 256
 EndSplineSet
-Refer: 440 3482 N 1 0 0 1 0 0 2
+Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KV.halant
-Encoding: 438 -1 176
+Encoding: 445 -1 175
 GlifName: si_K_V_.halant
 Width: 1061
 VWidth: 0
@@ -7432,8 +7350,63 @@ EndSplineSet
 EndChar
 
 StartChar: si_KVI
-Encoding: 439 -1 177
+Encoding: 446 -1 176
 GlifName: si_K_V_I_
+Width: 1061
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+21 22 m 257
+ 28.6963 91.2695 74.4521 184.165 109 232 c 256
+ 135 268 148 280 171 304 c 257
+ 180 314 191.25 331 191.25 352 c 256
+ 191.25 371 182 386 158 386 c 256
+ 144 386 128.438 378.533 124 363 c 256
+ 118 342 122 342 113 323 c 256
+ 104.732 305.546 87 297 72 297 c 256
+ 35 297 29 328 29 340 c 256
+ 29 394.099 79.3633 433 136 433 c 256
+ 188.348 433 220 399 220 358 c 256
+ 220 352 220 349 219 341 c 257
+ 255.113 366.766 302.488 392.006 367 411 c 256
+ 433.129 432.139 507.859 436 551.25 436 c 256
+ 620.209 436 655.331 429.207 673 425 c 257
+ 667.583 424.159 606.053 405.082 597 404 c 257
+ 581.982 404.563 561.476 406 549 406 c 256
+ 490.313 406 439.896 397.343 411.5 391 c 256
+ 324.891 372.933 262.161 335.075 220.25 306.25 c 257
+ 248.415 312.696 277.667 314 305 314 c 256
+ 425 314 515 250 515 126 c 256
+ 515 67.8477 482 -1 397 -1 c 256
+ 351 -1 317.333 20.333 296 63 c 257
+ 278.667 21.667 246.021 -1 204 -1 c 256
+ 117 -1 120 73 87 73 c 256
+ 64.6748 73 52 51 49 11 c 257
+ 21 22 l 257
+91 143 m 257
+ 103 153 115 160 129 160 c 256
+ 161 160 172 140 212 140 c 256
+ 258 140 280 157 280 214 c 256
+ 280 216.209 280.041 214.305 280 216 c 257
+ 308 216 l 257
+ 307.964 214.664 308 216.33 308 215 c 256
+ 308 154 332 140 377 140 c 256
+ 418 140 443 169 443 204 c 256
+ 443 246 402 287 301 287 c 256
+ 244.333 287 204.667 280 180 268 c 257
+ 162.667 253.333 146.522 234.996 131 212 c 256
+ 104 172 101 163 91 143 c 257
+EndSplineSet
+Refer: 396 -1 N 1 0 0 1 465 0 2
+EndChar
+
+StartChar: si_KVIi
+Encoding: 447 -1 177
+GlifName: si_K_V_I_i
 Width: 1061
 VWidth: 0
 GlyphClass: 2
@@ -7486,63 +7459,8 @@ EndSplineSet
 Refer: 397 -1 N 1 0 0 1 465 0 2
 EndChar
 
-StartChar: si_KVIi
-Encoding: 440 -1 178
-GlifName: si_K_V_I_i
-Width: 1061
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-21 22 m 257
- 28.6963 91.2695 74.4521 184.165 109 232 c 256
- 135 268 148 280 171 304 c 257
- 180 314 191.25 331 191.25 352 c 256
- 191.25 371 182 386 158 386 c 256
- 144 386 128.438 378.533 124 363 c 256
- 118 342 122 342 113 323 c 256
- 104.732 305.546 87 297 72 297 c 256
- 35 297 29 328 29 340 c 256
- 29 394.099 79.3633 433 136 433 c 256
- 188.348 433 220 399 220 358 c 256
- 220 352 220 349 219 341 c 257
- 255.113 366.766 302.488 392.006 367 411 c 256
- 433.129 432.139 507.859 436 551.25 436 c 256
- 620.209 436 655.331 429.207 673 425 c 257
- 667.583 424.159 606.053 405.082 597 404 c 257
- 581.982 404.563 561.476 406 549 406 c 256
- 490.313 406 439.896 397.343 411.5 391 c 256
- 324.891 372.933 262.161 335.075 220.25 306.25 c 257
- 248.415 312.696 277.667 314 305 314 c 256
- 425 314 515 250 515 126 c 256
- 515 67.8477 482 -1 397 -1 c 256
- 351 -1 317.333 20.333 296 63 c 257
- 278.667 21.667 246.021 -1 204 -1 c 256
- 117 -1 120 73 87 73 c 256
- 64.6748 73 52 51 49 11 c 257
- 21 22 l 257
-91 143 m 257
- 103 153 115 160 129 160 c 256
- 161 160 172 140 212 140 c 256
- 258 140 280 157 280 214 c 256
- 280 216.209 280.041 214.305 280 216 c 257
- 308 216 l 257
- 307.964 214.664 308 216.33 308 215 c 256
- 308 154 332 140 377 140 c 256
- 418 140 443 169 443 204 c 256
- 443 246 402 287 301 287 c 256
- 244.333 287 204.667 280 180 268 c 257
- 162.667 253.333 146.522 234.996 131 212 c 256
- 104 172 101 163 91 143 c 257
-EndSplineSet
-Refer: 398 -1 N 1 0 0 1 465 0 2
-EndChar
-
 StartChar: si_KVU
-Encoding: 441 -1 179
+Encoding: 448 -1 178
 GlifName: si_K_V_U_
 Width: 1061
 VWidth: 0
@@ -7566,11 +7484,11 @@ SplineSet
  614.5 -235 l 258
  534.957 -235 509 -186.092 509 -142.5 c 256
 EndSplineSet
-Refer: 181 -1 N 1 0 0 1 0 0 2
+Refer: 180 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KVUu
-Encoding: 442 -1 180
+Encoding: 449 -1 179
 GlifName: si_K_V_U_u
 Width: 1061
 VWidth: 0
@@ -7597,11 +7515,11 @@ SplineSet
  768.25 -146.25 719.75 -237 621.75 -237 c 256
  566.75 -237 510.75 -206 510.75 -138 c 256
 EndSplineSet
-Refer: 181 -1 N 1 0 0 1 0 0 2
+Refer: 180 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KVa
-Encoding: 423 -1 181
+Encoding: 430 -1 180
 GlifName: si_K_V_a
 Width: 1061
 VWidth: 0
@@ -7677,7 +7595,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ka.reph
-Encoding: 94 -1 182
+Encoding: 95 -1 181
 GlifName: si_K_a.reph
 Width: 746
 VWidth: 0
@@ -7686,12 +7604,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 321 -1 N 1 0 0 1 747 -20 2
-Refer: 440 3482 N 1 0 0 1 0 0 2
+Refer: 320 -1 N 1 0 0 1 747 -20 2
+Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Kh.halant
-Encoding: 99 -1 183
+Encoding: 100 -1 182
 GlifName: si_K_h.halant
 Width: 630
 VWidth: 0
@@ -7748,7 +7666,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhI
-Encoding: 100 -1 184
+Encoding: 101 -1 183
 GlifName: si_K_hI_
 Width: 630
 VWidth: 0
@@ -7803,7 +7721,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhIi
-Encoding: 101 -1 185
+Encoding: 102 -1 184
 GlifName: si_K_hI_i
 Width: 630
 VWidth: 0
@@ -7863,7 +7781,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhR.halant
-Encoding: 105 -1 186
+Encoding: 106 -1 185
 GlifName: si_K_hR_.halant
 Width: 630
 VWidth: 0
@@ -7930,7 +7848,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhRI
-Encoding: 106 -1 187
+Encoding: 107 -1 186
 GlifName: si_K_hR_I_
 Width: 630
 VWidth: 0
@@ -7994,7 +7912,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhRIi
-Encoding: 107 -1 188
+Encoding: 108 -1 187
 GlifName: si_K_hR_I_i
 Width: 630
 VWidth: 0
@@ -8063,7 +7981,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhRa
-Encoding: 104 -1 189
+Encoding: 105 -1 188
 GlifName: si_K_hR_a
 Width: 630
 VWidth: 0
@@ -8083,11 +8001,11 @@ SplineSet
  582 -123.729 453.75 -219 309.75 -219 c 256
  176.75 -219 93.083 -153.333 55.75 -44 c 257
 EndSplineSet
-Refer: 441 3483 N 1 0 0 1 0 0 2
+Refer: 439 3483 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KhU
-Encoding: 102 -1 190
+Encoding: 103 -1 189
 GlifName: si_K_hU_
 Width: 630
 VWidth: 0
@@ -8111,11 +8029,11 @@ SplineSet
  157 -235 l 258
  77.457 -235 51.5 -186.092 51.5 -142.5 c 256
 EndSplineSet
-Refer: 441 3483 N 1 0 0 1 0 0 2
+Refer: 439 3483 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KhUu
-Encoding: 103 -1 191
+Encoding: 104 -1 190
 GlifName: si_K_hU_u
 Width: 630
 VWidth: 0
@@ -8142,11 +8060,11 @@ SplineSet
  335 -146.25 260 -237 162 -237 c 256
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
-Refer: 441 3483 N 1 0 0 1 0 0 2
+Refer: 439 3483 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_L.halant
-Encoding: 359 -1 192
+Encoding: 366 -1 191
 GlifName: si_L_.halant
 Width: 670
 VWidth: 0
@@ -8169,11 +8087,11 @@ SplineSet
  577 586.602 545.17 606.203 499.105 636.587 c 257
  499.105 504.273 l 257
 EndSplineSet
-Refer: 473 3517 N 1 0 0 1 0 0 2
+Refer: 471 3517 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LI
-Encoding: 360 -1 193
+Encoding: 367 -1 192
 GlifName: si_L_I_
 Width: 670
 VWidth: 0
@@ -8196,11 +8114,11 @@ SplineSet
  264.25 405 l 257
  187.393 408.074 121.25 443.457 121.25 518 c 256
 EndSplineSet
-Refer: 473 3517 N 1 0 0 1 0 0 2
+Refer: 471 3517 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LIi
-Encoding: 361 -1 194
+Encoding: 368 -1 193
 GlifName: si_L_I_i
 Width: 670
 VWidth: 0
@@ -8228,11 +8146,11 @@ SplineSet
  235.25 404.5 l 257
  170.102 404.5 99 446.175 99 517.25 c 256
 EndSplineSet
-Refer: 473 3517 N 1 0 0 1 0 0 2
+Refer: 471 3517 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LU
-Encoding: 362 -1 195
+Encoding: 369 -1 194
 GlifName: si_L_U_
 Width: 670
 VWidth: 0
@@ -8279,7 +8197,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_LUu
-Encoding: 363 -1 196
+Encoding: 370 -1 195
 GlifName: si_L_U_u
 Width: 670
 VWidth: 0
@@ -8329,7 +8247,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ll.halant
-Encoding: 408 -1 197
+Encoding: 415 -1 196
 GlifName: si_L_l.halant
 Width: 636
 VWidth: 0
@@ -8352,11 +8270,11 @@ SplineSet
  542.25 586.602 510.42 606.203 464.355 636.587 c 257
  464.355 504.273 l 257
 EndSplineSet
-Refer: 479 3525 N 1 0 0 1 0 0 2
+Refer: 477 3525 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LlI
-Encoding: 409 -1 198
+Encoding: 416 -1 197
 GlifName: si_L_lI_
 Width: 636
 VWidth: 0
@@ -8379,11 +8297,11 @@ SplineSet
  245.5 405 l 257
  168.643 408.074 102.5 443.457 102.5 518 c 256
 EndSplineSet
-Refer: 479 3525 N 1 0 0 1 0 0 2
+Refer: 477 3525 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LlIi
-Encoding: 410 -1 199
+Encoding: 417 -1 198
 GlifName: si_L_lI_i
 Width: 636
 VWidth: 0
@@ -8411,11 +8329,11 @@ SplineSet
  189 409 l 257
  141.633 417.885 87 456 87 517 c 256
 EndSplineSet
-Refer: 479 3525 N 1 0 0 1 0 0 2
+Refer: 477 3525 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LlU
-Encoding: 411 -1 200
+Encoding: 418 -1 199
 GlifName: si_L_lU_
 Width: 662
 VWidth: 0
@@ -8466,7 +8384,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_LlUu
-Encoding: 412 -1 201
+Encoding: 419 -1 200
 GlifName: si_L_lU_u
 Width: 929
 VWidth: 0
@@ -8494,11 +8412,11 @@ SplineSet
  792.75 312.5 l 257
  583 312.5 l 257
 EndSplineSet
-Refer: 200 -1 N 1 0 0 1 0 0 2
+Refer: 199 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_M.halant
-Encoding: 324 -1 202
+Encoding: 332 -1 201
 GlifName: si_M_.halant
 Width: 635
 VWidth: 0
@@ -8557,7 +8475,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MI
-Encoding: 325 -1 203
+Encoding: 333 -1 202
 GlifName: si_M_I_
 Width: 635
 VWidth: 0
@@ -8613,7 +8531,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MIi
-Encoding: 326 -1 204
+Encoding: 334 -1 203
 GlifName: si_M_I_i
 Width: 635
 VWidth: 0
@@ -8674,7 +8592,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MRI
-Encoding: 331 -1 205
+Encoding: 339 -1 204
 GlifName: si_M_R_I_
 Width: 635
 VWidth: 0
@@ -8739,7 +8657,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MRIi
-Encoding: 332 -1 206
+Encoding: 340 -1 205
 GlifName: si_M_R_I_i
 Width: 635
 VWidth: 0
@@ -8809,7 +8727,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MRa
-Encoding: 330 -1 207
+Encoding: 338 -1 206
 GlifName: si_M_R_a
 Width: 635
 VWidth: 0
@@ -8829,11 +8747,11 @@ SplineSet
  582 -123.729 453.75 -219 309.75 -219 c 256
  176.75 -219 93.083 -153.333 55.75 -44 c 257
 EndSplineSet
-Refer: 469 3512 N 1 0 0 1 0 0 2
+Refer: 467 3512 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MU
-Encoding: 327 -1 208
+Encoding: 335 -1 207
 GlifName: si_M_U_
 Width: 635
 VWidth: 0
@@ -8857,11 +8775,11 @@ SplineSet
  157 -235 l 258
  77.457 -235 51.5 -186.092 51.5 -142.5 c 256
 EndSplineSet
-Refer: 469 3512 N 1 0 0 1 0 0 2
+Refer: 467 3512 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MUu
-Encoding: 328 -1 209
+Encoding: 336 -1 208
 GlifName: si_M_U_u
 Width: 635
 VWidth: 0
@@ -8888,11 +8806,11 @@ SplineSet
  335 -146.25 260 -237 162 -237 c 256
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
-Refer: 469 3512 N 1 0 0 1 0 0 2
+Refer: 467 3512 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ma.reph
-Encoding: 329 -1 210
+Encoding: 337 -1 209
 GlifName: si_M_a.reph
 Width: 635
 VWidth: 0
@@ -8922,11 +8840,11 @@ SplineSet
  382.5 588 347.5 562 289.5 562 c 256
  230.5 562 171.5 591 171.5 647 c 256
 EndSplineSet
-Refer: 469 3512 N 1 0 0 1 0 0 2
+Refer: 467 3512 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MatraAa.halant
-Encoding: 84 -1 211
+Encoding: 85 -1 210
 GlifName: si_M_atraA_a.halant
 Width: 350
 VWidth: 0
@@ -8935,12 +8853,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 482 3535 N 1 0 0 1 17 0 2
-Refer: 481 3530 N 1 0 0 1 317 0 2
+Refer: 480 3535 N 1 0 0 1 17 0 2
+Refer: 479 3530 N 1 0 0 1 317 0 2
 EndChar
 
 StartChar: si_MatraU.alt
-Encoding: 85 -1 212
+Encoding: 86 -1 211
 GlifName: si_M_atraU_.alt
 Width: 2
 VWidth: 0
@@ -8965,7 +8883,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraUu.alt
-Encoding: 86 -1 213
+Encoding: 87 -1 212
 GlifName: si_M_atraU_u.alt
 Width: 746
 VWidth: 0
@@ -8996,7 +8914,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Mb.halant
-Encoding: 333 -1 214
+Encoding: 341 -1 213
 GlifName: si_M_b.halant
 Width: 636
 VWidth: 0
@@ -9068,7 +8986,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MbI
-Encoding: 334 -1 215
+Encoding: 342 -1 214
 GlifName: si_M_bI_
 Width: 636
 VWidth: 0
@@ -9138,7 +9056,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MbIi
-Encoding: 335 -1 216
+Encoding: 343 -1 215
 GlifName: si_M_bI_i
 Width: 636
 VWidth: 0
@@ -9213,7 +9131,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MbU
-Encoding: 336 -1 217
+Encoding: 344 -1 216
 GlifName: si_M_bU_
 Width: 636
 VWidth: 0
@@ -9237,11 +9155,11 @@ SplineSet
  157 -235 l 258
  77.457 -235 51.5 -186.092 51.5 -142.5 c 256
 EndSplineSet
-Refer: 470 3513 N 1 0 0 1 0 0 2
+Refer: 468 3513 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MbUu
-Encoding: 337 -1 218
+Encoding: 345 -1 217
 GlifName: si_M_bU_u
 Width: 636
 VWidth: 0
@@ -9268,11 +9186,11 @@ SplineSet
  335 -146.25 260 -237 162 -237 c 256
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
-Refer: 470 3513 N 1 0 0 1 0 0 2
+Refer: 468 3513 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_N.halant
-Encoding: 276 -1 219
+Encoding: 283 -1 218
 GlifName: si_N_.halant
 Width: 806
 VWidth: 0
@@ -9295,38 +9213,38 @@ SplineSet
  712 586.602 680.17 606.203 634.105 636.587 c 257
  634.105 504.273 l 257
 EndSplineSet
-Refer: 463 3505 N 1 0 0 1 0 0 2
+Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ND.halant
-Encoding: 448 -1 220
+Encoding: 455 -1 219
 GlifName: si_N_D_.halant
 Width: 894
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
 701.5 423 m 257
+ 701.5 681 l 257
+ 755.5 639 853 634 853 542 c 256
+ 853 498 818.191 468 775 468 c 256
+ 760.333 468 745.333 471.333 730 478 c 257
  730 410 l 257
- 730 478 l 257
- 745.333 471.333 760.333 468 775 468 c 256
- 818.191 468 853 498 853 542 c 256
- 853 634 755.5 639 701.5 681 c 257
  701.5 423 l 257
 730.105 504.273 m 257
- 730.105 636.587 l 257
- 776.17 606.203 808 586.602 808 545.438 c 256
- 808 521.915 794.454 497.413 762.448 497.413 c 256
- 749.382 497.413 738.6 499.699 730.105 504.273 c 257
+ 738.6 499.699 749.382 497.413 762.448 497.413 c 256
+ 794.454 497.413 808 521.915 808 545.438 c 256
+ 808 586.602 776.17 606.203 730.105 636.587 c 257
+ 730.105 504.273 l 257
 EndSplineSet
-Refer: 231 -1 N 1 0 0 1 0 0 2
+Refer: 230 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDAa
-Encoding: 449 -1 221
+Encoding: 456 -1 220
 GlifName: si_N_D_A_a
 Width: 937
 VWidth: 0
@@ -9362,53 +9280,13 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
-Refer: 41 -1 N 1 0 0 1 438 0 2
+Refer: 40 -1 N 1 0 0 1 438 0 2
 EndChar
 
 StartChar: si_NDAe
-Encoding: 495 -1 222
+Encoding: 457 -1 221
 GlifName: si_N_D_A_e
 Width: 893
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-24 176 m 257
- 32 167 50 160.128 67 160.128 c 256
- 130 160.128 131 206 208 279 c 257
- 221 292 222.818 309.123 222.818 322 c 256
- 222.818 356 204 379.552 180.462 379.552 c 256
- 160 379.552 146 370 143.747 345 c 256
- 141.767 323.02 131 294 99 294 c 256
- 82 294 55.1415 304 55.1415 339 c 256
- 55.1415 384.003 89.0174 431 154 431 c 256
- 219.025 431 253 385.368 253 333.5 c 256
- 253 325.698 252.004 319.252 251 315 c 257
- 307.983 369.402 401.404 436.25 591.25 436.25 c 256
- 616.139 436.25 675.465 435.937 710 429.25 c 257
- 690.67 425.332 618.272 406.53 606 406.5 c 257
- 596.779 406.635 594.533 407 585 407 c 256
- 428.309 407 342.52 359.803 272.25 298.5 c 257
- 298.067 307.036 317.103 308.102 345.044 308.102 c 256
- 428.955 308.102 498.168 248.944 498.168 168.853 c 256
- 498.168 52.8253 398.035 -1.12219 276.065 -1.12219 c 256
- 136 -1.12219 24 65 24 176 c 257
-125 147 m 257
- 153.727 138.228 190.043 133 248 133 c 256
- 360 133 418 177 418 225 c 256
- 418 259 390 281 334 281 c 256
- 190 281 189 190 125 147 c 257
-EndSplineSet
-Refer: 44 -1 N 1 0 0 1 439 0 2
-EndChar
-
-StartChar: si_NDAee
-Encoding: 450 -1 223
-GlifName: si_N_D_A_ee
-Width: 903
 VWidth: 0
 GlyphClass: 2
 Flags: W
@@ -9445,8 +9323,48 @@ EndSplineSet
 Refer: 43 -1 N 1 0 0 1 439 0 2
 EndChar
 
+StartChar: si_NDAee
+Encoding: 458 -1 222
+GlifName: si_N_D_A_ee
+Width: 903
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+24 176 m 257
+ 32 167 50 160.128 67 160.128 c 256
+ 130 160.128 131 206 208 279 c 257
+ 221 292 222.818 309.123 222.818 322 c 256
+ 222.818 356 204 379.552 180.462 379.552 c 256
+ 160 379.552 146 370 143.747 345 c 256
+ 141.767 323.02 131 294 99 294 c 256
+ 82 294 55.1415 304 55.1415 339 c 256
+ 55.1415 384.003 89.0174 431 154 431 c 256
+ 219.025 431 253 385.368 253 333.5 c 256
+ 253 325.698 252.004 319.252 251 315 c 257
+ 307.983 369.402 401.404 436.25 591.25 436.25 c 256
+ 616.139 436.25 675.465 435.937 710 429.25 c 257
+ 690.67 425.332 618.272 406.53 606 406.5 c 257
+ 596.779 406.635 594.533 407 585 407 c 256
+ 428.309 407 342.52 359.803 272.25 298.5 c 257
+ 298.067 307.036 317.103 308.102 345.044 308.102 c 256
+ 428.955 308.102 498.168 248.944 498.168 168.853 c 256
+ 498.168 52.8253 398.035 -1.12219 276.065 -1.12219 c 256
+ 136 -1.12219 24 65 24 176 c 257
+125 147 m 257
+ 153.727 138.228 190.043 133 248 133 c 256
+ 360 133 418 177 418 225 c 256
+ 418 259 390 281 334 281 c 256
+ 190 281 189 190 125 147 c 257
+EndSplineSet
+Refer: 42 -1 N 1 0 0 1 439 0 2
+EndChar
+
 StartChar: si_NDI
-Encoding: 451 -1 224
+Encoding: 459 -1 223
 GlifName: si_N_D_I_
 Width: 894
 VWidth: 0
@@ -9468,11 +9386,11 @@ SplineSet
  530 431.5 l 257
  521.369 431.668 473.58 457.276 473.58 519.75 c 256
 EndSplineSet
-Refer: 231 -1 N 1 0 0 1 0 0 2
+Refer: 230 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDIi
-Encoding: 452 -1 225
+Encoding: 460 -1 224
 GlifName: si_N_D_I_i
 Width: 894
 VWidth: 0
@@ -9499,31 +9417,31 @@ SplineSet
  529 431.5 l 257
  520.676 433.108 473.58 454.766 473.58 518 c 256
 EndSplineSet
-Refer: 231 -1 N 1 0 0 1 0 0 2
+Refer: 230 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDRI
-Encoding: 456 -1 226
+Encoding: 464 -1 225
 GlifName: si_N_D_R_I_
 Width: 894
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-473.58 519.75 m 256
- 473.58 457.276 521.369 431.668 530 431.5 c 257
- 587 436 l 257
- 540.305 439.57 522 467.944 522 490 c 256
- 522 535.744 592.984 552 665 552 c 256
- 737.016 552 795.5 535.901 795.5 486.25 c 256
- 795.5 460.608 771.926 426.755 717.84 426.75 c 257
- 733.59 405 l 257
- 786.084 406.19 849.42 443.457 849.42 518 c 256
- 849.42 617.064 758.197 671 661.5 671 c 256
- 564.803 671 473.58 620.314 473.58 519.75 c 256
+473.58 519.75 m 260
+ 473.58 620.314 564.803 671 661.5 671 c 260
+ 758.197 671 849.42 617.064 849.42 518 c 260
+ 849.42 443.457 786.084 406.19 733.59 405 c 261
+ 717.84 426.75 l 261
+ 771.926 426.755 795.5 460.608 795.5 486.25 c 260
+ 795.5 535.901 737.016 552 665 552 c 260
+ 592.984 552 522 535.744 522 490 c 260
+ 522 467.944 540.305 439.57 587 436 c 261
+ 530 431.5 l 261
+ 521.369 431.668 473.58 457.276 473.58 519.75 c 260
 472.161 -43 m 257
  499.344 -43 l 257
  526.638 -84.4014 565.462 -103.25 642.25 -103.25 c 256
@@ -9578,7 +9496,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDRIi
-Encoding: 457 -1 227
+Encoding: 465 -1 226
 GlifName: si_N_D_R_I_i
 Width: 894
 VWidth: 0
@@ -9658,7 +9576,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDRa
-Encoding: 455 -1 228
+Encoding: 463 -1 227
 GlifName: si_N_D_R_a
 Width: 894
 VWidth: 0
@@ -9722,7 +9640,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDU
-Encoding: 453 -1 229
+Encoding: 461 -1 228
 GlifName: si_N_D_U_
 Width: 894
 VWidth: 0
@@ -9790,7 +9708,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDUu
-Encoding: 454 -1 230
+Encoding: 462 -1 229
 GlifName: si_N_D_U_u
 Width: 894
 VWidth: 0
@@ -9861,7 +9779,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDa
-Encoding: 425 -1 231
+Encoding: 432 -1 230
 GlifName: si_N_D_a
 Width: 894
 VWidth: 0
@@ -9897,11 +9815,11 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
-Refer: 461 3503 N 1 0 0 1 439 0 2
+Refer: 459 3503 N 1 0 0 1 439 0 2
 EndChar
 
 StartChar: si_NDhI
-Encoding: 444 -1 232
+Encoding: 451 -1 231
 GlifName: si_N_D_hI_
 Width: 1078
 VWidth: 0
@@ -9937,11 +9855,11 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
-Refer: 85 -1 N 1 0 0 1 441 0 2
+Refer: 84 -1 N 1 0 0 1 441 0 2
 EndChar
 
 StartChar: si_NDhIi
-Encoding: 445 -1 233
+Encoding: 452 -1 232
 GlifName: si_N_D_hI_i
 Width: 1078
 VWidth: 0
@@ -9977,11 +9895,11 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
-Refer: 86 -1 N 1 0 0 1 440 0 2
+Refer: 85 -1 N 1 0 0 1 440 0 2
 EndChar
 
 StartChar: si_NDhU
-Encoding: 446 -1 234
+Encoding: 453 -1 233
 GlifName: si_N_D_hU_
 Width: 1078
 VWidth: 0
@@ -10005,11 +9923,11 @@ SplineSet
  598 -235 l 258
  518.457 -235 492.5 -186.092 492.5 -142.5 c 256
 EndSplineSet
-Refer: 236 -1 N 1 0 0 1 0 0 2
+Refer: 235 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDhUu
-Encoding: 447 -1 235
+Encoding: 454 -1 234
 GlifName: si_N_D_hU_u
 Width: 1078
 VWidth: 0
@@ -10036,11 +9954,11 @@ SplineSet
  776 -146.25 701 -237 603 -237 c 256
  548 -237 492 -206 492 -138 c 256
 EndSplineSet
-Refer: 236 -1 N 1 0 0 1 0 0 2
+Refer: 235 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDha
-Encoding: 424 -1 236
+Encoding: 431 -1 235
 GlifName: si_N_D_ha
 Width: 1078
 VWidth: 0
@@ -10076,11 +9994,11 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
-Refer: 462 3504 N 1 0 0 1 441 0 2
+Refer: 460 3504 N 1 0 0 1 441 0 2
 EndChar
 
 StartChar: si_NDha.halnt
-Encoding: 443 -1 237
+Encoding: 450 -1 236
 GlifName: si_N_D_ha.halnt
 Width: 1078
 VWidth: 0
@@ -10151,7 +10069,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NI
-Encoding: 277 -1 238
+Encoding: 284 -1 237
 GlifName: si_N_I_
 Width: 806
 VWidth: 0
@@ -10173,11 +10091,11 @@ SplineSet
  278 338 l 257
  273.903 355.752 268.75 389.837 268.75 421 c 256
 EndSplineSet
-Refer: 463 3505 N 1 0 0 1 0 0 2
+Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NIi
-Encoding: 278 -1 239
+Encoding: 285 -1 238
 GlifName: si_N_I_i
 Width: 806
 VWidth: 0
@@ -10205,11 +10123,11 @@ SplineSet
  276 336 l 257
  271.903 353.752 267.5 389.837 267.5 421 c 256
 EndSplineSet
-Refer: 463 3505 N 1 0 0 1 0 0 2
+Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NTh.halant
-Encoding: 458 -1 240
+Encoding: 466 -1 239
 GlifName: si_N_T_h.halant
 Width: 1046
 VWidth: 0
@@ -10245,11 +10163,11 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
-Refer: 369 -1 N 1 0 0 1 450 0 2
+Refer: 368 -1 N 1 0 0 1 450 0 2
 EndChar
 
 StartChar: si_NThI
-Encoding: 459 -1 241
+Encoding: 467 -1 240
 GlifName: si_N_T_hI_
 Width: 1046
 VWidth: 0
@@ -10273,11 +10191,11 @@ SplineSet
  722.717 496.058 697.117 487.75 653.75 487.75 c 256
  593.55 487.75 539.75 515.942 539.75 574 c 256
 EndSplineSet
-Refer: 245 -1 N 1 0 0 1 0 0 2
+Refer: 244 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NThIi
-Encoding: 460 -1 242
+Encoding: 468 -1 241
 GlifName: si_N_T_hI_i
 Width: 1046
 VWidth: 0
@@ -10353,7 +10271,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NThU
-Encoding: 461 -1 243
+Encoding: 469 -1 242
 GlifName: si_N_T_hU_
 Width: 1046
 VWidth: 0
@@ -10377,11 +10295,11 @@ SplineSet
  592.75 -235 l 258
  513.207 -235 487.25 -186.092 487.25 -142.5 c 256
 EndSplineSet
-Refer: 245 -1 N 1 0 0 1 0 0 2
+Refer: 244 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NThUu
-Encoding: 462 -1 244
+Encoding: 470 -1 243
 GlifName: si_N_T_hU_u
 Width: 1046
 VWidth: 0
@@ -10408,11 +10326,11 @@ SplineSet
  754.25 -146.25 695.5 -237 597.5 -237 c 256
  542.5 -237 486.5 -206 486.5 -138 c 256
 EndSplineSet
-Refer: 245 -1 N 1 0 0 1 0 0 2
+Refer: 244 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NTha
-Encoding: 426 -1 245
+Encoding: 433 -1 244
 GlifName: si_N_T_ha
 Width: 1046
 VWidth: 0
@@ -10448,11 +10366,11 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
-Refer: 460 3502 N 1 0 0 1 433 0 2
+Refer: 458 3502 N 1 0 0 1 433 0 2
 EndChar
 
 StartChar: si_NU
-Encoding: 279 -1 246
+Encoding: 286 -1 245
 GlifName: si_N_U_
 Width: 806
 VWidth: 0
@@ -10476,11 +10394,11 @@ SplineSet
  250.25 -235 l 258
  170.707 -235 144.75 -186.092 144.75 -142.5 c 256
 EndSplineSet
-Refer: 463 3505 N 1 0 0 1 0 0 2
+Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NUu
-Encoding: 280 -1 247
+Encoding: 287 -1 246
 GlifName: si_N_U_u
 Width: 806
 VWidth: 0
@@ -10507,11 +10425,11 @@ SplineSet
  461.294 -145.75 409.869 -237 283.5 -237 c 256
  204.469 -237 138.5 -204.438 138.5 -129.25 c 256
 EndSplineSet
-Refer: 463 3505 N 1 0 0 1 0 0 2
+Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NV.halant
-Encoding: 463 -1 248
+Encoding: 471 -1 247
 GlifName: si_N_V_.halant
 Width: 1032
 VWidth: 0
@@ -10581,7 +10499,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NVI
-Encoding: 464 -1 249
+Encoding: 472 -1 248
 GlifName: si_N_V_I_
 Width: 1032
 VWidth: 0
@@ -10591,39 +10509,6 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-484.25 562 m 260
- 484.25 652 609.75 670 709.75 670 c 260
- 845.75 670 954.5 639 954.5 554 c 260
- 954.5 502 900.5 480 866.5 474 c 261
- 816.5 490 l 261
- 852.5 491 879.5 504.566 879.5 527 c 260
- 879.5 564.309 817.75 581 709.75 581 c 260
- 634.094 581 544.5 573.211 544.5 538 c 260
- 544.5 511.059 585.75 508 687.75 504 c 260
- 752.619 501.456 845.5 499 900.5 459 c 260
- 949.646 423.257 985.75 357.262 985.75 268.75 c 261
- 921.75 319.75 l 261
- 921.75 333.803 920.98 380.832 894.25 415.75 c 260
- 852.229 470.642 789.769 470.325 688.75 476 c 260
- 599.75 481 484.25 476 484.25 562 c 260
-470.75 165 m 256
- 470.75 250 535.75 304 636.75 304 c 258
- 693.75 304 l 257
- 693.832 306.041 693.836 306.041 693.836 308 c 256
- 693.836 358 661.75 387 628.75 387 c 256
- 594.75 387 583.75 371 578.25 355 c 256
- 571.701 335.948 559.75 319 533.75 319 c 256
- 510.75 319 493.75 333.368 493.75 359 c 256
- 493.75 406 543.75 431.5 598.75 431.5 c 256
- 686.75 431.5 729.896 376 729.896 290 c 256
- 729.896 286.722 729.851 280.388 729.75 277 c 257
- 648.75 277 l 258
- 574.75 277 538.75 250 538.75 213 c 256
- 538.75 151 633.75 140 707.75 140 c 256
- 860.75 140 921.75 213.738 921.75 325.75 c 257
- 940.099 310.214 963.748 291.053 985.75 274 c 257
- 985.75 114 887.75 0 704.75 0 c 256
- 583.75 0 470.75 46 470.75 165 c 256
 24 176 m 257
  32 167 50 160.128 67 160.128 c 256
  130 160.128 131 206 208 279 c 257
@@ -10649,57 +10534,20 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
+Refer: 396 -1 N 1 0 0 1 437 0 2
 EndChar
 
 StartChar: si_NVIi
-Encoding: 465 -1 250
+Encoding: 473 -1 249
 GlifName: si_N_V_I_i
 Width: 1032
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-803.647 538.75 m 260
- 803.647 509.169 830.276 485.377 862.75 485.377 c 260
- 895.224 485.377 921.853 509.169 921.853 538.75 c 260
- 921.853 568.331 895.224 592.123 862.75 592.123 c 260
- 830.276 592.123 803.647 568.331 803.647 538.75 c 260
-484.75 562 m 260
- 484.75 652 608.5 670 708.75 670 c 260
- 844.75 670 954.75 640.054 954.75 541.75 c 260
- 954.75 488.75 906.75 457.75 862.75 457.75 c 260
- 818.75 457.75 770.75 488.75 770.75 541.75 c 260
- 770.75 565.35 780.772 578.984 784.75 584 c 261
- 776.409 585.578 743.231 588.5 706.75 588.5 c 260
- 631.094 588.5 539.75 580.369 539.75 540 c 260
- 539.75 510.989 584.75 508 686.75 504 c 260
- 751.619 501.456 845.75 499 900.75 459 c 260
- 949.896 423.257 985.75 359.205 985.75 269.25 c 261
- 921.75 322 l 261
- 921.75 346.583 918.406 385.429 892.75 416 c 260
- 848.311 468.954 788.769 470.325 687.75 476 c 260
- 598.75 481 484.75 476 484.75 562 c 260
-470.75 165 m 256
- 470.75 250 535.75 304 636.75 304 c 258
- 693.75 304 l 257
- 693.832 306.041 693.836 306.041 693.836 308 c 256
- 693.836 358 661.75 387 628.75 387 c 256
- 594.75 387 583.75 371 578.25 355 c 256
- 571.701 335.948 559.75 319 533.75 319 c 256
- 510.75 319 493.75 333.368 493.75 359 c 256
- 493.75 406 543.75 431.5 598.75 431.5 c 256
- 686.75 431.5 729.896 376 729.896 290 c 256
- 729.896 286.722 729.851 280.388 729.75 277 c 257
- 648.75 277 l 258
- 574.75 277 538.75 250 538.75 213 c 256
- 538.75 151 633.75 140 707.75 140 c 256
- 860.75 140 921.75 213.738 921.75 325.75 c 257
- 940.099 310.214 963.748 291.053 985.75 274 c 257
- 985.75 114 887.75 0 704.75 0 c 256
- 583.75 0 470.75 46 470.75 165 c 256
 24 176 m 257
  32 167 50 160.128 67 160.128 c 256
  130 160.128 131 206 208 279 c 257
@@ -10725,10 +10573,11 @@ SplineSet
  418 259 390 281 334 281 c 256
  190 281 189 190 125 147 c 257
 EndSplineSet
+Refer: 397 -1 N 1 0 0 1 437 0 2
 EndChar
 
 StartChar: si_NVU
-Encoding: 466 -1 251
+Encoding: 474 -1 250
 GlifName: si_N_V_U_
 Width: 1032
 VWidth: 0
@@ -10752,11 +10601,11 @@ SplineSet
  587 -235 l 258
  507.457 -235 481.5 -186.092 481.5 -142.5 c 256
 EndSplineSet
-Refer: 253 -1 N 1 0 0 1 0 0 2
+Refer: 252 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NVUu
-Encoding: 467 -1 252
+Encoding: 475 -1 251
 GlifName: si_N_V_U_u
 Width: 1032
 VWidth: 0
@@ -10783,11 +10632,11 @@ SplineSet
  741 -146.25 692.5 -237 594.5 -237 c 256
  539.5 -237 483.5 -206 483.5 -138 c 256
 EndSplineSet
-Refer: 253 -1 N 1 0 0 1 0 0 2
+Refer: 252 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NVa
-Encoding: 427 -1 253
+Encoding: 434 -1 252
 GlifName: si_N_V_a
 Width: 1032
 VWidth: 0
@@ -10847,7 +10696,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Na.reph
-Encoding: 281 -1 254
+Encoding: 288 -1 253
 GlifName: si_N_a.reph
 Width: 806
 VWidth: 0
@@ -10877,11 +10726,11 @@ SplineSet
  563.5 471 528.5 445 470.5 445 c 256
  411.5 445 352.5 474 352.5 530 c 256
 EndSplineSet
-Refer: 463 3505 N 1 0 0 1 0 0 2
+Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Nd.halant
-Encoding: 282 -1 255
+Encoding: 289 -1 254
 GlifName: si_N_d.halant
 Width: 538
 VWidth: 0
@@ -10891,24 +10740,24 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-347 413 m 257
- 347 681 l 257
- 401 639 498.5 634 498.5 542 c 256
- 498.5 498 463.691 468 420.5 468 c 256
- 405.833 468 390.833 471.333 375.5 478 c 257
- 375.5 396 l 257
- 347 413 l 257
-375.605 504.273 m 257
- 384.1 499.699 394.882 497.413 407.948 497.413 c 256
- 439.954 497.413 453.5 521.915 453.5 545.438 c 256
- 453.5 586.602 421.67 606.203 375.605 636.587 c 257
- 375.605 504.273 l 257
+347 413 m 261
+ 347 681 l 261
+ 401 639 498.5 634 498.5 542 c 260
+ 498.5 498 463.691 468 420.5 468 c 260
+ 405.833 468 390.833 471.333 375.5 478 c 261
+ 375.5 396 l 261
+ 347 413 l 261
+375.605 504.273 m 261
+ 384.1 499.699 394.882 497.413 407.948 497.413 c 260
+ 439.954 497.413 453.5 521.915 453.5 545.438 c 260
+ 453.5 586.602 421.67 606.203 375.605 636.587 c 261
+ 375.605 504.273 l 261
 EndSplineSet
-Refer: 464 3507 N 1 0 0 1 0 0 2
+Refer: 462 3507 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdAa
-Encoding: 283 -1 256
+Encoding: 290 -1 255
 GlifName: si_N_dA_a
 Width: 546
 VWidth: 0
@@ -10958,7 +10807,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdAae
-Encoding: 285 -1 257
+Encoding: 292 -1 256
 GlifName: si_N_dA_ae
 Width: 540
 VWidth: 0
@@ -11018,7 +10867,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdAe
-Encoding: 284 -1 258
+Encoding: 291 -1 257
 GlifName: si_N_dA_e
 Width: 540
 VWidth: 0
@@ -11068,7 +10917,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdI
-Encoding: 286 -1 259
+Encoding: 294 -1 258
 GlifName: si_N_dI_
 Width: 538
 VWidth: 0
@@ -11090,11 +10939,11 @@ SplineSet
  241 415 l 257
  172.33 416.064 118.91 450.798 118.91 522 c 256
 EndSplineSet
-Refer: 464 3507 N 1 0 0 1 0 0 2
+Refer: 462 3507 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdIi
-Encoding: 287 -1 260
+Encoding: 295 -1 259
 GlifName: si_N_dI_i
 Width: 538
 VWidth: 0
@@ -11121,11 +10970,11 @@ SplineSet
  234.74 405 l 257
  168.781 414.727 118.91 458.955 118.91 526 c 256
 EndSplineSet
-Refer: 464 3507 N 1 0 0 1 0 0 2
+Refer: 462 3507 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdRa
-Encoding: 290 -1 261
+Encoding: 298 -1 260
 GlifName: si_N_dR_a
 Width: 538
 VWidth: 0
@@ -11172,7 +11021,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdU
-Encoding: 288 -1 262
+Encoding: 296 -1 261
 GlifName: si_N_dU_
 Width: 538
 VWidth: 0
@@ -11223,7 +11072,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdUu
-Encoding: 289 -1 263
+Encoding: 297 -1 262
 GlifName: si_N_dU_u
 Width: 538
 VWidth: 0
@@ -11277,7 +11126,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ndj.halant
-Encoding: 187 -1 264
+Encoding: 194 -1 263
 GlifName: si_N_dj.halant
 Width: 699
 VWidth: 0
@@ -11300,11 +11149,11 @@ SplineSet
  505 662.102 473.17 681.703 427.105 712.087 c 257
  427.105 579.773 l 257
 EndSplineSet
-Refer: 452 3494 N 1 0 0 1 0 0 2
+Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjI
-Encoding: 188 -1 265
+Encoding: 195 -1 264
 GlifName: si_N_djI_
 Width: 699
 VWidth: 0
@@ -11329,11 +11178,11 @@ SplineSet
  426.947 406.999 425.052 406.952 424 406.952 c 256
  361.125 406.952 334 439.489 334 489.5 c 256
 EndSplineSet
-Refer: 452 3494 N 1 0 0 1 0 0 2
+Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjIi
-Encoding: 189 -1 266
+Encoding: 196 -1 265
 GlifName: si_N_djI_i
 Width: 699
 VWidth: 0
@@ -11362,11 +11211,11 @@ SplineSet
  426.992 406.999 425.097 406.952 424.045 406.952 c 256
  361.17 406.952 334.045 439.489 334.045 489.5 c 256
 EndSplineSet
-Refer: 452 3494 N 1 0 0 1 0 0 2
+Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjRa
-Encoding: 192 -1 267
+Encoding: 199 -1 266
 GlifName: si_N_djR_a
 Width: 699
 VWidth: 0
@@ -11386,11 +11235,11 @@ SplineSet
  652 -123.729 533.75 -219 389.75 -219 c 256
  256.75 -219 178.833 -153.333 141.5 -44 c 257
 EndSplineSet
-Refer: 452 3494 N 1 0 0 1 0 0 2
+Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjU
-Encoding: 190 -1 268
+Encoding: 197 -1 267
 GlifName: si_N_djU_
 Width: 699
 VWidth: 0
@@ -11414,11 +11263,11 @@ SplineSet
  245.5 -235 l 258
  165.957 -235 140 -186.092 140 -142.5 c 256
 EndSplineSet
-Refer: 452 3494 N 1 0 0 1 0 0 2
+Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjUu
-Encoding: 191 -1 269
+Encoding: 198 -1 268
 GlifName: si_N_djU_u
 Width: 699
 VWidth: 0
@@ -11445,11 +11294,11 @@ SplineSet
  404 -146.25 349 -237 251 -237 c 256
  196 -237 140 -206 140 -138 c 256
 EndSplineSet
-Refer: 452 3494 N 1 0 0 1 0 0 2
+Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ng.halant
-Encoding: 127 -1 270
+Encoding: 128 -1 269
 GlifName: si_N_g.halant
 Width: 617
 VWidth: 0
@@ -11512,7 +11361,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NgI
-Encoding: 128 -1 271
+Encoding: 129 -1 270
 GlifName: si_N_gI_
 Width: 617
 VWidth: 0
@@ -11572,7 +11421,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NgIi
-Encoding: 129 -1 272
+Encoding: 130 -1 271
 GlifName: si_N_gI_i
 Width: 617
 VWidth: 0
@@ -11637,7 +11486,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Nn.halant
-Encoding: 221 -1 273
+Encoding: 228 -1 272
 GlifName: si_N_n.halant
 Width: 963
 VWidth: 0
@@ -11716,7 +11565,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnI
-Encoding: 222 -1 274
+Encoding: 229 -1 273
 GlifName: si_N_nI_
 Width: 963
 VWidth: 0
@@ -11738,11 +11587,11 @@ SplineSet
  289.117 423.867 286.837 419.095 270 416 c 257
  235.969 423.25 203.25 453.854 203.25 500 c 256
 EndSplineSet
-Refer: 457 3499 N 1 0 0 1 0 0 2
+Refer: 455 3499 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NnIi
-Encoding: 223 -1 275
+Encoding: 230 -1 274
 GlifName: si_N_nI_i
 Width: 963
 VWidth: 0
@@ -11825,7 +11674,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnU
-Encoding: 224 -1 276
+Encoding: 231 -1 275
 GlifName: si_N_nU_
 Width: 963
 VWidth: 0
@@ -11849,16 +11698,16 @@ SplineSet
  340 -235 l 258
  260.457 -235 234.5 -186.092 234.5 -142.5 c 256
 EndSplineSet
-Refer: 457 3499 N 1 0 0 1 0 0 2
+Refer: 455 3499 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NnUu
-Encoding: 225 -1 277
+Encoding: 232 -1 276
 GlifName: si_N_nU_u
 Width: 963
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HWO
 LayerCount: 2
 Back
 Fore
@@ -11879,13 +11728,12 @@ SplineSet
  866.25 -195 815.783 -145.75 725 -145.75 c 256
  598.158 -145.75 514.619 -237 388.25 -237 c 256
  309.219 -237 237.75 -204.438 237.75 -129.25 c 256
-863 485 m 1280
 EndSplineSet
-Refer: 457 3499 N 1 0 0 1 0 0 2
+Refer: 455 3499 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Nna.reph
-Encoding: 226 -1 278
+Encoding: 233 -1 277
 GlifName: si_N_na.reph
 Width: 963
 VWidth: 0
@@ -11915,11 +11763,11 @@ SplineSet
  471.75 471 436.75 445 378.75 445 c 256
  319.75 445 260.75 474 260.75 530 c 256
 EndSplineSet
-Refer: 457 3499 N 1 0 0 1 0 0 2
+Refer: 455 3499 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Nndd.halant
-Encoding: 227 -1 279
+Encoding: 234 -1 278
 GlifName: si_N_ndd.halant
 Width: 731
 VWidth: 0
@@ -11984,7 +11832,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnddI
-Encoding: 228 -1 280
+Encoding: 235 -1 279
 GlifName: si_N_nddI_
 Width: 731
 VWidth: 0
@@ -12046,7 +11894,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnddIi
-Encoding: 229 -1 281
+Encoding: 236 -1 280
 GlifName: si_N_nddI_i
 Width: 731
 VWidth: 0
@@ -12113,7 +11961,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnddU
-Encoding: 230 -1 282
+Encoding: 237 -1 281
 GlifName: si_N_nddU_
 Width: 731
 VWidth: 0
@@ -12137,11 +11985,11 @@ SplineSet
  244.108 -235 l 258
  164.565 -235 138.608 -186.092 138.608 -142.5 c 256
 EndSplineSet
-Refer: 458 3500 N 1 0 0 1 0 0 2
+Refer: 456 3500 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NnddUu
-Encoding: 231 -1 283
+Encoding: 238 -1 282
 GlifName: si_N_nddU_u
 Width: 731
 VWidth: 0
@@ -12168,11 +12016,11 @@ SplineSet
  432.358 -146.25 346.358 -237 248.358 -237 c 256
  193.358 -237 137.358 -206 137.358 -138 c 256
 EndSplineSet
-Refer: 458 3500 N 1 0 0 1 0 0 2
+Refer: 456 3500 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Nng.halant
-Encoding: 130 -1 284
+Encoding: 131 -1 283
 GlifName: si_N_ng.halant
 Width: 749
 VWidth: 0
@@ -12195,11 +12043,11 @@ SplineSet
  658 586.602 626.17 606.203 580.105 636.587 c 257
  580.105 504.273 l 257
 EndSplineSet
-Refer: 445 3487 N 1 0 0 1 0 0 2
+Refer: 443 3487 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NngI
-Encoding: 131 -1 285
+Encoding: 132 -1 284
 GlifName: si_N_ngI_
 Width: 749
 VWidth: 0
@@ -12259,7 +12107,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NngIi
-Encoding: 132 -1 286
+Encoding: 133 -1 285
 GlifName: si_N_ngI_i
 Width: 749
 VWidth: 0
@@ -12323,7 +12171,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NngU
-Encoding: 133 -1 287
+Encoding: 134 -1 286
 GlifName: si_N_ngU_
 Width: 749
 VWidth: 0
@@ -12381,7 +12229,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NngUu
-Encoding: 134 -1 288
+Encoding: 135 -1 287
 GlifName: si_N_ngU_u
 Width: 749
 VWidth: 0
@@ -12409,11 +12257,11 @@ SplineSet
  708 -161 656.696 -205 574.696 -205 c 256
  516.696 -205 452.696 -187.466 452.696 -129 c 256
 EndSplineSet
-Refer: 445 3487 N 1 0 0 1 0 0 2
+Refer: 443 3487 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ny.halant
-Encoding: 169 -1 289
+Encoding: 170 -1 288
 GlifName: si_N_y.halant
 Width: 1024
 VWidth: 0
@@ -12436,16 +12284,16 @@ SplineSet
  941.25 586.602 909.42 606.203 863.355 636.587 c 257
  863.355 504.273 l 257
 EndSplineSet
-Refer: 450 3492 N 1 0 0 1 0 0 2
+Refer: 448 3492 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NyAa
-Encoding: 170 -1 290
+Encoding: 171 -1 289
 GlifName: si_N_yA_a
 Width: 1024
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -12478,7 +12326,7 @@ SplineSet
  843.297 -29.335 850.925 -8.01855 861.75 2 c 257
  850.2 0.592773 833.083 -1 805.75 -1 c 256
  674.75 -1 602.75 69 602.75 169 c 256
-146 22 m 257
+146 22 m 261
  153.696 91.2695 199.452 184.165 234 232 c 256
  260 268 273 280 296 304 c 257
  305 314 316.25 331 316.25 352 c 256
@@ -12504,7 +12352,7 @@ SplineSet
  403.667 21.667 371.021 -1 329 -1 c 256
  242 -1 245 73 212 73 c 256
  189.675 73 177 51 174 11 c 257
- 146 22 l 257
+ 146 22 l 261
 305 268 m 257
  287.667 253.333 271.522 234.996 256 212 c 256
  229 172 226 163 216 143 c 257
@@ -12518,19 +12366,19 @@ SplineSet
  543 140 568 169 568 204 c 256
  568 246 527 287 426 287 c 256
  369.333 287 329.667 280 305 268 c 257
-293 428.25 m 257
+27 221 m 256
+ 27 352.7 99.7559 434.25 239 434.25 c 256
+ 248 434.25 271 434.25 293 428.25 c 257
  272 417.25 195 404.5 178 398.5 c 257
  106 381.5 59 319.268 59 218 c 256
  59 137.333 86 78 135 34 c 257
  135 0 l 257
  68.5828 33.2086 27 120.07 27 221 c 256
- 27 352.7 99.7559 434.25 239 434.25 c 256
- 248 434.25 271 434.25 293 428.25 c 257
 EndSplineSet
 EndChar
 
 StartChar: si_NyI
-Encoding: 171 -1 291
+Encoding: 175 -1 290
 GlifName: si_N_yI_
 Width: 1024
 VWidth: 0
@@ -12553,42 +12401,42 @@ SplineSet
  718 414 l 257
  663.814 420.484 607.08 453.78 607.08 517.5 c 256
 EndSplineSet
-Refer: 450 3492 N 1 0 0 1 0 0 2
+Refer: 448 3492 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NyIi
-Encoding: 172 -1 292
+Encoding: 176 -1 291
 GlifName: si_N_yI_i
 Width: 1024
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-820.694 492.5 m 256
- 820.694 462.728 849.506 438.718 884.08 438.718 c 256
- 918.654 438.718 947.466 462.728 947.466 492.5 c 256
- 947.466 522.272 918.654 546.282 884.08 546.282 c 256
- 849.506 546.282 820.694 522.272 820.694 492.5 c 256
-606.41 523.25 m 256
- 606.41 614.193 697.633 671 794.33 671 c 256
- 891.027 671 983.25 619.928 983.25 511.25 c 256
- 983.25 440.185 934.794 407.5 883.58 407.5 c 256
- 823.905 407.5 786.08 448.5 786.08 493.5 c 256
- 786.08 535.516 818.482 555.592 825.33 560 c 257
- 818.62 560.581 810.742 561.25 795.33 561.25 c 256
- 736.683 561.25 654.25 548.585 654.25 492.75 c 256
- 654.25 465.337 683.499 445.521 709 441.5 c 257
- 724 416 l 257
- 675.263 418.15 606.41 456.205 606.41 523.25 c 256
+606.41 523.25 m 260
+ 606.41 614.193 697.633 671 794.33 671 c 260
+ 891.027 671 983.25 619.928 983.25 511.25 c 260
+ 983.25 440.185 934.794 407.5 883.58 407.5 c 260
+ 823.905 407.5 786.08 448.5 786.08 493.5 c 260
+ 786.08 535.516 818.482 555.592 825.33 560 c 261
+ 818.62 560.581 810.742 561.25 795.33 561.25 c 260
+ 736.683 561.25 654.25 548.585 654.25 492.75 c 260
+ 654.25 465.337 683.499 445.521 709 441.5 c 261
+ 724 416 l 261
+ 675.263 418.15 606.41 456.205 606.41 523.25 c 260
+818.08 492.5 m 260
+ 818.08 461.5 848.08 436.5 884.08 436.5 c 260
+ 920.08 436.5 950.08 461.5 950.08 492.5 c 260
+ 950.08 523.5 920.08 548.5 884.08 548.5 c 260
+ 848.08 548.5 818.08 523.5 818.08 492.5 c 260
 EndSplineSet
-Refer: 450 3492 N 1 0 0 1 0 0 2
+Refer: 448 3492 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NyRI
-Encoding: 176 -1 293
+Encoding: 180 -1 292
 GlifName: si_N_yR_I_
 Width: 1024
 VWidth: 0
@@ -12687,7 +12535,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyRIi
-Encoding: 177 -1 294
+Encoding: 181 -1 293
 GlifName: si_N_yR_I_i
 Width: 1024
 VWidth: 0
@@ -12753,17 +12601,17 @@ SplineSet
  369.333 287 329.667 280 305 268 c 257
  287.667 253.333 271.522 234.996 256 212 c 256
  229 172 226 163 216 143 c 257
-606.41 523.25 m 256
- 606.41 614.193 697.633 671 794.33 671 c 256
- 891.027 671 983.25 619.928 983.25 511.25 c 256
- 983.25 440.185 934.794 407.5 883.58 407.5 c 256
- 823.905 407.5 786.08 448.5 786.08 493.5 c 256
- 786.08 535.516 818.482 555.592 825.33 560 c 257
- 818.62 560.581 810.742 561.25 795.33 561.25 c 256
- 736.683 561.25 654.25 548.585 654.25 492.75 c 256
- 654.25 465.337 683.499 445.521 709 441.5 c 257
- 724 416 l 257
- 675.263 418.15 606.41 456.205 606.41 523.25 c 256
+606.41 523.25 m 260
+ 606.41 614.193 697.633 671 794.33 671 c 260
+ 891.027 671 983.25 619.928 983.25 511.25 c 260
+ 983.25 440.185 934.794 407.5 883.58 407.5 c 260
+ 823.905 407.5 786.08 448.5 786.08 493.5 c 260
+ 786.08 535.516 818.482 555.592 825.33 560 c 261
+ 818.62 560.581 810.742 561.25 795.33 561.25 c 260
+ 736.683 561.25 654.25 548.585 654.25 492.75 c 260
+ 654.25 465.337 683.499 445.521 709 441.5 c 261
+ 724 416 l 261
+ 675.263 418.15 606.41 456.205 606.41 523.25 c 260
 605.661 -43 m 257
  632.844 -43 l 257
  660.138 -84.4014 698.962 -103.25 775.75 -103.25 c 256
@@ -12781,16 +12629,16 @@ SplineSet
  59 137.333 86 78 135 34 c 257
  135 0 l 257
  68.5828 33.2086 27 120.07 27 221 c 256
-818.08 492.5 m 256
- 818.08 461.5 848.08 436.5 884.08 436.5 c 256
- 920.08 436.5 950.08 461.5 950.08 492.5 c 256
- 950.08 523.5 920.08 548.5 884.08 548.5 c 256
- 848.08 548.5 818.08 523.5 818.08 492.5 c 256
+818.08 492.5 m 260
+ 818.08 461.5 848.08 436.5 884.08 436.5 c 260
+ 920.08 436.5 950.08 461.5 950.08 492.5 c 260
+ 950.08 523.5 920.08 548.5 884.08 548.5 c 260
+ 848.08 548.5 818.08 523.5 818.08 492.5 c 260
 EndSplineSet
 EndChar
 
 StartChar: si_NyRa
-Encoding: 175 -1 295
+Encoding: 179 -1 294
 GlifName: si_N_yR_a
 Width: 1024
 VWidth: 0
@@ -12877,7 +12725,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyU
-Encoding: 173 -1 296
+Encoding: 177 -1 295
 GlifName: si_N_yU_
 Width: 1024
 VWidth: 0
@@ -12968,7 +12816,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyUu
-Encoding: 174 -1 297
+Encoding: 178 -1 296
 GlifName: si_N_yU_u
 Width: 1024
 VWidth: 0
@@ -13062,7 +12910,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_P.halant
-Encoding: 291 -1 298
+Encoding: 299 -1 297
 GlifName: si_P_.halant
 Width: 616
 VWidth: 0
@@ -13085,11 +12933,11 @@ SplineSet
  528 586.602 496.17 606.203 450.105 636.587 c 257
  450.105 504.273 l 257
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PI
-Encoding: 292 -1 299
+Encoding: 300 -1 298
 GlifName: si_P_I_
 Width: 616
 VWidth: 0
@@ -13111,11 +12959,11 @@ SplineSet
  211 405 l 257
  134.143 408.074 68 443.457 68 518 c 256
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PIi
-Encoding: 293 -1 300
+Encoding: 301 -1 299
 GlifName: si_P_I_i
 Width: 616
 VWidth: 0
@@ -13142,11 +12990,11 @@ SplineSet
  138.5 406 l 257
  85.2549 410.733 48.5 456 48.5 517 c 256
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PRI
-Encoding: 298 -1 301
+Encoding: 306 -1 300
 GlifName: si_P_R_I_
 Width: 616
 VWidth: 0
@@ -13177,11 +13025,11 @@ SplineSet
  570.75 -123.729 442.75 -219 298.75 -219 c 256
  174.159 -219 87.833 -153.333 50.5 -44 c 257
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PRIi
-Encoding: 299 -1 302
+Encoding: 307 -1 301
 GlifName: si_P_R_I_i
 Width: 616
 VWidth: 0
@@ -13217,11 +13065,11 @@ SplineSet
  570.75 -123.729 442.75 -219 298.75 -219 c 256
  174.159 -219 87.833 -153.333 50.5 -44 c 257
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PRa
-Encoding: 297 -1 303
+Encoding: 305 -1 302
 GlifName: si_P_R_a
 Width: 616
 VWidth: 0
@@ -13241,11 +13089,11 @@ SplineSet
  570.75 -123.729 442.75 -219 298.75 -219 c 256
  174.159 -219 87.833 -153.333 50.5 -44 c 257
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PU
-Encoding: 294 -1 304
+Encoding: 302 -1 303
 GlifName: si_P_U_
 Width: 616
 VWidth: 0
@@ -13269,11 +13117,11 @@ SplineSet
  150.75 -235 l 258
  71.207 -235 45.25 -186.092 45.25 -142.5 c 256
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PUu
-Encoding: 295 -1 305
+Encoding: 303 -1 304
 GlifName: si_P_U_u
 Width: 616
 VWidth: 0
@@ -13300,11 +13148,11 @@ SplineSet
  331 -146.25 282.552 -237 160.5 -237 c 256
  105.5 -237 44 -206 44 -138 c 256
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Pa.reph
-Encoding: 296 -1 306
+Encoding: 304 -1 305
 GlifName: si_P_a.reph
 Width: 616
 VWidth: 0
@@ -13334,11 +13182,11 @@ SplineSet
  375.75 471 340.75 445 282.75 445 c 256
  223.75 445 164.75 474 164.75 530 c 256
 EndSplineSet
-Refer: 465 3508 N 1 0 0 1 0 0 2
+Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ph.halant
-Encoding: 300 -1 307
+Encoding: 308 -1 306
 GlifName: si_P_h.halant
 Width: 583
 VWidth: 0
@@ -13392,7 +13240,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_PhI
-Encoding: 301 -1 308
+Encoding: 309 -1 307
 GlifName: si_P_hI_
 Width: 583
 VWidth: 0
@@ -13416,11 +13264,11 @@ SplineSet
  252.512 499.806 227.927 491.666 186.277 491.666 c 256
  128.461 491.666 76.792 519.285 76.792 576.158 c 256
 EndSplineSet
-Refer: 466 3509 N 1 0 0 1 0 0 2
+Refer: 464 3509 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PhIi
-Encoding: 302 -1 309
+Encoding: 310 -1 308
 GlifName: si_P_hI_i
 Width: 583
 VWidth: 0
@@ -13449,11 +13297,11 @@ SplineSet
  247.717 496.058 222.117 487.75 178.75 487.75 c 256
  118.55 487.75 64.75 516.692 64.75 574.75 c 256
 EndSplineSet
-Refer: 466 3509 N 1 0 0 1 0 0 2
+Refer: 464 3509 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PhU
-Encoding: 303 -1 310
+Encoding: 311 -1 309
 GlifName: si_P_hU_
 Width: 583
 VWidth: 0
@@ -13477,11 +13325,11 @@ SplineSet
  150 -235 l 258
  70.457 -235 44.5 -186.092 44.5 -142.5 c 256
 EndSplineSet
-Refer: 466 3509 N 1 0 0 1 0 0 2
+Refer: 464 3509 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PhUu
-Encoding: 304 -1 311
+Encoding: 312 -1 310
 GlifName: si_P_hU_u
 Width: 583
 VWidth: 0
@@ -13491,28 +13339,28 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-45.5 -138 m 256
- 45.5 -80 94.5 -40 147.5 -40 c 256
- 189.5 -40 221.833 -55 244.5 -91 c 257
- 211.5 -102 l 257
- 200.184 -84.6992 181.5 -70 152.5 -70 c 256
- 113.5 -70 88.5 -95.0762 88.5 -120 c 256
- 88.5 -151.995 117.315 -167 151.5 -167 c 256
- 227.715 -167 278.143 -114.5 372.25 -114.5 c 256
- 423.332 -114.5 463 -133.75 490 -165.75 c 257
- 490 152 l 257
- 525 212 l 257
- 525 -231 l 257
- 499.5 -231 l 257
- 484.5 -195 445.199 -146.25 382.25 -146.25 c 256
- 296.235 -146.25 254.5 -237 156.5 -237 c 256
- 101.5 -237 45.5 -206 45.5 -138 c 256
+45.5 -138 m 260
+ 45.5 -80 94.5 -40 147.5 -40 c 260
+ 189.5 -40 221.833 -55 244.5 -91 c 261
+ 211.5 -102 l 261
+ 200.184 -84.6992 181.5 -70 152.5 -70 c 260
+ 113.5 -70 88.5 -95.0762 88.5 -120 c 260
+ 88.5 -151.995 117.315 -167 151.5 -167 c 260
+ 227.715 -167 278.143 -114.5 372.25 -114.5 c 260
+ 423.332 -114.5 463 -133.75 490 -165.75 c 261
+ 490 152 l 261
+ 525 212 l 261
+ 525 -231 l 261
+ 499.5 -231 l 261
+ 484.5 -195 445.199 -146.25 382.25 -146.25 c 260
+ 296.235 -146.25 254.5 -237 156.5 -237 c 260
+ 101.5 -237 45.5 -206 45.5 -138 c 260
 EndSplineSet
-Refer: 466 3509 N 1 0 0 1 0 0 2
+Refer: 464 3509 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Pha.reph
-Encoding: 305 -1 312
+Encoding: 313 -1 311
 GlifName: si_P_ha.reph
 Width: 583
 VWidth: 0
@@ -13573,7 +13421,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_R.halant
-Encoding: 352 -1 313
+Encoding: 359 -1 312
 GlifName: si_R_.halant
 Width: 528
 VWidth: 0
@@ -13596,11 +13444,11 @@ SplineSet
  159 586.602 127.17 606.203 81.1055 636.587 c 257
  81.1055 504.273 l 257
 EndSplineSet
-Refer: 472 3515 N 1 0 0 1 0 0 2
+Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RAae
-Encoding: 354 -1 314
+Encoding: 361 -1 313
 GlifName: si_R_A_ae
 Width: 681
 VWidth: 0
@@ -13633,11 +13481,11 @@ SplineSet
  452.5 313.918 521.076 387.345 550.75 420.75 c 257
  437.75 420.75 l 257
 EndSplineSet
-Refer: 472 3515 N 1 0 0 1 0 0 2
+Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RAe
-Encoding: 353 -1 315
+Encoding: 360 -1 314
 GlifName: si_R_A_e
 Width: 681
 VWidth: 0
@@ -13659,11 +13507,11 @@ SplineSet
  641.5 44.7997 609.461 0 554 0 c 256
  459.926 0 451 113.538 451 221.25 c 256
 EndSplineSet
-Refer: 472 3515 N 1 0 0 1 0 0 2
+Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RI
-Encoding: 355 -1 316
+Encoding: 362 -1 315
 GlifName: si_R_I_
 Width: 528
 VWidth: 0
@@ -13686,11 +13534,11 @@ SplineSet
  203.46 425.808 167.765 409.565 150 404 c 257
  85.8001 406.918 49 439.625 49 498 c 256
 EndSplineSet
-Refer: 472 3515 N 1 0 0 1 0 0 2
+Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RIi
-Encoding: 356 -1 317
+Encoding: 363 -1 316
 GlifName: si_R_I_i
 Width: 528
 VWidth: 0
@@ -13736,7 +13584,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_RU
-Encoding: 357 -1 318
+Encoding: 364 -1 317
 GlifName: si_R_U_
 Width: 813
 VWidth: 0
@@ -13759,11 +13607,11 @@ SplineSet
  528.75 154.791 627.282 247.412 687 311.25 c 257
  438 311.25 l 257
 EndSplineSet
-Refer: 472 3515 N 1 0 0 1 0 0 2
+Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RUu
-Encoding: 358 -1 319
+Encoding: 365 -1 318
 GlifName: si_R_U_u
 Width: 813
 VWidth: 0
@@ -13791,11 +13639,11 @@ SplineSet
  676.75 312.5 l 257
  440 312.5 l 257
 EndSplineSet
-Refer: 472 3515 N 1 0 0 1 0 0 2
+Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Rakar
-Encoding: 88 -1 320
+Encoding: 89 -1 319
 GlifName: si_R_akar
 Width: 2
 VWidth: 0
@@ -13818,7 +13666,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Reph
-Encoding: 87 -1 321
+Encoding: 88 -1 320
 GlifName: si_R_eph
 Width: 2
 VWidth: 0
@@ -13851,7 +13699,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_S.halant
-Encoding: 391 -1 322
+Encoding: 398 -1 321
 GlifName: si_S_.halant
 Width: 677
 VWidth: 0
@@ -13874,11 +13722,11 @@ SplineSet
  598 586.602 566.17 606.203 520.105 636.587 c 257
  520.105 504.273 l 257
 EndSplineSet
-Refer: 477 3523 N 1 0 0 1 0 0 2
+Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SI
-Encoding: 392 -1 323
+Encoding: 399 -1 322
 GlifName: si_S_I_
 Width: 677
 VWidth: 0
@@ -13900,11 +13748,11 @@ SplineSet
  244 405 l 257
  167.143 408.074 101 443.457 101 518 c 256
 EndSplineSet
-Refer: 477 3523 N 1 0 0 1 0 0 2
+Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SIi
-Encoding: 393 -1 324
+Encoding: 400 -1 323
 GlifName: si_S_I_i
 Width: 677
 VWidth: 0
@@ -13931,12 +13779,36 @@ SplineSet
  172 406 l 257
  118.755 410.733 82 456 82 517 c 256
 EndSplineSet
-Refer: 477 3523 N 1 0 0 1 0 0 2
+Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SRI
-Encoding: 398 -1 325
+Encoding: 405 -1 324
 GlifName: si_S_R_I_
+Width: 677
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+74.25 -44 m 257
+ 103.75 -44 l 257
+ 141.226 -86.958 217.417 -114.25 322.75 -114.25 c 256
+ 465.75 -114.25 583 -31.0107 583 63.25 c 256
+ 583 78.2842 581.438 90.4463 576 102 c 257
+ 589 133 l 257
+ 607 106.333 616 74.667 616 38 c 256
+ 616 -123.729 481.5 -219 337.5 -219 c 256
+ 198.368 -219 111.583 -153.333 74.25 -44 c 257
+EndSplineSet
+Refer: 322 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_SRIi
+Encoding: 406 -1 325
+GlifName: si_S_R_I_i
 Width: 677
 VWidth: 0
 GlyphClass: 2
@@ -13958,32 +13830,8 @@ EndSplineSet
 Refer: 323 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_SRIi
-Encoding: 399 -1 326
-GlifName: si_S_R_I_i
-Width: 677
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-74.25 -44 m 257
- 103.75 -44 l 257
- 141.226 -86.958 217.417 -114.25 322.75 -114.25 c 256
- 465.75 -114.25 583 -31.0107 583 63.25 c 256
- 583 78.2842 581.438 90.4463 576 102 c 257
- 589 133 l 257
- 607 106.333 616 74.667 616 38 c 256
- 616 -123.729 481.5 -219 337.5 -219 c 256
- 198.368 -219 111.583 -153.333 74.25 -44 c 257
-EndSplineSet
-Refer: 324 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_SRa
-Encoding: 397 -1 327
+Encoding: 404 -1 326
 GlifName: si_S_R_a
 Width: 677
 VWidth: 0
@@ -14003,11 +13851,11 @@ SplineSet
  616 -123.729 481.5 -219 337.5 -219 c 256
  198.368 -219 111.583 -153.333 74.25 -44 c 257
 EndSplineSet
-Refer: 477 3523 N 1 0 0 1 0 0 2
+Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SU
-Encoding: 394 -1 328
+Encoding: 401 -1 327
 GlifName: si_S_U_
 Width: 677
 VWidth: 0
@@ -14031,11 +13879,11 @@ SplineSet
  173.25 -235 l 258
  93.707 -235 67.75 -186.092 67.75 -142.5 c 256
 EndSplineSet
-Refer: 477 3523 N 1 0 0 1 0 0 2
+Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SUu
-Encoding: 395 -1 329
+Encoding: 402 -1 328
 GlifName: si_S_U_u
 Width: 677
 VWidth: 0
@@ -14062,11 +13910,11 @@ SplineSet
  379 -146.25 277.5 -237 179.5 -237 c 256
  124.5 -237 68.5 -206 68.5 -138 c 256
 EndSplineSet
-Refer: 477 3523 N 1 0 0 1 0 0 2
+Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Sa.reph
-Encoding: 396 -1 330
+Encoding: 403 -1 329
 GlifName: si_S_a.reph
 Width: 677
 VWidth: 0
@@ -14096,11 +13944,11 @@ SplineSet
  404.25 471 369.25 445 311.25 445 c 256
  252.25 445 193.25 474 193.25 530 c 256
 EndSplineSet
-Refer: 477 3523 N 1 0 0 1 0 0 2
+Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Sh.halant
-Encoding: 373 -1 331
+Encoding: 380 -1 330
 GlifName: si_S_h.halant
 Width: 631
 VWidth: 0
@@ -14123,11 +13971,11 @@ SplineSet
  536.75 586.602 504.92 606.203 458.855 636.587 c 257
  458.855 504.273 l 257
 EndSplineSet
-Refer: 475 3521 N 1 0 0 1 0 0 2
+Refer: 473 3521 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ShI
-Encoding: 374 -1 332
+Encoding: 381 -1 331
 GlifName: si_S_hI_
 Width: 631
 VWidth: 0
@@ -14189,7 +14037,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShIi
-Encoding: 375 -1 333
+Encoding: 382 -1 332
 GlifName: si_S_hI_i
 Width: 631
 VWidth: 0
@@ -14255,7 +14103,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShRI
-Encoding: 380 -1 334
+Encoding: 387 -1 333
 GlifName: si_S_hR_I_
 Width: 631
 VWidth: 0
@@ -14327,7 +14175,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShRIi
-Encoding: 381 -1 335
+Encoding: 388 -1 334
 GlifName: si_S_hR_I_i
 Width: 631
 VWidth: 0
@@ -14403,7 +14251,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShRa
-Encoding: 379 -1 336
+Encoding: 386 -1 335
 GlifName: si_S_hR_a
 Width: 631
 VWidth: 0
@@ -14462,7 +14310,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShU
-Encoding: 376 -1 337
+Encoding: 383 -1 336
 GlifName: si_S_hU_
 Width: 631
 VWidth: 0
@@ -14484,11 +14332,11 @@ SplineSet
  585.5 -122.146 541.767 -191.5 441.065 -191.5 c 256
  373.327 -191.5 306.065 -149.233 306.065 -80 c 256
 EndSplineSet
-Refer: 475 3521 N 1 0 0 1 0 0 2
+Refer: 473 3521 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ShUu
-Encoding: 377 -1 338
+Encoding: 384 -1 337
 GlifName: si_S_hU_u
 Width: 631
 VWidth: 0
@@ -14516,11 +14364,11 @@ SplineSet
  585.25 -161 533.946 -205 451.946 -205 c 256
  393.946 -205 329.946 -187.466 329.946 -129 c 256
 EndSplineSet
-Refer: 475 3521 N 1 0 0 1 0 0 2
+Refer: 473 3521 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Sha.reph
-Encoding: 378 -1 339
+Encoding: 385 -1 338
 GlifName: si_S_ha.reph
 Width: 631
 VWidth: 0
@@ -14550,11 +14398,11 @@ SplineSet
  391.25 471 356.25 445 298.25 445 c 256
  239.25 445 180.25 474 180.25 530 c 256
 EndSplineSet
-Refer: 475 3521 N 1 0 0 1 0 0 2
+Refer: 473 3521 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ss.halant
-Encoding: 382 -1 340
+Encoding: 389 -1 339
 GlifName: si_S_s.halant
 Width: 622
 VWidth: 0
@@ -14577,11 +14425,11 @@ SplineSet
  528 586.602 496.17 606.203 450.105 636.587 c 257
  450.105 504.273 l 257
 EndSplineSet
-Refer: 476 3522 N 1 0 0 1 0 0 2
+Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsI
-Encoding: 383 -1 341
+Encoding: 390 -1 340
 GlifName: si_S_sI_
 Width: 622
 VWidth: 0
@@ -14603,11 +14451,11 @@ SplineSet
  211 405 l 257
  134.143 408.074 68 443.457 68 518 c 256
 EndSplineSet
-Refer: 476 3522 N 1 0 0 1 0 0 2
+Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsIi
-Encoding: 384 -1 342
+Encoding: 391 -1 341
 GlifName: si_S_sI_i
 Width: 622
 VWidth: 0
@@ -14634,12 +14482,36 @@ SplineSet
  138.5 406 l 257
  85.2549 410.733 48.5 456 48.5 517 c 256
 EndSplineSet
-Refer: 476 3522 N 1 0 0 1 0 0 2
+Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsRI
-Encoding: 389 -1 343
+Encoding: 396 -1 342
 GlifName: si_S_sR_I_
+Width: 622
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+50.5 -44 m 257
+ 80 -44 l 257
+ 117.476 -86.958 180.167 -114.25 285.5 -114.25 c 256
+ 428.5 -114.25 537.75 -31.0107 537.75 63.25 c 256
+ 537.75 78.2842 536.188 90.4463 530.75 102 c 257
+ 543.75 133 l 257
+ 561.75 106.333 570.75 74.667 570.75 38 c 256
+ 570.75 -123.729 442.75 -219 298.75 -219 c 256
+ 174.159 -219 87.833 -153.333 50.5 -44 c 257
+EndSplineSet
+Refer: 340 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_SsRIi
+Encoding: 397 -1 343
+GlifName: si_S_sR_I_i
 Width: 622
 VWidth: 0
 GlyphClass: 2
@@ -14661,32 +14533,8 @@ EndSplineSet
 Refer: 341 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_SsRIi
-Encoding: 390 -1 344
-GlifName: si_S_sR_I_i
-Width: 622
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-50.5 -44 m 257
- 80 -44 l 257
- 117.476 -86.958 180.167 -114.25 285.5 -114.25 c 256
- 428.5 -114.25 537.75 -31.0107 537.75 63.25 c 256
- 537.75 78.2842 536.188 90.4463 530.75 102 c 257
- 543.75 133 l 257
- 561.75 106.333 570.75 74.667 570.75 38 c 256
- 570.75 -123.729 442.75 -219 298.75 -219 c 256
- 174.159 -219 87.833 -153.333 50.5 -44 c 257
-EndSplineSet
-Refer: 342 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_SsRa
-Encoding: 388 -1 345
+Encoding: 395 -1 344
 GlifName: si_S_sR_a
 Width: 622
 VWidth: 0
@@ -14706,11 +14554,11 @@ SplineSet
  570.75 -123.729 442.75 -219 298.75 -219 c 256
  174.159 -219 87.833 -153.333 50.5 -44 c 257
 EndSplineSet
-Refer: 476 3522 N 1 0 0 1 0 0 2
+Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsU
-Encoding: 385 -1 346
+Encoding: 392 -1 345
 GlifName: si_S_sU_
 Width: 622
 VWidth: 0
@@ -14734,11 +14582,11 @@ SplineSet
  150.75 -235 l 258
  71.207 -235 45.25 -186.092 45.25 -142.5 c 256
 EndSplineSet
-Refer: 476 3522 N 1 0 0 1 0 0 2
+Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsUu
-Encoding: 386 -1 347
+Encoding: 393 -1 346
 GlifName: si_S_sU_u
 Width: 622
 VWidth: 0
@@ -14765,11 +14613,11 @@ SplineSet
  331 -146.25 282.552 -237 160.5 -237 c 256
  105.5 -237 44 -206 44 -138 c 256
 EndSplineSet
-Refer: 476 3522 N 1 0 0 1 0 0 2
+Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ssa.reph
-Encoding: 387 -1 348
+Encoding: 394 -1 347
 GlifName: si_S_sa.reph
 Width: 622
 VWidth: 0
@@ -14799,11 +14647,11 @@ SplineSet
  375.75 471 340.75 445 282.75 445 c 256
  223.75 445 164.75 474 164.75 530 c 256
 EndSplineSet
-Refer: 476 3522 N 1 0 0 1 0 0 2
+Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_T.halant
-Encoding: 232 -1 349
+Encoding: 239 -1 348
 GlifName: si_T_.halant
 Width: 704
 VWidth: 0
@@ -14826,11 +14674,11 @@ SplineSet
  617 586.602 585.17 606.203 539.105 636.587 c 257
  539.105 504.273 l 257
 EndSplineSet
-Refer: 459 3501 N 1 0 0 1 0 0 2
+Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TI
-Encoding: 233 -1 350
+Encoding: 240 -1 349
 GlifName: si_T_I_
 Width: 704
 VWidth: 0
@@ -14852,11 +14700,11 @@ SplineSet
  218.5 343 l 257
  214.403 360.752 211.5 389.837 211.5 421 c 256
 EndSplineSet
-Refer: 459 3501 N 1 0 0 1 0 0 2
+Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TIi
-Encoding: 234 -1 351
+Encoding: 241 -1 350
 GlifName: si_T_I_i
 Width: 704
 VWidth: 0
@@ -14884,12 +14732,36 @@ SplineSet
  218.028 343 l 257
  214.094 360.752 211.307 389.837 211.307 421 c 256
 EndSplineSet
-Refer: 459 3501 N 1 0 0 1 0 0 2
+Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TRI
-Encoding: 239 -1 352
+Encoding: 246 -1 351
 GlifName: si_T_R_I_
+Width: 704
+VWidth: 0
+GlyphClass: 2
+Flags: W
+LayerCount: 2
+Back
+Fore
+SplineSet
+110.75 -44 m 257
+ 140.25 -44 l 257
+ 173.783 -93.29 230.552 -113.75 343.75 -113.75 c 256
+ 495.314 -113.75 627 -31.0107 627 63.25 c 256
+ 627 78.2842 624.25 90.793 617.25 102 c 257
+ 630.25 133 l 257
+ 648.25 106.333 657.25 74.667 657.25 38 c 256
+ 657.25 -123.729 517.8 -219 366.25 -219 c 256
+ 235.619 -219 148.083 -153.333 110.75 -44 c 257
+EndSplineSet
+Refer: 349 -1 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_TRIi
+Encoding: 247 -1 352
+GlifName: si_T_R_I_i
 Width: 704
 VWidth: 0
 GlyphClass: 2
@@ -14911,32 +14783,8 @@ EndSplineSet
 Refer: 350 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_TRIi
-Encoding: 240 -1 353
-GlifName: si_T_R_I_i
-Width: 704
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
-SplineSet
-110.75 -44 m 257
- 140.25 -44 l 257
- 173.783 -93.29 230.552 -113.75 343.75 -113.75 c 256
- 495.314 -113.75 627 -31.0107 627 63.25 c 256
- 627 78.2842 624.25 90.793 617.25 102 c 257
- 630.25 133 l 257
- 648.25 106.333 657.25 74.667 657.25 38 c 256
- 657.25 -123.729 517.8 -219 366.25 -219 c 256
- 235.619 -219 148.083 -153.333 110.75 -44 c 257
-EndSplineSet
-Refer: 351 -1 N 1 0 0 1 0 0 2
-EndChar
-
 StartChar: si_TRa
-Encoding: 238 -1 354
+Encoding: 245 -1 353
 GlifName: si_T_R_a
 Width: 704
 VWidth: 0
@@ -14956,11 +14804,11 @@ SplineSet
  657.25 -123.729 517.8 -219 366.25 -219 c 256
  235.619 -219 148.083 -153.333 110.75 -44 c 257
 EndSplineSet
-Refer: 459 3501 N 1 0 0 1 0 0 2
+Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TThI
-Encoding: 469 -1 355
+Encoding: 477 -1 354
 GlifName: si_T_T_hI_
 Width: 1016
 VWidth: 0
@@ -14984,11 +14832,11 @@ SplineSet
  689.717 496.058 664.117 487.75 620.75 487.75 c 256
  560.55 487.75 506.75 515.942 506.75 574 c 256
 EndSplineSet
-Refer: 386 -1 N 1 0 0 1 0 0 2
+Refer: 385 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TThIi
-Encoding: 470 -1 356
+Encoding: 478 -1 355
 GlifName: si_T_T_hI_i
 Width: 1016
 VWidth: 0
@@ -15066,7 +14914,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TThU
-Encoding: 471 -1 357
+Encoding: 479 -1 356
 GlifName: si_T_T_hU_
 Width: 1016
 VWidth: 0
@@ -15090,11 +14938,11 @@ SplineSet
  559.75 -235 l 258
  480.207 -235 454.25 -186.092 454.25 -142.5 c 256
 EndSplineSet
-Refer: 386 -1 N 1 0 0 1 0 0 2
+Refer: 385 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TThUu
-Encoding: 472 -1 358
+Encoding: 480 -1 357
 GlifName: si_T_T_hU_u
 Width: 1016
 VWidth: 0
@@ -15121,11 +14969,11 @@ SplineSet
  721.25 -146.25 662.5 -237 564.5 -237 c 256
  509.5 -237 453.5 -206 453.5 -138 c 256
 EndSplineSet
-Refer: 386 -1 N 1 0 0 1 0 0 2
+Refer: 385 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TTha
-Encoding: 468 -1 359
+Encoding: 476 -1 358
 GlifName: si_T_T_ha
 Width: 1016
 VWidth: 0
@@ -15163,11 +15011,11 @@ SplineSet
  232.649 294 190 282 158 259 c 257
  126.501 220.501 113 194 94 156 c 257
 EndSplineSet
-Refer: 369 -1 N 1 0 0 1 400 0 2
+Refer: 368 -1 N 1 0 0 1 400 0 2
 EndChar
 
 StartChar: si_TU
-Encoding: 235 -1 360
+Encoding: 242 -1 359
 GlifName: si_T_U_
 Width: 704
 VWidth: 0
@@ -15224,7 +15072,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TUu
-Encoding: 236 -1 361
+Encoding: 243 -1 360
 GlifName: si_T_U_u
 Width: 704
 VWidth: 0
@@ -15252,11 +15100,11 @@ SplineSet
  650.25 -161 598.946 -205 516.946 -205 c 256
  458.946 -205 394.946 -187.466 394.946 -129 c 256
 EndSplineSet
-Refer: 459 3501 N 1 0 0 1 0 0 2
+Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TV.halant
-Encoding: 474 -1 362
+Encoding: 482 -1 361
 GlifName: si_T_V_.halant
 Width: 1001
 VWidth: 0
@@ -15331,7 +15179,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TVI
-Encoding: 475 -1 363
+Encoding: 483 -1 362
 GlifName: si_T_V_I_
 Width: 1001
 VWidth: 0
@@ -15407,7 +15255,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TVIi
-Encoding: 476 -1 364
+Encoding: 484 -1 363
 GlifName: si_T_V_I_i
 Width: 1001
 VWidth: 0
@@ -15488,7 +15336,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TVU
-Encoding: 477 -1 365
+Encoding: 485 -1 364
 GlifName: si_T_V_U_
 Width: 1001
 VWidth: 0
@@ -15512,11 +15360,11 @@ SplineSet
  554.5 -235 l 258
  474.957 -235 449 -186.092 449 -142.5 c 256
 EndSplineSet
-Refer: 389 -1 N 1 0 0 1 0 0 2
+Refer: 388 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TVUu
-Encoding: 478 -1 366
+Encoding: 486 -1 365
 GlifName: si_T_V_U_u
 Width: 1001
 VWidth: 0
@@ -15543,11 +15391,11 @@ SplineSet
  708.5 -146.25 660 -237 562 -237 c 256
  507 -237 451 -206 451 -138 c 256
 EndSplineSet
-Refer: 389 -1 N 1 0 0 1 0 0 2
+Refer: 388 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TVa
-Encoding: 429 -1 367
+Encoding: 436 -1 366
 GlifName: si_T_V_a
 Width: 729
 VWidth: 0
@@ -15598,7 +15446,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ta.reph
-Encoding: 237 -1 368
+Encoding: 244 -1 367
 GlifName: si_T_a.reph
 Width: 704
 VWidth: 0
@@ -15628,11 +15476,11 @@ SplineSet
  479.5 471 444.5 445 386.5 445 c 256
  327.5 445 268.5 474 268.5 530 c 256
 EndSplineSet
-Refer: 459 3501 N 1 0 0 1 0 0 2
+Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Th.halant
-Encoding: 241 -1 369
+Encoding: 248 -1 368
 GlifName: si_T_h.halant
 Width: 614
 VWidth: 0
@@ -15677,7 +15525,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ThI
-Encoding: 242 -1 370
+Encoding: 249 -1 369
 GlifName: si_T_hI_
 Width: 614
 VWidth: 0
@@ -15701,11 +15549,11 @@ SplineSet
  288.717 496.058 263.117 487.75 219.75 487.75 c 256
  159.55 487.75 105.75 515.942 105.75 574 c 256
 EndSplineSet
-Refer: 460 3502 N 1 0 0 1 0 0 2
+Refer: 458 3502 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ThIi
-Encoding: 243 -1 371
+Encoding: 250 -1 370
 GlifName: si_T_hI_i
 Width: 614
 VWidth: 0
@@ -15756,7 +15604,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ThU
-Encoding: 244 -1 372
+Encoding: 251 -1 371
 GlifName: si_T_hU_
 Width: 614
 VWidth: 0
@@ -15780,11 +15628,11 @@ SplineSet
  158.75 -235 l 258
  79.207 -235 53.25 -186.092 53.25 -142.5 c 256
 EndSplineSet
-Refer: 460 3502 N 1 0 0 1 0 0 2
+Refer: 458 3502 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ThUu
-Encoding: 245 -1 373
+Encoding: 252 -1 372
 GlifName: si_T_hU_u
 Width: 614
 VWidth: 0
@@ -15811,11 +15659,11 @@ SplineSet
  320.25 -146.25 261.5 -237 163.5 -237 c 256
  108.5 -237 52.5 -206 52.5 -138 c 256
 EndSplineSet
-Refer: 460 3502 N 1 0 0 1 0 0 2
+Refer: 458 3502 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Tha.reph
-Encoding: 246 -1 374
+Encoding: 253 -1 373
 GlifName: si_T_ha.reph
 Width: 614
 VWidth: 0
@@ -15845,11 +15693,11 @@ SplineSet
  224.25 471 189.25 445 131.25 445 c 256
  72.25 445 13.25 474 13.25 530 c 256
 EndSplineSet
-Refer: 460 3502 N 1 0 0 1 0 0 2
+Refer: 458 3502 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Tt.halant
-Encoding: 193 -1 375
+Encoding: 200 -1 374
 GlifName: si_T_t.halant
 Width: 603
 VWidth: 0
@@ -15892,7 +15740,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtI
-Encoding: 194 -1 376
+Encoding: 201 -1 375
 GlifName: si_T_tI_
 Width: 603
 VWidth: 0
@@ -15932,7 +15780,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtIi
-Encoding: 195 -1 377
+Encoding: 202 -1 376
 GlifName: si_T_tI_i
 Width: 603
 VWidth: 0
@@ -15977,7 +15825,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtRI
-Encoding: 200 -1 378
+Encoding: 207 -1 377
 GlifName: si_T_tR_I_
 Width: 603
 VWidth: 0
@@ -16026,7 +15874,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtRIi
-Encoding: 201 -1 379
+Encoding: 208 -1 378
 GlifName: si_T_tR_I_i
 Width: 603
 VWidth: 0
@@ -16080,7 +15928,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtRa
-Encoding: 199 -1 380
+Encoding: 206 -1 379
 GlifName: si_T_tR_a
 Width: 603
 VWidth: 0
@@ -16100,32 +15948,32 @@ SplineSet
  550.5 -123.729 430.25 -219 286.25 -219 c 256
  160.168 -219 83.333 -153.333 46 -44 c 257
 EndSplineSet
-Refer: 453 3495 N 1 0 0 1 0 0 2
+Refer: 451 3495 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TtTh.halant
-Encoding: 489 -1 381
+Encoding: 497 -1 380
 GlifName: si_T_tT_h.halant
 Width: 729
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
 SplineSet
-561.105 517.023 m 257
- 561.105 649.337 l 257
- 607.17 618.953 639 599.352 639 558.188 c 256
- 639 534.665 625.454 510.163 593.448 510.163 c 256
- 580.382 510.163 569.6 512.449 561.105 517.023 c 257
-532.5 474 m 257
- 561 435 l 257
- 561 490.75 l 257
- 576.333 484.083 591.333 480.75 606 480.75 c 256
- 649.191 480.75 684 510.75 684 554.75 c 256
- 684 646.75 586.5 651.75 532.5 693.75 c 257
- 532.5 474 l 257
+561.105 517.023 m 261
+ 569.6 512.449 580.382 510.163 593.448 510.163 c 260
+ 625.454 510.163 639 534.665 639 558.188 c 260
+ 639 599.352 607.17 618.953 561.105 649.337 c 261
+ 561.105 517.023 l 261
+532.5 474 m 261
+ 532.5 693.75 l 261
+ 586.5 651.75 684 646.75 684 554.75 c 260
+ 684 510.75 649.191 480.75 606 480.75 c 260
+ 591.333 480.75 576.333 484.083 561 490.75 c 261
+ 561 435 l 261
+ 532.5 474 l 261
 125 195 m 256
  125 288 178.248 363.669 244 387 c 256
  264.667 394.333 287.667 398 313 398 c 257
@@ -16167,7 +16015,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtThI
-Encoding: 490 -1 382
+Encoding: 498 -1 381
 GlifName: si_T_tT_hI_
 Width: 729
 VWidth: 0
@@ -16231,7 +16079,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtThIi
-Encoding: 491 -1 383
+Encoding: 499 -1 382
 GlifName: si_T_tT_hI_i
 Width: 729
 VWidth: 0
@@ -16300,7 +16148,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtThU
-Encoding: 492 -1 384
+Encoding: 500 -1 383
 GlifName: si_T_tT_hU_
 Width: 729
 VWidth: 0
@@ -16364,7 +16212,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtThUu
-Encoding: 493 -1 385
+Encoding: 501 -1 384
 GlifName: si_T_tT_hU_u
 Width: 729
 VWidth: 0
@@ -16431,7 +16279,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtTha
-Encoding: 428 -1 386
+Encoding: 435 -1 385
 GlifName: si_T_tT_ha
 Width: 1016
 VWidth: 0
@@ -16469,11 +16317,11 @@ SplineSet
  233.649 294 191 282 159 259 c 257
  127.501 220.501 114 194 95 156 c 257
 EndSplineSet
-Refer: 460 3502 N 1 0 0 1 401 0 2
+Refer: 458 3502 N 1 0 0 1 401 0 2
 EndChar
 
 StartChar: si_TtU
-Encoding: 196 -1 387
+Encoding: 203 -1 386
 GlifName: si_T_tU_
 Width: 603
 VWidth: 0
@@ -16497,11 +16345,11 @@ SplineSet
  149.5 -235 l 258
  69.957 -235 44 -186.092 44 -142.5 c 256
 EndSplineSet
-Refer: 453 3495 N 1 0 0 1 0 0 2
+Refer: 451 3495 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TtUu
-Encoding: 197 -1 388
+Encoding: 204 -1 387
 GlifName: si_T_tU_u
 Width: 603
 VWidth: 0
@@ -16528,11 +16376,11 @@ SplineSet
  308.75 -146.25 255 -237 157 -237 c 256
  102 -237 46 -206 46 -138 c 256
 EndSplineSet
-Refer: 453 3495 N 1 0 0 1 0 0 2
+Refer: 451 3495 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TtVa
-Encoding: 473 -1 389
+Encoding: 481 -1 388
 GlifName: si_T_tV_a
 Width: 1001
 VWidth: 0
@@ -16572,11 +16420,11 @@ SplineSet
  233.649 294 191 282 159 259 c 257
  127.501 220.501 114 194 95 156 c 257
 EndSplineSet
-Refer: 474 3520 N 1 0 0 1 404 0 2
+Refer: 472 3520 N 1 0 0 1 404 0 2
 EndChar
 
 StartChar: si_Tta.reph
-Encoding: 198 -1 390
+Encoding: 205 -1 389
 GlifName: si_T_ta.reph
 Width: 603
 VWidth: 0
@@ -16606,11 +16454,11 @@ SplineSet
  362 582 327 556 269 556 c 256
  210 556 151 585 151 641 c 256
 EndSplineSet
-Refer: 453 3495 N 1 0 0 1 0 0 2
+Refer: 451 3495 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Tth.halant
-Encoding: 202 -1 391
+Encoding: 209 -1 390
 GlifName: si_T_th.halant
 Width: 640
 VWidth: 0
@@ -16664,7 +16512,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TthI
-Encoding: 203 -1 392
+Encoding: 210 -1 391
 GlifName: si_T_thI_
 Width: 637
 VWidth: 0
@@ -16688,11 +16536,11 @@ SplineSet
  294.717 496.058 269.117 487.75 225.75 487.75 c 256
  165.55 487.75 111.75 515.942 111.75 574 c 256
 EndSplineSet
-Refer: 454 3496 N 1 0 0 1 0 0 2
+Refer: 452 3496 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TthIi
-Encoding: 204 -1 393
+Encoding: 211 -1 392
 GlifName: si_T_thI_i
 Width: 638
 VWidth: 0
@@ -16721,11 +16569,11 @@ SplineSet
  294.717 495.308 269.117 487 225.75 487 c 256
  165.55 487 111.75 515.942 111.75 574 c 256
 EndSplineSet
-Refer: 454 3496 N 1 0 0 1 0 0 2
+Refer: 452 3496 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TthU
-Encoding: 205 -1 394
+Encoding: 212 -1 393
 GlifName: si_T_thU_
 Width: 637
 VWidth: 0
@@ -16749,11 +16597,11 @@ SplineSet
  157 -235 l 258
  77.457 -235 51.5 -186.092 51.5 -142.5 c 256
 EndSplineSet
-Refer: 454 3496 N 1 0 0 1 0 0 2
+Refer: 452 3496 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TthUu
-Encoding: 206 -1 395
+Encoding: 213 -1 394
 GlifName: si_T_thU_u
 Width: 638
 VWidth: 0
@@ -16780,11 +16628,11 @@ SplineSet
  335 -146.25 260 -237 162 -237 c 256
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
-Refer: 454 3496 N 1 0 0 1 0 0 2
+Refer: 452 3496 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_V.halant
-Encoding: 364 -1 396
+Encoding: 371 -1 395
 GlifName: si_V_.halant
 Width: 597
 VWidth: 0
@@ -16830,7 +16678,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VI
-Encoding: 365 -1 397
+Encoding: 372 -1 396
 GlifName: si_V_I_
 Width: 597
 VWidth: 0
@@ -16877,7 +16725,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VIi
-Encoding: 366 -1 398
+Encoding: 373 -1 397
 GlifName: si_V_I_i
 Width: 597
 VWidth: 0
@@ -16929,7 +16777,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VRI
-Encoding: 371 -1 399
+Encoding: 378 -1 398
 GlifName: si_V_R_I_
 Width: 597
 VWidth: 0
@@ -16985,7 +16833,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VRIi
-Encoding: 372 -1 400
+Encoding: 379 -1 399
 GlifName: si_V_R_I_i
 Width: 597
 VWidth: 0
@@ -17046,7 +16894,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VRa
-Encoding: 370 -1 401
+Encoding: 377 -1 400
 GlifName: si_V_R_a
 Width: 597
 VWidth: 0
@@ -17066,11 +16914,11 @@ SplineSet
  546.25 -123.729 430.25 -219 286.25 -219 c 256
  160.168 -219 83.333 -153.333 46 -44 c 257
 EndSplineSet
-Refer: 474 3520 N 1 0 0 1 0 0 2
+Refer: 472 3520 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_VU
-Encoding: 367 -1 402
+Encoding: 374 -1 401
 GlifName: si_V_U_
 Width: 597
 VWidth: 0
@@ -17094,11 +16942,11 @@ SplineSet
  149.5 -235 l 258
  69.957 -235 44 -186.092 44 -142.5 c 256
 EndSplineSet
-Refer: 474 3520 N 1 0 0 1 0 0 2
+Refer: 472 3520 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_VUu
-Encoding: 368 -1 403
+Encoding: 375 -1 402
 GlifName: si_V_U_u
 Width: 597
 VWidth: 0
@@ -17125,11 +16973,11 @@ SplineSet
  303.5 -146.25 255 -237 157 -237 c 256
  102 -237 46 -206 46 -138 c 256
 EndSplineSet
-Refer: 474 3520 N 1 0 0 1 0 0 2
+Refer: 472 3520 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Va.reph
-Encoding: 369 -1 404
+Encoding: 376 -1 403
 GlifName: si_V_a.reph
 Width: 597
 VWidth: 0
@@ -17159,11 +17007,11 @@ SplineSet
  431.75 698 367.75 741 290.75 741 c 256
  208.87 741 150.75 704 150.75 640 c 256
 EndSplineSet
-Refer: 474 3520 N 1 0 0 1 0 0 2
+Refer: 472 3520 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Y.halant
-Encoding: 338 -1 405
+Encoding: 346 -1 404
 GlifName: si_Y_.halant
 Width: 636
 VWidth: 0
@@ -17186,35 +17034,38 @@ SplineSet
  528 586.602 496.17 606.203 450.105 636.587 c 257
  450.105 504.273 l 257
 EndSplineSet
-Refer: 471 3514 N 1 0 0 1 0 0 2
+Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Y.post.halant
-Encoding: 346 -1 406
+Encoding: 353 -1 405
 GlifName: si_Y_.post.halant
-Width: 0
+Width: 544
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
-EndChar
-
-StartChar: si_YAa.post
-Encoding: 345 -1 407
-GlifName: si_Y_A_a.post
-Width: 0
-VWidth: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Back
-Fore
+SplineSet
+347 416 m 257
+ 347 681 l 257
+ 401 639 498.5 634 498.5 542 c 256
+ 498.5 498 463.691 468 420.5 468 c 256
+ 405.833 468 390.833 471.333 375.5 478 c 257
+ 375.5 416 l 257
+ 347 416 l 257
+375.605 504.273 m 257
+ 384.1 499.699 394.882 497.413 407.948 497.413 c 256
+ 439.954 497.413 453.5 521.915 453.5 545.438 c 256
+ 453.5 586.602 421.67 606.203 375.605 636.587 c 257
+ 375.605 504.273 l 257
+EndSplineSet
+Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YI
-Encoding: 339 -1 408
+Encoding: 347 -1 406
 GlifName: si_Y_I_
 Width: 636
 VWidth: 0
@@ -17236,11 +17087,11 @@ SplineSet
  386.75 404.75 l 257
  198.727 408.993 90 446.076 90 531.75 c 256
 EndSplineSet
-Refer: 471 3514 N 1 0 0 1 0 0 2
+Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YIi
-Encoding: 340 -1 409
+Encoding: 348 -1 407
 GlifName: si_Y_I_i
 Width: 636
 VWidth: 0
@@ -17267,11 +17118,11 @@ SplineSet
  386.75 402.75 l 257
  197.847 402.75 90 443.48 90 531.75 c 256
 EndSplineSet
-Refer: 471 3514 N 1 0 0 1 0 0 2
+Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YU
-Encoding: 341 -1 410
+Encoding: 349 -1 408
 GlifName: si_Y_U_
 Width: 636
 VWidth: 0
@@ -17295,23 +17146,39 @@ SplineSet
  155.5 -235 l 258
  75.957 -235 50 -186.092 50 -142.5 c 256
 EndSplineSet
-Refer: 471 3514 N 1 0 0 1 0 0 2
+Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YU.post
-Encoding: 347 -1 411
+Encoding: 354 -1 409
 GlifName: si_Y_U_.post
-Width: 0
+Width: 544
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
+SplineSet
+25.5 -142.5 m 260
+ 25.5 -90.4912 71.793 -50.5 127 -50.5 c 260
+ 168.906 -50.5 206.25 -74.1416 221 -110 c 261
+ 188.25 -121.5 l 261
+ 181.426 -104.358 160 -81.75 127 -81.75 c 260
+ 90.296 -81.75 61 -109.716 61 -142.5 c 260
+ 61 -171.663 82.748 -192.5 152.5 -192.5 c 262
+ 439.75 -192.5 l 257
+ 439.75 128 l 257
+ 475 219 l 257
+ 475 -235 l 257
+ 131 -235 l 262
+ 51.457 -235 25.5 -186.092 25.5 -142.5 c 260
+EndSplineSet
+Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YUu
-Encoding: 342 -1 412
+Encoding: 350 -1 410
 GlifName: si_Y_U_u
 Width: 636
 VWidth: 0
@@ -17338,35 +17205,92 @@ SplineSet
  344.25 -146.25 259 -237 161 -237 c 256
  106 -237 50 -206 50 -138 c 256
 EndSplineSet
-Refer: 471 3514 N 1 0 0 1 0 0 2
+Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YUu.post
-Encoding: 348 -1 413
+Encoding: 355 -1 411
 GlifName: si_Y_U_u.post
-Width: 0
+Width: 544
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
+SplineSet
+17.5 -138 m 260
+ 17.5 -80 66.5 -40 119.5 -40 c 260
+ 161.5 -40 193.833 -55 216.5 -91 c 261
+ 183.5 -102 l 261
+ 172.184 -84.6992 153.5 -70 124.5 -70 c 260
+ 85.5 -70 60.5 -95.0762 60.5 -120 c 260
+ 60.5 -151.995 89.315 -167 123.5 -167 c 260
+ 195.226687429 -167 242.684975085 -114.5 331.25 -114.5 c 260
+ 382.332 -114.5 422 -133.75 449 -165.75 c 261
+ 449 152 l 261
+ 484 212 l 261
+ 484 -231 l 261
+ 458.5 -231 l 261
+ 443.5 -195 404.199 -146.25 341.25 -146.25 c 260
+ 260.18824474 -146.25 220.856589147 -237 128.5 -237 c 260
+ 73.5 -237 17.5 -206 17.5 -138 c 260
+EndSplineSet
+Refer: 413 -1 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YUu.post.reph
-Encoding: 351 -1 414
+Encoding: 358 -1 412
 GlifName: si_Y_U_u.post.reph
-Width: 0
+Width: 544
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
+SplineSet
+225.900390625 504 m 256
+ 225.900390625 483.853930918 244.128213061 467.546875 266 467.546875 c 256
+ 287.871786939 467.546875 306.099609375 483.853930918 306.099609375 504 c 256
+ 306.099609375 524.146069082 287.871786939 540.453125 266 540.453125 c 256
+ 244.128213061 540.453125 225.900390625 524.146069082 225.900390625 504 c 256
+123 523 m 256
+ 123 587 181.12 624 263 624 c 256
+ 340 624 404 581 404 510 c 256
+ 404 486 395.667 464.333 379 445 c 257
+ 343.25 445 l 257
+ 356.42 457.387 372 481.734 372 509 c 256
+ 372 563.522 323 595.5 262 595.5 c 256
+ 209.222 595.5 155.75 572.99 155.75 523 c 256
+ 155.75 483.925 198.901 466.689 216.5 464.25 c 257
+ 208.5 470.25 198 484 198 505 c 256
+ 198 540 229.354 565 265 565 c 256
+ 306 565 334 538 334 503 c 256
+ 334 464 299 438 241 438 c 256
+ 182 438 123 467 123 523 c 256
+17.5 -138 m 260
+ 17.5 -80 66.5 -40 119.5 -40 c 260
+ 161.5 -40 193.833 -55 216.5 -91 c 261
+ 183.5 -102 l 261
+ 172.184 -84.6992 153.5 -70 124.5 -70 c 260
+ 85.5 -70 60.5 -95.0762 60.5 -120 c 260
+ 60.5 -151.995 89.315 -167 123.5 -167 c 260
+ 195.226687429 -167 242.684975085 -114.5 331.25 -114.5 c 260
+ 382.332 -114.5 422 -133.75 449 -165.75 c 261
+ 449 152 l 261
+ 484 212 l 261
+ 484 -231 l 261
+ 458.5 -231 l 261
+ 443.5 -195 404.199 -146.25 341.25 -146.25 c 260
+ 260.18824474 -146.25 220.856589147 -237 128.5 -237 c 260
+ 73.5 -237 17.5 -206 17.5 -138 c 260
+EndSplineSet
+Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ya.post
-Encoding: 344 -1 415
+Encoding: 352 -1 413
 GlifName: si_Y_a.post
 Width: 544
 VWidth: 0
@@ -17405,19 +17329,41 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ya.post.reph
-Encoding: 349 -1 416
+Encoding: 356 -1 414
 GlifName: si_Y_a.post.reph
-Width: 0
+Width: 544
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
+SplineSet
+225.900390625 504 m 256
+ 225.900390625 483.853930918 244.128213061 467.546875 266 467.546875 c 256
+ 287.871786939 467.546875 306.099609375 483.853930918 306.099609375 504 c 256
+ 306.099609375 524.146069082 287.871786939 540.453125 266 540.453125 c 256
+ 244.128213061 540.453125 225.900390625 524.146069082 225.900390625 504 c 256
+123 523 m 256
+ 123 587 181.12 624 263 624 c 256
+ 340 624 404 581 404 510 c 256
+ 404 486 395.667 464.333 379 445 c 257
+ 343.25 445 l 257
+ 356.42 457.387 372 481.734 372 509 c 256
+ 372 563.522 323 595.5 262 595.5 c 256
+ 209.222 595.5 155.75 572.99 155.75 523 c 256
+ 155.75 483.925 198.901 466.689 216.5 464.25 c 257
+ 208.5 470.25 198 484 198 505 c 256
+ 198 540 229.354 565 265 565 c 256
+ 306 565 334 538 334 503 c 256
+ 334 464 299 438 241 438 c 256
+ 182 438 123 467 123 523 c 256
+EndSplineSet
+Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ya.reph
-Encoding: 343 -1 417
+Encoding: 351 -1 415
 GlifName: si_Y_a.reph
 Width: 636
 VWidth: 0
@@ -17447,23 +17393,58 @@ SplineSet
  377.75 471 342.75 445 284.75 445 c 256
  225.75 445 166.75 474 166.75 530 c 256
 EndSplineSet
-Refer: 471 3514 N 1 0 0 1 0 0 2
+Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Yu.post.reph
-Encoding: 350 -1 418
+Encoding: 357 -1 416
 GlifName: si_Y_u.post.reph
-Width: 0
+Width: 544
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
+SplineSet
+225.900390625 504 m 256
+ 225.900390625 483.853930918 244.128213061 467.546875 266 467.546875 c 256
+ 287.871786939 467.546875 306.099609375 483.853930918 306.099609375 504 c 256
+ 306.099609375 524.146069082 287.871786939 540.453125 266 540.453125 c 256
+ 244.128213061 540.453125 225.900390625 524.146069082 225.900390625 504 c 256
+123 523 m 256
+ 123 587 181.12 624 263 624 c 256
+ 340 624 404 581 404 510 c 256
+ 404 486 395.667 464.333 379 445 c 257
+ 343.25 445 l 257
+ 356.42 457.387 372 481.734 372 509 c 256
+ 372 563.522 323 595.5 262 595.5 c 256
+ 209.222 595.5 155.75 572.99 155.75 523 c 256
+ 155.75 483.925 198.901 466.689 216.5 464.25 c 257
+ 208.5 470.25 198 484 198 505 c 256
+ 198 540 229.354 565 265 565 c 256
+ 306 565 334 538 334 503 c 256
+ 334 464 299 438 241 438 c 256
+ 182 438 123 467 123 523 c 256
+25.5 -142.5 m 260
+ 25.5 -90.4912 71.793 -50.5 127 -50.5 c 260
+ 168.906 -50.5 206.25 -74.1416 221 -110 c 261
+ 188.25 -121.5 l 261
+ 181.426 -104.358 160 -81.75 127 -81.75 c 260
+ 90.296 -81.75 61 -109.716 61 -142.5 c 260
+ 61 -171.663 82.748 -192.5 152.5 -192.5 c 262
+ 439.75 -192.5 l 261
+ 439.75 128 l 261
+ 475 219 l 261
+ 475 -235 l 261
+ 131 -235 l 262
+ 51.457 -235 25.5 -186.092 25.5 -142.5 c 260
+EndSplineSet
+Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0020
-Encoding: 0 32 419
+Encoding: 0 32 417
 GlifName: space
 Width: 200
 VWidth: 0
@@ -17474,8 +17455,8 @@ Back
 Fore
 EndChar
 
-StartChar: uni0D82
-Encoding: 1 3458 420
+StartChar: anusvara
+Encoding: 2 3458 418
 GlifName: anusvara
 Width: 364
 VWidth: 0
@@ -17498,8 +17479,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D83
-Encoding: 2 3459 421
+StartChar: visarga
+Encoding: 3 3459 419
 GlifName: visarga
 Width: 248
 VWidth: 0
@@ -17532,8 +17513,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D85
-Encoding: 3 3461 422
+StartChar: si_A
+Encoding: 4 3461 420
 GlifName: si_A_
 Width: 573
 VWidth: 0
@@ -17584,8 +17565,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D86
-Encoding: 4 3462 423
+StartChar: si_Aa
+Encoding: 5 3462 421
 GlifName: si_A_a
 Width: 861
 VWidth: 0
@@ -17594,12 +17575,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 482 3535 N 1 0 0 1 540 0 2
-Refer: 422 3461 N 1 0 0 1 0 0 2
+Refer: 480 3535 N 1 0 0 1 540 0 2
+Refer: 420 3461 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0D87
-Encoding: 5 3463 424
+StartChar: si_Ae
+Encoding: 6 3463 422
 GlifName: si_A_e
 Width: 878
 VWidth: 0
@@ -17608,12 +17589,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 422 3461 N 1 0 0 1 0 0 2
-Refer: 483 3536 N 1 0 0 1 544 0.137451 2
+Refer: 420 3461 N 1 0 0 1 0 0 2
+Refer: 481 3536 N 1 0 0 1 544 0.137451 2
 EndChar
 
-StartChar: uni0D88
-Encoding: 6 3464 425
+StartChar: si_Aae
+Encoding: 7 3464 423
 GlifName: si_A_ae
 Width: 878
 VWidth: 0
@@ -17622,12 +17603,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 484 3537 N 1 0 0 1 541 0 2
-Refer: 422 3461 N 1 0 0 1 0 0 2
+Refer: 482 3537 N 1 0 0 1 541 0 2
+Refer: 420 3461 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0D89
-Encoding: 7 3465 426
+StartChar: si_I
+Encoding: 8 3465 424
 GlifName: si_I_
 Width: 593
 VWidth: 0
@@ -17673,8 +17654,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D8A
-Encoding: 8 3466 427
+StartChar: si_Ii
+Encoding: 9 3466 425
 GlifName: si_I_i
 Width: 528
 VWidth: 0
@@ -17724,8 +17705,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D8B
-Encoding: 9 3467 428
+StartChar: si_U
+Encoding: 10 3467 426
 GlifName: si_U_
 Width: 651
 VWidth: 0
@@ -17755,8 +17736,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D8C
-Encoding: 10 3468 429
+StartChar: si_Uu
+Encoding: 11 3468 427
 GlifName: si_U_u
 Width: 991
 VWidth: 0
@@ -17765,12 +17746,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 496 3551 N 1 0 0 1 550 0 2
-Refer: 428 3467 N 1 0 0 1 0 0 2
+Refer: 494 3551 N 1 0 0 1 550 0 2
+Refer: 426 3467 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0D8D
-Encoding: 11 3469 430
+StartChar: si_vocalicR
+Encoding: 12 3469 428
 GlifName: si_vocalicR_
 Width: 894
 VWidth: 0
@@ -17818,11 +17799,11 @@ SplineSet
  516.5 370.602 486.478 384.75 450 384.75 c 256
  398.368 384.75 368.644 356.612 365 310 c 257
 EndSplineSet
-Refer: 489 3544 N 1 0 0 1 583 0 2
+Refer: 487 3544 N 1 0 0 1 583 0 2
 EndChar
 
-StartChar: uni0D8E
-Encoding: 12 3470 431
+StartChar: si_vocalicRr
+Encoding: 13 3470 429
 GlifName: si_vocalicR_r
 Width: 1140
 VWidth: 0
@@ -17872,8 +17853,8 @@ SplineSet
  516.5 370.602 486.478 384.75 450 384.75 c 256
  398 384.75 368.589 355.908 365 310 c 257
 EndSplineSet
-Refer: 489 3544 N 1 0 0 1 835 0 2
-Refer: 489 3544 N 1 0 0 1 583 0 2
+Refer: 487 3544 N 1 0 0 1 835 0 2
+Refer: 487 3544 N 1 0 0 1 583 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -17984,8 +17965,8 @@ I36
 sass."
 EndChar
 
-StartChar: uni0D8F
-Encoding: 13 3471 432
+StartChar: si_vocalicL
+Encoding: 14 3471 430
 GlifName: si_vocalicL_
 Width: 820
 VWidth: 0
@@ -18065,8 +18046,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D90
-Encoding: 14 3472 433
+StartChar: si_vocalicLL
+Encoding: 15 3472 431
 GlifName: si_vocalicL_L_
 Width: 1203
 VWidth: 0
@@ -18075,12 +18056,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 496 3551 N 1 0 0 1 764 0 2
-Refer: 432 3471 N 1 0 0 1 0 0 2
+Refer: 494 3551 N 1 0 0 1 764 0 2
+Refer: 430 3471 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0D91
-Encoding: 15 3473 434
+StartChar: si_E
+Encoding: 16 3473 432
 GlifName: si_E_
 Width: 595
 VWidth: 0
@@ -18130,8 +18111,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D92
-Encoding: 16 3474 435
+StartChar: si_Ee
+Encoding: 17 3474 433
 GlifName: si_E_e
 Width: 595
 VWidth: 0
@@ -18193,8 +18174,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D93
-Encoding: 17 3475 436
+StartChar: si_Ai
+Encoding: 18 3475 434
 GlifName: si_A_i
 Width: 1178
 VWidth: 0
@@ -18203,12 +18184,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 490 3545 N 1 0 0 1 0 0 2
-Refer: 434 3473 N 1 0 0 1 585 0 2
+Refer: 488 3545 N 1 0 0 1 0 0 2
+Refer: 432 3473 N 1 0 0 1 585 0 2
 EndChar
 
-StartChar: uni0D94
-Encoding: 18 3476 437
+StartChar: si_Os
+Encoding: 19 3476 435
 GlifName: si_O_s
 Width: 636
 VWidth: 0
@@ -18259,8 +18240,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D95
-Encoding: 19 3477 438
+StartChar: si_Oo
+Encoding: 20 3477 436
 GlifName: si_O_o
 Width: 636
 VWidth: 0
@@ -18325,8 +18306,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D96
-Encoding: 20 3478 439
+StartChar: si_Au
+Encoding: 21 3478 437
 GlifName: si_A_u
 Width: 1034
 VWidth: 0
@@ -18335,12 +18316,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 437 3476 N 1 0 0 1 0 0 2
-Refer: 496 3551 N 1 0 0 1 592 0 2
+Refer: 435 3476 N 1 0 0 1 0 0 2
+Refer: 494 3551 N 1 0 0 1 592 0 2
 EndChar
 
-StartChar: uni0D9A
-Encoding: 21 3482 440
+StartChar: si_Ka
+Encoding: 22 3482 438
 GlifName: si_K_a
 Width: 746
 VWidth: 0
@@ -18395,8 +18376,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D9B
-Encoding: 22 3483 441
+StartChar: si_Kha
+Encoding: 23 3483 439
 GlifName: si_K_ha
 Width: 630
 VWidth: 0
@@ -18439,8 +18420,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D9C
-Encoding: 23 3484 442
+StartChar: si_Ga
+Encoding: 24 3484 440
 GlifName: si_G_a
 Width: 636
 VWidth: 0
@@ -18478,8 +18459,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D9D
-Encoding: 24 3485 443
+StartChar: si_Gha
+Encoding: 25 3485 441
 GlifName: si_G_ha
 Width: 677
 VWidth: 0
@@ -18543,8 +18524,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D9E
-Encoding: 25 3486 444
+StartChar: si_Nga
+Encoding: 26 3486 442
 GlifName: si_N_ga
 Width: 617
 VWidth: 0
@@ -18592,8 +18573,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0D9F
-Encoding: 26 3487 445
+StartChar: si_Nnga
+Encoding: 27 3487 443
 GlifName: si_N_nga
 Width: 749
 VWidth: 0
@@ -18639,8 +18620,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA0
-Encoding: 27 3488 446
+StartChar: si_Ca
+Encoding: 28 3488 444
 GlifName: si_C_a
 Width: 597
 VWidth: 0
@@ -18684,8 +18665,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA1
-Encoding: 28 3489 447
+StartChar: si_Cha
+Encoding: 29 3489 445
 GlifName: si_C_ha
 Width: 598
 VWidth: 0
@@ -18735,8 +18716,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA2
-Encoding: 29 3490 448
+StartChar: si_Ja
+Encoding: 30 3490 446
 GlifName: si_J_a
 Width: 598
 VWidth: 0
@@ -18785,8 +18766,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA3
-Encoding: 30 3491 449
+StartChar: si_Jha
+Encoding: 31 3491 447
 GlifName: si_J_ha
 Width: 1087
 VWidth: 0
@@ -18859,8 +18840,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA4
-Encoding: 31 3492 450
+StartChar: si_Nya
+Encoding: 32 3492 448
 GlifName: si_N_ya
 Width: 1024
 VWidth: 0
@@ -18943,8 +18924,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA5
-Encoding: 32 3493 451
+StartChar: si_Jnya
+Encoding: 33 3493 449
 GlifName: si_J_nya
 Width: 842
 VWidth: 0
@@ -19008,8 +18989,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA6
-Encoding: 33 3494 452
+StartChar: si_Ndja
+Encoding: 34 3494 450
 GlifName: si_N_dja
 Width: 699
 VWidth: 0
@@ -19066,8 +19047,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA7
-Encoding: 34 3495 453
+StartChar: si_Tta
+Encoding: 35 3495 451
 GlifName: si_T_ta
 Width: 603
 VWidth: 0
@@ -19095,8 +19076,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA8
-Encoding: 35 3496 454
+StartChar: si_Ttha
+Encoding: 36 3496 452
 GlifName: si_T_tha
 Width: 614
 VWidth: 0
@@ -19137,8 +19118,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DA9
-Encoding: 36 3497 455
+StartChar: si_Dda
+Encoding: 37 3497 453
 GlifName: si_D_da
 Width: 647
 VWidth: 0
@@ -19180,8 +19161,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DAA
-Encoding: 37 3498 456
+StartChar: si_Ddha
+Encoding: 38 3498 454
 GlifName: si_D_dha
 Width: 647
 VWidth: 0
@@ -19228,8 +19209,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DAB
-Encoding: 38 3499 457
+StartChar: si_Nna
+Encoding: 39 3499 455
 GlifName: si_N_na
 Width: 963
 VWidth: 0
@@ -19295,8 +19276,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DAC
-Encoding: 39 3500 458
+StartChar: si_Nndda
+Encoding: 40 3500 456
 GlifName: si_N_ndda
 Width: 731
 VWidth: 0
@@ -19346,8 +19327,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DAD
-Encoding: 40 3501 459
+StartChar: si_Ta
+Encoding: 41 3501 457
 GlifName: si_T_a
 Width: 704
 VWidth: 0
@@ -19392,8 +19373,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DAE
-Encoding: 41 3502 460
+StartChar: si_Tha
+Encoding: 42 3502 458
 GlifName: si_T_ha
 Width: 614
 VWidth: 0
@@ -19425,8 +19406,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DAF
-Encoding: 42 3503 461
+StartChar: si_Da
+Encoding: 43 3503 459
 GlifName: si_D_a
 Width: 456
 VWidth: 0
@@ -19461,8 +19442,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB0
-Encoding: 43 3504 462
+StartChar: si_Dha
+Encoding: 44 3504 460
 GlifName: si_D_ha
 Width: 638
 VWidth: 0
@@ -19497,8 +19478,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB1
-Encoding: 44 3505 463
+StartChar: si_Na
+Encoding: 45 3505 461
 GlifName: si_N_a
 Width: 806
 VWidth: 0
@@ -19540,8 +19521,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB3
-Encoding: 45 3507 464
+StartChar: si_Nda
+Encoding: 46 3507 462
 GlifName: si_N_da
 Width: 538
 VWidth: 0
@@ -19584,8 +19565,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB4
-Encoding: 46 3508 465
+StartChar: si_Pa
+Encoding: 47 3508 463
 GlifName: si_P_a
 Width: 616
 VWidth: 0
@@ -19629,8 +19610,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB5
-Encoding: 47 3509 466
+StartChar: si_Pha
+Encoding: 48 3509 464
 GlifName: si_P_ha
 Width: 583
 VWidth: 0
@@ -19671,8 +19652,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB6
-Encoding: 48 3510 467
+StartChar: si_Ba
+Encoding: 49 3510 465
 GlifName: si_B_a
 Width: 619
 VWidth: 0
@@ -19711,8 +19692,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB7
-Encoding: 49 3511 468
+StartChar: si_Bha
+Encoding: 50 3511 466
 GlifName: si_B_ha
 Width: 670
 VWidth: 0
@@ -19760,8 +19741,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB8
-Encoding: 50 3512 469
+StartChar: si_Ma
+Encoding: 51 3512 467
 GlifName: si_M_a
 Width: 635
 VWidth: 0
@@ -19805,8 +19786,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DB9
-Encoding: 51 3513 470
+StartChar: si_Mba
+Encoding: 52 3513 468
 GlifName: si_M_ba
 Width: 636
 VWidth: 0
@@ -19864,8 +19845,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DBA
-Encoding: 52 3514 471
+StartChar: si_Ya
+Encoding: 53 3514 469
 GlifName: si_Y_a
 Width: 636
 VWidth: 0
@@ -19908,8 +19889,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DBB
-Encoding: 53 3515 472
+StartChar: si_Ra
+Encoding: 54 3515 470
 GlifName: si_R_a
 Width: 528
 VWidth: 0
@@ -19938,8 +19919,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DBD
-Encoding: 54 3517 473
+StartChar: si_La
+Encoding: 55 3517 471
 GlifName: si_L_a
 Width: 670
 VWidth: 0
@@ -19974,8 +19955,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC0
-Encoding: 55 3520 474
+StartChar: si_Va
+Encoding: 56 3520 472
 GlifName: si_V_a
 Width: 597
 VWidth: 0
@@ -20010,8 +19991,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC1
-Encoding: 56 3521 475
+StartChar: si_Sha
+Encoding: 57 3521 473
 GlifName: si_S_ha
 Width: 631
 VWidth: 0
@@ -20060,8 +20041,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC2
-Encoding: 57 3522 476
+StartChar: si_Ssa
+Encoding: 58 3522 474
 GlifName: si_S_sa
 Width: 622
 VWidth: 0
@@ -20119,8 +20100,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC3
-Encoding: 58 3523 477
+StartChar: si_Sa
+Encoding: 59 3523 475
 GlifName: si_S_a
 Width: 677
 VWidth: 0
@@ -20177,8 +20158,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC4
-Encoding: 59 3524 478
+StartChar: si_Ha
+Encoding: 60 3524 476
 GlifName: si_H_a
 Width: 653
 VWidth: 0
@@ -20220,8 +20201,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC5
-Encoding: 60 3525 479
+StartChar: si_Lla
+Encoding: 61 3525 477
 GlifName: si_L_la
 Width: 636
 VWidth: 0
@@ -20258,8 +20239,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DC6
-Encoding: 61 3526 480
+StartChar: si_Fa
+Encoding: 62 3526 478
 GlifName: si_F_a
 Width: 607
 VWidth: 0
@@ -20294,8 +20275,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DCA
-Encoding: 62 3530 481
+StartChar: si_Halant
+Encoding: 63 3530 479
 GlifName: si_H_alant
 Width: 2
 VWidth: 0
@@ -20320,8 +20301,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DCF
-Encoding: 63 3535 482
+StartChar: si_MatraAa
+Encoding: 64 3535 480
 GlifName: si_M_atraA_a
 Width: 312
 VWidth: 0
@@ -20349,8 +20330,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DD0
-Encoding: 64 3536 483
+StartChar: si_MatraAe
+Encoding: 65 3536 481
 GlifName: si_M_atraA_e
 Width: 334
 VWidth: 0
@@ -20375,8 +20356,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DD1
-Encoding: 65 3537 484
+StartChar: si_MatraAae
+Encoding: 66 3537 482
 GlifName: si_M_atraA_ae
 Width: 336
 VWidth: 0
@@ -20406,8 +20387,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DD2
-Encoding: 66 3538 485
+StartChar: si_MatraI
+Encoding: 67 3538 483
 GlifName: si_M_atraI_
 Width: 2
 VWidth: 0
@@ -20431,8 +20412,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DD3
-Encoding: 67 3539 486
+StartChar: si_MatraIi
+Encoding: 68 3539 484
 GlifName: si_M_atraI_i
 Width: 2
 VWidth: 0
@@ -20461,8 +20442,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DD4
-Encoding: 68 3540 487
+StartChar: si_MatraU
+Encoding: 69 3540 485
 GlifName: si_M_atraU_
 Width: 2
 VWidth: 0
@@ -20488,8 +20469,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DD6
-Encoding: 69 3542 488
+StartChar: si_MatraUu
+Encoding: 70 3542 486
 GlifName: si_M_atraU_u
 Width: 2
 VWidth: 0
@@ -20518,8 +20499,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DD8
-Encoding: 70 3544 489
+StartChar: si_MatraR
+Encoding: 71 3544 487
 GlifName: si_M_atraR_
 Width: 313
 VWidth: 0
@@ -20557,8 +20538,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DD9
-Encoding: 71 3545 490
+StartChar: si_MatraE
+Encoding: 72 3545 488
 GlifName: si_M_atraE_
 Width: 603
 VWidth: 0
@@ -20592,8 +20573,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DDA
-Encoding: 72 3546 491
+StartChar: si_MatraEe
+Encoding: 73 3546 489
 GlifName: si_M_atraE_e
 Width: 923
 VWidth: 0
@@ -20602,12 +20583,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 481 3530 N 1 0 0 1 890 0 2
-Refer: 490 3545 N 1 0 0 1 0 0 2
+Refer: 479 3530 N 1 0 0 1 890 0 2
+Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0DDB
-Encoding: 73 3547 492
+StartChar: si_MatraAi
+Encoding: 74 3547 490
 GlifName: si_M_atraA_i
 Width: 1203
 VWidth: 0
@@ -20616,12 +20597,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 490 3545 N 1 0 0 1 580 0 2
-Refer: 490 3545 N 1 0 0 1 0 0 2
+Refer: 488 3545 N 1 0 0 1 580 0 2
+Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0DDC
-Encoding: 74 3548 493
+StartChar: si_MatraO
+Encoding: 75 3548 491
 GlifName: si_M_atraO_
 Width: 928
 VWidth: 0
@@ -20630,12 +20611,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 482 3535 N 1 0 0 1 620 0 2
-Refer: 490 3545 N 1 0 0 1 0 0 2
+Refer: 480 3535 N 1 0 0 1 620 0 2
+Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0DDD
-Encoding: 75 3549 494
+StartChar: si_MatraOo
+Encoding: 76 3549 492
 GlifName: si_M_atraO_o
 Width: 1013
 VWidth: 0
@@ -20644,13 +20625,13 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 481 3530 N 1 0 0 1 980 0 2
-Refer: 482 3535 N 1 0 0 1 680 0 2
-Refer: 490 3545 N 1 0 0 1 0 0 2
+Refer: 479 3530 N 1 0 0 1 980 0 2
+Refer: 480 3535 N 1 0 0 1 680 0 2
+Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0DDE
-Encoding: 76 3550 495
+StartChar: si_MatraAu
+Encoding: 77 3550 493
 GlifName: si_M_atraA_u
 Width: 1060
 VWidth: 0
@@ -20659,12 +20640,12 @@ Flags: W
 LayerCount: 2
 Back
 Fore
-Refer: 496 3551 N 1 0 0 1 640 0 2
-Refer: 490 3545 N 1 0 0 1 0 0 2
+Refer: 494 3551 N 1 0 0 1 640 0 2
+Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0DDF
-Encoding: 77 3551 496
+StartChar: si_MatraLs
+Encoding: 78 3551 494
 GlifName: si_M_atraL_s
 Width: 441
 VWidth: 0
@@ -20700,8 +20681,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DF2
-Encoding: 79 3570 497
+StartChar: si_MatraRr
+Encoding: 80 3570 495
 GlifName: si_M_atraR_r
 Width: 571
 VWidth: 0
@@ -20712,8 +20693,8 @@ VStem: 33 30 202 45 203 61 292 30 461 45 462 61
 LayerCount: 2
 Back
 Fore
-Refer: 489 3544 N 1 0 0 1 253 0 2
-Refer: 489 3544 N 1 0 0 1 0 0 2
+Refer: 487 3544 N 1 0 0 1 253 0 2
+Refer: 487 3544 N 1 0 0 1 0 0 2
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -20779,8 +20760,8 @@ I35
 sass."
 EndChar
 
-StartChar: uni0DF3
-Encoding: 78 3571 498
+StartChar: si_MatraLl
+Encoding: 79 3571 496
 GlifName: si_M_atraL_l
 Width: 441
 VWidth: 0
@@ -20816,8 +20797,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0DF4
-Encoding: 80 3572 499
+StartChar: si_kundaliya
+Encoding: 81 3572 497
 GlifName: si_kundaliya
 Width: 1742
 VWidth: 0
@@ -20877,8 +20858,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni25CC
-Encoding: 83 9676 500
+StartChar: dottedcircle
+Encoding: 84 9676 498
 GlifName: dottedcircle
 Width: 558
 VWidth: 0
@@ -20971,8 +20952,149 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: si_JnyAa.halant
+Encoding: 186 -1 499
+Width: 974
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+808.25 -67 m 257
+ 808.25 681 l 257
+ 862.25 639 959.75 634 959.75 542 c 256
+ 959.75 498 924.941 468 881.75 468 c 256
+ 867.083 468 852.083 471.333 836.75 478 c 257
+ 836.75 -73 l 257
+ 808.25 -67 l 257
+836.855 504.273 m 257
+ 845.35 499.699 856.132 497.413 869.198 497.413 c 256
+ 901.204 497.413 914.75 521.915 914.75 545.438 c 256
+ 914.75 586.602 882.92 606.203 836.855 636.587 c 257
+ 836.855 504.273 l 257
+674 426 m 257
+ 553 408.5 l 257
+ 547.395 408.655 545.467 408.75 539.75 408.75 c 256
+ 442.528 408.75 370.746 347.596 349.75 240.75 c 257
+ 357.75 244.75 363.333 245.75 370 245.75 c 256
+ 418 245.75 452 202 452 136 c 256
+ 452 56 395 -2 308 -2 c 256
+ 197 -2 134 96 134 207 c 256
+ 134 330 209 431.5 320 431.5 c 256
+ 323.953 431.5 328.954 431.25 333 431 c 257
+ 333 405.5 l 257
+ 329.645 405.784 325.311 405.95 322 405.95 c 256
+ 236 405.95 187.75 327.458 187.75 258.25 c 256
+ 187.75 202.544 227.27 140 308 140 c 256
+ 367 140 394 160.486 394 190.5 c 256
+ 394 201.482 388.872 219.75 367 219.75 c 256
+ 359.667 219.75 350.75 216.75 345.75 212.75 c 257
+ 344.75 206.75 343.5 197.333 343.5 194 c 257
+ 314.5 194 l 257
+ 328.178 354.298 406.221 438 560 438 c 256
+ 591 438 640.988 436.425 674 426 c 257
+326 431.25 m 257
+ 305 420.25 253.84 413.676 238.25 405.5 c 257
+ 135.583 405.5 59 347.259 59 218 c 256
+ 59 137.333 86 78 135 34 c 257
+ 135 0 l 257
+ 68.5828 33.2086 27 120.07 27 221 c 256
+ 27 352.7 99.7562 433 239 433 c 256
+ 248 433 299.296 432.309 326 431.25 c 257
+421.5 169 m 260
+ 421.5 274 494.5 317 613.5 317 c 258
+ 730.75 317 l 257
+ 721.026 363.186 691.015 390 658.5 390 c 256
+ 639.5 390 625.049 378.911 616.5 361 c 256
+ 606 339 589.079 333 569.25 333 c 256
+ 544.25 333 526.5 349.75 526.5 370.75 c 256
+ 526.5 407.033 567.5 433 622.5 433 c 256
+ 708.239 433 752.24 388.542 769.5 291 c 257
+ 707.75 291 l 258
+ 619.75 291 574.75 257 574.75 173 c 256
+ 574.75 89 626.489 44 676 44 c 256
+ 706.349 44 731.25 48.25 771.25 94.25 c 257
+ 803 75 l 257
+ 783 58.333 766.617 41.1865 751.25 32.75 c 257
+ 754.583 33.417 752.75 33.5 756.75 33.5 c 256
+ 805.021 33.5 837.5 -17.8018 837.5 -87 c 256
+ 837.5 -175 800.155 -212.5 732.25 -212.5 c 256
+ 683.095 -212.5 665.5 -187.083 665.5 -166 c 257
+ 700 -166 l 257
+ 700.004 -173.44 706.647 -176 714.5 -176 c 256
+ 738.949 -176 750.5 -151.479 750.5 -90 c 256
+ 750.5 -45.0967 737.158 -17 718.5 -17 c 256
+ 700.832 -17 694.818 -29.2295 694.75 -45 c 257
+ 662 -45 l 257
+ 662.047 -29.335 669.675 -8.01855 680.5 2 c 257
+ 668.95 0.592773 651.833 -1 624.5 -1 c 256
+ 493.5 -1 421.5 69 421.5 169 c 260
+EndSplineSet
+EndChar
+
+StartChar: si_NdAa.halant
+Encoding: 293 -1 500
+Width: 657
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+114.75 169 m 256
+ 114.75 274 187.75 317 306.75 317 c 258
+ 424 317 l 257
+ 414.276 363.186 384.265 390 351.75 390 c 256
+ 332.75 390 318.299 378.911 309.75 361 c 256
+ 299.25 339 282.329 333 262.5 333 c 256
+ 237.5 333 219.75 349.75 219.75 370.75 c 256
+ 219.75 407.033 260.75 433 315.75 433 c 256
+ 401.489 433 445.49 388.542 462.75 291 c 257
+ 401 291 l 258
+ 313 291 268 257 268 173 c 256
+ 268 89 319.739 44 369.25 44 c 256
+ 399.599 44 424.5 48.25 464.5 94.25 c 257
+ 496.25 75 l 257
+ 476.25 58.333 459.867 41.1865 444.5 32.75 c 257
+ 447.833 33.417 446 33.5 450 33.5 c 256
+ 498.271 33.5 530.75 -17.8018 530.75 -87 c 256
+ 530.75 -175 493.405 -212.5 425.5 -212.5 c 256
+ 376.345 -212.5 358.75 -187.083 358.75 -166 c 257
+ 393.25 -166 l 257
+ 393.254 -173.44 399.897 -176 407.75 -176 c 256
+ 432.199 -176 443.75 -151.479 443.75 -90 c 256
+ 443.75 -45.0967 430.408 -17 411.75 -17 c 256
+ 394.082 -17 388.068 -29.2295 388 -45 c 257
+ 355.25 -45 l 257
+ 355.297 -29.335 362.925 -8.01855 373.75 2 c 257
+ 362.2 0.592773 345.083 -1 317.75 -1 c 256
+ 186.75 -1 114.75 69 114.75 169 c 256
+502 -67 m 257
+ 502 681 l 257
+ 556 639 653.5 634 653.5 542 c 256
+ 653.5 498 618.691 468 575.5 468 c 256
+ 560.833 468 545.833 471.333 530.5 478 c 257
+ 530.5 -73 l 257
+ 502 -67 l 257
+530.605 504.273 m 257
+ 539.1 499.699 549.882 497.413 562.948 497.413 c 256
+ 594.954 497.413 608.5 521.915 608.5 545.438 c 256
+ 608.5 586.602 576.67 606.203 530.605 636.587 c 257
+ 530.605 504.273 l 257
+27 221 m 260
+ 27 337.213 97.5107 436.25 265.5 436.25 c 260
+ 291.563 436.25 320.717 435.999 354 429.5 c 261
+ 333 418.5 265.037 411.052 256 405.75 c 261
+ 177.193 405.75 59 370.057 59 218 c 260
+ 59 137.333 86 78 135 34 c 261
+ 135 0 l 261
+ 68.5828 33.2086 27 120.07 27 221 c 260
+EndSplineSet
+EndChar
+
 StartChar: si_NyAa.halant
-Encoding: 499 0 501
+Encoding: 174 -1 501
 Width: 1151
 VWidth: 0
 Flags: HW
@@ -20980,21 +21102,7 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-989.5 -67 m 257
- 989.5 681 l 257
- 1043.5 639 1141 634 1141 542 c 256
- 1141 498 1106.19 468 1063 468 c 256
- 1048.33 468 1033.33 471.333 1018 478 c 257
- 1018 -73 l 257
- 989.5 -67 l 257
-1018.11 504.273 m 257
- 1026.6 499.699 1037.38 497.413 1050.45 497.413 c 256
- 1082.45 497.413 1096 521.915 1096 545.438 c 256
- 1096 586.602 1064.17 606.203 1018.11 636.587 c 257
- 1018.11 504.273 l 257
-861.75 2 m 257
- 850.2 0.592773 833.083 -1 805.75 -1 c 256
- 674.75 -1 602.75 69 602.75 169 c 256
+602.75 169 m 260
  602.75 274 675.75 317 794.75 317 c 258
  912 317 l 257
  902.276 363.186 850.515 390 818 390 c 256
@@ -21020,7 +21128,27 @@ SplineSet
  882.082 -17 876.068 -29.2295 876 -45 c 257
  843.25 -45 l 257
  843.297 -29.335 850.925 -8.01855 861.75 2 c 257
-238 323 m 256
+ 850.2 0.592773 833.083 -1 805.75 -1 c 256
+ 674.75 -1 602.75 69 602.75 169 c 260
+989.5 -67 m 257
+ 989.5 681 l 257
+ 1043.5 639 1141 634 1141 542 c 256
+ 1141 498 1106.19 468 1063 468 c 256
+ 1048.33 468 1033.33 471.333 1018 478 c 257
+ 1018 -73 l 257
+ 989.5 -67 l 257
+1018.11 504.273 m 257
+ 1026.6 499.699 1037.38 497.413 1050.45 497.413 c 256
+ 1082.45 497.413 1096 521.915 1096 545.438 c 256
+ 1096 586.602 1064.17 606.203 1018.11 636.587 c 257
+ 1018.11 504.273 l 257
+146 22 m 257
+ 153.696 91.2695 199.452 184.165 234 232 c 256
+ 260 268 273 280 296 304 c 257
+ 305 314 316.25 331 316.25 352 c 256
+ 316.25 371 307 386 283 386 c 256
+ 269 386 253.438 378.533 249 363 c 256
+ 243 342 247 342 238 323 c 256
  229.732 305.546 212 297 197 297 c 256
  160 297 154 328 154 340 c 256
  154 394.099 204.363 433 261 433 c 256
@@ -21041,12 +21169,6 @@ SplineSet
  242 -1 245 73 212 73 c 256
  189.675 73 177 51 174 11 c 257
  146 22 l 257
- 153.696 91.2695 199.452 184.165 234 232 c 256
- 260 268 273 280 296 304 c 257
- 305 314 316.25 331 316.25 352 c 256
- 316.25 371 307 386 283 386 c 256
- 269 386 253.438 378.533 249 363 c 256
- 243 342 247 342 238 323 c 256
 305 268 m 257
  287.667 253.333 271.522 234.996 256 212 c 256
  229 172 226 163 216 143 c 257
@@ -21060,14 +21182,14 @@ SplineSet
  543 140 568 169 568 204 c 256
  568 246 527 287 426 287 c 256
  369.333 287 329.667 280 305 268 c 257
-293 428.25 m 257
+27 221 m 256
+ 27 352.7 99.7559 434.25 239 434.25 c 256
+ 248 434.25 271 434.25 293 428.25 c 257
  272 417.25 195 404.5 178 398.5 c 257
  106 381.5 59 319.268 59 218 c 256
  59 137.333 86 78 135 34 c 257
  135 0 l 257
  68.5828 33.2086 27 120.07 27 221 c 256
- 27 352.7 99.7559 434.25 239 434.25 c 256
- 248 434.25 271 434.25 293 428.25 c 257
 EndSplineSet
 EndChar
 EndChars

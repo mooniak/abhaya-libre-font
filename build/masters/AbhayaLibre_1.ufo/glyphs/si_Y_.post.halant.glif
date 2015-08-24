@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_Y.post.halant" format="1">
-  <advance width="0"/>
+  <advance width="544"/>
   <outline>
+    <contour>
+      <point x="347" y="416" type="line"/>
+      <point x="347" y="681" type="line"/>
+      <point x="401" y="639"/>
+      <point x="498" y="634"/>
+      <point x="498" y="542" type="curve" smooth="yes"/>
+      <point x="498" y="498"/>
+      <point x="464" y="468"/>
+      <point x="420" y="468" type="curve" smooth="yes"/>
+      <point x="406" y="468"/>
+      <point x="391" y="471"/>
+      <point x="376" y="478" type="curve"/>
+      <point x="376" y="416" type="line"/>
+    </contour>
+    <contour>
+      <point x="376" y="504" type="line"/>
+      <point x="384" y="500"/>
+      <point x="395" y="497"/>
+      <point x="408" y="497" type="curve" smooth="yes"/>
+      <point x="440" y="497"/>
+      <point x="454" y="522"/>
+      <point x="454" y="545" type="curve" smooth="yes"/>
+      <point x="454" y="587"/>
+      <point x="422" y="606"/>
+      <point x="376" y="637" type="curve"/>
+    </contour>
+    <component base="si_Ya.post"/>
   </outline>
 </glyph>

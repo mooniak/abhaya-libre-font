@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph format="1" name="zwnj">
+  <advance width="0" />
+  <unicode hex="200C" />
+  <outline>
+    <contour>
+      <point type="line" x="40" y="-11" />
+      <point type="line" x="40" y="781" />
+      <point type="line" x="-40" y="781" />
+      <point type="line" x="-40" y="-11" />
+    </contour>
+  </outline>
+</glyph>

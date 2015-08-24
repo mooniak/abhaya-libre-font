@@ -12,7 +12,7 @@ UFOIG_ARGS = [
     #'-kern',
     #'-mark',
     #'-hint',
-    #'-flat',
+    '-flat',
     #'-mkmk',
     #'-clas',
     #'-indi',

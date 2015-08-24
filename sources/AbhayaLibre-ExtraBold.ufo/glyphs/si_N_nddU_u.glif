@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_NnddUu" format="1">
+  <advance width="731"/>
+  <outline>
+    <contour>
+      <point x="137.358" y="-138" type="curve" smooth="yes"/>
+      <point x="137.358" y="-80"/>
+      <point x="186.358" y="-40"/>
+      <point x="239.358" y="-40" type="curve" smooth="yes"/>
+      <point x="281.358" y="-40"/>
+      <point x="313.691" y="-55"/>
+      <point x="336.358" y="-91" type="curve"/>
+      <point x="303.358" y="-102" type="line"/>
+      <point x="292.042" y="-84.6992"/>
+      <point x="273.358" y="-70"/>
+      <point x="244.358" y="-70" type="curve" smooth="yes"/>
+      <point x="205.358" y="-70"/>
+      <point x="180.358" y="-95.0762"/>
+      <point x="180.358" y="-120" type="curve" smooth="yes"/>
+      <point x="180.358" y="-151.995"/>
+      <point x="209.174" y="-167"/>
+      <point x="243.358" y="-167" type="curve" smooth="yes"/>
+      <point x="319.573" y="-167"/>
+      <point x="405.686" y="-114.5"/>
+      <point x="513.358" y="-114.5" type="curve" smooth="yes"/>
+      <point x="564.44" y="-114.5"/>
+      <point x="610.358" y="-133.75"/>
+      <point x="637.358" y="-165.75" type="curve"/>
+      <point x="637.358" y="152" type="line"/>
+      <point x="672.358" y="212" type="line"/>
+      <point x="672.358" y="-231" type="line"/>
+      <point x="646.858" y="-231" type="line"/>
+      <point x="631.858" y="-195"/>
+      <point x="586.308" y="-146.25"/>
+      <point x="523.358" y="-146.25" type="curve" smooth="yes"/>
+      <point x="432.358" y="-146.25"/>
+      <point x="346.358" y="-237"/>
+      <point x="248.358" y="-237" type="curve" smooth="yes"/>
+      <point x="193.358" y="-237"/>
+      <point x="137.358" y="-206"/>
+    </contour>
+    <component base="si_Nndda"/>
+  </outline>
+</glyph>
