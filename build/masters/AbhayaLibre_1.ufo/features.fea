@@ -1,88 +1,17 @@
 # Prefix: Prefix
 languagesystem DFLT dflt;
 # GSUB
-lookup AbhayaLibreLatinRegularsupsSupe {
-lookupflag 0;
-sub \one by \onesuperior ;
-sub \three by \threesuperior ;
-sub \two by \twosuperior ;
-} AbhayaLibreLatinRegularsupsSupe;
-lookup AbhayaLibreLatinRegularfracDiag {
-lookupflag 0;
-sub \one \slash \two  by \onehalf;
-sub \one \slash \four  by \onequarter;
-sub \three \slash \four  by \threequarters;
-} AbhayaLibreLatinRegularfracDiag;
 lookup AbhayaLibreLatinRegularordnOrdi {
 lookupflag 0;
-sub [ \zero \one \two \three \four \five \six \seven \eight \nine  ] [ \A \a  ]'  by [ \ordfeminine \ordfeminine  ];
-sub [ \zero \one \two \three \four \five \six \seven \eight \nine  ] [ \O \o  ]'  by [ \ordmasculine \ordmasculine  ];
+sub [ \uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038
+\uni0039  ] [ \uni0041 \uni0061  ]'  by [ NULL NULL  ];
+sub [ \uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038
+\uni0039  ] [ \uni004F \uni006F  ]'  by [ NULL NULL  ];
 } AbhayaLibreLatinRegularordnOrdi;
-lookup AbhayaLibreLatinRegularpnumProp {
-lookupflag 0;
-sub \eight.tf by \eight ;
-sub \five.tf by \five ;
-sub \four.tf by \four ;
-sub \nine.tf by \nine ;
-sub \one.tf by \one ;
-sub \seven.tf by \seven ;
-sub \six.tf by \six ;
-sub \three.tf by \three ;
-sub \two.tf by \two ;
-sub \zero.tf by \zero ;
-} AbhayaLibreLatinRegularpnumProp;
-lookup AbhayaLibreLatinRegulartnumTabu {
-lookupflag 0;
-sub \eight by \eight.tf ;
-sub \five by \five.tf ;
-sub \four by \four.tf ;
-sub \nine by \nine.tf ;
-sub \one by \one.tf ;
-sub \seven by \seven.tf ;
-sub \six by \six.tf ;
-sub \three by \three.tf ;
-sub \two by \two.tf ;
-sub \zero by \zero.tf ;
-} AbhayaLibreLatinRegulartnumTabu;
-lookup AbhayaLibreLatinRegularligaStan {
-lookupflag 0;
-sub \f \i  by \fi;
-sub \f \l  by \fl;
-} AbhayaLibreLatinRegularligaStan;
-
-feature sups {
-script DFLT;
-     language dflt ;
-      lookup AbhayaLibreLatinRegularsupsSupe;
-} sups;
-
-feature frac {
-script DFLT;
-     language dflt ;
-      lookup AbhayaLibreLatinRegularfracDiag;
-} frac;
 
 feature ordn {
 script DFLT;
      language dflt ;
       lookup AbhayaLibreLatinRegularordnOrdi;
 } ordn;
-
-feature pnum {
-script DFLT;
-     language dflt ;
-      lookup AbhayaLibreLatinRegularpnumProp;
-} pnum;
-
-feature tnum {
-script DFLT;
-     language dflt ;
-      lookup AbhayaLibreLatinRegulartnumTabu;
-} tnum;
-
-feature liga {
-script DFLT;
-     language dflt ;
-      lookup AbhayaLibreLatinRegularligaStan;
-} liga;
 

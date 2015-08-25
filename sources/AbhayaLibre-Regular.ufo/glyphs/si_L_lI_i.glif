@@ -17,15 +17,15 @@
       <point x="413" y="545"/>
     </contour>
     <contour>
-      <point x="87" y="517" type="curve" smooth="yes"/>
-      <point x="87" y="626"/>
-      <point x="203" y="671"/>
-      <point x="330" y="671" type="curve" smooth="yes"/>
-      <point x="447" y="671"/>
-      <point x="580" y="627"/>
+      <point x="87" y="517.25" type="curve" smooth="yes"/>
+      <point x="87" y="625.983"/>
+      <point x="203.446" y="671"/>
+      <point x="330.5" y="671" type="curve" smooth="yes"/>
+      <point x="447.214" y="671"/>
+      <point x="580" y="627.399"/>
       <point x="580" y="524" type="curve" smooth="yes"/>
-      <point x="580" y="469"/>
-      <point x="535" y="429"/>
+      <point x="580" y="468.769"/>
+      <point x="535.277" y="429"/>
       <point x="479" y="429" type="curve" smooth="yes"/>
       <point x="421" y="429"/>
       <point x="381" y="470"/>
@@ -34,21 +34,21 @@
       <point x="413" y="582"/>
       <point x="432" y="591" type="curve"/>
       <point x="421" y="594"/>
-      <point x="386" y="600"/>
-      <point x="332" y="600" type="curve" smooth="yes"/>
-      <point x="237" y="600"/>
-      <point x="128" y="579"/>
-      <point x="128" y="500" type="curve" smooth="yes"/>
-      <point x="128" y="446"/>
-      <point x="198" y="425"/>
-      <point x="262" y="425" type="curve" smooth="yes"/>
-      <point x="272" y="425"/>
-      <point x="274" y="427"/>
+      <point x="385.5" y="600"/>
+      <point x="331.5" y="600" type="curve" smooth="yes"/>
+      <point x="237.336" y="600"/>
+      <point x="127.5" y="579.042"/>
+      <point x="127.5" y="500.5" type="curve" smooth="yes"/>
+      <point x="127.5" y="445.907"/>
+      <point x="197.635" y="425.25"/>
+      <point x="262.5" y="425.25" type="curve" smooth="yes"/>
+      <point x="271.925" y="425.25"/>
+      <point x="273.837" y="426.815"/>
       <point x="283" y="428" type="curve"/>
-      <point x="223" y="404" type="line"/>
-      <point x="158" y="404"/>
-      <point x="87" y="446"/>
+      <point x="223.25" y="404.5" type="line"/>
+      <point x="158.103" y="404.5"/>
+      <point x="87" y="446.175"/>
     </contour>
-    <component base="uni0DC5"/>
+    <component base="si_Lla"/>
   </outline>
 </glyph>

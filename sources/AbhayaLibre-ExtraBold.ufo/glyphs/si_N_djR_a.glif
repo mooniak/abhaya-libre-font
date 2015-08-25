@@ -3,27 +3,27 @@
   <advance width="699"/>
   <outline>
     <contour>
-      <point x="142" y="-44" type="curve"/>
+      <point x="141.5" y="-44" type="curve"/>
       <point x="171" y="-44" type="line"/>
-      <point x="208" y="-87"/>
-      <point x="271" y="-114"/>
-      <point x="376" y="-114" type="curve" smooth="yes"/>
-      <point x="520" y="-114"/>
-      <point x="619" y="-31"/>
-      <point x="619" y="63" type="curve" smooth="yes"/>
-      <point x="619" y="78"/>
-      <point x="617" y="90"/>
+      <point x="208.476" y="-86.958"/>
+      <point x="271.167" y="-114.25"/>
+      <point x="376.5" y="-114.25" type="curve" smooth="yes"/>
+      <point x="519.5" y="-114.25"/>
+      <point x="619" y="-31.0107"/>
+      <point x="619" y="63.25" type="curve" smooth="yes"/>
+      <point x="619" y="78.2842"/>
+      <point x="617.438" y="90.4463"/>
       <point x="612" y="102" type="curve"/>
       <point x="625" y="133" type="line"/>
-      <point x="643" y="106"/>
-      <point x="652" y="75"/>
+      <point x="643" y="106.333"/>
+      <point x="652" y="74.667"/>
       <point x="652" y="38" type="curve" smooth="yes"/>
-      <point x="652" y="-124"/>
-      <point x="534" y="-219"/>
-      <point x="390" y="-219" type="curve" smooth="yes"/>
-      <point x="257" y="-219"/>
-      <point x="179" y="-153"/>
+      <point x="652" y="-123.729"/>
+      <point x="533.75" y="-219"/>
+      <point x="389.75" y="-219" type="curve" smooth="yes"/>
+      <point x="256.75" y="-219"/>
+      <point x="178.833" y="-153.333"/>
     </contour>
-    <component base="uni0DA6"/>
+    <component base="si_Ndja"/>
   </outline>
 </glyph>

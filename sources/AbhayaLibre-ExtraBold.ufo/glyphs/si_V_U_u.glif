@@ -8,37 +8,37 @@
       <point x="95" y="-40"/>
       <point x="148" y="-40" type="curve" smooth="yes"/>
       <point x="190" y="-40"/>
-      <point x="222" y="-55"/>
+      <point x="222.333" y="-55"/>
       <point x="245" y="-91" type="curve"/>
       <point x="212" y="-102" type="line"/>
-      <point x="201" y="-85"/>
+      <point x="200.684" y="-84.6992"/>
       <point x="182" y="-70"/>
       <point x="153" y="-70" type="curve" smooth="yes"/>
       <point x="114" y="-70"/>
-      <point x="89" y="-95"/>
+      <point x="89" y="-95.0762"/>
       <point x="89" y="-120" type="curve" smooth="yes"/>
-      <point x="89" y="-152"/>
-      <point x="118" y="-167"/>
+      <point x="89" y="-151.995"/>
+      <point x="117.815" y="-167"/>
       <point x="152" y="-167" type="curve" smooth="yes"/>
-      <point x="228" y="-167"/>
-      <point x="284" y="-114"/>
-      <point x="384" y="-114" type="curve" smooth="yes"/>
-      <point x="431" y="-114"/>
-      <point x="476" y="-134"/>
-      <point x="503" y="-166" type="curve"/>
+      <point x="228.215" y="-167"/>
+      <point x="284.451" y="-114.5"/>
+      <point x="384.5" y="-114.5" type="curve" smooth="yes"/>
+      <point x="431.085" y="-114.5"/>
+      <point x="476" y="-133.75"/>
+      <point x="503" y="-165.75" type="curve"/>
       <point x="503" y="152" type="line"/>
       <point x="538" y="212" type="line"/>
       <point x="538" y="-231" type="line"/>
-      <point x="512" y="-231" type="line"/>
-      <point x="498" y="-195"/>
-      <point x="457" y="-146"/>
-      <point x="394" y="-146" type="curve" smooth="yes"/>
-      <point x="304" y="-146"/>
+      <point x="512.5" y="-231" type="line"/>
+      <point x="497.5" y="-195"/>
+      <point x="457.449" y="-146.25"/>
+      <point x="394.5" y="-146.25" type="curve" smooth="yes"/>
+      <point x="303.5" y="-146.25"/>
       <point x="255" y="-237"/>
       <point x="157" y="-237" type="curve" smooth="yes"/>
       <point x="102" y="-237"/>
       <point x="46" y="-206"/>
     </contour>
-    <component base="uni0DC0"/>
+    <component base="si_Va"/>
   </outline>
 </glyph>
