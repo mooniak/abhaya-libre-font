@@ -83,9 +83,13 @@ table name {
 # ----------------
 
 table GDEF {
+
   # 1. Bases:      single character, spacing glyphs.
   # 2. Ligatures:  multiple character, spacing glyphs.
   # 3. Marks:      non-spacing combining glyphs.
   # 4. Components: part of single character, spacing glyphs.
-  GlyphClassDef , , @generated_MARKS, ;
+
+  # GlyphClassDef , , @generated_MARKS, ;
+  GlyphClassDef , , , ;
+
 } GDEF;
