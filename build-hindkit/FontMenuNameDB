@@ -1,0 +1,29 @@
+# [PostScriptName]
+#   f = Preferred Family Name
+#   s = Subfamily/Style Name
+#   l = Compatible Family Menu Name (Style-Linking Family Name)
+#   m = 1, Macintosh Compatible Full Name (Deprecated)
+
+[AbhayaLibreFDK-Regular]
+  f = Abhaya Libre FDK
+  s = Regular
+
+[AbhayaLibreFDK-Medium]
+  f = Abhaya Libre FDK
+  s = Medium
+  l = Abhaya Libre FDK Medium
+
+[AbhayaLibreFDK-SemiBold]
+  f = Abhaya Libre FDK
+  s = SemiBold
+  l = Abhaya Libre FDK SemiBold
+
+[AbhayaLibreFDK-Bold]
+  f = Abhaya Libre FDK
+  s = Bold
+  # IsBoldStyle
+
+[AbhayaLibreFDK-ExtraBold]
+  f = Abhaya Libre FDK
+  s = ExtraBold
+  l = Abhaya Libre FDK ExtraBold
