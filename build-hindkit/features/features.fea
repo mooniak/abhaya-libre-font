@@ -1,0 +1,5 @@
+languagesystem DFLT dflt;
+
+# include (../../features/GENERATED_classes.fea);
+include (../../features/tables.fea);
+# include (../../features/lookups.fea);
