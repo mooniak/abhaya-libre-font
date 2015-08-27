@@ -1,15 +1,10 @@
-##--------------- Language Systems ---------------##
-
 languagesystem DFLT dflt;
 languagesystem sinh dflt;
 
-table head {
-  FontRevision 1.000;
-} head;
+include (../../features/GENERATED_classes.fea);
+include (../../features/tables.fea);
 
-include (../../family_tables.fea);
-
-#---- --AKHN ------------
+#------ AKHN ------------
 
 lookup si_akhands {
     sub si_Ka si_Halant zwj si_Ssa by si_KSsa;
@@ -519,76 +514,66 @@ lookup si_rakaar {
 lookup si_kern {
     pos si_A <0 0 0 0>;
 } si_kern;
+
 ##--------------- Lookups ---------------##
 
 feature akhn {
-    script sinh;
-        lookup si_akhands;
+  lookup si_akhands;
 } akhn;
 
 #-------------
 
 feature rphf {
-    script sinh;
-        lookup si_reph;
+  lookup si_reph;
 } rphf;
 
 #-------------
 
 feature abvs {
-    script sinh;
-        lookup si_halant_1;
-        lookup si_abvs_1;
-        lookup si_abvs_2;
-        lookup si_abvs_3;
-        lookup si_abvs_4;
-        lookup si_abvs_5;
-        lookup si_abvs_6;
-        lookup si_abvs_7;
+  lookup si_halant_1;
+  lookup si_abvs_1;
+  lookup si_abvs_2;
+  lookup si_abvs_3;
+  lookup si_abvs_4;
+  lookup si_abvs_5;
+  lookup si_abvs_6;
+  lookup si_abvs_7;
 } abvs;
 
 #-------------
 
 feature blws {
-    script sinh;
-        lookup si_blws_1;
-        lookup si_blws_2;
-        lookup si_blws_3;
-        lookup si_blws_4;
-        lookup si_blws_5;
+  lookup si_blws_1;
+  lookup si_blws_2;
+  lookup si_blws_3;
+  lookup si_blws_4;
+  lookup si_blws_5;
 } blws;
 
 #-------------
 
 feature vatu {
-    script sinh;
-        lookup si_rakaar;
-        lookup si_yansaya;
+  lookup si_rakaar;
+  lookup si_yansaya;
 } vatu;
 
 #-------------
 
 feature psts {
-  script sinh;
-      lookup si_raer;
+  lookup si_raer;
 } psts;
 
 #-------------
 
-feature kern {
-    script sinh;
-        lookup si_kern;
-} kern;
+# feature kern {
+#   lookup si_kern;
+# } kern;
 
-feature dist {
-    script sinh;
-} dist;
-
-feature abvm {
-    script sinh;
-} abvm;
-
-feature blwm {
-    script sinh;
-} blwm;
-#-------------
+# feature dist {
+# } dist;
+#
+# feature abvm {
+# } abvm;
+#
+# feature blwm {
+# } blwm;
