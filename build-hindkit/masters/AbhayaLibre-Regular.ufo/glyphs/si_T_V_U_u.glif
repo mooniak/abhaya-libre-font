@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_TVUu" format="1">
+  <advance width="1001"/>
+  <outline>
+    <contour>
+      <point x="451" y="-138" type="curve" smooth="yes"/>
+      <point x="451" y="-80"/>
+      <point x="500" y="-40"/>
+      <point x="553" y="-40" type="curve" smooth="yes"/>
+      <point x="595" y="-40"/>
+      <point x="627.333" y="-55"/>
+      <point x="650" y="-91" type="curve"/>
+      <point x="620" y="-102" type="line"/>
+      <point x="608" y="-83"/>
+      <point x="587" y="-68"/>
+      <point x="558" y="-68" type="curve" smooth="yes"/>
+      <point x="519" y="-68"/>
+      <point x="487" y="-92"/>
+      <point x="487" y="-129" type="curve" smooth="yes"/>
+      <point x="487" y="-166.366"/>
+      <point x="518" y="-191"/>
+      <point x="561" y="-191" type="curve" smooth="yes"/>
+      <point x="645" y="-191"/>
+      <point x="711.75" y="-117"/>
+      <point x="806.75" y="-117" type="curve" smooth="yes"/>
+      <point x="854.344" y="-117"/>
+      <point x="885.794" y="-133.538"/>
+      <point x="910" y="-159.75" type="curve"/>
+      <point x="910" y="152" type="line"/>
+      <point x="943" y="212" type="line"/>
+      <point x="943" y="-231" type="line"/>
+      <point x="920" y="-231" type="line"/>
+      <point x="905" y="-195"/>
+      <point x="874.625" y="-144"/>
+      <point x="809.75" y="-144" type="curve" smooth="yes"/>
+      <point x="718.75" y="-144"/>
+      <point x="660" y="-237"/>
+      <point x="562" y="-237" type="curve" smooth="yes"/>
+      <point x="507" y="-237"/>
+      <point x="451" y="-206"/>
+    </contour>
+    <component base="si_TtVa"/>
+  </outline>
+</glyph>

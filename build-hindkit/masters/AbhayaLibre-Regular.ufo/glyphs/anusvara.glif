@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="anusvara" format="1">
+  <advance width="364"/>
+  <unicode hex="0D82"/>
+  <outline>
+    <contour>
+      <point x="67.0039" y="176" type="curve" smooth="yes"/>
+      <point x="67.0039" y="119.723"/>
+      <point x="114.449" y="74.1182"/>
+      <point x="173" y="74.1182" type="curve" smooth="yes"/>
+      <point x="231.551" y="74.1182"/>
+      <point x="278.996" y="119.723"/>
+      <point x="278.996" y="176" type="curve" smooth="yes"/>
+      <point x="278.996" y="232.277"/>
+      <point x="231.551" y="277.882"/>
+      <point x="173" y="277.882" type="curve" smooth="yes"/>
+      <point x="114.449" y="277.882"/>
+      <point x="67.0039" y="232.277"/>
+    </contour>
+    <contour>
+      <point x="29.8936" y="165" type="curve" smooth="yes"/>
+      <point x="29.8936" y="242.111"/>
+      <point x="94.3467" y="305.301"/>
+      <point x="173" y="305.301" type="curve" smooth="yes"/>
+      <point x="251.653" y="305.301"/>
+      <point x="316.106" y="242.111"/>
+      <point x="316.106" y="165" type="curve" smooth="yes"/>
+      <point x="316.106" y="87.8887"/>
+      <point x="251.653" y="24.6992"/>
+      <point x="173" y="24.6992" type="curve" smooth="yes"/>
+      <point x="94.3467" y="24.6992"/>
+      <point x="29.8936" y="87.8887"/>
+    </contour>
+  </outline>
+</glyph>

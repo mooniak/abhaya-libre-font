@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_J.halant" format="1">
+  <advance width="598"/>
+  <outline>
+    <contour>
+      <point x="294" y="336" type="line"/>
+      <point x="294" y="756.5" type="line"/>
+      <point x="348" y="714.5"/>
+      <point x="445.5" y="709.5"/>
+      <point x="445.5" y="617.5" type="curve" smooth="yes"/>
+      <point x="445.5" y="573.5"/>
+      <point x="410.691" y="543.5"/>
+      <point x="367.5" y="543.5" type="curve" smooth="yes"/>
+      <point x="352.833" y="543.5"/>
+      <point x="337.833" y="546.833"/>
+      <point x="322.5" y="553.5" type="curve"/>
+      <point x="322.5" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="322.605" y="579.773" type="line"/>
+      <point x="331.1" y="575.199"/>
+      <point x="341.882" y="572.913"/>
+      <point x="354.948" y="572.913" type="curve" smooth="yes"/>
+      <point x="386.954" y="572.913"/>
+      <point x="400.5" y="597.415"/>
+      <point x="400.5" y="620.938" type="curve" smooth="yes"/>
+      <point x="400.5" y="662.102"/>
+      <point x="368.67" y="681.703"/>
+      <point x="322.605" y="712.087" type="curve"/>
+    </contour>
+    <component base="si_Ja"/>
+  </outline>
+</glyph>

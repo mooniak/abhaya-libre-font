@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_DIi" format="1">
+  <advance width="456"/>
+  <outline>
+    <contour>
+      <point x="249.364" y="492.5" type="curve" smooth="yes"/>
+      <point x="249.364" y="462.728"/>
+      <point x="278.176" y="438.718"/>
+      <point x="312.75" y="438.718" type="curve" smooth="yes"/>
+      <point x="347.324" y="438.718"/>
+      <point x="376.136" y="462.728"/>
+      <point x="376.136" y="492.5" type="curve" smooth="yes"/>
+      <point x="376.136" y="522.272"/>
+      <point x="347.324" y="546.282"/>
+      <point x="312.75" y="546.282" type="curve" smooth="yes"/>
+      <point x="278.176" y="546.282"/>
+      <point x="249.364" y="522.272"/>
+    </contour>
+    <contour>
+      <point x="35.0801" y="518" type="curve" smooth="yes"/>
+      <point x="35.0801" y="618.565"/>
+      <point x="126.303" y="671"/>
+      <point x="223" y="671" type="curve" smooth="yes"/>
+      <point x="319.697" y="671"/>
+      <point x="411.92" y="619.928"/>
+      <point x="411.92" y="511.25" type="curve" smooth="yes"/>
+      <point x="411.92" y="440.184"/>
+      <point x="363.464" y="407.5"/>
+      <point x="312.25" y="407.5" type="curve" smooth="yes"/>
+      <point x="252.575" y="407.5"/>
+      <point x="214.75" y="448.5"/>
+      <point x="214.75" y="493.5" type="curve" smooth="yes"/>
+      <point x="214.75" y="535.516"/>
+      <point x="247.152" y="555.592"/>
+      <point x="254" y="560" type="curve"/>
+      <point x="247.29" y="560.581"/>
+      <point x="239.412" y="561.25"/>
+      <point x="224" y="561.25" type="curve" smooth="yes"/>
+      <point x="165.352" y="561.25"/>
+      <point x="88" y="547.335"/>
+      <point x="88" y="491.5" type="curve" smooth="yes"/>
+      <point x="88" y="463.723"/>
+      <point x="108.77" y="426.75"/>
+      <point x="194" y="426.75" type="curve"/>
+      <point x="150.91" y="405" type="line"/>
+      <point x="84.9511" y="414.727"/>
+      <point x="35.0801" y="450.955"/>
+    </contour>
+    <component base="si_Da"/>
+  </outline>
+</glyph>
