@@ -1,0 +1,17 @@
+# Prefix: Prefix
+languagesystem DFLT dflt;
+# GSUB
+lookup AbhayaLibreLatinRegularordnOrdi {
+lookupflag 0;
+sub [ \uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038
+\uni0039  ] [ \uni0041 \uni0061  ]'  by [ NULL NULL  ];
+sub [ \uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038
+\uni0039  ] [ \uni004F \uni006F  ]'  by [ NULL NULL  ];
+} AbhayaLibreLatinRegularordnOrdi;
+
+feature ordn {
+script DFLT;
+     language dflt ;
+      lookup AbhayaLibreLatinRegularordnOrdi;
+} ordn;
+

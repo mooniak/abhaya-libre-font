@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_JU" format="1">
+  <advance width="598"/>
+  <outline>
+    <contour>
+      <point x="39" y="-142" type="curve" smooth="yes"/>
+      <point x="39" y="-90"/>
+      <point x="85" y="-50"/>
+      <point x="140" y="-50" type="curve" smooth="yes"/>
+      <point x="182" y="-50"/>
+      <point x="219" y="-74"/>
+      <point x="234" y="-110" type="curve"/>
+      <point x="202" y="-122" type="line"/>
+      <point x="195" y="-105"/>
+      <point x="173" y="-82"/>
+      <point x="140" y="-82" type="curve" smooth="yes"/>
+      <point x="103" y="-82"/>
+      <point x="74" y="-109"/>
+      <point x="74" y="-142" type="curve" smooth="yes"/>
+      <point x="74" y="-171"/>
+      <point x="96" y="-192"/>
+      <point x="166" y="-192" type="curve" smooth="yes"/>
+      <point x="505" y="-192" type="line"/>
+      <point x="505" y="128" type="line"/>
+      <point x="540" y="219" type="line"/>
+      <point x="540" y="-235" type="line"/>
+      <point x="144" y="-235" type="line" smooth="yes"/>
+      <point x="64" y="-235"/>
+      <point x="39" y="-186"/>
+    </contour>
+    <component base="si_Ja"/>
+  </outline>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_HUu" format="1">
+  <advance width="653"/>
+  <outline>
+    <contour>
+      <point x="45" y="-138" type="curve" smooth="yes"/>
+      <point x="45" y="-80"/>
+      <point x="94" y="-40"/>
+      <point x="147" y="-40" type="curve" smooth="yes"/>
+      <point x="189" y="-40"/>
+      <point x="221" y="-55"/>
+      <point x="244" y="-91" type="curve"/>
+      <point x="214" y="-102" type="line"/>
+      <point x="202" y="-83"/>
+      <point x="181" y="-68"/>
+      <point x="152" y="-68" type="curve" smooth="yes"/>
+      <point x="113" y="-68"/>
+      <point x="81" y="-92"/>
+      <point x="81" y="-129" type="curve" smooth="yes"/>
+      <point x="81" y="-166"/>
+      <point x="119" y="-191"/>
+      <point x="162" y="-191" type="curve" smooth="yes"/>
+      <point x="268" y="-191"/>
+      <point x="351" y="-117"/>
+      <point x="446" y="-117" type="curve" smooth="yes"/>
+      <point x="489" y="-117"/>
+      <point x="538" y="-136"/>
+      <point x="565" y="-168" type="curve"/>
+      <point x="565" y="152" type="line"/>
+      <point x="598" y="212" type="line"/>
+      <point x="598" y="-231" type="line"/>
+      <point x="575" y="-231" type="line"/>
+      <point x="560" y="-195"/>
+      <point x="517" y="-144"/>
+      <point x="449" y="-144" type="curve" smooth="yes"/>
+      <point x="358" y="-144"/>
+      <point x="280" y="-237"/>
+      <point x="162" y="-237" type="curve" smooth="yes"/>
+      <point x="107" y="-237"/>
+      <point x="45" y="-206"/>
+    </contour>
+    <component base="si_Ha"/>
+  </outline>
+</glyph>

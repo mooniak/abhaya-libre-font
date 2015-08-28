@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_NU" format="1">
+  <advance width="806"/>
+  <outline>
+    <contour>
+      <point x="145" y="-142" type="curve" smooth="yes"/>
+      <point x="145" y="-90"/>
+      <point x="191" y="-50"/>
+      <point x="246" y="-50" type="curve" smooth="yes"/>
+      <point x="288" y="-50"/>
+      <point x="325" y="-74"/>
+      <point x="340" y="-110" type="curve"/>
+      <point x="308" y="-122" type="line"/>
+      <point x="301" y="-105"/>
+      <point x="279" y="-82"/>
+      <point x="246" y="-82" type="curve" smooth="yes"/>
+      <point x="209" y="-82"/>
+      <point x="180" y="-109"/>
+      <point x="180" y="-142" type="curve" smooth="yes"/>
+      <point x="180" y="-171"/>
+      <point x="202" y="-192"/>
+      <point x="272" y="-192" type="curve" smooth="yes"/>
+      <point x="717" y="-192" type="line"/>
+      <point x="717" y="128" type="line"/>
+      <point x="752" y="219" type="line"/>
+      <point x="752" y="-235" type="line"/>
+      <point x="250" y="-235" type="line" smooth="yes"/>
+      <point x="170" y="-235"/>
+      <point x="145" y="-186"/>
+    </contour>
+    <component base="si_Na"/>
+  </outline>
+</glyph>

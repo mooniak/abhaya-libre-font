@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_NVUu" format="1">
+  <advance width="1032"/>
+  <outline>
+    <contour>
+      <point x="484" y="-138" type="curve" smooth="yes"/>
+      <point x="484" y="-80"/>
+      <point x="533" y="-40"/>
+      <point x="586" y="-40" type="curve" smooth="yes"/>
+      <point x="628" y="-40"/>
+      <point x="659" y="-55"/>
+      <point x="682" y="-91" type="curve"/>
+      <point x="650" y="-102" type="line"/>
+      <point x="639" y="-85"/>
+      <point x="619" y="-70"/>
+      <point x="590" y="-70" type="curve" smooth="yes"/>
+      <point x="551" y="-70"/>
+      <point x="526" y="-95"/>
+      <point x="526" y="-120" type="curve" smooth="yes"/>
+      <point x="526" y="-152"/>
+      <point x="556" y="-167"/>
+      <point x="590" y="-167" type="curve" smooth="yes"/>
+      <point x="666" y="-167"/>
+      <point x="722" y="-114"/>
+      <point x="822" y="-114" type="curve" smooth="yes"/>
+      <point x="869" y="-114"/>
+      <point x="913" y="-134"/>
+      <point x="940" y="-166" type="curve"/>
+      <point x="940" y="152" type="line"/>
+      <point x="976" y="212" type="line"/>
+      <point x="976" y="-231" type="line"/>
+      <point x="950" y="-231" type="line"/>
+      <point x="935" y="-195"/>
+      <point x="895" y="-146"/>
+      <point x="832" y="-146" type="curve" smooth="yes"/>
+      <point x="741" y="-146"/>
+      <point x="692" y="-237"/>
+      <point x="594" y="-237" type="curve" smooth="yes"/>
+      <point x="539" y="-237"/>
+      <point x="484" y="-206"/>
+    </contour>
+    <component base="si_NVa"/>
+  </outline>
+</glyph>
