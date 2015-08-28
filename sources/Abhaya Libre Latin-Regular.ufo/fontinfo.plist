@@ -19,7 +19,7 @@
 	<key>licenseURL</key>
 	<string>http://www.apache.org/licenses/LICENSE-2.0</string>
 	<key>openTypeHeadCreated</key>
-	<string>2015/06/27 18:57:01</string>
+	<string>2015/06/27 15:27:01</string>
 	<key>openTypeNameDesigner</key>
 	<string>Pushpananda Ekanayake(isiwara.lk)</string>
 	<key>openTypeNameDesignerURL</key>
@@ -32,15 +32,31 @@
 	<string>Abhaya Libre Latin</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>746</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-254</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>36</integer>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>postscriptBlueValues</key>
 	<array>
+		<integer>-15</integer>
+		<integer>0</integer>
+		<integer>500</integer>
+		<integer>516</integer>
+		<integer>700</integer>
+		<integer>716</integer>
+		<integer>746</integer>
+		<integer>762</integer>
 	</array>
 	<key>postscriptOtherBlues</key>
 	<array>
+		<integer>-270</integer>
+		<integer>-254</integer>
 	</array>
 	<key>postscriptStemSnapH</key>
 	<array>
@@ -65,6 +81,10 @@
 		<integer>71</integer>
 		<integer>80</integer>
 	</array>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-37</integer>
+	<key>postscriptUnderlineThickness</key>
+	<integer>24</integer>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>

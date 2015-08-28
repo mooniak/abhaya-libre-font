@@ -41,18 +41,25 @@
 			<integer>85</integer>
 		</dict>
 	</dict>
+	<key>com.schriftgestaltung.fontMaster.userData</key>
+	<dict>
+		<key>angle</key>
+		<integer>0</integer>
+		<key>height</key>
+		<integer>10</integer>
+		<key>width</key>
+		<integer>50</integer>
+	</dict>
 	<key>com.schriftgestaltung.fontMasterID</key>
 	<string>C18F3EFD-FA9C-4751-AD2F-5B966120D1A5</string>
-	<key>com.schriftgestaltung.useNiceNames</key>
-	<false/>
-	<key>com.schriftgestaltung.weightValue</key>
-	<real>70</real>
-	<key>public.glyphOrder</key>
+	<key>com.schriftgestaltung.glyphOrder</key>
 	<array>
 		<string>.notdef</string>
 		<string>uni0000</string>
 		<string>uni000D</string>
 		<string>space</string>
+		<string>exclaim</string>
+		<string>percentage</string>
 		<string>apostrophe</string>
 		<string>parenleft</string>
 		<string>parenright</string>
@@ -74,11 +81,14 @@
 		<string>nine</string>
 		<string>colon</string>
 		<string>semicolon</string>
+		<string>equals</string>
 		<string>question</string>
 		<string>braceleft</string>
 		<string>braceright</string>
+		<string>next_page</string>
 		<string>multiply</string>
 		<string>divide</string>
+		<string>top_white_circle</string>
 		<string>anusvara</string>
 		<string>visarga</string>
 		<string>si_A</string>
@@ -158,9 +168,11 @@
 		<string>si_MatraLs</string>
 		<string>si_MatraRr</string>
 		<string>si_MatraLl</string>
+		<string>si_kundaliya</string>
 		<string>zwnj</string>
 		<string>zwj</string>
 		<string>short_dash2</string>
+		<string>finedash</string>
 		<string>quoteleft</string>
 		<string>quoteright</string>
 		<string>dblquote_left</string>
@@ -295,6 +307,125 @@
 		<string>smalldot</string>
 		<string>big_space</string>
 		<string>si_YU</string>
+	</array>
+	<key>com.schriftgestaltung.useNiceNames</key>
+	<integer>0</integer>
+	<key>com.schriftgestaltung.weightValue</key>
+	<integer>70</integer>
+	<key>com.typemytype.robofont.guides</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>365</integer>
+			<key>y</key>
+			<integer>600</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>468</integer>
+			<key>y</key>
+			<integer>610</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>-85</integer>
+			<key>y</key>
+			<integer>650</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>593</integer>
+			<key>y</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>177</integer>
+			<key>y</key>
+			<integer>435</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>355</integer>
+			<key>y</key>
+			<integer>-190</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>102</integer>
+			<key>y</key>
+			<integer>530</integer>
+		</dict>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>isGlobal</key>
+			<true/>
+			<key>x</key>
+			<integer>280</integer>
+			<key>y</key>
+			<integer>-80</integer>
+		</dict>
+	</array>
+	<key>public.glyphOrder</key>
+	<array>
+		<string>space</string>
+		<string>parenleft</string>
+		<string>parenright</string>
+		<string>asterisk</string>
+		<string>plus</string>
+		<string>comma</string>
+		<string>short_dash1</string>
+		<string>dot</string>
+		<string>slash</string>
+		<string>zero</string>
+		<string>one</string>
+		<string>two</string>
+		<string>three</string>
+		<string>four</string>
+		<string>five</string>
+		<string>six</string>
+		<string>seven</string>
+		<string>eight</string>
+		<string>nine</string>
+		<string>colon</string>
+		<string>semicolon</string>
+		<string>question</string>
+		<string>braceleft</string>
+		<string>braceright</string>
+		<string>multiply</string>
+		<string>divide</string>
+		<string>short_dash2</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
 		<string>A</string>
 		<string>Aacute</string>
 		<string>Abreve</string>
@@ -396,6 +527,7 @@
 		<string>uni0162</string>
 		<string>uni0218</string>
 		<string>uni021A</string>
+		<string>P.001</string>
 		<string>a</string>
 		<string>aacute</string>
 		<string>abreve</string>
@@ -540,8 +672,8 @@
 		<string>period</string>
 		<string>questiondown</string>
 		<string>quotedbl</string>
-		<string>underscore</string>
 		<string>quotesingle</string>
+		<string>underscore</string>
 		<string>bracketleft</string>
 		<string>bracketright</string>
 		<string>emdash</string>
@@ -606,7 +738,8 @@
 		<string>asciicircum</string>
 		<string>dagger</string>
 		<string>daggerdbl</string>
-		<string>ampersand.001</string>
+		<string>commaaccent</string>
+		<string>uni02C9</string>
 		<string>acute</string>
 		<string>breve</string>
 		<string>caron</string>
@@ -620,11 +753,8 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
-		<string>top</string>
-		<string>commaaccent</string>
-		<string>uni02C9</string>
-		<string>vertical_stem_upper</string>
 		<string>czechcaron</string>
+		<string>vertical_stem_upper</string>
 	</array>
 </dict>
 </plist>

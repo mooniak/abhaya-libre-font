@@ -12,10 +12,10 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>7</integer>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
       <key>public.markColor</key>
       <string>0.18,0.16,0.78,1</string>
     </dict>
