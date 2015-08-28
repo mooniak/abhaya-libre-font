@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1440479854
+ModificationTime: 1440666040
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -502,7 +502,7 @@ NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 18 12
+WinInfo: 0 26 12
 AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
 BeginChars: 65903 502
 
@@ -11470,7 +11470,7 @@ Encoding: 229 -1 274
 GlifName: si_N_nI_
 Width: 963
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -11577,7 +11577,7 @@ Encoding: 231 -1 276
 GlifName: si_N_nU_
 Width: 963
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -11604,7 +11604,7 @@ Encoding: 232 -1 277
 GlifName: si_N_nU_u
 Width: 963
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -11634,7 +11634,7 @@ Encoding: 233 -1 278
 GlifName: si_N_na.reph
 Width: 963
 VWidth: 0
-Flags: W
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -18823,7 +18823,7 @@ Encoding: 39 3499 456
 GlifName: si_N_na
 Width: 963
 VWidth: 0
-Flags: W
+Flags: HWO
 LayerCount: 2
 Back
 Fore
@@ -18854,11 +18854,6 @@ SplineSet
  406.173 342.604 446.604 302.173 446.604 253 c 256
  446.604 203.827 406.173 163.396 357 163.396 c 256
  307.827 163.396 267.396 203.827 267.396 253 c 256
-296.23 254 m 256
- 296.23 220.01 323.01 193.23 357 193.23 c 256
- 390.99 193.23 417.77 220.01 417.77 254 c 256
- 417.77 287.99 390.99 314.77 357 314.77 c 256
- 323.01 314.77 296.23 287.99 296.23 254 c 256
 548.841 161 m 256
  548.841 229.841 591.457 285.57 645 285.57 c 256
  678.265 285.57 702.667 273.635 718.565 251.392 c 257
@@ -18868,6 +18863,11 @@ SplineSet
  748.105 -0.787109 718.595 33.0144 713.721 67.7436 c 257
  697.39 47.7453 674.145 36.4297 645 36.4297 c 256
  591.457 36.4297 548.841 92.1592 548.841 161 c 256
+296.23 254 m 260
+ 296.23 220.01 323.01 193.23 357 193.23 c 260
+ 390.99 193.23 417.77 220.01 417.77 254 c 260
+ 417.77 287.99 390.99 314.77 357 314.77 c 260
+ 323.01 314.77 296.23 287.99 296.23 254 c 260
 577.39 162 m 256
  577.39 109.792 606.911 67.5283 644 67.5283 c 256
  686.256 67.5283 710.61 105.122 710.61 162 c 256
