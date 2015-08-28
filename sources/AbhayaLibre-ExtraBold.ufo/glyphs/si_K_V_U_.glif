@@ -3,30 +3,30 @@
   <advance width="1061"/>
   <outline>
     <contour>
-      <point x="509" y="-142.5" type="curve" smooth="yes"/>
-      <point x="509" y="-90.4912"/>
-      <point x="555.293" y="-50.5"/>
-      <point x="610.5" y="-50.5" type="curve" smooth="yes"/>
-      <point x="652.406" y="-50.5"/>
-      <point x="689.75" y="-74.1416"/>
-      <point x="704.5" y="-110" type="curve"/>
-      <point x="671.75" y="-121.5" type="line"/>
-      <point x="664.926" y="-104.358"/>
-      <point x="643.5" y="-81.75"/>
-      <point x="610.5" y="-81.75" type="curve" smooth="yes"/>
-      <point x="573.796" y="-81.75"/>
-      <point x="544.5" y="-109.716"/>
-      <point x="544.5" y="-142.5" type="curve" smooth="yes"/>
-      <point x="544.5" y="-171.663"/>
-      <point x="566.248" y="-192.5"/>
-      <point x="636" y="-192.5" type="curve" smooth="yes"/>
-      <point x="967.75" y="-192.5" type="line"/>
-      <point x="967.75" y="128" type="line"/>
+      <point x="509" y="-142" type="curve" smooth="yes"/>
+      <point x="509" y="-90"/>
+      <point x="555" y="-50"/>
+      <point x="610" y="-50" type="curve" smooth="yes"/>
+      <point x="652" y="-50"/>
+      <point x="689" y="-74"/>
+      <point x="704" y="-110" type="curve"/>
+      <point x="672" y="-122" type="line"/>
+      <point x="665" y="-105"/>
+      <point x="643" y="-82"/>
+      <point x="610" y="-82" type="curve" smooth="yes"/>
+      <point x="573" y="-82"/>
+      <point x="544" y="-109"/>
+      <point x="544" y="-142" type="curve" smooth="yes"/>
+      <point x="544" y="-171"/>
+      <point x="566" y="-192"/>
+      <point x="636" y="-192" type="curve" smooth="yes"/>
+      <point x="968" y="-192" type="line"/>
+      <point x="968" y="128" type="line"/>
       <point x="1003" y="219" type="line"/>
       <point x="1003" y="-235" type="line"/>
-      <point x="614.5" y="-235" type="line" smooth="yes"/>
-      <point x="534.957" y="-235"/>
-      <point x="509" y="-186.092"/>
+      <point x="614" y="-235" type="line" smooth="yes"/>
+      <point x="534" y="-235"/>
+      <point x="509" y="-186"/>
     </contour>
     <component base="si_KVa"/>
   </outline>

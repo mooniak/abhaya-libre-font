@@ -3,28 +3,28 @@
   <advance width="729"/>
   <outline>
     <contour>
-      <point x="27" y="211.5" type="curve" smooth="yes"/>
-      <point x="27" y="343.2"/>
-      <point x="101.731" y="433"/>
-      <point x="220.25" y="433" type="curve" smooth="yes"/>
-      <point x="246.319" y="433"/>
-      <point x="288.876" y="427.134"/>
-      <point x="313.25" y="398" type="curve"/>
-      <point x="300.255" y="396.265"/>
-      <point x="275.707" y="393.113"/>
-      <point x="271.75" y="393" type="curve"/>
-      <point x="266.632" y="398.879"/>
-      <point x="247.82" y="404.5"/>
-      <point x="223.75" y="404.5" type="curve" smooth="yes"/>
-      <point x="97.2451" y="404.5"/>
-      <point x="58.75" y="297.872"/>
-      <point x="58.75" y="208.5" type="curve" smooth="yes"/>
-      <point x="58.75" y="131.217"/>
-      <point x="85.9997" y="75.2388"/>
-      <point x="135" y="33.75" type="curve"/>
+      <point x="27" y="212" type="curve" smooth="yes"/>
+      <point x="27" y="344"/>
+      <point x="101" y="433"/>
+      <point x="220" y="433" type="curve" smooth="yes"/>
+      <point x="246" y="433"/>
+      <point x="289" y="427"/>
+      <point x="313" y="398" type="curve"/>
+      <point x="300" y="396"/>
+      <point x="276" y="393"/>
+      <point x="272" y="393" type="curve"/>
+      <point x="267" y="399"/>
+      <point x="248" y="404"/>
+      <point x="224" y="404" type="curve" smooth="yes"/>
+      <point x="97" y="404"/>
+      <point x="59" y="297"/>
+      <point x="59" y="208" type="curve" smooth="yes"/>
+      <point x="59" y="131"/>
+      <point x="86" y="75"/>
+      <point x="135" y="34" type="curve"/>
       <point x="135" y="0" type="line"/>
-      <point x="68.5828" y="33.2086"/>
-      <point x="27" y="110.57"/>
+      <point x="69" y="33"/>
+      <point x="27" y="111"/>
     </contour>
     <component base="si_DhIi" xOffset="92"/>
   </outline>

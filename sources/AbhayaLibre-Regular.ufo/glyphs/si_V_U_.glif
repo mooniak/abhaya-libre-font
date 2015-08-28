@@ -3,30 +3,30 @@
   <advance width="597"/>
   <outline>
     <contour>
-      <point x="44" y="-142.5" type="curve" smooth="yes"/>
-      <point x="44" y="-90.4912"/>
-      <point x="90.293" y="-50.5"/>
-      <point x="145.5" y="-50.5" type="curve" smooth="yes"/>
-      <point x="187.406" y="-50.5"/>
-      <point x="224.75" y="-74.1416"/>
-      <point x="239.5" y="-110" type="curve"/>
-      <point x="209.5" y="-121.5" type="line"/>
-      <point x="202.482" y="-101.896"/>
-      <point x="178.5" y="-80"/>
-      <point x="145.5" y="-80" type="curve" smooth="yes"/>
-      <point x="108.796" y="-80"/>
-      <point x="77.5" y="-106.714"/>
-      <point x="77.5" y="-142.5" type="curve" smooth="yes"/>
-      <point x="77.5" y="-171.663"/>
-      <point x="100.884" y="-199"/>
-      <point x="166.5" y="-199" type="curve" smooth="yes"/>
+      <point x="44" y="-142" type="curve" smooth="yes"/>
+      <point x="44" y="-90"/>
+      <point x="91" y="-50"/>
+      <point x="146" y="-50" type="curve" smooth="yes"/>
+      <point x="188" y="-50"/>
+      <point x="225" y="-74"/>
+      <point x="240" y="-110" type="curve"/>
+      <point x="210" y="-122" type="line"/>
+      <point x="203" y="-102"/>
+      <point x="179" y="-80"/>
+      <point x="146" y="-80" type="curve" smooth="yes"/>
+      <point x="109" y="-80"/>
+      <point x="78" y="-106"/>
+      <point x="78" y="-142" type="curve" smooth="yes"/>
+      <point x="78" y="-171"/>
+      <point x="100" y="-199"/>
+      <point x="166" y="-199" type="curve" smooth="yes"/>
       <point x="505" y="-199" type="line"/>
       <point x="505" y="128" type="line"/>
       <point x="538" y="219" type="line"/>
       <point x="538" y="-235" type="line"/>
-      <point x="149.5" y="-235" type="line" smooth="yes"/>
-      <point x="80.3398" y="-235"/>
-      <point x="44" y="-186.092"/>
+      <point x="150" y="-235" type="line" smooth="yes"/>
+      <point x="81" y="-235"/>
+      <point x="44" y="-186"/>
     </contour>
     <component base="si_Va"/>
   </outline>
