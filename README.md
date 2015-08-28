@@ -22,7 +22,7 @@ See the video discussions https://www.youtube.com/playlist?list=PLpw12zH02-An-6i
 
 - See `/sources` contains source `.sfd` files which opens in [FontForge](http://fontforge.github.io/en-US/). These files are under active developemnt. There might be some FontForge revision files around too.
 
-- See `/sources/UFO` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/abhaya-libre/releases) for clean sources.
+- See `/sources/UFO` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/abhaya-libre-font/releases) for clean sources.
 
 
 ## Credits
