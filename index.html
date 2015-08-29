@@ -13,7 +13,6 @@ layout: project_site
         <meta name="description" content="{{ site.desc }}">
 	     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/tests/styles/grid.css" />
         <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/tests/styles/styles.css" />
-				<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/tests/adobe-blank/adobe-blank.css" />
 
         <!-- Schema.org markup for Google+ -->
 <meta itemprop="name" content="{{ site.title }}">
@@ -45,44 +44,29 @@ layout: project_site
 	@font-face {font-family:'Abhaya Libre'; src: url('{{ site.baseurl }}/tests/fonts/{{ site.family_name }}-SemiBold.otf'); font-style: normal; font-weight:  600;}
 	@font-face {font-family:'Abhaya Libre'; src: url('{{ site.baseurl }}/tests/fonts/{{ site.family_name }}-Bold.otf'); font-style: normal; font-weight:  700;}
 	@font-face {font-family: 'Abhaya Libre'; src: url('{{ site.baseurl }}/tests/fonts/{{ site.family_name }}-ExtraBold.otf');font-style:   normal; font-weight:  800;}
-        	@font-face {font-family: 'Abhaya Libre'; src: url('{{ site.baseurl }}/tests/fonts/AbhayaLibre-ExtraBold.otf');font-style:   normal; font-weight:  800;}
+  @font-face {font-family: 'Abhaya Libre'; src: url('{{ site.baseurl }}/tests/fonts/AbhayaLibre-ExtraBold.otf');font-style:   normal; font-weight:  800;}
 
 	@font-face {font-family:'Abhaya Libre Latin'; src: url('{{ site.baseurl }}/tests/fonts/AbhayaLibreLatin-Regular.otf'); font-style: normal; font-weight:  400;}
 	@font-face {font-family:'Abhaya Libre Latin'; src: url('{{ site.baseurl }}/tests/fonts/AbhayaLibreLatin-ExtraBold.otf'); font-style: normal; font-weight:  600;}
 
-	body{font-family: 'Abhaya Libre Latin';}
-		p { font-family: '{{ site.family_name }}',Abhaya Libre Latin, AdobeBlank; font-size: 36px;}
-		.lable{ font-family: 'Source Code Pro';
-	  font-weight: 300;
-	  margin: 30px 0px 5px 0px;
-	  display: block;
-	  font-size: 13px;}
+	body{font-family: 'Abhaya Libre',Abhaya Libre Latin;}
+		p { font-family: 'Abhaya Libre',Abhaya Libre Latin; font-size: 36px;}
+
 
 	</style>
 	</head>
 
 	<body contentEditable='true'>
 
-		<div class="grid grid-pad">
-
-			<div class="col-1-1 mobile-col-1-1">
-				<div class="content">
-					<h2 >{{ site.title }}</br> </h2>
-
-					<h2 class="lable">{{ site.desc }}</br></br> Generated on {{ site.time | time_to_long_string }}</h2>
-
-			</div>
-			</div>
-		</div>
-
-
-
-
 
 
 <!-- 8/12 and 4/12 layout -->
 		<div class="grid grid-pad">
 			<div class="col-1-1">
+				<h1 style="font-weight:800;"> අභය ලිබ්රේ	</h1>
+				<h2 >{{ site.title }}</br> </h2>
+				<h2>The unicode compliant libre version of Pushpananda Ekanayakes's FM Abhaya font refactord in collaboration with mooniak. Latin by Sol Matas.</h2>
+
 					<p class="alphabet" style="font-weight:400;">
 
 					අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ ඏ ඐ එ ඒ ඓ ඔ ඕ ඖ ක ඛ ග ඝ ඞ ඟ ච ඡ ජ ඣ ඤ ඥ ඦ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ෆ ෴
@@ -93,8 +77,10 @@ layout: project_site
 			( { [ . , ¡ ! ¿ ? * ' ‘ ’ " “ ” ] } )
 
 			$ € £ % @ & ¶ § ¢ † ‡
-			abcdefghijklmnopqrstuvwxyz</br>ABCDEFGHIJKLMNOPQRSTUVWXYZ						අ ආ ඇ ඈ ඉ ඊ උ ඌ ඍ ඎ ඏ ඐ එ ඒ ඓ ඔ ඕ ඖ ක ඛ ග ඝ ඞ ඟ ච ඡ ජ ඣ ඤ ඥ ඦ ට ඨ ඩ ඪ ණ ඬ ත ථ ද ධ න ඳ ප ඵ බ භ ම ඹ ය ර ල ව ශ ෂ ස හ ළ ෆ ෴
-		abcdefghijklmnopqrstuvwxyz</br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+			abcdefghijklmnopqrstuvwxyz</br>ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+</p>
+<p class="alphabet" style="font-weight:700;">
 
 </p>
 
