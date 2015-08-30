@@ -7,10 +7,14 @@ git config user.email "pathumego@gmail.com"
 
 # The first and only commit to this new Git repo contains all the
 # files present with the commit message "Deploy to GitHub Pages".
+
+git rm -r /sources .
+git rm -r  --cached /sources .
+git add .
+git commit -m "Remove Sources"
 git add .
 git commit -m "Deploy to GitHub Pages"
-git rm -r sources
-git rm -r  --cached sources
+
 # Force push from the current repo's master branch to the remote
 # repo's gh-pages branch. (All previous history on the gh-pages branch
 # will be lost, since we are overwriting it.) We redirect any output to
