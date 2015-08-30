@@ -9,7 +9,7 @@ git config user.email "pathumego@gmail.com"
 # files present with the commit message "Deploy to GitHub Pages".
 git add .
 git commit -m "Deploy to GitHub Pages"
-git rm sources
+git rm -r sources
 git rm -r  --cached sources
 # Force push from the current repo's master branch to the remote
 # repo's gh-pages branch. (All previous history on the gh-pages branch
