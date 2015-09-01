@@ -8,6 +8,18 @@ and any derivative works.
 
 Basic Font Information
 --------------------------
+At the present, ‘FM Abhaya’ designed in 1996, is the most widely used Sinhala typeface in all around contexts. FM Abhaya is an interpretation of  the earliest Sinhala letterpress typefaces. The name ‘Abhaya’ comes after the King Abhaya (474 CE to 454 CE) who reigned Sri Lanka from the ancient kingdom of Upatissa Nuwara. The ‘Abhaya Libre’ is the the unicode compliant, complete libre version of the most popular Sinhala typeface on Earth.
+
+In the Unicode adaptation process, the FM Abhaya font was completely redrawn from the scratch to suit the modern usages in Web, Tab and smaller sizes for Smartphones. Abhaya Libre comes in 5 weights which enables designers to build sophisticated typographic layouts. Lighter weights suites mostly for body text and heavier weights do best in title settings.
+
+Each of those weights contains x glyphs that enables clean and precise rendering for Sinhala, Pali and Sanskrit texts. The Custom compact ‘Da’ forms can be enabled using stylistic sets.
+
+It comes with a Latin set designed by Sol Matas to match the aesthetics of Abhaya Libre Sinhala. The latin set was inspired by the style of the original Sinhala, with the notable inherent contrast in between thick and thin strokes, was modified to tally with the visualization logics of Latin typefaces. The ductus references according to the lines of a Didone typeface add some Sinhala forms to certain terminations.
+
+After several tests and discussions we agreed on the height for uppercase and lowercase to match harmoniously with Sinhala. The width of each character and its position on the baseline have been carefully designed to get a nice balance between both writing systems. Adding large counters for optimizing on screen viewing and small ascenders and descenders.
+
+The project is being led by mooniak, a collaborative collective of designers based in Colombo, Sri Lanka.
+
 
 
 
