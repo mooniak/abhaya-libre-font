@@ -2,7 +2,7 @@ FONTLOG for Abhaya Libre
 -------------------
 
 This file provides detailed information on the Abhaya Libre font software.
-This information should be distributed along with the Nidahas FM Abhaya fonts
+This information should be distributed along with the Abhaya Libre fonts
 and any derivative works.
 
 
@@ -49,7 +49,7 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
-1997 (Pushpanada Ekanayake) FM Abhaya, v1.001
+1996 (Pushpanada Ekanayake) FM Abhaya, v1.001
 - ASCII Encoded Font
 
 
@@ -62,11 +62,16 @@ web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
 
 N: Pushpananda Ekanayake
-E: 
-W: 
-D: Designer Sinhala Charachter Set
+E: sol@sonnenshine.com.ar
+W: http://isiwara.lk
+D: Designer - Basic Sinhala Set
+
+N: Sol Matas
+E: sol@sonnenshine.com.ar
+W: http://sonnenshine.com.ar
+D: Designer Latin 3 set
 
 N: Pathum Egodawatta
 E: pathum@mooniak.com
 W: http://mooniak.com
-D: Contributor - Open Type Layout
+D: Contributor - Open Type Layout / Project cordination
