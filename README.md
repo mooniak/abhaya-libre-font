@@ -1,6 +1,6 @@
 
 |  WORK IN PROGRESS      | 
-| ------------- |:-------------:| 
+| ------------- |:-------------:|:-------------:| 
 | This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       | This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       | 
 
 
