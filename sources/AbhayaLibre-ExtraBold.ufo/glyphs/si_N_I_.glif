@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_NI" format="1">
+  <advance width="806"/>
+  <outline>
+    <contour>
+      <point x="268.75" y="421" type="curve" smooth="yes"/>
+      <point x="268.75" y="590"/>
+      <point x="380.75" y="671"/>
+      <point x="523.75" y="671" type="curve" smooth="yes"/>
+      <point x="653.75" y="671"/>
+      <point x="738.75" y="610"/>
+      <point x="738.75" y="505" type="curve" smooth="yes"/>
+      <point x="738.75" y="444"/>
+      <point x="708.75" y="402"/>
+      <point x="660.75" y="383" type="curve"/>
+      <point x="629.5" y="403.5" type="line"/>
+      <point x="663.595" y="407.907"/>
+      <point x="683.75" y="426.338"/>
+      <point x="683.75" y="456" type="curve" smooth="yes"/>
+      <point x="683.75" y="514.546"/>
+      <point x="605.75" y="549.75"/>
+      <point x="523.75" y="549.75" type="curve" smooth="yes"/>
+      <point x="386.75" y="549.75"/>
+      <point x="298.75" y="477.591"/>
+      <point x="298.75" y="391" type="curve" smooth="yes"/>
+      <point x="298.75" y="381.7"/>
+      <point x="300.407" y="365.607"/>
+      <point x="303" y="356" type="curve"/>
+      <point x="278" y="338" type="line"/>
+      <point x="273.903" y="355.752"/>
+      <point x="268.75" y="389.837"/>
+    </contour>
+    <component base="uni0DB1"/>
+  </outline>
+</glyph>
