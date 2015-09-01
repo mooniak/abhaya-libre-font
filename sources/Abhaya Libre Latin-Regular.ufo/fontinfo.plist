@@ -32,12 +32,6 @@
 	<string>Abhaya Libre Latin</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
 	<string>Regular</string>
-	<key>openTypeOS2TypoAscender</key>
-	<integer>746</integer>
-	<key>openTypeOS2TypoDescender</key>
-	<integer>-254</integer>
-	<key>openTypeOS2TypoLineGap</key>
-	<integer>36</integer>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
@@ -81,10 +75,6 @@
 		<integer>71</integer>
 		<integer>80</integer>
 	</array>
-	<key>postscriptUnderlinePosition</key>
-	<integer>-37</integer>
-	<key>postscriptUnderlineThickness</key>
-	<integer>24</integer>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>

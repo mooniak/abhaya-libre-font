@@ -14793,7 +14793,7 @@ Encoding: 476 -1 359
 GlifName: si_T_T_ha
 Width: 1016
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -21609,7 +21609,7 @@ StartChar: si_BhIi.touch
 Encoding: 529 -1 529
 Width: 670
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Back
 Fore

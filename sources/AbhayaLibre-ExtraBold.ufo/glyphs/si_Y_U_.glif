@@ -3,30 +3,30 @@
   <advance width="636"/>
   <outline>
     <contour>
-      <point x="50" y="-142.5" type="curve" smooth="yes"/>
-      <point x="50" y="-90.4912"/>
-      <point x="96.293" y="-50.5"/>
-      <point x="151.5" y="-50.5" type="curve" smooth="yes"/>
-      <point x="193.406" y="-50.5"/>
-      <point x="230.75" y="-74.1416"/>
-      <point x="245.5" y="-110" type="curve"/>
-      <point x="212.75" y="-121.5" type="line"/>
-      <point x="205.926" y="-104.358"/>
-      <point x="184.5" y="-81.75"/>
-      <point x="151.5" y="-81.75" type="curve" smooth="yes"/>
-      <point x="114.796" y="-81.75"/>
-      <point x="85.5" y="-109.716"/>
-      <point x="85.5" y="-142.5" type="curve" smooth="yes"/>
-      <point x="85.5" y="-171.663"/>
-      <point x="107.248" y="-192.5"/>
-      <point x="177" y="-192.5" type="curve" smooth="yes"/>
-      <point x="549" y="-192.5" type="line"/>
+      <point x="50" y="-142" type="curve" smooth="yes"/>
+      <point x="50" y="-90"/>
+      <point x="96" y="-50"/>
+      <point x="152" y="-50" type="curve" smooth="yes"/>
+      <point x="193" y="-50"/>
+      <point x="231" y="-74"/>
+      <point x="246" y="-110" type="curve"/>
+      <point x="213" y="-122" type="line"/>
+      <point x="206" y="-104"/>
+      <point x="184" y="-82"/>
+      <point x="152" y="-82" type="curve" smooth="yes"/>
+      <point x="115" y="-82"/>
+      <point x="86" y="-110"/>
+      <point x="86" y="-142" type="curve" smooth="yes"/>
+      <point x="86" y="-172"/>
+      <point x="107" y="-192"/>
+      <point x="177" y="-192" type="curve" smooth="yes"/>
+      <point x="549" y="-192" type="line"/>
       <point x="549" y="128" type="line"/>
-      <point x="584.25" y="219" type="line"/>
-      <point x="584.25" y="-235" type="line"/>
-      <point x="155.5" y="-235" type="line" smooth="yes"/>
-      <point x="75.957" y="-235"/>
-      <point x="50" y="-186.092"/>
+      <point x="584" y="219" type="line"/>
+      <point x="584" y="-235" type="line"/>
+      <point x="156" y="-235" type="line" smooth="yes"/>
+      <point x="76" y="-235"/>
+      <point x="50" y="-186"/>
     </contour>
     <component base="uni0DBA"/>
   </outline>

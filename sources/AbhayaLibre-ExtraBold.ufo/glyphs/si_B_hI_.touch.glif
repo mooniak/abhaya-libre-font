@@ -1,4 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_BhI.touch" format="1">
-  <advance width="0"/>
+  <advance width="670"/>
+  <outline>
+    <contour>
+      <point x="178" y="537" type="curve" smooth="yes"/>
+      <point x="178" y="628"/>
+      <point x="277" y="667"/>
+      <point x="379" y="667" type="curve" smooth="yes"/>
+      <point x="485" y="667"/>
+      <point x="587" y="618"/>
+      <point x="587" y="523" type="curve" smooth="yes"/>
+      <point x="587" y="461"/>
+      <point x="548" y="413"/>
+      <point x="467" y="407" type="curve"/>
+      <point x="449" y="431" type="line"/>
+      <point x="452" y="431"/>
+      <point x="455" y="431"/>
+      <point x="457" y="431" type="curve" smooth="yes"/>
+      <point x="515" y="431"/>
+      <point x="545" y="466"/>
+      <point x="545" y="498" type="curve" smooth="yes"/>
+      <point x="545" y="552"/>
+      <point x="466" y="566"/>
+      <point x="386" y="566" type="curve" smooth="yes"/>
+      <point x="305" y="566"/>
+      <point x="249" y="538"/>
+      <point x="249" y="503" type="curve" smooth="yes"/>
+      <point x="249" y="454"/>
+      <point x="353" y="431"/>
+      <point x="439" y="431" type="curve" smooth="yes"/>
+      <point x="440" y="431"/>
+      <point x="440" y="431"/>
+      <point x="441" y="432" type="curve"/>
+      <point x="425" y="408" type="line"/>
+      <point x="265" y="411"/>
+      <point x="178" y="462"/>
+    </contour>
+    <component base="si_Bha.touch"/>
+  </outline>
 </glyph>

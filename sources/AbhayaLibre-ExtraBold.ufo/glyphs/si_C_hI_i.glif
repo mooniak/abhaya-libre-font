@@ -3,56 +3,56 @@
   <advance width="598"/>
   <outline>
     <contour>
-      <point x="338.691" y="579" type="curve" smooth="yes"/>
-      <point x="338.691" y="552.372"/>
-      <point x="359.872" y="531.191"/>
-      <point x="386.5" y="531.191" type="curve" smooth="yes"/>
-      <point x="413.128" y="531.191"/>
-      <point x="434.309" y="552.372"/>
-      <point x="434.309" y="579" type="curve" smooth="yes"/>
-      <point x="434.309" y="605.628"/>
-      <point x="413.128" y="626.809"/>
-      <point x="386.5" y="626.809" type="curve" smooth="yes"/>
-      <point x="359.872" y="626.809"/>
-      <point x="338.691" y="605.628"/>
+      <point x="339" y="579" type="curve" smooth="yes"/>
+      <point x="339" y="552"/>
+      <point x="360" y="531"/>
+      <point x="386" y="531" type="curve" smooth="yes"/>
+      <point x="413" y="531"/>
+      <point x="434" y="552"/>
+      <point x="434" y="579" type="curve" smooth="yes"/>
+      <point x="434" y="606"/>
+      <point x="413" y="627"/>
+      <point x="386" y="627" type="curve" smooth="yes"/>
+      <point x="360" y="627"/>
+      <point x="339" y="606"/>
     </contour>
     <contour>
-      <point x="233" y="489.5" type="curve" smooth="yes"/>
-      <point x="233" y="576.568"/>
-      <point x="303.261" y="656.5"/>
-      <point x="386.75" y="656.5" type="curve" smooth="yes"/>
-      <point x="431.64" y="656.5"/>
-      <point x="463.955" y="619.452"/>
-      <point x="463.955" y="579" type="curve" smooth="yes"/>
-      <point x="463.955" y="540.549"/>
-      <point x="433.976" y="501.5"/>
-      <point x="386.75" y="501.5" type="curve" smooth="yes"/>
-      <point x="338.253" y="501.5"/>
-      <point x="314.75" y="542.459"/>
-      <point x="314.75" y="557.75" type="curve" smooth="yes"/>
-      <point x="314.75" y="558.25"/>
-      <point x="314.827" y="559.5"/>
-      <point x="314.865" y="560.25" type="curve"/>
-      <point x="303.979" y="540.937"/>
-      <point x="295" y="515.524"/>
+      <point x="233" y="490" type="curve" smooth="yes"/>
+      <point x="233" y="577"/>
+      <point x="303" y="656"/>
+      <point x="387" y="656" type="curve" smooth="yes"/>
+      <point x="432" y="656"/>
+      <point x="464" y="619"/>
+      <point x="464" y="579" type="curve" smooth="yes"/>
+      <point x="464" y="541"/>
+      <point x="434" y="502"/>
+      <point x="387" y="502" type="curve" smooth="yes"/>
+      <point x="338" y="502"/>
+      <point x="315" y="542"/>
+      <point x="315" y="558" type="curve" smooth="yes"/>
+      <point x="315" y="558"/>
+      <point x="315" y="560"/>
+      <point x="315" y="560" type="curve"/>
+      <point x="304" y="541"/>
+      <point x="295" y="516"/>
       <point x="295" y="488" type="curve" smooth="yes"/>
-      <point x="295" y="452.645"/>
-      <point x="317.348" y="429.25"/>
-      <point x="343.25" y="429.25" type="curve" smooth="yes"/>
-      <point x="352.422" y="429.25"/>
-      <point x="363.684" y="431.481"/>
-      <point x="372.25" y="436.25" type="curve"/>
-      <point x="372.249" y="436.228"/>
-      <point x="370.001" y="425.001"/>
+      <point x="295" y="453"/>
+      <point x="317" y="429"/>
+      <point x="343" y="429" type="curve" smooth="yes"/>
+      <point x="352" y="429"/>
+      <point x="364" y="431"/>
+      <point x="372" y="436" type="curve"/>
+      <point x="372" y="436"/>
+      <point x="370" y="425"/>
       <point x="370" y="425" type="curve"/>
-      <point x="357.178" y="416.842"/>
-      <point x="329.23" y="407.635"/>
+      <point x="357" y="417"/>
+      <point x="329" y="408"/>
       <point x="327" y="407" type="curve"/>
-      <point x="325.947" y="406.999"/>
-      <point x="324.051" y="406.952"/>
-      <point x="323" y="406.952" type="curve" smooth="yes"/>
-      <point x="260.125" y="406.952"/>
-      <point x="233" y="439.49"/>
+      <point x="326" y="407"/>
+      <point x="324" y="407"/>
+      <point x="323" y="407" type="curve" smooth="yes"/>
+      <point x="260" y="407"/>
+      <point x="233" y="439"/>
     </contour>
     <component base="uni0DA1"/>
   </outline>
