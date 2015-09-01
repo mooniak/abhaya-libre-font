@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051463
-ModificationTime: 1440764921
+ModificationTime: 1441002671
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,19 +495,18 @@ p185
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p186
 s."
-Encoding: sinhala_final
-Compacted: 1
+Encoding: Custom
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 195 13 12
+WinInfo: 377 13 12
 AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
-BeginChars: 65904 502
+BeginChars: 528 511
 
 StartChar: .notdef
-Encoding: 65536 -1 0
+Encoding: 501 -1 0
 GlifName: _notdef
 Width: 1
 VWidth: 0
@@ -518,7 +517,7 @@ Fore
 EndChar
 
 StartChar: si_JnyAe
-Encoding: 184 -1 1
+Encoding: 183 -1 1
 GlifName: N_ameM_e.560
 Width: 839
 VWidth: 0
@@ -589,7 +588,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyAee
-Encoding: 185 -1 2
+Encoding: 184 -1 2
 GlifName: N_ameM_e.561
 Width: 839
 VWidth: 0
@@ -670,7 +669,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyAe
-Encoding: 172 -1 3
+Encoding: 171 -1 3
 GlifName: N_ameM_e.564
 Width: 1018
 VWidth: 0
@@ -760,7 +759,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyAee
-Encoding: 173 -1 4
+Encoding: 172 -1 4
 GlifName: N_ameM_e.565
 Width: 1018
 VWidth: 0
@@ -860,7 +859,7 @@ EndSplineSet
 EndChar
 
 StartChar: zwj
-Encoding: 83 8205 5
+Encoding: 82 8205 5
 GlifName: zwj
 Width: 0
 VWidth: 0
@@ -890,7 +889,7 @@ EndSplineSet
 EndChar
 
 StartChar: zwnj
-Encoding: 82 8204 6
+Encoding: 81 8204 6
 GlifName: zwnj
 Width: 0
 VWidth: 0
@@ -909,7 +908,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_B.halant
-Encoding: 314 -1 7
+Encoding: 313 -1 7
 GlifName: si_B_.halant
 Width: 619
 VWidth: 0
@@ -960,7 +959,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_BI
-Encoding: 315 -1 8
+Encoding: 314 -1 8
 GlifName: si_B_I_
 Width: 619
 VWidth: 0
@@ -1011,7 +1010,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_BIi
-Encoding: 316 -1 9
+Encoding: 315 -1 9
 GlifName: si_B_I_i
 Width: 619
 VWidth: 0
@@ -1067,7 +1066,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_BRI
-Encoding: 321 -1 10
+Encoding: 320 -1 10
 GlifName: si_B_R_I_
 Width: 619
 VWidth: 0
@@ -1091,7 +1090,7 @@ Refer: 8 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BRIi
-Encoding: 322 -1 11
+Encoding: 321 -1 11
 GlifName: si_B_R_I_i
 Width: 619
 VWidth: 0
@@ -1115,7 +1114,7 @@ Refer: 9 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BRa
-Encoding: 320 -1 12
+Encoding: 319 -1 12
 GlifName: si_B_R_a
 Width: 619
 VWidth: 0
@@ -1139,7 +1138,7 @@ Refer: 465 3510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BU
-Encoding: 317 -1 13
+Encoding: 316 -1 13
 GlifName: si_B_U_
 Width: 619
 VWidth: 0
@@ -1167,7 +1166,7 @@ Refer: 465 3510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BUu
-Encoding: 318 -1 14
+Encoding: 317 -1 14
 GlifName: si_B_U_u
 Width: 619
 VWidth: 0
@@ -1198,7 +1197,7 @@ Refer: 465 3510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ba.reph
-Encoding: 319 -1 15
+Encoding: 318 -1 15
 GlifName: si_B_a.reph
 Width: 619
 VWidth: 0
@@ -1212,7 +1211,7 @@ Refer: 465 3510 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Bh.halant
-Encoding: 323 -1 16
+Encoding: 322 -1 16
 GlifName: si_B_h.halant
 Width: 670
 VWidth: 0
@@ -1239,7 +1238,7 @@ Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhI
-Encoding: 324 -1 17
+Encoding: 323 -1 17
 GlifName: si_B_hI_
 Width: 670
 VWidth: 0
@@ -1267,7 +1266,7 @@ Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhIi
-Encoding: 325 -1 18
+Encoding: 324 -1 18
 GlifName: si_B_hI_i
 Width: 670
 VWidth: 0
@@ -1299,7 +1298,7 @@ Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhRI
-Encoding: 330 -1 19
+Encoding: 329 -1 19
 GlifName: si_B_hR_I_
 Width: 670
 VWidth: 0
@@ -1323,7 +1322,7 @@ Refer: 17 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhRIi
-Encoding: 331 -1 20
+Encoding: 330 -1 20
 GlifName: si_B_hR_I_i
 Width: 670
 VWidth: 0
@@ -1364,7 +1363,7 @@ Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhRa
-Encoding: 329 -1 21
+Encoding: 328 -1 21
 GlifName: si_B_hR_a
 Width: 670
 VWidth: 0
@@ -1388,7 +1387,7 @@ Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_BhU
-Encoding: 326 -1 22
+Encoding: 325 -1 22
 GlifName: si_B_hU_
 Width: 670
 VWidth: 0
@@ -1448,7 +1447,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_BhUu
-Encoding: 327 -1 23
+Encoding: 326 -1 23
 GlifName: si_B_hU_u
 Width: 670
 VWidth: 0
@@ -1480,7 +1479,7 @@ Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Bha.reph
-Encoding: 328 -1 24
+Encoding: 327 -1 24
 GlifName: si_B_ha.reph
 Width: 670
 VWidth: 0
@@ -1514,7 +1513,7 @@ Refer: 466 3511 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_C.halant
-Encoding: 136 -1 25
+Encoding: 135 -1 25
 GlifName: si_C_.halant
 Width: 621
 VWidth: 0
@@ -1573,7 +1572,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_CI
-Encoding: 137 -1 26
+Encoding: 136 -1 26
 GlifName: si_C_I_
 Width: 621
 VWidth: 0
@@ -1629,7 +1628,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_CIi
-Encoding: 138 -1 27
+Encoding: 137 -1 27
 GlifName: si_C_I_i
 Width: 621
 VWidth: 0
@@ -1690,7 +1689,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_CRI
-Encoding: 143 -1 28
+Encoding: 142 -1 28
 GlifName: si_C_R_I_
 Width: 597
 VWidth: 0
@@ -1714,7 +1713,7 @@ Refer: 26 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_CRIi
-Encoding: 144 -1 29
+Encoding: 143 -1 29
 GlifName: si_C_R_I_i
 Width: 597
 VWidth: 0
@@ -1738,7 +1737,7 @@ Refer: 27 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_CRa
-Encoding: 142 -1 30
+Encoding: 141 -1 30
 GlifName: si_C_R_a
 Width: 597
 VWidth: 0
@@ -1762,7 +1761,7 @@ Refer: 444 3488 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_CU
-Encoding: 139 -1 31
+Encoding: 138 -1 31
 GlifName: si_C_U_
 Width: 597
 VWidth: 0
@@ -1790,7 +1789,7 @@ Refer: 444 3488 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_CUu
-Encoding: 140 -1 32
+Encoding: 139 -1 32
 GlifName: si_C_U_u
 Width: 597
 VWidth: 0
@@ -1821,7 +1820,7 @@ Refer: 444 3488 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ca.reph
-Encoding: 141 -1 33
+Encoding: 140 -1 33
 GlifName: si_C_a.reph
 Width: 597
 VWidth: 0
@@ -1855,7 +1854,7 @@ Refer: 444 3488 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ch.halant
-Encoding: 145 -1 34
+Encoding: 144 -1 34
 GlifName: si_C_h.halant
 Width: 598
 VWidth: 0
@@ -1882,7 +1881,7 @@ Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ChI
-Encoding: 146 -1 35
+Encoding: 145 -1 35
 GlifName: si_C_hI_
 Width: 598
 VWidth: 0
@@ -1911,7 +1910,7 @@ Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ChIi
-Encoding: 147 -1 36
+Encoding: 146 -1 36
 GlifName: si_C_hI_i
 Width: 598
 VWidth: 0
@@ -1944,7 +1943,7 @@ Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ChU
-Encoding: 148 -1 37
+Encoding: 147 -1 37
 GlifName: si_C_hU_
 Width: 598
 VWidth: 0
@@ -1972,7 +1971,7 @@ Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ChUu
-Encoding: 149 -1 38
+Encoding: 148 -1 38
 GlifName: si_C_hU_u
 Width: 598
 VWidth: 0
@@ -2003,7 +2002,7 @@ Refer: 445 3489 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_D.halant
-Encoding: 254 -1 39
+Encoding: 253 -1 39
 GlifName: si_D_.halant
 Width: 456
 VWidth: 0
@@ -2030,7 +2029,7 @@ Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DAa
-Encoding: 255 -1 40
+Encoding: 254 -1 40
 GlifName: si_D_A_a
 Width: 456
 VWidth: 0
@@ -2072,7 +2071,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DAa.halant
-Encoding: 264 -1 41
+Encoding: 263 -1 41
 GlifName: si_D_A_a.halant
 Width: 657
 VWidth: 0
@@ -2126,7 +2125,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DAae
-Encoding: 257 -1 42
+Encoding: 256 -1 42
 GlifName: si_D_A_ae
 Width: 461
 VWidth: 0
@@ -2178,7 +2177,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DAe
-Encoding: 256 -1 43
+Encoding: 255 -1 43
 GlifName: si_D_A_e
 Width: 456
 VWidth: 0
@@ -2220,7 +2219,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DDdh.halant
-Encoding: 487 -1 44
+Encoding: 486 -1 44
 GlifName: si_D_D_dh.halant
 Width: 729
 VWidth: 0
@@ -2275,7 +2274,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DDhI
-Encoding: 488 -1 45
+Encoding: 487 -1 45
 GlifName: si_D_D_hI_
 Width: 729
 VWidth: 0
@@ -2299,7 +2298,7 @@ Refer: 84 -1 N 1 0 0 1 92 0 2
 EndChar
 
 StartChar: si_DDhIi
-Encoding: 489 -1 46
+Encoding: 488 -1 46
 GlifName: si_D_D_hI_i
 Width: 729
 VWidth: 0
@@ -2323,7 +2322,7 @@ Refer: 85 -1 N 1 0 0 1 92 0 2
 EndChar
 
 StartChar: si_DDhU
-Encoding: 490 -1 47
+Encoding: 489 -1 47
 GlifName: si_D_D_hU_
 Width: 729
 VWidth: 0
@@ -2351,7 +2350,7 @@ Refer: 49 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DDhUu
-Encoding: 491 -1 48
+Encoding: 490 -1 48
 GlifName: si_D_D_hU_u
 Width: 729
 VWidth: 0
@@ -2382,7 +2381,7 @@ Refer: 49 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DDha
-Encoding: 438 -1 49
+Encoding: 437 -1 49
 GlifName: si_D_D_ha
 Width: 729
 VWidth: 0
@@ -2406,7 +2405,7 @@ Refer: 460 3504 N 1 0 0 1 93 0 2
 EndChar
 
 StartChar: si_DI
-Encoding: 258 -1 50
+Encoding: 257 -1 50
 GlifName: si_D_I_
 Width: 456
 VWidth: 0
@@ -2432,7 +2431,7 @@ Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DIi
-Encoding: 259 -1 51
+Encoding: 258 -1 51
 GlifName: si_D_I_i
 Width: 456
 VWidth: 0
@@ -2463,7 +2462,7 @@ Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DRI
-Encoding: 267 -1 52
+Encoding: 266 -1 52
 GlifName: si_D_R_I_
 Width: 456
 VWidth: 0
@@ -2513,7 +2512,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DRIi
-Encoding: 268 -1 53
+Encoding: 267 -1 53
 GlifName: si_D_R_I_i
 Width: 456
 VWidth: 0
@@ -2568,7 +2567,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DRa
-Encoding: 266 -1 54
+Encoding: 265 -1 54
 GlifName: si_D_R_a
 Width: 456
 VWidth: 0
@@ -2607,7 +2606,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DU
-Encoding: 260 -1 55
+Encoding: 259 -1 55
 GlifName: si_D_U_
 Width: 456
 VWidth: 0
@@ -2650,7 +2649,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DUu
-Encoding: 261 -1 56
+Encoding: 260 -1 56
 GlifName: si_D_U_u
 Width: 456
 VWidth: 0
@@ -2696,7 +2695,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DV.halant
-Encoding: 492 -1 57
+Encoding: 491 -1 57
 GlifName: si_D_V_.halant
 Width: 688
 VWidth: 0
@@ -2750,7 +2749,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVI
-Encoding: 493 -1 58
+Encoding: 492 -1 58
 GlifName: si_D_V_I_
 Width: 688
 VWidth: 0
@@ -2805,7 +2804,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVIi
-Encoding: 494 -1 59
+Encoding: 493 -1 59
 GlifName: si_D_V_I_i
 Width: 688
 VWidth: 0
@@ -2865,7 +2864,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVU
-Encoding: 495 -1 60
+Encoding: 494 -1 60
 GlifName: si_D_V_U_
 Width: 688
 VWidth: 0
@@ -2922,7 +2921,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVUu
-Encoding: 496 -1 61
+Encoding: 495 -1 61
 GlifName: si_D_V_U_u
 Width: 688
 VWidth: 0
@@ -2982,7 +2981,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DVa
-Encoding: 439 -1 62
+Encoding: 438 -1 62
 GlifName: si_D_V_a
 Width: 688
 VWidth: 0
@@ -3026,7 +3025,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYAa.post
-Encoding: 270 -1 63
+Encoding: 269 -1 63
 GlifName: si_D_Y_A_a.post
 Width: 787
 VWidth: 0
@@ -3092,7 +3091,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYOo.post
-Encoding: 273 -1 64
+Encoding: 272 -1 64
 GlifName: si_D_Y_O_o.post
 Width: 895
 VWidth: 0
@@ -3170,7 +3169,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYUu.post
-Encoding: 272 -1 65
+Encoding: 271 -1 65
 GlifName: si_D_Y_U_u.post
 Width: 614
 VWidth: 0
@@ -3241,7 +3240,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYa.post
-Encoding: 269 -1 66
+Encoding: 268 -1 66
 GlifName: si_D_Y_a.post
 Width: 614
 VWidth: 0
@@ -3296,7 +3295,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DYu.post
-Encoding: 271 -1 67
+Encoding: 270 -1 67
 GlifName: si_D_Y_u.post
 Width: 614
 VWidth: 0
@@ -3364,7 +3363,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Da.reph
-Encoding: 265 -1 68
+Encoding: 264 -1 68
 GlifName: si_D_a.reph
 Width: 456
 VWidth: 0
@@ -3398,7 +3397,7 @@ Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Dd.halant
-Encoding: 214 -1 69
+Encoding: 213 -1 69
 GlifName: si_D_d.halant
 Width: 647
 VWidth: 0
@@ -3455,7 +3454,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdI
-Encoding: 215 -1 70
+Encoding: 214 -1 70
 GlifName: si_D_dI_
 Width: 647
 VWidth: 0
@@ -3509,7 +3508,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdIi
-Encoding: 216 -1 71
+Encoding: 215 -1 71
 GlifName: si_D_dI_i
 Width: 647
 VWidth: 0
@@ -3568,7 +3567,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdRI
-Encoding: 221 -1 72
+Encoding: 220 -1 72
 GlifName: si_D_dR_I_
 Width: 647
 VWidth: 0
@@ -3592,7 +3591,7 @@ Refer: 70 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DdRIi
-Encoding: 222 -1 73
+Encoding: 221 -1 73
 GlifName: si_D_dR_I_i
 Width: 647
 VWidth: 0
@@ -3616,7 +3615,7 @@ Refer: 71 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DdRa
-Encoding: 220 -1 74
+Encoding: 219 -1 74
 GlifName: si_D_dR_a
 Width: 647
 VWidth: 0
@@ -3640,7 +3639,7 @@ Refer: 453 3497 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DdU
-Encoding: 217 -1 75
+Encoding: 216 -1 75
 GlifName: si_D_dU_
 Width: 647
 VWidth: 0
@@ -3668,7 +3667,7 @@ Refer: 453 3497 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DdUu
-Encoding: 218 -1 76
+Encoding: 217 -1 76
 GlifName: si_D_dU_u
 Width: 647
 VWidth: 0
@@ -3699,7 +3698,7 @@ Refer: 453 3497 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Dda.reph
-Encoding: 219 -1 77
+Encoding: 218 -1 77
 GlifName: si_D_da.reph
 Width: 647
 VWidth: 0
@@ -3733,7 +3732,7 @@ Refer: 453 3497 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ddh.halant
-Encoding: 223 -1 78
+Encoding: 222 -1 78
 GlifName: si_D_dh.halant
 Width: 647
 VWidth: 0
@@ -3795,7 +3794,7 @@ LCarets2: 1 174
 EndChar
 
 StartChar: si_DdhI
-Encoding: 224 -1 79
+Encoding: 223 -1 79
 GlifName: si_D_dhI_
 Width: 647
 VWidth: 0
@@ -3857,7 +3856,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdhIi
-Encoding: 225 -1 80
+Encoding: 224 -1 80
 GlifName: si_D_dhI_i
 Width: 647
 VWidth: 0
@@ -3924,7 +3923,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DdhU
-Encoding: 226 -1 81
+Encoding: 225 -1 81
 GlifName: si_D_dhU_
 Width: 647
 VWidth: 0
@@ -3952,7 +3951,7 @@ Refer: 454 3498 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DdhUu
-Encoding: 227 -1 82
+Encoding: 226 -1 82
 GlifName: si_D_dhU_u
 Width: 647
 VWidth: 0
@@ -3983,7 +3982,7 @@ Refer: 454 3498 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Dh.halant
-Encoding: 274 -1 83
+Encoding: 273 -1 83
 GlifName: si_D_h.halant
 Width: 638
 VWidth: 0
@@ -4029,7 +4028,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DhI
-Encoding: 275 -1 84
+Encoding: 274 -1 84
 GlifName: si_D_hI_
 Width: 638
 VWidth: 0
@@ -4074,7 +4073,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DhIi
-Encoding: 276 -1 85
+Encoding: 275 -1 85
 GlifName: si_D_hI_i
 Width: 638
 VWidth: 0
@@ -4125,7 +4124,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DhRI
-Encoding: 281 -1 86
+Encoding: 280 -1 86
 GlifName: si_D_hR_I_
 Width: 638
 VWidth: 0
@@ -4149,7 +4148,7 @@ Refer: 84 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DhRIi
-Encoding: 282 -1 87
+Encoding: 281 -1 87
 GlifName: si_D_hR_I_i
 Width: 638
 VWidth: 0
@@ -4173,7 +4172,7 @@ Refer: 85 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DhRa
-Encoding: 280 -1 88
+Encoding: 279 -1 88
 GlifName: si_D_hR_a
 Width: 638
 VWidth: 0
@@ -4197,7 +4196,7 @@ Refer: 460 3504 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DhU
-Encoding: 277 -1 89
+Encoding: 276 -1 89
 GlifName: si_D_hU_
 Width: 638
 VWidth: 0
@@ -4225,7 +4224,7 @@ Refer: 460 3504 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DhUu
-Encoding: 278 -1 90
+Encoding: 277 -1 90
 GlifName: si_D_hU_u
 Width: 638
 VWidth: 0
@@ -4256,7 +4255,7 @@ Refer: 460 3504 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Dha.reph
-Encoding: 279 -1 91
+Encoding: 278 -1 91
 GlifName: si_D_ha.reph
 Width: 638
 VWidth: 0
@@ -4290,7 +4289,7 @@ Refer: 460 3504 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DvocR
-Encoding: 262 -1 92
+Encoding: 261 -1 92
 GlifName: si_D_vocR_
 Width: 703
 VWidth: 0
@@ -4330,7 +4329,7 @@ Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_DvocRr
-Encoding: 263 -1 93
+Encoding: 262 -1 93
 GlifName: si_D_vocR_r
 Width: 962
 VWidth: 0
@@ -4395,7 +4394,7 @@ Refer: 459 3503 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_F.halant
-Encoding: 420 -1 94
+Encoding: 419 -1 94
 GlifName: si_F_.halant
 Width: 607
 VWidth: 0
@@ -4422,7 +4421,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FI
-Encoding: 421 -1 95
+Encoding: 420 -1 95
 GlifName: si_F_I_
 Width: 607
 VWidth: 0
@@ -4448,7 +4447,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FIi
-Encoding: 422 -1 96
+Encoding: 421 -1 96
 GlifName: si_F_I_i
 Width: 607
 VWidth: 0
@@ -4479,7 +4478,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FRI
-Encoding: 427 -1 97
+Encoding: 426 -1 97
 GlifName: si_F_R_I_
 Width: 607
 VWidth: 0
@@ -4514,7 +4513,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FRIi
-Encoding: 428 -1 98
+Encoding: 427 -1 98
 GlifName: si_F_R_I_i
 Width: 607
 VWidth: 0
@@ -4554,7 +4553,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FRa
-Encoding: 426 -1 99
+Encoding: 425 -1 99
 GlifName: si_F_R_a
 Width: 607
 VWidth: 0
@@ -4578,7 +4577,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FU
-Encoding: 423 -1 100
+Encoding: 422 -1 100
 GlifName: si_F_U_
 Width: 607
 VWidth: 0
@@ -4606,7 +4605,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_FUu
-Encoding: 424 -1 101
+Encoding: 423 -1 101
 GlifName: si_F_U_u
 Width: 607
 VWidth: 0
@@ -4637,7 +4636,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Fa.reph
-Encoding: 425 -1 102
+Encoding: 424 -1 102
 GlifName: si_F_a.reph
 Width: 607
 VWidth: 0
@@ -4671,7 +4670,7 @@ Refer: 478 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_G.halant
-Encoding: 109 -1 103
+Encoding: 108 -1 103
 GlifName: si_G_.halant
 Width: 636
 VWidth: 0
@@ -4698,7 +4697,7 @@ Refer: 440 3484 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GDha
-Encoding: 437 -1 104
+Encoding: 436 -1 104
 GlifName: si_G_D_ha
 Width: 942
 VWidth: 0
@@ -4734,7 +4733,7 @@ Refer: 460 3504 N 1 0 0 1 306 0 2
 EndChar
 
 StartChar: si_GI
-Encoding: 110 -1 105
+Encoding: 109 -1 105
 GlifName: si_G_I_
 Width: 636
 VWidth: 0
@@ -4786,7 +4785,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_GIi
-Encoding: 111 -1 106
+Encoding: 110 -1 106
 GlifName: si_G_I_i
 Width: 636
 VWidth: 0
@@ -4839,7 +4838,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_GR.halant
-Encoding: 116 -1 107
+Encoding: 115 -1 107
 GlifName: si_G_R_.halant
 Width: 636
 VWidth: 0
@@ -4863,7 +4862,7 @@ Refer: 103 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GRI
-Encoding: 117 -1 108
+Encoding: 116 -1 108
 GlifName: si_G_R_I_
 Width: 636
 VWidth: 0
@@ -4887,7 +4886,7 @@ Refer: 105 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GRIi
-Encoding: 118 -1 109
+Encoding: 117 -1 109
 GlifName: si_G_R_I_i
 Width: 636
 VWidth: 0
@@ -4911,7 +4910,7 @@ Refer: 106 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GRa
-Encoding: 115 -1 110
+Encoding: 114 -1 110
 GlifName: si_G_R_a
 Width: 636
 VWidth: 0
@@ -4935,7 +4934,7 @@ Refer: 440 3484 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GU
-Encoding: 112 -1 111
+Encoding: 111 -1 111
 GlifName: si_G_U_
 Width: 636
 VWidth: 0
@@ -4985,7 +4984,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_GUu
-Encoding: 113 -1 112
+Encoding: 112 -1 112
 GlifName: si_G_U_u
 Width: 636
 VWidth: 0
@@ -5017,7 +5016,7 @@ Refer: 440 3484 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ga.reph
-Encoding: 114 -1 113
+Encoding: 113 -1 113
 GlifName: si_G_a.reph
 Width: 636
 VWidth: 0
@@ -5031,7 +5030,7 @@ Refer: 440 3484 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Gh.halant
-Encoding: 119 -1 114
+Encoding: 118 -1 114
 GlifName: si_G_h.halant
 Width: 677
 VWidth: 0
@@ -5058,7 +5057,7 @@ Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhI
-Encoding: 120 -1 115
+Encoding: 119 -1 115
 GlifName: si_G_hI_
 Width: 677
 VWidth: 0
@@ -5084,7 +5083,7 @@ Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhIi
-Encoding: 121 -1 116
+Encoding: 120 -1 116
 GlifName: si_G_hI_i
 Width: 677
 VWidth: 0
@@ -5115,7 +5114,7 @@ Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhRI
-Encoding: 125 -1 117
+Encoding: 124 -1 117
 GlifName: si_G_hR_I_
 Width: 677
 VWidth: 0
@@ -5139,7 +5138,7 @@ Refer: 115 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhRIi
-Encoding: 126 -1 118
+Encoding: 125 -1 118
 GlifName: si_G_hR_I_i
 Width: 677
 VWidth: 0
@@ -5163,7 +5162,7 @@ Refer: 116 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhRa
-Encoding: 127 -1 119
+Encoding: 126 -1 119
 GlifName: si_G_hR_a
 Width: 677
 VWidth: 0
@@ -5187,7 +5186,7 @@ Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhU
-Encoding: 122 -1 120
+Encoding: 121 -1 120
 GlifName: si_G_hU_
 Width: 677
 VWidth: 0
@@ -5215,7 +5214,7 @@ Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhUu
-Encoding: 123 -1 121
+Encoding: 122 -1 121
 GlifName: si_G_hU_u
 Width: 677
 VWidth: 0
@@ -5246,7 +5245,7 @@ Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Gha.reph
-Encoding: 124 -1 122
+Encoding: 123 -1 122
 GlifName: si_G_ha.reph
 Width: 677
 VWidth: 0
@@ -5280,7 +5279,7 @@ Refer: 441 3485 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_H.halant
-Encoding: 407 -1 123
+Encoding: 406 -1 123
 GlifName: si_H_.halant
 Width: 653
 VWidth: 0
@@ -5307,7 +5306,7 @@ Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HI
-Encoding: 408 -1 124
+Encoding: 407 -1 124
 GlifName: si_H_I_
 Width: 653
 VWidth: 0
@@ -5335,7 +5334,7 @@ Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HIi
-Encoding: 409 -1 125
+Encoding: 408 -1 125
 GlifName: si_H_I_i
 Width: 653
 VWidth: 0
@@ -5367,7 +5366,7 @@ Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HRIi
-Encoding: 414 -1 126
+Encoding: 413 -1 126
 GlifName: si_H_R_I_i
 Width: 653
 VWidth: 0
@@ -5408,7 +5407,7 @@ Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HRa
-Encoding: 413 -1 127
+Encoding: 412 -1 127
 GlifName: si_H_R_a
 Width: 653
 VWidth: 0
@@ -5432,7 +5431,7 @@ Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HU
-Encoding: 410 -1 128
+Encoding: 409 -1 128
 GlifName: si_H_U_
 Width: 653
 VWidth: 0
@@ -5460,7 +5459,7 @@ Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_HUu
-Encoding: 411 -1 129
+Encoding: 410 -1 129
 GlifName: si_H_U_u
 Width: 653
 VWidth: 0
@@ -5491,7 +5490,7 @@ Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ha.reph
-Encoding: 412 -1 130
+Encoding: 411 -1 130
 GlifName: si_H_a.reph
 Width: 653
 VWidth: 0
@@ -5525,7 +5524,7 @@ Refer: 476 3524 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_J.halant
-Encoding: 150 -1 131
+Encoding: 149 -1 131
 GlifName: si_J_.halant
 Width: 598
 VWidth: 0
@@ -5552,7 +5551,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JI
-Encoding: 151 -1 132
+Encoding: 150 -1 132
 GlifName: si_J_I_
 Width: 598
 VWidth: 0
@@ -5581,7 +5580,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JIi
-Encoding: 152 -1 133
+Encoding: 151 -1 133
 GlifName: si_J_I_i
 Width: 598
 VWidth: 0
@@ -5614,7 +5613,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JRI
-Encoding: 157 -1 134
+Encoding: 156 -1 134
 GlifName: si_J_R_I_
 Width: 598
 VWidth: 0
@@ -5652,7 +5651,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JRIi
-Encoding: 158 -1 135
+Encoding: 157 -1 135
 GlifName: si_J_R_I_i
 Width: 598
 VWidth: 0
@@ -5694,7 +5693,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JRa
-Encoding: 156 -1 136
+Encoding: 155 -1 136
 GlifName: si_J_R_a
 Width: 598
 VWidth: 0
@@ -5718,7 +5717,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JU
-Encoding: 153 -1 137
+Encoding: 152 -1 137
 GlifName: si_J_U_
 Width: 598
 VWidth: 0
@@ -5746,7 +5745,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JUu
-Encoding: 154 -1 138
+Encoding: 153 -1 138
 GlifName: si_J_U_u
 Width: 598
 VWidth: 0
@@ -5777,7 +5776,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ja.reph
-Encoding: 155 -1 139
+Encoding: 154 -1 139
 GlifName: si_J_a.reph
 Width: 598
 VWidth: 0
@@ -5811,7 +5810,7 @@ Refer: 446 3490 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Jh.halant
-Encoding: 159 -1 140
+Encoding: 158 -1 140
 GlifName: si_J_h.halant
 Width: 1087
 VWidth: 0
@@ -5895,7 +5894,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JhI
-Encoding: 160 -1 141
+Encoding: 159 -1 141
 GlifName: si_J_hI_
 Width: 1087
 VWidth: 0
@@ -5948,7 +5947,7 @@ Refer: 84 -1 N 1 0 0 1 450 0 2
 EndChar
 
 StartChar: si_JhIi
-Encoding: 161 -1 142
+Encoding: 160 -1 142
 GlifName: si_J_hI_i
 Width: 1087
 VWidth: 0
@@ -6001,7 +6000,7 @@ Refer: 85 -1 N 1 0 0 1 450 0 2
 EndChar
 
 StartChar: si_JhRI
-Encoding: 168 -1 143
+Encoding: 167 -1 143
 GlifName: si_J_hR_I_
 Width: 1087
 VWidth: 0
@@ -6025,7 +6024,7 @@ Refer: 141 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhRIi
-Encoding: 169 -1 144
+Encoding: 168 -1 144
 GlifName: si_J_hR_I_i
 Width: 1087
 VWidth: 0
@@ -6049,7 +6048,7 @@ Refer: 142 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhRa
-Encoding: 167 -1 145
+Encoding: 166 -1 145
 GlifName: si_J_hR_a
 Width: 1087
 VWidth: 0
@@ -6073,7 +6072,7 @@ Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhU
-Encoding: 162 -1 146
+Encoding: 161 -1 146
 GlifName: si_J_hU_
 Width: 1087
 VWidth: 0
@@ -6101,7 +6100,7 @@ Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhU.reph
-Encoding: 165 -1 147
+Encoding: 164 -1 147
 GlifName: si_J_hU_.reph
 Width: 1087
 VWidth: 0
@@ -6135,7 +6134,7 @@ Refer: 146 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhUu
-Encoding: 163 -1 148
+Encoding: 162 -1 148
 GlifName: si_J_hU_u
 Width: 1087
 VWidth: 0
@@ -6166,7 +6165,7 @@ Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JhUu.reph
-Encoding: 166 -1 149
+Encoding: 165 -1 149
 GlifName: si_J_hU_u.reph
 Width: 1087
 VWidth: 0
@@ -6216,7 +6215,7 @@ Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Jha.reph
-Encoding: 164 -1 150
+Encoding: 163 -1 150
 GlifName: si_J_ha.reph
 Width: 1087
 VWidth: 0
@@ -6250,7 +6249,7 @@ Refer: 447 3491 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Jny.halant
-Encoding: 182 -1 151
+Encoding: 181 -1 151
 GlifName: si_J_ny.halant
 Width: 842
 VWidth: 0
@@ -6277,7 +6276,7 @@ Refer: 449 3493 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JnyAa
-Encoding: 183 -1 152
+Encoding: 182 -1 152
 GlifName: si_J_nyA_a
 Width: 842
 VWidth: 0
@@ -6348,7 +6347,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyI
-Encoding: 187 -1 153
+Encoding: 186 -1 153
 GlifName: si_J_nyI_
 Width: 842
 VWidth: 0
@@ -6375,7 +6374,7 @@ Refer: 449 3493 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JnyIi
-Encoding: 188 -1 154
+Encoding: 187 -1 154
 GlifName: si_J_nyI_i
 Width: 842
 VWidth: 0
@@ -6406,7 +6405,7 @@ Refer: 449 3493 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_JnyRI
-Encoding: 192 -1 155
+Encoding: 191 -1 155
 GlifName: si_J_nyR_I_
 Width: 842
 VWidth: 0
@@ -6486,7 +6485,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyRIi
-Encoding: 193 -1 156
+Encoding: 192 -1 156
 GlifName: si_J_nyR_I_i
 Width: 842
 VWidth: 0
@@ -6570,7 +6569,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyRa
-Encoding: 191 -1 157
+Encoding: 190 -1 157
 GlifName: si_J_nyR_a
 Width: 842
 VWidth: 0
@@ -6638,7 +6637,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyU
-Encoding: 189 -1 158
+Encoding: 188 -1 158
 GlifName: si_J_nyU_
 Width: 842
 VWidth: 0
@@ -6710,7 +6709,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyUu
-Encoding: 190 -1 159
+Encoding: 189 -1 159
 GlifName: si_J_nyU_u
 Width: 842
 VWidth: 0
@@ -6785,7 +6784,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_K.halant
-Encoding: 90 -1 160
+Encoding: 89 -1 160
 GlifName: si_K_.halant
 Width: 746
 VWidth: 0
@@ -6812,7 +6811,7 @@ Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KI
-Encoding: 91 -1 161
+Encoding: 90 -1 161
 GlifName: si_K_I_
 Width: 746
 VWidth: 0
@@ -6838,7 +6837,7 @@ Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KIi
-Encoding: 92 -1 162
+Encoding: 91 -1 162
 GlifName: si_K_I_i
 Width: 746
 VWidth: 0
@@ -6869,7 +6868,7 @@ Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KRI
-Encoding: 98 -1 163
+Encoding: 97 -1 163
 GlifName: si_K_R_I_
 Width: 746
 VWidth: 0
@@ -6893,7 +6892,7 @@ Refer: 161 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KRIi
-Encoding: 99 -1 164
+Encoding: 98 -1 164
 GlifName: si_K_R_I_i
 Width: 746
 VWidth: 0
@@ -6917,7 +6916,7 @@ Refer: 162 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KRa
-Encoding: 97 -1 165
+Encoding: 96 -1 165
 GlifName: si_K_R_a
 Width: 746
 VWidth: 0
@@ -6941,7 +6940,7 @@ Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSs.halant
-Encoding: 440 -1 166
+Encoding: 439 -1 166
 GlifName: si_K_S_s.halant
 Width: 1069
 VWidth: 0
@@ -6968,7 +6967,7 @@ Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsI
-Encoding: 441 -1 167
+Encoding: 440 -1 167
 GlifName: si_K_S_sI_
 Width: 1069
 VWidth: 0
@@ -6994,7 +6993,7 @@ Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsIi
-Encoding: 442 -1 168
+Encoding: 441 -1 168
 GlifName: si_K_S_sI_i
 Width: 1069
 VWidth: 0
@@ -7025,7 +7024,7 @@ Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsU
-Encoding: 443 -1 169
+Encoding: 442 -1 169
 GlifName: si_K_S_sU_
 Width: 1069
 VWidth: 0
@@ -7053,7 +7052,7 @@ Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsUu
-Encoding: 444 -1 170
+Encoding: 443 -1 170
 GlifName: si_K_S_sU_u
 Width: 1069
 VWidth: 0
@@ -7084,7 +7083,7 @@ Refer: 171 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KSsa
-Encoding: 429 -1 171
+Encoding: 428 -1 171
 GlifName: si_K_S_sa
 Width: 1069
 VWidth: 0
@@ -7175,7 +7174,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KU
-Encoding: 93 -1 172
+Encoding: 92 -1 172
 GlifName: si_K_U_
 Width: 746
 VWidth: 0
@@ -7242,7 +7241,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KU.reph
-Encoding: 96 -1 173
+Encoding: 95 -1 173
 GlifName: si_K_U_.reph
 Width: 746
 VWidth: 0
@@ -7256,7 +7255,7 @@ Refer: 172 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KUu
-Encoding: 94 -1 174
+Encoding: 93 -1 174
 GlifName: si_K_U_u
 Width: 746
 VWidth: 0
@@ -7288,7 +7287,7 @@ Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KV.halant
-Encoding: 445 -1 175
+Encoding: 444 -1 175
 GlifName: si_K_V_.halant
 Width: 1061
 VWidth: 0
@@ -7374,7 +7373,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KVI
-Encoding: 446 -1 176
+Encoding: 445 -1 176
 GlifName: si_K_V_I_
 Width: 1061
 VWidth: 0
@@ -7429,7 +7428,7 @@ Refer: 396 -1 N 1 0 0 1 465 0 2
 EndChar
 
 StartChar: si_KVIi
-Encoding: 447 -1 177
+Encoding: 446 -1 177
 GlifName: si_K_V_I_i
 Width: 1061
 VWidth: 0
@@ -7484,7 +7483,7 @@ Refer: 397 -1 N 1 0 0 1 465 0 2
 EndChar
 
 StartChar: si_KVU
-Encoding: 448 -1 178
+Encoding: 447 -1 178
 GlifName: si_K_V_U_
 Width: 1061
 VWidth: 0
@@ -7512,7 +7511,7 @@ Refer: 180 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KVUu
-Encoding: 449 -1 179
+Encoding: 448 -1 179
 GlifName: si_K_V_U_u
 Width: 1061
 VWidth: 0
@@ -7543,7 +7542,7 @@ Refer: 180 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KVa
-Encoding: 430 -1 180
+Encoding: 429 -1 180
 GlifName: si_K_V_a
 Width: 1061
 VWidth: 0
@@ -7619,7 +7618,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ka.reph
-Encoding: 95 -1 181
+Encoding: 94 -1 181
 GlifName: si_K_a.reph
 Width: 746
 VWidth: 0
@@ -7633,7 +7632,7 @@ Refer: 438 3482 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Kh.halant
-Encoding: 100 -1 182
+Encoding: 99 -1 182
 GlifName: si_K_h.halant
 Width: 630
 VWidth: 0
@@ -7690,7 +7689,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhI
-Encoding: 101 -1 183
+Encoding: 100 -1 183
 GlifName: si_K_hI_
 Width: 630
 VWidth: 0
@@ -7745,7 +7744,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhIi
-Encoding: 102 -1 184
+Encoding: 101 -1 184
 GlifName: si_K_hI_i
 Width: 630
 VWidth: 0
@@ -7805,7 +7804,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhR.halant
-Encoding: 106 -1 185
+Encoding: 105 -1 185
 GlifName: si_K_hR_.halant
 Width: 630
 VWidth: 0
@@ -7872,7 +7871,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhRI
-Encoding: 107 -1 186
+Encoding: 106 -1 186
 GlifName: si_K_hR_I_
 Width: 630
 VWidth: 0
@@ -7936,7 +7935,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhRIi
-Encoding: 108 -1 187
+Encoding: 107 -1 187
 GlifName: si_K_hR_I_i
 Width: 630
 VWidth: 0
@@ -8005,7 +8004,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KhRa
-Encoding: 105 -1 188
+Encoding: 104 -1 188
 GlifName: si_K_hR_a
 Width: 630
 VWidth: 0
@@ -8029,7 +8028,7 @@ Refer: 439 3483 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KhU
-Encoding: 103 -1 189
+Encoding: 102 -1 189
 GlifName: si_K_hU_
 Width: 630
 VWidth: 0
@@ -8057,7 +8056,7 @@ Refer: 439 3483 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_KhUu
-Encoding: 104 -1 190
+Encoding: 103 -1 190
 GlifName: si_K_hU_u
 Width: 630
 VWidth: 0
@@ -8088,7 +8087,7 @@ Refer: 439 3483 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_L.halant
-Encoding: 366 -1 191
+Encoding: 365 -1 191
 GlifName: si_L_.halant
 Width: 670
 VWidth: 0
@@ -8115,7 +8114,7 @@ Refer: 471 3517 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LI
-Encoding: 367 -1 192
+Encoding: 366 -1 192
 GlifName: si_L_I_
 Width: 670
 VWidth: 0
@@ -8142,7 +8141,7 @@ Refer: 471 3517 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LIi
-Encoding: 368 -1 193
+Encoding: 367 -1 193
 GlifName: si_L_I_i
 Width: 670
 VWidth: 0
@@ -8174,7 +8173,7 @@ Refer: 471 3517 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LU
-Encoding: 369 -1 194
+Encoding: 368 -1 194
 GlifName: si_L_U_
 Width: 670
 VWidth: 0
@@ -8221,7 +8220,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_LUu
-Encoding: 370 -1 195
+Encoding: 369 -1 195
 GlifName: si_L_U_u
 Width: 670
 VWidth: 0
@@ -8271,7 +8270,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ll.halant
-Encoding: 415 -1 196
+Encoding: 414 -1 196
 GlifName: si_L_l.halant
 Width: 636
 VWidth: 0
@@ -8298,7 +8297,7 @@ Refer: 477 3525 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LlI
-Encoding: 416 -1 197
+Encoding: 415 -1 197
 GlifName: si_L_lI_
 Width: 636
 VWidth: 0
@@ -8325,7 +8324,7 @@ Refer: 477 3525 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LlIi
-Encoding: 417 -1 198
+Encoding: 416 -1 198
 GlifName: si_L_lI_i
 Width: 636
 VWidth: 0
@@ -8357,7 +8356,7 @@ Refer: 477 3525 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_LlU
-Encoding: 418 -1 199
+Encoding: 417 -1 199
 GlifName: si_L_lU_
 Width: 662
 VWidth: 0
@@ -8408,7 +8407,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_LlUu
-Encoding: 419 -1 200
+Encoding: 418 -1 200
 GlifName: si_L_lU_u
 Width: 929
 VWidth: 0
@@ -8440,7 +8439,7 @@ Refer: 199 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_M.halant
-Encoding: 332 -1 201
+Encoding: 331 -1 201
 GlifName: si_M_.halant
 Width: 635
 VWidth: 0
@@ -8499,7 +8498,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MI
-Encoding: 333 -1 202
+Encoding: 332 -1 202
 GlifName: si_M_I_
 Width: 635
 VWidth: 0
@@ -8555,7 +8554,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MIi
-Encoding: 334 -1 203
+Encoding: 333 -1 203
 GlifName: si_M_I_i
 Width: 635
 VWidth: 0
@@ -8616,7 +8615,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MRI
-Encoding: 339 -1 204
+Encoding: 338 -1 204
 GlifName: si_M_R_I_
 Width: 635
 VWidth: 0
@@ -8681,7 +8680,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MRIi
-Encoding: 340 -1 205
+Encoding: 339 -1 205
 GlifName: si_M_R_I_i
 Width: 635
 VWidth: 0
@@ -8751,7 +8750,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MRa
-Encoding: 338 -1 206
+Encoding: 337 -1 206
 GlifName: si_M_R_a
 Width: 635
 VWidth: 0
@@ -8775,7 +8774,7 @@ Refer: 467 3512 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MU
-Encoding: 335 -1 207
+Encoding: 334 -1 207
 GlifName: si_M_U_
 Width: 635
 VWidth: 0
@@ -8803,7 +8802,7 @@ Refer: 467 3512 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MUu
-Encoding: 336 -1 208
+Encoding: 335 -1 208
 GlifName: si_M_U_u
 Width: 635
 VWidth: 0
@@ -8834,7 +8833,7 @@ Refer: 467 3512 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ma.reph
-Encoding: 337 -1 209
+Encoding: 336 -1 209
 GlifName: si_M_a.reph
 Width: 635
 VWidth: 0
@@ -8868,7 +8867,7 @@ Refer: 467 3512 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MatraAa.halant
-Encoding: 85 -1 210
+Encoding: 84 -1 210
 GlifName: si_M_atraA_a.halant
 Width: 350
 VWidth: 0
@@ -8882,7 +8881,7 @@ Refer: 479 3530 N 1 0 0 1 317 0 2
 EndChar
 
 StartChar: si_MatraU.alt
-Encoding: 86 -1 211
+Encoding: 85 -1 211
 GlifName: si_M_atraU_.alt
 Width: 2
 VWidth: 0
@@ -8907,7 +8906,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraUu.alt
-Encoding: 87 -1 212
+Encoding: 86 -1 212
 GlifName: si_M_atraU_u.alt
 Width: 746
 VWidth: 0
@@ -8938,12 +8937,12 @@ EndSplineSet
 EndChar
 
 StartChar: si_Mb.halant
-Encoding: 341 -1 213
+Encoding: 340 -1 213
 GlifName: si_M_b.halant
 Width: 636
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
@@ -9009,7 +9008,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MbI
-Encoding: 342 -1 214
+Encoding: 341 -1 214
 GlifName: si_M_bI_
 Width: 636
 VWidth: 0
@@ -9079,7 +9078,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MbIi
-Encoding: 343 -1 215
+Encoding: 342 -1 215
 GlifName: si_M_bI_i
 Width: 636
 VWidth: 0
@@ -9154,7 +9153,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MbU
-Encoding: 344 -1 216
+Encoding: 343 -1 216
 GlifName: si_M_bU_
 Width: 636
 VWidth: 0
@@ -9182,7 +9181,7 @@ Refer: 468 3513 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MbUu
-Encoding: 345 -1 217
+Encoding: 344 -1 217
 GlifName: si_M_bU_u
 Width: 636
 VWidth: 0
@@ -9213,7 +9212,7 @@ Refer: 468 3513 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_N.halant
-Encoding: 283 -1 218
+Encoding: 282 -1 218
 GlifName: si_N_.halant
 Width: 806
 VWidth: 0
@@ -9240,7 +9239,7 @@ Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ND.halant
-Encoding: 455 -1 219
+Encoding: 454 -1 219
 GlifName: si_N_D_.halant
 Width: 894
 VWidth: 0
@@ -9267,7 +9266,7 @@ Refer: 230 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDAa
-Encoding: 456 -1 220
+Encoding: 455 -1 220
 GlifName: si_N_D_A_a
 Width: 937
 VWidth: 0
@@ -9307,7 +9306,7 @@ Refer: 40 -1 N 1 0 0 1 438 0 2
 EndChar
 
 StartChar: si_NDAe
-Encoding: 457 -1 221
+Encoding: 456 -1 221
 GlifName: si_N_D_A_e
 Width: 893
 VWidth: 0
@@ -9347,7 +9346,7 @@ Refer: 43 -1 N 1 0 0 1 439 0 2
 EndChar
 
 StartChar: si_NDAee
-Encoding: 458 -1 222
+Encoding: 457 -1 222
 GlifName: si_N_D_A_ee
 Width: 903
 VWidth: 0
@@ -9387,7 +9386,7 @@ Refer: 42 -1 N 1 0 0 1 439 0 2
 EndChar
 
 StartChar: si_NDI
-Encoding: 459 -1 223
+Encoding: 458 -1 223
 GlifName: si_N_D_I_
 Width: 894
 VWidth: 0
@@ -9413,7 +9412,7 @@ Refer: 230 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDIi
-Encoding: 460 -1 224
+Encoding: 459 -1 224
 GlifName: si_N_D_I_i
 Width: 894
 VWidth: 0
@@ -9444,7 +9443,7 @@ Refer: 230 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDRI
-Encoding: 464 -1 225
+Encoding: 463 -1 225
 GlifName: si_N_D_R_I_
 Width: 894
 VWidth: 0
@@ -9519,7 +9518,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDRIi
-Encoding: 465 -1 226
+Encoding: 464 -1 226
 GlifName: si_N_D_R_I_i
 Width: 894
 VWidth: 0
@@ -9599,7 +9598,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDRa
-Encoding: 463 -1 227
+Encoding: 462 -1 227
 GlifName: si_N_D_R_a
 Width: 894
 VWidth: 0
@@ -9663,7 +9662,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDU
-Encoding: 461 -1 228
+Encoding: 460 -1 228
 GlifName: si_N_D_U_
 Width: 894
 VWidth: 0
@@ -9731,7 +9730,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDUu
-Encoding: 462 -1 229
+Encoding: 461 -1 229
 GlifName: si_N_D_U_u
 Width: 894
 VWidth: 0
@@ -9802,7 +9801,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NDa
-Encoding: 432 -1 230
+Encoding: 431 -1 230
 GlifName: si_N_D_a
 Width: 894
 VWidth: 0
@@ -9842,7 +9841,7 @@ Refer: 459 3503 N 1 0 0 1 439 0 2
 EndChar
 
 StartChar: si_NDhI
-Encoding: 451 -1 231
+Encoding: 450 -1 231
 GlifName: si_N_D_hI_
 Width: 1078
 VWidth: 0
@@ -9882,7 +9881,7 @@ Refer: 84 -1 N 1 0 0 1 441 0 2
 EndChar
 
 StartChar: si_NDhIi
-Encoding: 452 -1 232
+Encoding: 451 -1 232
 GlifName: si_N_D_hI_i
 Width: 1078
 VWidth: 0
@@ -9922,7 +9921,7 @@ Refer: 85 -1 N 1 0 0 1 440 0 2
 EndChar
 
 StartChar: si_NDhU
-Encoding: 453 -1 233
+Encoding: 452 -1 233
 GlifName: si_N_D_hU_
 Width: 1078
 VWidth: 0
@@ -9950,7 +9949,7 @@ Refer: 235 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDhUu
-Encoding: 454 -1 234
+Encoding: 453 -1 234
 GlifName: si_N_D_hU_u
 Width: 1078
 VWidth: 0
@@ -9981,7 +9980,7 @@ Refer: 235 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NDha
-Encoding: 431 -1 235
+Encoding: 430 -1 235
 GlifName: si_N_D_ha
 Width: 1078
 VWidth: 0
@@ -10021,7 +10020,7 @@ Refer: 460 3504 N 1 0 0 1 441 0 2
 EndChar
 
 StartChar: si_NDha.halnt
-Encoding: 450 -1 236
+Encoding: 449 -1 236
 GlifName: si_N_D_ha.halnt
 Width: 1078
 VWidth: 0
@@ -10092,7 +10091,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NI
-Encoding: 284 -1 237
+Encoding: 283 -1 237
 GlifName: si_N_I_
 Width: 806
 VWidth: 0
@@ -10118,7 +10117,7 @@ Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NIi
-Encoding: 285 -1 238
+Encoding: 284 -1 238
 GlifName: si_N_I_i
 Width: 806
 VWidth: 0
@@ -10150,7 +10149,7 @@ Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NTh.halant
-Encoding: 466 -1 239
+Encoding: 465 -1 239
 GlifName: si_N_T_h.halant
 Width: 1046
 VWidth: 0
@@ -10190,7 +10189,7 @@ Refer: 368 -1 N 1 0 0 1 450 0 2
 EndChar
 
 StartChar: si_NThI
-Encoding: 467 -1 240
+Encoding: 466 -1 240
 GlifName: si_N_T_hI_
 Width: 1046
 VWidth: 0
@@ -10218,7 +10217,7 @@ Refer: 244 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NThIi
-Encoding: 468 -1 241
+Encoding: 467 -1 241
 GlifName: si_N_T_hI_i
 Width: 1046
 VWidth: 0
@@ -10294,7 +10293,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NThU
-Encoding: 469 -1 242
+Encoding: 468 -1 242
 GlifName: si_N_T_hU_
 Width: 1046
 VWidth: 0
@@ -10322,7 +10321,7 @@ Refer: 244 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NThUu
-Encoding: 470 -1 243
+Encoding: 469 -1 243
 GlifName: si_N_T_hU_u
 Width: 1046
 VWidth: 0
@@ -10353,7 +10352,7 @@ Refer: 244 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NTha
-Encoding: 433 -1 244
+Encoding: 432 -1 244
 GlifName: si_N_T_ha
 Width: 1046
 VWidth: 0
@@ -10393,7 +10392,7 @@ Refer: 458 3502 N 1 0 0 1 433 0 2
 EndChar
 
 StartChar: si_NU
-Encoding: 286 -1 245
+Encoding: 285 -1 245
 GlifName: si_N_U_
 Width: 806
 VWidth: 0
@@ -10421,7 +10420,7 @@ Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NUu
-Encoding: 287 -1 246
+Encoding: 286 -1 246
 GlifName: si_N_U_u
 Width: 806
 VWidth: 0
@@ -10452,7 +10451,7 @@ Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NV.halant
-Encoding: 471 -1 247
+Encoding: 470 -1 247
 GlifName: si_N_V_.halant
 Width: 1032
 VWidth: 0
@@ -10522,7 +10521,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NVI
-Encoding: 472 -1 248
+Encoding: 471 -1 248
 GlifName: si_N_V_I_
 Width: 1032
 VWidth: 0
@@ -10561,7 +10560,7 @@ Refer: 396 -1 N 1 0 0 1 437 0 2
 EndChar
 
 StartChar: si_NVIi
-Encoding: 473 -1 249
+Encoding: 472 -1 249
 GlifName: si_N_V_I_i
 Width: 1032
 VWidth: 0
@@ -10600,7 +10599,7 @@ Refer: 397 -1 N 1 0 0 1 437 0 2
 EndChar
 
 StartChar: si_NVU
-Encoding: 474 -1 250
+Encoding: 473 -1 250
 GlifName: si_N_V_U_
 Width: 1032
 VWidth: 0
@@ -10628,7 +10627,7 @@ Refer: 252 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NVUu
-Encoding: 475 -1 251
+Encoding: 474 -1 251
 GlifName: si_N_V_U_u
 Width: 1032
 VWidth: 0
@@ -10659,7 +10658,7 @@ Refer: 252 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NVa
-Encoding: 434 -1 252
+Encoding: 433 -1 252
 GlifName: si_N_V_a
 Width: 1032
 VWidth: 0
@@ -10719,7 +10718,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Na.reph
-Encoding: 288 -1 253
+Encoding: 287 -1 253
 GlifName: si_N_a.reph
 Width: 806
 VWidth: 0
@@ -10753,7 +10752,7 @@ Refer: 461 3505 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Nd.halant
-Encoding: 289 -1 254
+Encoding: 288 -1 254
 GlifName: si_N_d.halant
 Width: 538
 VWidth: 0
@@ -10780,7 +10779,7 @@ Refer: 462 3507 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdAa
-Encoding: 290 -1 255
+Encoding: 289 -1 255
 GlifName: si_N_dA_a
 Width: 546
 VWidth: 0
@@ -10830,7 +10829,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdAae
-Encoding: 292 -1 256
+Encoding: 291 -1 256
 GlifName: si_N_dA_ae
 Width: 540
 VWidth: 0
@@ -10890,7 +10889,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdAe
-Encoding: 291 -1 257
+Encoding: 290 -1 257
 GlifName: si_N_dA_e
 Width: 540
 VWidth: 0
@@ -10940,7 +10939,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdI
-Encoding: 294 -1 258
+Encoding: 293 -1 258
 GlifName: si_N_dI_
 Width: 538
 VWidth: 0
@@ -10966,7 +10965,7 @@ Refer: 462 3507 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdIi
-Encoding: 295 -1 259
+Encoding: 294 -1 259
 GlifName: si_N_dI_i
 Width: 538
 VWidth: 0
@@ -10997,7 +10996,7 @@ Refer: 462 3507 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdRa
-Encoding: 298 -1 260
+Encoding: 297 -1 260
 GlifName: si_N_dR_a
 Width: 538
 VWidth: 0
@@ -11044,7 +11043,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdU
-Encoding: 296 -1 261
+Encoding: 295 -1 261
 GlifName: si_N_dU_
 Width: 538
 VWidth: 0
@@ -11095,7 +11094,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdUu
-Encoding: 297 -1 262
+Encoding: 296 -1 262
 GlifName: si_N_dU_u
 Width: 538
 VWidth: 0
@@ -11149,7 +11148,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ndj.halant
-Encoding: 194 -1 263
+Encoding: 193 -1 263
 GlifName: si_N_dj.halant
 Width: 699
 VWidth: 0
@@ -11176,7 +11175,7 @@ Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjI
-Encoding: 195 -1 264
+Encoding: 194 -1 264
 GlifName: si_N_djI_
 Width: 699
 VWidth: 0
@@ -11205,7 +11204,7 @@ Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjIi
-Encoding: 196 -1 265
+Encoding: 195 -1 265
 GlifName: si_N_djI_i
 Width: 699
 VWidth: 0
@@ -11238,7 +11237,7 @@ Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjRa
-Encoding: 199 -1 266
+Encoding: 198 -1 266
 GlifName: si_N_djR_a
 Width: 699
 VWidth: 0
@@ -11262,7 +11261,7 @@ Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjU
-Encoding: 197 -1 267
+Encoding: 196 -1 267
 GlifName: si_N_djU_
 Width: 699
 VWidth: 0
@@ -11290,7 +11289,7 @@ Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NdjUu
-Encoding: 198 -1 268
+Encoding: 197 -1 268
 GlifName: si_N_djU_u
 Width: 699
 VWidth: 0
@@ -11321,7 +11320,7 @@ Refer: 450 3494 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ng.halant
-Encoding: 128 -1 269
+Encoding: 127 -1 269
 GlifName: si_N_g.halant
 Width: 617
 VWidth: 0
@@ -11384,7 +11383,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NgI
-Encoding: 129 -1 270
+Encoding: 128 -1 270
 GlifName: si_N_gI_
 Width: 617
 VWidth: 0
@@ -11444,7 +11443,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NgIi
-Encoding: 130 -1 271
+Encoding: 129 -1 271
 GlifName: si_N_gI_i
 Width: 617
 VWidth: 0
@@ -11509,7 +11508,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Nn.halant
-Encoding: 228 -1 272
+Encoding: 227 -1 272
 GlifName: si_N_n.halant
 Width: 963
 VWidth: 0
@@ -11588,7 +11587,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnI
-Encoding: 229 -1 273
+Encoding: 228 -1 273
 GlifName: si_N_nI_
 Width: 963
 VWidth: 0
@@ -11614,7 +11613,7 @@ Refer: 455 3499 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NnIi
-Encoding: 230 -1 274
+Encoding: 229 -1 274
 GlifName: si_N_nI_i
 Width: 963
 VWidth: 0
@@ -11697,7 +11696,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnU
-Encoding: 231 -1 275
+Encoding: 230 -1 275
 GlifName: si_N_nU_
 Width: 963
 VWidth: 0
@@ -11725,7 +11724,7 @@ Refer: 455 3499 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NnUu
-Encoding: 232 -1 276
+Encoding: 231 -1 276
 GlifName: si_N_nU_u
 Width: 963
 VWidth: 0
@@ -11756,7 +11755,7 @@ Refer: 455 3499 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Nna.reph
-Encoding: 233 -1 277
+Encoding: 232 -1 277
 GlifName: si_N_na.reph
 Width: 963
 VWidth: 0
@@ -11790,7 +11789,7 @@ Refer: 455 3499 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Nndd.halant
-Encoding: 234 -1 278
+Encoding: 233 -1 278
 GlifName: si_N_ndd.halant
 Width: 731
 VWidth: 0
@@ -11855,7 +11854,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnddI
-Encoding: 235 -1 279
+Encoding: 234 -1 279
 GlifName: si_N_nddI_
 Width: 731
 VWidth: 0
@@ -11917,7 +11916,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnddIi
-Encoding: 236 -1 280
+Encoding: 235 -1 280
 GlifName: si_N_nddI_i
 Width: 731
 VWidth: 0
@@ -11984,7 +11983,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NnddU
-Encoding: 237 -1 281
+Encoding: 236 -1 281
 GlifName: si_N_nddU_
 Width: 731
 VWidth: 0
@@ -12012,7 +12011,7 @@ Refer: 456 3500 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NnddUu
-Encoding: 238 -1 282
+Encoding: 237 -1 282
 GlifName: si_N_nddU_u
 Width: 731
 VWidth: 0
@@ -12043,7 +12042,7 @@ Refer: 456 3500 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Nng.halant
-Encoding: 131 -1 283
+Encoding: 130 -1 283
 GlifName: si_N_ng.halant
 Width: 749
 VWidth: 0
@@ -12070,7 +12069,7 @@ Refer: 443 3487 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NngI
-Encoding: 132 -1 284
+Encoding: 131 -1 284
 GlifName: si_N_ngI_
 Width: 749
 VWidth: 0
@@ -12130,7 +12129,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NngIi
-Encoding: 133 -1 285
+Encoding: 132 -1 285
 GlifName: si_N_ngI_i
 Width: 749
 VWidth: 0
@@ -12194,7 +12193,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NngU
-Encoding: 134 -1 286
+Encoding: 133 -1 286
 GlifName: si_N_ngU_
 Width: 749
 VWidth: 0
@@ -12252,7 +12251,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NngUu
-Encoding: 135 -1 287
+Encoding: 134 -1 287
 GlifName: si_N_ngU_u
 Width: 749
 VWidth: 0
@@ -12284,7 +12283,7 @@ Refer: 443 3487 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ny.halant
-Encoding: 170 -1 288
+Encoding: 169 -1 288
 GlifName: si_N_y.halant
 Width: 1024
 VWidth: 0
@@ -12311,7 +12310,7 @@ Refer: 448 3492 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NyAa
-Encoding: 171 -1 289
+Encoding: 170 -1 289
 GlifName: si_N_yA_a
 Width: 1024
 VWidth: 0
@@ -12401,7 +12400,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyI
-Encoding: 175 -1 290
+Encoding: 174 -1 290
 GlifName: si_N_yI_
 Width: 1024
 VWidth: 0
@@ -12428,7 +12427,7 @@ Refer: 448 3492 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NyIi
-Encoding: 176 -1 291
+Encoding: 175 -1 291
 GlifName: si_N_yI_i
 Width: 1024
 VWidth: 0
@@ -12459,7 +12458,7 @@ Refer: 448 3492 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_NyRI
-Encoding: 180 -1 292
+Encoding: 179 -1 292
 GlifName: si_N_yR_I_
 Width: 1024
 VWidth: 0
@@ -12558,7 +12557,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyRIi
-Encoding: 181 -1 293
+Encoding: 180 -1 293
 GlifName: si_N_yR_I_i
 Width: 1024
 VWidth: 0
@@ -12661,7 +12660,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyRa
-Encoding: 179 -1 294
+Encoding: 178 -1 294
 GlifName: si_N_yR_a
 Width: 1024
 VWidth: 0
@@ -12748,7 +12747,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyU
-Encoding: 177 -1 295
+Encoding: 176 -1 295
 GlifName: si_N_yU_
 Width: 1024
 VWidth: 0
@@ -12839,7 +12838,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyUu
-Encoding: 178 -1 296
+Encoding: 177 -1 296
 GlifName: si_N_yU_u
 Width: 1024
 VWidth: 0
@@ -12933,7 +12932,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_P.halant
-Encoding: 299 -1 297
+Encoding: 298 -1 297
 GlifName: si_P_.halant
 Width: 616
 VWidth: 0
@@ -12960,7 +12959,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PI
-Encoding: 300 -1 298
+Encoding: 299 -1 298
 GlifName: si_P_I_
 Width: 616
 VWidth: 0
@@ -12986,7 +12985,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PIi
-Encoding: 301 -1 299
+Encoding: 300 -1 299
 GlifName: si_P_I_i
 Width: 616
 VWidth: 0
@@ -13017,7 +13016,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PRI
-Encoding: 306 -1 300
+Encoding: 305 -1 300
 GlifName: si_P_R_I_
 Width: 616
 VWidth: 0
@@ -13052,7 +13051,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PRIi
-Encoding: 307 -1 301
+Encoding: 306 -1 301
 GlifName: si_P_R_I_i
 Width: 616
 VWidth: 0
@@ -13092,7 +13091,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PRa
-Encoding: 305 -1 302
+Encoding: 304 -1 302
 GlifName: si_P_R_a
 Width: 616
 VWidth: 0
@@ -13116,7 +13115,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PU
-Encoding: 302 -1 303
+Encoding: 301 -1 303
 GlifName: si_P_U_
 Width: 616
 VWidth: 0
@@ -13144,7 +13143,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PUu
-Encoding: 303 -1 304
+Encoding: 302 -1 304
 GlifName: si_P_U_u
 Width: 616
 VWidth: 0
@@ -13175,7 +13174,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Pa.reph
-Encoding: 304 -1 305
+Encoding: 303 -1 305
 GlifName: si_P_a.reph
 Width: 616
 VWidth: 0
@@ -13209,7 +13208,7 @@ Refer: 463 3508 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ph.halant
-Encoding: 308 -1 306
+Encoding: 307 -1 306
 GlifName: si_P_h.halant
 Width: 583
 VWidth: 0
@@ -13263,7 +13262,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_PhI
-Encoding: 309 -1 307
+Encoding: 308 -1 307
 GlifName: si_P_hI_
 Width: 583
 VWidth: 0
@@ -13291,7 +13290,7 @@ Refer: 464 3509 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PhIi
-Encoding: 310 -1 308
+Encoding: 309 -1 308
 GlifName: si_P_hI_i
 Width: 583
 VWidth: 0
@@ -13324,7 +13323,7 @@ Refer: 464 3509 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PhU
-Encoding: 311 -1 309
+Encoding: 310 -1 309
 GlifName: si_P_hU_
 Width: 583
 VWidth: 0
@@ -13352,7 +13351,7 @@ Refer: 464 3509 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_PhUu
-Encoding: 312 -1 310
+Encoding: 311 -1 310
 GlifName: si_P_hU_u
 Width: 583
 VWidth: 0
@@ -13383,7 +13382,7 @@ Refer: 464 3509 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Pha.reph
-Encoding: 313 -1 311
+Encoding: 312 -1 311
 GlifName: si_P_ha.reph
 Width: 583
 VWidth: 0
@@ -13444,7 +13443,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_R.halant
-Encoding: 359 -1 312
+Encoding: 358 -1 312
 GlifName: si_R_.halant
 Width: 528
 VWidth: 0
@@ -13471,7 +13470,7 @@ Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RAae
-Encoding: 361 -1 313
+Encoding: 360 -1 313
 GlifName: si_R_A_ae
 Width: 681
 VWidth: 0
@@ -13508,7 +13507,7 @@ Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RAe
-Encoding: 360 -1 314
+Encoding: 359 -1 314
 GlifName: si_R_A_e
 Width: 681
 VWidth: 0
@@ -13534,7 +13533,7 @@ Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RI
-Encoding: 362 -1 315
+Encoding: 361 -1 315
 GlifName: si_R_I_
 Width: 528
 VWidth: 0
@@ -13561,7 +13560,7 @@ Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RIi
-Encoding: 363 -1 316
+Encoding: 362 -1 316
 GlifName: si_R_I_i
 Width: 528
 VWidth: 0
@@ -13607,7 +13606,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_RU
-Encoding: 364 -1 317
+Encoding: 363 -1 317
 GlifName: si_R_U_
 Width: 813
 VWidth: 0
@@ -13634,7 +13633,7 @@ Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_RUu
-Encoding: 365 -1 318
+Encoding: 364 -1 318
 GlifName: si_R_U_u
 Width: 813
 VWidth: 0
@@ -13666,7 +13665,7 @@ Refer: 470 3515 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Rakar
-Encoding: 89 -1 319
+Encoding: 88 -1 319
 GlifName: si_R_akar
 Width: 2
 VWidth: 0
@@ -13689,7 +13688,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Reph
-Encoding: 88 -1 320
+Encoding: 87 -1 320
 GlifName: si_R_eph
 Width: 2
 VWidth: 0
@@ -13722,7 +13721,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_S.halant
-Encoding: 398 -1 321
+Encoding: 397 -1 321
 GlifName: si_S_.halant
 Width: 677
 VWidth: 0
@@ -13749,7 +13748,7 @@ Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SI
-Encoding: 399 -1 322
+Encoding: 398 -1 322
 GlifName: si_S_I_
 Width: 677
 VWidth: 0
@@ -13775,7 +13774,7 @@ Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SIi
-Encoding: 400 -1 323
+Encoding: 399 -1 323
 GlifName: si_S_I_i
 Width: 677
 VWidth: 0
@@ -13806,7 +13805,7 @@ Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SRI
-Encoding: 405 -1 324
+Encoding: 404 -1 324
 GlifName: si_S_R_I_
 Width: 677
 VWidth: 0
@@ -13830,7 +13829,7 @@ Refer: 322 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SRIi
-Encoding: 406 -1 325
+Encoding: 405 -1 325
 GlifName: si_S_R_I_i
 Width: 677
 VWidth: 0
@@ -13854,7 +13853,7 @@ Refer: 323 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SRa
-Encoding: 404 -1 326
+Encoding: 403 -1 326
 GlifName: si_S_R_a
 Width: 677
 VWidth: 0
@@ -13878,7 +13877,7 @@ Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SU
-Encoding: 401 -1 327
+Encoding: 400 -1 327
 GlifName: si_S_U_
 Width: 677
 VWidth: 0
@@ -13906,7 +13905,7 @@ Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SUu
-Encoding: 402 -1 328
+Encoding: 401 -1 328
 GlifName: si_S_U_u
 Width: 677
 VWidth: 0
@@ -13937,7 +13936,7 @@ Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Sa.reph
-Encoding: 403 -1 329
+Encoding: 402 -1 329
 GlifName: si_S_a.reph
 Width: 677
 VWidth: 0
@@ -13971,7 +13970,7 @@ Refer: 475 3523 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Sh.halant
-Encoding: 380 -1 330
+Encoding: 379 -1 330
 GlifName: si_S_h.halant
 Width: 631
 VWidth: 0
@@ -13998,7 +13997,7 @@ Refer: 473 3521 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ShI
-Encoding: 381 -1 331
+Encoding: 380 -1 331
 GlifName: si_S_hI_
 Width: 631
 VWidth: 0
@@ -14060,7 +14059,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShIi
-Encoding: 382 -1 332
+Encoding: 381 -1 332
 GlifName: si_S_hI_i
 Width: 631
 VWidth: 0
@@ -14126,7 +14125,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShRI
-Encoding: 387 -1 333
+Encoding: 386 -1 333
 GlifName: si_S_hR_I_
 Width: 631
 VWidth: 0
@@ -14198,7 +14197,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShRIi
-Encoding: 388 -1 334
+Encoding: 387 -1 334
 GlifName: si_S_hR_I_i
 Width: 631
 VWidth: 0
@@ -14274,7 +14273,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShRa
-Encoding: 386 -1 335
+Encoding: 385 -1 335
 GlifName: si_S_hR_a
 Width: 631
 VWidth: 0
@@ -14333,7 +14332,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ShU
-Encoding: 383 -1 336
+Encoding: 382 -1 336
 GlifName: si_S_hU_
 Width: 631
 VWidth: 0
@@ -14359,7 +14358,7 @@ Refer: 473 3521 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ShUu
-Encoding: 384 -1 337
+Encoding: 383 -1 337
 GlifName: si_S_hU_u
 Width: 631
 VWidth: 0
@@ -14391,7 +14390,7 @@ Refer: 473 3521 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Sha.reph
-Encoding: 385 -1 338
+Encoding: 384 -1 338
 GlifName: si_S_ha.reph
 Width: 631
 VWidth: 0
@@ -14425,7 +14424,7 @@ Refer: 473 3521 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ss.halant
-Encoding: 389 -1 339
+Encoding: 388 -1 339
 GlifName: si_S_s.halant
 Width: 622
 VWidth: 0
@@ -14452,7 +14451,7 @@ Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsI
-Encoding: 390 -1 340
+Encoding: 389 -1 340
 GlifName: si_S_sI_
 Width: 622
 VWidth: 0
@@ -14478,7 +14477,7 @@ Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsIi
-Encoding: 391 -1 341
+Encoding: 390 -1 341
 GlifName: si_S_sI_i
 Width: 622
 VWidth: 0
@@ -14509,7 +14508,7 @@ Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsRI
-Encoding: 396 -1 342
+Encoding: 395 -1 342
 GlifName: si_S_sR_I_
 Width: 622
 VWidth: 0
@@ -14533,7 +14532,7 @@ Refer: 340 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsRIi
-Encoding: 397 -1 343
+Encoding: 396 -1 343
 GlifName: si_S_sR_I_i
 Width: 622
 VWidth: 0
@@ -14557,7 +14556,7 @@ Refer: 341 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsRa
-Encoding: 395 -1 344
+Encoding: 394 -1 344
 GlifName: si_S_sR_a
 Width: 622
 VWidth: 0
@@ -14581,7 +14580,7 @@ Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsU
-Encoding: 392 -1 345
+Encoding: 391 -1 345
 GlifName: si_S_sU_
 Width: 622
 VWidth: 0
@@ -14609,7 +14608,7 @@ Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_SsUu
-Encoding: 393 -1 346
+Encoding: 392 -1 346
 GlifName: si_S_sU_u
 Width: 622
 VWidth: 0
@@ -14640,7 +14639,7 @@ Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ssa.reph
-Encoding: 394 -1 347
+Encoding: 393 -1 347
 GlifName: si_S_sa.reph
 Width: 622
 VWidth: 0
@@ -14674,7 +14673,7 @@ Refer: 474 3522 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_T.halant
-Encoding: 239 -1 348
+Encoding: 238 -1 348
 GlifName: si_T_.halant
 Width: 704
 VWidth: 0
@@ -14701,7 +14700,7 @@ Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TI
-Encoding: 240 -1 349
+Encoding: 239 -1 349
 GlifName: si_T_I_
 Width: 704
 VWidth: 0
@@ -14727,7 +14726,7 @@ Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TIi
-Encoding: 241 -1 350
+Encoding: 240 -1 350
 GlifName: si_T_I_i
 Width: 704
 VWidth: 0
@@ -14759,7 +14758,7 @@ Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TRI
-Encoding: 246 -1 351
+Encoding: 245 -1 351
 GlifName: si_T_R_I_
 Width: 704
 VWidth: 0
@@ -14783,7 +14782,7 @@ Refer: 349 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TRIi
-Encoding: 247 -1 352
+Encoding: 246 -1 352
 GlifName: si_T_R_I_i
 Width: 704
 VWidth: 0
@@ -14807,7 +14806,7 @@ Refer: 350 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TRa
-Encoding: 245 -1 353
+Encoding: 244 -1 353
 GlifName: si_T_R_a
 Width: 704
 VWidth: 0
@@ -14831,7 +14830,7 @@ Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TThI
-Encoding: 477 -1 354
+Encoding: 476 -1 354
 GlifName: si_T_T_hI_
 Width: 1016
 VWidth: 0
@@ -14859,7 +14858,7 @@ Refer: 385 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TThIi
-Encoding: 478 -1 355
+Encoding: 477 -1 355
 GlifName: si_T_T_hI_i
 Width: 1016
 VWidth: 0
@@ -14937,7 +14936,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TThU
-Encoding: 479 -1 356
+Encoding: 478 -1 356
 GlifName: si_T_T_hU_
 Width: 1016
 VWidth: 0
@@ -14965,7 +14964,7 @@ Refer: 385 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TThUu
-Encoding: 480 -1 357
+Encoding: 479 -1 357
 GlifName: si_T_T_hU_u
 Width: 1016
 VWidth: 0
@@ -14996,7 +14995,7 @@ Refer: 385 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TTha
-Encoding: 476 -1 358
+Encoding: 475 -1 358
 GlifName: si_T_T_ha
 Width: 1016
 VWidth: 0
@@ -15038,7 +15037,7 @@ Refer: 368 -1 N 1 0 0 1 400 0 2
 EndChar
 
 StartChar: si_TU
-Encoding: 242 -1 359
+Encoding: 241 -1 359
 GlifName: si_T_U_
 Width: 704
 VWidth: 0
@@ -15095,7 +15094,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TUu
-Encoding: 243 -1 360
+Encoding: 242 -1 360
 GlifName: si_T_U_u
 Width: 704
 VWidth: 0
@@ -15127,7 +15126,7 @@ Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TV.halant
-Encoding: 482 -1 361
+Encoding: 481 -1 361
 GlifName: si_T_V_.halant
 Width: 1001
 VWidth: 0
@@ -15202,7 +15201,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TVI
-Encoding: 483 -1 362
+Encoding: 482 -1 362
 GlifName: si_T_V_I_
 Width: 1001
 VWidth: 0
@@ -15278,7 +15277,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TVIi
-Encoding: 484 -1 363
+Encoding: 483 -1 363
 GlifName: si_T_V_I_i
 Width: 1001
 VWidth: 0
@@ -15359,7 +15358,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TVU
-Encoding: 485 -1 364
+Encoding: 484 -1 364
 GlifName: si_T_V_U_
 Width: 1001
 VWidth: 0
@@ -15387,7 +15386,7 @@ Refer: 388 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TVUu
-Encoding: 486 -1 365
+Encoding: 485 -1 365
 GlifName: si_T_V_U_u
 Width: 1001
 VWidth: 0
@@ -15418,7 +15417,7 @@ Refer: 388 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TVa
-Encoding: 436 -1 366
+Encoding: 435 -1 366
 GlifName: si_T_V_a
 Width: 729
 VWidth: 0
@@ -15469,7 +15468,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ta.reph
-Encoding: 244 -1 367
+Encoding: 243 -1 367
 GlifName: si_T_a.reph
 Width: 704
 VWidth: 0
@@ -15503,7 +15502,7 @@ Refer: 457 3501 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Th.halant
-Encoding: 248 -1 368
+Encoding: 247 -1 368
 GlifName: si_T_h.halant
 Width: 614
 VWidth: 0
@@ -15548,7 +15547,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ThI
-Encoding: 249 -1 369
+Encoding: 248 -1 369
 GlifName: si_T_hI_
 Width: 614
 VWidth: 0
@@ -15576,7 +15575,7 @@ Refer: 458 3502 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ThIi
-Encoding: 250 -1 370
+Encoding: 249 -1 370
 GlifName: si_T_hI_i
 Width: 614
 VWidth: 0
@@ -15627,7 +15626,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_ThU
-Encoding: 251 -1 371
+Encoding: 250 -1 371
 GlifName: si_T_hU_
 Width: 614
 VWidth: 0
@@ -15655,7 +15654,7 @@ Refer: 458 3502 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_ThUu
-Encoding: 252 -1 372
+Encoding: 251 -1 372
 GlifName: si_T_hU_u
 Width: 614
 VWidth: 0
@@ -15686,7 +15685,7 @@ Refer: 458 3502 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Tha.reph
-Encoding: 253 -1 373
+Encoding: 252 -1 373
 GlifName: si_T_ha.reph
 Width: 614
 VWidth: 0
@@ -15720,7 +15719,7 @@ Refer: 458 3502 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Tt.halant
-Encoding: 200 -1 374
+Encoding: 199 -1 374
 GlifName: si_T_t.halant
 Width: 603
 VWidth: 0
@@ -15763,7 +15762,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtI
-Encoding: 201 -1 375
+Encoding: 200 -1 375
 GlifName: si_T_tI_
 Width: 603
 VWidth: 0
@@ -15803,7 +15802,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtIi
-Encoding: 202 -1 376
+Encoding: 201 -1 376
 GlifName: si_T_tI_i
 Width: 603
 VWidth: 0
@@ -15848,7 +15847,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtRI
-Encoding: 207 -1 377
+Encoding: 206 -1 377
 GlifName: si_T_tR_I_
 Width: 603
 VWidth: 0
@@ -15897,7 +15896,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtRIi
-Encoding: 208 -1 378
+Encoding: 207 -1 378
 GlifName: si_T_tR_I_i
 Width: 603
 VWidth: 0
@@ -15951,7 +15950,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtRa
-Encoding: 206 -1 379
+Encoding: 205 -1 379
 GlifName: si_T_tR_a
 Width: 603
 VWidth: 0
@@ -15975,7 +15974,7 @@ Refer: 451 3495 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TtTh.halant
-Encoding: 497 -1 380
+Encoding: 496 -1 380
 GlifName: si_T_tT_h.halant
 Width: 729
 VWidth: 0
@@ -16038,7 +16037,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtThI
-Encoding: 498 -1 381
+Encoding: 497 -1 381
 GlifName: si_T_tT_hI_
 Width: 729
 VWidth: 0
@@ -16102,7 +16101,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtThIi
-Encoding: 499 -1 382
+Encoding: 498 -1 382
 GlifName: si_T_tT_hI_i
 Width: 729
 VWidth: 0
@@ -16171,7 +16170,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtThU
-Encoding: 500 -1 383
+Encoding: 499 -1 383
 GlifName: si_T_tT_hU_
 Width: 729
 VWidth: 0
@@ -16235,7 +16234,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtThUu
-Encoding: 501 -1 384
+Encoding: 500 -1 384
 GlifName: si_T_tT_hU_u
 Width: 729
 VWidth: 0
@@ -16302,7 +16301,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TtTha
-Encoding: 435 -1 385
+Encoding: 434 -1 385
 GlifName: si_T_tT_ha
 Width: 1016
 VWidth: 0
@@ -16344,7 +16343,7 @@ Refer: 458 3502 N 1 0 0 1 401 0 2
 EndChar
 
 StartChar: si_TtU
-Encoding: 203 -1 386
+Encoding: 202 -1 386
 GlifName: si_T_tU_
 Width: 603
 VWidth: 0
@@ -16372,7 +16371,7 @@ Refer: 451 3495 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TtUu
-Encoding: 204 -1 387
+Encoding: 203 -1 387
 GlifName: si_T_tU_u
 Width: 603
 VWidth: 0
@@ -16403,7 +16402,7 @@ Refer: 451 3495 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TtVa
-Encoding: 481 -1 388
+Encoding: 480 -1 388
 GlifName: si_T_tV_a
 Width: 1001
 VWidth: 0
@@ -16447,7 +16446,7 @@ Refer: 472 3520 N 1 0 0 1 404 0 2
 EndChar
 
 StartChar: si_Tta.reph
-Encoding: 205 -1 389
+Encoding: 204 -1 389
 GlifName: si_T_ta.reph
 Width: 603
 VWidth: 0
@@ -16481,7 +16480,7 @@ Refer: 451 3495 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Tth.halant
-Encoding: 209 -1 390
+Encoding: 208 -1 390
 GlifName: si_T_th.halant
 Width: 640
 VWidth: 0
@@ -16535,7 +16534,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_TthI
-Encoding: 210 -1 391
+Encoding: 209 -1 391
 GlifName: si_T_thI_
 Width: 637
 VWidth: 0
@@ -16563,7 +16562,7 @@ Refer: 452 3496 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TthIi
-Encoding: 211 -1 392
+Encoding: 210 -1 392
 GlifName: si_T_thI_i
 Width: 638
 VWidth: 0
@@ -16596,7 +16595,7 @@ Refer: 452 3496 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TthU
-Encoding: 212 -1 393
+Encoding: 211 -1 393
 GlifName: si_T_thU_
 Width: 637
 VWidth: 0
@@ -16624,7 +16623,7 @@ Refer: 452 3496 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_TthUu
-Encoding: 213 -1 394
+Encoding: 212 -1 394
 GlifName: si_T_thU_u
 Width: 638
 VWidth: 0
@@ -16655,7 +16654,7 @@ Refer: 452 3496 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_V.halant
-Encoding: 371 -1 395
+Encoding: 370 -1 395
 GlifName: si_V_.halant
 Width: 597
 VWidth: 0
@@ -16701,7 +16700,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VI
-Encoding: 372 -1 396
+Encoding: 371 -1 396
 GlifName: si_V_I_
 Width: 597
 VWidth: 0
@@ -16748,7 +16747,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VIi
-Encoding: 373 -1 397
+Encoding: 372 -1 397
 GlifName: si_V_I_i
 Width: 597
 VWidth: 0
@@ -16800,7 +16799,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VRI
-Encoding: 378 -1 398
+Encoding: 377 -1 398
 GlifName: si_V_R_I_
 Width: 597
 VWidth: 0
@@ -16856,7 +16855,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VRIi
-Encoding: 379 -1 399
+Encoding: 378 -1 399
 GlifName: si_V_R_I_i
 Width: 597
 VWidth: 0
@@ -16917,7 +16916,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_VRa
-Encoding: 377 -1 400
+Encoding: 376 -1 400
 GlifName: si_V_R_a
 Width: 597
 VWidth: 0
@@ -16941,7 +16940,7 @@ Refer: 472 3520 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_VU
-Encoding: 374 -1 401
+Encoding: 373 -1 401
 GlifName: si_V_U_
 Width: 597
 VWidth: 0
@@ -16969,7 +16968,7 @@ Refer: 472 3520 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_VUu
-Encoding: 375 -1 402
+Encoding: 374 -1 402
 GlifName: si_V_U_u
 Width: 597
 VWidth: 0
@@ -17000,7 +16999,7 @@ Refer: 472 3520 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Va.reph
-Encoding: 376 -1 403
+Encoding: 375 -1 403
 GlifName: si_V_a.reph
 Width: 597
 VWidth: 0
@@ -17034,7 +17033,7 @@ Refer: 472 3520 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Y.halant
-Encoding: 346 -1 404
+Encoding: 345 -1 404
 GlifName: si_Y_.halant
 Width: 636
 VWidth: 0
@@ -17061,7 +17060,7 @@ Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Y.post.halant
-Encoding: 353 -1 405
+Encoding: 352 -1 405
 GlifName: si_Y_.post.halant
 Width: 544
 VWidth: 0
@@ -17088,7 +17087,7 @@ Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YI
-Encoding: 347 -1 406
+Encoding: 346 -1 406
 GlifName: si_Y_I_
 Width: 636
 VWidth: 0
@@ -17114,7 +17113,7 @@ Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YIi
-Encoding: 348 -1 407
+Encoding: 347 -1 407
 GlifName: si_Y_I_i
 Width: 636
 VWidth: 0
@@ -17145,7 +17144,7 @@ Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YU
-Encoding: 349 -1 408
+Encoding: 348 -1 408
 GlifName: si_Y_U_
 Width: 636
 VWidth: 0
@@ -17173,7 +17172,7 @@ Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YU.post
-Encoding: 354 -1 409
+Encoding: 353 -1 409
 GlifName: si_Y_U_.post
 Width: 544
 VWidth: 0
@@ -17201,7 +17200,7 @@ Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YUu
-Encoding: 350 -1 410
+Encoding: 349 -1 410
 GlifName: si_Y_U_u
 Width: 636
 VWidth: 0
@@ -17232,7 +17231,7 @@ Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YUu.post
-Encoding: 355 -1 411
+Encoding: 354 -1 411
 GlifName: si_Y_U_u.post
 Width: 544
 VWidth: 0
@@ -17263,7 +17262,7 @@ Refer: 413 -1 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_YUu.post.reph
-Encoding: 358 -1 412
+Encoding: 357 -1 412
 GlifName: si_Y_U_u.post.reph
 Width: 544
 VWidth: 0
@@ -17313,7 +17312,7 @@ Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ya.post
-Encoding: 352 -1 413
+Encoding: 351 -1 413
 GlifName: si_Y_a.post
 Width: 544
 VWidth: 0
@@ -17352,7 +17351,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ya.post.reph
-Encoding: 356 -1 414
+Encoding: 355 -1 414
 GlifName: si_Y_a.post.reph
 Width: 544
 VWidth: 0
@@ -17386,7 +17385,7 @@ Refer: 413 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ya.reph
-Encoding: 351 -1 415
+Encoding: 350 -1 415
 GlifName: si_Y_a.reph
 Width: 636
 VWidth: 0
@@ -17420,7 +17419,7 @@ Refer: 469 3514 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Yu.post.reph
-Encoding: 357 -1 416
+Encoding: 356 -1 416
 GlifName: si_Y_u.post.reph
 Width: 544
 VWidth: 0
@@ -17479,7 +17478,7 @@ Fore
 EndChar
 
 StartChar: anusvara
-Encoding: 2 3458 418
+Encoding: 1 3458 418
 GlifName: anusvara
 Width: 364
 VWidth: 0
@@ -17503,7 +17502,7 @@ EndSplineSet
 EndChar
 
 StartChar: visarga
-Encoding: 3 3459 419
+Encoding: 2 3459 419
 GlifName: visarga
 Width: 248
 VWidth: 0
@@ -17537,7 +17536,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_A
-Encoding: 4 3461 420
+Encoding: 3 3461 420
 GlifName: si_A_
 Width: 573
 VWidth: 0
@@ -17589,7 +17588,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Aa
-Encoding: 5 3462 421
+Encoding: 4 3462 421
 GlifName: si_A_a
 Width: 861
 VWidth: 0
@@ -17603,7 +17602,7 @@ Refer: 420 3461 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ae
-Encoding: 6 3463 422
+Encoding: 5 3463 422
 GlifName: si_A_e
 Width: 878
 VWidth: 0
@@ -17617,7 +17616,7 @@ Refer: 481 3536 N 1 0 0 1 544 0 2
 EndChar
 
 StartChar: si_Aae
-Encoding: 7 3464 423
+Encoding: 6 3464 423
 GlifName: si_A_ae
 Width: 878
 VWidth: 0
@@ -17631,7 +17630,7 @@ Refer: 420 3461 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_I
-Encoding: 8 3465 424
+Encoding: 7 3465 424
 GlifName: si_I_
 Width: 593
 VWidth: 0
@@ -17678,7 +17677,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ii
-Encoding: 9 3466 425
+Encoding: 8 3466 425
 GlifName: si_I_i
 Width: 528
 VWidth: 0
@@ -17729,7 +17728,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_U
-Encoding: 10 3467 426
+Encoding: 9 3467 426
 GlifName: si_U_
 Width: 651
 VWidth: 0
@@ -17760,7 +17759,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Uu
-Encoding: 11 3468 427
+Encoding: 10 3468 427
 GlifName: si_U_u
 Width: 991
 VWidth: 0
@@ -17774,7 +17773,7 @@ Refer: 426 3467 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_vocalicR
-Encoding: 12 3469 428
+Encoding: 11 3469 428
 GlifName: si_vocalicR_
 Width: 894
 VWidth: 0
@@ -17826,7 +17825,7 @@ Refer: 487 3544 N 1 0 0 1 583 0 2
 EndChar
 
 StartChar: si_vocalicRr
-Encoding: 13 3470 429
+Encoding: 12 3470 429
 GlifName: si_vocalicR_r
 Width: 1140
 VWidth: 0
@@ -17989,7 +17988,7 @@ sass."
 EndChar
 
 StartChar: si_vocalicL
-Encoding: 14 3471 430
+Encoding: 13 3471 430
 GlifName: si_vocalicL_
 Width: 820
 VWidth: 0
@@ -18070,7 +18069,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_vocalicLL
-Encoding: 15 3472 431
+Encoding: 14 3472 431
 GlifName: si_vocalicL_L_
 Width: 1203
 VWidth: 0
@@ -18084,7 +18083,7 @@ Refer: 430 3471 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_E
-Encoding: 16 3473 432
+Encoding: 15 3473 432
 GlifName: si_E_
 Width: 595
 VWidth: 0
@@ -18135,7 +18134,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ee
-Encoding: 17 3474 433
+Encoding: 16 3474 433
 GlifName: si_E_e
 Width: 595
 VWidth: 0
@@ -18198,7 +18197,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ai
-Encoding: 18 3475 434
+Encoding: 17 3475 434
 GlifName: si_A_i
 Width: 1178
 VWidth: 0
@@ -18212,7 +18211,7 @@ Refer: 432 3473 N 1 0 0 1 585 0 2
 EndChar
 
 StartChar: si_Os
-Encoding: 19 3476 435
+Encoding: 18 3476 435
 GlifName: si_O_s
 Width: 636
 VWidth: 0
@@ -18264,7 +18263,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Oo
-Encoding: 20 3477 436
+Encoding: 19 3477 436
 GlifName: si_O_o
 Width: 636
 VWidth: 0
@@ -18330,7 +18329,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Au
-Encoding: 21 3478 437
+Encoding: 20 3478 437
 GlifName: si_A_u
 Width: 1034
 VWidth: 0
@@ -18344,7 +18343,7 @@ Refer: 494 3551 N 1 0 0 1 592 0 2
 EndChar
 
 StartChar: si_Ka
-Encoding: 22 3482 438
+Encoding: 21 3482 438
 GlifName: si_K_a
 Width: 746
 VWidth: 0
@@ -18400,7 +18399,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Kha
-Encoding: 23 3483 439
+Encoding: 22 3483 439
 GlifName: si_K_ha
 Width: 630
 VWidth: 0
@@ -18444,7 +18443,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ga
-Encoding: 24 3484 440
+Encoding: 23 3484 440
 GlifName: si_G_a
 Width: 636
 VWidth: 0
@@ -18483,7 +18482,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Gha
-Encoding: 25 3485 441
+Encoding: 24 3485 441
 GlifName: si_G_ha
 Width: 677
 VWidth: 0
@@ -18548,7 +18547,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Nga
-Encoding: 26 3486 442
+Encoding: 25 3486 442
 GlifName: si_N_ga
 Width: 617
 VWidth: 0
@@ -18597,7 +18596,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Nnga
-Encoding: 27 3487 443
+Encoding: 26 3487 443
 GlifName: si_N_nga
 Width: 749
 VWidth: 0
@@ -18644,7 +18643,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ca
-Encoding: 28 3488 444
+Encoding: 27 3488 444
 GlifName: si_C_a
 Width: 597
 VWidth: 0
@@ -18689,7 +18688,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Cha
-Encoding: 29 3489 445
+Encoding: 28 3489 445
 GlifName: si_C_ha
 Width: 598
 VWidth: 0
@@ -18740,7 +18739,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ja
-Encoding: 30 3490 446
+Encoding: 29 3490 446
 GlifName: si_J_a
 Width: 598
 VWidth: 0
@@ -18790,7 +18789,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Jha
-Encoding: 31 3491 447
+Encoding: 30 3491 447
 GlifName: si_J_ha
 Width: 1087
 VWidth: 0
@@ -18864,7 +18863,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Nya
-Encoding: 32 3492 448
+Encoding: 31 3492 448
 GlifName: si_N_ya
 Width: 1024
 VWidth: 0
@@ -18948,7 +18947,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Jnya
-Encoding: 33 3493 449
+Encoding: 32 3493 449
 GlifName: si_J_nya
 Width: 842
 VWidth: 0
@@ -19013,7 +19012,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ndja
-Encoding: 34 3494 450
+Encoding: 33 3494 450
 GlifName: si_N_dja
 Width: 699
 VWidth: 0
@@ -19071,7 +19070,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Tta
-Encoding: 35 3495 451
+Encoding: 34 3495 451
 GlifName: si_T_ta
 Width: 603
 VWidth: 0
@@ -19100,7 +19099,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ttha
-Encoding: 36 3496 452
+Encoding: 35 3496 452
 GlifName: si_T_tha
 Width: 614
 VWidth: 0
@@ -19142,7 +19141,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Dda
-Encoding: 37 3497 453
+Encoding: 36 3497 453
 GlifName: si_D_da
 Width: 647
 VWidth: 0
@@ -19185,7 +19184,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ddha
-Encoding: 38 3498 454
+Encoding: 37 3498 454
 GlifName: si_D_dha
 Width: 647
 VWidth: 0
@@ -19233,7 +19232,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Nna
-Encoding: 39 3499 455
+Encoding: 38 3499 455
 GlifName: si_N_na
 Width: 963
 VWidth: 0
@@ -19300,7 +19299,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Nndda
-Encoding: 40 3500 456
+Encoding: 39 3500 456
 GlifName: si_N_ndda
 Width: 731
 VWidth: 0
@@ -19351,7 +19350,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ta
-Encoding: 41 3501 457
+Encoding: 40 3501 457
 GlifName: si_T_a
 Width: 704
 VWidth: 0
@@ -19396,8 +19395,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: si_Tha
-Encoding: 42 3502 458
+StartChar: glyph523
+Encoding: 41 3502 458
 GlifName: si_T_ha
 Width: 614
 VWidth: 0
@@ -19430,7 +19429,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Da
-Encoding: 43 3503 459
+Encoding: 42 3503 459
 GlifName: si_D_a
 Width: 456
 VWidth: 0
@@ -19466,7 +19465,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Dha
-Encoding: 44 3504 460
+Encoding: 43 3504 460
 GlifName: si_D_ha
 Width: 638
 VWidth: 0
@@ -19502,7 +19501,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Na
-Encoding: 45 3505 461
+Encoding: 44 3505 461
 GlifName: si_N_a
 Width: 806
 VWidth: 0
@@ -19545,7 +19544,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Nda
-Encoding: 46 3507 462
+Encoding: 45 3507 462
 GlifName: si_N_da
 Width: 538
 VWidth: 0
@@ -19589,7 +19588,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Pa
-Encoding: 47 3508 463
+Encoding: 46 3508 463
 GlifName: si_P_a
 Width: 616
 VWidth: 0
@@ -19634,7 +19633,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Pha
-Encoding: 48 3509 464
+Encoding: 47 3509 464
 GlifName: si_P_ha
 Width: 583
 VWidth: 0
@@ -19676,7 +19675,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ba
-Encoding: 49 3510 465
+Encoding: 48 3510 465
 GlifName: si_B_a
 Width: 619
 VWidth: 0
@@ -19716,7 +19715,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Bha
-Encoding: 50 3511 466
+Encoding: 49 3511 466
 GlifName: si_B_ha
 Width: 670
 VWidth: 0
@@ -19765,7 +19764,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ma
-Encoding: 51 3512 467
+Encoding: 50 3512 467
 GlifName: si_M_a
 Width: 635
 VWidth: 0
@@ -19810,7 +19809,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Mba
-Encoding: 52 3513 468
+Encoding: 51 3513 468
 GlifName: si_M_ba
 Width: 636
 VWidth: 0
@@ -19869,7 +19868,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ya
-Encoding: 53 3514 469
+Encoding: 52 3514 469
 GlifName: si_Y_a
 Width: 636
 VWidth: 0
@@ -19913,7 +19912,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ra
-Encoding: 54 3515 470
+Encoding: 53 3515 470
 GlifName: si_R_a
 Width: 528
 VWidth: 0
@@ -19943,7 +19942,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_La
-Encoding: 55 3517 471
+Encoding: 54 3517 471
 GlifName: si_L_a
 Width: 670
 VWidth: 0
@@ -19979,7 +19978,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Va
-Encoding: 56 3520 472
+Encoding: 55 3520 472
 GlifName: si_V_a
 Width: 597
 VWidth: 0
@@ -20015,7 +20014,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Sha
-Encoding: 57 3521 473
+Encoding: 56 3521 473
 GlifName: si_S_ha
 Width: 631
 VWidth: 0
@@ -20065,7 +20064,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ssa
-Encoding: 58 3522 474
+Encoding: 57 3522 474
 GlifName: si_S_sa
 Width: 622
 VWidth: 0
@@ -20124,7 +20123,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Sa
-Encoding: 59 3523 475
+Encoding: 58 3523 475
 GlifName: si_S_a
 Width: 677
 VWidth: 0
@@ -20163,7 +20162,7 @@ SplineSet
  579 329 565 306 550 297 c 257
  597 274 628 221 628 166 c 256
  628 58 558 0 460 0 c 256
- 395 0 352 31 333 82 c 257
+ 395 0 352 31 333 82 c 261
  312 30 271 -1 203 -1 c 256
  108 -1 51 76 51 154 c 256
 5 273 m 257
@@ -20182,7 +20181,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ha
-Encoding: 60 3524 476
+Encoding: 59 3524 476
 GlifName: si_H_a
 Width: 653
 VWidth: 0
@@ -20225,7 +20224,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Lla
-Encoding: 61 3525 477
+Encoding: 60 3525 477
 GlifName: si_L_la
 Width: 636
 VWidth: 0
@@ -20263,7 +20262,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Fa
-Encoding: 62 3526 478
+Encoding: 61 3526 478
 GlifName: si_F_a
 Width: 607
 VWidth: 0
@@ -20299,7 +20298,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Halant
-Encoding: 63 3530 479
+Encoding: 62 3530 479
 GlifName: si_H_alant
 Width: 2
 VWidth: 0
@@ -20325,7 +20324,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraAa
-Encoding: 64 3535 480
+Encoding: 63 3535 480
 GlifName: si_M_atraA_a
 Width: 312
 VWidth: 0
@@ -20354,7 +20353,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraAe
-Encoding: 65 3536 481
+Encoding: 64 3536 481
 GlifName: si_M_atraA_e
 Width: 334
 VWidth: 0
@@ -20380,7 +20379,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraAae
-Encoding: 66 3537 482
+Encoding: 65 3537 482
 GlifName: si_M_atraA_ae
 Width: 336
 VWidth: 0
@@ -20411,7 +20410,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraI
-Encoding: 67 3538 483
+Encoding: 66 3538 483
 GlifName: si_M_atraI_
 Width: 2
 VWidth: 0
@@ -20436,7 +20435,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraIi
-Encoding: 68 3539 484
+Encoding: 67 3539 484
 GlifName: si_M_atraI_i
 Width: 2
 VWidth: 0
@@ -20466,7 +20465,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraU
-Encoding: 69 3540 485
+Encoding: 68 3540 485
 GlifName: si_M_atraU_
 Width: 2
 VWidth: 0
@@ -20493,7 +20492,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraUu
-Encoding: 70 3542 486
+Encoding: 69 3542 486
 GlifName: si_M_atraU_u
 Width: 2
 VWidth: 0
@@ -20523,7 +20522,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraR
-Encoding: 71 3544 487
+Encoding: 70 3544 487
 GlifName: si_M_atraR_
 Width: 313
 VWidth: 0
@@ -20562,7 +20561,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraE
-Encoding: 72 3545 488
+Encoding: 71 3545 488
 GlifName: si_M_atraE_
 Width: 603
 VWidth: 0
@@ -20597,7 +20596,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraEe
-Encoding: 73 3546 489
+Encoding: 72 3546 489
 GlifName: si_M_atraE_e
 Width: 923
 VWidth: 0
@@ -20611,7 +20610,7 @@ Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MatraAi
-Encoding: 74 3547 490
+Encoding: 73 3547 490
 GlifName: si_M_atraA_i
 Width: 1203
 VWidth: 0
@@ -20625,7 +20624,7 @@ Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MatraO
-Encoding: 75 3548 491
+Encoding: 74 3548 491
 GlifName: si_M_atraO_
 Width: 928
 VWidth: 0
@@ -20639,7 +20638,7 @@ Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MatraOo
-Encoding: 76 3549 492
+Encoding: 75 3549 492
 GlifName: si_M_atraO_o
 Width: 1013
 VWidth: 0
@@ -20654,7 +20653,7 @@ Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MatraAu
-Encoding: 77 3550 493
+Encoding: 76 3550 493
 GlifName: si_M_atraA_u
 Width: 1060
 VWidth: 0
@@ -20668,7 +20667,7 @@ Refer: 488 3545 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_MatraLs
-Encoding: 78 3551 494
+Encoding: 77 3551 494
 GlifName: si_M_atraL_s
 Width: 441
 VWidth: 0
@@ -20705,7 +20704,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_MatraRr
-Encoding: 80 3570 495
+Encoding: 79 3570 495
 GlifName: si_M_atraR_r
 Width: 571
 VWidth: 0
@@ -20784,7 +20783,7 @@ sass."
 EndChar
 
 StartChar: si_MatraLl
-Encoding: 79 3571 496
+Encoding: 78 3571 496
 GlifName: si_M_atraL_l
 Width: 441
 VWidth: 0
@@ -20821,7 +20820,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_kundaliya
-Encoding: 81 3572 497
+Encoding: 80 3572 497
 GlifName: si_kundaliya
 Width: 1742
 VWidth: 0
@@ -20882,7 +20881,7 @@ EndSplineSet
 EndChar
 
 StartChar: dottedcircle
-Encoding: 84 9676 498
+Encoding: 83 9676 498
 GlifName: dottedcircle
 Width: 558
 VWidth: 0
@@ -20976,7 +20975,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_JnyAa.halant
-Encoding: 186 -1 499
+Encoding: 185 -1 499
 Width: 974
 VWidth: 0
 Flags: HW
@@ -21057,7 +21056,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NdAa.halant
-Encoding: 293 -1 500
+Encoding: 292 -1 500
 Width: 657
 VWidth: 0
 Flags: HW
@@ -21117,7 +21116,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_NyAa.halant
-Encoding: 174 -1 501
+Encoding: 173 -1 501
 Width: 1151
 VWidth: 0
 Flags: HW
@@ -21213,6 +21212,384 @@ SplineSet
  59 137 86 78 135 34 c 257
  135 0 l 257
  69 33 27 120 27 221 c 256
+EndSplineSet
+EndChar
+
+StartChar: si_Ka.touch
+Encoding: 502 -1 502
+Width: 612
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+-139 30 m 257
+ -110.873244852 92.4514869336 -63.7495598022 171.346763351 -25 225 c 256
+ 1 261 14 273 37 297 c 257
+ 46 307 59 324 59 345 c 256
+ 59 364 48 379 24 379 c 256
+ 10 379 -5.46918308836 371.857859191 -10 356 c 256
+ -16 335 -12.0481299531 335.02272385 -21 316 c 256
+ -29 299 -47 290 -62 290 c 256
+ -99 290 -105 321 -105 333 c 256
+ -105 387 -55 426 2 426 c 256
+ 54 426 86 392 86 351 c 256
+ 86 345 86 342 85 334 c 257
+ 144 389 232 427 319 427 c 256
+ 469 427 567 321 567 185 c 256
+ 567 103 525.004716876 -8 419 -8 c 256
+ 409 -8 387 -6 370 5 c 257
+ 370 33 l 257
+ 384 26 397 23 409 23 c 256
+ 450 23 463 70 463 116 c 256
+ 463 281 335 341 224 341 c 256
+ 160 341 110 323 80 297 c 257
+ 110 305 144 307 171 307 c 256
+ 291 307 381 243 381 119 c 256
+ 381 61 348 -8 263 -8 c 256
+ 217 -8 183 13 162 56 c 257
+ 145 15 112 -8 70 -8 c 256
+ -16.9743589744 -8 -16.8717948718 66 -51 66 c 256
+ -68.9798955791 66 -82.7355234608 59.7840401786 -92 48 c 1
+ -105.648895497 42.528820503 -114.388275276 35.1402915396 -118 26 c 257
+ -139 30 l 257
+-43 136 m 257
+ -31 146 -19 153 -5 153 c 256
+ 27 153 38 133 78 133 c 256
+ 124 133 146 150 146 207 c 256
+ 146 209 146 207 146 209 c 257
+ 174 209 l 257
+ 174 208 174 209 174 208 c 256
+ 174 147 198 133 243 133 c 256
+ 284 133 309 162 309 197 c 256
+ 309 239 268 280 167 280 c 256
+ 110 280 71 273 46 261 c 257
+ 29 246 12.675227343 228.222559027 -3 205 c 256
+ -30 165 -33 156 -43 136 c 257
+EndSplineSet
+EndChar
+
+StartChar: si_Kha.touch
+Encoding: 503 -1 503
+Width: 513
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+-24 73 m 256
+ -24 49 -4 29 20 29 c 256
+ 44 29 64 49 64 73 c 256
+ 64 97 44 117 20 117 c 256
+ -4 117 -24 97 -24 73 c 256
+-85 183 m 256
+ -85 322 7 396 123 396 c 256
+ 216 396 296 343 296 258 c 256
+ 296 201 271 172 264 161 c 257
+ 267 162 270 162 273 162 c 256
+ 302 162 293 136 327 136 c 256
+ 387 136 415 215 415 318 c 256
+ 415 455 328 574 177 574 c 256
+ 88 574 23 540 -18 470 c 257
+ -53 470 l 257
+ -8 553 69 601 181 601 c 256
+ 347 601 467 473 467 286 c 256
+ 467 150 407 0 299 0 c 256
+ 235 0 231 54 204 54 c 256
+ 191 54 167 34 125 -21 c 257
+ 85 -18 l 257
+ 98 -5 127 34 169 84 c 256
+ 221 146 230 180 230 200 c 256
+ 230 235 211 275 119 275 c 256
+ 32 275 -47 225 -47 140 c 256
+ -47 128 -47 118 -44 106 c 257
+ -35 132 -10 148 20 148 c 256
+ 62 148 95 120 95 74 c 256
+ 95 37 65 -1 24 -1 c 256
+ -61 -1 -85 108 -85 183 c 256
+EndSplineSet
+EndChar
+
+StartChar: si_Ta.touch
+Encoding: 504 -1 504
+Width: 563
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+-104 75 m 257
+ -98.8759765625 114.015625 -82.046875 155.000976562 -60.607421875 192 c 1
+ -35.0595703125 238.763671875 -4.6474609375 281.064453125 24 313 c 257
+ 31 321 37 332 37 346 c 256
+ 37 372 25 385 11 385 c 256
+ -6 385 -16 375 -17 354 c 256
+ -18 324 -28 293 -63 293 c 256
+ -92 293 -104 317 -104 342 c 256
+ -104 392 -63 433 -14 433 c 256
+ 36 433 65 400 65 353 c 256
+ 65 351 65 350 65 348 c 257
+ 131 420 218 435 282 435 c 256
+ 421 435 523 334 523 185 c 256
+ 523 82 469 -1 369 -1 c 256
+ 342 -1 322 6 313 11 c 257
+ 313 41 l 257
+ 321 38 331 35 348 35 c 256
+ 393 35 412 98 412 145 c 256
+ 412 292 317 356 198 356 c 256
+ 158 356 93 344 59 305 c 257
+ 80 314 108 320 140 320 c 256
+ 241 320 318 268 318 162 c 256
+ 318 70 251 -2 141 -2 c 256
+ -7 -2 -1 79 -52 79 c 256
+ -62.775390625 79 -70.7294921875 73.7587890625 -77.037109375 64 c 1
+ -104 75 l 257
+-46 156 m 257
+ -37 163 -24 165 -13 165 c 256
+ 24 165 54 140 122 140 c 256
+ 197 140 248 161 248 217 c 256
+ 248 256 211 294 142 294 c 256
+ 93 294 50 282 18 259 c 257
+ -13 221 -27 194 -46 156 c 257
+EndSplineSet
+EndChar
+
+StartChar: si_Ma.touch
+Encoding: 505 -1 505
+Width: 635
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 467 3512 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Na.touch
+Encoding: 506 -1 506
+Width: 806
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 461 3505 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ca.touch
+Encoding: 507 -1 507
+Width: 489
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+-44 165 m 256
+ -44 196 -33.9385370576 227.928780075 -11 248 c 256
+ 5 262 24 273 50 278 c 257
+ 84 290 125 302 162 302 c 258
+ 176 302 l 257
+ 176 304 176 306 176 308 c 256
+ 176 358 144 389 112 389 c 256
+ 78 389 65.9073170733 371.034146342 60 355 c 256
+ 53 336 42 320 13 320 c 256
+ -7 320 -25 333 -25 359 c 256
+ -25 406 25 432 80 432 c 256
+ 168 432 211 376 211 290 c 256
+ 211 287 211 277 211 274 c 257
+ 163 274 l 258
+ 108 274 75.8670713588 266.250216799 53 254 c 256
+ 25 239 20 220 20 207 c 256
+ 20 158 100 140 190 140 c 256
+ 343 140 409 218 409 329 c 256
+ 409 442 329 551 195 551 c 256
+ 116 551 55 522 11 470 c 257
+ -24 470 l 257
+ 25 540 97 577 195 577 c 256
+ 355 577 467 443 467 274 c 256
+ 467 114 370 0 187 0 c 256
+ 66 0 -44 46 -44 165 c 256
+-55 267 m 257
+ -55 302 l 257
+ -12 302 l 1
+ 174 302 l 257
+ 207 274 l 257
+ 40 274 l 258
+ 20.953125 274 3.5625 273.319335938 -12 272.801757812 c 1
+ -33.9924538352 271.390625 -48.934037642 269.1953125 -55 267 c 257
+EndSplineSet
+EndChar
+
+StartChar: si_Dda.touch
+Encoding: 508 -1 508
+Width: 647
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+15 285 m 257
+ 15 315 l 257
+ 258 315 l 257
+ 256 350 231 388 197 388 c 256
+ 188 388 169 387 154 360 c 256
+ 144 342 129 335 113 335 c 256
+ 89 335 73 351 73 373 c 256
+ 73 413 121 432 163 432 c 256
+ 242 432 295 384 295 285 c 257
+ 224 285 l 258
+ 131 285 109 234 109 210 c 256
+ 109 164 150 140 203 140 c 256
+ 267 140 297 161 297 200 c 258
+ 297 221 l 257
+ 328 221 l 257
+ 328 200 l 258
+ 328 164 353 140 414 140 c 256
+ 489 140 539 200 539 293 c 256
+ 539 422 460 555 298 555 c 256
+ 218 555 154 522 109 468 c 257
+ 73 468 l 257
+ 127 546 210 582 304 582 c 256
+ 479 582 598 444 598 258 c 256
+ 598 110 547 0 428 -0 c 256
+ 363 0 335 29 313 59 c 257
+ 283 22 250 0 199 0 c 256
+ 98 0 46 81 46 162 c 256
+ 46 212 71 261 125 285 c 257
+ 15 285 l 257
+EndSplineSet
+EndChar
+
+StartChar: si_Nna.touch
+Encoding: 509 -1 509
+Width: 963
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+22 178 m 257
+ 232 322 505 453 660 501 c 256
+ 721 520 762 528 805 528 c 256
+ 844 528 863 506 863 485 c 256
+ 863 470 854 447 819 444 c 256
+ 784 441 680 433 600 416 c 256
+ 415 376 247 288 116 206 c 257
+ 177 206 195 129 337 129 c 256
+ 455 129 492 204 492 270 c 256
+ 492 316 460 404 355 404 c 256
+ 271 404 202 366 202 297 c 256
+ 202 222 268 199 322 199 c 257
+ 405 194 l 257
+ 384 180 362 170 321 170 c 256
+ 232 170 170 217 170 292 c 256
+ 170 384 253 433 359 433 c 256
+ 440 433 584 390 584 213 c 256
+ 584 114 520 0 365 0 c 256
+ 167 0 180 179 99 179 c 256
+ 71 179 54 166 33 152 c 257
+ 22 178 l 257
+266 264 m 256
+ 266 312 305 351 353 351 c 256
+ 401 351 440 312 440 264 c 256
+ 440 216 401 177 353 177 c 256
+ 305 177 266 216 266 264 c 256
+296 264 m 256
+ 296 233 321 208 352 208 c 256
+ 383 208 408 233 408 264 c 256
+ 408 295 383 320 352 320 c 256
+ 321 320 296 295 296 264 c 256
+549 161 m 256
+ 549 230 591 286 645 286 c 256
+ 678 286 703 273 719 251 c 257
+ 723 300 751 348 812 348 c 256
+ 882 348 915 265 915 168 c 256
+ 915 73 883 -1 800 -1 c 256
+ 748 -1 719 33 714 68 c 257
+ 698 48 674 36 645 36 c 256
+ 591 36 549 92 549 161 c 256
+579 162 m 256
+ 579 111 607 69 643 69 c 256
+ 684 69 708 106 708 162 c 256
+ 708 221 687 255 643 255 c 256
+ 607 255 579 213 579 162 c 256
+736 105 m 256
+ 736 58 768 50 778 50 c 256
+ 814 50 821 95 821 169 c 256
+ 821 245 810 286 780 286 c 256
+ 756 286 742 253 739 191 c 256
+ 740 182 741 172 741 161 c 256
+ 741 145 739 130 736 116 c 256
+ 736 112 736 109 736 105 c 256
+EndSplineSet
+EndChar
+
+StartChar: si_Gha.touch
+Encoding: 510 -1 510
+Width: 563
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+-63 154 m 256
+ -63 226 -22 267 30 283 c 257
+ 64 295 118 308 155 308 c 258
+ 164 308 l 257
+ 164 310 164 310 164 312 c 256
+ 164 355 136 387 99 387 c 256
+ 76 387 61 375 54 355 c 256
+ 46 334 33 320 7 320 c 256
+ -16 320 -32 333 -32 359 c 256
+ -32 406 18 432 73 432 c 256
+ 161 432 199 369 199 293 c 256
+ 199 290 199 283 199 280 c 257
+ 110 280 l 258
+ 50 280 -2 245 -2 201 c 256
+ -2 157 32 138 68 138 c 256
+ 99 138 119 142 127 149 c 257
+ 127 156 128 164 131 173 c 256
+ 142 212 176 232 218 232 c 256
+ 260 232 294 212 305 173 c 256
+ 308 164 309 156 309 149 c 257
+ 317 142 337 138 368 138 c 256
+ 412 138 455 164 455 214 c 256
+ 455 251 421 288 334 288 c 256
+ 298 288 272 286 239 279 c 257
+ 239 283 239 287 239 291 c 256
+ 239 375 286 432 364 432 c 256
+ 418 432 465 405 465 351 c 256
+ 465 330 455 308 436 297 c 257
+ 483 274 514 221 514 166 c 256
+ 514 58 442 0 350 0 c 256
+ 326 0 298 4 267 12 c 257
+ 264 16 263 40 263 47 c 256
+ 263 84 278 95 278 134 c 256
+ 278 171 262 200 218 200 c 256
+ 174 200 158 171 158 134 c 256
+ 158 95 173 84 173 47 c 256
+ 173 40 172 16 169 12 c 257
+ 138 4 110 0 86 0 c 256
+ -5 0 -63 76 -63 154 c 256
+-109 273 m 257
+ -109 308 l 257
+ 162 308 l 257
+ 195 280 l 257
+ 33 280 l 258
+ -38 279 -93 276 -109 273 c 257
+271 310 m 257
+ 284 314 305 316 331 316 c 256
+ 365 316 393 312 407 307 c 257
+ 416 314 423 326 423 344 c 256
+ 423 376 386 390 357 390 c 256
+ 305 390 276 365 271 310 c 257
 EndSplineSet
 EndChar
 EndChars
