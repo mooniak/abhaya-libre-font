@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_PhIi" format="1">
+  <advance width="583"/>
+  <outline>
+    <contour>
+      <point x="400.99" y="575.5" type="curve" smooth="yes"/>
+      <point x="400.99" y="546.937"/>
+      <point x="423.432" y="524.495"/>
+      <point x="451.995" y="524.495" type="curve" smooth="yes"/>
+      <point x="480.559" y="524.495"/>
+      <point x="503" y="546.937"/>
+      <point x="503" y="575.5" type="curve" smooth="yes"/>
+      <point x="503" y="604.063"/>
+      <point x="480.559" y="626.505"/>
+      <point x="451.995" y="626.505" type="curve" smooth="yes"/>
+      <point x="423.432" y="626.505"/>
+      <point x="400.99" y="604.063"/>
+    </contour>
+    <contour>
+      <point x="64.9951" y="574" type="curve" smooth="yes"/>
+      <point x="64.9951" y="665.82"/>
+      <point x="179.354" y="699.75"/>
+      <point x="288.245" y="699.75" type="curve" smooth="yes"/>
+      <point x="455.578" y="699.75"/>
+      <point x="532.495" y="651.38"/>
+      <point x="532.495" y="575.25" type="curve" smooth="yes"/>
+      <point x="532.495" y="535.271"/>
+      <point x="501.61" y="495"/>
+      <point x="451.745" y="495" type="curve" smooth="yes"/>
+      <point x="403.693" y="495"/>
+      <point x="371.495" y="534.357"/>
+      <point x="371.495" y="574.25" type="curve" smooth="yes"/>
+      <point x="371.495" y="588.109"/>
+      <point x="376.912" y="612.333"/>
+      <point x="394.245" y="629" type="curve"/>
+      <point x="372.675" y="633.791"/>
+      <point x="331.754" y="638.5"/>
+      <point x="282.995" y="638.5" type="curve" smooth="yes"/>
+      <point x="168.562" y="638.5"/>
+      <point x="103.995" y="610.984"/>
+      <point x="103.995" y="566" type="curve" smooth="yes"/>
+      <point x="103.995" y="527.13"/>
+      <point x="147.136" y="514"/>
+      <point x="180.995" y="514" type="curve" smooth="yes"/>
+      <point x="226.312" y="514"/>
+      <point x="263.939" y="527.645"/>
+      <point x="279" y="536" type="curve"/>
+      <point x="277.579" y="529.745"/>
+      <point x="276.71" y="520.861"/>
+      <point x="272.995" y="505" type="curve"/>
+      <point x="247.962" y="497.308"/>
+      <point x="222.362" y="489"/>
+      <point x="178.995" y="489" type="curve" smooth="yes"/>
+      <point x="118.795" y="489"/>
+      <point x="64.9951" y="515.942"/>
+    </contour>
+    <component base="si_Pha"/>
+  </outline>
+</glyph>
