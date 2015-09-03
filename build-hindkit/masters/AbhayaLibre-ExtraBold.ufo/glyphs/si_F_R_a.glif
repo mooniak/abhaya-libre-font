@@ -3,26 +3,26 @@
   <advance width="607"/>
   <outline>
     <contour>
-      <point x="59.75" y="-44" type="curve"/>
-      <point x="89.25" y="-44" type="line"/>
-      <point x="126.726" y="-86.958"/>
-      <point x="172.417" y="-114.25"/>
-      <point x="277.75" y="-114.25" type="curve" smooth="yes"/>
-      <point x="420.75" y="-114.25"/>
-      <point x="517.25" y="-31.0107"/>
-      <point x="517.25" y="63.25" type="curve" smooth="yes"/>
-      <point x="517.25" y="78.2842"/>
-      <point x="511.411" y="99.6465"/>
-      <point x="501.5" y="110" type="curve"/>
-      <point x="517.5" y="140" type="line"/>
-      <point x="538.89" y="115.406"/>
-      <point x="550.25" y="74.667"/>
-      <point x="550.25" y="38" type="curve" smooth="yes"/>
-      <point x="550.25" y="-123.729"/>
+      <point x="60" y="-44" type="curve"/>
+      <point x="89" y="-44" type="line"/>
+      <point x="127" y="-87"/>
+      <point x="172" y="-114"/>
+      <point x="278" y="-114" type="curve" smooth="yes"/>
+      <point x="421" y="-114"/>
+      <point x="517" y="-31"/>
+      <point x="517" y="63" type="curve" smooth="yes"/>
+      <point x="517" y="78"/>
+      <point x="511" y="100"/>
+      <point x="502" y="110" type="curve"/>
+      <point x="518" y="140" type="line"/>
+      <point x="539" y="115"/>
+      <point x="550" y="75"/>
+      <point x="550" y="38" type="curve" smooth="yes"/>
+      <point x="550" y="-124"/>
       <point x="437" y="-219"/>
       <point x="293" y="-219" type="curve" smooth="yes"/>
-      <point x="172.53" y="-219"/>
-      <point x="97.083" y="-153.333"/>
+      <point x="173" y="-219"/>
+      <point x="97" y="-153"/>
     </contour>
     <component base="si_Fa"/>
   </outline>
