@@ -17,7 +17,7 @@ Abhaya Libre - is the unicode compliant, complete libre version of Pushpananda E
 
 
 |   See the discussions on mailing list https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion
-See the video discussions https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv           | 
+See the video discussions https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv |
 | ------------- |:
 
 ##
@@ -63,10 +63,13 @@ See `FONTLOG.md` for details on contributions.
 - Pushpanada Ekanayake (Sinhala)
 - Sol Matas(Latin)
 - Pathum Egodawatta (Refactoring and Project coordination)
+- Ayantha Randika (Opentype features and engineering)
+
+Special thanks to Sumantri Samarawickrama, Liang Hai for consultancy. And thanks to all the testers on twitter.
 
 ## License
 
-Abhaya Libre will be released under the  [SIL Open Font License](http://scripts.sil.org/OFL)
+Abhaya Libre font is released under the  [SIL Open Font License](http://scripts.sil.org/OFL)
 
 For information on what you're allowed to change or modify, consult the
 OFL-1.1.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
