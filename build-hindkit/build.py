@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import hindkit as kit
-kit.confirm_version('0.1.3')
+kit.confirm_version('0.2.1')
 
 # - - -
 
@@ -32,7 +32,7 @@ family.set_styles([
 
 # - - -
 
-family.output_name_affix = '{} FDK'
+#family.output_name_affix = '{} FDK'
 
 # - - -
 
