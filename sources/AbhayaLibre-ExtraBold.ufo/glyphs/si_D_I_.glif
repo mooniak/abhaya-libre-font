@@ -3,33 +3,33 @@
   <advance width="456"/>
   <outline>
     <contour>
-      <point x="35" y="518" type="curve" smooth="yes"/>
-      <point x="35" y="619"/>
-      <point x="126" y="671"/>
+      <point x="35.0801" y="518" type="curve" smooth="yes"/>
+      <point x="35.0801" y="618.565"/>
+      <point x="126.303" y="671"/>
       <point x="223" y="671" type="curve" smooth="yes"/>
-      <point x="320" y="671"/>
-      <point x="411" y="617"/>
-      <point x="411" y="518" type="curve" smooth="yes"/>
-      <point x="411" y="443"/>
-      <point x="348" y="406"/>
-      <point x="295" y="405" type="curve"/>
-      <point x="278" y="427" type="line"/>
-      <point x="334" y="427"/>
-      <point x="354" y="459"/>
+      <point x="319.697" y="671"/>
+      <point x="410.92" y="617.064"/>
+      <point x="410.92" y="518" type="curve" smooth="yes"/>
+      <point x="410.92" y="443.457"/>
+      <point x="347.584" y="406.19"/>
+      <point x="295.09" y="405" type="curve"/>
+      <point x="277.59" y="427.25" type="line"/>
+      <point x="333.701" y="427.251"/>
+      <point x="354" y="458.508"/>
       <point x="354" y="488" type="curve" smooth="yes"/>
-      <point x="354" y="535"/>
-      <point x="295" y="554"/>
+      <point x="354" y="534.694"/>
+      <point x="295.016" y="554"/>
       <point x="223" y="554" type="curve" smooth="yes"/>
-      <point x="151" y="554"/>
-      <point x="90" y="537"/>
+      <point x="150.984" y="554"/>
+      <point x="90" y="536.646"/>
       <point x="90" y="488" type="curve" smooth="yes"/>
-      <point x="90" y="466"/>
-      <point x="109" y="426"/>
-      <point x="194" y="426" type="curve"/>
-      <point x="151" y="405" type="line"/>
-      <point x="85" y="415"/>
-      <point x="35" y="451"/>
+      <point x="90" y="465.812"/>
+      <point x="108.77" y="426.25"/>
+      <point x="194" y="426.25" type="curve"/>
+      <point x="150.91" y="405" type="line"/>
+      <point x="84.9511" y="414.727"/>
+      <point x="35.0801" y="450.955"/>
     </contour>
-    <component base="uni0DAF"/>
+    <component base="si_Da"/>
   </outline>
 </glyph>

@@ -8,37 +8,37 @@
       <point x="500" y="-40"/>
       <point x="553" y="-40" type="curve" smooth="yes"/>
       <point x="595" y="-40"/>
-      <point x="627" y="-55"/>
+      <point x="627.333" y="-55"/>
       <point x="650" y="-91" type="curve"/>
       <point x="617" y="-102" type="line"/>
-      <point x="606" y="-85"/>
+      <point x="605.684" y="-84.6992"/>
       <point x="587" y="-70"/>
       <point x="558" y="-70" type="curve" smooth="yes"/>
       <point x="519" y="-70"/>
-      <point x="494" y="-95"/>
+      <point x="494" y="-95.0762"/>
       <point x="494" y="-120" type="curve" smooth="yes"/>
-      <point x="494" y="-152"/>
-      <point x="523" y="-167"/>
+      <point x="494" y="-151.995"/>
+      <point x="522.815" y="-167"/>
       <point x="557" y="-167" type="curve" smooth="yes"/>
-      <point x="633" y="-167"/>
-      <point x="689" y="-114"/>
-      <point x="790" y="-114" type="curve" smooth="yes"/>
-      <point x="836" y="-114"/>
-      <point x="881" y="-134"/>
-      <point x="908" y="-166" type="curve"/>
+      <point x="633.215" y="-167"/>
+      <point x="689.451" y="-114.5"/>
+      <point x="789.5" y="-114.5" type="curve" smooth="yes"/>
+      <point x="836.085" y="-114.5"/>
+      <point x="881" y="-133.75"/>
+      <point x="908" y="-165.75" type="curve"/>
       <point x="908" y="152" type="line"/>
       <point x="943" y="212" type="line"/>
       <point x="943" y="-231" type="line"/>
-      <point x="918" y="-231" type="line"/>
-      <point x="902" y="-195"/>
-      <point x="862" y="-146"/>
-      <point x="800" y="-146" type="curve" smooth="yes"/>
-      <point x="708" y="-146"/>
+      <point x="917.5" y="-231" type="line"/>
+      <point x="902.5" y="-195"/>
+      <point x="862.449" y="-146.25"/>
+      <point x="799.5" y="-146.25" type="curve" smooth="yes"/>
+      <point x="708.5" y="-146.25"/>
       <point x="660" y="-237"/>
       <point x="562" y="-237" type="curve" smooth="yes"/>
       <point x="507" y="-237"/>
       <point x="451" y="-206"/>
     </contour>
-    <component base="si_TtVa"/>
+    <component base="si_TVa"/>
   </outline>
 </glyph>
