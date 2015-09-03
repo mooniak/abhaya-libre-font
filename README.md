@@ -1,18 +1,24 @@
 
-|  WORK IN PROGRESS      | 
+|  WORK IN PROGRESS      |
 | ------------- |:-------------:|
 | This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       |  
-|  [Live Testing Page](http://mooniak.com/abhaya-libre-font/tests)      | 
+|  [Live Testing Page](http://mooniak.com/abhaya-libre-font/tests)      |
 
 
 
-Abhaya Libre Font
+අභය ලිබ්රේ අකුරු මුහුණත / Abhaya Libre Font
 ==============
 
 Abhaya Libre - is the unicode compliant, complete libre version of Pushpananda Ekanayakes's FM Abhaya font, with Latin designed by Sol Matas.
 
-See the discussions on mailing list https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion
-See the video discussions https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv
+එෆ් එම් අභය අකුරු මුහුණතේ යුනිකේත අනුකූල නිකුතුව.
+
+
+
+
+|   See the discussions on mailing list https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion
+See the video discussions https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv           | 
+| ------------- |:
 
 ##
 
@@ -71,5 +77,5 @@ contribute to the project or make your own version of the font.
 
 ***
 
-|   This repository follows the [Unified Font Repository](https://github.com/raphaelbastide/Unified-Font-Repository) v2.0, a standard way to organize font project source files.           | 
+|   This repository follows the [Unified Font Repository](https://github.com/raphaelbastide/Unified-Font-Repository) v2.0, a standard way to organize font project source files.           |
 | ------------- |:
