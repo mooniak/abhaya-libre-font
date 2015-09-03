@@ -4,7 +4,7 @@ languagesystem sinh dflt;
 # include (../../features/GENERATED_classes.fea);
 include (../../features/tables.fea);
 
-#------ AKHN ------------
+#---- --AKHN ------------
 
 lookup si_akhands {
     sub si_Ka si_Halant zwj si_Ssa by si_KSsa;
@@ -17,7 +17,7 @@ lookup si_akhands {
     sub si_Na si_Halant zwj si_Tha by si_NTha;
     sub si_Da si_Halant zwj si_Va by si_DVa;
     sub si_Da si_Halant zwj si_Dha by si_DDha;
-    sub si_Tta si_Halant zwj si_Tha by si_TtTha;
+    sub si_Tta si_Halant zwj si_Tha by si_TtTtha;
 } si_akhands;
 
 #---- REPH ----
@@ -73,28 +73,22 @@ lookup si_halant_1 {
     sub si_Fa si_Halant by si_F.halant;
 } si_halant_1;
 
-# lookup si_halant_2 {
-#     sub si_KhRa si_Halant by si_KhR.halant;
-#     sub si_GRa si_Halant by si_GR.halant;
-#     sub si_NgRa si_Halant by si_NgR.halant;
-#     sub si_CRa si_Halant by si_CR.halant;
-#     sub si_JhRa si_Halant by si_JhR.halant;
-#     sub si_TtRa si_Halant by si_TtR.halant;
-#     sub si_DdRa si_Halant by si_DdR.halant;
-#     sub si_NnddRa si_Halant by si_NnddR.halant;
-#     sub si_DhRa si_Halant by si_DhR.halant;
-#     sub si_PRa si_Halant by si_PR.halant;
-#     sub si_BRa si_Halant by si_BR.halant;
-#     sub si_MRa si_Halant by si_MR.halant;
-#     sub si_MbRa si_Halant by si_MbR.halant;
-#     sub si_VRa si_Halant by si_VR.halant;
-#     sub si_ShRa si_Halant by si_ShR.halant;
-#     sub si_NdDha si_Halant by si_NdDh.halant;
-#     sub si_DTtha si_Halant by si_DTth.halant;
-#     sub si_DVa si_Halant by si_DV.halant;
-#     sub si_KVa si_Halant by si_KV.halant;
-#     sub si_KSsa si_Halant by si_KSs.halant;
-# } si_halant_2;
+lookup si_halant_2 {
+    sub si_KhRa si_Halant by si_KhR.halant;
+    sub si_GRa si_Halant by si_GR.halant;
+    sub si_DVa si_Halant by si_DV.halant;
+    sub si_KVa si_Halant by si_KV.halant;
+    sub si_KSsa si_Halant by si_KSs.halant;
+    sub si_NVa si_Halant by si_NV.halant;
+    sub si_NDa  si_Halant by si_ND.halant;
+    sub si_TtTtha si_Halant by si_TtTth.halant;
+    sub si_DDha si_Halant by si_DDdh.halant;
+    sub si_TVa si_Halant by si_TV.halant;
+    sub si_TTha si_Halant by si_TTh.halant;
+    sub si_NDha si_Halant by si_NDh.halant;
+    sub si_NTha si_Halant by si_NTh.halant;
+    sub si_Ya.post si_Halant by si_Y.post.halant;
+ } si_halant_2;
 
 #---- ABVS ----
 
@@ -151,7 +145,7 @@ lookup si_abvs_2 {
     sub si_Nnga si_MatraIi by si_NngIi;
     sub si_Ca si_MatraIi by si_CIi;
     sub si_Cha si_MatraIi by si_ChIi;
-    # sub si_Ja si_MatraIi by si_JIi;
+    sub si_Ja si_MatraIi by si_JIi;
     sub si_Jha si_MatraIi by si_JhIi;
     sub si_Nya si_MatraIi by si_NyIi;
     sub si_Jnya si_MatraIi by si_JnyIi;
@@ -269,7 +263,7 @@ lookup si_abvs_5 {
    sub	si_NTha	si_MatraI	by	si_NThI;
    sub	si_DVa	si_MatraI	by	si_DVI;
    sub	si_DDha	si_MatraI	by	si_DDhI;
-   sub	si_TtTha	si_MatraI	by	si_TtThI;
+   sub	si_TtTtha	si_MatraI	by	si_TtTthI;
 } si_abvs_5;
 
 lookup si_abvs_6 {
@@ -283,7 +277,7 @@ lookup si_abvs_6 {
   sub	si_NTha	si_MatraIi	by	si_NThIi;
   sub	si_DVa	si_MatraIi	by	si_DVIi;
   sub	si_DDha	si_MatraIi	by	si_DDhIi;
-  sub	si_TtTha	si_MatraIi	by	si_TtThIi;
+  sub	si_TtTtha	si_MatraIi	by	si_TtTthIi;
 } si_abvs_6;
 
 lookup si_abvs_7 {
@@ -374,7 +368,7 @@ lookup si_blws_2 {
   sub	si_NTha	si_MatraU	by	si_NThU;
   sub	si_DVa	si_MatraU	by	si_DVU;
   sub	si_DDha	si_MatraU	by	si_DDhU;
-  sub	si_TtTha	si_MatraU	by	si_TtThU;
+  sub	si_TtTtha	si_MatraU	by	si_TtTthU;
   sub si_Ya.post si_MatraU by si_YU.post;
 } si_blws_2;
 
@@ -433,19 +427,11 @@ lookup si_blws_4 {
   sub	si_NTha	si_MatraUu	by	si_NThUu;
   sub	si_DVa	si_MatraUu	by	si_DVUu;
   sub	si_DDha	si_MatraUu	by	si_DDhUu;
-  sub	si_TtTha	si_MatraUu	by	si_TtThUu;
+  sub	si_TtTtha	si_MatraUu	by	si_TtTthUu;
     sub si_Ya.post si_MatraUu by si_YUu.post;
 } si_blws_4;
 
 lookup si_blws_5 {
-    sub si_Da si_Ya.post by si_DYa.post;
-    sub si_Da si_Ya.post si_MatraAa by si_DYAa.post;
-    sub si_Nya si_MatraAa by si_NyAa;
-    sub si_NDa si_MatraAa by si_NDAa;
-    sub si_Jnya si_MatraAa by si_JnyAa;
-    sub si_Da si_MatraAa by si_DAa;
-    sub si_Nda si_MatraAa by si_NdAa;
-    sub si_DAa si_Halant by si_DAa.halant;
     sub si_Da si_MatraR by si_DvocR;
     sub si_Da si_MatraRr by si_DvocRr;
 } si_blws_5;
@@ -511,69 +497,146 @@ lookup si_rakaar {
     sub si_NDa si_Halant zwj si_Ra by si_NDRa;
 } si_rakaar;
 
-lookup si_kern {
-    pos si_A <0 0 0 0>;
-} si_kern;
+#----------- Split Matras ------------
+#-------------------------------
+
+lookup si_split_matra {
+    sub si_MatraEe by si_Halant;
+    sub si_MatraO by si_MatraAa;
+    sub si_MatraOo by si_MatraAa.halant;
+    sub si_MatraAu by si_MatraLs;
+} si_split_matra;
+
+lookup si_da_style {
+    sub si_Da si_MatraAa by si_DAa;
+    sub si_Da si_MatraAa.halant by si_DAa.halant;
+    sub si_Da si_MatraAae by si_DAae;
+    sub si_Da si_MatraAe by si_DAe;
+    sub si_Da si_Ya.post si_MatraAa.halant by si_DYOo.post;
+    sub si_Da si_YUu.post by si_DYUu.post;
+    sub si_Da si_Ya.post by si_DYa.post;
+    sub si_Da si_Ya.post si_MatraAa by si_DYAa.post;
+    sub si_Da si_YU.post by si_DYu.post;
+    sub si_Nda si_MatraAa by si_NdAa;
+    sub si_Nda si_MatraAa.halant by si_NdAa.halant;
+    sub si_Nda si_MatraAae by si_NdAae;
+    sub si_Nda si_MatraAe by si_NdAe;
+    sub si_Jnya si_MatraAa by si_JnyAa;
+    sub si_Jnya si_MatraAa.halant by si_JnyAa.halant;
+    sub si_Jnya si_MatraAae by si_JnyAee;
+    sub si_Jnya si_MatraAe by si_JnyAe;
+    sub si_NDa si_MatraAa by si_NDAa;
+    # sub si_NDa si_MatraAa.halant by si_NDAa.halant;
+    sub si_NDa si_MatraAae by si_NDAee;
+    sub si_NDa si_MatraAe by si_NDAe;
+    sub si_Nya si_MatraAa by si_NyAa;
+    sub si_Nya si_MatraAa.halant by si_NyAa.halant;
+    sub si_Nya si_MatraAae by si_NyAee;
+    sub si_Nya si_MatraAe by si_NyAe;
+
+} si_da_style;
+
+# lookup si_kern {
+#     pos si_A <0 0 0 0>;
+# } si_kern;
+
+lookup si_touch {
+    # sub zwj' si_Halant' by zwj;
+    pos si_Dda zwj si_Halant si_Da' <-120 0 0 0>;
+    # sub si_Dda by si_Da;
+} si_touch;
+
+lookup si_touch2 {
+    # sub zwj' si_Halant' by zwj;
+    sub si_Dda' zwj' si_Halant si_Da by si_Dda;
+    # sub si_Dda by si_Da;
+} si_touch2;
 
 ##--------------- Lookups ---------------##
 
 feature akhn {
-  lookup si_akhands;
+    script sinh;
+        lookup si_akhands;
 } akhn;
 
 #-------------
 
 feature rphf {
-  lookup si_reph;
+    script sinh;
+        lookup si_reph;
 } rphf;
 
 #-------------
 
+feature vatu {
+    script sinh;
+        lookup si_rakaar;
+        lookup si_yansaya;
+} vatu;
+
+#-------------
+
+feature pstf {
+  script sinh;
+      lookup si_split_matra;
+} pstf;
+
+#-------------
+
 feature abvs {
-  lookup si_halant_1;
-  lookup si_abvs_1;
-  lookup si_abvs_2;
-  lookup si_abvs_3;
-  lookup si_abvs_4;
-  lookup si_abvs_5;
-  lookup si_abvs_6;
-  lookup si_abvs_7;
+    script sinh;
+        lookup si_halant_1;
+        lookup si_halant_2;
+        lookup si_abvs_1;
+        lookup si_abvs_2;
+        lookup si_abvs_3;
+        lookup si_abvs_4;
+        lookup si_abvs_5;
+        lookup si_abvs_6;
+        lookup si_abvs_7;
 } abvs;
 
 #-------------
 
 feature blws {
-  lookup si_blws_1;
-  lookup si_blws_2;
-  lookup si_blws_3;
-  lookup si_blws_4;
-  lookup si_blws_5;
+    script sinh;
+        lookup si_blws_1;
+        lookup si_blws_2;
+        lookup si_blws_3;
+        lookup si_blws_4;
+        lookup si_blws_5;
 } blws;
 
 #-------------
 
-feature vatu {
-  lookup si_rakaar;
-  lookup si_yansaya;
-} vatu;
-
-#-------------
-
 feature psts {
-  lookup si_raer;
+  script sinh;
+      lookup si_raer;
 } psts;
 
 #-------------
 
 # feature kern {
-#   lookup si_kern;
+#     script sinh;
+#         lookup si_kern;
 # } kern;
 
-# feature dist {
-# } dist;
-#
+feature dist {
+    script sinh;
+        lookup si_touch;
+        lookup si_touch2;
+} dist;
+
 # feature abvm {
+#     script sinh;
 # } abvm;
-#
+
 # feature blwm {
+#     script sinh;
 # } blwm;
+
+# feature ss01 {
+#   script sinh;
+#     lookup si_da_style;
+# } ss01;
+#-------------
