@@ -4,10 +4,22 @@
 <dict>
 	<key>.notdef</key>
 	<string>_notdef.glif</string>
-	<key>afii301</key>
-	<string>afii301.glif</string>
-	<key>afii61664</key>
-	<string>afii61664.glif</string>
+	<key>anusvara</key>
+	<string>anusvara.glif</string>
+	<key>dottedcircle</key>
+	<string>dottedcircle.glif</string>
+	<key>si_A</key>
+	<string>si_A_.glif</string>
+	<key>si_Aa</key>
+	<string>si_A_a.glif</string>
+	<key>si_Aae</key>
+	<string>si_A_ae.glif</string>
+	<key>si_Ae</key>
+	<string>si_A_e.glif</string>
+	<key>si_Ai</key>
+	<string>si_A_i.glif</string>
+	<key>si_Au</key>
+	<string>si_A_u.glif</string>
 	<key>si_B.halant</key>
 	<string>si_B_.halant.glif</string>
 	<key>si_BI</key>
@@ -24,6 +36,8 @@
 	<string>si_B_U_.glif</string>
 	<key>si_BUu</key>
 	<string>si_B_U_u.glif</string>
+	<key>si_Ba</key>
+	<string>si_B_a.glif</string>
 	<key>si_Ba.reph</key>
 	<string>si_B_a.reph.glif</string>
 	<key>si_Ba.touch</key>
@@ -44,6 +58,8 @@
 	<string>si_B_hU_.glif</string>
 	<key>si_BhUu</key>
 	<string>si_B_hU_u.glif</string>
+	<key>si_Bha</key>
+	<string>si_B_ha.glif</string>
 	<key>si_Bha.reph</key>
 	<string>si_B_ha.reph.glif</string>
 	<key>si_Bha.touch</key>
@@ -64,6 +80,8 @@
 	<string>si_C_U_.glif</string>
 	<key>si_CUu</key>
 	<string>si_C_U_u.glif</string>
+	<key>si_Ca</key>
+	<string>si_C_a.glif</string>
 	<key>si_Ca.reph</key>
 	<string>si_C_a.reph.glif</string>
 	<key>si_Ca.touch</key>
@@ -78,6 +96,8 @@
 	<string>si_C_hU_.glif</string>
 	<key>si_ChUu</key>
 	<string>si_C_hU_u.glif</string>
+	<key>si_Cha</key>
+	<string>si_C_ha.glif</string>
 	<key>si_Cha.touch</key>
 	<string>si_C_ha.touch.glif</string>
 	<key>si_D.halant</key>
@@ -138,6 +158,8 @@
 	<string>si_D_Y_a.post.glif</string>
 	<key>si_DYu.post</key>
 	<string>si_D_Y_u.post.glif</string>
+	<key>si_Da</key>
+	<string>si_D_a.glif</string>
 	<key>si_Da.reph</key>
 	<string>si_D_a.reph.glif</string>
 	<key>si_Da.touch</key>
@@ -158,6 +180,8 @@
 	<string>si_D_dU_.glif</string>
 	<key>si_DdUu</key>
 	<string>si_D_dU_u.glif</string>
+	<key>si_Dda</key>
+	<string>si_D_da.glif</string>
 	<key>si_Dda.reph</key>
 	<string>si_D_da.reph.glif</string>
 	<key>si_Dda.touch</key>
@@ -172,6 +196,8 @@
 	<string>si_D_dhU_.glif</string>
 	<key>si_DdhUu</key>
 	<string>si_D_dhU_u.glif</string>
+	<key>si_Ddha</key>
+	<string>si_D_dha.glif</string>
 	<key>si_Ddha.touch</key>
 	<string>si_D_dha.touch.glif</string>
 	<key>si_Dh.halant</key>
@@ -190,6 +216,8 @@
 	<string>si_D_hU_.glif</string>
 	<key>si_DhUu</key>
 	<string>si_D_hU_u.glif</string>
+	<key>si_Dha</key>
+	<string>si_D_ha.glif</string>
 	<key>si_Dha.reph</key>
 	<string>si_D_ha.reph.glif</string>
 	<key>si_Dha.touch</key>
@@ -198,6 +226,10 @@
 	<string>si_D_vocR_.glif</string>
 	<key>si_DvocRr</key>
 	<string>si_D_vocR_r.glif</string>
+	<key>si_E</key>
+	<string>si_E_.glif</string>
+	<key>si_Ee</key>
+	<string>si_E_e.glif</string>
 	<key>si_F.halant</key>
 	<string>si_F_.halant.glif</string>
 	<key>si_FI</key>
@@ -214,6 +246,8 @@
 	<string>si_F_U_.glif</string>
 	<key>si_FUu</key>
 	<string>si_F_U_u.glif</string>
+	<key>si_Fa</key>
+	<string>si_F_a.glif</string>
 	<key>si_Fa.reph</key>
 	<string>si_F_a.reph.glif</string>
 	<key>si_Fa.touch</key>
@@ -238,6 +272,8 @@
 	<string>si_G_U_.glif</string>
 	<key>si_GUu</key>
 	<string>si_G_U_u.glif</string>
+	<key>si_Ga</key>
+	<string>si_G_a.glif</string>
 	<key>si_Ga.reph</key>
 	<string>si_G_a.reph.glif</string>
 	<key>si_Ga.touch</key>
@@ -258,6 +294,8 @@
 	<string>si_G_hU_.glif</string>
 	<key>si_GhUu</key>
 	<string>si_G_hU_u.glif</string>
+	<key>si_Gha</key>
+	<string>si_G_ha.glif</string>
 	<key>si_Gha.reph</key>
 	<string>si_G_ha.reph.glif</string>
 	<key>si_Gha.touch</key>
@@ -276,10 +314,18 @@
 	<string>si_H_U_.glif</string>
 	<key>si_HUu</key>
 	<string>si_H_U_u.glif</string>
+	<key>si_Ha</key>
+	<string>si_H_a.glif</string>
 	<key>si_Ha.reph</key>
 	<string>si_H_a.reph.glif</string>
 	<key>si_Ha.touch</key>
 	<string>si_H_a.touch.glif</string>
+	<key>si_Halant</key>
+	<string>si_H_alant.glif</string>
+	<key>si_I</key>
+	<string>si_I_.glif</string>
+	<key>si_Ii</key>
+	<string>si_I_i.glif</string>
 	<key>si_J.halant</key>
 	<string>si_J_.halant.glif</string>
 	<key>si_JI</key>
@@ -296,6 +342,8 @@
 	<string>si_J_U_.glif</string>
 	<key>si_JUu</key>
 	<string>si_J_U_u.glif</string>
+	<key>si_Ja</key>
+	<string>si_J_a.glif</string>
 	<key>si_Ja.reph</key>
 	<string>si_J_a.reph.glif</string>
 	<key>si_Ja.touch</key>
@@ -320,6 +368,8 @@
 	<string>si_J_hU_u.glif</string>
 	<key>si_JhUu.reph</key>
 	<string>si_J_hU_u.reph.glif</string>
+	<key>si_Jha</key>
+	<string>si_J_ha.glif</string>
 	<key>si_Jha.reph</key>
 	<string>si_J_ha.reph.glif</string>
 	<key>si_Jha.touch</key>
@@ -348,6 +398,8 @@
 	<string>si_J_nyU_.glif</string>
 	<key>si_JnyUu</key>
 	<string>si_J_nyU_u.glif</string>
+	<key>si_Jnya</key>
+	<string>si_J_nya.glif</string>
 	<key>si_Jnya.touch</key>
 	<string>si_J_nya.touch.glif</string>
 	<key>si_K.halant</key>
@@ -392,6 +444,8 @@
 	<string>si_K_V_U_u.glif</string>
 	<key>si_KVa</key>
 	<string>si_K_V_a.glif</string>
+	<key>si_Ka</key>
+	<string>si_K_a.glif</string>
 	<key>si_Ka.reph</key>
 	<string>si_K_a.reph.glif</string>
 	<key>si_Ka.touch</key>
@@ -414,6 +468,8 @@
 	<string>si_K_hU_.glif</string>
 	<key>si_KhUu</key>
 	<string>si_K_hU_u.glif</string>
+	<key>si_Kha</key>
+	<string>si_K_ha.glif</string>
 	<key>si_Kha.touch</key>
 	<string>si_K_ha.touch.glif</string>
 	<key>si_L.halant</key>
@@ -426,6 +482,8 @@
 	<string>si_L_U_.glif</string>
 	<key>si_LUu</key>
 	<string>si_L_U_u.glif</string>
+	<key>si_La</key>
+	<string>si_L_a.glif</string>
 	<key>si_La.touch</key>
 	<string>si_L_a.touch.glif</string>
 	<key>si_Ll.halant</key>
@@ -438,6 +496,8 @@
 	<string>si_L_lU_.glif</string>
 	<key>si_LlUu</key>
 	<string>si_L_lU_u.glif</string>
+	<key>si_Lla</key>
+	<string>si_L_la.glif</string>
 	<key>si_Lla.touch</key>
 	<string>si_L_la.touch.glif</string>
 	<key>si_M.halant</key>
@@ -456,14 +516,50 @@
 	<string>si_M_U_.glif</string>
 	<key>si_MUu</key>
 	<string>si_M_U_u.glif</string>
+	<key>si_Ma</key>
+	<string>si_M_a.glif</string>
 	<key>si_Ma.reph</key>
 	<string>si_M_a.reph.glif</string>
 	<key>si_Ma.touch</key>
 	<string>si_M_a.touch.glif</string>
+	<key>si_MatraAa</key>
+	<string>si_M_atraA_a.glif</string>
 	<key>si_MatraAa.halant</key>
 	<string>si_M_atraA_a.halant.glif</string>
+	<key>si_MatraAae</key>
+	<string>si_M_atraA_ae.glif</string>
+	<key>si_MatraAe</key>
+	<string>si_M_atraA_e.glif</string>
+	<key>si_MatraAi</key>
+	<string>si_M_atraA_i.glif</string>
+	<key>si_MatraAu</key>
+	<string>si_M_atraA_u.glif</string>
+	<key>si_MatraE</key>
+	<string>si_M_atraE_.glif</string>
+	<key>si_MatraEe</key>
+	<string>si_M_atraE_e.glif</string>
+	<key>si_MatraI</key>
+	<string>si_M_atraI_.glif</string>
+	<key>si_MatraIi</key>
+	<string>si_M_atraI_i.glif</string>
+	<key>si_MatraLl</key>
+	<string>si_M_atraL_l.glif</string>
+	<key>si_MatraLs</key>
+	<string>si_M_atraL_s.glif</string>
+	<key>si_MatraO</key>
+	<string>si_M_atraO_.glif</string>
+	<key>si_MatraOo</key>
+	<string>si_M_atraO_o.glif</string>
+	<key>si_MatraR</key>
+	<string>si_M_atraR_.glif</string>
+	<key>si_MatraRr</key>
+	<string>si_M_atraR_r.glif</string>
+	<key>si_MatraU</key>
+	<string>si_M_atraU_.glif</string>
 	<key>si_MatraU.alt</key>
 	<string>si_M_atraU_.alt.glif</string>
+	<key>si_MatraUu</key>
+	<string>si_M_atraU_u.glif</string>
 	<key>si_MatraUu.alt</key>
 	<string>si_M_atraU_u.alt.glif</string>
 	<key>si_Mb.halant</key>
@@ -476,6 +572,8 @@
 	<string>si_M_bU_.glif</string>
 	<key>si_MbUu</key>
 	<string>si_M_bU_u.glif</string>
+	<key>si_Mba</key>
+	<string>si_M_ba.glif</string>
 	<key>si_Mba.touch</key>
 	<string>si_M_ba.touch.glif</string>
 	<key>si_N.halant</key>
@@ -548,6 +646,8 @@
 	<string>si_N_V_U_u.glif</string>
 	<key>si_NVa</key>
 	<string>si_N_V_a.glif</string>
+	<key>si_Na</key>
+	<string>si_N_a.glif</string>
 	<key>si_Na.reph</key>
 	<string>si_N_a.reph.glif</string>
 	<key>si_Na.touch</key>
@@ -572,6 +672,8 @@
 	<string>si_N_dU_.glif</string>
 	<key>si_NdUu</key>
 	<string>si_N_dU_u.glif</string>
+	<key>si_Nda</key>
+	<string>si_N_da.glif</string>
 	<key>si_Nda.touch</key>
 	<string>si_N_da.touch.glif</string>
 	<key>si_Ndda.touch</key>
@@ -588,6 +690,8 @@
 	<string>si_N_djU_.glif</string>
 	<key>si_NdjUu</key>
 	<string>si_N_djU_u.glif</string>
+	<key>si_Ndja</key>
+	<string>si_N_dja.glif</string>
 	<key>si_Ndja.touch</key>
 	<string>si_N_dja.touch.glif</string>
 	<key>si_Ng.halant</key>
@@ -596,6 +700,8 @@
 	<string>si_N_gI_.glif</string>
 	<key>si_NgIi</key>
 	<string>si_N_gI_i.glif</string>
+	<key>si_Nga</key>
+	<string>si_N_ga.glif</string>
 	<key>si_Nga.touch</key>
 	<string>si_N_ga.touch.glif</string>
 	<key>si_Nn.halant</key>
@@ -608,6 +714,8 @@
 	<string>si_N_nU_.glif</string>
 	<key>si_NnUu</key>
 	<string>si_N_nU_u.glif</string>
+	<key>si_Nna</key>
+	<string>si_N_na.glif</string>
 	<key>si_Nna.reph</key>
 	<string>si_N_na.reph.glif</string>
 	<key>si_Nna.touch</key>
@@ -622,6 +730,8 @@
 	<string>si_N_nddU_.glif</string>
 	<key>si_NnddUu</key>
 	<string>si_N_nddU_u.glif</string>
+	<key>si_Nndda</key>
+	<string>si_N_ndda.glif</string>
 	<key>si_Nng.halant</key>
 	<string>si_N_ng.halant.glif</string>
 	<key>si_NngI</key>
@@ -632,6 +742,8 @@
 	<string>si_N_ngU_.glif</string>
 	<key>si_NngUu</key>
 	<string>si_N_ngU_u.glif</string>
+	<key>si_Nnga</key>
+	<string>si_N_nga.glif</string>
 	<key>si_Nnga.touch</key>
 	<string>si_N_nga.touch.glif</string>
 	<key>si_Ny.halant</key>
@@ -658,8 +770,14 @@
 	<string>si_N_yU_.glif</string>
 	<key>si_NyUu</key>
 	<string>si_N_yU_u.glif</string>
+	<key>si_Nya</key>
+	<string>si_N_ya.glif</string>
 	<key>si_Nya.touch</key>
 	<string>si_N_ya.touch.glif</string>
+	<key>si_Oo</key>
+	<string>si_O_o.glif</string>
+	<key>si_Os</key>
+	<string>si_O_s.glif</string>
 	<key>si_P.halant</key>
 	<string>si_P_.halant.glif</string>
 	<key>si_PI</key>
@@ -676,6 +794,8 @@
 	<string>si_P_U_.glif</string>
 	<key>si_PUu</key>
 	<string>si_P_U_u.glif</string>
+	<key>si_Pa</key>
+	<string>si_P_a.glif</string>
 	<key>si_Pa.reph</key>
 	<string>si_P_a.reph.glif</string>
 	<key>si_Pa.touch</key>
@@ -690,6 +810,8 @@
 	<string>si_P_hU_.glif</string>
 	<key>si_PhUu</key>
 	<string>si_P_hU_u.glif</string>
+	<key>si_Pha</key>
+	<string>si_P_ha.glif</string>
 	<key>si_Pha.reph</key>
 	<string>si_P_ha.reph.glif</string>
 	<key>si_Pha.touch</key>
@@ -708,6 +830,8 @@
 	<string>si_R_U_.glif</string>
 	<key>si_RUu</key>
 	<string>si_R_U_u.glif</string>
+	<key>si_Ra</key>
+	<string>si_R_a.glif</string>
 	<key>si_Ra.touch</key>
 	<string>si_R_a.touch.glif</string>
 	<key>si_Rakar</key>
@@ -730,6 +854,8 @@
 	<string>si_S_U_.glif</string>
 	<key>si_SUu</key>
 	<string>si_S_U_u.glif</string>
+	<key>si_Sa</key>
+	<string>si_S_a.glif</string>
 	<key>si_Sa.reph</key>
 	<string>si_S_a.reph.glif</string>
 	<key>si_Sa.touch</key>
@@ -750,6 +876,8 @@
 	<string>si_S_hU_.glif</string>
 	<key>si_ShUu</key>
 	<string>si_S_hU_u.glif</string>
+	<key>si_Sha</key>
+	<string>si_S_ha.glif</string>
 	<key>si_Sha.reph</key>
 	<string>si_S_ha.reph.glif</string>
 	<key>si_Sha.touch</key>
@@ -770,6 +898,8 @@
 	<string>si_S_sU_.glif</string>
 	<key>si_SsUu</key>
 	<string>si_S_sU_u.glif</string>
+	<key>si_Ssa</key>
+	<string>si_S_sa.glif</string>
 	<key>si_Ssa.reph</key>
 	<string>si_S_sa.reph.glif</string>
 	<key>si_Ssa.touch</key>
@@ -814,6 +944,8 @@
 	<string>si_T_V_U_u.glif</string>
 	<key>si_TVa</key>
 	<string>si_T_V_a.glif</string>
+	<key>si_Ta</key>
+	<string>si_T_a.glif</string>
 	<key>si_Ta.reph</key>
 	<string>si_T_a.reph.glif</string>
 	<key>si_Ta.touch</key>
@@ -828,6 +960,8 @@
 	<string>si_T_hU_.glif</string>
 	<key>si_ThUu</key>
 	<string>si_T_hU_u.glif</string>
+	<key>si_Tha</key>
+	<string>si_T_ha.glif</string>
 	<key>si_Tha.reph</key>
 	<string>si_T_ha.reph.glif</string>
 	<key>si_Tha.touch</key>
@@ -860,6 +994,8 @@
 	<string>si_T_tU_.glif</string>
 	<key>si_TtUu</key>
 	<string>si_T_tU_u.glif</string>
+	<key>si_Tta</key>
+	<string>si_T_ta.glif</string>
 	<key>si_Tta.reph</key>
 	<string>si_T_ta.reph.glif</string>
 	<key>si_Tta.touch</key>
@@ -874,8 +1010,14 @@
 	<string>si_T_thU_.glif</string>
 	<key>si_TthUu</key>
 	<string>si_T_thU_u.glif</string>
+	<key>si_Ttha</key>
+	<string>si_T_tha.glif</string>
 	<key>si_Ttha.touch</key>
 	<string>si_T_tha.touch.glif</string>
+	<key>si_U</key>
+	<string>si_U_.glif</string>
+	<key>si_Uu</key>
+	<string>si_U_u.glif</string>
 	<key>si_V.halant</key>
 	<string>si_V_.halant.glif</string>
 	<key>si_VI</key>
@@ -892,6 +1034,8 @@
 	<string>si_V_U_.glif</string>
 	<key>si_VUu</key>
 	<string>si_V_U_u.glif</string>
+	<key>si_Va</key>
+	<string>si_V_a.glif</string>
 	<key>si_Va.reph</key>
 	<string>si_V_a.reph.glif</string>
 	<key>si_Va.touch</key>
@@ -914,6 +1058,8 @@
 	<string>si_Y_U_u.post.glif</string>
 	<key>si_YUu.post.reph</key>
 	<string>si_Y_U_u.post.reph.glif</string>
+	<key>si_Ya</key>
+	<string>si_Y_a.glif</string>
 	<key>si_Ya.post</key>
 	<string>si_Y_a.post.glif</string>
 	<key>si_Ya.post.reph</key>
@@ -924,169 +1070,23 @@
 	<string>si_Y_a.touch.glif</string>
 	<key>si_Yu.post.reph</key>
 	<string>si_Y_u.post.reph.glif</string>
-	<key>space</key>
-	<string>space.glif</string>
-	<key>uni0D82</key>
-	<string>uni0D_82.glif</string>
-	<key>uni0D83</key>
-	<string>uni0D_83.glif</string>
-	<key>uni0D85</key>
-	<string>uni0D_85.glif</string>
-	<key>uni0D86</key>
-	<string>uni0D_86.glif</string>
-	<key>uni0D87</key>
-	<string>uni0D_87.glif</string>
-	<key>uni0D88</key>
-	<string>uni0D_88.glif</string>
-	<key>uni0D89</key>
-	<string>uni0D_89.glif</string>
-	<key>uni0D8A</key>
-	<string>uni0D_8A_.glif</string>
-	<key>uni0D8B</key>
-	<string>uni0D_8B_.glif</string>
-	<key>uni0D8C</key>
-	<string>uni0D_8C_.glif</string>
-	<key>uni0D8D</key>
-	<string>uni0D_8D_.glif</string>
-	<key>uni0D8E</key>
-	<string>uni0D_8E_.glif</string>
-	<key>uni0D8F</key>
-	<string>uni0D_8F_.glif</string>
-	<key>uni0D90</key>
-	<string>uni0D_90.glif</string>
-	<key>uni0D91</key>
-	<string>uni0D_91.glif</string>
-	<key>uni0D92</key>
-	<string>uni0D_92.glif</string>
-	<key>uni0D93</key>
-	<string>uni0D_93.glif</string>
-	<key>uni0D94</key>
-	<string>uni0D_94.glif</string>
-	<key>uni0D95</key>
-	<string>uni0D_95.glif</string>
-	<key>uni0D96</key>
-	<string>uni0D_96.glif</string>
-	<key>uni0D9A</key>
-	<string>uni0D_9A_.glif</string>
-	<key>uni0D9B</key>
-	<string>uni0D_9B_.glif</string>
-	<key>uni0D9C</key>
-	<string>uni0D_9C_.glif</string>
-	<key>uni0D9D</key>
-	<string>uni0D_9D_.glif</string>
-	<key>uni0D9E</key>
-	<string>uni0D_9E_.glif</string>
-	<key>uni0D9F</key>
-	<string>uni0D_9F_.glif</string>
-	<key>uni0DA0</key>
-	<string>uni0D_A_0.glif</string>
-	<key>uni0DA1</key>
-	<string>uni0D_A_1.glif</string>
-	<key>uni0DA2</key>
-	<string>uni0D_A_2.glif</string>
-	<key>uni0DA3</key>
-	<string>uni0D_A_3.glif</string>
-	<key>uni0DA4</key>
-	<string>uni0D_A_4.glif</string>
-	<key>uni0DA5</key>
-	<string>uni0D_A_5.glif</string>
-	<key>uni0DA6</key>
-	<string>uni0D_A_6.glif</string>
-	<key>uni0DA7</key>
-	<string>uni0D_A_7.glif</string>
-	<key>uni0DA8</key>
-	<string>uni0D_A_8.glif</string>
-	<key>uni0DA9</key>
-	<string>uni0D_A_9.glif</string>
-	<key>uni0DAA</key>
-	<string>uni0D_A_A_.glif</string>
-	<key>uni0DAB</key>
-	<string>uni0D_A_B_.glif</string>
-	<key>uni0DAC</key>
-	<string>uni0D_A_C_.glif</string>
-	<key>uni0DAD</key>
-	<string>uni0D_A_D_.glif</string>
-	<key>uni0DAE</key>
-	<string>uni0D_A_E_.glif</string>
-	<key>uni0DAF</key>
-	<string>uni0D_A_F_.glif</string>
-	<key>uni0DB0</key>
-	<string>uni0D_B_0.glif</string>
-	<key>uni0DB1</key>
-	<string>uni0D_B_1.glif</string>
-	<key>uni0DB3</key>
-	<string>uni0D_B_3.glif</string>
-	<key>uni0DB4</key>
-	<string>uni0D_B_4.glif</string>
-	<key>uni0DB5</key>
-	<string>uni0D_B_5.glif</string>
-	<key>uni0DB6</key>
-	<string>uni0D_B_6.glif</string>
-	<key>uni0DB7</key>
-	<string>uni0D_B_7.glif</string>
-	<key>uni0DB8</key>
-	<string>uni0D_B_8.glif</string>
-	<key>uni0DB9</key>
-	<string>uni0D_B_9.glif</string>
-	<key>uni0DBA</key>
-	<string>uni0D_B_A_.glif</string>
-	<key>uni0DBB</key>
-	<string>uni0D_B_B_.glif</string>
-	<key>uni0DBD</key>
-	<string>uni0D_B_D_.glif</string>
-	<key>uni0DC0</key>
-	<string>uni0D_C_0.glif</string>
-	<key>uni0DC1</key>
-	<string>uni0D_C_1.glif</string>
-	<key>uni0DC2</key>
-	<string>uni0D_C_2.glif</string>
-	<key>uni0DC3</key>
-	<string>uni0D_C_3.glif</string>
-	<key>uni0DC4</key>
-	<string>uni0D_C_4.glif</string>
-	<key>uni0DC5</key>
-	<string>uni0D_C_5.glif</string>
-	<key>uni0DC6</key>
-	<string>uni0D_C_6.glif</string>
-	<key>uni0DCA</key>
-	<string>uni0D_C_A_.glif</string>
-	<key>uni0DCF</key>
-	<string>uni0D_C_F_.glif</string>
-	<key>uni0DD0</key>
-	<string>uni0D_D_0.glif</string>
-	<key>uni0DD1</key>
-	<string>uni0D_D_1.glif</string>
-	<key>uni0DD2</key>
-	<string>uni0D_D_2.glif</string>
-	<key>uni0DD3</key>
-	<string>uni0D_D_3.glif</string>
-	<key>uni0DD4</key>
-	<string>uni0D_D_4.glif</string>
-	<key>uni0DD6</key>
-	<string>uni0D_D_6.glif</string>
-	<key>uni0DD8</key>
-	<string>uni0D_D_8.glif</string>
-	<key>uni0DD9</key>
-	<string>uni0D_D_9.glif</string>
-	<key>uni0DDA</key>
-	<string>uni0D_D_A_.glif</string>
-	<key>uni0DDB</key>
-	<string>uni0D_D_B_.glif</string>
-	<key>uni0DDC</key>
-	<string>uni0D_D_C_.glif</string>
-	<key>uni0DDD</key>
-	<string>uni0D_D_D_.glif</string>
-	<key>uni0DDE</key>
-	<string>uni0D_D_E_.glif</string>
-	<key>uni0DDF</key>
-	<string>uni0D_D_F_.glif</string>
-	<key>uni0DF2</key>
-	<string>uni0D_F_2.glif</string>
-	<key>uni0DF3</key>
-	<string>uni0D_F_3.glif</string>
-	<key>uni0DF4</key>
-	<string>uni0D_F_4.glif</string>
-	<key>uni25CC</key>
-	<string>uni25C_C_.glif</string>
+	<key>si_kundaliya</key>
+	<string>si_kundaliya.glif</string>
+	<key>si_vocalicL</key>
+	<string>si_vocalicL_.glif</string>
+	<key>si_vocalicLL</key>
+	<string>si_vocalicL_L_.glif</string>
+	<key>si_vocalicR</key>
+	<string>si_vocalicR_.glif</string>
+	<key>si_vocalicRr</key>
+	<string>si_vocalicR_r.glif</string>
+	<key>uni0020</key>
+	<string>uni0020.glif</string>
+	<key>visarga</key>
+	<string>visarga.glif</string>
+	<key>zwj</key>
+	<string>zwj.glif</string>
+	<key>zwnj</key>
+	<string>zwnj.glif</string>
 </dict>
 </plist>
