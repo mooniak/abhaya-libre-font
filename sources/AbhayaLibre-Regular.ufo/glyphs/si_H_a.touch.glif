@@ -2,6 +2,9 @@
 <glyph name="si_Ha.touch" format="1">
   <advance width="653"/>
   <outline>
+    <contour>
+      <point x="605" y="0" type="move" name="cursive"/>
+    </contour>
     <component base="si_Ha"/>
   </outline>
 </glyph>

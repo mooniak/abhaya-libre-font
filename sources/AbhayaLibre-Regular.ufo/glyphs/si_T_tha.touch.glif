@@ -2,6 +2,9 @@
 <glyph name="si_Ttha.touch" format="1">
   <advance width="614"/>
   <outline>
+    <contour>
+      <point x="590" y="0" type="move" name="cursive"/>
+    </contour>
     <component base="si_Ttha"/>
   </outline>
 </glyph>

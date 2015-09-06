@@ -2,6 +2,9 @@
 <glyph name="si_Ra.touch" format="1">
   <advance width="528"/>
   <outline>
+    <contour>
+      <point x="466" y="0" type="move" name="cursive"/>
+    </contour>
     <component base="si_Ra"/>
   </outline>
 </glyph>

@@ -2,6 +2,9 @@
 <glyph name="si_Pa.touch" format="1">
   <advance width="616"/>
   <outline>
+    <contour>
+      <point x="548" y="0" type="move" name="cursive"/>
+    </contour>
     <component base="si_Pa"/>
   </outline>
 </glyph>
