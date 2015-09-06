@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1441290116
+ModificationTime: 1441526293
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -47,30 +47,9 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-'sups' Superscript lookup 0" { "Abhaya Libre Latin-Regular-'sups' Superscript lookup 0 subtable"  } ['sups' ('DFLT' <'dflt' > ) ]
-Lookup: 4 0 0 "Abhaya Libre Latin-Regular-'frac' Diagonal Fractions lookup 1" { "Abhaya Libre Latin-Regular-'frac' Diagonal Fractions lookup 1 subtable"  } ['frac' ('DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2" { "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2 contextual 0"  "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2 contextual 1"  } ['ordn' ('DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-Single Substitution lookup 3" { "Abhaya Libre Latin-Regular-Single Substitution lookup 3 subtable"  } []
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-Single Substitution lookup 4" { "Abhaya Libre Latin-Regular-Single Substitution lookup 4 subtable"  } []
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-'pnum' Proportional Numbers lookup 5" { "Abhaya Libre Latin-Regular-'pnum' Proportional Numbers lookup 5 subtable"  } ['pnum' ('DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-'tnum' Tabular Numbers lookup 6" { "Abhaya Libre Latin-Regular-'tnum' Tabular Numbers lookup 6 subtable"  } ['tnum' ('DFLT' <'dflt' > ) ]
-Lookup: 4 0 1 "Abhaya Libre Latin-Regular-'liga' Standard Ligatures lookup 7" { "Abhaya Libre Latin-Regular-'liga' Standard Ligatures lookup 7 subtable"  } ['liga' ('DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "Abhaya Libre Latin-Regular-'kern' Horizontal Kerning lookup 0" { "Abhaya Libre Latin-Regular-'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
+Lookup: 259 0 0 "'curs' Cursive Attachment in Sinhala lookup 2" { "'curs' Cursive Attachment in Sinhala lookup 2-1"  } ['curs' ('DFLT' <'dflt' > 'sinh' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2 contextual 1" 0 0 0 1
- 1 1 0
-  Coverage: 15 uni004F uni006F
-  BCoverage: 79 uni0030 uni0031 uni0032 uni0033 uni0034 uni0035 uni0036 uni0037 uni0038 uni0039
- 1
-  SeqLookup: 0 "Abhaya Libre Latin-Regular-Single Substitution lookup 4"
-EndFPST
-ChainSub2: coverage "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2 contextual 0" 0 0 0 1
- 1 1 0
-  Coverage: 15 uni0041 uni0061
-  BCoverage: 79 uni0030 uni0031 uni0032 uni0033 uni0034 uni0035 uni0036 uni0037 uni0038 uni0039
- 1
-  SeqLookup: 0 "Abhaya Libre Latin-Regular-Single Substitution lookup 3"
-EndFPST
 LangName: 1033 "Copyright (c) 1997-2015 Pushpananda Ekanayake (http://isiwara.lk), Copyright (c) 2015 mooniak (http://mooniak.com)+AAoA" "" "" "" "" "Version 1.0.1" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "" "Regular"
 PickledDataWithLists: "(dp1
 S'public.glyphOrder'
@@ -501,8 +480,10 @@ NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 26 12
-AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
+WinInfo: 338 26 12
+BeginPrivate: 0
+EndPrivate
+AnchorClass2: "cursive" "'curs' Cursive Attachment in Sinhala lookup 2-1" "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
 BeginChars: 65537 543
 
 StartChar: si_NdAa.halant
@@ -17951,6 +17932,7 @@ GlifName: si_K_a
 Width: 746
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 33 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18006,6 +17988,7 @@ GlifName: si_K_ha
 Width: 630
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 46 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18049,6 +18032,7 @@ GlifName: si_G_a
 Width: 636
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 49 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18087,6 +18071,7 @@ GlifName: si_G_ha
 Width: 677
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 15 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -20553,6 +20538,7 @@ Encoding: 501 -1 502
 Width: 746
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 648 0 exit 0
 LayerCount: 2
 Back
 Fore
@@ -20564,6 +20550,7 @@ Encoding: 502 -1 503
 Width: 630
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 551 0 exit 0
 LayerCount: 2
 Back
 Fore
@@ -20575,6 +20562,7 @@ Encoding: 503 -1 504
 Width: 636
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 551 0 exit 0
 LayerCount: 2
 Back
 Fore
@@ -20586,6 +20574,7 @@ Encoding: 504 -1 505
 Width: 677
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 596 0 exit 0
 LayerCount: 2
 Back
 Fore
@@ -20597,6 +20586,7 @@ Encoding: 505 -1 506
 Width: 617
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 536 0 exit 0
 LayerCount: 2
 Back
 Fore

@@ -1,23 +1,34 @@
 languagesystem DFLT dflt;
+languagesystem sinh dflt;
 
 
-# GSUB 
+# GPOS 
 
 
-lookup AbhayaLibreLatinRegularordnOrdi {
+lookup cursCursiveAttachmentinSinhalal {
   lookupflag 0;
-    sub [\uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038 
-	\uni0039 ] [\uni0041 \uni0061 ]'  by [NULL NULL ];
-    sub [\uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038 
-	\uni0039 ] [\uni004F \uni006F ]'  by [NULL NULL ];
-} AbhayaLibreLatinRegularordnOrdi;
+    pos cursive \si_Ka <anchor 33 0> <anchor NULL>;
+    pos cursive \si_Kha <anchor 46 0> <anchor NULL>;
+    pos cursive \si_Ga <anchor 49 0> <anchor NULL>;
+    pos cursive \si_Gha <anchor 15 0> <anchor NULL>;
+    pos cursive \si_Ka.touch <anchor NULL> <anchor 648 0>;
+    pos cursive \si_Kha.touch <anchor NULL> <anchor 551 0>;
+    pos cursive \si_Ga.touch <anchor NULL> <anchor 551 0>;
+    pos cursive \si_Gha.touch <anchor NULL> <anchor 596 0>;
+    pos cursive \si_Nga.touch <anchor NULL> <anchor 536 0>;
+} cursCursiveAttachmentinSinhalal;
 
-feature ordn {
+feature curs {
 
  script DFLT;
      language dflt ;
-      lookup AbhayaLibreLatinRegularordnOrdi;
-} ordn;
+      lookup cursCursiveAttachmentinSinhalal;
+
+ script sinh;
+     language dflt ;
+      lookup cursCursiveAttachmentinSinhalal;
+} curs;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\si_NdAa.halant \si_JnyAe \si_JnyAee \si_NyAa.halant \si_NyAe 
 	\si_NyAee \zwj \zwnj \si_B.halant \si_BI \si_BIi \si_BRI \si_BRIi \si_BRa \si_BU 

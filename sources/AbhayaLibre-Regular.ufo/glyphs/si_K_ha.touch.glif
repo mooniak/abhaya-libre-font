@@ -2,6 +2,9 @@
 <glyph name="si_Kha.touch" format="1">
   <advance width="630"/>
   <outline>
+    <contour>
+      <point x="551" y="0" type="move" name="cursive"/>
+    </contour>
     <component base="si_Kha"/>
   </outline>
 </glyph>
