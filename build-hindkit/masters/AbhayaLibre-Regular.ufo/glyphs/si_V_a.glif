@@ -62,5 +62,8 @@
       <point x="146" y="0"/>
       <point x="33" y="46"/>
     </contour>
+    <contour>
+      <point x="47" y="0" type="move" name="_cursive"/>
+    </contour>
   </outline>
 </glyph>

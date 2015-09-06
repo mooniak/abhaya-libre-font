@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Nna.touch" format="1">
+  <advance width="963"/>
+  <outline>
+    <contour>
+      <point x="915" y="0" type="move" name="cursive"/>
+    </contour>
+    <component base="si_Nna"/>
+  </outline>
+</glyph>

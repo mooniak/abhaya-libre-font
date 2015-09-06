@@ -1,23 +1,106 @@
 languagesystem DFLT dflt;
+languagesystem sinh dflt;
 
 
-# GSUB 
+# GPOS 
 
 
-lookup AbhayaLibreLatinRegularordnOrdi {
+lookup cursCursiveAttachmentinSinhalal {
   lookupflag 0;
-    sub [\uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038 
-	\uni0039 ] [\uni0041 \uni0061 ]'  by [NULL NULL ];
-    sub [\uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038 
-	\uni0039 ] [\uni004F \uni006F ]'  by [NULL NULL ];
-} AbhayaLibreLatinRegularordnOrdi;
+    pos cursive \si_Ka <anchor 69 -1> <anchor NULL>;
+    pos cursive \si_Kha <anchor 39 0> <anchor NULL>;
+    pos cursive \si_Ga <anchor 57 1> <anchor NULL>;
+    pos cursive \si_Gha <anchor 55 0> <anchor NULL>;
+    pos cursive \si_Nga <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Nnga <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Ca <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Cha <anchor 53 0> <anchor NULL>;
+    pos cursive \si_Ja <anchor 48 0> <anchor NULL>;
+    pos cursive \si_Jha <anchor 31 0> <anchor NULL>;
+    pos cursive \si_Nya <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Jnya <anchor 52 0> <anchor NULL>;
+    pos cursive \si_Ndja <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Tta <anchor 38 0> <anchor NULL>;
+    pos cursive \si_Ttha <anchor 39 0> <anchor NULL>;
+    pos cursive \si_Dda <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Ddha <anchor 53 0> <anchor NULL>;
+    pos cursive \si_Nna <anchor 52 0> <anchor NULL>;
+    pos cursive \si_Nndda <anchor 37 0> <anchor NULL>;
+    pos cursive \si_Ta <anchor 68 0> <anchor NULL>;
+    pos cursive \si_Tha <anchor 52 0> <anchor NULL>;
+    pos cursive \si_Da <anchor 51 0> <anchor NULL>;
+    pos cursive \si_Dha <anchor 46 0> <anchor NULL>;
+    pos cursive \si_Na <anchor 78 1> <anchor NULL>;
+    pos cursive \si_Nda <anchor 42 0> <anchor NULL>;
+    pos cursive \si_Pa <anchor 53 0> <anchor NULL>;
+    pos cursive \si_Pha <anchor 45 0> <anchor NULL>;
+    pos cursive \si_Ba <anchor 40 0> <anchor NULL>;
+    pos cursive \si_Bha <anchor 25 0> <anchor NULL>;
+    pos cursive \si_Ma <anchor 48 0> <anchor NULL>;
+    pos cursive \si_Mba <anchor 36 2> <anchor NULL>;
+    pos cursive \si_Ya <anchor 42 0> <anchor NULL>;
+    pos cursive \si_La <anchor 44 0> <anchor NULL>;
+    pos cursive \si_Va <anchor 47 0> <anchor NULL>;
+    pos cursive \si_Sha <anchor 44 0> <anchor NULL>;
+    pos cursive \si_Ssa <anchor 46 0> <anchor NULL>;
+    pos cursive \si_Sa <anchor 72 0> <anchor NULL>;
+    pos cursive \si_Ha <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Lla <anchor 50 0> <anchor NULL>;
+    pos cursive \si_Fa <anchor 44 0> <anchor NULL>;
+    pos cursive \si_Ka.touch <anchor NULL> <anchor 701 0>;
+    pos cursive \si_Kha.touch <anchor NULL> <anchor 584 0>;
+    pos cursive \si_Ga.touch <anchor NULL> <anchor 585 0>;
+    pos cursive \si_Gha.touch <anchor NULL> <anchor 628 0>;
+    pos cursive \si_Nga.touch <anchor NULL> <anchor 571 0>;
+    pos cursive \si_Nnga.touch <anchor NULL> <anchor 702 0>;
+    pos cursive \si_Ca.touch <anchor NULL> <anchor 576 0>;
+    pos cursive \si_Cha.touch <anchor NULL> <anchor 550 0>;
+    pos cursive \si_Ja.touch <anchor NULL> <anchor 550 0>;
+    pos cursive \si_Jha.touch <anchor NULL> <anchor 1038 0>;
+    pos cursive \si_Nya.touch <anchor NULL> <anchor 976 0>;
+    pos cursive \si_Jnya.touch <anchor NULL> <anchor 788 0>;
+    pos cursive \si_Ndja.touch <anchor NULL> <anchor 650 0>;
+    pos cursive \si_Tta.touch <anchor NULL> <anchor 558 0>;
+    pos cursive \si_Ttha.touch <anchor NULL> <anchor 590 0>;
+    pos cursive \si_Dda.touch <anchor NULL> <anchor 599 0>;
+    pos cursive \si_Ddha.touch <anchor NULL> <anchor 599 0>;
+    pos cursive \si_Nna.touch <anchor NULL> <anchor 915 0>;
+    pos cursive \si_Ndda.touch <anchor NULL> <anchor 680 0>;
+    pos cursive \si_Ta.touch <anchor NULL> <anchor 638 0>;
+    pos cursive \si_Tha.touch <anchor NULL> <anchor 548 0>;
+    pos cursive \si_Da.touch <anchor NULL> <anchor 379 0>;
+    pos cursive \si_Dha.touch <anchor NULL> <anchor 558 0>;
+    pos cursive \si_Na.touch <anchor NULL> <anchor 728 0>;
+    pos cursive \si_Nda.touch <anchor NULL> <anchor 488 0>;
+    pos cursive \si_Pa.touch <anchor NULL> <anchor 548 0>;
+    pos cursive \si_Pha.touch <anchor NULL> <anchor 508 0>;
+    pos cursive \si_Ba.touch <anchor NULL> <anchor 540 0>;
+    pos cursive \si_Bha.touch <anchor NULL> <anchor 598 0>;
+    pos cursive \si_Ma.touch <anchor NULL> <anchor 558 0>;
+    pos cursive \si_Mba.touch <anchor NULL> <anchor 568 0>;
+    pos cursive \si_Ya.touch <anchor NULL> <anchor 566 0>;
+    pos cursive \si_Ra.touch <anchor NULL> <anchor 466 0>;
+    pos cursive \si_La.touch <anchor NULL> <anchor 616 0>;
+    pos cursive \si_Va.touch <anchor NULL> <anchor 548 0>;
+    pos cursive \si_Sha.touch <anchor NULL> <anchor 582 0>;
+    pos cursive \si_Ssa.touch <anchor NULL> <anchor 574 0>;
+    pos cursive \si_Sa.touch <anchor NULL> <anchor 628 0>;
+    pos cursive \si_Ha.touch <anchor NULL> <anchor 605 0>;
+    pos cursive \si_Lla.touch <anchor NULL> <anchor 616 0>;
+    pos cursive \si_Fa.touch <anchor NULL> <anchor 558 0>;
+} cursCursiveAttachmentinSinhalal;
 
-feature ordn {
+feature curs {
 
  script DFLT;
      language dflt ;
-      lookup AbhayaLibreLatinRegularordnOrdi;
-} ordn;
+      lookup cursCursiveAttachmentinSinhalal;
+
+ script sinh;
+     language dflt ;
+      lookup cursCursiveAttachmentinSinhalal;
+} curs;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\si_NdAa.halant \si_JnyAe \si_JnyAee \si_NyAa.halant \si_NyAe 
 	\si_NyAee \zwj \zwnj \si_B.halant \si_BI \si_BIi \si_BRI \si_BRIi \si_BRa \si_BU 
@@ -83,7 +166,15 @@ feature ordn {
 	\si_Lla \si_Fa \si_Halant \si_MatraAa \si_MatraAe \si_MatraAae \si_MatraI 
 	\si_MatraIi \si_MatraU \si_MatraUu \si_MatraR \si_MatraE \si_MatraEe 
 	\si_MatraAi \si_MatraO \si_MatraOo \si_MatraAu \si_MatraLs \si_MatraRr 
-	\si_MatraLl \si_kundaliya \dottedcircle \si_JnyAa.halant ];
+	\si_MatraLl \si_kundaliya \dottedcircle \si_JnyAa.halant \si_Ka.touch 
+	\si_Kha.touch \si_Ga.touch \si_Gha.touch \si_Nga.touch \si_Nnga.touch 
+	\si_Ca.touch \si_Cha.touch \si_Ja.touch \si_Jha.touch \si_Nya.touch 
+	\si_Jnya.touch \si_Ndja.touch \si_Tta.touch \si_Ttha.touch \si_Dda.touch 
+	\si_Ddha.touch \si_Nna.touch \si_Ndda.touch \si_Ta.touch \si_Tha.touch 
+	\si_Da.touch \si_Dha.touch \si_Na.touch \si_Nda.touch \si_Pa.touch 
+	\si_Pha.touch \si_Ba.touch \si_Bha.touch \si_Ma.touch \si_Mba.touch 
+	\si_Ya.touch \si_Ra.touch \si_La.touch \si_Va.touch \si_Sha.touch 
+	\si_Ssa.touch \si_Sa.touch \si_Ha.touch \si_Lla.touch \si_Fa.touch ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

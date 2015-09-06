@@ -19,12 +19,13 @@ UFODescent: -205
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
+PreferredKerning: 4
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1441177234
+ModificationTime: 1441546758
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -47,30 +48,9 @@ OS2CapHeight: 0
 OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-'sups' Superscript lookup 0" { "Abhaya Libre Latin-Regular-'sups' Superscript lookup 0 subtable"  } ['sups' ('DFLT' <'dflt' > ) ]
-Lookup: 4 0 0 "Abhaya Libre Latin-Regular-'frac' Diagonal Fractions lookup 1" { "Abhaya Libre Latin-Regular-'frac' Diagonal Fractions lookup 1 subtable"  } ['frac' ('DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2" { "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2 contextual 0"  "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2 contextual 1"  } ['ordn' ('DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-Single Substitution lookup 3" { "Abhaya Libre Latin-Regular-Single Substitution lookup 3 subtable"  } []
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-Single Substitution lookup 4" { "Abhaya Libre Latin-Regular-Single Substitution lookup 4 subtable"  } []
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-'pnum' Proportional Numbers lookup 5" { "Abhaya Libre Latin-Regular-'pnum' Proportional Numbers lookup 5 subtable"  } ['pnum' ('DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "Abhaya Libre Latin-Regular-'tnum' Tabular Numbers lookup 6" { "Abhaya Libre Latin-Regular-'tnum' Tabular Numbers lookup 6 subtable"  } ['tnum' ('DFLT' <'dflt' > ) ]
-Lookup: 4 0 1 "Abhaya Libre Latin-Regular-'liga' Standard Ligatures lookup 7" { "Abhaya Libre Latin-Regular-'liga' Standard Ligatures lookup 7 subtable"  } ['liga' ('DFLT' <'dflt' > ) ]
-Lookup: 258 0 0 "Abhaya Libre Latin-Regular-'kern' Horizontal Kerning lookup 0" { "Abhaya Libre Latin-Regular-'kern' Horizontal Kerning lookup 0 subtable"  } ['kern' ('DFLT' <'dflt' > ) ]
+Lookup: 259 0 0 "'curs' Cursive Attachment in Sinhala lookup 2" { "'curs' Cursive Attachment in Sinhala lookup 2-1"  } ['curs' ('DFLT' <'dflt' > 'sinh' <'dflt' > ) ]
+MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2 contextual 1" 0 0 0 1
- 1 1 0
-  Coverage: 15 uni004F uni006F
-  BCoverage: 79 uni0030 uni0031 uni0032 uni0033 uni0034 uni0035 uni0036 uni0037 uni0038 uni0039
- 1
-  SeqLookup: 0 "Abhaya Libre Latin-Regular-Single Substitution lookup 4"
-EndFPST
-ChainSub2: coverage "Abhaya Libre Latin-Regular-'ordn' Ordinals lookup 2 contextual 0" 0 0 0 1
- 1 1 0
-  Coverage: 15 uni0041 uni0061
-  BCoverage: 79 uni0030 uni0031 uni0032 uni0033 uni0034 uni0035 uni0036 uni0037 uni0038 uni0039
- 1
-  SeqLookup: 0 "Abhaya Libre Latin-Regular-Single Substitution lookup 3"
-EndFPST
 LangName: 1033 "Copyright (c) 1997-2015 Pushpananda Ekanayake (http://isiwara.lk), Copyright (c) 2015 mooniak (http://mooniak.com)+AAoA" "" "" "" "" "Version 1.0.1" "" "" "" "" "" "" "" "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL" "" "" "" "Regular"
 PickledDataWithLists: "(dp1
 S'public.glyphOrder'
@@ -495,16 +475,18 @@ p185
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p186
 s."
-Encoding: Custom
+Encoding: sinhala_final
 Compacted: 1
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 234 26 12
-AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
-BeginChars: 280447071 502
+WinInfo: 260 26 12
+BeginPrivate: 0
+EndPrivate
+AnchorClass2: "cursive" "'curs' Cursive Attachment in Sinhala lookup 2-1" "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
+BeginChars: 65583 543
 
 StartChar: si_NdAa.halant
 Encoding: 292 -1 0
@@ -565,6 +547,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JnyAe
@@ -635,6 +618,7 @@ SplineSet
  27 353 100 433 239 433 c 256
  248 433 301 434 324 432 c 257
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_JnyAee
@@ -715,6 +699,7 @@ SplineSet
  27 353 100 433 239 433 c 256
  248 433 301 434 324 432 c 257
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_NyAa.halant
@@ -816,6 +801,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyAe
@@ -905,6 +891,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyAee
@@ -1004,6 +991,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: zwj
@@ -1033,6 +1021,7 @@ SplineSet
  151 777 l 257
  27 655 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: zwnj
@@ -1051,6 +1040,7 @@ SplineSet
  20 9 l 257
  -20 9 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_B.halant
@@ -1101,6 +1091,7 @@ SplineSet
  229 29 190 -1 150 -1 c 256
  68 -1 33 91 33 187 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_BI
@@ -1151,6 +1142,7 @@ SplineSet
  229 29 190 -1 150 -1 c 256
  68 -1 33 91 33 187 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_BIi
@@ -1206,6 +1198,7 @@ SplineSet
  229 29 190 -1 150 -1 c 256
  68 -1 33 91 33 187 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_BRI
@@ -1229,6 +1222,7 @@ SplineSet
  175 -219 94 -153 58 -44 c 257
 EndSplineSet
 Refer: 9 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BRIi
@@ -1252,6 +1246,7 @@ SplineSet
  175 -219 94 -153 58 -44 c 257
 EndSplineSet
 Refer: 10 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BRa
@@ -1275,6 +1270,7 @@ SplineSet
  175 -219 94 -153 58 -44 c 257
 EndSplineSet
 Refer: 466 3510 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BU
@@ -1302,6 +1298,7 @@ SplineSet
  86 -235 49 -186 49 -142 c 256
 EndSplineSet
 Refer: 466 3510 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BUu
@@ -1332,6 +1329,7 @@ SplineSet
  105 -237 49 -206 49 -138 c 256
 EndSplineSet
 Refer: 466 3510 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ba.reph
@@ -1345,6 +1343,7 @@ Back
 Fore
 Refer: 321 -1 N 1 0 0 1 299 112 2
 Refer: 466 3510 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Bh.halant
@@ -1371,6 +1370,7 @@ SplineSet
  495 503 l 257
 EndSplineSet
 Refer: 467 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhI
@@ -1398,6 +1398,7 @@ SplineSet
  265 413 178 462 178 537 c 256
 EndSplineSet
 Refer: 467 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhIi
@@ -1429,6 +1430,7 @@ SplineSet
  265 412 178 462 178 537 c 256
 EndSplineSet
 Refer: 467 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhRI
@@ -1452,6 +1454,7 @@ SplineSet
  196 -219 113 -153 76 -44 c 257
 EndSplineSet
 Refer: 18 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhRIi
@@ -1492,6 +1495,7 @@ SplineSet
  196 -219 113 -153 76 -44 c 257
 EndSplineSet
 Refer: 467 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhRa
@@ -1515,6 +1519,7 @@ SplineSet
  196 -219 113 -153 76 -44 c 257
 EndSplineSet
 Refer: 467 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhU
@@ -1574,6 +1579,7 @@ SplineSet
  620 -123 577 -192 476 -192 c 256
  409 -192 341 -149 341 -80 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_BhUu
@@ -1605,6 +1611,7 @@ SplineSet
  437 -205 373 -187 373 -129 c 256
 EndSplineSet
 Refer: 467 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Bha.reph
@@ -1638,6 +1645,7 @@ SplineSet
  253 445 194 474 194 530 c 256
 EndSplineSet
 Refer: 467 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_C.halant
@@ -1696,6 +1704,7 @@ SplineSet
  148 277 l 258
  77 276 30 273 14 270 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_CI
@@ -1751,6 +1760,7 @@ SplineSet
  148 277 l 258
  77 276 30 273 14 270 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_CIi
@@ -1811,6 +1821,7 @@ SplineSet
  148 277 l 258
  77 276 30 273 14 270 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_CRI
@@ -1834,6 +1845,7 @@ SplineSet
  175 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 27 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_CRIi
@@ -1857,6 +1869,7 @@ SplineSet
  175 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 28 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_CRa
@@ -1996,6 +2009,7 @@ SplineSet
  315 581 l 257
 EndSplineSet
 Refer: 446 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ChI
@@ -2024,6 +2038,7 @@ SplineSet
  260 407 233 440 233 490 c 256
 EndSplineSet
 Refer: 446 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ChIi
@@ -2056,6 +2071,7 @@ SplineSet
  260 407 233 440 233 490 c 256
 EndSplineSet
 Refer: 446 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ChU
@@ -2083,6 +2099,7 @@ SplineSet
  75 -235 39 -186 39 -142 c 256
 EndSplineSet
 Refer: 446 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ChUu
@@ -2113,6 +2130,7 @@ SplineSet
  95 -237 39 -206 39 -138 c 256
 EndSplineSet
 Refer: 446 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_D.halant
@@ -2180,6 +2198,7 @@ SplineSet
  271 -1 255 -1 234 -1 c 256
  103 -1 31 69 31 169 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DAa.halant
@@ -2233,6 +2252,7 @@ SplineSet
  532 586 493 606 446 637 c 257
  446 502 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DAae
@@ -2284,6 +2304,7 @@ SplineSet
  259 -1 245 -1 239 -1 c 256
  101 -1 31 69 31 169 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DAe
@@ -2325,6 +2346,7 @@ SplineSet
  259 -1 245 -1 239 -1 c 256
  101 -1 31 69 31 169 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DDdh.halant
@@ -2379,6 +2401,7 @@ SplineSet
  135 0 l 257
  69 33 27 111 27 212 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DDhI
@@ -2402,6 +2425,7 @@ SplineSet
  69 33 27 111 27 212 c 256
 EndSplineSet
 Refer: 85 -1 N 1 0 0 1 92 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DDhIi
@@ -2425,6 +2449,7 @@ SplineSet
  69 33 27 111 27 212 c 256
 EndSplineSet
 Refer: 86 -1 N 1 0 0 1 92 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DDhU
@@ -2452,6 +2477,7 @@ SplineSet
  180 -235 144 -186 144 -142 c 256
 EndSplineSet
 Refer: 50 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DDhUu
@@ -2482,6 +2508,7 @@ SplineSet
  199 -237 143 -206 143 -138 c 256
 EndSplineSet
 Refer: 50 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DDha
@@ -2505,6 +2532,7 @@ SplineSet
  69 33 27 111 27 212 c 256
 EndSplineSet
 Refer: 461 3504 N 1 0 0 1 92 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DI
@@ -2609,6 +2637,7 @@ SplineSet
  367 34 328 -1 234 -1 c 256
  103 -1 31 69 31 169 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DRIi
@@ -2663,6 +2692,7 @@ SplineSet
  367 34 328 -1 234 -1 c 256
  103 -1 31 69 31 169 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DRa
@@ -2701,6 +2731,7 @@ SplineSet
  367 34 328 -1 234 -1 c 256
  103 -1 31 69 31 169 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DU
@@ -2743,6 +2774,7 @@ SplineSet
  367 34 328 -1 234 -1 c 256
  103 -1 31 69 31 169 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DUu
@@ -2788,6 +2820,7 @@ SplineSet
  367 34 328 -1 234 -1 c 256
  103 -1 31 69 31 169 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DV.halant
@@ -2841,6 +2874,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVI
@@ -2895,6 +2929,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVIi
@@ -2954,6 +2989,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVU
@@ -3010,6 +3046,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVUu
@@ -3069,6 +3106,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVa
@@ -3112,6 +3150,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYAa.post
@@ -3177,6 +3216,7 @@ SplineSet
  412 75 l 257
  372 42 345 -1 234 -1 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYOo.post
@@ -3254,6 +3294,7 @@ SplineSet
  412 75 l 257
  372 42 345 -1 234 -1 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYUu.post
@@ -3324,6 +3365,7 @@ SplineSet
  559 -176 l 257
  586 -139 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYa.post
@@ -3378,6 +3420,7 @@ SplineSet
  412 75 l 257
  372 42 345 -1 234 -1 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYu.post
@@ -3445,6 +3488,7 @@ SplineSet
  559 -176 l 257
  586 -139 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Da.reph
@@ -3534,6 +3578,7 @@ SplineSet
  46 212 71 264 125 288 c 257
  15 288 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdI
@@ -3587,6 +3632,7 @@ SplineSet
  46 212 71 264 125 288 c 257
  15 288 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdIi
@@ -3645,6 +3691,7 @@ SplineSet
  46 212 71 264 125 288 c 257
  15 288 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdRI
@@ -3668,6 +3715,7 @@ SplineSet
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 71 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DdRIi
@@ -3691,6 +3739,7 @@ SplineSet
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 72 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DdRa
@@ -3864,6 +3913,7 @@ SplineSet
  46 212 71 264 125 288 c 257
  15 288 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdhI
@@ -3925,6 +3975,7 @@ SplineSet
  295 497 269 489 226 489 c 256
  166 489 112 516 112 574 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdhIi
@@ -3991,6 +4042,7 @@ SplineSet
  295 497 269 489 226 489 c 256
  166 489 112 516 112 574 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdhU
@@ -4093,6 +4145,7 @@ SplineSet
  272 20 235 0 190 0 c 256
  88 0 33 96 33 195 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DhI
@@ -4137,6 +4190,7 @@ SplineSet
  505 600 414 611 306 611 c 256
  230 611 117 606 117 554 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DhIi
@@ -4187,6 +4241,7 @@ SplineSet
  117 508 182 508 284 504 c 256
  318 503 359 502 399 495 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DhRI
@@ -4210,6 +4265,7 @@ SplineSet
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 85 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhRIi
@@ -4233,6 +4289,7 @@ SplineSet
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 86 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhRa
@@ -4256,6 +4313,7 @@ SplineSet
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 461 3504 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhU
@@ -4283,6 +4341,7 @@ SplineSet
  88 -235 52 -186 52 -142 c 256
 EndSplineSet
 Refer: 461 3504 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhUu
@@ -4313,6 +4372,7 @@ SplineSet
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
 Refer: 461 3504 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Dha.reph
@@ -4346,6 +4406,7 @@ SplineSet
  230 742 172 705 172 641 c 256
 EndSplineSet
 Refer: 461 3504 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DvocR
@@ -4475,6 +4536,7 @@ SplineSet
  432 502 l 257
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FI
@@ -4500,6 +4562,7 @@ SplineSet
  130 408 64 443 64 518 c 256
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FIi
@@ -4530,6 +4593,7 @@ SplineSet
  84 414 48 456 48 517 c 256
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FRI
@@ -4564,6 +4628,7 @@ SplineSet
  172 -219 95 -153 60 -44 c 257
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FRIi
@@ -4603,6 +4668,7 @@ SplineSet
  172 -219 95 -153 60 -44 c 257
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FRa
@@ -4626,6 +4692,7 @@ SplineSet
  172 -219 95 -153 60 -44 c 257
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FU
@@ -4653,6 +4720,7 @@ SplineSet
  90 -235 54 -186 54 -142 c 256
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FUu
@@ -4683,6 +4751,7 @@ SplineSet
  109 -237 53 -206 53 -138 c 256
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Fa.reph
@@ -4716,6 +4785,7 @@ SplineSet
  216 445 157 474 157 530 c 256
 EndSplineSet
 Refer: 479 3526 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_G.halant
@@ -4777,6 +4847,7 @@ SplineSet
  97 -2 34 96 34 207 c 256
 EndSplineSet
 Refer: 461 3504 N 1 0 0 1 307 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GI
@@ -4828,6 +4899,7 @@ SplineSet
  352 56 295 -2 208 -2 c 256
  97 -2 34 96 34 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_GIi
@@ -4880,6 +4952,7 @@ SplineSet
  531 555 499 583 460 583 c 256
  421 583 389 555 389 520 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_GR.halant
@@ -4926,6 +4999,7 @@ SplineSet
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 106 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GRIi
@@ -4949,6 +5023,7 @@ SplineSet
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 107 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GRa
@@ -5021,6 +5096,7 @@ SplineSet
  352 56 295 -2 208 -2 c 256
  97 -2 34 96 34 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_GUu
@@ -5902,6 +5978,7 @@ SplineSet
  722 20 685 0 640 0 c 256
  538 0 483 96 483 195 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JhI
@@ -5954,6 +6031,7 @@ SplineSet
  21 22 l 257
 EndSplineSet
 Refer: 85 -1 N 1 0 0 1 450 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhIi
@@ -6006,6 +6084,7 @@ SplineSet
  21 22 l 257
 EndSplineSet
 Refer: 86 -1 N 1 0 0 1 450 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhRI
@@ -6029,6 +6108,7 @@ SplineSet
  626 -219 543 -153 506 -44 c 257
 EndSplineSet
 Refer: 142 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhRIi
@@ -6052,6 +6132,7 @@ SplineSet
  626 -219 543 -153 506 -44 c 257
 EndSplineSet
 Refer: 143 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhRa
@@ -6273,6 +6354,7 @@ SplineSet
  682 502 l 257
 EndSplineSet
 Refer: 450 3493 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JnyAa
@@ -6343,6 +6425,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_JnyI
@@ -6369,6 +6452,7 @@ SplineSet
  482 420 425 454 425 518 c 256
 EndSplineSet
 Refer: 450 3493 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JnyIi
@@ -6399,6 +6483,7 @@ SplineSet
  465 438 425 473 425 524 c 256
 EndSplineSet
 Refer: 450 3493 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JnyRI
@@ -6478,6 +6563,7 @@ SplineSet
  452 56 395 -2 308 -2 c 256
  197 -2 134 96 134 207 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_JnyRIi
@@ -6561,6 +6647,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_JnyRa
@@ -6628,6 +6715,7 @@ SplineSet
  452 56 395 -2 308 -2 c 256
  197 -2 134 96 134 207 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_JnyU
@@ -6699,6 +6787,7 @@ SplineSet
  452 56 395 -2 308 -2 c 256
  197 -2 134 96 134 207 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_JnyUu
@@ -6773,6 +6862,7 @@ SplineSet
  452 56 395 -2 308 -2 c 256
  197 -2 134 96 134 207 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_K.halant
@@ -6799,6 +6889,7 @@ SplineSet
  578 502 l 257
 EndSplineSet
 Refer: 439 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KI
@@ -6824,6 +6915,7 @@ SplineSet
  221 361 218 390 218 421 c 256
 EndSplineSet
 Refer: 439 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KIi
@@ -6854,6 +6946,7 @@ SplineSet
  221 361 218 390 218 421 c 256
 EndSplineSet
 Refer: 439 3482 N 1 0 0 1 0 0 2
+Validated: 37
 EndChar
 
 StartChar: si_KRI
@@ -6877,6 +6970,7 @@ SplineSet
  244 -219 151 -153 114 -44 c 257
 EndSplineSet
 Refer: 162 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KRIi
@@ -6900,6 +6994,7 @@ SplineSet
  244 -219 151 -153 114 -44 c 257
 EndSplineSet
 Refer: 163 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KRa
@@ -6923,6 +7018,7 @@ SplineSet
  244 -219 151 -153 114 -44 c 257
 EndSplineSet
 Refer: 439 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSs.halant
@@ -6949,6 +7045,7 @@ SplineSet
  897 502 l 257
 EndSplineSet
 Refer: 172 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsI
@@ -6974,6 +7071,7 @@ SplineSet
  581 408 515 443 515 518 c 256
 EndSplineSet
 Refer: 172 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsIi
@@ -7004,6 +7102,7 @@ SplineSet
  533 411 496 456 496 517 c 256
 EndSplineSet
 Refer: 172 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsU
@@ -7031,6 +7130,7 @@ SplineSet
  529 -235 492 -186 492 -142 c 256
 EndSplineSet
 Refer: 172 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsUu
@@ -7061,6 +7161,7 @@ SplineSet
  547 -237 491 -206 491 -138 c 256
 EndSplineSet
 Refer: 172 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsa
@@ -7151,6 +7252,7 @@ SplineSet
  849 222 815 232 745 232 c 256
  680 232 649 220 649 198 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KU
@@ -7217,6 +7319,7 @@ SplineSet
  165 258 145 235 129 212 c 256
  100 171 81 132 70 95 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KU.reph
@@ -7230,6 +7333,7 @@ Back
 Fore
 Refer: 321 -1 N 1 0 0 1 450 -30 2
 Refer: 173 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KUu
@@ -7261,6 +7365,7 @@ SplineSet
  510 -205 446 -187 446 -129 c 256
 EndSplineSet
 Refer: 439 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KV.halant
@@ -7346,6 +7451,7 @@ SplineSet
  929 537 848 590 742 590 c 256
  670 590 598 567 598 543 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KVI
@@ -7400,6 +7506,7 @@ SplineSet
  100 171 81 132 70 95 c 257
 EndSplineSet
 Refer: 397 -1 N 1 0 0 1 465 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVIi
@@ -7454,6 +7561,7 @@ SplineSet
  100 171 81 132 70 95 c 257
 EndSplineSet
 Refer: 398 -1 N 1 0 0 1 464 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVU
@@ -7481,6 +7589,7 @@ SplineSet
  545 -235 509 -186 509 -142 c 256
 EndSplineSet
 Refer: 181 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVUu
@@ -7511,6 +7620,7 @@ SplineSet
  567 -237 511 -206 511 -138 c 256
 EndSplineSet
 Refer: 181 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVa
@@ -7586,6 +7696,7 @@ SplineSet
  165 258 145 235 129 212 c 256
  100 171 81 132 70 95 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ka.reph
@@ -7599,6 +7710,7 @@ Back
 Fore
 Refer: 321 -1 N 1 0 0 1 430 -26 2
 Refer: 439 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Kh.halant
@@ -7655,6 +7767,7 @@ SplineSet
  210 37 180 -1 141 -1 c 256
  56 -1 32 108 32 183 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhI
@@ -7709,6 +7822,7 @@ SplineSet
  210 37 180 -1 141 -1 c 256
  56 -1 32 108 32 183 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhIi
@@ -7768,6 +7882,7 @@ SplineSet
  210 37 180 -1 141 -1 c 256
  56 -1 32 108 32 183 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhR.halant
@@ -7834,6 +7949,7 @@ SplineSet
  582 -124 453 -219 309 -219 c 256
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhRI
@@ -7897,6 +8013,7 @@ SplineSet
  210 37 180 -1 141 -1 c 256
  56 -1 32 108 32 183 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhRIi
@@ -7965,6 +8082,7 @@ SplineSet
  582 -124 453 -219 309 -219 c 256
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhRa
@@ -7988,6 +8106,7 @@ SplineSet
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
 Refer: 440 3483 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KhU
@@ -8015,6 +8134,7 @@ SplineSet
  88 -235 52 -186 52 -142 c 256
 EndSplineSet
 Refer: 440 3483 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KhUu
@@ -8045,6 +8165,7 @@ SplineSet
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
 Refer: 440 3483 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_L.halant
@@ -8071,6 +8192,7 @@ SplineSet
  499 502 l 257
 EndSplineSet
 Refer: 472 3517 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LI
@@ -8097,6 +8219,7 @@ SplineSet
  187 408 121 443 121 518 c 256
 EndSplineSet
 Refer: 472 3517 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LIi
@@ -8128,6 +8251,7 @@ SplineSet
  170 404 99 446 99 517 c 256
 EndSplineSet
 Refer: 472 3517 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LU
@@ -8174,6 +8298,7 @@ SplineSet
  141 -235 l 258
  72 -235 36 -186 36 -142 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_LUu
@@ -8223,6 +8348,7 @@ SplineSet
  603 26 494 -58 345 -58 c 256
  182 -58 31 36 31 186 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ll.halant
@@ -8356,6 +8482,7 @@ SplineSet
  178 44 l 257
  86 68 27 147 27 248 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_LlUu
@@ -8387,6 +8514,7 @@ SplineSet
  593 315 l 257
 EndSplineSet
 Refer: 200 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_M.halant
@@ -8445,6 +8573,7 @@ SplineSet
  585 112 475 0 310 0 c 256
  143 0 33 94 33 250 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MI
@@ -8500,6 +8629,7 @@ SplineSet
  584 112 475 0 310 0 c 256
  143 0 33 94 33 250 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MIi
@@ -8560,6 +8690,7 @@ SplineSet
  584 112 475 0 310 0 c 256
  143 0 33 94 33 250 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MRI
@@ -8624,6 +8755,7 @@ SplineSet
  582 -124 453 -219 309 -219 c 256
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MRIi
@@ -8693,6 +8825,7 @@ SplineSet
  582 -124 453 -219 309 -219 c 256
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MRa
@@ -8819,6 +8952,7 @@ Back
 Fore
 Refer: 481 3535 N 1 0 0 1 16 0 2
 Refer: 480 3530 N 1 0 0 1 326 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MatraU.alt
@@ -8843,6 +8977,7 @@ SplineSet
  -35 -123 -78 -192 -179 -192 c 256
  -247 -192 -314 -149 -314 -80 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraUu.alt
@@ -8873,6 +9008,7 @@ SplineSet
  -39 -161 -90 -205 -172 -205 c 256
  -230 -205 -294 -187 -294 -129 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Mb.halant
@@ -8943,6 +9079,7 @@ SplineSet
  368 389 347 410 321 410 c 256
  295 410 274 389 274 363 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MbI
@@ -9012,6 +9149,7 @@ SplineSet
  249 4 230 0 206 0 c 256
  88 0 30 117 30 227 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MbIi
@@ -9086,6 +9224,7 @@ SplineSet
  460 472 388 472 287 478 c 256
  198 483 72 476 72 562 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MbU
@@ -9234,6 +9373,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 41 -1 N 1 0 0 1 439 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDAe
@@ -9273,6 +9413,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 44 -1 N 1 0 0 1 439 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDAee
@@ -9312,6 +9453,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 43 -1 N 1 0 0 1 439 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDI
@@ -9441,6 +9583,7 @@ SplineSet
  454 246 399 284 338 284 c 256
  160 284 180 144 107 102 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDRIi
@@ -9520,6 +9663,7 @@ SplineSet
  454 246 399 284 338 284 c 256
  160 284 180 144 107 102 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDRa
@@ -9583,6 +9727,7 @@ SplineSet
  454 246 399 284 338 284 c 256
  160 284 180 144 107 102 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDU
@@ -9650,6 +9795,7 @@ SplineSet
  454 246 399 284 338 284 c 256
  160 284 180 144 107 102 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDUu
@@ -9720,6 +9866,7 @@ SplineSet
  454 246 399 284 338 284 c 256
  160 284 180 144 107 102 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDa
@@ -9798,6 +9945,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 85 -1 N 1 0 0 1 441 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDhIi
@@ -9837,6 +9985,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 86 -1 N 1 0 0 1 441 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDhU
@@ -9864,6 +10013,7 @@ SplineSet
  529 -235 492 -186 492 -142 c 256
 EndSplineSet
 Refer: 236 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDhUu
@@ -9894,6 +10044,7 @@ SplineSet
  548 -237 492 -206 492 -138 c 256
 EndSplineSet
 Refer: 236 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDha
@@ -9933,6 +10084,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 461 3504 N 1 0 0 1 441 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDh.halant
@@ -10003,6 +10155,7 @@ SplineSet
  454 246 399 284 338 284 c 256
  160 284 180 144 107 102 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NI
@@ -10098,6 +10251,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 369 -1 N 1 0 0 1 450 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NThI
@@ -10125,6 +10279,7 @@ SplineSet
  594 489 540 516 540 574 c 256
 EndSplineSet
 Refer: 245 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NThIi
@@ -10200,6 +10355,7 @@ SplineSet
  454 246 399 284 338 284 c 256
  160 284 180 144 107 102 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NThU
@@ -10227,6 +10383,7 @@ SplineSet
  524 -235 487 -186 487 -142 c 256
 EndSplineSet
 Refer: 245 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NThUu
@@ -10257,6 +10414,7 @@ SplineSet
  543 -237 486 -206 486 -138 c 256
 EndSplineSet
 Refer: 245 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NTha
@@ -10296,6 +10454,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 459 3502 N 1 0 0 1 434 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NU
@@ -10422,6 +10581,7 @@ SplineSet
  454 246 399 284 338 284 c 256
  160 284 180 144 107 102 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NVI
@@ -10460,6 +10620,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 397 -1 N 1 0 0 1 438 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVIi
@@ -10498,6 +10659,7 @@ SplineSet
  160 284 180 144 107 102 c 257
 EndSplineSet
 Refer: 398 -1 N 1 0 0 1 437 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVU
@@ -10525,6 +10687,7 @@ SplineSet
  518 -235 482 -186 482 -142 c 256
 EndSplineSet
 Refer: 253 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVUu
@@ -10555,6 +10718,7 @@ SplineSet
  539 -237 484 -206 484 -138 c 256
 EndSplineSet
 Refer: 253 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVa
@@ -10614,6 +10778,7 @@ SplineSet
  986 114 887 0 704 0 c 256
  583 0 470 46 470 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Na.reph
@@ -10673,6 +10838,7 @@ SplineSet
  376 502 l 257
 EndSplineSet
 Refer: 463 3507 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdAa
@@ -10722,6 +10888,7 @@ SplineSet
  56 372 172 407 256 407 c 257
  265 412 333 419 354 430 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdAae
@@ -10781,6 +10948,7 @@ SplineSet
  27 337 98 436 266 436 c 256
  292 436 321 436 354 430 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdAe
@@ -10830,6 +10998,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdI
@@ -10855,6 +11024,7 @@ SplineSet
  169 415 119 451 119 518 c 256
 EndSplineSet
 Refer: 463 3507 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdIi
@@ -10885,6 +11055,7 @@ SplineSet
  169 415 119 451 119 518 c 256
 EndSplineSet
 Refer: 463 3507 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdRa
@@ -10931,6 +11102,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdU
@@ -10981,6 +11153,7 @@ SplineSet
  451 34 412 -1 318 -1 c 256
  187 -1 115 69 115 169 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdUu
@@ -11034,6 +11207,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ndj.halant
@@ -11060,6 +11234,7 @@ SplineSet
  428 581 l 257
 EndSplineSet
 Refer: 451 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjI
@@ -11088,6 +11263,7 @@ SplineSet
  361 407 334 440 334 490 c 256
 EndSplineSet
 Refer: 451 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjIi
@@ -11120,6 +11296,7 @@ SplineSet
  361 407 334 440 334 490 c 256
 EndSplineSet
 Refer: 451 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjRa
@@ -11143,6 +11320,7 @@ SplineSet
  257 -219 179 -153 142 -44 c 257
 EndSplineSet
 Refer: 451 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjU
@@ -11170,6 +11348,7 @@ SplineSet
  176 -235 140 -186 140 -142 c 256
 EndSplineSet
 Refer: 451 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjUu
@@ -11200,6 +11379,7 @@ SplineSet
  196 -237 140 -206 140 -138 c 256
 EndSplineSet
 Refer: 451 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ng.halant
@@ -11262,6 +11442,7 @@ SplineSet
  267 20 233 0 188 0 c 256
  107 0 51 60 51 140 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NgI
@@ -11321,6 +11502,7 @@ SplineSet
  267 20 233 0 188 0 c 256
  107 0 51 60 51 140 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NgIi
@@ -11385,6 +11567,7 @@ SplineSet
  267 20 233 0 188 0 c 256
  107 0 51 60 51 140 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Nn.halant
@@ -11463,6 +11646,7 @@ SplineSet
  911 586 872 606 825 637 c 257
  825 502 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnI
@@ -11570,6 +11754,7 @@ SplineSet
  286 423 287 419 270 416 c 257
  236 423 203 454 203 500 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnU
@@ -11724,6 +11909,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnddI
@@ -11785,6 +11971,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnddIi
@@ -11851,6 +12038,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnddU
@@ -11878,6 +12066,7 @@ SplineSet
  175 -235 139 -186 139 -142 c 256
 EndSplineSet
 Refer: 457 3500 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NnddUu
@@ -11908,6 +12097,7 @@ SplineSet
  193 -237 137 -206 137 -138 c 256
 EndSplineSet
 Refer: 457 3500 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Nng.halant
@@ -11934,6 +12124,7 @@ SplineSet
  580 503 l 257
 EndSplineSet
 Refer: 444 3487 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NngI
@@ -11993,6 +12184,7 @@ SplineSet
  514 411 l 257
  354 414 267 462 267 537 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NngIi
@@ -12056,6 +12248,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NngU
@@ -12113,6 +12306,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NngUu
@@ -12144,6 +12338,7 @@ SplineSet
  517 -205 453 -187 453 -129 c 256
 EndSplineSet
 Refer: 444 3487 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ny.halant
@@ -12170,6 +12365,7 @@ SplineSet
  874 502 l 257
 EndSplineSet
 Refer: 449 3492 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NyAa
@@ -12259,6 +12455,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyI
@@ -12285,6 +12482,7 @@ SplineSet
  664 420 607 454 607 518 c 256
 EndSplineSet
 Refer: 449 3492 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NyIi
@@ -12315,6 +12513,7 @@ SplineSet
  849 570 819 545 819 514 c 256
 EndSplineSet
 Refer: 449 3492 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NyRI
@@ -12413,6 +12612,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyRIi
@@ -12515,6 +12715,7 @@ SplineSet
  951 545 921 570 885 570 c 260
  849 570 819 545 819 514 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyRa
@@ -12601,6 +12802,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyU
@@ -12691,6 +12893,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyUu
@@ -12784,6 +12987,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_P.halant
@@ -13104,6 +13308,7 @@ SplineSet
  402 486 352 532 314 560 c 257
  302 542 293 519 293 484 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_PhI
@@ -13131,6 +13336,7 @@ SplineSet
  128 489 77 516 77 574 c 256
 EndSplineSet
 Refer: 465 3509 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PhIi
@@ -13163,6 +13369,7 @@ SplineSet
  119 489 65 516 65 574 c 256
 EndSplineSet
 Refer: 465 3509 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PhU
@@ -13190,6 +13397,7 @@ SplineSet
  81 -235 44 -186 44 -142 c 256
 EndSplineSet
 Refer: 465 3509 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PhUu
@@ -13220,6 +13428,7 @@ SplineSet
  101 -237 46 -206 46 -138 c 256
 EndSplineSet
 Refer: 465 3509 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Pha.reph
@@ -13280,6 +13489,7 @@ SplineSet
  436 491 402 532 364 560 c 257
  352 542 344 519 344 484 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_R.halant
@@ -13438,6 +13648,7 @@ SplineSet
  203 426 168 410 150 404 c 257
  86 407 49 440 49 498 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_RU
@@ -13517,6 +13728,7 @@ SplineSet
  -63 -124 -201 -219 -345 -219 c 256
  -478 -219 -562 -153 -599 -44 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Reph
@@ -13549,6 +13761,7 @@ SplineSet
  70 476 35 450 -23 450 c 256
  -82 450 -141 479 -141 535 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_S.halant
@@ -13575,6 +13788,7 @@ SplineSet
  526 502 l 257
 EndSplineSet
 Refer: 476 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SI
@@ -13600,6 +13814,7 @@ SplineSet
  167 408 101 443 101 518 c 256
 EndSplineSet
 Refer: 476 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SIi
@@ -13630,6 +13845,7 @@ SplineSet
  119 411 82 456 82 517 c 256
 EndSplineSet
 Refer: 476 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SRI
@@ -13653,6 +13869,7 @@ SplineSet
  198 -219 112 -153 74 -44 c 257
 EndSplineSet
 Refer: 323 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SRIi
@@ -13676,6 +13893,7 @@ SplineSet
  198 -219 112 -153 74 -44 c 257
 EndSplineSet
 Refer: 324 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SRa
@@ -13699,6 +13917,7 @@ SplineSet
  198 -219 112 -153 74 -44 c 257
 EndSplineSet
 Refer: 476 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SU
@@ -13726,6 +13945,7 @@ SplineSet
  104 -235 68 -186 68 -142 c 256
 EndSplineSet
 Refer: 476 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SUu
@@ -13756,6 +13976,7 @@ SplineSet
  125 -237 68 -206 68 -138 c 256
 EndSplineSet
 Refer: 476 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Sa.reph
@@ -13789,6 +14010,7 @@ SplineSet
  252 445 193 474 193 530 c 256
 EndSplineSet
 Refer: 476 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Sh.halant
@@ -13876,6 +14098,7 @@ SplineSet
  397 412 l 257
  237 415 150 462 150 537 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShIi
@@ -13941,6 +14164,7 @@ SplineSet
  397 412 l 257
  237 415 150 462 150 537 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShRI
@@ -14012,6 +14236,7 @@ SplineSet
  397 412 l 257
  237 415 150 462 150 537 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShRIi
@@ -14087,6 +14312,7 @@ SplineSet
  397 412 l 257
  237 415 150 462 150 537 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShRa
@@ -14145,6 +14371,7 @@ SplineSet
  582 -124 453 -219 309 -219 c 256
  176 -219 93 -153 56 -44 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShU
@@ -14260,6 +14487,7 @@ SplineSet
  450 502 l 257
 EndSplineSet
 Refer: 475 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsI
@@ -14285,6 +14513,7 @@ SplineSet
  134 408 68 443 68 518 c 256
 EndSplineSet
 Refer: 475 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsIi
@@ -14315,6 +14544,7 @@ SplineSet
  85 411 48 456 48 517 c 256
 EndSplineSet
 Refer: 475 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsRI
@@ -14338,6 +14568,7 @@ SplineSet
  173 -219 86 -153 50 -44 c 257
 EndSplineSet
 Refer: 341 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsRIi
@@ -14361,6 +14592,7 @@ SplineSet
  173 -219 86 -153 50 -44 c 257
 EndSplineSet
 Refer: 342 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsRa
@@ -14384,6 +14616,7 @@ SplineSet
  173 -219 86 -153 50 -44 c 257
 EndSplineSet
 Refer: 475 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsU
@@ -14411,6 +14644,7 @@ SplineSet
  82 -235 45 -186 45 -142 c 256
 EndSplineSet
 Refer: 475 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsUu
@@ -14441,6 +14675,7 @@ SplineSet
  100 -237 44 -206 44 -138 c 256
 EndSplineSet
 Refer: 475 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ssa.reph
@@ -14474,6 +14709,7 @@ SplineSet
  224 445 165 474 165 530 c 256
 EndSplineSet
 Refer: 475 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_T.halant
@@ -14500,6 +14736,7 @@ SplineSet
  539 502 l 257
 EndSplineSet
 Refer: 458 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TI
@@ -14525,6 +14762,7 @@ SplineSet
  214 361 211 390 211 421 c 256
 EndSplineSet
 Refer: 458 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TIi
@@ -14556,6 +14794,7 @@ SplineSet
  214 361 211 390 211 421 c 256
 EndSplineSet
 Refer: 458 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TRI
@@ -14579,6 +14818,7 @@ SplineSet
  234 -219 149 -153 111 -44 c 257
 EndSplineSet
 Refer: 350 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TRIi
@@ -14602,6 +14842,7 @@ SplineSet
  234 -219 149 -153 111 -44 c 257
 EndSplineSet
 Refer: 351 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TRa
@@ -14625,6 +14866,7 @@ SplineSet
  234 -219 149 -153 111 -44 c 257
 EndSplineSet
 Refer: 458 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TThI
@@ -14652,6 +14894,7 @@ SplineSet
  561 489 507 516 507 574 c 256
 EndSplineSet
 Refer: 386 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TThIi
@@ -14729,6 +14972,7 @@ SplineSet
  683 497 657 489 614 489 c 256
  554 489 500 516 500 574 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TThU
@@ -14756,6 +15000,7 @@ SplineSet
  491 -235 454 -186 454 -142 c 256
 EndSplineSet
 Refer: 386 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TThUu
@@ -14786,6 +15031,7 @@ SplineSet
  509 -237 454 -206 454 -138 c 256
 EndSplineSet
 Refer: 386 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TTh.halant
@@ -14827,6 +15073,7 @@ SplineSet
  126 222 92 165 71 100 c 257
 EndSplineSet
 Refer: 369 -1 N 1 0 0 1 401 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TU
@@ -14883,6 +15130,7 @@ SplineSet
  176 73 140 109 103 109 c 256
  92 109 80 107 71 100 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TUu
@@ -14914,6 +15162,7 @@ SplineSet
  459 -205 395 -187 395 -129 c 256
 EndSplineSet
 Refer: 458 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TV.halant
@@ -14988,6 +15237,7 @@ SplineSet
  234 296 188 284 157 260 c 257
  126 222 92 165 71 100 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TVI
@@ -15063,6 +15313,7 @@ SplineSet
  234 296 188 284 157 260 c 257
  126 222 92 165 71 100 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TVIi
@@ -15143,6 +15394,7 @@ SplineSet
  234 296 188 284 157 260 c 257
  126 222 92 165 71 100 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TVU
@@ -15170,6 +15422,7 @@ SplineSet
  485 -235 449 -186 449 -142 c 256
 EndSplineSet
 Refer: 389 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TVUu
@@ -15200,6 +15453,7 @@ SplineSet
  507 -237 451 -206 451 -138 c 256
 EndSplineSet
 Refer: 389 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TtTtha
@@ -15250,6 +15504,7 @@ SplineSet
  135 0 l 257
  69 33 27 111 27 212 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ta.reph
@@ -15283,6 +15538,7 @@ SplineSet
  327 445 268 474 268 530 c 256
 EndSplineSet
 Refer: 458 3501 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Th.halant
@@ -15327,6 +15583,7 @@ SplineSet
  414 486 363 533 325 561 c 257
  314 543 304 520 304 485 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ThI
@@ -15354,6 +15611,7 @@ SplineSet
  160 489 106 516 106 574 c 256
 EndSplineSet
 Refer: 459 3502 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ThIi
@@ -15404,6 +15662,7 @@ SplineSet
  444 494 394 540 356 568 c 257
  344 550 335 527 335 492 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ThU
@@ -15431,6 +15690,7 @@ SplineSet
  90 -235 53 -186 53 -142 c 256
 EndSplineSet
 Refer: 459 3502 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ThUu
@@ -15461,6 +15721,7 @@ SplineSet
  109 -237 52 -206 52 -138 c 256
 EndSplineSet
 Refer: 459 3502 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Tha.reph
@@ -15494,6 +15755,7 @@ SplineSet
  72 445 13 474 13 530 c 256
 EndSplineSet
 Refer: 459 3502 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Tt.halant
@@ -15536,6 +15798,7 @@ SplineSet
  557 115 447 -1 285 -1 c 256
  133 -1 32 81 32 208 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtI
@@ -15575,6 +15838,7 @@ SplineSet
  557 112 447 -1 285 -1 c 256
  133 -1 32 81 32 208 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtIi
@@ -15619,6 +15883,7 @@ SplineSet
  557 112 447 -1 285 -1 c 256
  133 -1 32 81 32 208 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtRI
@@ -15667,6 +15932,7 @@ SplineSet
  557 112 447 -1 285 -1 c 256
  133 -1 32 81 32 208 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtRIi
@@ -15720,6 +15986,7 @@ SplineSet
  550 -124 430 -219 290 -219 c 256
  161 -219 82 -153 46 -44 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtRa
@@ -15805,6 +16072,7 @@ SplineSet
  135 0 l 257
  69 33 27 111 27 212 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTthI
@@ -15868,6 +16136,7 @@ SplineSet
  135 0 l 257
  69 33 27 111 27 212 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTthIi
@@ -15936,6 +16205,7 @@ SplineSet
  135 0 l 257
  69 33 27 111 27 212 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTthU
@@ -15999,6 +16269,7 @@ SplineSet
  135 0 l 257
  69 33 27 111 27 212 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTthUu
@@ -16065,6 +16336,7 @@ SplineSet
  135 0 l 257
  69 33 27 111 27 212 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TTha
@@ -16106,6 +16378,7 @@ SplineSet
  126 222 92 165 71 100 c 257
 EndSplineSet
 Refer: 459 3502 N 1 0 0 1 401 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TtU
@@ -16206,6 +16479,7 @@ SplineSet
  126 222 92 165 71 100 c 257
 EndSplineSet
 Refer: 473 3520 N 1 0 0 1 405 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Tta.reph
@@ -16292,6 +16566,7 @@ SplineSet
  473 474 l 257
  445 513 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TthI
@@ -16319,6 +16594,7 @@ SplineSet
  166 489 112 516 112 574 c 256
 EndSplineSet
 Refer: 453 3496 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TthIi
@@ -16351,6 +16627,7 @@ SplineSet
  166 489 112 516 112 574 c 256
 EndSplineSet
 Refer: 453 3496 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TthU
@@ -16378,6 +16655,7 @@ SplineSet
  88 -235 52 -186 52 -142 c 256
 EndSplineSet
 Refer: 453 3496 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TthUu
@@ -16408,6 +16686,7 @@ SplineSet
  107 -237 51 -206 51 -138 c 256
 EndSplineSet
 Refer: 453 3496 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_V.halant
@@ -16453,6 +16732,7 @@ SplineSet
  465 537 384 590 278 590 c 256
  206 590 134 567 134 543 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_VI
@@ -16499,6 +16779,7 @@ SplineSet
  548 114 450 0 267 0 c 256
  146 0 33 46 33 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_VIi
@@ -16550,6 +16831,7 @@ SplineSet
  548 114 450 0 267 0 c 256
  146 0 33 46 33 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_VRI
@@ -16605,6 +16887,7 @@ SplineSet
  546 -124 429 -219 289 -219 c 256
  160 -219 82 -153 46 -44 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_VRIi
@@ -16665,6 +16948,7 @@ SplineSet
  546 -124 429 -219 289 -219 c 256
  160 -219 82 -153 46 -44 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_VRa
@@ -16688,6 +16972,7 @@ SplineSet
  160 -219 82 -153 46 -44 c 257
 EndSplineSet
 Refer: 473 3520 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_VU
@@ -16715,6 +17000,7 @@ SplineSet
  81 -235 44 -186 44 -142 c 256
 EndSplineSet
 Refer: 473 3520 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_VUu
@@ -16745,6 +17031,7 @@ SplineSet
  102 -237 46 -206 46 -138 c 256
 EndSplineSet
 Refer: 473 3520 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Va.reph
@@ -16778,6 +17065,7 @@ SplineSet
  209 741 151 704 151 640 c 256
 EndSplineSet
 Refer: 473 3520 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Y.halant
@@ -16830,6 +17118,7 @@ SplineSet
  372 502 l 261
 EndSplineSet
 Refer: 414 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YI
@@ -16939,6 +17228,7 @@ SplineSet
  55 -235 18 -186 18 -142 c 256
 EndSplineSet
 Refer: 414 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YUu
@@ -16999,6 +17289,7 @@ SplineSet
  74 -237 18 -206 18 -138 c 256
 EndSplineSet
 Refer: 414 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YUu.post.reph
@@ -17048,6 +17339,7 @@ SplineSet
  74 -237 18 -206 18 -138 c 256
 EndSplineSet
 Refer: 414 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ya.post
@@ -17086,6 +17378,7 @@ SplineSet
  116 48 72 15 29 1 c 257
  12 21 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ya.post.reph
@@ -17119,6 +17412,7 @@ SplineSet
  170 445 111 474 111 530 c 256
 EndSplineSet
 Refer: 414 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ya.reph
@@ -17198,6 +17492,7 @@ SplineSet
  55 -235 18 -186 18 -142 c 256
 EndSplineSet
 Refer: 414 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: uni0020
@@ -17209,6 +17504,7 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: anusvara
@@ -17232,6 +17528,7 @@ SplineSet
  316 88 252 25 173 25 c 256
  94 25 30 88 30 165 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: visarga
@@ -17265,6 +17562,7 @@ SplineSet
  199 266 161 228 115 228 c 256
  69 228 31 266 31 312 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_A
@@ -17316,6 +17614,7 @@ SplineSet
  472 17 386 -4 282 -4 c 256
  118 -4 33 62 33 160 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Aa
@@ -17329,6 +17628,7 @@ Back
 Fore
 Refer: 481 3535 N 1 0 0 1 534 0 2
 Refer: 421 3461 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ae
@@ -17342,6 +17642,7 @@ Back
 Fore
 Refer: 421 3461 N 1 0 0 1 0 0 2
 Refer: 482 3536 N 1 0 0 1 544 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Aae
@@ -17355,6 +17656,7 @@ Back
 Fore
 Refer: 483 3537 N 1 0 0 1 541 0 2
 Refer: 421 3461 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_I
@@ -17401,6 +17703,7 @@ SplineSet
  339 210 315 232 288 232 c 256
  260 232 237 209 237 182 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ii
@@ -17451,6 +17754,7 @@ SplineSet
  430 356 356 414 264 414 c 256
  167 414 66 339 66 237 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_U
@@ -17481,6 +17785,7 @@ SplineSet
  603 -64 480 -161 328 -161 c 256
  177 -161 32 -62 32 99 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Uu
@@ -17494,6 +17799,7 @@ Back
 Fore
 Refer: 495 3551 N 1 0 0 1 550 0 2
 Refer: 427 3467 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_vocalicR
@@ -17545,6 +17851,7 @@ SplineSet
  398 393 367 365 362 310 c 257
 EndSplineSet
 Refer: 488 3544 N 1 0 0 1 584 0 2
+Validated: 1
 EndChar
 
 StartChar: si_vocalicRr
@@ -17597,6 +17904,7 @@ SplineSet
 EndSplineSet
 Refer: 488 3544 N 1 0 0 1 830 0 2
 Refer: 488 3544 N 1 0 0 1 584 0 2
+Validated: 1
 EndChar
 
 StartChar: si_vocalicL
@@ -17677,6 +17985,7 @@ SplineSet
  607 380 580 405 533 405 c 256
  490 405 455 381 455 336 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_vocalicLL
@@ -17690,6 +17999,7 @@ Back
 Fore
 Refer: 495 3551 N 1 0 0 1 763 0 2
 Refer: 431 3471 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_E
@@ -17740,6 +18050,7 @@ SplineSet
  422 486 372 532 334 560 c 257
  322 542 313 519 313 484 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ee
@@ -17802,6 +18113,7 @@ SplineSet
  422 468 372 514 334 542 c 257
  322 524 313 501 313 466 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ai
@@ -17815,6 +18127,7 @@ Back
 Fore
 Refer: 489 3545 N 1 0 0 1 0 0 2
 Refer: 433 3473 N 1 0 0 1 585 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Os
@@ -17866,6 +18179,7 @@ SplineSet
  283 15 246 0 196 0 c 256
  78 0 30 127 30 224 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Oo
@@ -17931,6 +18245,7 @@ SplineSet
  283 15 246 0 196 0 c 256
  78 0 30 127 30 224 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Au
@@ -17944,6 +18259,7 @@ Back
 Fore
 Refer: 495 3551 N 1 0 0 1 592 0 2
 Refer: 436 3476 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ka
@@ -17952,6 +18268,7 @@ GlifName: si_K_a
 Width: 746
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 69 -1 entry 0
 LayerCount: 2
 Back
 Fore
@@ -17999,6 +18316,7 @@ SplineSet
  165 258 145 235 129 212 c 256
  100 171 81 132 70 95 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Kha
@@ -18007,6 +18325,7 @@ GlifName: si_K_ha
 Width: 630
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 39 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18042,6 +18361,7 @@ SplineSet
  210 37 180 -1 141 -1 c 256
  56 -1 32 108 32 183 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ga
@@ -18050,6 +18370,7 @@ GlifName: si_G_a
 Width: 636
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 57 1 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18088,6 +18409,7 @@ GlifName: si_G_ha
 Width: 677
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 55 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18152,6 +18474,7 @@ GlifName: si_N_ga
 Width: 617
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 43 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18192,6 +18515,7 @@ SplineSet
  199 558 132 528 78 468 c 257
  46 468 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Nnga
@@ -18200,6 +18524,7 @@ GlifName: si_N_nga
 Width: 749
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 43 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18238,6 +18563,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_Ca
@@ -18246,6 +18572,7 @@ GlifName: si_C_a
 Width: 597
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 73 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18290,6 +18617,7 @@ GlifName: si_C_ha
 Width: 598
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 53 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18332,6 +18660,7 @@ SplineSet
  549 45 424 0 298 0 c 256
  160 0 33 44 33 170 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ja
@@ -18340,6 +18669,7 @@ GlifName: si_J_a
 Width: 598
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 48 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18389,6 +18719,7 @@ GlifName: si_J_ha
 Width: 1087
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 71 -1 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18462,6 +18793,7 @@ GlifName: si_N_ya
 Width: 1024
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 43 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18537,6 +18869,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Jnya
@@ -18545,6 +18878,7 @@ GlifName: si_J_nya
 Width: 842
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 52 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18601,6 +18935,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_Ndja
@@ -18609,6 +18944,7 @@ GlifName: si_N_dja
 Width: 699
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 43 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18658,6 +18994,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Tta
@@ -18666,6 +19003,7 @@ GlifName: si_T_ta
 Width: 603
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 38 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18694,6 +19032,7 @@ GlifName: si_T_tha
 Width: 614
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 39 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18727,6 +19066,7 @@ SplineSet
  455 494 405 540 367 568 c 257
  355 550 346 527 346 492 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Dda
@@ -18735,6 +19075,7 @@ GlifName: si_D_da
 Width: 647
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 43 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18777,6 +19118,7 @@ GlifName: si_D_dha
 Width: 647
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 53 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18824,6 +19166,7 @@ GlifName: si_N_na
 Width: 963
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 52 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18854,11 +19197,11 @@ SplineSet
  406 343 447 302 447 253 c 256
  447 204 406 163 357 163 c 256
  308 163 267 204 267 253 c 256
-296 254 m 260
- 296 220 323 193 357 193 c 260
- 391 193 418 220 418 254 c 260
- 418 288 391 315 357 315 c 260
- 323 315 296 288 296 254 c 260
+296 254 m 256
+ 296 220 323 193 357 193 c 256
+ 391 193 418 220 418 254 c 256
+ 418 288 391 315 357 315 c 256
+ 323 315 296 288 296 254 c 256
 549 161 m 256
  549 230 591 286 645 286 c 256
  678 286 703 273 719 251 c 257
@@ -18890,6 +19233,7 @@ GlifName: si_N_ndda
 Width: 731
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 37 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18932,6 +19276,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ta
@@ -18940,6 +19285,7 @@ GlifName: si_T_a
 Width: 704
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 68 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18977,6 +19323,7 @@ SplineSet
  234 296 188 284 157 260 c 257
  126 222 92 165 71 100 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Tha
@@ -18985,6 +19332,7 @@ GlifName: si_T_ha
 Width: 614
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 52 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19009,6 +19357,7 @@ SplineSet
  444 494 394 540 356 568 c 257
  344 550 335 527 335 492 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Da
@@ -19017,6 +19366,7 @@ GlifName: si_D_a
 Width: 456
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 51 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19052,6 +19402,7 @@ GlifName: si_D_ha
 Width: 638
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 46 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19079,6 +19430,7 @@ SplineSet
  272 20 235 0 190 0 c 256
  88 0 33 96 33 195 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Na
@@ -19087,6 +19439,7 @@ GlifName: si_N_a
 Width: 806
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 78 1 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19129,6 +19482,7 @@ GlifName: si_N_da
 Width: 526
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 42 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19164,6 +19518,7 @@ SplineSet
  135 0 l 257
  69 33 27 120 27 221 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Pa
@@ -19172,6 +19527,7 @@ GlifName: si_P_a
 Width: 616
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 53 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19216,6 +19572,7 @@ GlifName: si_P_ha
 Width: 579
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 45 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19249,6 +19606,7 @@ SplineSet
  410 486 360 532 322 560 c 257
  310 542 301 519 301 484 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ba
@@ -19257,6 +19615,7 @@ GlifName: si_B_a
 Width: 619
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 40 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19288,6 +19647,7 @@ SplineSet
  229 29 190 -1 150 -1 c 256
  68 -1 33 91 33 187 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Bha
@@ -19296,6 +19656,7 @@ GlifName: si_B_ha
 Width: 670
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 25 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19336,6 +19697,7 @@ SplineSet
  382 53 311 -1 217 -1 c 256
  119 -1 49 61 49 155 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ma
@@ -19344,6 +19706,7 @@ GlifName: si_M_a
 Width: 631
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 48 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19388,6 +19751,7 @@ GlifName: si_M_ba
 Width: 636
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 36 2 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19446,6 +19810,7 @@ GlifName: si_Y_a
 Width: 636
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 42 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19518,6 +19883,7 @@ GlifName: si_L_a
 Width: 670
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 44 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19545,6 +19911,7 @@ SplineSet
  624 -72 500 -154 361 -154 c 256
  180 -154 31 -58 31 135 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Va
@@ -19553,6 +19920,7 @@ GlifName: si_V_a
 Width: 597
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 47 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19580,6 +19948,7 @@ SplineSet
  548 114 450 0 267 0 c 256
  146 0 33 46 33 165 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Sha
@@ -19588,6 +19957,7 @@ GlifName: si_S_ha
 Width: 631
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 44 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19637,6 +20007,7 @@ GlifName: si_S_sa
 Width: 598
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 46 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19687,6 +20058,7 @@ SplineSet
  402 222 368 232 298 232 c 256
  233 232 202 220 202 198 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Sa
@@ -19695,6 +20067,7 @@ GlifName: si_S_a
 Width: 677
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 72 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19744,6 +20117,7 @@ SplineSet
  540 379 506 393 470 393 c 256
  418 393 387 365 382 310 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ha
@@ -19752,6 +20126,7 @@ GlifName: si_H_a
 Width: 653
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 43 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19794,6 +20169,7 @@ GlifName: si_L_la
 Width: 636
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 50 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19831,6 +20207,7 @@ GlifName: si_F_a
 Width: 607
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 44 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -19858,6 +20235,7 @@ SplineSet
  207 1 194 -1 182 -1 c 256
  81 -1 33 110 33 212 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Halant
@@ -19883,6 +20261,7 @@ SplineSet
  -27 587 -66 607 -113 638 c 257
  -113 503 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraAa
@@ -19911,6 +20290,7 @@ SplineSet
  258 73 212 -1 121 -1 c 256
  54 -1 10 41 10 110 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraAe
@@ -19936,6 +20316,7 @@ SplineSet
  84 133 158 254 211 313 c 257
  3 313 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraAae
@@ -19966,6 +20347,7 @@ SplineSet
  205 315 l 257
  4 315 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraI
@@ -19990,6 +20372,7 @@ SplineSet
  -402 405 l 257
  -479 408 -545 443 -545 518 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraIi
@@ -20019,6 +20402,7 @@ SplineSet
  -497 406 l 257
  -550 411 -587 456 -587 517 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraU
@@ -20045,6 +20429,7 @@ SplineSet
  -482 -235 l 258
  -549 -235 -594 -203 -594 -149 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraUu
@@ -20074,6 +20459,7 @@ SplineSet
  -298 -154 -373 -247 -471 -247 c 256
  -526 -247 -582 -216 -582 -148 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraR
@@ -20112,6 +20498,7 @@ SplineSet
  188 195 152 194 123 185 c 256
  87 174 63 151 63 107 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraE
@@ -20146,6 +20533,7 @@ SplineSet
  491 68 412 0 269 0 c 256
  134 0 33 84 33 212 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraEe
@@ -20159,6 +20547,7 @@ Back
 Fore
 Refer: 480 3530 N 1 0 0 1 1030 0 2
 Refer: 489 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraAi
@@ -20172,6 +20561,7 @@ Back
 Fore
 Refer: 489 3545 N 1 0 0 1 590 0 2
 Refer: 489 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraO
@@ -20185,6 +20575,7 @@ Back
 Fore
 Refer: 481 3535 N 1 0 0 1 822 0 2
 Refer: 489 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraOo
@@ -20199,6 +20590,7 @@ Fore
 Refer: 481 3535 N 1 0 0 1 769 0 2
 Refer: 480 3530 N 1 0 0 1 1060 20 2
 Refer: 489 3545 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MatraAu
@@ -20212,6 +20604,7 @@ Back
 Fore
 Refer: 495 3551 N 1 0 0 1 1080 0 2
 Refer: 489 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraLs
@@ -20248,6 +20641,7 @@ SplineSet
  229 238 185 212 135 212 c 256
  72 212 33 261 33 321 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraRr
@@ -20261,6 +20655,7 @@ Back
 Fore
 Refer: 488 3544 N 1 0 0 1 259 0 2
 Refer: 488 3544 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraLl
@@ -20297,6 +20692,7 @@ SplineSet
  229 238 185 212 135 212 c 256
  72 212 33 261 33 321 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_kundaliya
@@ -20357,6 +20753,7 @@ SplineSet
  1512 -2 1464 90 1400 90 c 256
  1355 90 1310 60 1296 46 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dottedcircle
@@ -20450,10 +20847,12 @@ SplineSet
  442 370 435 362 420 362 c 256
  404 362 397 370 398 384 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_JnyAa.halant
 Encoding: 185 -1 500
+GlifName: si_J_nyA_a.halant
 Width: 974
 VWidth: 0
 Flags: HW
@@ -20531,6 +20930,7 @@ SplineSet
  661 -1 645 -1 624 -1 c 256
  493 -1 421 69 421 169 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: .notdef
@@ -20542,11 +20942,549 @@ Flags: HW
 LayerCount: 2
 Back
 Fore
+Validated: 1
 PickledDataWithLists: "(dp1
 S'com.schriftgestaltung.Glyphs.Export'
 p2
 I00
 s."
+EndChar
+
+StartChar: si_Ka.touch
+Encoding: 501 -1 502
+GlifName: si_K_a.touch
+Width: 746
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 701 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 439 3482 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: si_Kha.touch
+Encoding: 502 -1 503
+GlifName: si_K_ha.touch
+Width: 630
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 584 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 440 3483 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ga.touch
+Encoding: 503 -1 504
+GlifName: si_G_a.touch
+Width: 636
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 585 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 441 3484 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Gha.touch
+Encoding: 504 -1 505
+GlifName: si_G_ha.touch
+Width: 677
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 628 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 442 3485 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nga.touch
+Encoding: 505 -1 506
+GlifName: si_N_ga.touch
+Width: 617
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 571 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 443 3486 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nnga.touch
+Encoding: 506 -1 507
+GlifName: si_N_nga.touch
+Width: 749
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 702 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 444 3487 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ca.touch
+Encoding: 507 -1 508
+GlifName: si_C_a.touch
+Width: 597
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 576 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 445 3488 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Cha.touch
+Encoding: 508 -1 509
+GlifName: si_C_ha.touch
+Width: 598
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 550 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 446 3489 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ja.touch
+Encoding: 509 -1 510
+GlifName: si_J_a.touch
+Width: 598
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 550 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 447 3490 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Jha.touch
+Encoding: 510 -1 511
+GlifName: si_J_ha.touch
+Width: 1087
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 1038 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 448 3491 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nya.touch
+Encoding: 511 -1 512
+GlifName: si_N_ya.touch
+Width: 1024
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 976 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 449 3492 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Jnya.touch
+Encoding: 512 -1 513
+GlifName: si_J_nya.touch
+Width: 842
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 788 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 450 3493 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar
+
+StartChar: si_Ndja.touch
+Encoding: 513 -1 514
+GlifName: si_N_dja.touch
+Width: 699
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 650 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 451 3494 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Tta.touch
+Encoding: 514 -1 515
+GlifName: si_T_ta.touch
+Width: 603
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 558 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 452 3495 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ttha.touch
+Encoding: 515 -1 516
+GlifName: si_T_tha.touch
+Width: 614
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 590 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 453 3496 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Dda.touch
+Encoding: 516 -1 517
+GlifName: si_D_da.touch
+Width: 647
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 599 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 454 3497 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ddha.touch
+Encoding: 517 -1 518
+GlifName: si_D_dha.touch
+Width: 647
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 599 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 455 3498 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nna.touch
+Encoding: 518 -1 519
+GlifName: si_N_na.touch
+Width: 963
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 915 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 456 3499 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ndda.touch
+Encoding: 519 -1 520
+GlifName: si_N_dda.touch
+Width: 731
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 680 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 457 3500 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ta.touch
+Encoding: 520 -1 521
+GlifName: si_T_a.touch
+Width: 704
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 664 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 458 3501 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Tha.touch
+Encoding: 521 -1 522
+GlifName: si_T_ha.touch
+Width: 614
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 565 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 459 3502 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Da.touch
+Encoding: 522 -1 523
+GlifName: si_D_a.touch
+Width: 456
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 379 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 460 3503 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Dha.touch
+Encoding: 523 -1 524
+GlifName: si_D_ha.touch
+Width: 638
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 588 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 461 3504 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Na.touch
+Encoding: 524 -1 525
+GlifName: si_N_a.touch
+Width: 806
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 760 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 462 3505 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nda.touch
+Encoding: 525 -1 526
+GlifName: si_N_da.touch
+Width: 526
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 488 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 463 3507 N 1 0 0 1 0 0 2
+Validated: 5
+EndChar
+
+StartChar: si_Pa.touch
+Encoding: 526 -1 527
+GlifName: si_P_a.touch
+Width: 616
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 574 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 464 3508 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Pha.touch
+Encoding: 527 -1 528
+GlifName: si_P_ha.touch
+Width: 579
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 508 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 465 3509 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: si_Ba.touch
+Encoding: 528 -1 529
+GlifName: si_B_a.touch
+Width: 619
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 575 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 466 3510 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Bha.touch
+Encoding: 529 -1 530
+GlifName: si_B_ha.touch
+Width: 670
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 621 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 467 3511 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ma.touch
+Encoding: 530 -1 531
+GlifName: si_M_a.touch
+Width: 631
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 588 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 468 3512 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Mba.touch
+Encoding: 531 -1 532
+GlifName: si_M_ba.touch
+Width: 636
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 568 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 469 3513 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ya.touch
+Encoding: 532 -1 533
+GlifName: si_Y_a.touch
+Width: 636
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 566 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 470 3514 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ra.touch
+Encoding: 533 -1 534
+GlifName: si_R_a.touch
+Width: 528
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 466 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 471 3515 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_La.touch
+Encoding: 534 -1 535
+GlifName: si_L_a.touch
+Width: 670
+VWidth: 0
+Flags: HWO
+AnchorPoint: "cursive" 607 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 472 3517 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Va.touch
+Encoding: 535 -1 536
+GlifName: si_V_a.touch
+Width: 597
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 548 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 473 3520 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Sha.touch
+Encoding: 536 -1 537
+GlifName: si_S_ha.touch
+Width: 631
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 582 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 474 3521 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ssa.touch
+Encoding: 537 -1 538
+GlifName: si_S_sa.touch
+Width: 598
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 574 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 475 3522 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Sa.touch
+Encoding: 538 -1 539
+GlifName: si_S_a.touch
+Width: 677
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 628 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 476 3523 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ha.touch
+Encoding: 539 -1 540
+GlifName: si_H_a.touch
+Width: 653
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 605 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 477 3524 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Lla.touch
+Encoding: 540 -1 541
+GlifName: si_L_la.touch
+Width: 636
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 592 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 478 3525 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Fa.touch
+Encoding: 541 -1 542
+GlifName: si_F_a.touch
+Width: 607
+VWidth: 0
+Flags: HW
+AnchorPoint: "cursive" 558 0 exit 0
+LayerCount: 2
+Back
+Fore
+Refer: 479 3526 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

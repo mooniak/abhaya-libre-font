@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051463
-ModificationTime: 1441171818
+ModificationTime: 1441290160
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -495,16 +495,15 @@ p185
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p186
 s."
-Encoding: Custom
-Compacted: 1
+Encoding: sinhala_final
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 276 23 12
+WinInfo: 0 23 12
 AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
-BeginChars: 65538 502
+BeginChars: 65537 543
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -21213,6 +21212,457 @@ SplineSet
  135 0 l 257
  68.5828 33.2086 27 110.57 27 211.5 c 256
 EndSplineSet
+EndChar
+
+StartChar: si_Ka.touch
+Encoding: 501 -1 502
+Width: 746
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 437 3482 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Kha.touch
+Encoding: 502 -1 503
+Width: 630
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 438 3483 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ga.touch
+Encoding: 503 -1 504
+Width: 636
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 439 3484 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Gha.touch
+Encoding: 504 -1 505
+Width: 677
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 440 3485 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nga.touch
+Encoding: 505 -1 506
+Width: 617
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 441 3486 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nnga.touch
+Encoding: 506 -1 507
+Width: 749
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 442 3487 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ca.touch
+Encoding: 507 -1 508
+Width: 597
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 443 3488 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Cha.touch
+Encoding: 508 -1 509
+Width: 598
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 444 3489 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ja.touch
+Encoding: 509 -1 510
+Width: 598
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 445 3490 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Jha.touch
+Encoding: 510 -1 511
+Width: 1087
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 446 3491 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nya.touch
+Encoding: 511 -1 512
+Width: 1024
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 447 3492 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Jnya.touch
+Encoding: 512 -1 513
+Width: 842
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 448 3493 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ndja.touch
+Encoding: 513 -1 514
+Width: 699
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 449 3494 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Tta.touch
+Encoding: 514 -1 515
+Width: 603
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 450 3495 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ttha.touch
+Encoding: 515 -1 516
+Width: 614
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 451 3496 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Dda.touch
+Encoding: 516 -1 517
+Width: 647
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 452 3497 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ddha.touch
+Encoding: 517 -1 518
+Width: 647
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 453 3498 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nna.touch
+Encoding: 518 -1 519
+Width: 963
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 454 3499 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ndda.touch
+Encoding: 519 -1 520
+Width: 731
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 455 3500 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ta.touch
+Encoding: 520 -1 521
+Width: 704
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 456 3501 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Tha.touch
+Encoding: 521 -1 522
+Width: 614
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 457 3502 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Da.touch
+Encoding: 522 -1 523
+Width: 456
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 458 3503 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Dha.touch
+Encoding: 523 -1 524
+Width: 638
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 459 3504 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Na.touch
+Encoding: 524 -1 525
+Width: 806
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 460 3505 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Nda.touch
+Encoding: 525 -1 526
+Width: 538
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 461 3507 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Pa.touch
+Encoding: 526 -1 527
+Width: 616
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 462 3508 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Pha.touch
+Encoding: 527 -1 528
+Width: 583
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 463 3509 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ba.touch
+Encoding: 528 -1 529
+Width: 619
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 464 3510 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Bha.touch
+Encoding: 529 -1 530
+Width: 670
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 465 3511 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ma.touch
+Encoding: 530 -1 531
+Width: 635
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 466 3512 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Mba.touch
+Encoding: 531 -1 532
+Width: 636
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 467 3513 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ya.touch
+Encoding: 532 -1 533
+Width: 636
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 468 3514 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ra.touch
+Encoding: 533 -1 534
+Width: 528
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 469 3515 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_La.touch
+Encoding: 534 -1 535
+Width: 670
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 470 3517 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Va.touch
+Encoding: 535 -1 536
+Width: 597
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 471 3520 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Sha.touch
+Encoding: 536 -1 537
+Width: 631
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 472 3521 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ssa.touch
+Encoding: 537 -1 538
+Width: 622
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 473 3522 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Sa.touch
+Encoding: 538 -1 539
+Width: 677
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 474 3523 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Ha.touch
+Encoding: 539 -1 540
+Width: 653
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 475 3524 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Lla.touch
+Encoding: 540 -1 541
+Width: 636
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 476 3525 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: si_Fa.touch
+Encoding: 541 -1 542
+Width: 607
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+Refer: 477 3526 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont

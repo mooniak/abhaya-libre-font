@@ -4,6 +4,9 @@
   <unicode hex="0D9A"/>
   <outline>
     <contour>
+      <point x="69" y="-1" type="move" name="_cursive"/>
+    </contour>
+    <contour>
       <point x="21" y="22" type="line"/>
       <point x="29" y="91"/>
       <point x="74" y="184"/>

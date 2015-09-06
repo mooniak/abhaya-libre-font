@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Nga.touch" format="1">
+  <advance width="617"/>
+  <outline>
+    <contour>
+      <point x="571" y="0" type="move" name="cursive"/>
+    </contour>
+    <component base="si_Nga"/>
+  </outline>
+</glyph>

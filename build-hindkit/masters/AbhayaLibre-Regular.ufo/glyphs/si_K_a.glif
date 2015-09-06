@@ -121,5 +121,8 @@
       <point x="100" y="171"/>
       <point x="81" y="132"/>
     </contour>
+    <contour>
+      <point x="69" y="-1" type="move" name="_cursive"/>
+    </contour>
   </outline>
 </glyph>

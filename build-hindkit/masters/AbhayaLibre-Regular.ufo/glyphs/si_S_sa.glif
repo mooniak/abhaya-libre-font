@@ -132,5 +132,8 @@
       <point x="233" y="232"/>
       <point x="202" y="220"/>
     </contour>
+    <contour>
+      <point x="46" y="0" type="move" name="_cursive"/>
+    </contour>
   </outline>
 </glyph>
