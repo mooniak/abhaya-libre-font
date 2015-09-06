@@ -3,5 +3,8 @@
   <advance width="526"/>
   <outline>
     <component base="si_Nda"/>
+    <contour>
+      <point x="488" y="0" type="move" name="cursive"/>
+    </contour>
   </outline>
 </glyph>

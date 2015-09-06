@@ -4,6 +4,7 @@ languagesystem sinh dflt;
 # include (../../features/GENERATED_classes.fea);
 include (../../features/tables.fea);
 
+
 #---- --AKHN ------------
 
 lookup si_akhands {
@@ -87,7 +88,6 @@ lookup si_halant_2 {
     sub si_TTha si_Halant by si_TTh.halant;
     sub si_NDha si_Halant by si_NDh.halant;
     sub si_NTha si_Halant by si_NTh.halant;
-    sub si_Ya.post si_Halant by si_Y.post.halant;
  } si_halant_2;
 
 #---- ABVS ----
@@ -498,7 +498,7 @@ lookup si_rakaar {
 } si_rakaar;
 
 #----------- Split Matras ------------
-#-------------------------------
+#-------------------------------------
 
 lookup si_split_matra {
     sub si_MatraEe by si_Halant;
@@ -506,6 +506,9 @@ lookup si_split_matra {
     sub si_MatraOo by si_MatraAa.halant;
     sub si_MatraAu by si_MatraLs;
 } si_split_matra;
+
+#----------- Da forms ------------
+#---------------------------------
 
 lookup si_da_style {
     sub si_Da si_MatraAa by si_DAa;
@@ -536,27 +539,146 @@ lookup si_da_style {
 
 } si_da_style;
 
-# lookup si_kern {
-#     pos si_A <0 0 0 0>;
-# } si_kern;
+#----------- Touching ------------
+#---------------------------------
 
-lookup si_touch {
-    # sub zwj' si_Halant' by zwj;
-    pos si_Dda zwj si_Halant si_Da' <-120 0 0 0>;
-    # sub si_Dda by si_Da;
-} si_touch;
+lookup si_touching {
+sub si_Ka zwj si_Halant by si_Ka.touch;
+sub si_Kha zwj si_Halant by si_Kha.touch;
+sub si_Ga  zwj si_Halant by si_Ga.touch;
+sub si_Gha zwj si_Halant by si_Gha.touch;
+sub si_Nga zwj si_Halant by si_Nga.touch;
+sub si_Nnga zwj si_Halant by si_Nnga.touch;
+sub si_Ca zwj si_Halant by si_Ca.touch;
+sub si_Cha zwj si_Halant by si_Cha.touch;
+sub si_Ja zwj si_Halant by si_Ja.touch;
+sub si_Jha zwj si_Halant by si_Jha.touch;
+sub si_Nya zwj si_Halant by si_Nya.touch;
+sub si_Jnya zwj si_Halant by si_Jnya.touch;
+sub si_Ndja zwj si_Halant by si_Ndja.touch;
+sub si_Tta zwj si_Halant by si_Tta.touch;
+sub si_Ttha zwj si_Halant by si_Ttha.touch;
+sub si_Dda zwj si_Halant by si_Dda.touch;
+sub si_Ddha zwj si_Halant by si_Ddha.touch;
+sub si_Nna zwj si_Halant by si_Nna.touch;
+sub si_Nndda zwj si_Halant by si_Ndda.touch;
+sub si_Ta zwj si_Halant by si_Ta.touch;
+sub si_Tha zwj si_Halant by si_Tha.touch;
+sub si_Da zwj si_Halant by si_Da.touch;
+sub si_Dha zwj si_Halant by si_Dha.touch;
+sub si_Na zwj si_Halant by si_Na.touch;
+sub si_Nda zwj si_Halant by si_Nda.touch;
+sub si_Pa zwj si_Halant by si_Pa.touch;
+sub si_Pha zwj si_Halant by si_Pha.touch;
+sub si_Ba zwj si_Halant by si_Ba.touch;
+sub si_Bha zwj si_Halant by si_Bha.touch;
+sub si_Ma zwj si_Halant by si_Ma.touch;
+sub si_Mba zwj si_Halant by si_Mba.touch;
+sub si_Ya zwj si_Halant by si_Ya.touch;
+sub si_Ra zwj si_Halant by si_Ra.touch;
+sub si_La zwj si_Halant by si_La.touch;
+sub si_Va zwj si_Halant by si_Va.touch;
+sub si_Sha zwj si_Halant by si_Sha.touch;
+sub si_Ssa zwj si_Halant by si_Ssa.touch;
+sub si_Sa zwj si_Halant by si_Sa.touch;
+sub si_Ha zwj si_Halant by si_Ha.touch;
+sub si_Lla zwj si_Halant by si_Lla.touch;
+sub si_Fa zwj si_Halant by si_Fa.touch;
+} si_touching;
 
-lookup si_touch2 {
-    # sub zwj' si_Halant' by zwj;
-    sub si_Dda' zwj' si_Halant si_Da by si_Dda;
-    # sub si_Dda by si_Da;
-} si_touch2;
+lookup si_touch_pos {
+  pos cursive si_Ka <anchor 69 0> <anchor NULL>;
+  pos cursive si_Kha <anchor 39 0> <anchor NULL>;
+  pos cursive si_Ga <anchor 57 1> <anchor NULL>;
+  pos cursive si_Gha <anchor 55 0> <anchor NULL>;
+  pos cursive si_Nga <anchor 43 0> <anchor NULL>;
+  pos cursive si_Nnga <anchor 43 0> <anchor NULL>;
+  pos cursive si_Ca <anchor 73 0> <anchor NULL>;
+  pos cursive si_Cha <anchor 53 0> <anchor NULL>;
+  pos cursive si_Ja <anchor 48 0> <anchor NULL>;
+  pos cursive si_Jha <anchor 71 0> <anchor NULL>;
+  pos cursive si_Nya <anchor 43 0> <anchor NULL>;
+  pos cursive si_Jnya <anchor 52 0> <anchor NULL>;
+  pos cursive si_Ndja <anchor 43 0> <anchor NULL>;
+  pos cursive si_Tta <anchor 38 0> <anchor NULL>;
+  pos cursive si_Ttha <anchor 39 0> <anchor NULL>;
+  pos cursive si_Dda <anchor 43 0> <anchor NULL>;
+  pos cursive si_Ddha <anchor 53 0> <anchor NULL>;
+  pos cursive si_Nna <anchor 52 0> <anchor NULL>;
+  pos cursive si_Nndda <anchor 37 0> <anchor NULL>;
+  pos cursive si_Ta <anchor 68 0> <anchor NULL>;
+  pos cursive si_Tha <anchor 52 0> <anchor NULL>;
+  pos cursive si_Da <anchor 51 0> <anchor NULL>;
+  pos cursive si_Dha <anchor 46 0> <anchor NULL>;
+  pos cursive si_Na <anchor 78 0> <anchor NULL>;
+  pos cursive si_Nda <anchor 42 0> <anchor NULL>;
+  pos cursive si_Pa <anchor 53 0> <anchor NULL>;
+  pos cursive si_Pha <anchor 45 0> <anchor NULL>;
+  pos cursive si_Ba <anchor 40 0> <anchor NULL>;
+  pos cursive si_Bha <anchor 25 0> <anchor NULL>;
+  pos cursive si_Ma <anchor 48 0> <anchor NULL>;
+  pos cursive si_Mba <anchor 36 0> <anchor NULL>;
+  pos cursive si_Ya <anchor 42 0> <anchor NULL>;
+  pos cursive si_La <anchor 44 0> <anchor NULL>;
+  pos cursive si_Va <anchor 47 0> <anchor NULL>;
+  pos cursive si_Sha <anchor 44 0> <anchor NULL>;
+  pos cursive si_Ssa <anchor 46 0> <anchor NULL>;
+  pos cursive si_Sa <anchor 72 0> <anchor NULL>;
+  pos cursive si_Ha <anchor 43 0> <anchor NULL>;
+  pos cursive si_Lla <anchor 50 0> <anchor NULL>;
+  pos cursive si_Fa <anchor 44 0> <anchor NULL>;
+  pos cursive si_Ka.touch <anchor NULL> <anchor 701 0>;
+  pos cursive si_Kha.touch <anchor NULL> <anchor 584 0>;
+  pos cursive si_Ga.touch <anchor NULL> <anchor 585 0>;
+  pos cursive si_Gha.touch <anchor NULL> <anchor 628 0>;
+  pos cursive si_Nga.touch <anchor NULL> <anchor 571 0>;
+  pos cursive si_Nnga.touch <anchor NULL> <anchor 702 0>;
+  pos cursive si_Ca.touch <anchor NULL> <anchor 576 0>;
+  pos cursive si_Cha.touch <anchor NULL> <anchor 550 0>;
+  pos cursive si_Ja.touch <anchor NULL> <anchor 550 0>;
+  pos cursive si_Jha.touch <anchor NULL> <anchor 1038 0>;
+  pos cursive si_Nya.touch <anchor NULL> <anchor 976 0>;
+  pos cursive si_Jnya.touch <anchor NULL> <anchor 788 0>;
+  pos cursive si_Ndja.touch <anchor NULL> <anchor 650 0>;
+  pos cursive si_Tta.touch <anchor NULL> <anchor 558 0>;
+  pos cursive si_Ttha.touch <anchor NULL> <anchor 590 0>;
+  pos cursive si_Dda.touch <anchor NULL> <anchor 599 0>;
+  pos cursive si_Ddha.touch <anchor NULL> <anchor 599 0>;
+  pos cursive si_Nna.touch <anchor NULL> <anchor 915 0>;
+  pos cursive si_Ndda.touch <anchor NULL> <anchor 680 0>;
+  pos cursive si_Ta.touch <anchor NULL> <anchor 664 0>;
+  pos cursive si_Tha.touch <anchor NULL> <anchor 565 0>;
+  pos cursive si_Da.touch <anchor NULL> <anchor 379 0>;
+  pos cursive si_Dha.touch <anchor NULL> <anchor 588 0>;
+  pos cursive si_Na.touch <anchor NULL> <anchor 760 0>;
+  pos cursive si_Nda.touch <anchor NULL> <anchor 488 0>;
+  pos cursive si_Pa.touch <anchor NULL> <anchor 574 0>;
+  pos cursive si_Pha.touch <anchor NULL> <anchor 508 0>;
+  pos cursive si_Ba.touch <anchor NULL> <anchor 575 0>;
+  pos cursive si_Bha.touch <anchor NULL> <anchor 621 0>;
+  pos cursive si_Ma.touch <anchor NULL> <anchor 588 0>;
+  pos cursive si_Mba.touch <anchor NULL> <anchor 568 0>;
+  pos cursive si_Ya.touch <anchor NULL> <anchor 566 0>;
+  pos cursive si_Ra.touch <anchor NULL> <anchor 466 0>;
+  pos cursive si_La.touch <anchor NULL> <anchor 607 0>;
+  pos cursive si_Va.touch <anchor NULL> <anchor 548 0>;
+  pos cursive si_Sha.touch <anchor NULL> <anchor 582 0>;
+  pos cursive si_Ssa.touch <anchor NULL> <anchor 574 0>;
+  pos cursive si_Sa.touch <anchor NULL> <anchor 628 0>;
+  pos cursive si_Ha.touch <anchor NULL> <anchor 605 0>;
+  pos cursive si_Lla.touch <anchor NULL> <anchor 592 0>;
+  pos cursive si_Fa.touch <anchor NULL> <anchor 558 0>;
+} si_touch_pos;
 
+lookup si_kern {
+    pos si_A <0 0 0 0>;
+} si_kern;
 ##--------------- Lookups ---------------##
 
 feature akhn {
     script sinh;
         lookup si_akhands;
+        lookup si_touching;
 } akhn;
 
 #-------------
@@ -616,27 +738,26 @@ feature psts {
 
 #-------------
 
-# feature kern {
-#     script sinh;
-#         lookup si_kern;
-# } kern;
+feature kern {
+    script sinh;
+        lookup si_kern;
+} kern;
 
 feature dist {
     script sinh;
-        lookup si_touch;
-        lookup si_touch2;
+      lookup si_touch_pos;
 } dist;
 
-# feature abvm {
-#     script sinh;
-# } abvm;
+feature abvm {
+    script sinh;
+} abvm;
 
-# feature blwm {
-#     script sinh;
-# } blwm;
+feature blwm {
+    script sinh;
+} blwm;
 
-# feature ss01 {
-#   script sinh;
-#     lookup si_da_style;
-# } ss01;
+feature ss01 {
+  script sinh;
+    lookup si_da_style;
+} ss01;
 #-------------

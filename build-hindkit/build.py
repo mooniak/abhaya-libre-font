@@ -47,7 +47,7 @@ builder.set_options([
     'compile',          # stage iii
 
     'makeinstances', #!
-    'checkoutlines', #!
+    #'checkoutlines', #!
     # 'autohint',      #!
 
     'do_style_linking',
