@@ -482,7 +482,7 @@ NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 260 26 12
+WinInfo: 234 26 12
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "cursive" "'curs' Cursive Attachment in Sinhala lookup 2-1" "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
@@ -21388,7 +21388,7 @@ Encoding: 534 -1 535
 GlifName: si_L_a.touch
 Width: 670
 VWidth: 0
-Flags: HWO
+Flags: HW
 AnchorPoint: "cursive" 607 0 exit 0
 LayerCount: 2
 Back
