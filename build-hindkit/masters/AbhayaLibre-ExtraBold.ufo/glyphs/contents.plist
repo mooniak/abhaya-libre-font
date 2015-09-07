@@ -26,6 +26,8 @@
 	<string>si_B_I_.glif</string>
 	<key>si_BIi</key>
 	<string>si_B_I_i.glif</string>
+	<key>si_BR.halant</key>
+	<string>si_B_R_.halant.glif</string>
 	<key>si_BRI</key>
 	<string>si_B_R_I_.glif</string>
 	<key>si_BRIi</key>
@@ -54,6 +56,8 @@
 	<string>si_B_hR_I_i.glif</string>
 	<key>si_BhRa</key>
 	<string>si_B_hR_a.glif</string>
+	<key>si_BhRa.halant</key>
+	<string>si_B_hR_a.halant.glif</string>
 	<key>si_BhU</key>
 	<string>si_B_hU_.glif</string>
 	<key>si_BhUu</key>
@@ -70,6 +74,8 @@
 	<string>si_C_I_.glif</string>
 	<key>si_CIi</key>
 	<string>si_C_I_i.glif</string>
+	<key>si_CR.halant</key>
+	<string>si_C_R_.halant.glif</string>
 	<key>si_CRI</key>
 	<string>si_C_R_I_.glif</string>
 	<key>si_CRIi</key>
@@ -126,6 +132,8 @@
 	<string>si_D_I_.glif</string>
 	<key>si_DIi</key>
 	<string>si_D_I_i.glif</string>
+	<key>si_DR.halant</key>
+	<string>si_D_R_.halant.glif</string>
 	<key>si_DRI</key>
 	<string>si_D_R_I_.glif</string>
 	<key>si_DRIi</key>
@@ -170,6 +178,8 @@
 	<string>si_D_dI_.glif</string>
 	<key>si_DdIi</key>
 	<string>si_D_dI_i.glif</string>
+	<key>si_DdR.halant</key>
+	<string>si_D_dR_.halant.glif</string>
 	<key>si_DdRI</key>
 	<string>si_D_dR_I_.glif</string>
 	<key>si_DdRIi</key>
@@ -206,6 +216,8 @@
 	<string>si_D_hI_.glif</string>
 	<key>si_DhIi</key>
 	<string>si_D_hI_i.glif</string>
+	<key>si_DhR.halant</key>
+	<string>si_D_hR_.halant.glif</string>
 	<key>si_DhRI</key>
 	<string>si_D_hR_I_.glif</string>
 	<key>si_DhRIi</key>
@@ -236,6 +248,8 @@
 	<string>si_F_I_.glif</string>
 	<key>si_FIi</key>
 	<string>si_F_I_i.glif</string>
+	<key>si_FR.halant</key>
+	<string>si_F_R_.halant.glif</string>
 	<key>si_FRI</key>
 	<string>si_F_R_I_.glif</string>
 	<key>si_FRIi</key>
@@ -284,6 +298,8 @@
 	<string>si_G_hI_.glif</string>
 	<key>si_GhIi</key>
 	<string>si_G_hI_i.glif</string>
+	<key>si_GhR.halant</key>
+	<string>si_G_hR_.halant.glif</string>
 	<key>si_GhRI</key>
 	<string>si_G_hR_I_.glif</string>
 	<key>si_GhRIi</key>
@@ -306,6 +322,10 @@
 	<string>si_H_I_.glif</string>
 	<key>si_HIi</key>
 	<string>si_H_I_i.glif</string>
+	<key>si_HR.halant</key>
+	<string>si_H_R_.halant.glif</string>
+	<key>si_HRI</key>
+	<string>si_H_R_I_.glif</string>
 	<key>si_HRIi</key>
 	<string>si_H_R_I_i.glif</string>
 	<key>si_HRa</key>
@@ -332,6 +352,8 @@
 	<string>si_J_I_.glif</string>
 	<key>si_JIi</key>
 	<string>si_J_I_i.glif</string>
+	<key>si_JR.halant</key>
+	<string>si_J_R_.halant.glif</string>
 	<key>si_JRI</key>
 	<string>si_J_R_I_.glif</string>
 	<key>si_JRIi</key>
@@ -354,6 +376,8 @@
 	<string>si_J_hI_.glif</string>
 	<key>si_JhIi</key>
 	<string>si_J_hI_i.glif</string>
+	<key>si_JhR.halant</key>
+	<string>si_J_hR_.halant.glif</string>
 	<key>si_JhRI</key>
 	<string>si_J_hR_I_.glif</string>
 	<key>si_JhRIi</key>
@@ -388,6 +412,8 @@
 	<string>si_J_nyI_.glif</string>
 	<key>si_JnyIi</key>
 	<string>si_J_nyI_i.glif</string>
+	<key>si_JnyR.halant</key>
+	<string>si_J_nyR_.halant.glif</string>
 	<key>si_JnyRI</key>
 	<string>si_J_nyR_I_.glif</string>
 	<key>si_JnyRIi</key>
@@ -506,6 +532,8 @@
 	<string>si_M_I_.glif</string>
 	<key>si_MIi</key>
 	<string>si_M_I_i.glif</string>
+	<key>si_MR.halant</key>
+	<string>si_M_R_.halant.glif</string>
 	<key>si_MRI</key>
 	<string>si_M_R_I_.glif</string>
 	<key>si_MRIi</key>
@@ -582,6 +610,8 @@
 	<string>si_N_D_.halant.glif</string>
 	<key>si_NDAa</key>
 	<string>si_N_D_A_a.glif</string>
+	<key>si_NDAa.halant</key>
+	<string>si_N_D_A_a.halant.glif</string>
 	<key>si_NDAe</key>
 	<string>si_N_D_A_e.glif</string>
 	<key>si_NDAee</key>
@@ -684,6 +714,8 @@
 	<string>si_N_djI_.glif</string>
 	<key>si_NdjIi</key>
 	<string>si_N_djI_i.glif</string>
+	<key>si_NdjR.halant</key>
+	<string>si_N_djR_.halant.glif</string>
 	<key>si_NdjRa</key>
 	<string>si_N_djR_a.glif</string>
 	<key>si_NdjU</key>
@@ -760,6 +792,8 @@
 	<string>si_N_yI_.glif</string>
 	<key>si_NyIi</key>
 	<string>si_N_yI_i.glif</string>
+	<key>si_NyR.halant</key>
+	<string>si_N_yR_.halant.glif</string>
 	<key>si_NyRI</key>
 	<string>si_N_yR_I_.glif</string>
 	<key>si_NyRIi</key>
@@ -784,6 +818,8 @@
 	<string>si_P_I_.glif</string>
 	<key>si_PIi</key>
 	<string>si_P_I_i.glif</string>
+	<key>si_PR.halant</key>
+	<string>si_P_R_.halant.glif</string>
 	<key>si_PRI</key>
 	<string>si_P_R_I_.glif</string>
 	<key>si_PRIi</key>
@@ -844,6 +880,8 @@
 	<string>si_S_I_.glif</string>
 	<key>si_SIi</key>
 	<string>si_S_I_i.glif</string>
+	<key>si_SR.halant</key>
+	<string>si_S_R_.halant.glif</string>
 	<key>si_SRI</key>
 	<string>si_S_R_I_.glif</string>
 	<key>si_SRIi</key>
@@ -866,6 +904,8 @@
 	<string>si_S_hI_.glif</string>
 	<key>si_ShIi</key>
 	<string>si_S_hI_i.glif</string>
+	<key>si_ShR.halant</key>
+	<string>si_S_hR_.halant.glif</string>
 	<key>si_ShRI</key>
 	<string>si_S_hR_I_.glif</string>
 	<key>si_ShRIi</key>
@@ -888,6 +928,8 @@
 	<string>si_S_sI_.glif</string>
 	<key>si_SsIi</key>
 	<string>si_S_sI_i.glif</string>
+	<key>si_SsR.halant</key>
+	<string>si_S_sR_.halant.glif</string>
 	<key>si_SsRI</key>
 	<string>si_S_sR_I_.glif</string>
 	<key>si_SsRIi</key>
@@ -910,6 +952,8 @@
 	<string>si_T_I_.glif</string>
 	<key>si_TIi</key>
 	<string>si_T_I_i.glif</string>
+	<key>si_TR.halant</key>
+	<string>si_T_R_.halant.glif</string>
 	<key>si_TRI</key>
 	<string>si_T_R_I_.glif</string>
 	<key>si_TRIi</key>
@@ -972,6 +1016,8 @@
 	<string>si_T_tI_.glif</string>
 	<key>si_TtIi</key>
 	<string>si_T_tI_i.glif</string>
+	<key>si_TtR.halant</key>
+	<string>si_T_tR_.halant.glif</string>
 	<key>si_TtRI</key>
 	<string>si_T_tR_I_.glif</string>
 	<key>si_TtRIi</key>
@@ -1024,6 +1070,8 @@
 	<string>si_V_I_.glif</string>
 	<key>si_VIi</key>
 	<string>si_V_I_i.glif</string>
+	<key>si_VR.halant</key>
+	<string>si_V_R_.halant.glif</string>
 	<key>si_VRI</key>
 	<string>si_V_R_I_.glif</string>
 	<key>si_VRIi</key>

@@ -92,7 +92,12 @@ feature ordn {
 	\si_Nda.touch \si_Pa.touch \si_Pha.touch \si_Ba.touch \si_Bha.touch 
 	\si_Ma.touch \si_Mba.touch \si_Ya.touch \si_Ra.touch \si_La.touch 
 	\si_Va.touch \si_Sha.touch \si_Ssa.touch \si_Sa.touch \si_Ha.touch 
-	\si_Lla.touch \si_Fa.touch ];
+	\si_Lla.touch \si_Fa.touch \si_GhR.halant \si_CR.halant \si_JR.halant 
+	\si_JhR.halant \si_NyR.halant \si_JnyR.halant \si_NdjR.halant \si_TtR.halant 
+	\si_DdR.halant \si_TR.halant \si_DR.halant \si_DhR.halant \si_BR.halant 
+	\si_BhRa.halant \si_PR.halant \si_MR.halant \si_VR.halant \si_ShR.halant 
+	\si_SsR.halant \si_SR.halant \si_HR.halant \si_HRI \si_FR.halant 
+	\si_NDAa.halant ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
