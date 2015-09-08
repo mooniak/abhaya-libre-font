@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_NdjI" format="1">
-  <advance width="699"/>
+  <advance width="682"/>
   <outline>
     <contour>
-      <point x="334" y="489.5" type="curve" smooth="yes"/>
-      <point x="334" y="576.568"/>
-      <point x="404.321" y="657"/>
-      <point x="483" y="657" type="curve" smooth="yes"/>
-      <point x="529.883" y="657"/>
-      <point x="561.703" y="626.416"/>
-      <point x="561.705" y="583" type="curve" smooth="yes"/>
-      <point x="561.705" y="579.106"/>
-      <point x="561.496" y="576.103"/>
-      <point x="561" y="572" type="curve"/>
-      <point x="560.982" y="571.995"/>
-      <point x="531" y="544.016"/>
-      <point x="531" y="544" type="curve"/>
-      <point x="533.45" y="549.303"/>
-      <point x="536.181" y="564.622"/>
-      <point x="536.181" y="575.5" type="curve" smooth="yes"/>
-      <point x="536.181" y="599.068"/>
-      <point x="524.688" y="609"/>
-      <point x="507" y="609" type="curve" smooth="yes"/>
-      <point x="449.62" y="609"/>
-      <point x="396" y="546.291"/>
-      <point x="396" y="482" type="curve" smooth="yes"/>
-      <point x="396" y="450.191"/>
-      <point x="410.158" y="430.75"/>
-      <point x="441" y="430.75" type="curve" smooth="yes"/>
-      <point x="450.468" y="430.75"/>
-      <point x="458.154" y="431.186"/>
-      <point x="475" y="436" type="curve"/>
-      <point x="474.999" y="435.978"/>
-      <point x="471.001" y="425.001"/>
-      <point x="471" y="425" type="curve"/>
-      <point x="458.178" y="416.842"/>
-      <point x="430.229" y="407.635"/>
-      <point x="428" y="407" type="curve"/>
-      <point x="426.947" y="406.999"/>
-      <point x="425.052" y="406.952"/>
-      <point x="424" y="406.952" type="curve" smooth="yes"/>
-      <point x="361.125" y="406.952"/>
-      <point x="334" y="439.489"/>
+      <point x="326" y="478" type="curve" smooth="yes"/>
+      <point x="326" y="563"/>
+      <point x="395" y="642"/>
+      <point x="472" y="642" type="curve" smooth="yes"/>
+      <point x="518" y="642"/>
+      <point x="549" y="611"/>
+      <point x="549" y="569" type="curve" smooth="yes"/>
+      <point x="549" y="565"/>
+      <point x="548" y="563"/>
+      <point x="548" y="559" type="curve"/>
+      <point x="519" y="531" type="line"/>
+      <point x="521" y="536"/>
+      <point x="524" y="551"/>
+      <point x="524" y="562" type="curve" smooth="yes"/>
+      <point x="524" y="585"/>
+      <point x="512" y="595"/>
+      <point x="495" y="595" type="curve" smooth="yes"/>
+      <point x="439" y="595"/>
+      <point x="387" y="534"/>
+      <point x="387" y="471" type="curve" smooth="yes"/>
+      <point x="387" y="440"/>
+      <point x="401" y="421"/>
+      <point x="431" y="421" type="curve" smooth="yes"/>
+      <point x="440" y="421"/>
+      <point x="448" y="421"/>
+      <point x="464" y="426" type="curve"/>
+      <point x="460" y="415" type="line"/>
+      <point x="447" y="407"/>
+      <point x="420" y="398"/>
+      <point x="418" y="397" type="curve"/>
+      <point x="417" y="397"/>
+      <point x="415" y="397"/>
+      <point x="414" y="397" type="curve" smooth="yes"/>
+      <point x="353" y="397"/>
+      <point x="326" y="429"/>
     </contour>
     <component base="si_Ndja"/>
   </outline>

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_GhRI" format="1">
-  <advance width="677"/>
+  <advance width="661"/>
   <outline>
     <contour>
-      <point x="63.25" y="-44" type="curve"/>
-      <point x="92.75" y="-44" type="line"/>
-      <point x="128.832" y="-87.3613"/>
-      <point x="197.552" y="-115.5"/>
-      <point x="310.75" y="-115.5" type="curve" smooth="yes"/>
-      <point x="462.314" y="-115.5"/>
-      <point x="597.25" y="-31.0107"/>
-      <point x="597.25" y="63.25" type="curve" smooth="yes"/>
-      <point x="597.25" y="78.2842"/>
-      <point x="594.5" y="90.793"/>
-      <point x="587.5" y="102" type="curve"/>
-      <point x="600.5" y="133" type="line"/>
-      <point x="618.5" y="106.333"/>
-      <point x="627.5" y="74.667"/>
-      <point x="627.5" y="38" type="curve" smooth="yes"/>
-      <point x="627.5" y="-123.729"/>
-      <point x="484.8" y="-219"/>
-      <point x="333.25" y="-219" type="curve" smooth="yes"/>
-      <point x="193.406" y="-219"/>
-      <point x="100.583" y="-153.333"/>
+      <point x="62" y="-43" type="curve"/>
+      <point x="91" y="-43" type="line"/>
+      <point x="126" y="-85"/>
+      <point x="192" y="-113"/>
+      <point x="303" y="-113" type="curve" smooth="yes"/>
+      <point x="451" y="-113"/>
+      <point x="583" y="-30"/>
+      <point x="583" y="62" type="curve" smooth="yes"/>
+      <point x="583" y="77"/>
+      <point x="581" y="89"/>
+      <point x="574" y="100" type="curve"/>
+      <point x="586" y="130" type="line"/>
+      <point x="604" y="104"/>
+      <point x="613" y="73"/>
+      <point x="613" y="37" type="curve" smooth="yes"/>
+      <point x="613" y="-121"/>
+      <point x="473" y="-214"/>
+      <point x="325" y="-214" type="curve" smooth="yes"/>
+      <point x="188" y="-214"/>
+      <point x="98" y="-150"/>
     </contour>
     <component base="si_GhI"/>
   </outline>

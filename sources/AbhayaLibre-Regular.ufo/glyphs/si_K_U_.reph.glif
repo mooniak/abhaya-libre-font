@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_KU.reph" format="1">
-  <advance width="746"/>
+  <advance width="728"/>
   <outline>
-    <component base="si_Reph" xOffset="450" yOffset="-30"/>
+    <component base="si_Reph" xOffset="439" yOffset="-29"/>
     <component base="si_KU"/>
   </outline>
 </glyph>

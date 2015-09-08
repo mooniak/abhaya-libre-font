@@ -18,6 +18,7 @@ feature ordn {
      language dflt ;
       lookup AbhayaLibreLatinRegularordnOrdi;
 } ordn;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\si_JnyAe \si_JnyAee \si_NyAe \si_NyAee \zwj \zwnj \si_B.halant 
 	\si_BI \si_BIi \si_BRI \si_BRIi \si_BRa \si_BU \si_BUu \si_Ba.reph \si_Bh.halant 
@@ -102,6 +103,6 @@ feature ordn {
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
 
-  LigatureCaretByPos \si_Ddh.halant 174;
+  LigatureCaretByPos \si_Ddh.halant 170;
 } GDEF;
 

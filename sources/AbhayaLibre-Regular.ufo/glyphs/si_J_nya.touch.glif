@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_Jnya.touch" format="1">
-  <advance width="842"/>
+  <advance width="822"/>
   <outline>
     <contour>
-      <point x="788" y="0" type="move" name="cursive"/>
+      <point x="770" y="0" type="move" name="cursive"/>
     </contour>
     <component base="si_Jnya"/>
   </outline>

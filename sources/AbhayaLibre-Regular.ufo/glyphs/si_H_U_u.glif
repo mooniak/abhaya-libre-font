@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_HUu" format="1">
-  <advance width="653"/>
+  <advance width="637"/>
   <outline>
     <contour>
-      <point x="45" y="-138" type="curve" smooth="yes"/>
-      <point x="45" y="-80"/>
-      <point x="94" y="-40"/>
-      <point x="147" y="-40" type="curve" smooth="yes"/>
-      <point x="189" y="-40"/>
-      <point x="221" y="-55"/>
-      <point x="244" y="-91" type="curve"/>
-      <point x="214" y="-102" type="line"/>
-      <point x="202" y="-83"/>
-      <point x="181" y="-68"/>
-      <point x="152" y="-68" type="curve" smooth="yes"/>
-      <point x="113" y="-68"/>
-      <point x="81" y="-92"/>
-      <point x="81" y="-129" type="curve" smooth="yes"/>
-      <point x="81" y="-166"/>
-      <point x="119" y="-191"/>
-      <point x="162" y="-191" type="curve" smooth="yes"/>
-      <point x="268" y="-191"/>
-      <point x="351" y="-117"/>
-      <point x="446" y="-117" type="curve" smooth="yes"/>
-      <point x="489" y="-117"/>
-      <point x="538" y="-136"/>
-      <point x="565" y="-168" type="curve"/>
-      <point x="565" y="152" type="line"/>
-      <point x="598" y="212" type="line"/>
-      <point x="598" y="-231" type="line"/>
-      <point x="575" y="-231" type="line"/>
-      <point x="560" y="-195"/>
-      <point x="517" y="-144"/>
-      <point x="449" y="-144" type="curve" smooth="yes"/>
-      <point x="358" y="-144"/>
-      <point x="280" y="-237"/>
-      <point x="162" y="-237" type="curve" smooth="yes"/>
-      <point x="107" y="-237"/>
-      <point x="45" y="-206"/>
+      <point x="44" y="-135" type="curve" smooth="yes"/>
+      <point x="44" y="-78"/>
+      <point x="92" y="-39"/>
+      <point x="144" y="-39" type="curve" smooth="yes"/>
+      <point x="185" y="-39"/>
+      <point x="216" y="-54"/>
+      <point x="238" y="-89" type="curve"/>
+      <point x="209" y="-100" type="line"/>
+      <point x="197" y="-81"/>
+      <point x="176" y="-66"/>
+      <point x="148" y="-66" type="curve" smooth="yes"/>
+      <point x="110" y="-66"/>
+      <point x="79" y="-90"/>
+      <point x="79" y="-126" type="curve" smooth="yes"/>
+      <point x="79" y="-162"/>
+      <point x="116" y="-187"/>
+      <point x="158" y="-187" type="curve" smooth="yes"/>
+      <point x="262" y="-187"/>
+      <point x="343" y="-114"/>
+      <point x="436" y="-114" type="curve" smooth="yes"/>
+      <point x="478" y="-114"/>
+      <point x="526" y="-133"/>
+      <point x="552" y="-164" type="curve"/>
+      <point x="552" y="148" type="line"/>
+      <point x="584" y="207" type="line"/>
+      <point x="584" y="-226" type="line"/>
+      <point x="562" y="-226" type="line"/>
+      <point x="547" y="-191"/>
+      <point x="504" y="-141"/>
+      <point x="438" y="-141" type="curve" smooth="yes"/>
+      <point x="349" y="-141"/>
+      <point x="273" y="-231"/>
+      <point x="158" y="-231" type="curve" smooth="yes"/>
+      <point x="104" y="-231"/>
+      <point x="44" y="-201"/>
     </contour>
     <component base="si_Ha"/>
   </outline>

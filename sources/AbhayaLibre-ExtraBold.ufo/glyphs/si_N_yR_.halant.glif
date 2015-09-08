@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_NyR.halant" format="1">
-  <advance width="1024"/>
+  <advance width="1000"/>
   <outline>
     <contour>
-      <point x="834.75" y="401" type="line"/>
-      <point x="834.75" y="681" type="line"/>
-      <point x="888.75" y="639"/>
-      <point x="986.25" y="634"/>
-      <point x="986.25" y="542" type="curve" smooth="yes"/>
-      <point x="986.25" y="498"/>
-      <point x="951.441" y="468"/>
-      <point x="908.25" y="468" type="curve" smooth="yes"/>
-      <point x="893.583" y="468"/>
-      <point x="878.583" y="471.333"/>
-      <point x="863.25" y="478" type="curve"/>
-      <point x="863.25" y="384" type="line"/>
+      <point x="815" y="392" type="line"/>
+      <point x="815" y="665" type="line"/>
+      <point x="868" y="624"/>
+      <point x="963" y="619"/>
+      <point x="963" y="529" type="curve" smooth="yes"/>
+      <point x="963" y="486"/>
+      <point x="929" y="457"/>
+      <point x="887" y="457" type="curve" smooth="yes"/>
+      <point x="873" y="457"/>
+      <point x="858" y="460"/>
+      <point x="843" y="467" type="curve"/>
+      <point x="843" y="375" type="line"/>
     </contour>
     <contour>
-      <point x="863.355" y="504.273" type="line"/>
-      <point x="871.85" y="499.699"/>
-      <point x="882.632" y="497.413"/>
-      <point x="895.698" y="497.413" type="curve" smooth="yes"/>
-      <point x="927.704" y="497.413"/>
-      <point x="941.25" y="521.915"/>
-      <point x="941.25" y="545.438" type="curve" smooth="yes"/>
-      <point x="941.25" y="586.602"/>
-      <point x="909.42" y="606.203"/>
-      <point x="863.355" y="636.587" type="curve"/>
+      <point x="843" y="492" type="line"/>
+      <point x="851" y="488"/>
+      <point x="862" y="486"/>
+      <point x="875" y="486" type="curve" smooth="yes"/>
+      <point x="906" y="486"/>
+      <point x="919" y="510"/>
+      <point x="919" y="533" type="curve" smooth="yes"/>
+      <point x="919" y="573"/>
+      <point x="888" y="592"/>
+      <point x="843" y="622" type="curve"/>
     </contour>
     <component base="si_NyRa"/>
   </outline>
