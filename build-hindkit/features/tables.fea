@@ -71,7 +71,7 @@ table name {
 # Name ID 18: Compatible full name (Macintosh only).
 
 # Sample Text
-  nameid 19 "\0DC3\0DD2\0DBA\0DBD\0DD4 \0DB8\0DB1\0DD4\0DC2\0DCA\200D\0DBA\0DBA\0DDD \0DB1\0DD2\0DAF\0DC4\0DC3\0DCA\0DC0 \0D8B\0DB4\0DAD \0DBD\0DB6\0DCF \0D87\0DAD. \0D9C\0DBB\0DD4\0DAD\0DCA\0DC0\0DBA\0DD9\0DB1\0DCA \0DC4\0DCF \0D85\0DBA\0DD2\0DAD\0DD2\0DC0\0DCF\0DC3\0DD2\0D9A\0DB8\0DCA\0DC0\0DBD\0DD2\0DB1\0DCA \0DC3\0DB8\0DCF\0DB1 \0DC0\0DD9\0DAD\0DD2.";
+  nameid 19 "\u0dc0\u0da2\u0dca\u200d\u0dbb\u0dcf\u0dc3\u0db1\u0020\u0d86\u0dbb\u0dd6\u0daa\u0020\u0dc0\u0dd6\u0020\u0dc1\u0dca\u200d\u0dbb\u0dd3\u0020\u0dc1\u0d9a\u0dca\u200d\u0dbb\u0020\u0daf\u0dd2\u0dc0\u0dca\u200d\u0dba\u0020\u0dbb\u0dcf\u0da2\u0dba\u0dcf\u0020\u0dc0\u0dd2\u0da0\u0d9a\u0dca\u0dc2\u0dab\u0020\u0dbd\u0dd9\u0dc3\u0020\u0db6\u0dd0\u0dbd\u0dd4\u0db8\u0dca\u0020\u0dc4\u0dd9\u0dbd\u0db1\u0020\u0d9a\u0dbd\u0020\u0daf\u0ddd\u0dbd\u0dcf\u0dc0\u0dd9\u0db1\u0dca\u0020\u0db6\u0da7\u0020\u0db8\u0dc4\u0dcf\u0020\u0dbb\u0dcf\u0da2\u0dd2\u0dab\u0dd2\u0dba\u0020\u0daf\u0dd4\u0da7\u0dd4\u0dc0\u0dda\u0dba\u002e";
 
 # Name ID 20: PostScript CID findfont name.
 # Name ID 21, 22: WWS family name and WWS subfamily name.
