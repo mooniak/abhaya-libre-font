@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Cha.touch" format="1">
+  <advance width="598"/>
+  <outline>
+    <contour>
+      <point x="550" y="0" type="move" name="cursive"/>
+    </contour>
+    <component base="si_Cha"/>
+  </outline>
+</glyph>

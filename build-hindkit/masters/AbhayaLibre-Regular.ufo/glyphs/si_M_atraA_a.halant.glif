@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="si_MatraAa.halant" format="1">
-  <advance width="324"/>
-  <outline>
-    <component base="si_MatraAa" xOffset="16"/>
-    <component base="si_Halant" xOffset="318"/>
-  </outline>
-</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Da.touch" format="1">
+  <advance width="456"/>
+  <outline>
+    <contour>
+      <point x="379" y="0" type="move" name="cursive"/>
+    </contour>
+    <component base="si_Da"/>
+  </outline>
+</glyph>

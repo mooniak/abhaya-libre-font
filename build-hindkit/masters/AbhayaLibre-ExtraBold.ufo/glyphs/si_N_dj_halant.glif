@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Ndj.halant" format="1">
+  <advance width="699"/>
+  <outline>
+    <contour>
+      <point x="398.5" y="336" type="line"/>
+      <point x="398.5" y="756.5" type="line"/>
+      <point x="452.5" y="714.5"/>
+      <point x="550" y="709.5"/>
+      <point x="550" y="617.5" type="curve" smooth="yes"/>
+      <point x="550" y="573.5"/>
+      <point x="515.191" y="543.5"/>
+      <point x="472" y="543.5" type="curve" smooth="yes"/>
+      <point x="457.333" y="543.5"/>
+      <point x="442.333" y="546.833"/>
+      <point x="427" y="553.5" type="curve"/>
+      <point x="427" y="400" type="line"/>
+    </contour>
+    <contour>
+      <point x="427.105" y="579.773" type="line"/>
+      <point x="435.6" y="575.199"/>
+      <point x="446.382" y="572.913"/>
+      <point x="459.448" y="572.913" type="curve" smooth="yes"/>
+      <point x="491.454" y="572.913"/>
+      <point x="505" y="597.415"/>
+      <point x="505" y="620.938" type="curve" smooth="yes"/>
+      <point x="505" y="662.102"/>
+      <point x="473.17" y="681.703"/>
+      <point x="427.105" y="712.087" type="curve"/>
+    </contour>
+    <component base="si_Ndja"/>
+  </outline>
+</glyph>

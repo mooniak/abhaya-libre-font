@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_TRIi" format="1">
-  <advance width="687"/>
+  <advance width="704"/>
   <outline>
     <contour>
-      <point x="108" y="-43" type="curve"/>
-      <point x="135" y="-43" type="line"/>
-      <point x="170" y="-116"/>
-      <point x="241" y="-153"/>
-      <point x="345" y="-153" type="curve" smooth="yes"/>
-      <point x="488" y="-153"/>
-      <point x="616" y="-88"/>
-      <point x="616" y="49" type="curve" smooth="yes"/>
-      <point x="616" y="70"/>
-      <point x="611" y="91"/>
-      <point x="604" y="100" type="curve"/>
-      <point x="615" y="130" type="line"/>
-      <point x="633" y="104"/>
-      <point x="642" y="73"/>
-      <point x="642" y="37" type="curve" smooth="yes"/>
-      <point x="642" y="-121"/>
-      <point x="505" y="-214"/>
-      <point x="361" y="-214" type="curve" smooth="yes"/>
-      <point x="228" y="-214"/>
-      <point x="145" y="-149"/>
+      <point x="111" y="-44" type="curve"/>
+      <point x="138" y="-44" type="line"/>
+      <point x="174" y="-119"/>
+      <point x="246" y="-157"/>
+      <point x="353" y="-157" type="curve" smooth="yes"/>
+      <point x="499" y="-157"/>
+      <point x="631" y="-90"/>
+      <point x="631" y="50" type="curve" smooth="yes"/>
+      <point x="631" y="71"/>
+      <point x="626" y="93"/>
+      <point x="619" y="102" type="curve"/>
+      <point x="630" y="133" type="line"/>
+      <point x="648" y="106"/>
+      <point x="657" y="75"/>
+      <point x="657" y="38" type="curve" smooth="yes"/>
+      <point x="657" y="-124"/>
+      <point x="517" y="-219"/>
+      <point x="370" y="-219" type="curve" smooth="yes"/>
+      <point x="234" y="-219"/>
+      <point x="149" y="-153"/>
     </contour>
     <component base="si_TIi"/>
   </outline>

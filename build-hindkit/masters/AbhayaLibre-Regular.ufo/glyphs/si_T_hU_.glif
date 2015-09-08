@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_ThU" format="1">
-  <advance width="599"/>
+  <advance width="614"/>
   <outline>
     <contour>
-      <point x="52" y="-139" type="curve" smooth="yes"/>
-      <point x="52" y="-88"/>
-      <point x="97" y="-49"/>
-      <point x="151" y="-49" type="curve" smooth="yes"/>
-      <point x="192" y="-49"/>
-      <point x="228" y="-72"/>
-      <point x="243" y="-107" type="curve"/>
-      <point x="214" y="-119" type="line"/>
-      <point x="207" y="-99"/>
-      <point x="183" y="-78"/>
-      <point x="151" y="-78" type="curve" smooth="yes"/>
-      <point x="115" y="-78"/>
-      <point x="85" y="-104"/>
-      <point x="85" y="-139" type="curve" smooth="yes"/>
-      <point x="85" y="-167"/>
-      <point x="108" y="-194"/>
-      <point x="172" y="-194" type="curve" smooth="yes"/>
-      <point x="512" y="-194" type="line"/>
-      <point x="512" y="125" type="line"/>
-      <point x="544" y="214" type="line"/>
-      <point x="544" y="-229" type="line"/>
-      <point x="155" y="-229" type="line" smooth="yes"/>
-      <point x="88" y="-229"/>
-      <point x="52" y="-182"/>
+      <point x="53" y="-142" type="curve" smooth="yes"/>
+      <point x="53" y="-90"/>
+      <point x="100" y="-50"/>
+      <point x="155" y="-50" type="curve" smooth="yes"/>
+      <point x="197" y="-50"/>
+      <point x="234" y="-74"/>
+      <point x="249" y="-110" type="curve"/>
+      <point x="219" y="-122" type="line"/>
+      <point x="212" y="-102"/>
+      <point x="188" y="-80"/>
+      <point x="155" y="-80" type="curve" smooth="yes"/>
+      <point x="118" y="-80"/>
+      <point x="87" y="-106"/>
+      <point x="87" y="-142" type="curve" smooth="yes"/>
+      <point x="87" y="-171"/>
+      <point x="110" y="-199"/>
+      <point x="176" y="-199" type="curve" smooth="yes"/>
+      <point x="524" y="-199" type="line"/>
+      <point x="524" y="128" type="line"/>
+      <point x="557" y="219" type="line"/>
+      <point x="557" y="-235" type="line"/>
+      <point x="159" y="-235" type="line" smooth="yes"/>
+      <point x="90" y="-235"/>
+      <point x="53" y="-186"/>
     </contour>
     <component base="si_Tha"/>
   </outline>

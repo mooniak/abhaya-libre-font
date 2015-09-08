@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_TVU" format="1">
-  <advance width="977"/>
+  <advance width="1001"/>
   <outline>
     <contour>
-      <point x="438" y="-139" type="curve" smooth="yes"/>
-      <point x="438" y="-88"/>
-      <point x="484" y="-49"/>
-      <point x="538" y="-49" type="curve" smooth="yes"/>
-      <point x="579" y="-49"/>
-      <point x="615" y="-72"/>
-      <point x="629" y="-107" type="curve"/>
-      <point x="597" y="-119" type="line"/>
-      <point x="590" y="-102"/>
-      <point x="570" y="-80"/>
-      <point x="538" y="-80" type="curve" smooth="yes"/>
-      <point x="502" y="-80"/>
-      <point x="473" y="-107"/>
-      <point x="473" y="-139" type="curve" smooth="yes"/>
-      <point x="473" y="-167"/>
-      <point x="494" y="-188"/>
-      <point x="562" y="-188" type="curve" smooth="yes"/>
-      <point x="886" y="-188" type="line"/>
-      <point x="886" y="125" type="line"/>
-      <point x="921" y="214" type="line"/>
-      <point x="921" y="-229" type="line"/>
-      <point x="542" y="-229" type="line" smooth="yes"/>
-      <point x="464" y="-229"/>
-      <point x="438" y="-182"/>
+      <point x="449" y="-142.5" type="curve" smooth="yes"/>
+      <point x="449" y="-90.4912"/>
+      <point x="495.293" y="-50.5"/>
+      <point x="550.5" y="-50.5" type="curve" smooth="yes"/>
+      <point x="592.406" y="-50.5"/>
+      <point x="629.75" y="-74.1416"/>
+      <point x="644.5" y="-110" type="curve"/>
+      <point x="611.75" y="-121.5" type="line"/>
+      <point x="604.926" y="-104.358"/>
+      <point x="583.5" y="-81.75"/>
+      <point x="550.5" y="-81.75" type="curve" smooth="yes"/>
+      <point x="513.796" y="-81.75"/>
+      <point x="484.5" y="-109.716"/>
+      <point x="484.5" y="-142.5" type="curve" smooth="yes"/>
+      <point x="484.5" y="-171.663"/>
+      <point x="506.248" y="-192.5"/>
+      <point x="576" y="-192.5" type="curve" smooth="yes"/>
+      <point x="907.75" y="-192.5" type="line"/>
+      <point x="907.75" y="128" type="line"/>
+      <point x="943" y="219" type="line"/>
+      <point x="943" y="-235" type="line"/>
+      <point x="554.5" y="-235" type="line" smooth="yes"/>
+      <point x="474.957" y="-235"/>
+      <point x="449" y="-186.092"/>
     </contour>
     <component base="si_TVa"/>
   </outline>
