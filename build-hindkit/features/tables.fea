@@ -15,17 +15,17 @@ table OS/2 {
   FSType 0;
   Panose 2 0 0 0 0 0 0 0 0 0;
   UnicodeRange
-    # 0   # Basic Latin
-    # 1   # Latin-1 Supplement
-    # 2   # Latin Extended-A
+     0   # Basic Latin
+     1   # Latin-1 Supplement
+     2   # Latin Extended-A
     73  # Sinhala 0D80-0DFF
     ;
   # CodePageRange;
-  TypoAscender 750; # 1024 * 0.8
-  TypoDescender -250; # 1024 * 0.2
-  TypoLineGap 200; # 1024 * 0.2
-  winAscent 850; # 1024 * (0.8 + 0.2/2)
-  winDescent 350; # 1024 * (0.2 + 0.2/2)
+  TypoAscender 750;
+  TypoDescender -250;
+  TypoLineGap 200;
+  winAscent 850;
+  winDescent 350;
   include (weightclass.fea); # WeightClass 400;
   WidthClass 5;
   # Vendor "";
@@ -71,8 +71,7 @@ table name {
 # Name ID 18: Compatible full name (Macintosh only).
 
 # Sample Text
-  nameid 19 "\u0dc0\u0da2\u0dca\u200d\u0dbb\u0dcf\u0dc3\u0db1\u0020\u0d86\u0dbb\u0dd6\u0daa\u0020\u0dc0\u0dd6\u0020\u0dc1\u0dca\u200d\u0dbb\u0dd3\u0020\u0dc1\u0d9a\u0dca\u200d\u0dbb\u0020\u0daf\u0dd2\u0dc0\u0dca\u200d\u0dba\u0020\u0dbb\u0dcf\u0da2\u0dba\u0dcf\u0020\u0dc0\u0dd2\u0da0\u0d9a\u0dca\u0dc2\u0dab\u0020\u0dbd\u0dd9\u0dc3\u0020\u0db6\u0dd0\u0dbd\u0dd4\u0db8\u0dca\u0020\u0dc4\u0dd9\u0dbd\u0db1\u0020\u0d9a\u0dbd\u0020\u0daf\u0ddd\u0dbd\u0dcf\u0dc0\u0dd9\u0db1\u0dca\u0020\u0db6\u0da7\u0020\u0db8\u0dc4\u0dcf\u0020\u0dbb\u0dcf\u0da2\u0dd2\u0dab\u0dd2\u0dba\u0020\u0daf\u0dd4\u0da7\u0dd4\u0dc0\u0dda\u0dba\u002e";
-
+nameid 19 "\0D85\0DBA\0DB1\0DCA\0DAD";
 # Name ID 20: PostScript CID findfont name.
 # Name ID 21, 22: WWS family name and WWS subfamily name.
 
