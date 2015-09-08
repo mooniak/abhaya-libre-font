@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_Dda.touch" format="1">
-  <advance width="647"/>
+  <advance width="631"/>
   <outline>
     <component base="si_Dda"/>
     <contour>
-      <point x="599" y="0" type="move" name="cursive"/>
+      <point x="585" y="0" type="move" name="cursive"/>
     </contour>
   </outline>
 </glyph>

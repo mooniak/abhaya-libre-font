@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_JU" format="1">
-  <advance width="598"/>
+  <advance width="583"/>
   <outline>
     <contour>
-      <point x="39" y="-142" type="curve" smooth="yes"/>
-      <point x="39" y="-90"/>
-      <point x="85" y="-50"/>
-      <point x="140" y="-50" type="curve" smooth="yes"/>
-      <point x="182" y="-50"/>
-      <point x="220" y="-74"/>
-      <point x="234" y="-110" type="curve"/>
-      <point x="202" y="-122" type="line"/>
-      <point x="195" y="-104"/>
-      <point x="173" y="-82"/>
-      <point x="140" y="-82" type="curve" smooth="yes"/>
-      <point x="104" y="-82"/>
-      <point x="74" y="-110"/>
-      <point x="74" y="-142" type="curve" smooth="yes"/>
-      <point x="74" y="-172"/>
-      <point x="96" y="-192"/>
-      <point x="166" y="-192" type="curve" smooth="yes"/>
-      <point x="505" y="-192" type="line"/>
-      <point x="505" y="128" type="line"/>
-      <point x="540" y="219" type="line"/>
-      <point x="540" y="-235" type="line"/>
-      <point x="144" y="-235" type="line" smooth="yes"/>
-      <point x="65" y="-235"/>
-      <point x="39" y="-186"/>
+      <point x="38" y="-139" type="curve" smooth="yes"/>
+      <point x="38" y="-88"/>
+      <point x="83" y="-49"/>
+      <point x="137" y="-49" type="curve" smooth="yes"/>
+      <point x="178" y="-49"/>
+      <point x="215" y="-72"/>
+      <point x="229" y="-107" type="curve"/>
+      <point x="197" y="-119" type="line"/>
+      <point x="190" y="-102"/>
+      <point x="169" y="-80"/>
+      <point x="137" y="-80" type="curve" smooth="yes"/>
+      <point x="101" y="-80"/>
+      <point x="73" y="-107"/>
+      <point x="73" y="-139" type="curve" smooth="yes"/>
+      <point x="73" y="-167"/>
+      <point x="94" y="-188"/>
+      <point x="162" y="-188" type="curve" smooth="yes"/>
+      <point x="493" y="-188" type="line"/>
+      <point x="493" y="125" type="line"/>
+      <point x="528" y="214" type="line"/>
+      <point x="528" y="-229" type="line"/>
+      <point x="141" y="-229" type="line" smooth="yes"/>
+      <point x="63" y="-229"/>
+      <point x="38" y="-182"/>
     </contour>
     <component base="si_Ja"/>
   </outline>

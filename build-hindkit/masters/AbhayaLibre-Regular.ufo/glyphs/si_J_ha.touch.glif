@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_Jha.touch" format="1">
-  <advance width="1087"/>
+  <advance width="1061"/>
   <outline>
     <component base="si_Jha"/>
     <contour>
-      <point x="1038" y="0" type="move" name="cursive"/>
+      <point x="1014" y="0" type="move" name="cursive"/>
     </contour>
   </outline>
 </glyph>

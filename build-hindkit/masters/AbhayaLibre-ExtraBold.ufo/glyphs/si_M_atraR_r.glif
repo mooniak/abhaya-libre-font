@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_MatraRr" format="1">
-  <advance width="571"/>
+  <advance width="557"/>
   <unicode hex="0DF2"/>
   <outline>
-    <component base="si_MatraR" xOffset="253"/>
+    <component base="si_MatraR" xOffset="247"/>
     <component base="si_MatraR"/>
   </outline>
   <lib>
@@ -16,64 +16,64 @@
             <key>position</key>
             <integer>-1</integer>
             <key>width</key>
-            <integer>29</integer>
+            <integer>28</integer>
           </dict>
           <dict>
             <key>position</key>
             <integer>17</integer>
             <key>width</key>
+            <integer>25</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>190</integer>
+            <key>width</key>
             <integer>26</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>195</integer>
+            <integer>350</integer>
             <key>width</key>
-            <integer>27</integer>
-          </dict>
-          <dict>
-            <key>position</key>
-            <integer>358</integer>
-            <key>width</key>
-            <integer>35</integer>
+            <integer>34</integer>
           </dict>
         </array>
         <key>vhints</key>
         <array>
           <dict>
             <key>position</key>
-            <integer>33</integer>
+            <integer>32</integer>
             <key>width</key>
-            <integer>30</integer>
+            <integer>29</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>202</integer>
+            <integer>197</integer>
             <key>width</key>
-            <integer>45</integer>
+            <integer>44</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>203</integer>
+            <integer>198</integer>
             <key>width</key>
-            <integer>61</integer>
+            <integer>60</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>292</integer>
+            <integer>285</integer>
             <key>width</key>
-            <integer>30</integer>
+            <integer>29</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>461</integer>
+            <integer>450</integer>
             <key>width</key>
-            <integer>45</integer>
+            <integer>44</integer>
           </dict>
           <dict>
             <key>position</key>
-            <integer>462</integer>
+            <integer>451</integer>
             <key>width</key>
-            <integer>61</integer>
+            <integer>60</integer>
           </dict>
         </array>
       </dict>
