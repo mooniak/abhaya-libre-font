@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_DR.halant" format="1">
+  <advance width="456"/>
+  <outline>
+    <contour>
+      <point x="264" y="413" type="line"/>
+      <point x="264" y="680" type="line"/>
+      <point x="318" y="638"/>
+      <point x="414" y="633"/>
+      <point x="414" y="541" type="curve" smooth="yes"/>
+      <point x="414" y="497"/>
+      <point x="379" y="467"/>
+      <point x="336" y="467" type="curve" smooth="yes"/>
+      <point x="321" y="467"/>
+      <point x="307" y="470"/>
+      <point x="292" y="477" type="curve"/>
+      <point x="292" y="396" type="line"/>
+    </contour>
+    <contour>
+      <point x="292" y="502" type="line"/>
+      <point x="301" y="497"/>
+      <point x="311" y="495"/>
+      <point x="324" y="495" type="curve" smooth="yes"/>
+      <point x="362" y="495"/>
+      <point x="378" y="520"/>
+      <point x="378" y="544" type="curve" smooth="yes"/>
+      <point x="378" y="586"/>
+      <point x="339" y="606"/>
+      <point x="292" y="637" type="curve"/>
+    </contour>
+    <component base="si_DRa"/>
+  </outline>
+</glyph>

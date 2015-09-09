@@ -4,9 +4,6 @@
   <unicode hex="0152"/>
   <outline>
     <contour>
-      <point x="290" y="630" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="486" y="0" type="curve" smooth="yes"/>
       <point x="874" y="0" type="line"/>
       <point x="878" y="197" type="line"/>
@@ -57,11 +54,16 @@
       <point x="516" y="294" type="line"/>
     </contour>
     <component base="vertical_stem_upper" xOffset="414"/>
+    <contour>
+      <point x="290" y="630" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>1</integer>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>O</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
@@ -71,11 +73,9 @@
         <key>background</key>
         <dict>
           <key>anchors</key>
-          <array>
-          </array>
+          <array/>
           <key>components</key>
-          <array>
-          </array>
+          <array/>
           <key>contours</key>
           <array>
             <dict>
@@ -545,19 +545,15 @@
             </dict>
           </array>
           <key>lib</key>
-          <dict>
-          </dict>
+          <dict/>
           <key>name</key>
           <string>OE</string>
           <key>unicodes</key>
-          <array>
-          </array>
+          <array/>
           <key>width</key>
           <integer>923</integer>
         </dict>
       </dict>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

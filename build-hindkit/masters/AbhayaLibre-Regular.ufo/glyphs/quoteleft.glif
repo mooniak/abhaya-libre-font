@@ -29,6 +29,8 @@
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>1</integer>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
       <key>com.typemytype.robofont.guides</key>
       <array>
         <dict>
@@ -52,8 +54,6 @@
           <integer>450</integer>
         </dict>
       </array>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

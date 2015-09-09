@@ -4,15 +4,6 @@
   <unicode hex="0045"/>
   <outline>
     <contour>
-      <point x="510" y="9" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="276" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="298" y="630" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="524" y="408" type="line"/>
       <point x="520" y="600" type="line"/>
       <point x="20" y="600" type="line"/>
@@ -41,21 +32,30 @@
       <point x="162" y="294" type="line"/>
     </contour>
     <component base="vertical_stem_upper" xOffset="58"/>
+    <contour>
+      <point x="510" y="9" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="276" y="0" type="move" name="bottom"/>
+    </contour>
+    <contour>
+      <point x="298" y="630" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>9</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
-          <array>
-          </array>
+          <array/>
           <key>components</key>
-          <array>
-          </array>
+          <array/>
           <key>contours</key>
           <array>
             <dict>
@@ -242,19 +242,15 @@
             </dict>
           </array>
           <key>lib</key>
-          <dict>
-          </dict>
+          <dict/>
           <key>name</key>
           <string>E</string>
           <key>unicodes</key>
-          <array>
-          </array>
+          <array/>
           <key>width</key>
           <integer>569</integer>
         </dict>
       </dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

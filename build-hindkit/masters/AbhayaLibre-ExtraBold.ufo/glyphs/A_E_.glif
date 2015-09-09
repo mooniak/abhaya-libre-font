@@ -4,9 +4,6 @@
   <unicode hex="00C6"/>
   <outline>
     <contour>
-      <point x="635" y="630" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="186" y="0" type="line"/>
       <point x="186" y="22"/>
       <point x="181" y="26"/>
@@ -47,17 +44,20 @@
       <point x="499" y="294" type="line"/>
     </contour>
     <component base="vertical_stem_upper" xOffset="395"/>
+    <contour>
+      <point x="635" y="630" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>1</integer>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>A</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
       <string>E</string>
-      <key>public.markColor</key>
-      <string>0.99,0.62,0.11,1</string>
     </dict>
   </lib>
 </glyph>

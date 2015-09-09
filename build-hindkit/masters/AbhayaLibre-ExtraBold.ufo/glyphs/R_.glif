@@ -4,12 +4,6 @@
   <unicode hex="0052"/>
   <outline>
     <contour>
-      <point x="304" y="630" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="321" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
       <point x="320" y="0" type="line"/>
       <point x="320" y="27" type="line"/>
       <point x="20" y="27" type="line"/>
@@ -46,6 +40,12 @@
       <point x="354" y="600" type="curve" smooth="yes"/>
     </contour>
     <component base="vertical_stem_upper" xOffset="58"/>
+    <contour>
+      <point x="304" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="321" y="0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>

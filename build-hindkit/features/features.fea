@@ -720,6 +720,12 @@ feature ss01 {
     lookup si_da_style;
 } ss01;
 #-------------
+#---std ligatures
+
+feature liga {
+sub f i by fi;
+sub f l by fl;
+} liga;
 
 #---numr features
 
@@ -730,7 +736,7 @@ feature ss01 {
 feature aalt {
 feature sups;
 feature numr;
-feature frac;
+# feature frac;
 feature ordn;
 feature pnum;
 feature tnum;
@@ -791,10 +797,3 @@ sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
 } tnum;
-
-#---std ligatures
-
-feature liga {
-sub f i by fi;
-sub f l by fl;
-} liga;

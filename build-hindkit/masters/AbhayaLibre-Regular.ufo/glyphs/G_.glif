@@ -4,12 +4,6 @@
   <unicode hex="0047"/>
   <outline>
     <contour>
-      <point x="350" y="630" type="move" name="top"/>
-    </contour>
-    <contour>
-      <point x="350" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
       <point x="415" y="270" type="line"/>
       <point x="415" y="244" type="line"/>
       <point x="505" y="244" type="line"/>
@@ -47,21 +41,27 @@
       <point x="664" y="244" type="line"/>
       <point x="664" y="270" type="line"/>
     </contour>
+    <contour>
+      <point x="350" y="630" type="move" name="top"/>
+    </contour>
+    <contour>
+      <point x="350" y="0" type="move" name="bottom"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>9</integer>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
-          <array>
-          </array>
+          <array/>
           <key>components</key>
-          <array>
-          </array>
+          <array/>
           <key>contours</key>
           <array>
             <dict>
@@ -429,19 +429,15 @@
             </dict>
           </array>
           <key>lib</key>
-          <dict>
-          </dict>
+          <dict/>
           <key>name</key>
           <string>G</string>
           <key>unicodes</key>
-          <array>
-          </array>
+          <array/>
           <key>width</key>
           <integer>694</integer>
         </dict>
       </dict>
-      <key>public.markColor</key>
-      <string>0.98,0.36,0.67,1</string>
     </dict>
   </lib>
 </glyph>

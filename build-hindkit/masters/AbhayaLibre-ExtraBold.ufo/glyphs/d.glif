@@ -4,12 +4,6 @@
   <unicode hex="0064"/>
   <outline>
     <contour>
-      <point x="287" y="250" type="move" name="center"/>
-    </contour>
-    <contour>
-      <point x="551" y="500" type="move" name="topright"/>
-    </contour>
-    <contour>
       <point x="370" y="117" type="curve"/>
       <point x="359" y="117" type="line"/>
       <point x="377" y="0" type="line"/>
@@ -50,21 +44,27 @@
       <point x="200" y="36"/>
       <point x="167" y="102"/>
     </contour>
+    <contour>
+      <point x="287" y="250" type="move" name="center"/>
+    </contour>
+    <contour>
+      <point x="551" y="500" type="move" name="topright"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>3</integer>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>Bold Jul 2 15, 16:23</key>
         <dict>
           <key>anchors</key>
-          <array>
-          </array>
+          <array/>
           <key>components</key>
-          <array>
-          </array>
+          <array/>
           <key>contours</key>
           <array>
             <dict>
@@ -413,13 +413,11 @@
             </dict>
           </array>
           <key>lib</key>
-          <dict>
-          </dict>
+          <dict/>
           <key>name</key>
           <string>d</string>
           <key>unicodes</key>
-          <array>
-          </array>
+          <array/>
           <key>width</key>
           <integer>569</integer>
         </dict>
@@ -445,8 +443,7 @@
             </dict>
           </array>
           <key>components</key>
-          <array>
-          </array>
+          <array/>
           <key>contours</key>
           <array>
             <dict>
@@ -795,19 +792,15 @@
             </dict>
           </array>
           <key>lib</key>
-          <dict>
-          </dict>
+          <dict/>
           <key>name</key>
           <string>d</string>
           <key>unicodes</key>
-          <array>
-          </array>
+          <array/>
           <key>width</key>
           <integer>571</integer>
         </dict>
       </dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>

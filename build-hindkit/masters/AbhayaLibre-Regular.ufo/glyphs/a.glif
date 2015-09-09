@@ -4,12 +4,6 @@
   <unicode hex="0061"/>
   <outline>
     <contour>
-      <point x="456" y="9" type="move" name="ogonek"/>
-    </contour>
-    <contour>
-      <point x="241" y="500" type="move" name="top"/>
-    </contour>
-    <contour>
       <point x="314" y="94" type="curve"/>
       <point x="308" y="94" type="line"/>
       <point x="311" y="34"/>
@@ -61,21 +55,27 @@
       <point x="229" y="-10"/>
       <point x="299" y="34"/>
     </contour>
+    <contour>
+      <point x="456" y="9" type="move" name="ogonek"/>
+    </contour>
+    <contour>
+      <point x="241" y="500" type="move" name="top"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>3</integer>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
       <key>com.typemytype.robofont.layerData</key>
       <dict>
         <key>background</key>
         <dict>
           <key>anchors</key>
-          <array>
-          </array>
+          <array/>
           <key>components</key>
-          <array>
-          </array>
+          <array/>
           <key>contours</key>
           <array>
             <dict>
@@ -515,19 +515,15 @@
             </dict>
           </array>
           <key>lib</key>
-          <dict>
-          </dict>
+          <dict/>
           <key>name</key>
           <string>a</string>
           <key>unicodes</key>
-          <array>
-          </array>
+          <array/>
           <key>width</key>
           <integer>482</integer>
         </dict>
       </dict>
-      <key>public.markColor</key>
-      <string>0.97,1,0,1</string>
     </dict>
   </lib>
 </glyph>
