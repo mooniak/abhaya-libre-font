@@ -93,6 +93,31 @@ lookup si_halant_2 {
     sub si_Ya.post si_Halant by si_Y.post.halant;
  } si_halant_2;
 
+ lookup si_halant_3 {
+   sub si_GhRa si_Halant by si_GhR.halant;
+   sub si_CRa si_Halant by si_CR.halant;
+   sub si_JRa si_Halant by si_JR.halant;
+   sub si_JhRa si_Halant by si_JhR.halant;
+   sub si_NyRa si_Halant by si_NyR.halant;
+   sub si_TtRa si_Halant by si_TtR.halant;
+   sub si_JnyRa si_Halant by si_JnyR.halant;
+   sub si_NdjRa si_Halant by si_NdjR.halant;
+   sub si_DdRa si_Halant by si_DdR.halant;
+   sub si_TRa si_Halant by si_TR.halant;
+   sub si_DRa si_Halant by si_DR.halant;
+   sub si_DhRa si_Halant by si_DhR.halant;
+   sub si_PRa si_Halant by si_PR.halant;
+   sub si_BhRa si_Halant by si_BhRa.halant;
+   sub si_MRa si_Halant by si_MR.halant;
+   sub si_VRa si_Halant by si_VR.halant;
+   sub si_ShRa si_Halant by si_ShR.halant;
+   sub si_SsRa si_Halant by si_SsR.halant;
+   sub si_SRa si_Halant by si_SR.halant;
+   sub si_HRa si_Halant by si_HR.halant;
+   sub si_FRa si_Halant by si_FR.halant;
+   sub si_BRa si_Halant by si_BR.halant;
+ } si_halant_3;
+
 #---- ABVS ----
 
 lookup si_abvs_1 {
@@ -840,6 +865,7 @@ feature abvs {
   script sinh;
       lookup si_halant_1;
       lookup si_halant_2;
+      lookup si_halant_3;
       lookup si_abvs_1;
       lookup si_abvs_2;
       lookup si_abvs_3;
