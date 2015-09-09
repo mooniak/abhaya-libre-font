@@ -1,5 +1,0 @@
--script: bash ./scripts/deploy-gh-pages.sh
--env:
--  global:
--  - GH_REF: github.com/mooniak/abhaya-libre-font.git
--  - secure: V5uXpH5OUgssV3PHxpjycksbQwMf+nbJBSLjkSRq9Pq75fbu9ZgJQgtZs4ZFYztgQRkqFqOyCzboPdknB+o6ZyrRZsYi9gYlcHI5YHRgxE/s+12ZLp/X2mCOz+LOFtZ6WX11DvCvF9Ztsks7cN3rAqCRKBvTyPP1uzcI/YcBKzM=
