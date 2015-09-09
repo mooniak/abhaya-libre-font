@@ -18,11 +18,11 @@
     <string>Copyright (c) 1997-2015 Pushpananda Ekanayake (http://isiwara.lk), Copyright (c) 2015 mooniak (http://mooniak.com)
 </string>
     <key>unitsPerEm</key>
-    <integer>1024</integer>
+    <integer>1000</integer>
     <key>ascender</key>
-    <integer>819</integer>
+    <integer>800</integer>
     <key>descender</key>
-    <integer>-205</integer>
+    <integer>-200</integer>
     <key>italicAngle</key>
     <real>0</real>
     <key>note</key>
@@ -30,11 +30,11 @@
     <key>openTypeHeadCreated</key>
     <string>2015/08/20 06:17:19</string>
     <key>openTypeHheaAscender</key>
-    <integer>918</integer>
+    <integer>896</integer>
     <key>openTypeHheaDescender</key>
-    <integer>-205</integer>
+    <integer>-200</integer>
     <key>openTypeHheaLineGap</key>
-    <integer>94</integer>
+    <integer>92</integer>
     <key>openTypeNameLicense</key>
     <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
@@ -55,15 +55,15 @@
     <key>openTypeOS2Type</key>
     <array/>
     <key>openTypeOS2TypoAscender</key>
-    <integer>819</integer>
+    <integer>800</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-205</integer>
+    <integer>-200</integer>
     <key>openTypeOS2TypoLineGap</key>
-    <integer>94</integer>
+    <integer>92</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>918</integer>
+    <integer>896</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>205</integer>
+    <integer>200</integer>
     <key>openTypeOS2UnicodeRanges</key>
     <array>
       <integer>1</integer>
@@ -75,8 +75,8 @@
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>postscriptUnderlineThickness</key>
-    <integer>51</integer>
+    <integer>49</integer>
     <key>postscriptUnderlinePosition</key>
-    <integer>-102</integer>
+    <integer>-99</integer>
   </dict>
 </plist>

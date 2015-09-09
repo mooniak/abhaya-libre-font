@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_TI" format="1">
-  <advance width="704"/>
+  <advance width="687"/>
   <outline>
     <contour>
-      <point x="211.5" y="421" type="curve" smooth="yes"/>
-      <point x="211.5" y="590"/>
-      <point x="333.637" y="671"/>
-      <point x="448" y="671" type="curve" smooth="yes"/>
-      <point x="574.912" y="671"/>
-      <point x="662" y="610"/>
-      <point x="662" y="505" type="curve" smooth="yes"/>
-      <point x="662" y="444"/>
-      <point x="628.837" y="400.84"/>
-      <point x="576" y="380" type="curve"/>
-      <point x="546" y="401.25" type="line"/>
-      <point x="580.095" y="405.657"/>
-      <point x="607" y="426.338"/>
-      <point x="607" y="456" type="curve" smooth="yes"/>
-      <point x="607" y="514.546"/>
-      <point x="530" y="549.75"/>
-      <point x="448" y="549.75" type="curve" smooth="yes"/>
-      <point x="325.231" y="549.75"/>
-      <point x="240" y="473.841"/>
-      <point x="240" y="396.25" type="curve" smooth="yes"/>
-      <point x="240" y="386.95"/>
-      <point x="241.157" y="375.107"/>
-      <point x="243.75" y="365.5" type="curve"/>
-      <point x="218.5" y="343" type="line"/>
-      <point x="214.403" y="360.752"/>
-      <point x="211.5" y="389.837"/>
+      <point x="207" y="411" type="curve" smooth="yes"/>
+      <point x="207" y="576"/>
+      <point x="326" y="655"/>
+      <point x="438" y="655" type="curve" smooth="yes"/>
+      <point x="562" y="655"/>
+      <point x="646" y="596"/>
+      <point x="646" y="493" type="curve" smooth="yes"/>
+      <point x="646" y="433"/>
+      <point x="614" y="391"/>
+      <point x="562" y="371" type="curve"/>
+      <point x="533" y="392" type="line"/>
+      <point x="566" y="396"/>
+      <point x="593" y="416"/>
+      <point x="593" y="445" type="curve" smooth="yes"/>
+      <point x="593" y="502"/>
+      <point x="518" y="537"/>
+      <point x="438" y="537" type="curve" smooth="yes"/>
+      <point x="318" y="537"/>
+      <point x="234" y="463"/>
+      <point x="234" y="387" type="curve" smooth="yes"/>
+      <point x="234" y="378"/>
+      <point x="235" y="366"/>
+      <point x="238" y="357" type="curve"/>
+      <point x="213" y="335" type="line"/>
+      <point x="209" y="352"/>
+      <point x="207" y="381"/>
     </contour>
     <component base="si_Ta"/>
   </outline>

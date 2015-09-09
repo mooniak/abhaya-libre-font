@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_DDhU" format="1">
-  <advance width="729"/>
+  <advance width="711"/>
   <outline>
     <contour>
-      <point x="143.75" y="-142.5" type="curve" smooth="yes"/>
-      <point x="143.75" y="-90.4912"/>
-      <point x="190.043" y="-50.5"/>
-      <point x="245.25" y="-50.5" type="curve" smooth="yes"/>
-      <point x="287.156" y="-50.5"/>
-      <point x="324.5" y="-74.1416"/>
-      <point x="339.25" y="-110" type="curve"/>
-      <point x="306.5" y="-121.5" type="line"/>
-      <point x="299.676" y="-104.358"/>
-      <point x="278.25" y="-81.75"/>
-      <point x="245.25" y="-81.75" type="curve" smooth="yes"/>
-      <point x="208.546" y="-81.75"/>
-      <point x="179.25" y="-109.716"/>
-      <point x="179.25" y="-142.5" type="curve" smooth="yes"/>
-      <point x="179.25" y="-171.663"/>
-      <point x="200.998" y="-192.5"/>
-      <point x="270.75" y="-192.5" type="curve" smooth="yes"/>
-      <point x="632" y="-192.5" type="line"/>
-      <point x="632" y="128" type="line"/>
-      <point x="667.25" y="219" type="line"/>
-      <point x="667.25" y="-235" type="line"/>
-      <point x="249.25" y="-235" type="line" smooth="yes"/>
-      <point x="169.707" y="-235"/>
-      <point x="143.75" y="-186.092"/>
+      <point x="140" y="-139" type="curve" smooth="yes"/>
+      <point x="140" y="-88"/>
+      <point x="186" y="-49"/>
+      <point x="240" y="-49" type="curve" smooth="yes"/>
+      <point x="281" y="-49"/>
+      <point x="317" y="-72"/>
+      <point x="331" y="-107" type="curve"/>
+      <point x="299" y="-119" type="line"/>
+      <point x="292" y="-102"/>
+      <point x="272" y="-80"/>
+      <point x="240" y="-80" type="curve" smooth="yes"/>
+      <point x="204" y="-80"/>
+      <point x="175" y="-107"/>
+      <point x="175" y="-139" type="curve" smooth="yes"/>
+      <point x="175" y="-167"/>
+      <point x="196" y="-188"/>
+      <point x="264" y="-188" type="curve" smooth="yes"/>
+      <point x="617" y="-188" type="line"/>
+      <point x="617" y="125" type="line"/>
+      <point x="652" y="214" type="line"/>
+      <point x="652" y="-229" type="line"/>
+      <point x="243" y="-229" type="line" smooth="yes"/>
+      <point x="165" y="-229"/>
+      <point x="140" y="-182"/>
     </contour>
     <component base="si_DDha"/>
   </outline>

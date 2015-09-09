@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_S.halant" format="1">
-  <advance width="677"/>
+  <advance width="661"/>
   <outline>
     <contour>
-      <point x="491.5" y="427" type="line"/>
-      <point x="491.5" y="681" type="line"/>
-      <point x="545.5" y="639"/>
-      <point x="643" y="634"/>
-      <point x="643" y="542" type="curve" smooth="yes"/>
-      <point x="643" y="498"/>
-      <point x="608.191" y="468"/>
-      <point x="565" y="468" type="curve" smooth="yes"/>
-      <point x="550.333" y="468"/>
-      <point x="535.333" y="471.333"/>
-      <point x="520" y="478" type="curve"/>
-      <point x="520" y="410" type="line"/>
+      <point x="480" y="417" type="line"/>
+      <point x="480" y="665" type="line"/>
+      <point x="533" y="624"/>
+      <point x="628" y="619"/>
+      <point x="628" y="529" type="curve" smooth="yes"/>
+      <point x="628" y="486"/>
+      <point x="594" y="457"/>
+      <point x="552" y="457" type="curve" smooth="yes"/>
+      <point x="538" y="457"/>
+      <point x="523" y="460"/>
+      <point x="508" y="467" type="curve"/>
+      <point x="508" y="400" type="line"/>
     </contour>
     <contour>
-      <point x="520.105" y="504.273" type="line"/>
-      <point x="528.6" y="499.699"/>
-      <point x="539.382" y="497.413"/>
-      <point x="552.448" y="497.413" type="curve" smooth="yes"/>
-      <point x="584.454" y="497.413"/>
-      <point x="598" y="521.915"/>
-      <point x="598" y="545.438" type="curve" smooth="yes"/>
-      <point x="598" y="586.602"/>
-      <point x="566.17" y="606.203"/>
-      <point x="520.105" y="636.587" type="curve"/>
+      <point x="508" y="492" type="line"/>
+      <point x="516" y="488"/>
+      <point x="527" y="486"/>
+      <point x="540" y="486" type="curve" smooth="yes"/>
+      <point x="571" y="486"/>
+      <point x="584" y="510"/>
+      <point x="584" y="533" type="curve" smooth="yes"/>
+      <point x="584" y="573"/>
+      <point x="553" y="592"/>
+      <point x="508" y="622" type="curve"/>
     </contour>
     <component base="si_Sa"/>
   </outline>

@@ -6,6 +6,7 @@ languagesystem sinh dflt;
 # include (../../features/GENERATED_classes.fea);
 include (../../features/tables.fea);
 
+
 #---- --AKHN ------------
 
 lookup si_akhands {
@@ -89,33 +90,8 @@ lookup si_halant_2 {
   sub si_TTha si_Halant by si_TTh.halant;
   sub si_NDha si_Halant by si_NDh.halant;
   sub si_NTha si_Halant by si_NTh.halant;
-  sub si_Ya.post si_Halant by si_Y.post.halant;
+    sub si_Ya.post si_Halant by si_Y.post.halant;
  } si_halant_2;
-
- lookup si_halant_3 {
-   sub si_GhRa si_Halant by si_GhR.halant;
-   sub si_CRa si_Halant by si_CR.halant;
-   sub si_JRa si_Halant by si_JR.halant;
-   sub si_JhRa si_Halant by si_JhR.halant;
-   sub si_NyRa si_Halant by si_NyR.halant;
-   sub si_TtRa si_Halant by si_TtR.halant;
-   sub si_JnyRa si_Halant by si_JnyR.halant;
-   sub si_NdjRa si_Halant by si_NdjR.halant;
-   sub si_DdRa si_Halant by si_DdR.halant;
-   sub si_TRa si_Halant by si_TR.halant;
-   sub si_DRa si_Halant by si_DR.halant;
-   sub si_DhRa si_Halant by si_DhR.halant;
-   sub si_PRa si_Halant by si_PR.halant;
-   sub si_BhRa si_Halant by si_BhRa.halant;
-   sub si_MRa si_Halant by si_MR.halant;
-   sub si_VRa si_Halant by si_VR.halant;
-   sub si_ShRa si_Halant by si_ShR.halant;
-   sub si_SsRa si_Halant by si_SsR.halant;
-   sub si_SRa si_Halant by si_SR.halant;
-   sub si_HRa si_Halant by si_HR.halant;
-   sub si_FRa si_Halant by si_FR.halant;
-   sub si_BRa si_Halant by si_BR.halant;
- } si_halant_3;
 
 #---- ABVS ----
 
@@ -229,7 +205,7 @@ lookup si_abvs_3 {
   sub si_VRa si_MatraI by si_VRI;
   sub si_ShRa si_MatraI by si_ShRI;
   sub si_SRa si_MatraI by si_SRI;
-  sub si_HRa si_MatraI by si_HRI;
+  #** sub si_HRa si_MatraI by si_HRI;
 } si_abvs_3;
 
 lookup si_abvs_4 {
@@ -481,7 +457,6 @@ lookup si_rakaar {
   sub si_Ha si_Halant zwj si_Ra by si_HRa;
   sub si_Fa si_Halant zwj si_Ra by si_FRa;
   sub si_NDa si_Halant zwj si_Ra by si_NDRa;
-  sub si_Ba si_Halant zwj si_Ra by si_BRa;
 } si_rakaar;
 
 #----------- Split Matras ------------
@@ -516,7 +491,7 @@ lookup si_da_style {
   sub si_Jnya si_MatraAae by si_JnyAee;
   sub si_Jnya si_MatraAe by si_JnyAe;
   sub si_NDa si_MatraAa by si_NDAa;
-  sub si_NDa si_MatraAa.halant by si_NDAa.halant;
+  # **sub si_NDa si_MatraAa.halant by si_NDAa.halant;
   sub si_NDa si_MatraAae by si_NDAee;
   sub si_NDa si_MatraAe by si_NDAe;
   sub si_Nya si_MatraAa by si_NyAa;
@@ -694,7 +669,6 @@ feature abvs {
   script sinh;
       lookup si_halant_1;
       lookup si_halant_2;
-      lookup si_halant_3;
       lookup si_abvs_1;
       lookup si_abvs_2;
       lookup si_abvs_3;
@@ -746,3 +720,80 @@ feature ss01 {
     lookup si_da_style;
 } ss01;
 #-------------
+#---std ligatures
+
+feature liga {
+sub f i by fi;
+sub f l by fl;
+} liga;
+
+#---numr features
+
+@FIGURES = [ zero one two three four five six seven eight nine ];
+
+@FIGURES_TF = [ zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf ];
+
+feature aalt {
+feature sups;
+feature numr;
+# feature frac;
+feature ordn;
+feature pnum;
+feature tnum;
+} aalt;
+
+feature sups {
+sub one by onesuperior;
+sub two by twosuperior;
+sub three by threesuperior;
+} sups;
+
+feature numr {
+sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+} numr;
+
+feature frac {
+sub one slash four by onequarter;
+sub one slash two by onehalf;
+sub three slash four by threequarters;
+} frac;
+
+feature ordn {
+sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+} ordn;
+
+feature pnum {
+sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+} pnum;
+
+feature tnum {
+sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+} tnum;

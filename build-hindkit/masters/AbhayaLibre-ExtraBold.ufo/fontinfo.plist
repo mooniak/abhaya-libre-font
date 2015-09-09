@@ -6,11 +6,8 @@
 	<integer>819</integer>
 	<key>capHeight</key>
 	<integer>0</integer>
-	<key>copyright</key>
-	<string>Copyright (c) 1997-2015 Pushpananda Ekanayake (http://isiwara.lk), Copyright (c) 2015 mooniak (http://mooniak.com)
-</string>
 	<key>descender</key>
-	<integer>-205</integer>
+	<integer>-200</integer>
 	<key>familyName</key>
 	<string>AbhayaLibre</string>
 	<key>note</key>
@@ -58,7 +55,7 @@
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>unitsPerEm</key>
-	<integer>1024</integer>
+	<integer>1000</integer>
 	<key>versionMajor</key>
 	<integer>1</integer>
 	<key>versionMinor</key>

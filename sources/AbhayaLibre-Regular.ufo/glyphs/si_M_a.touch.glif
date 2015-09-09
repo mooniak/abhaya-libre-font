@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="si_Ma.touch" format="1">
-  <advance width="631"/>
+  <advance width="616"/>
   <outline>
     <contour>
-      <point x="588" y="0" type="move" name="cursive"/>
+      <point x="574" y="0" type="move" name="cursive"/>
     </contour>
     <component base="si_Ma"/>
   </outline>
