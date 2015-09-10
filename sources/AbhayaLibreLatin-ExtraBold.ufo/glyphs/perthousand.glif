@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="perthousand" format="1">
-  <advance width="1231"/>
+  <advance width="412"/>
   <unicode hex="2030"/>
   <outline>
-    <component base="zero.numr" xOffset="804"/>
+    <component base="zero.numr"/>
     <component base="percent"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>1</integer>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>percent</string>
       <key>public.markColor</key>
       <string>0.99,0.62,0.11,1</string>
       <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
@@ -25,6 +23,8 @@
           <string>zero.numr</string>
         </dict>
       </array>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>percent</string>
     </dict>
   </lib>
 </glyph>
