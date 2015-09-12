@@ -62,7 +62,7 @@ web-address (W) and description (D). This list is sorted by last name in
 alphabetical order.
 
 N: Pushpananda Ekanayake
-E: sol@sonnenshine.com.ar
+E: pushpanandae@gmail.com
 W: http://isiwara.lk
 D: Designer - Basic Sinhala Set
 
