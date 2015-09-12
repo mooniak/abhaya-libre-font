@@ -26,13 +26,13 @@ At the present, ‘FM Abhaya’ designed in 1996, is the most widely used Sinhal
 
 In the Unicode adaptation process, the FM Abhaya font was completely redrawn from the scratch to suit the modern usages in Web, Tab and smaller sizes for Smartphones. Abhaya Libre comes in 5 weights which enables designers to build sophisticated typographic layouts. Lighter weights suites mostly for body text and heavier weights do best in title settings.
 
-Each of those weights contains x glyphs that enables clean and precise rendering for Sinhala, Pali and Sanskrit texts. The Custom compact ‘Da’ forms can be enabled using stylistic sets.
+Each of those weights contains 925 glyphs that enables clean and precise rendering for Sinhala, Pali and Sanskrit texts. The Custom compact ‘Da’ forms can be enabled using stylistic sets.
 
 It comes with a Latin set designed by Sol Matas to match the aesthetics of Abhaya Libre Sinhala. The Latin set was inspired by the style of the original Sinhala, with the notable inherent contrast in between thick and thin strokes, was modified to tally with the visualization logics of Latin typefaces. The ductus references according to the lines of a Didone typeface add some Sinhala forms to certain terminations.
 
 After several tests and discussions we agreed on the height for uppercase and lowercase to match harmoniously with Sinhala. The width of each character and its position on the baseline have been carefully designed to get a nice balance between both writing systems. Adding large counters for optimizing on screen viewing and small ascenders and descenders.
 
-The project is being led by Mooniak, a collaborative collective of designers based in Colombo, Sri Lanka with the cooperation of Mr. Pushpananda Ekanayake, the creator of the font.
+The project was funded by Google, being led by Mooniak, a collaborative collective of designers based in Colombo Sri Lanka with the cooperation of Mr. Pushpananda Ekanayake, the designer  of the FM Abhaya font and Sol Matas as the Latin designer. For Moonaik, Pathum Egodawatta and Ayantha Randika contributed to the project in consulting, managing and Opentype engineering.
 
 
 
