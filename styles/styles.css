@@ -42,7 +42,12 @@ display: block;
 }
 body {
 line-height: 1;
-
+    font-variant: normal; 
+font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig", "swsh"
+-moz-font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig", "swsh"
+-webkit-font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig", "swsh"
+-ms-font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig", "swsh"
+-o-font-feature-settings: "kern" on, "liga" on, "calt" on, "dlig", "swsh"
 }
 ol, ul {
 list-style: none;
@@ -213,4 +218,11 @@ input[type=range]:focus::-ms-fill-lower {
 }
 input[type=range]:focus::-ms-fill-upper {
     background: #ccc;
+}
+
+.da_forms {
+  -moz-font-feature-settings: "'ss01' 1";
+  -ms-font-feature-settings: "'ss01' 1";
+  -webkit-font-feature-settings: "'ss01' 1";
+  font-feature-settings: "'ss01' 1";
 }

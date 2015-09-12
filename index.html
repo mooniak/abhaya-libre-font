@@ -7,15 +7,37 @@ layout: project_site
 
 
 	<body>
-
+        <div style="height:100vh; background:#1FC4DE; color:#FFFFEF;">
 <div class="container">
-    <!-- 8/12 and 4/12 layout -->
+
+         <div class="row">
+        <div class=" col-md-6 col-md-offset-3">
+
+	           <h1 id="fittext1" style="font-weight:800; text-align:center; font-variant: normal; -webkit-font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'ss01' 1;"> අභය</h1>
+            	<h1 id="fittext2" style="font-weight:800;line-height:0.2; text-align:center;"> දානය</h1>
+                
+             <br> <br><br><br><br><br>
+            <h1 id="fittext3" style="font-weight:600; text-align:center;">අභය ලිබ්රේ අකුරු මුහුණත <br> Abhaya Libre Font</h1>
+            <h3 style="font-weight:400; text-align:center;">එෆ් එම් අභය අකුරු මුහුණතේ යුනිකේත අනුකූල නිකුතුව.<br>The unicode compliant Free /Libre version of Pushpananda Ekanayakes's FM Abhaya font refactord in collaboration with mooniak. Latin by Sol Matas. 
+</h3>
+        </div>
+    </div>
+            
+            </div>        
+            
+            
+            </div>
+        
+        
+<div class="container">
+    
+    
     <div class="row">
         <div class=" col-md-12">
 
             <h1 style="font-weight:800;"> අභය ලිබ්රේ අකුරු මුහුණත Abhaya Libre Font</h1>
             <h1 style="font-weight:800;"></h1>
-            <h2>{{ site.desc }}</h2>
+            <h3>{{ site.desc }}</h3>
         </div>
     </div>
     
@@ -152,6 +174,14 @@ $(function () {
 });
 
 </script>
+
+
+ 	<script src="./js/jquery.fittext.js"></script>
+	<script type="text/javascript">
+		$("#fittext1").fitText(0.3);
+		$("#fittext2").fitText(0.35);
+		$("#fittext3").fitText(1.1, { minFontSize: '50px', maxFontSize: '75px' });
+	</script>
 	</body>
 
 </html>
