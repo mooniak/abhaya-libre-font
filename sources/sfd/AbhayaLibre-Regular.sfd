@@ -5,12 +5,12 @@ FamilyName: AbhayaLibre
 OS2FamilyName: "AbhayaLibre"
 OS2StyleName: "regular"
 Weight: Regular
-Copyright: Copyright (c) 1997-2015 Pushpananda Ekanayake (http://isiwara.lk), Copyright (c) 2015 mooniak (http://mooniak.com)\n
+Copyright: Copyright (c) 1997 Pushpananda Ekanayake (http://isiwara.lk)Copyright (c) 2015 Sol Matas (http://sonnenshine.com.ar/) Copyright (c) 2015 moonaik (http://mooniak.com)
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
 ItalicAngle: 0
-UnderlinePosition: -99.6094
-UnderlineWidth: 49.8047
+UnderlinePosition: -99
+UnderlineWidth: 49
 Ascent: 800
 Descent: 200
 InvalidEm: 0
@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1441720007
+ModificationTime: 1442235541
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -475,7 +475,7 @@ p185
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p186
 s."
-Encoding: sinhala_final
+Encoding: Custom
 Compacted: 1
 UnicodeInterp: none
 NameList: sinhala
@@ -17182,7 +17182,7 @@ EndSplineSet
 Refer: 414 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: uni0020
+StartChar: space
 Encoding: 0 32 418
 GlifName: uni0020
 Width: 195
