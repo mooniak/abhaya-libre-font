@@ -496,14 +496,14 @@ p185
 S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p186
 s."
-Encoding: sinhala_final
+Encoding: Custom
 Compacted: 1
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 80 8 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
@@ -8946,7 +8946,7 @@ GlifName: si_M_b.halant
 Width: 621
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
