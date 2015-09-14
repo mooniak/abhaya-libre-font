@@ -90,7 +90,7 @@ lookup si_halant_2 {
   sub si_TTha si_Halant by si_TTh.halant;
   sub si_NDha si_Halant by si_NDh.halant;
   sub si_NTha si_Halant by si_NTh.halant;
-    sub si_Ya.post si_Halant by si_Y.post.halant;
+  sub si_Ya.post si_Halant by si_Y.post.halant;
  } si_halant_2;
 
  lookup si_halant_3 {
@@ -230,7 +230,7 @@ lookup si_abvs_3 {
   sub si_VRa si_MatraI by si_VRI;
   sub si_ShRa si_MatraI by si_ShRI;
   sub si_SRa si_MatraI by si_SRI;
-  #** sub si_HRa si_MatraI by si_HRI;
+  sub si_HRa si_MatraI by si_HRI;
 } si_abvs_3;
 
 lookup si_abvs_4 {
@@ -483,6 +483,7 @@ lookup si_rakaar {
   sub si_Ha si_Halant zwj si_Ra by si_HRa;
   sub si_Fa si_Halant zwj si_Ra by si_FRa;
   sub si_NDa si_Halant zwj si_Ra by si_NDRa;
+  sub si_Ba si_Halant zwj si_Ra by si_BRa;
 } si_rakaar;
 
 #----------- Split Matras ------------
@@ -517,7 +518,7 @@ lookup si_da_style {
   sub si_Jnya si_MatraAae by si_JnyAee;
   sub si_Jnya si_MatraAe by si_JnyAe;
   sub si_NDa si_MatraAa by si_NDAa;
-  # **sub si_NDa si_MatraAa.halant by si_NDAa.halant;
+  sub si_NDa si_MatraAa.halant by si_NDAa.halant;
   sub si_NDa si_MatraAae by si_NDAee;
   sub si_NDa si_MatraAe by si_NDAe;
   sub si_Nya si_MatraAa by si_NyAa;
