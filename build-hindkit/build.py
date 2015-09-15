@@ -38,7 +38,7 @@ family.set_styles([
 
 builder = kit.Builder(family)
 
-builder.fontrevision = '1.000'
+builder.fontrevision = '1.030'
 
 builder.set_options([
 
@@ -47,7 +47,7 @@ builder.set_options([
     'compile',          # stage iii
 
     'makeinstances', #!
-    #'checkoutlines', #!
+    'checkoutlines', #!
     # 'autohint',      #!
 
     'do_style_linking',
