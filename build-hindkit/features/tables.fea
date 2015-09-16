@@ -2,8 +2,8 @@
 # -----------------
 
 table hhea {
-  Ascender 960;
-  Descender -253;
+  Ascender 860;
+  Descender -348;
   LineGap 0;
 } hhea;
 
@@ -21,11 +21,11 @@ table OS/2 {
     73  # Sinhala 0D80-0DFF
     ;
   # CodePageRange;
-  TypoAscender 750;
-  TypoDescender -250;
-  TypoLineGap 213;
-  winAscent 960;
-  winDescent 253;
+  TypoAscender 860;
+  TypoDescender -348;
+  TypoLineGap 0;
+  winAscent 860;
+  winDescent 348;
   include (weightclass.fea); # WeightClass 400;
   WidthClass 5;
   # Vendor "";
