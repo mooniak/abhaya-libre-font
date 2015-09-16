@@ -473,7 +473,6 @@ lookup si_rakaar {
   sub si_Da si_Halant zwj si_Ra by si_DRa;
   sub si_Dha si_Halant zwj si_Ra by si_DhRa;
   sub si_Pa si_Halant zwj si_Ra by si_PRa;
-  sub si_Ba si_Halant zwj si_Ra by si_BRa;
   sub si_Bha si_Halant zwj si_Ra by si_BhRa;
   sub si_Ma si_Halant zwj si_Ra by si_MRa;
   sub si_Va si_Halant zwj si_Ra by si_VRa;
