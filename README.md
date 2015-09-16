@@ -11,14 +11,12 @@
 
 Abhaya Libre - is the unicode compliant, complete libre version of Pushpananda Ekanayakes's FM Abhaya font, with Latin designed by Sol Matas.
 
-එෆ් එම් අභය අකුරු මුහුණතේ යුනිකේත අනුකූල නිකුතුව.
+එෆ් එම් අභය අකුරු මුහුණතේ යුනිකේත අනුකූල නිදහස් නිකුතුව.
 
 
+See the discussions on [Googel Fonts mailing list ](https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion)
+See the [video discussions](https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv)
 
-
-|   See the discussions on mailing list https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion
-See the video discussions https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv |
-| ------------- |:
 
 ##
 
@@ -65,7 +63,9 @@ See `FONTLOG.md` for details on contributions.
 - Pathum Egodawatta (Refactoring and Project coordination)
 - Ayantha Randika (Opentype features and engineering)
 
-Special thanks to Sumantri Samarawickrama, Liang Hai for consultancy. And thanks to all the testers on twitter.
+Special thanks to Dave Crossland, Sumantri Samarawickrama, Liang Hai for consultancy and support. And thanks to all the tweeps who helped to spot errors and bugs.
+
+
 
 ## License
 
