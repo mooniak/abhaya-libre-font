@@ -22,7 +22,6 @@ The project is being led by mooniak, a collaborative collective of designers bas
 
 
 
-
 Security and Integrity
 -------------------------
 
@@ -40,7 +39,7 @@ contribute to the project or make your own version of the font.
 
 See the project website for the current trunk and the various branches:
 
-https://github.com/mooniak/nidahas-fm-abhaya/
+https://github.com/mooniak/abhaya-libre-font
 
 
 ChangeLog
@@ -49,8 +48,23 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
-1996 (Pushpanada Ekanayake) FM Abhaya, v1.001
+1996 (Pushpanada Ekanayake) FM Abhaya
 - ASCII Encoded Font
+
+2015 SEP 10 Abhaya Libre Pre Release v1.000
+- Unicode compliant full unicode 6 coverage
+- Touching enabled
+- Da stylistic Forms
+- Latin 3 Support
+
+2015 SEP 12 Abhaya Libre Minor Fixes v1.020
+- Minor Fixes
+
+2015 SEP 16 Abhaya Libre for Google Fonts Release v1.030
+- Minor Fixes
+- Vertical Metric update
+- Copyright Fixes
+- /percent glyph fix
 
 
 
@@ -74,4 +88,9 @@ D: Designer Latin 3 set
 N: Pathum Egodawatta
 E: pathum@mooniak.com
 W: http://mooniak.com
-D: Contributor - Open Type Layout / Project cordination
+D: Contributor - Open Type Layout / Project cordination / Design
+
+N: Ayantha Randika
+E: randika@mooniak.com
+W: http://mooniak.com
+D: Contributor - Open Type Layout / Build
