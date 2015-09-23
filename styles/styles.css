@@ -80,7 +80,6 @@ text-decoration:none;
 color:#555;
 }
 a:hover{
-background:#000;
 color:#fff;
 }
 .alphabet {
@@ -225,4 +224,11 @@ input[type=range]:focus::-ms-fill-upper {
   -ms-font-feature-settings: "'ss01' 1";
   -webkit-font-feature-settings: "'ss01' 1";
   font-feature-settings: "'ss01' 1";
+}
+
+.info {
+    font-size: 18px;
+    background: #EFEFEF;
+    color: black;
+    padding: 10px;
 }
