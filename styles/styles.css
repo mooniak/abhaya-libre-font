@@ -227,8 +227,27 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .info {
+    font-weight: 700;
     font-size: 18px;
-    background: #EFEFEF;
-    color: black;
+    color: #1D6077;
+    padding: 10px;
+    text-align: center;
+}
+.line-separator{
+
+height:1px;
+border-bottom:1px solid #313030;
+width: 100%;
+}
+
+.btn{
+font-weight: 800;
+}
+
+#nav{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2000;
     padding: 10px;
 }
