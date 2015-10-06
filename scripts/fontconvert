@@ -44,14 +44,14 @@ parser.add_option('-u', '--ufo',
                   )
 options, remainder = parser.parse_args()
 
-if not len(remainder) == 1:
-    print "Only one non-keyword argument allowed."
+if not len(remainder) == 2:
+    print "Only two non-keyword argument allowed."
     sys.exit()
 
 fontname = remainder[0]
 font = fontforge.open(fontname)
 
-d = os.path.dirname(os.path.abspath(fontname)) + '/'
+d = remainder[1] + '/'
 filename = os.path.basename(fontname)
 basename, ext = os.path.splitext(filename)
 
