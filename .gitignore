@@ -1,2 +1,8 @@
 _site/
-build/style/
+font.designspace
+FontMenuNameDB
+.vagrant
+/masters
+/instances
+/build
+.DS_Store
