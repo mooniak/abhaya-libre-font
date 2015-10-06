@@ -1,4 +1,8 @@
-*.designspace.temp
-*.pyc
-instances/
-mutatorMath.log
+_site/
+font.designspace
+FontMenuNameDB
+.vagrant
+/masters
+/instances
+/build
+.DS_Store
