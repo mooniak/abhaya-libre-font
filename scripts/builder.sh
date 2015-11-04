@@ -18,8 +18,8 @@ python ../../scripts/fontconvert AbhayaLibre-tamil-0.sfd ../../sources --ufo
 python ../../scripts/fontconvert AbhayaLibre-tamil-1.sfd ../../sources --ufo
 
 cd ../../scripts
-python merger.py ../masters/AbhayaLibre-Regular.ufo ../sources/AbhayaLibre-sinhala-0.ufo ../sources/AbhayaLibre-latin-0.ufo ../sources/AbhayaLibre-tamil-0.ufo
-python merger.py ../masters/AbhayaLibre-ExtraBold.ufo ../sources/AbhayaLibre-sinhala-1.ufo ../sources/AbhayaLibre-latin-1.ufo ../sources/AbhayaLibre-tamil-1.ufo
+python merger.py ../masters/AbhayaLibre-Regular.ufo ../sources/AbhayaLibre-sinhala-0.ufo ../sources/AbhayaLibre-latin-0.ufo
+python merger.py ../masters/AbhayaLibre-ExtraBold.ufo ../sources/AbhayaLibre-sinhala-1.ufo ../sources/AbhayaLibre-latin-1.ufo
 
 cd ../
 python build.py
