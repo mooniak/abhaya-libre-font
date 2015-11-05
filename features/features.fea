@@ -162,6 +162,7 @@ lookup si_abvs_1 {
   sub si_Ha si_MatraI by si_HI;
   sub si_Lla si_MatraI by si_LlI;
   sub si_Fa si_MatraI by si_FI;
+  sub si_Ya.post si_MatraI by si_Ya.post.MatraI;
 } si_abvs_1;
 
 lookup si_abvs_2 {
@@ -206,6 +207,7 @@ lookup si_abvs_2 {
   sub si_Ha si_MatraIi by si_HIi;
   sub si_Lla si_MatraIi by si_LlIi;
   sub si_Fa si_MatraIi by si_FIi;
+  sub si_Ya.post si_MatraIi by si_Ya.post.MatraIi;
 } si_abvs_2;
 
 lookup si_abvs_3 {
