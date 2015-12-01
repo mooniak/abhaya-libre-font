@@ -8,8 +8,7 @@
 # Released under the GNU General Public License version 3 or later.
 # See accompanying LICENSE file for details.
 
-from robofab.world import NewFont, OpenFont
-from robofab import plistlib
+from defcon import Font
 import sys, os
 def ufoGlyphOrderSetter(existingOrder, newOrder):
     outOrder=[]
@@ -23,25 +22,20 @@ fontList=arguments[2:]
 
 print "Merging fonts..."
 print os.getcwd()
-NewUFO = NewFont()
-font_source = OpenFont(fontList[0])
-for glyphName in ufoGlyphOrderSetter([], font_source.keys()):
-    glyph = font_source[glyphName]
-    NewUFO.insertGlyph(glyph)
-    print glyphName,
-    NewUFO[glyphName].unicode = font_source[glyphName].unicode
-NewUFO.lib=font_source.lib
-NewUFO.info=font_source.info
+new_ufo = Font()
+new_ufo = Font(fontList[0])
 
 for font in fontList[1:]:
-    source= OpenFont(font)
-    for glyph_name in ufoGlyphOrderSetter(NewUFO.keys(), source.keys()):
+    source= Font(font)
+    if source.kerning._dataOnDisk is not None:
+        pair_list=source.kerning.keys()
+        for pair in pair_list:
+            new_ufo.kerning[pair]=source.kerning[pair]
+    glyph_name_list=ufoGlyphOrderSetter(new_ufo.keys(), source.keys())
+    for glyph_name in glyph_name_list:
         glyph = source[glyph_name]
         print glyph_name,
-        NewUFO.insertGlyph(glyph)
-        NewUFO[glyphName].unicode = font_source[glyphName].unicode
-    # newLib=[i for i in source.lib['public.glyphOrder'] if i not in NewUFO.lib['public.glyphOrder']]+NewUFO.lib['public.glyphOrder']
-    # NewUFO.lib['public.glyphOrder']=newLib
+        new_ufo._glyphSet._insertGlyph(glyph)
 
-NewUFO.save(arguments[1])
+new_ufo.save(arguments[1])
 print "\nMerge complete!"
