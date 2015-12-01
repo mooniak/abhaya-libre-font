@@ -29,8 +29,9 @@ echo "Installing setuptools..."
 apt-get install python-setuptools -y > /dev/null
 
 echo "Installing Robofab..."
-git clone https://github.com/mooniak/robofab.git
+git clone https://github.com/robofab-developers/robofab.git
 cd robofab
+git checkout ufo3k
 python setup.py install
 cd ..
 
@@ -48,7 +49,7 @@ cp WriteFeaturesKernFDK.py /usr/local/lib/python2.7/dist-packages
 cp WriteFeaturesMarkFDK.py /usr/local/lib/python2.7/dist-packages
 cd ..
 
-echo "Installing MutaatorMath..."
+echo "Installing MutatorMath..."
 git clone https://github.com/LettError/MutatorMath.git
 cd MutatorMath
 python setup.py install
@@ -57,12 +58,14 @@ cd ..
 echo "Installing fontMath..."
 git clone https://github.com/typesupply/fontMath.git
 cd fontMath
+git checkout ufo3
 python setup.py install
 cd ..
 
 echo "Installing defcon..."
 git clone https://github.com/typesupply/defcon.git
 cd defcon
+git checkout ufo3
 python setup.py install
 cd ..
 
