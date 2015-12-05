@@ -45,13 +45,12 @@ The project was funded by Google, being led by Mooniak, a collaborative collecti
 
 ## Repository Structure
 
-- See [Realases](https://github.com/mooniak/abhaya-libre/releases) to Download released clean font versions, sources and specimens at the relase point.
+- See [Realases](https://github.com/mooniak/abhaya-libre-font/releases) to Download released clean font versions, sources and specimens at the relase point.
 
-- See `/tests/fonts` draft fonts which are dirty, generated for design testing.
-
-- See `/sources` contains source `.sfd` files which opens in [FontForge](http://fontforge.github.io/en-US/). These files are under active developemnt. There might be some FontForge revision files around too.
-
-- See `/sources/UFO` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/abhaya-libre-font/releases) for clean sources.
+- See `/fonts` in `gh-pages` branch contains draft fonts which are dirty, generated for design testing.
+- See `/sources/` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/abhaya-libre-font/releases) for clean sources.
+- See `/sources/sfd` contains source `.sfd` files which opens in [FontForge](http://fontforge.github.io/en-US/). These files are under active developemnt.
+- See `/sources/glyphs` contains source `.glyphs` files which opens in [Glyphs](https://glyphsapp.com/). These files are under active developemnt.
 
 ## How To Build 
 
