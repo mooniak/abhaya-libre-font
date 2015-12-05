@@ -53,6 +53,28 @@ The project was funded by Google, being led by Mooniak, a collaborative collecti
 
 - See `/sources/UFO` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/abhaya-libre-font/releases) for clean sources.
 
+## How To Build 
+
+If you want your way around fonts and terminal, you can use our build system to fonts.To generate fonts we use a virtual enviromant created with Vagrant. See [WeliPilla](https://github.com/mooniak/WeliPilla) for more info.
+
+Once you have Welipilla set up, do the following..
+
+- Run Vagrant box, this will take a few minuits to set up the build enviroment.
+
+```shell
+$vagrant up
+```
+
+- SSH into vagrant box.(Use putty on Windows)
+```shell
+$vagrant ssh
+```
+
+- Run builder script.
+```shell
+$cd /vagrant/scripts && sh builder.sh
+```
+
 
 ## Credits
 
