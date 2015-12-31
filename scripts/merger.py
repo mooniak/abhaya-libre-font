@@ -24,6 +24,8 @@ print "Merging fonts..."
 print os.getcwd()
 new_ufo = Font()
 new_ufo = Font(fontList[0])
+new_ufo._get_lib()
+new_ufo._lib["public.glyphOrder"]=[]
 
 for font in fontList[1:]:
     source= Font(font)
@@ -33,6 +35,7 @@ for font in fontList[1:]:
             new_ufo.kerning[pair]=source.kerning[pair]
     glyph_name_list=ufoGlyphOrderSetter(new_ufo.keys(), source.keys())
     for glyph_name in glyph_name_list:
+        new_ufo._lib["public.glyphOrder"].append(glyph_name)
         glyph = source[glyph_name]
         print glyph_name,
         new_ufo._glyphSet._insertGlyph(glyph)
