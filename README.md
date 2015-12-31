@@ -45,13 +45,34 @@ The project was funded by Google, being led by Mooniak, a collaborative collecti
 
 ## Repository Structure
 
-- See [Realases](https://github.com/mooniak/abhaya-libre/releases) to Download released clean font versions, sources and specimens at the relase point.
+- See [Realases](https://github.com/mooniak/abhaya-libre-font/releases) to Download released clean font versions, sources and specimens at the relase point.
 
-- See `/tests/fonts` draft fonts which are dirty, generated for design testing.
+- See `/fonts` in `gh-pages` branch contains draft fonts which are dirty, generated for design testing.
+- See `/sources/` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/abhaya-libre-font/releases) for clean sources.
+- See `/sources/sfd` contains source `.sfd` files which opens in [FontForge](http://fontforge.github.io/en-US/). These files are under active developemnt.
+- See `/sources/glyphs` contains source `.glyphs` files which opens in [Glyphs](https://glyphsapp.com/). These files are under active developemnt.
 
-- See `/sources` contains source `.sfd` files which opens in [FontForge](http://fontforge.github.io/en-US/). These files are under active developemnt. There might be some FontForge revision files around too.
+## How To Build 
 
-- See `/sources/UFO` contains dirty and incomplete `.ufo` files which opens in all major font editors. These files are generated in intervals in between development. See [Realases](https://github.com/mooniak/abhaya-libre-font/releases) for clean sources.
+If you want your way around fonts and terminal, you can use our build system to fonts.To generate fonts we use a virtual enviromant created with Vagrant. See [WeliPilla](https://github.com/mooniak/WeliPilla) for more info.
+
+Once you have Welipilla set up, do the following..
+
+- Run Vagrant box, this will take a few minuits to set up the build enviroment.
+
+```shell
+$vagrant up
+```
+
+- SSH into vagrant box.(Use putty on Windows)
+```shell
+$vagrant ssh
+```
+
+- Run builder script.
+```shell
+$cd /vagrant/scripts && sh builder.sh
+```
 
 
 ## Credits
