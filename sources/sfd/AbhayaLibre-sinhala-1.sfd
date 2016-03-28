@@ -22208,7 +22208,7 @@ EndSplineSet
 Refer: 220 -1 N 1 0 0 1 0 0 2
 EndChar
 
-StartChar: si_YI.post
+StartChar: si_Ya.post.MatraI
 Encoding: 567 -1 567
 Width: 531
 VWidth: 0
@@ -22256,7 +22256,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: si_YIi.post
+StartChar: si_Ya.post.MatraIi
 Encoding: 568 -1 568
 Width: 531
 VWidth: 0
