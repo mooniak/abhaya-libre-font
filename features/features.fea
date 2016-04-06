@@ -21,7 +21,23 @@ lookup si_akhands {
   sub si_Da si_Halant zwj si_Va by si_DVa;
   sub si_Da si_Halant zwj si_Dha by si_DDha;
   sub si_Tta si_Halant zwj si_Ttha by si_TtTtha;
+  sub si_Ga si_Halant zwj si_Dha by si_GDha;
 } si_akhands;
+
+lookup si_akhands_reph {
+  sub si_KSsa si_Halant zwj si_Ssa by si_KSsa.reph;
+  sub si_KVa si_Halant zwj si_Va by si_KVa.reph;
+  sub si_TVa si_Halant zwj si_Va by si_TVa.reph;
+  sub si_TTha si_Halant zwj si_Tha by si_TTha.reph;
+  sub si_NDa si_Halant zwj si_Da by si_NDa.reph;
+  sub si_NVa si_Halant zwj si_Va by si_NVa.reph;
+  sub si_NDha si_Halant zwj si_Dha by si_NDha.reph;
+  sub si_NTha si_Halant zwj si_Tha by si_NTha.reph;
+  sub si_DVa si_Halant zwj si_Va by si_DVa.reph;
+  sub si_DDha si_Halant zwj si_Dha by si_DDha.reph;
+  sub si_TtTtha si_Halant zwj si_Ttha by si_TtTtha.reph;
+  sub si_GDha si_Halant zwj si_Dha by si_GDha.reph;
+} si_akhands_reph;
 
 #---- REPH ----
 
@@ -789,6 +805,38 @@ lookup si_touch_pos {
 
   #---------------------------------------------
 
+  pos cursive \si_Ba.reph <anchor 39 0> <anchor NULL>;
+  pos cursive \si_Bha.reph <anchor 24 0> <anchor NULL>;
+  pos cursive \si_Ca.reph <anchor 71 0> <anchor NULL>;
+  pos cursive \si_Da.reph <anchor 50 0> <anchor NULL>;
+  pos cursive \si_Dda.reph <anchor 42 0> <anchor NULL>;
+  pos cursive \si_Dha.reph <anchor 45 0> <anchor NULL>;
+  pos cursive \si_Fa.reph <anchor 43 0> <anchor NULL>;
+  pos cursive \si_Ga.reph <anchor 56 0> <anchor NULL>;
+  pos cursive \si_Gha.reph <anchor 54 0> <anchor NULL>;
+  pos cursive \si_Ha.reph <anchor 42 0> <anchor NULL>;
+  pos cursive \si_Ja.reph <anchor 46 0> <anchor NULL>;
+  pos cursive \si_JhU.reph <anchor 69 0> <anchor NULL>;
+  pos cursive \si_JhUu.reph <anchor 69 0> <anchor NULL>;
+  pos cursive \si_Jha.reph <anchor 69 0> <anchor NULL>;
+  pos cursive \si_KU.reph <anchor 66 0> <anchor NULL>;
+  pos cursive \si_Ka.reph <anchor 66 0> <anchor NULL>;
+  pos cursive \si_Ma.reph <anchor 47 0> <anchor NULL>;
+  pos cursive \si_Na.reph <anchor 76 0> <anchor NULL>;
+  pos cursive \si_Nna.reph <anchor 51 0> <anchor NULL>;
+  pos cursive \si_Pa.reph <anchor 52 0> <anchor NULL>;
+  pos cursive \si_Pha.reph <anchor 44 0> <anchor NULL>;
+  pos cursive \si_Sa.reph <anchor 70 0> <anchor NULL>;
+  pos cursive \si_Sha.reph <anchor 43 0> <anchor NULL>;
+  pos cursive \si_Ssa.reph <anchor 45 0> <anchor NULL>;
+  pos cursive \si_Ta.reph <anchor 66 0> <anchor NULL>;
+  pos cursive \si_Tha.reph <anchor 51 0> <anchor NULL>;
+  pos cursive \si_Tta.reph <anchor 37 0> <anchor NULL>;
+  pos cursive \si_Va.reph <anchor 46 0> <anchor NULL>;
+  pos cursive \si_Ya.reph <anchor 41 0> <anchor NULL>;
+
+  #---------------------------------------------
+
   pos cursive si_Ka.touch <anchor NULL> <anchor 701 0>;
   pos cursive si_Kha.touch <anchor NULL> <anchor 584 0>;
   pos cursive si_Ga.touch <anchor NULL> <anchor 585 0>;
@@ -837,6 +885,7 @@ lookup si_touch_pos {
 feature akhn {
   script sinh;
       lookup si_akhands;
+	  lookup si_akhands_reph;
       lookup si_touching;
 } akhn;
 
