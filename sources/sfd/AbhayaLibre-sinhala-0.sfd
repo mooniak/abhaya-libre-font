@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1459970271
+ModificationTime: 1459977012
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,7 +481,7 @@ NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 420 15 11
+WinInfo: 375 15 11
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "cursive" "'curs' Cursive Attachment in Sinhala lookup 2-1" "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
@@ -16760,31 +16760,31 @@ Encoding: 391 -1 404
 GlifName: si_V_a.reph
 Width: 583
 VWidth: 0
-Flags: HW
+Flags: HWO
 AnchorPoint: "cursive" 46 0 entry 0
 LayerCount: 2
 Back
 Fore
 SplineSet
-247 606 m 256
- 247 627 266 643 287 643 c 256
- 308 643 327 627 327 606 c 256
- 327 585 308 570 287 570 c 256
- 266 570 247 585 247 606 c 256
-147 625 m 256
- 147 570 205 542 263 542 c 256
- 320 542 354 567 354 605 c 256
- 354 639 326 666 286 666 c 256
- 251 666 221 641 221 607 c 256
- 221 586 232 572 240 566 c 257
- 218 568 178 587 178 625 c 256
- 178 677 231 697 283 697 c 256
- 343 697 393 667 393 611 c 256
- 393 585 377 561 364 549 c 257
- 397 549 l 257
- 414 568 422 589 422 612 c 256
- 422 681 359 724 284 724 c 256
- 204 724 147 687 147 625 c 256
+247 603 m 260
+ 247 582 266 567 287 567 c 260
+ 308 567 327 582 327 603 c 260
+ 327 624 308 640 287 640 c 260
+ 266 640 247 624 247 603 c 260
+147 622 m 260
+ 147 684 204 721 284 721 c 260
+ 359 721 422 678 422 609 c 260
+ 422 586 414 565 397 546 c 261
+ 364 546 l 261
+ 377 558 393 582 393 608 c 260
+ 393 664 343 694 283 694 c 260
+ 231 694 178 674 178 622 c 260
+ 178 584 218 565 240 563 c 261
+ 232 569 221 583 221 604 c 260
+ 221 638 251 663 286 663 c 260
+ 326 663 354 636 354 602 c 260
+ 354 564 320 539 263 539 c 260
+ 205 539 147 567 147 622 c 260
 EndSplineSet
 Refer: 473 3520 N 1 0 0 1 0 0 2
 EndChar
@@ -22436,7 +22436,7 @@ Encoding: 578 -1 579
 GlifName: si_D_V_a.reph
 Width: 671
 VWidth: 0
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Back
 Fore
