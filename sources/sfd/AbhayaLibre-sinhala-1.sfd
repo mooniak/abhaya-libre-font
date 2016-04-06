@@ -503,7 +503,7 @@ NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 506 11 7
+WinInfo: 110 11 7
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
@@ -21669,7 +21669,7 @@ Refer: 477 3526 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_GhR.halant
-Encoding: 124 0 543
+Encoding: 124 -1 543
 Width: 661
 VWidth: 0
 Flags: HW
