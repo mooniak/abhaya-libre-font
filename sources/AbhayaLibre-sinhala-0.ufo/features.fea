@@ -7,6 +7,35 @@ languagesystem sinh dflt;
 
 lookup cursCursiveAttachmentinSinhalal {
   lookupflag 0;
+    pos cursive \si_Ba.reph <anchor 39 0> <anchor NULL>;
+    pos cursive \si_Bha.reph <anchor 24 0> <anchor NULL>;
+    pos cursive \si_Ca.reph <anchor 71 0> <anchor NULL>;
+    pos cursive \si_Da.reph <anchor 50 0> <anchor NULL>;
+    pos cursive \si_Dda.reph <anchor 42 0> <anchor NULL>;
+    pos cursive \si_Dha.reph <anchor 45 0> <anchor NULL>;
+    pos cursive \si_Fa.reph <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Ga.reph <anchor 56 0> <anchor NULL>;
+    pos cursive \si_Gha.reph <anchor 54 0> <anchor NULL>;
+    pos cursive \si_Ha.reph <anchor 42 0> <anchor NULL>;
+    pos cursive \si_Ja.reph <anchor 46 0> <anchor NULL>;
+    pos cursive \si_JhU.reph <anchor 69 0> <anchor NULL>;
+    pos cursive \si_JhUu.reph <anchor 69 0> <anchor NULL>;
+    pos cursive \si_Jha.reph <anchor 69 0> <anchor NULL>;
+    pos cursive \si_KU.reph <anchor 66 0> <anchor NULL>;
+    pos cursive \si_Ka.reph <anchor 66 0> <anchor NULL>;
+    pos cursive \si_Ma.reph <anchor 47 0> <anchor NULL>;
+    pos cursive \si_Na.reph <anchor 76 0> <anchor NULL>;
+    pos cursive \si_Nna.reph <anchor 51 0> <anchor NULL>;
+    pos cursive \si_Pa.reph <anchor 52 0> <anchor NULL>;
+    pos cursive \si_Pha.reph <anchor 44 0> <anchor NULL>;
+    pos cursive \si_Sa.reph <anchor 70 0> <anchor NULL>;
+    pos cursive \si_Sha.reph <anchor 43 0> <anchor NULL>;
+    pos cursive \si_Ssa.reph <anchor 45 0> <anchor NULL>;
+    pos cursive \si_Ta.reph <anchor 66 0> <anchor NULL>;
+    pos cursive \si_Tha.reph <anchor 51 0> <anchor NULL>;
+    pos cursive \si_Tta.reph <anchor 37 0> <anchor NULL>;
+    pos cursive \si_Va.reph <anchor 46 0> <anchor NULL>;
+    pos cursive \si_Ya.reph <anchor 41 0> <anchor NULL>;
     pos cursive \si_Ka <anchor 67 -1> <anchor NULL>;
     pos cursive \si_Kha <anchor 38 0> <anchor NULL>;
     pos cursive \si_Ga <anchor 56 1> <anchor NULL>;
@@ -16,7 +45,7 @@ lookup cursCursiveAttachmentinSinhalal {
     pos cursive \si_Ca <anchor 71 0> <anchor NULL>;
     pos cursive \si_Cha <anchor 52 0> <anchor NULL>;
     pos cursive \si_Ja <anchor 47 0> <anchor NULL>;
-    pos cursive \si_Jha <anchor 69 -1> <anchor NULL>;
+    pos cursive \si_Jha <anchor 69 0> <anchor NULL>;
     pos cursive \si_Nya <anchor 42 0> <anchor NULL>;
     pos cursive \si_Jnya <anchor 51 0> <anchor NULL>;
     pos cursive \si_Ndja <anchor 42 0> <anchor NULL>;
@@ -179,7 +208,10 @@ feature curs {
 	\si_JnyR.halant \si_NdjR.halant \si_TtR.halant \si_DdR.halant \si_TR.halant 
 	\si_DR.halant \si_DhR.halant \si_PR.halant \si_BR.halant \si_BhRa.halant 
 	\si_MR.halant \si_VR.halant \si_ShR.halant \si_SsR.halant \si_SR.halant 
-	\si_HR.halant \si_HRI \si_FR.halant \si_NDAa.halant ];
+	\si_HR.halant \si_HRI \si_FR.halant \si_NDAa.halant \si_Ya.post.MatraI 
+	\si_Ya.post.MatraIi \si_KSsa.reph \si_KVa.reph \si_NDha.reph \si_NDa.reph 
+	\si_NTha.reph \si_NVa.reph \si_TTha.reph \si_GDha.reph \si_TtTtha.reph 
+	\si_DDha.reph \si_DVa.reph \mooniak \si_TVa.reph ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

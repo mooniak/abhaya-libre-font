@@ -3,6 +3,9 @@
   <advance width="631"/>
   <outline>
     <contour>
+      <point x="42" y="0" type="move" name="_cursive"/>
+    </contour>
+    <contour>
       <point x="271" y="607" type="curve" smooth="yes"/>
       <point x="271" y="586"/>
       <point x="290" y="571"/>
