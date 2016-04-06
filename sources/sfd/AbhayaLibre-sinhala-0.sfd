@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1442235541
+ModificationTime: 1459932943
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -482,7 +482,7 @@ NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 456 12 11
+WinInfo: 300 12 11
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "cursive" "'curs' Cursive Attachment in Sinhala lookup 2-1" "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
@@ -1322,6 +1322,7 @@ GlifName: si_B_a.reph
 Width: 604
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 39 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -1595,6 +1596,7 @@ GlifName: si_B_ha.reph
 Width: 654
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 24 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -1927,6 +1929,7 @@ GlifName: si_C_a.reph
 Width: 583
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 71 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -3435,6 +3438,7 @@ GlifName: si_D_a.reph
 Width: 445
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 50 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -3761,6 +3765,7 @@ GlifName: si_D_da.reph
 Width: 631
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 42 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -4303,6 +4308,7 @@ GlifName: si_D_ha.reph
 Width: 623
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 45 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -4673,6 +4679,7 @@ GlifName: si_F_a.reph
 Width: 592
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 43 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -5042,6 +5049,7 @@ GlifName: si_G_a.reph
 Width: 621
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 56 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -5262,6 +5270,7 @@ GlifName: si_G_ha.reph
 Width: 661
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 54 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -5499,6 +5508,7 @@ GlifName: si_H_a.reph
 Width: 637
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 42 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -5776,6 +5786,7 @@ GlifName: si_J_a.reph
 Width: 583
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 46 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -6092,6 +6103,7 @@ GlifName: si_J_hU_.reph
 Width: 1061
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 69 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -6155,6 +6167,7 @@ GlifName: si_J_hU_u.reph
 Width: 1061
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 69 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -6204,6 +6217,7 @@ GlifName: si_J_ha.reph
 Width: 1061
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 69 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -7207,6 +7221,7 @@ GlifName: si_K_U_.reph
 Width: 728
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 66 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -7576,6 +7591,7 @@ GlifName: si_K_a.reph
 Width: 728
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 66 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -8763,6 +8779,7 @@ GlifName: si_M_a.reph
 Width: 620
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 47 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -10604,6 +10621,7 @@ GlifName: si_N_a.reph
 Width: 787
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 76 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -11617,6 +11635,7 @@ GlifName: si_N_na.reph
 Width: 940
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 51 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -13008,6 +13027,7 @@ GlifName: si_P_a.reph
 Width: 601
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 52 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -13210,6 +13230,7 @@ GlifName: si_P_ha.reph
 Width: 569
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 44 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -13746,6 +13767,7 @@ GlifName: si_S_a.reph
 Width: 661
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 70 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -14191,6 +14213,7 @@ GlifName: si_S_ha.reph
 Width: 616
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 43 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -14431,6 +14454,7 @@ GlifName: si_S_sa.reph
 Width: 607
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 45 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -15240,6 +15264,7 @@ GlifName: si_T_a.reph
 Width: 687
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 66 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -15451,6 +15476,7 @@ GlifName: si_T_ha.reph
 Width: 599
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 51 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -16196,6 +16222,7 @@ GlifName: si_T_ta.reph
 Width: 588
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 37 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -16735,6 +16762,7 @@ GlifName: si_V_a.reph
 Width: 583
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 46 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -17109,6 +17137,7 @@ GlifName: si_Y_a.reph
 Width: 621
 VWidth: 0
 Flags: HW
+AnchorPoint: "cursive" 41 0 entry 0
 LayerCount: 2
 Back
 Fore
@@ -18380,7 +18409,7 @@ GlifName: si_J_ha
 Width: 1061
 VWidth: 0
 Flags: HW
-AnchorPoint: "cursive" 69 -1 entry 0
+AnchorPoint: "cursive" 69 0 entry 0
 LayerCount: 2
 Back
 Fore
