@@ -33,6 +33,11 @@ for font in fontList[1:]:
         pair_list=source.kerning.keys()
         for pair in pair_list:
             new_ufo.kerning[pair]=source.kerning[pair]
+    if source.groups._dataOnDisk is not None:
+        group_list = source.groups.keys()
+        for group in group_list:
+            if group[0]=="@":
+                new_ufo.groups[group]=source.groups[group]
     glyph_name_list=ufoGlyphOrderSetter(new_ufo.keys(), source.keys())
     for glyph_name in glyph_name_list:
         new_ufo._lib["public.glyphOrder"].append(glyph_name)
