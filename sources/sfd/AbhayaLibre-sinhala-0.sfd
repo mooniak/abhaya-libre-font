@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1459932943
+ModificationTime: 1459943204
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -476,17 +476,16 @@ S'DC4431BF-9234-4C16-9154-22D387E42D10'
 p186
 s."
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 300 12 11
+WinInfo: 456 12 11
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "cursive" "'curs' Cursive Attachment in Sinhala lookup 2-1" "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
-BeginChars: 65537 580
+BeginChars: 581 581
 
 StartChar: si_NdAa.halant
 Encoding: 304 -1 0
@@ -20586,7 +20585,7 @@ EndSplineSet
 EndChar
 
 StartChar: .notdef
-Encoding: 65536 -1 501
+Encoding: 579 -1 501
 GlifName: _notdef
 Width: 614
 VWidth: 0
@@ -21675,7 +21674,7 @@ Refer: 221 -1 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ya.post.MatraI
-Encoding: 567 -1 567
+Encoding: 566 -1 567
 Width: 531
 VWidth: 0
 Flags: HW
@@ -21723,7 +21722,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_Ya.post.MatraIi
-Encoding: 568 -1 568
+Encoding: 567 -1 568
 Width: 531
 VWidth: 0
 Flags: HW
@@ -21776,7 +21775,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_KSsa.reph
-Encoding: 569 -1 569
+Encoding: 568 -1 569
 Width: 1043
 VWidth: 0
 Flags: HW
@@ -21846,7 +21845,7 @@ Refer: 475 3522 N 1 0 0 1 436 0 2
 EndChar
 
 StartChar: si_KVa.reph
-Encoding: 570 -1 570
+Encoding: 569 -1 570
 Width: 1036
 VWidth: 0
 Flags: HW
@@ -21918,7 +21917,7 @@ Refer: 473 3520 N 1 0 0 1 454 0 2
 EndChar
 
 StartChar: si_NDha.reph
-Encoding: 571 -1 571
+Encoding: 570 -1 571
 Width: 1052
 VWidth: 0
 Flags: HW
@@ -21975,7 +21974,7 @@ Refer: 461 3504 N 1 0 0 1 431 0 2
 EndChar
 
 StartChar: si_NDa.reph
-Encoding: 572 -1 572
+Encoding: 571 -1 572
 Width: 873
 VWidth: 0
 Flags: HW
@@ -22032,7 +22031,7 @@ Refer: 460 3503 N 1 0 0 1 429 0 2
 EndChar
 
 StartChar: si_NTha.reph
-Encoding: 573 -1 573
+Encoding: 572 -1 573
 Width: 1021
 VWidth: 0
 Flags: HW
@@ -22089,7 +22088,7 @@ Refer: 459 3502 N 1 0 0 1 424 0 2
 EndChar
 
 StartChar: si_NVa.reph
-Encoding: 574 -1 574
+Encoding: 573 -1 574
 Width: 1007
 VWidth: 0
 Flags: HW
@@ -22145,7 +22144,7 @@ Refer: 473 3520 N 1 0 0 1 428 0 2
 EndChar
 
 StartChar: si_TTha.reph
-Encoding: 575 -1 575
+Encoding: 574 -1 575
 Width: 992
 VWidth: 0
 Flags: HW
@@ -22204,7 +22203,7 @@ Refer: 459 3502 N 1 0 0 1 392 0 2
 EndChar
 
 StartChar: si_GDha.reph
-Encoding: 576 -1 576
+Encoding: 575 -1 576
 Width: 919
 VWidth: 0
 Flags: HW
@@ -22257,7 +22256,7 @@ Refer: 461 3504 N 1 0 0 1 300 0 2
 EndChar
 
 StartChar: si_TtTtha.reph
-Encoding: 577 -1 577
+Encoding: 576 -1 577
 Width: 711
 VWidth: 0
 Flags: HW
@@ -22325,7 +22324,7 @@ EndSplineSet
 EndChar
 
 StartChar: si_DDha.reph
-Encoding: 578 -1 578
+Encoding: 577 -1 578
 Width: 711
 VWidth: 0
 Flags: HW
@@ -22366,7 +22365,7 @@ Refer: 461 3504 N 1 0 0 1 90 0 2
 EndChar
 
 StartChar: si_DVa.reph
-Encoding: 579 -1 579
+Encoding: 578 -1 579
 Width: 671
 VWidth: 0
 Flags: HW
@@ -22403,6 +22402,28 @@ SplineSet
  68 32 26 117 26 216 c 256
 EndSplineSet
 Refer: 473 3520 N 1 0 0 1 90 0 2
+EndChar
+
+StartChar: mooniak
+Encoding: 580 -1 580
+Width: 952
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Back
+Fore
+SplineSet
+692.599609375 656 m 260
+ 692.599609375 719.2002158 743.7997842 770.400390625 807 770.400390625 c 260
+ 870.2002158 770.400390625 921.400390625 719.2002158 921.400390625 656 c 260
+ 921.400390625 592.7997842 870.2002158 541.599609375 807 541.599609375 c 260
+ 743.7997842 541.599609375 692.599609375 592.7997842 692.599609375 656 c 260
+30.400390625 371 m 260
+ 30.400390625 544.7997842 171.199994821 685.599609375 345 685.599609375 c 260
+ 518.7997842 685.599609375 659.599609375 544.7997842 659.599609375 371 c 260
+ 659.599609375 197.199994821 518.7997842 56.400390625 345 56.400390625 c 260
+ 171.199994821 56.400390625 30.400390625 197.199994821 30.400390625 371 c 260
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
