@@ -25,7 +25,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1459944718
+ModificationTime: 1459947784
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -481,7 +481,7 @@ NameList: sinhala
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 456 12 11
+WinInfo: 0 12 11
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "cursive" "'curs' Cursive Attachment in Sinhala lookup 2-1" "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
@@ -5333,19 +5333,19 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-146 524 m 256
- 146 613 243 651 343 651 c 256
- 446 651 546 604 546 511 c 256
- 546 450 508 405 429 399 c 257
- 411 421 l 257
- 414 421 416 421 419 421 c 256
- 476 421 518 451 518 500 c 256
- 518 563 421 584 343 584 c 256
- 264 584 187 555 187 504 c 256
- 187 445 317 421 401 421 c 256
- 402 421 402 422 403 422 c 257
- 388 402 l 257
- 232 405 146 451 146 524 c 256
+146 524 m 260
+ 146 613 243 651 343 651 c 260
+ 446 651 546 604 546 511 c 260
+ 546 450 508 405 429 399 c 261
+ 411 421 l 261
+ 414 421 416 421 419 421 c 260
+ 476 421 518 451 518 500 c 260
+ 518 563 421 584 343 584 c 260
+ 264 584 187 555 187 504 c 260
+ 187 445 317 421 401 421 c 260
+ 402 421 402 422 403 422 c 261
+ 388 402 l 261
+ 232 405 146 451 146 524 c 260
 EndSplineSet
 Refer: 477 3524 N 1 0 0 1 0 0 2
 EndChar
@@ -13926,23 +13926,23 @@ SplineSet
  303 236 335 203 335 135 c 256
  335 61 282 -1 193 -1 c 256
  89 -1 33 90 33 201 c 256
-380 508 m 256
- 380 474 411 446 449 446 c 256
- 487 446 519 474 519 508 c 256
- 519 542 487 569 449 569 c 256
- 411 569 380 542 380 508 c 256
-146 524 m 256
- 146 613 243 651 343 651 c 256
- 446 651 546 604 546 513 c 256
- 546 446 489 421 447 421 c 256
- 404 421 353 453 353 507 c 256
- 353 552 385 577 401 580 c 257
- 380 583 366 584 343 584 c 256
- 264 584 187 555 187 504 c 256
- 187 445 317 421 401 421 c 256
- 402 421 402 422 403 422 c 257
- 388 402 l 257
- 232 405 146 451 146 524 c 256
+380 508 m 260
+ 380 474 411 446 449 446 c 260
+ 487 446 519 474 519 508 c 260
+ 519 542 487 569 449 569 c 260
+ 411 569 380 542 380 508 c 260
+146 524 m 260
+ 146 613 243 651 343 651 c 260
+ 446 651 546 604 546 513 c 260
+ 546 446 489 421 447 421 c 260
+ 404 421 353 453 353 507 c 260
+ 353 552 385 577 401 580 c 261
+ 380 583 366 584 343 584 c 260
+ 264 584 187 555 187 504 c 260
+ 187 445 317 421 401 421 c 260
+ 402 421 402 422 403 422 c 261
+ 388 402 l 261
+ 232 405 146 451 146 524 c 260
 EndSplineSet
 EndChar
 
@@ -21163,6 +21163,7 @@ EndChar
 
 StartChar: si_GhR.halant
 Encoding: 124 -1 543
+GlifName: si_G_hR_.halant
 Width: 661
 VWidth: 0
 Flags: HW
@@ -21185,6 +21186,7 @@ EndChar
 
 StartChar: si_CR.halant
 Encoding: 142 -1 544
+GlifName: si_C_R_.halant
 Width: 606
 VWidth: 0
 Flags: HW
@@ -21207,6 +21209,7 @@ EndChar
 
 StartChar: si_JR.halant
 Encoding: 157 -1 545
+GlifName: si_J_R_.halant
 Width: 583
 VWidth: 0
 Flags: HW
@@ -21229,6 +21232,7 @@ EndChar
 
 StartChar: si_JhR.halant
 Encoding: 169 -1 546
+GlifName: si_J_hR_.halant
 Width: 1061
 VWidth: 0
 Flags: HW
@@ -21251,6 +21255,7 @@ EndChar
 
 StartChar: si_NyR.halant
 Encoding: 182 -1 547
+GlifName: si_N_yR_.halant
 Width: 1000
 VWidth: 0
 Flags: HW
@@ -21276,6 +21281,7 @@ EndChar
 
 StartChar: si_JnyR.halant
 Encoding: 195 -1 548
+GlifName: si_J_nyR_.halant
 Width: 822
 VWidth: 0
 Flags: HW
@@ -21301,6 +21307,7 @@ EndChar
 
 StartChar: si_NdjR.halant
 Encoding: 204 -1 549
+GlifName: si_N_djR_.halant
 Width: 682
 VWidth: 0
 Flags: HW
@@ -21323,6 +21330,7 @@ EndChar
 
 StartChar: si_TtR.halant
 Encoding: 212 -1 550
+GlifName: si_T_tR_.halant
 Width: 588
 VWidth: 0
 Flags: HW
@@ -21345,6 +21353,7 @@ EndChar
 
 StartChar: si_DdR.halant
 Encoding: 227 -1 551
+GlifName: si_D_dR_.halant
 Width: 631
 VWidth: 0
 Flags: HW
@@ -21367,6 +21376,7 @@ EndChar
 
 StartChar: si_TR.halant
 Encoding: 253 -1 552
+GlifName: si_T_R_.halant
 Width: 687
 VWidth: 0
 Flags: HW
@@ -21389,6 +21399,7 @@ EndChar
 
 StartChar: si_DR.halant
 Encoding: 275 -1 553
+GlifName: si_D_R_.halant
 Width: 445
 VWidth: 0
 Flags: HW
@@ -21414,6 +21425,7 @@ EndChar
 
 StartChar: si_DhR.halant
 Encoding: 290 -1 554
+GlifName: si_D_hR_.halant
 Width: 623
 VWidth: 0
 Flags: HW
@@ -21436,6 +21448,7 @@ EndChar
 
 StartChar: si_PR.halant
 Encoding: 316 -1 555
+GlifName: si_P_R_.halant
 Width: 601
 VWidth: 0
 Flags: HW
@@ -21458,6 +21471,7 @@ EndChar
 
 StartChar: si_BR.halant
 Encoding: 332 -1 556
+GlifName: si_B_R_.halant
 Width: 604
 VWidth: 0
 Flags: HW
@@ -21480,6 +21494,7 @@ EndChar
 
 StartChar: si_BhRa.halant
 Encoding: 342 -1 557
+GlifName: si_B_hR_a.halant
 Width: 654
 VWidth: 0
 Flags: HW
@@ -21502,6 +21517,7 @@ EndChar
 
 StartChar: si_MR.halant
 Encoding: 352 -1 558
+GlifName: si_M_R_.halant
 Width: 620
 VWidth: 0
 Flags: HW
@@ -21524,6 +21540,7 @@ EndChar
 
 StartChar: si_VR.halant
 Encoding: 392 -1 559
+GlifName: si_V_R_.halant
 Width: 583
 VWidth: 0
 Flags: HW
@@ -21546,6 +21563,7 @@ EndChar
 
 StartChar: si_ShR.halant
 Encoding: 402 -1 560
+GlifName: si_S_hR_.halant
 Width: 616
 VWidth: 0
 Flags: HW
@@ -21568,6 +21586,7 @@ EndChar
 
 StartChar: si_SsR.halant
 Encoding: 412 -1 561
+GlifName: si_S_sR_.halant
 Width: 607
 VWidth: 0
 Flags: HW
@@ -21590,6 +21609,7 @@ EndChar
 
 StartChar: si_SR.halant
 Encoding: 422 -1 562
+GlifName: si_S_R_.halant
 Width: 661
 VWidth: 0
 Flags: HW
@@ -21612,6 +21632,7 @@ EndChar
 
 StartChar: si_HR.halant
 Encoding: 432 -1 563
+GlifName: si_H_R_.halant
 Width: 637
 VWidth: 0
 Flags: HW
@@ -21634,6 +21655,7 @@ EndChar
 
 StartChar: si_HRI
 Encoding: 434 -1 564
+GlifName: si_H_R_I_
 Width: 637
 VWidth: 0
 Flags: HW
@@ -21656,6 +21678,7 @@ EndChar
 
 StartChar: si_FR.halant
 Encoding: 447 -1 565
+GlifName: si_F_R_.halant
 Width: 592
 VWidth: 0
 Flags: HW
@@ -21678,6 +21701,7 @@ EndChar
 
 StartChar: si_NDAa.halant
 Encoding: 479 -1 566
+GlifName: si_N_D_A_a.halant
 Width: 1024
 VWidth: 0
 Flags: HW
@@ -21703,6 +21727,7 @@ EndChar
 
 StartChar: si_Ya.post.MatraI
 Encoding: 566 -1 567
+GlifName: si_Y_a.post.M_atraI_
 Width: 531
 VWidth: 0
 Flags: HW
@@ -21710,17 +21735,19 @@ LayerCount: 2
 Back
 Fore
 SplineSet
-32 506 m 260
- 32 611 142 655 258 655 c 260
- 374 655 485 611 485 506 c 260
- 485 433 420 399 345 396 c 261
- 345 416 l 261
- 398 419 452 443 452 497 c 260
- 452 566 345 584 258 584 c 260
- 171 584 65 566 65 497 c 260
- 65 443 118 419 171 416 c 261
- 171 396 l 261
- 96 399 32 433 32 506 c 260
+96 524 m 260
+ 96 613 193 651 293 651 c 260
+ 396 651 496 604 496 511 c 260
+ 496 450 458 405 379 399 c 261
+ 361 421 l 261
+ 364 421 366 421 369 421 c 260
+ 426 421 468 451 468 500 c 260
+ 468 563 371 584 293 584 c 260
+ 214 584 137 555 137 504 c 260
+ 137 445 267 421 351 421 c 260
+ 352 421 352 422 353 422 c 261
+ 338 402 l 261
+ 182 405 96 451 96 524 c 260
 12 21 m 257
  102 59 183 138 183 262 c 256
  183 330 145 396 82 396 c 256
@@ -21751,29 +21778,31 @@ EndChar
 
 StartChar: si_Ya.post.MatraIi
 Encoding: 567 -1 568
+GlifName: si_Y_a.post.M_atraI_i
 Width: 531
 VWidth: 0
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Back
 Fore
 SplineSet
-322 502 m 260
- 322 472 351 447 386 447 c 260
- 421 447 451 472 451 502 c 260
- 451 532 421 557 386 557 c 260
- 351 557 322 532 322 502 c 260
--7 505 m 260
- -7 609 114 655 238 655 c 260
- 352 655 485 613 485 512 c 260
- 485 458 441 419 386 419 c 260
- 329 419 291 459 291 503 c 260
- 291 547 321 568 340 577 c 261
- 329 580 292 586 239 586 c 260
- 147 586 29 564 29 487 c 260
- 29 449 50 425 87 416 c 261
- 81 396 l 261
- 29 401 -7 445 -7 505 c 260
+330 508 m 260
+ 330 474 361 446 399 446 c 260
+ 437 446 469 474 469 508 c 260
+ 469 542 437 569 399 569 c 260
+ 361 569 330 542 330 508 c 260
+96 524 m 260
+ 96 613 193 651 293 651 c 260
+ 396 651 496 604 496 513 c 260
+ 496 446 439 421 397 421 c 260
+ 354 421 303 453 303 507 c 260
+ 303 552 335 577 351 580 c 261
+ 330 583 316 584 293 584 c 260
+ 214 584 137 555 137 504 c 260
+ 137 445 267 421 351 421 c 260
+ 352 421 352 422 353 422 c 261
+ 338 402 l 261
+ 182 405 96 451 96 524 c 260
 12 21 m 257
  102 59 183 138 183 262 c 256
  183 330 145 396 82 396 c 256
@@ -21804,6 +21833,7 @@ EndChar
 
 StartChar: si_KSsa.reph
 Encoding: 568 -1 569
+GlifName: si_K_S_sa.reph
 Width: 1043
 VWidth: 0
 Flags: HW
@@ -21874,6 +21904,7 @@ EndChar
 
 StartChar: si_KVa.reph
 Encoding: 569 -1 570
+GlifName: si_K_V_a.reph
 Width: 1036
 VWidth: 0
 Flags: HW
@@ -21946,6 +21977,7 @@ EndChar
 
 StartChar: si_NDha.reph
 Encoding: 570 -1 571
+GlifName: si_N_D_ha.reph
 Width: 1052
 VWidth: 0
 Flags: HW
@@ -22003,6 +22035,7 @@ EndChar
 
 StartChar: si_NDa.reph
 Encoding: 571 -1 572
+GlifName: si_N_D_a.reph
 Width: 873
 VWidth: 0
 Flags: HW
@@ -22060,6 +22093,7 @@ EndChar
 
 StartChar: si_NTha.reph
 Encoding: 572 -1 573
+GlifName: si_N_T_ha.reph
 Width: 1021
 VWidth: 0
 Flags: HW
@@ -22117,6 +22151,7 @@ EndChar
 
 StartChar: si_NVa.reph
 Encoding: 573 -1 574
+GlifName: si_N_V_a.reph
 Width: 1007
 VWidth: 0
 Flags: HW
@@ -22173,6 +22208,7 @@ EndChar
 
 StartChar: si_TTha.reph
 Encoding: 574 -1 575
+GlifName: si_T_T_ha.reph
 Width: 992
 VWidth: 0
 Flags: HW
@@ -22232,6 +22268,7 @@ EndChar
 
 StartChar: si_GDha.reph
 Encoding: 575 -1 576
+GlifName: si_G_D_ha.reph
 Width: 919
 VWidth: 0
 Flags: HW
@@ -22285,6 +22322,7 @@ EndChar
 
 StartChar: si_TtTtha.reph
 Encoding: 576 -1 577
+GlifName: si_T_tT_tha.reph
 Width: 711
 VWidth: 0
 Flags: HW
@@ -22353,6 +22391,7 @@ EndChar
 
 StartChar: si_DDha.reph
 Encoding: 577 -1 578
+GlifName: si_D_D_ha.reph
 Width: 711
 VWidth: 0
 Flags: HW
@@ -22394,6 +22433,7 @@ EndChar
 
 StartChar: si_DVa.reph
 Encoding: 578 -1 579
+GlifName: si_D_V_a.reph
 Width: 671
 VWidth: 0
 Flags: HW
@@ -22434,6 +22474,7 @@ EndChar
 
 StartChar: mooniak
 Encoding: 580 -1 580
+GlifName: mooniak
 Width: 952
 VWidth: 0
 Flags: HW
