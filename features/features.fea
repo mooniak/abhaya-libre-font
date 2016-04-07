@@ -24,21 +24,6 @@ lookup si_akhands {
   sub si_Ga si_Halant zwj si_Dha by si_GDha;
 } si_akhands;
 
-lookup si_akhands_reph {
-  sub si_KSsa si_Halant zwj si_Ssa by si_KSsa.reph;
-  sub si_KVa si_Halant zwj si_Va by si_KVa.reph;
-  sub si_TVa si_Halant zwj si_Va by si_TVa.reph;
-  sub si_TTha si_Halant zwj si_Tha by si_TTha.reph;
-  sub si_NDa si_Halant zwj si_Da by si_NDa.reph;
-  sub si_NVa si_Halant zwj si_Va by si_NVa.reph;
-  sub si_NDha si_Halant zwj si_Dha by si_NDha.reph;
-  sub si_NTha si_Halant zwj si_Tha by si_NTha.reph;
-  sub si_DVa si_Halant zwj si_Va by si_DVa.reph;
-  sub si_DDha si_Halant zwj si_Dha by si_DDha.reph;
-  sub si_TtTtha si_Halant zwj si_Ttha by si_TtTtha.reph;
-  sub si_GDha si_Halant zwj si_Dha by si_GDha.reph;
-} si_akhands_reph;
-
 #---- REPH ----
 
 lookup si_reph {
@@ -328,7 +313,23 @@ lookup si_abvs_7 {
   sub si_Ssa si_Reph by si_Ssa.reph;
   sub si_Sa si_Reph by si_Sa.reph;
   sub si_Ha si_Reph by si_Ha.reph;
+  sub si_Na si_Reph by si_Na.reph;
 } si_abvs_7;
+
+lookup si_akhands_reph {
+  sub si_KSsa si_Reph by si_KSsa.reph;
+  sub si_KVa si_Reph by si_KVa.reph;
+  sub si_TVa si_Reph by si_TVa.reph;
+  sub si_TTha si_Reph by si_TTha.reph;
+  sub si_NDa si_Reph by si_NDa.reph;
+  sub si_NVa si_Reph by si_NVa.reph;
+  sub si_NDha si_Reph by si_NDha.reph;
+  sub si_NTha si_Reph by si_NTha.reph;
+  sub si_DVa si_Reph by si_DVa.reph;
+  sub si_DDha si_Reph by si_DDha.reph;
+  sub si_TtTtha si_Reph by si_TtTtha.reph;
+  sub si_GDha si_Reph by si_GDha.reph;
+} si_akhands_reph;
 
 #----------- BLWS --------------
 #-------------------------------
@@ -925,6 +926,7 @@ feature abvs {
       lookup si_abvs_5;
       lookup si_abvs_6;
       lookup si_abvs_7;
+      lookup si_akhands_reph;
 } abvs;
 
 #-------------
