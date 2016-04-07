@@ -39,7 +39,7 @@ family.set_styles([
 
 builder = kit.Builder(family)
 
-builder.fontrevision = '1.000'
+builder.fontrevision = '1.040'
 
 builder.set_options([
 
@@ -63,4 +63,4 @@ builder.generate_fmndb()
 
 builder.build()
 print os.listdir("instances")
-subprocess.call(['python', 'scripts/ttfbuild.py', 's', "AbhayaLibre"])
+subprocess.call(['python', 'scripts/ttfbuild.py', 's', "Abhaya Libre", "AbhayaLibre", "AbhayaLibre"])
