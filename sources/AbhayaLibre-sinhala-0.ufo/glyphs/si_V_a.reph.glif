@@ -6,57 +6,57 @@
       <point x="46" y="0" type="move" name="_cursive"/>
     </contour>
     <contour>
-      <point x="247" y="606" type="curve" smooth="yes"/>
-      <point x="247" y="627"/>
-      <point x="266" y="643"/>
-      <point x="287" y="643" type="curve" smooth="yes"/>
-      <point x="308" y="643"/>
-      <point x="327" y="627"/>
-      <point x="327" y="606" type="curve" smooth="yes"/>
-      <point x="327" y="585"/>
-      <point x="308" y="570"/>
-      <point x="287" y="570" type="curve" smooth="yes"/>
-      <point x="266" y="570"/>
-      <point x="247" y="585"/>
+      <point x="247" y="603" type="curve" smooth="yes"/>
+      <point x="247" y="582"/>
+      <point x="266" y="567"/>
+      <point x="287" y="567" type="curve" smooth="yes"/>
+      <point x="308" y="567"/>
+      <point x="327" y="582"/>
+      <point x="327" y="603" type="curve" smooth="yes"/>
+      <point x="327" y="624"/>
+      <point x="308" y="640"/>
+      <point x="287" y="640" type="curve" smooth="yes"/>
+      <point x="266" y="640"/>
+      <point x="247" y="624"/>
     </contour>
     <contour>
-      <point x="147" y="625" type="curve" smooth="yes"/>
-      <point x="147" y="570"/>
-      <point x="205" y="542"/>
-      <point x="263" y="542" type="curve" smooth="yes"/>
-      <point x="320" y="542"/>
-      <point x="354" y="567"/>
-      <point x="354" y="605" type="curve" smooth="yes"/>
-      <point x="354" y="639"/>
-      <point x="326" y="666"/>
-      <point x="286" y="666" type="curve" smooth="yes"/>
-      <point x="251" y="666"/>
-      <point x="221" y="641"/>
-      <point x="221" y="607" type="curve" smooth="yes"/>
-      <point x="221" y="586"/>
-      <point x="232" y="572"/>
-      <point x="240" y="566" type="curve"/>
-      <point x="218" y="568"/>
-      <point x="178" y="587"/>
-      <point x="178" y="625" type="curve" smooth="yes"/>
-      <point x="178" y="677"/>
-      <point x="231" y="697"/>
-      <point x="283" y="697" type="curve" smooth="yes"/>
-      <point x="343" y="697"/>
-      <point x="393" y="667"/>
-      <point x="393" y="611" type="curve" smooth="yes"/>
-      <point x="393" y="585"/>
-      <point x="377" y="561"/>
-      <point x="364" y="549" type="curve"/>
-      <point x="397" y="549" type="line"/>
-      <point x="414" y="568"/>
-      <point x="422" y="589"/>
-      <point x="422" y="612" type="curve" smooth="yes"/>
-      <point x="422" y="681"/>
-      <point x="359" y="724"/>
-      <point x="284" y="724" type="curve" smooth="yes"/>
-      <point x="204" y="724"/>
-      <point x="147" y="687"/>
+      <point x="147" y="622" type="curve" smooth="yes"/>
+      <point x="147" y="684"/>
+      <point x="204" y="721"/>
+      <point x="284" y="721" type="curve" smooth="yes"/>
+      <point x="359" y="721"/>
+      <point x="422" y="678"/>
+      <point x="422" y="609" type="curve" smooth="yes"/>
+      <point x="422" y="586"/>
+      <point x="414" y="565"/>
+      <point x="397" y="546" type="curve"/>
+      <point x="364" y="546" type="line"/>
+      <point x="377" y="558"/>
+      <point x="393" y="582"/>
+      <point x="393" y="608" type="curve" smooth="yes"/>
+      <point x="393" y="664"/>
+      <point x="343" y="694"/>
+      <point x="283" y="694" type="curve" smooth="yes"/>
+      <point x="231" y="694"/>
+      <point x="178" y="674"/>
+      <point x="178" y="622" type="curve" smooth="yes"/>
+      <point x="178" y="584"/>
+      <point x="218" y="565"/>
+      <point x="240" y="563" type="curve"/>
+      <point x="232" y="569"/>
+      <point x="221" y="583"/>
+      <point x="221" y="604" type="curve" smooth="yes"/>
+      <point x="221" y="638"/>
+      <point x="251" y="663"/>
+      <point x="286" y="663" type="curve" smooth="yes"/>
+      <point x="326" y="663"/>
+      <point x="354" y="636"/>
+      <point x="354" y="602" type="curve" smooth="yes"/>
+      <point x="354" y="564"/>
+      <point x="320" y="539"/>
+      <point x="263" y="539" type="curve" smooth="yes"/>
+      <point x="205" y="539"/>
+      <point x="147" y="567"/>
     </contour>
     <component base="si_Va"/>
   </outline>

@@ -211,7 +211,7 @@ feature curs {
 	\si_HR.halant \si_HRI \si_FR.halant \si_NDAa.halant \si_Ya.post.MatraI 
 	\si_Ya.post.MatraIi \si_KSsa.reph \si_KVa.reph \si_NDha.reph \si_NDa.reph 
 	\si_NTha.reph \si_NVa.reph \si_TTha.reph \si_GDha.reph \si_TtTtha.reph 
-	\si_DDha.reph \si_DVa.reph \mooniak \si_TVa.reph ];
+	\si_DDha.reph \si_DVa.reph \mooniak \si_TVa.reph \si_Nya.reph \si_Jnya.reph ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
