@@ -315,8 +315,8 @@ lookup si_abvs_7 {
   sub si_Ha si_Reph by si_Ha.reph;
   sub si_Na si_Reph by si_Na.reph;
   sub si_Jha si_Reph by si_Jha.reph;
-  #sub si_Nya si_Reph by si_Nya.reph;
-  #sub si_Jnya si_Reph by si_Jnya.reph;
+  sub si_Nya si_Reph by si_Nya.reph;
+  sub si_Jnya si_Reph by si_Jnya.reph;
 } si_abvs_7;
 
 lookup si_akhands_reph {
