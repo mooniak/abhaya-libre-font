@@ -120,6 +120,9 @@ lookup si_halant_2 {
  } si_halant_3;
 
 #---- ABVS ----
+# lookup reph_post {
+#   sub si_Reph si_Ya.post by si_Ya.post.reph;
+# } reph_post;
 
 lookup si_abvs_1 {
   sub si_Ka si_MatraI by si_KI;
@@ -344,6 +347,7 @@ lookup si_akhands_reph {
   sub si_Tta si_Reph si_Halant zwj si_Ttha by si_TtTtha.reph;
   sub si_GDha si_Reph by si_GDha.reph;
   sub si_Ga si_Reph si_Halant zwj si_Dha by si_GDha.reph;
+  # sub si_Ya.post si_Reph by si_Ya.post.reph;
 } si_akhands_reph;
 
 #----------- BLWS --------------
@@ -940,6 +944,7 @@ feature abvs {
       lookup si_abvs_4;
       lookup si_abvs_5;
       lookup si_abvs_6;
+    #   lookup reph_post;
       lookup si_abvs_7;
       lookup si_akhands_reph;
 } abvs;
