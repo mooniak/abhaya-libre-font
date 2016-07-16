@@ -2,12 +2,11 @@ SplineFontDB: 3.0
 FontName: AbhayaLibre-ExtraBold
 FullName: AbhayaLibre
 FamilyName: AbhayaLibre
-OS2FamilyName: "AbhayaLibre"
-OS2StyleName: "regular"
 Weight: ExtraBold
 Copyright: Copyright (c) 1997 Pushpananda Ekanayake (http://isiwara.lk)  Copyright (c) 2015 Sol Matas (http://sonnenshine.com.ar/) Copyright (c) 2015 mooniak (http://mooniak.com)
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
+StyleMapFamilyName: AbhayaLibre
 ItalicAngle: 0
 UnderlinePosition: -99
 UnderlineWidth: 49
@@ -20,12 +19,13 @@ LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
 PreferredKerning: 4
+StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051463
-ModificationTime: 1460119582
+ModificationTime: 1468673729
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -44,8 +44,6 @@ HheadAscent: 896
 HheadAOffset: 0
 HheadDescent: -200
 HheadDOffset: 0
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'PfEd'
 OS2UnicodeRanges: 00000002.00000000.00000000.00000000
 Lookup: 1 0 0 "Abhaya Libre Latin-Regular-'sups' Superscript lookup 0" { "Abhaya Libre Latin-Regular-'sups' Superscript lookup 0 subtable"  } ['sups' ('DFLT' <'dflt' > ) ]
@@ -499,11 +497,11 @@ p186
 s."
 Encoding: Custom
 UnicodeInterp: none
-NameList: sinhala
+NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 517 11 7
+WinInfo: 0 8 2
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
@@ -516,7 +514,6 @@ Width: 631
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -92.6602 m 257
@@ -546,6 +543,7 @@ SplineSet
  284.018 432.286 266.365 421.105 255.462 406.199 c 257
  212.887 451.452 l 257
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: si_JnyAe
@@ -556,7 +554,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 411 165 m 260
@@ -617,6 +614,7 @@ SplineSet
  26 345 97 423 233 423 c 256
  242 423 292 422 318 421 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JnyAee
@@ -627,7 +625,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 411 165 m 260
@@ -698,6 +695,7 @@ SplineSet
  26 345 97 423 233 423 c 256
  242 423 292 422 318 421 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyAe
@@ -708,7 +706,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 589 165 m 260
@@ -788,6 +785,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyAee
@@ -798,7 +796,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 589 165 m 256
@@ -888,6 +885,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: zwj
@@ -898,7 +896,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 640 m 257
@@ -918,6 +915,7 @@ SplineSet
  176 758 l 257
  54 640 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: zwnj
@@ -928,7 +926,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -39 -10 m 257
@@ -937,6 +934,7 @@ SplineSet
  39 -10 l 257
  -39 -10 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_B.halant
@@ -947,7 +945,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 99 74 m 256
@@ -988,6 +985,7 @@ SplineSet
  224 28 185 -1 146 -1 c 256
  66 -1 32 89 32 183 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_BI
@@ -998,7 +996,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 65 549 m 256
@@ -1039,6 +1036,7 @@ SplineSet
  224 28 185 -1 146 -1 c 256
  66 -1 32 89 32 183 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_BIi
@@ -1049,7 +1047,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 383 526 m 256
@@ -1095,6 +1092,7 @@ SplineSet
  224 28 185 -1 146 -1 c 256
  66 -1 32 89 32 183 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_BRI
@@ -1105,7 +1103,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 57 -43 m 257
@@ -1119,6 +1116,7 @@ SplineSet
  171 -214 93 -150 57 -43 c 257
 EndSplineSet
 Refer: 8 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BRIi
@@ -1129,7 +1127,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 57 -43 m 257
@@ -1143,6 +1140,7 @@ SplineSet
  171 -214 93 -150 57 -43 c 257
 EndSplineSet
 Refer: 9 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BRa
@@ -1153,7 +1151,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 57 -43 m 261
@@ -1167,6 +1164,7 @@ SplineSet
  171 -214 93 -150 57 -43 c 261
 EndSplineSet
 Refer: 464 3510 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BU
@@ -1177,7 +1175,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 48 -139 m 256
@@ -1195,6 +1192,7 @@ SplineSet
  73 -229 48 -182 48 -139 c 256
 EndSplineSet
 Refer: 464 3510 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BUu
@@ -1205,7 +1203,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 48 -135 m 256
@@ -1226,6 +1223,7 @@ SplineSet
  102 -231 48 -201 48 -135 c 256
 EndSplineSet
 Refer: 464 3510 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ba.reph
@@ -1236,10 +1234,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 320 -1 N 1 0 0 1 604 109 2
 Refer: 464 3510 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Bh.halant
@@ -1250,7 +1248,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 456 388 m 257
@@ -1267,6 +1264,7 @@ SplineSet
  484 492 l 257
 EndSplineSet
 Refer: 465 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhI
@@ -1277,7 +1275,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 174 524 m 256
@@ -1295,6 +1292,7 @@ SplineSet
  259 401 174 451 174 524 c 256
 EndSplineSet
 Refer: 465 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhIi
@@ -1305,7 +1303,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 412 508 m 256
@@ -1327,6 +1324,7 @@ SplineSet
  259 399 174 451 174 524 c 256
 EndSplineSet
 Refer: 465 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhRI
@@ -1337,7 +1335,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 74 -43 m 257
@@ -1351,6 +1348,7 @@ SplineSet
  186 -214 110 -150 74 -43 c 257
 EndSplineSet
 Refer: 17 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhRIi
@@ -1361,7 +1359,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 412 508 m 256
@@ -1392,6 +1389,7 @@ SplineSet
  186 -214 110 -150 74 -43 c 257
 EndSplineSet
 Refer: 465 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhRa
@@ -1402,7 +1400,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 74 -43 m 261
@@ -1416,6 +1413,7 @@ SplineSet
  186 -214 110 -150 74 -43 c 261
 EndSplineSet
 Refer: 465 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhU
@@ -1426,7 +1424,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 6 265 m 257
@@ -1476,6 +1473,7 @@ SplineSet
  605 -119 562 -187 464 -187 c 256
  398 -187 331 -155 331 -70 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_BhUu
@@ -1486,7 +1484,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 364 -126 m 256
@@ -1508,6 +1505,7 @@ SplineSet
  426 -200 364 -183 364 -126 c 256
 EndSplineSet
 Refer: 465 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Bha.reph
@@ -1518,7 +1516,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 290 499 m 256
@@ -1542,6 +1539,7 @@ SplineSet
  247 435 189 463 189 518 c 256
 EndSplineSet
 Refer: 465 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_C.halant
@@ -1552,7 +1550,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 141 525 m 256
@@ -1601,6 +1598,7 @@ SplineSet
  145 268 l 258
  76 267 29 264 13 261 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_CI
@@ -1611,7 +1609,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 71 549 m 256
@@ -1657,6 +1654,7 @@ SplineSet
  145 268 l 258
  76 267 29 264 13 261 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_CIi
@@ -1667,7 +1665,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 385 526 m 256
@@ -1718,6 +1715,7 @@ SplineSet
  145 268 l 258
  76 267 29 264 13 261 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_CRI
@@ -1728,7 +1726,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 257
@@ -1742,6 +1739,7 @@ SplineSet
  157 -214 81 -150 45 -43 c 257
 EndSplineSet
 Refer: 26 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_CRIi
@@ -1752,7 +1750,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 257
@@ -1766,6 +1763,7 @@ SplineSet
  157 -214 81 -150 45 -43 c 257
 EndSplineSet
 Refer: 27 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_CRa
@@ -1776,7 +1774,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 261
@@ -1790,6 +1787,7 @@ SplineSet
  157 -214 81 -150 45 -43 c 261
 EndSplineSet
 Refer: 443 3488 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_CU
@@ -1800,7 +1798,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 69 -139 m 256
@@ -1818,6 +1815,7 @@ SplineSet
  94 -229 69 -182 69 -139 c 256
 EndSplineSet
 Refer: 443 3488 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_CUu
@@ -1828,7 +1826,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 69 -135 m 256
@@ -1849,6 +1846,7 @@ SplineSet
  123 -231 69 -201 69 -135 c 256
 EndSplineSet
 Refer: 443 3488 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ca.reph
@@ -1859,7 +1857,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 268 604 m 256
@@ -1883,6 +1880,7 @@ SplineSet
  225 540 167 568 167 623 c 256
 EndSplineSet
 Refer: 443 3488 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ch.halant
@@ -1893,7 +1891,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 279 328 m 257
@@ -1910,6 +1907,7 @@ SplineSet
  307 566 l 257
 EndSplineSet
 Refer: 444 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ChI
@@ -1920,7 +1918,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 228 478 m 256
@@ -1939,6 +1936,7 @@ SplineSet
  254 397 228 429 228 478 c 256
 EndSplineSet
 Refer: 444 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ChIi
@@ -1949,7 +1947,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 331 565 m 256
@@ -1972,6 +1969,7 @@ SplineSet
  254 397 228 429 228 478 c 256
 EndSplineSet
 Refer: 444 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ChU
@@ -1983,23 +1981,40 @@ GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Back
+SplineSet
+38 -139 m 260
+ 38 -88 83 -49 137 -49 c 260
+ 178 -49 215 -72 229 -107 c 261
+ 197 -119 l 261
+ 190 -102 169 -80 137 -80 c 260
+ 101 -80 73 -107 73 -139 c 260
+ 73 -167 94 -188 162 -188 c 262
+ 493 -188 l 261
+ 493 125 l 261
+ 528 202 l 261
+ 528 -229 l 261
+ 141 -229 l 262
+ 63 -229 38 -182 38 -139 c 260
+EndSplineSet
+Refer: 444 3489 S 1 0 0 1 0 0 2
 Fore
 SplineSet
-38 -139 m 256
- 38 -88 83 -49 137 -49 c 256
- 178 -49 215 -72 229 -107 c 257
- 197 -119 l 257
- 190 -102 169 -80 137 -80 c 256
- 101 -80 73 -107 73 -139 c 256
- 73 -167 94 -188 162 -188 c 258
- 493 -188 l 257
- 493 125 l 257
- 528 202 l 257
- 528 -229 l 257
- 141 -229 l 258
- 63 -229 38 -182 38 -139 c 256
+38 -139 m 260
+ 38 -88 83 -49 137 -49 c 260
+ 178 -49 215 -72 229 -107 c 261
+ 197 -119 l 261
+ 190 -102 169 -80 137 -80 c 260
+ 101 -80 73 -107 73 -139 c 260
+ 73 -167 94 -188 162 -188 c 262
+ 493 -188 l 261
+ 493 125 l 261
+ 528 202 l 261
+ 528 -229 l 261
+ 141 -229 l 262
+ 63 -229 38 -182 38 -139 c 260
 EndSplineSet
-Refer: 444 3489 N 1 0 0 1 0 0 2
+Refer: 444 3489 S 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ChUu
@@ -2010,7 +2025,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 38 -135 m 256
@@ -2031,6 +2045,7 @@ SplineSet
  92 -231 38 -201 38 -135 c 256
 EndSplineSet
 Refer: 444 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_D.halant
@@ -2041,7 +2056,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 257 403 m 261
@@ -2058,6 +2072,7 @@ SplineSet
  285 492 l 261
 EndSplineSet
 Refer: 458 3503 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DAa
@@ -2068,7 +2083,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 165 m 256
@@ -2100,6 +2114,7 @@ SplineSet
  272 1 256 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DAa.halant
@@ -2110,7 +2125,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 113 165 m 256
@@ -2154,6 +2168,7 @@ SplineSet
  594 573 563 592 518 622 c 261
  518 492 l 261
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DAae
@@ -2164,7 +2179,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 165 m 256
@@ -2206,6 +2220,7 @@ SplineSet
  258 -1 256 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DAe
@@ -2216,7 +2231,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 165 m 256
@@ -2248,6 +2262,7 @@ SplineSet
  258 -1 256 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DDdh.halant
@@ -2258,7 +2273,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 230 523 m 256
@@ -2303,6 +2317,7 @@ SplineSet
  132 0 l 257
  67 32 26 108 26 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DDhI
@@ -2313,7 +2328,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 26 207 m 256
@@ -2327,6 +2341,7 @@ SplineSet
  67 32 26 108 26 207 c 256
 EndSplineSet
 Refer: 84 -1 N 1 0 0 1 90 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DDhIi
@@ -2337,7 +2352,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 26 207 m 256
@@ -2351,6 +2365,7 @@ SplineSet
  67 32 26 108 26 207 c 256
 EndSplineSet
 Refer: 85 -1 N 1 0 0 1 90 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DDhU
@@ -2361,7 +2376,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 140 -139 m 256
@@ -2379,6 +2393,7 @@ SplineSet
  165 -229 140 -182 140 -139 c 256
 EndSplineSet
 Refer: 49 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DDhUu
@@ -2389,7 +2404,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 140 -135 m 256
@@ -2410,6 +2424,7 @@ SplineSet
  194 -231 140 -201 140 -135 c 256
 EndSplineSet
 Refer: 49 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DDha
@@ -2420,7 +2435,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 26 207 m 256
@@ -2434,6 +2448,7 @@ SplineSet
  67 32 26 108 26 207 c 256
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 91 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DI
@@ -2444,7 +2459,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 34 506 m 256
@@ -2460,6 +2474,7 @@ SplineSet
  83 405 34 441 34 506 c 256
 EndSplineSet
 Refer: 458 3503 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DIi
@@ -2470,7 +2485,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 244 481 m 256
@@ -2491,6 +2505,7 @@ SplineSet
  83 405 34 441 34 506 c 256
 EndSplineSet
 Refer: 458 3503 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DRI
@@ -2501,7 +2516,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 34 506 m 256
@@ -2541,6 +2555,7 @@ SplineSet
  357 29 316 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DRIi
@@ -2551,7 +2566,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 244 481 m 256
@@ -2596,6 +2610,7 @@ SplineSet
  357 29 316 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DRa
@@ -2606,7 +2621,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 -42 m 257
@@ -2635,6 +2649,7 @@ SplineSet
  357 29 316 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DU
@@ -2645,7 +2660,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 -139 m 256
@@ -2678,6 +2692,7 @@ SplineSet
  361 31 316 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DUu
@@ -2688,7 +2703,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 -135 m 256
@@ -2724,6 +2738,7 @@ SplineSet
  357 29 316 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DV.halant
@@ -2734,7 +2749,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 121 161 m 256
@@ -2778,6 +2792,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_DVI
@@ -2788,7 +2803,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 135 549 m 256
@@ -2833,6 +2847,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVIi
@@ -2843,7 +2858,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 447 526 m 256
@@ -2893,6 +2907,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVU
@@ -2903,7 +2918,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 133 -139 m 256
@@ -2950,6 +2964,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVUu
@@ -2960,7 +2975,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 135 -135 m 256
@@ -3010,6 +3024,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DVa
@@ -3020,7 +3035,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 122 161 m 256
@@ -3054,6 +3068,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYAa.post
@@ -3064,7 +3079,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 578 -30 m 257
@@ -3120,6 +3134,7 @@ SplineSet
  403 73 l 257
  357 28 319 -1 229 -1 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYOo.post
@@ -3130,7 +3145,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 712 -65 m 257
@@ -3198,6 +3212,7 @@ SplineSet
  403 73 l 257
  357 28 319 -1 229 -1 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYUu.post
@@ -3208,7 +3223,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 332 45 m 257
@@ -3269,6 +3283,7 @@ SplineSet
  543 -171 l 257
  572 -136 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYa.post
@@ -3279,7 +3294,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 332 45 m 257
@@ -3324,6 +3338,7 @@ SplineSet
  403 73 l 257
  357 28 319 -1 229 -1 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DYu.post
@@ -3334,7 +3349,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 332 45 m 257
@@ -3392,6 +3406,7 @@ SplineSet
  542 -171 l 257
  572 -136 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Da.reph
@@ -3402,7 +3417,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 195 499 m 260
@@ -3426,6 +3440,7 @@ SplineSet
  151 435 94 463 94 518 c 260
 EndSplineSet
 Refer: 458 3503 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Dd.halant
@@ -3436,7 +3451,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 148 525 m 256
@@ -3483,6 +3497,7 @@ SplineSet
  45 207 69 255 122 278 c 257
  15 278 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdI
@@ -3493,7 +3508,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 77 549 m 256
@@ -3537,6 +3551,7 @@ SplineSet
  45 207 69 255 122 278 c 257
  15 278 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdIi
@@ -3547,7 +3562,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 406 526 m 256
@@ -3596,6 +3610,7 @@ SplineSet
  45 207 69 255 122 278 c 257
  15 278 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdRI
@@ -3606,7 +3621,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -3620,6 +3634,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 70 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DdRIi
@@ -3630,7 +3645,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -3644,6 +3658,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 71 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DdRa
@@ -3654,7 +3669,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 261
@@ -3668,6 +3682,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 261
 EndSplineSet
 Refer: 452 3497 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DdU
@@ -3678,7 +3693,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -139 m 256
@@ -3696,6 +3710,7 @@ SplineSet
  75 -229 50 -182 50 -139 c 256
 EndSplineSet
 Refer: 452 3497 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DdUu
@@ -3706,7 +3721,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -135 m 256
@@ -3727,6 +3741,7 @@ SplineSet
  104 -231 50 -201 50 -135 c 256
 EndSplineSet
 Refer: 452 3497 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Dda.reph
@@ -3737,7 +3752,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 272 607 m 256
@@ -3761,6 +3775,7 @@ SplineSet
  228 543 171 571 171 626 c 256
 EndSplineSet
 Refer: 452 3497 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ddh.halant
@@ -3771,7 +3786,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 466 508 m 257
@@ -3822,6 +3836,7 @@ SplineSet
  45 206 69 255 122 278 c 257
  15 278 l 257
 EndSplineSet
+Validated: 5
 LCarets2: 1 170
 EndChar
 
@@ -3833,7 +3848,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 334 460 m 256
@@ -3885,6 +3899,7 @@ SplineSet
  288 484 263 476 221 476 c 256
  162 476 109 504 109 561 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdhIi
@@ -3895,7 +3910,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 334 460 m 256
@@ -3952,6 +3966,7 @@ SplineSet
  288 483 263 476 221 476 c 256
  162 476 109 504 109 561 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DdhU
@@ -3962,7 +3977,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -139 m 256
@@ -3980,6 +3994,7 @@ SplineSet
  75 -229 50 -182 50 -139 c 256
 EndSplineSet
 Refer: 453 3498 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DdhUu
@@ -3990,7 +4005,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -135 m 256
@@ -4011,6 +4025,7 @@ SplineSet
  104 -231 50 -201 50 -135 c 256
 EndSplineSet
 Refer: 453 3498 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Dh.halant
@@ -4021,7 +4036,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 141 523 m 256
@@ -4057,6 +4071,7 @@ SplineSet
  266 20 230 0 186 0 c 256
  86 0 32 93 32 190 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DhI
@@ -4067,7 +4082,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 190 m 256
@@ -4102,6 +4116,7 @@ SplineSet
  466 551 404 567 299 567 c 256
  225 567 131 559 131 525 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DhIi
@@ -4112,7 +4127,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 190 m 256
@@ -4153,6 +4167,7 @@ SplineSet
  127 499 177 496 277 492 c 256
  305 491 339 490 372 486 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_DhRI
@@ -4163,7 +4178,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -4177,6 +4191,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 84 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhRIi
@@ -4187,7 +4202,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -4201,6 +4215,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 85 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhRa
@@ -4211,7 +4226,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 261
@@ -4225,6 +4239,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 261
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhU
@@ -4235,7 +4250,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -139 m 256
@@ -4253,6 +4267,7 @@ SplineSet
  75 -229 50 -182 50 -139 c 256
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhUu
@@ -4263,7 +4278,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -135 m 256
@@ -4284,6 +4298,7 @@ SplineSet
  104 -231 50 -201 50 -135 c 256
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Dha.reph
@@ -4294,7 +4309,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 268 607 m 260
@@ -4318,6 +4332,7 @@ SplineSet
  225 543 167 571 167 626 c 260
 EndSplineSet
 Refer: 459 3504 S 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DvocR
@@ -4328,7 +4343,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 413 243 m 256
@@ -4358,6 +4372,7 @@ SplineSet
  466 170 443 147 443 104 c 256
 EndSplineSet
 Refer: 458 3503 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_DvocRr
@@ -4368,7 +4383,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 662 243 m 256
@@ -4423,6 +4437,7 @@ SplineSet
  466 170 443 147 443 104 c 256
 EndSplineSet
 Refer: 458 3503 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_F.halant
@@ -4433,7 +4448,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 394 413 m 257
@@ -4450,6 +4464,7 @@ SplineSet
  422 492 l 257
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FI
@@ -4460,7 +4475,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 62 506 m 256
@@ -4476,6 +4490,7 @@ SplineSet
  127 399 62 433 62 506 c 256
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FIi
@@ -4486,7 +4501,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 378 502 m 256
@@ -4507,6 +4521,7 @@ SplineSet
  84 403 47 445 47 500 c 256
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FRI
@@ -4517,7 +4532,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 62 506 m 256
@@ -4542,6 +4556,7 @@ SplineSet
  168 -214 94 -150 58 -43 c 257
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FRIi
@@ -4552,7 +4567,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 378 502 m 256
@@ -4582,6 +4596,7 @@ SplineSet
  168 -214 94 -150 58 -43 c 257
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FRa
@@ -4592,7 +4607,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 58 -43 m 261
@@ -4606,6 +4620,7 @@ SplineSet
  168 -214 94 -150 58 -43 c 261
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FU
@@ -4616,7 +4631,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 52 -139 m 256
@@ -4634,6 +4648,7 @@ SplineSet
  77 -229 52 -182 52 -139 c 256
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FUu
@@ -4644,7 +4659,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 52 -135 m 256
@@ -4665,6 +4679,7 @@ SplineSet
  106 -231 52 -201 52 -135 c 256
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Fa.reph
@@ -4675,7 +4690,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 253 499 m 256
@@ -4699,6 +4713,7 @@ SplineSet
  210 435 153 463 153 518 c 256
 EndSplineSet
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_G.halant
@@ -4709,7 +4724,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 424 340 m 257
@@ -4726,6 +4740,7 @@ SplineSet
  452 492 l 257
 EndSplineSet
 Refer: 439 3484 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GDha
@@ -4736,7 +4751,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 202 m 256
@@ -4762,6 +4776,7 @@ SplineSet
  95 -2 33 94 33 202 c 256
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 299 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GI
@@ -4772,7 +4787,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 146 524 m 256
@@ -4814,6 +4828,7 @@ SplineSet
  344 55 288 -2 203 -2 c 256
  95 -2 33 94 33 202 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_GIi
@@ -4824,7 +4839,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 202 m 256
@@ -4867,6 +4881,7 @@ SplineSet
  514 540 485 566 449 566 c 256
  413 566 384 540 384 508 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_GR.halant
@@ -4877,7 +4892,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -4891,6 +4905,7 @@ SplineSet
  167 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 103 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GRI
@@ -4901,7 +4916,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -4915,6 +4929,7 @@ SplineSet
  167 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 105 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GRIi
@@ -4925,7 +4940,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -4939,6 +4953,7 @@ SplineSet
  167 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 106 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GRa
@@ -4949,7 +4964,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -4963,6 +4977,7 @@ SplineSet
  167 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 439 3484 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GU
@@ -4973,7 +4988,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 299 -78 m 256
@@ -5013,6 +5027,7 @@ SplineSet
  344 55 288 -2 203 -2 c 256
  95 -2 33 94 33 202 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_GUu
@@ -5023,7 +5038,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 328 -126 m 256
@@ -5045,6 +5059,7 @@ SplineSet
  390 -200 328 -183 328 -126 c 256
 EndSplineSet
 Refer: 439 3484 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ga.reph
@@ -5055,10 +5070,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 320 -1 N 1 0 0 1 687 -27 2
 Refer: 439 3484 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Gh.halant
@@ -5069,7 +5084,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 465 396 m 257
@@ -5086,6 +5100,7 @@ SplineSet
  493 492 l 257
 EndSplineSet
 Refer: 440 3485 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GhI
@@ -5096,7 +5111,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 100 505 m 256
@@ -5112,6 +5126,7 @@ SplineSet
  165 398 100 432 100 505 c 256
 EndSplineSet
 Refer: 440 3485 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GhIi
@@ -5122,7 +5137,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 414 480 m 256
@@ -5143,6 +5157,7 @@ SplineSet
  119 401 83 445 83 505 c 256
 EndSplineSet
 Refer: 440 3485 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GhRI
@@ -5153,7 +5168,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 62 -43 m 261
@@ -5167,6 +5181,7 @@ SplineSet
  188 -214 98 -150 62 -43 c 261
 EndSplineSet
 Refer: 115 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GhRIi
@@ -5177,7 +5192,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 62 -43 m 257
@@ -5191,6 +5205,7 @@ SplineSet
  188 -214 98 -150 62 -43 c 257
 EndSplineSet
 Refer: 116 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GhRa
@@ -5201,7 +5216,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 62 -43 m 257
@@ -5215,6 +5229,7 @@ SplineSet
  188 -214 98 -150 62 -43 c 257
 EndSplineSet
 Refer: 440 3485 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GhU
@@ -5225,7 +5240,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 65 -139 m 256
@@ -5243,6 +5257,7 @@ SplineSet
  90 -229 65 -182 65 -139 c 256
 EndSplineSet
 Refer: 440 3485 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GhUu
@@ -5253,7 +5268,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 66 -135 m 256
@@ -5274,6 +5288,7 @@ SplineSet
  126 -231 66 -201 66 -135 c 256
 EndSplineSet
 Refer: 440 3485 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Gha.reph
@@ -5284,7 +5299,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 290 499 m 256
@@ -5308,6 +5322,7 @@ SplineSet
  247 435 189 463 189 518 c 256
 EndSplineSet
 Refer: 440 3485 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_H.halant
@@ -5318,7 +5333,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 441 403 m 257
@@ -5335,6 +5349,7 @@ SplineSet
  469 492 l 257
 EndSplineSet
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_HI
@@ -5345,7 +5360,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 146 524 m 256
@@ -5363,6 +5377,7 @@ SplineSet
  232 401 146 451 146 524 c 256
 EndSplineSet
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_HIi
@@ -5373,7 +5388,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 384 508 m 256
@@ -5395,6 +5409,7 @@ SplineSet
  232 403 146 451 146 524 c 256
 EndSplineSet
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_HRIi
@@ -5405,7 +5420,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 384 508 m 256
@@ -5436,6 +5450,7 @@ SplineSet
  175 -214 96 -150 60 -43 c 257
 EndSplineSet
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_HRa
@@ -5446,7 +5461,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 60 -43 m 261
@@ -5460,6 +5474,7 @@ SplineSet
  175 -214 96 -150 60 -43 c 261
 EndSplineSet
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_HU
@@ -5470,7 +5485,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 44 -139 m 256
@@ -5488,6 +5502,7 @@ SplineSet
  69 -229 44 -182 44 -139 c 256
 EndSplineSet
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_HUu
@@ -5498,7 +5513,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 44 -135 m 256
@@ -5519,6 +5533,7 @@ SplineSet
  98 -231 44 -201 44 -135 c 256
 EndSplineSet
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ha.reph
@@ -5529,7 +5544,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 265 499 m 256
@@ -5553,6 +5567,7 @@ SplineSet
  222 435 164 463 164 518 c 256
 EndSplineSet
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_J.halant
@@ -5563,7 +5578,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 287 328 m 257
@@ -5580,6 +5594,7 @@ SplineSet
  315 566 l 257
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JI
@@ -5590,7 +5605,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 228 478 m 256
@@ -5609,6 +5623,7 @@ SplineSet
  254 397 228 429 228 478 c 256
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JIi
@@ -5619,7 +5634,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 331 565 m 256
@@ -5642,6 +5656,7 @@ SplineSet
  254 397 228 429 228 478 c 256
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JRI
@@ -5652,7 +5667,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 -43 m 257
@@ -5680,6 +5694,7 @@ SplineSet
  254 397 228 429 228 478 c 256
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JRIi
@@ -5690,7 +5705,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 -43 m 257
@@ -5722,6 +5736,7 @@ SplineSet
  254 397 228 429 228 478 c 256
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JRa
@@ -5732,7 +5747,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 -43 m 261
@@ -5746,6 +5760,7 @@ SplineSet
  152 -214 76 -150 40 -43 c 261
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JU
@@ -5756,7 +5771,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 38 -139 m 256
@@ -5774,6 +5788,7 @@ SplineSet
  63 -229 38 -182 38 -139 c 256
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JUu
@@ -5784,7 +5799,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 38 -135 m 256
@@ -5805,6 +5819,7 @@ SplineSet
  92 -231 38 -201 38 -135 c 256
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ja.reph
@@ -5815,7 +5830,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 198 499 m 256
@@ -5839,6 +5853,7 @@ SplineSet
  155 435 98 463 98 518 c 256
 EndSplineSet
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Jh.halant
@@ -5849,7 +5864,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 89 140 m 257
@@ -5923,6 +5937,7 @@ SplineSet
  705 20 669 0 625 0 c 256
  525 0 472 93 472 190 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JhI
@@ -5933,7 +5948,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 89 140 m 257
@@ -5976,6 +5990,7 @@ SplineSet
  21 21 l 257
 EndSplineSet
 Refer: 84 -1 N 1 0 0 1 439 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhIi
@@ -5986,7 +6001,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 89 140 m 257
@@ -6029,6 +6043,7 @@ SplineSet
  21 21 l 257
 EndSplineSet
 Refer: 85 -1 N 1 0 0 1 439 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhRI
@@ -6039,7 +6054,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 494 -43 m 257
@@ -6053,6 +6067,7 @@ SplineSet
  612 -214 530 -150 494 -43 c 257
 EndSplineSet
 Refer: 141 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhRIi
@@ -6063,7 +6078,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 494 -43 m 257
@@ -6077,6 +6091,7 @@ SplineSet
  612 -214 530 -150 494 -43 c 257
 EndSplineSet
 Refer: 142 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhRa
@@ -6087,7 +6102,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 494 -43 m 261
@@ -6101,6 +6115,7 @@ SplineSet
  612 -214 530 -150 494 -43 c 261
 EndSplineSet
 Refer: 446 3491 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhU
@@ -6111,7 +6126,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 490 -139 m 256
@@ -6129,6 +6143,7 @@ SplineSet
  515 -229 490 -182 490 -139 c 256
 EndSplineSet
 Refer: 446 3491 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhU.reph
@@ -6139,7 +6154,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 707 607 m 256
@@ -6163,6 +6177,7 @@ SplineSet
  664 543 607 571 607 626 c 256
 EndSplineSet
 Refer: 146 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhUu
@@ -6173,7 +6188,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 489 -135 m 256
@@ -6194,6 +6208,7 @@ SplineSet
  544 -231 489 -201 489 -135 c 256
 EndSplineSet
 Refer: 446 3491 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhUu.reph
@@ -6204,7 +6219,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 707 607 m 256
@@ -6244,6 +6258,7 @@ SplineSet
  544 -231 489 -201 489 -135 c 256
 EndSplineSet
 Refer: 446 3491 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Jha.reph
@@ -6254,7 +6269,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 707 607 m 256
@@ -6278,6 +6292,7 @@ SplineSet
  664 543 607 571 607 626 c 256
 EndSplineSet
 Refer: 446 3491 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Jny.halant
@@ -6288,7 +6303,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 639 392 m 261
@@ -6305,6 +6319,7 @@ SplineSet
  667 492 l 261
 EndSplineSet
 Refer: 448 3493 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JnyAa
@@ -6315,7 +6330,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 411 165 m 256
@@ -6376,6 +6390,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JnyI
@@ -6386,7 +6401,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 415 506 m 256
@@ -6403,6 +6417,7 @@ SplineSet
  473 417 415 441 415 506 c 256
 EndSplineSet
 Refer: 448 3493 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JnyIi
@@ -6413,7 +6428,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 624 481 m 256
@@ -6434,6 +6448,7 @@ SplineSet
  462 419 415 452 415 510 c 256
 EndSplineSet
 Refer: 448 3493 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JnyRI
@@ -6444,7 +6459,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 411 165 m 256
@@ -6514,6 +6528,7 @@ SplineSet
  441 55 386 -2 301 -2 c 256
  193 -2 131 94 131 202 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JnyRIi
@@ -6524,7 +6539,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 624 481 m 256
@@ -6598,6 +6612,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JnyRa
@@ -6608,7 +6623,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 414 -42 m 257
@@ -6666,6 +6680,7 @@ SplineSet
  441 55 386 -2 301 -2 c 256
  193 -2 131 94 131 202 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JnyU
@@ -6676,7 +6691,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 413 -139 m 256
@@ -6738,6 +6752,7 @@ SplineSet
  441 55 386 -2 301 -2 c 256
  193 -2 131 94 131 202 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_JnyUu
@@ -6748,7 +6763,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 413 -135 m 256
@@ -6813,6 +6827,7 @@ SplineSet
  441 55 386 -2 301 -2 c 256
  193 -2 131 94 131 202 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_K.halant
@@ -6823,7 +6838,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 537 340 m 257
@@ -6840,6 +6854,7 @@ SplineSet
  565 492 l 257
 EndSplineSet
 Refer: 437 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KI
@@ -6850,7 +6865,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 213 411 m 256
@@ -6866,6 +6880,7 @@ SplineSet
  216 352 213 381 213 411 c 256
 EndSplineSet
 Refer: 437 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KIi
@@ -6876,7 +6891,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 520 465 m 256
@@ -6897,6 +6911,7 @@ SplineSet
  216 352 213 381 213 411 c 256
 EndSplineSet
 Refer: 437 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KRI
@@ -6907,7 +6922,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 111 -43 m 257
@@ -6921,6 +6935,7 @@ SplineSet
  239 -214 147 -150 111 -43 c 257
 EndSplineSet
 Refer: 161 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KRIi
@@ -6931,7 +6946,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 111 -43 m 257
@@ -6945,6 +6959,7 @@ SplineSet
  239 -214 147 -150 111 -43 c 257
 EndSplineSet
 Refer: 162 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KRa
@@ -6955,7 +6970,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 111 -43 m 257
@@ -6969,6 +6983,7 @@ SplineSet
  239 -214 147 -150 111 -43 c 257
 EndSplineSet
 Refer: 437 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSs.halant
@@ -6979,7 +6994,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 848 413 m 257
@@ -6996,6 +7010,7 @@ SplineSet
  876 492 l 257
 EndSplineSet
 Refer: 171 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsI
@@ -7006,7 +7021,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 503 506 m 256
@@ -7022,6 +7036,7 @@ SplineSet
  568 399 503 433 503 506 c 256
 EndSplineSet
 Refer: 171 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsIi
@@ -7032,7 +7047,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 815 502 m 256
@@ -7053,6 +7067,7 @@ SplineSet
  520 401 484 445 484 505 c 256
 EndSplineSet
 Refer: 171 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsU
@@ -7063,7 +7078,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 481 -139 m 256
@@ -7081,6 +7095,7 @@ SplineSet
  506 -229 481 -182 481 -139 c 256
 EndSplineSet
 Refer: 171 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsUu
@@ -7091,7 +7106,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 479 -135 m 256
@@ -7112,6 +7126,7 @@ SplineSet
  539 -231 479 -201 479 -135 c 256
 EndSplineSet
 Refer: 171 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KSsa
@@ -7122,7 +7137,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 89 140 m 257
@@ -7203,6 +7217,7 @@ SplineSet
  827 239 795 245 728 245 c 256
  666 245 636 237 636 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KU
@@ -7213,7 +7228,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 434 -78 m 256
@@ -7270,6 +7284,7 @@ SplineSet
  159 248 143 229 128 207 c 256
  102 168 99 160 89 140 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KU.reph
@@ -7280,10 +7295,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 320 -1 N 1 0 0 1 734 -23 2
 Refer: 172 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KUu
@@ -7294,7 +7309,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 435 -126 m 256
@@ -7316,6 +7330,7 @@ SplineSet
  498 -200 435 -183 435 -126 c 256
 EndSplineSet
 Refer: 437 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KV.halant
@@ -7326,7 +7341,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 21 m 257
@@ -7402,6 +7416,7 @@ SplineSet
  905 523 827 561 714 561 c 256
  644 561 591 544 591 525 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_KVI
@@ -7412,7 +7427,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 21 m 257
@@ -7457,6 +7471,7 @@ SplineSet
  102 168 99 160 89 140 c 257
 EndSplineSet
 Refer: 395 -1 N 1 0 0 1 454 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVIi
@@ -7467,7 +7482,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 21 m 257
@@ -7512,6 +7526,7 @@ SplineSet
  102 168 99 160 89 140 c 257
 EndSplineSet
 Refer: 396 -1 N 1 0 0 1 454 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVU
@@ -7522,7 +7537,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 497 -139 m 256
@@ -7540,6 +7554,7 @@ SplineSet
  522 -229 497 -182 497 -139 c 256
 EndSplineSet
 Refer: 180 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVUu
@@ -7550,7 +7565,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 499 -135 m 256
@@ -7571,6 +7585,7 @@ SplineSet
  553 -231 499 -201 499 -135 c 256
 EndSplineSet
 Refer: 180 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVa
@@ -7581,7 +7596,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 21 m 257
@@ -7647,6 +7661,7 @@ SplineSet
  159 248 143 229 128 207 c 256
  102 168 99 160 89 140 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ka.reph
@@ -7657,10 +7672,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 320 -1 N 1 0 0 1 729 -20 2
 Refer: 437 3482 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Kh.halant
@@ -7671,7 +7686,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 141 525 m 256
@@ -7718,6 +7732,7 @@ SplineSet
  207 36 178 -1 138 -1 c 256
  55 -1 31 106 31 179 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhI
@@ -7728,7 +7743,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 73 549 m 256
@@ -7773,6 +7787,7 @@ SplineSet
  207 36 178 -1 138 -1 c 256
  55 -1 31 106 31 179 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhIi
@@ -7783,7 +7798,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 392 526 m 256
@@ -7833,6 +7847,7 @@ SplineSet
  207 36 178 -1 138 -1 c 256
  55 -1 31 106 31 179 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhR.halant
@@ -7843,7 +7858,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 141 525 m 256
@@ -7900,6 +7914,7 @@ SplineSet
  568 -121 443 -214 302 -214 c 256
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhRI
@@ -7910,7 +7925,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -7964,6 +7978,7 @@ SplineSet
  207 36 178 -1 138 -1 c 256
  55 -1 31 106 31 179 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhRIi
@@ -7974,7 +7989,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 392 526 m 256
@@ -8033,6 +8047,7 @@ SplineSet
  568 -121 443 -214 302 -214 c 256
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KhRa
@@ -8043,7 +8058,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -8057,6 +8071,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 438 3483 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KhU
@@ -8067,7 +8082,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -139 m 256
@@ -8085,6 +8099,7 @@ SplineSet
  75 -229 50 -182 50 -139 c 256
 EndSplineSet
 Refer: 438 3483 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KhUu
@@ -8095,7 +8110,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -135 m 256
@@ -8116,6 +8130,7 @@ SplineSet
  104 -231 50 -201 50 -135 c 256
 EndSplineSet
 Refer: 438 3483 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_L.halant
@@ -8126,7 +8141,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 459 392 m 257
@@ -8143,6 +8157,7 @@ SplineSet
  487 492 l 257
 EndSplineSet
 Refer: 470 3517 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LI
@@ -8153,7 +8168,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 118 506 m 256
@@ -8170,6 +8184,7 @@ SplineSet
  183 399 118 433 118 506 c 256
 EndSplineSet
 Refer: 470 3517 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LIi
@@ -8180,7 +8195,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 418 502 m 256
@@ -8202,6 +8216,7 @@ SplineSet
  166 395 97 436 97 505 c 256
 EndSplineSet
 Refer: 470 3517 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LU
@@ -8212,7 +8227,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 181 m 256
@@ -8249,6 +8263,7 @@ SplineSet
  138 -229 l 258
  60 -229 35 -182 35 -139 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_LUu
@@ -8259,7 +8274,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 41 -135 m 256
@@ -8299,6 +8313,7 @@ SplineSet
  589 26 482 -56 337 -56 c 256
  178 -56 30 34 30 181 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ll.halant
@@ -8309,7 +8324,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 426 403 m 257
@@ -8326,6 +8340,7 @@ SplineSet
  453 492 l 257
 EndSplineSet
 Refer: 476 3525 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LlI
@@ -8336,7 +8351,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 100 506 m 256
@@ -8353,6 +8367,7 @@ SplineSet
  165 399 100 433 100 506 c 256
 EndSplineSet
 Refer: 476 3525 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LlIi
@@ -8363,7 +8378,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 405 502 m 256
@@ -8385,6 +8399,7 @@ SplineSet
  139 408 85 445 85 505 c 256
 EndSplineSet
 Refer: 476 3525 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_LlU
@@ -8395,7 +8410,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 112 161 m 256
@@ -8436,6 +8450,7 @@ SplineSet
  174 43 l 257
  84 66 26 144 26 243 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_LlUu
@@ -8446,7 +8461,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 569 305 m 257
@@ -8468,6 +8482,7 @@ SplineSet
  569 305 l 257
 EndSplineSet
 Refer: 199 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_M.halant
@@ -8478,7 +8493,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 144 525 m 256
@@ -8527,6 +8541,7 @@ SplineSet
  571 107 464 0 303 0 c 256
  140 0 32 92 32 244 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MI
@@ -8537,7 +8552,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 66 549 m 256
@@ -8583,6 +8597,7 @@ SplineSet
  571 112 464 0 303 0 c 256
  140 0 32 92 32 244 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MIi
@@ -8593,7 +8608,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 393 526 m 256
@@ -8644,6 +8658,7 @@ SplineSet
  571 112 464 0 303 0 c 256
  140 0 32 92 32 244 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MRI
@@ -8654,7 +8669,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 66 549 m 256
@@ -8709,6 +8723,7 @@ SplineSet
  568 -121 443 -214 302 -214 c 256
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MRIi
@@ -8719,7 +8734,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 393 526 m 256
@@ -8779,6 +8793,7 @@ SplineSet
  568 -121 443 -214 302 -214 c 256
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MRa
@@ -8789,7 +8804,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 261
@@ -8803,6 +8817,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 261
 EndSplineSet
 Refer: 466 3512 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MU
@@ -8813,7 +8828,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -139 m 256
@@ -8831,6 +8845,7 @@ SplineSet
  75 -229 50 -182 50 -139 c 256
 EndSplineSet
 Refer: 466 3512 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MUu
@@ -8841,7 +8856,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -135 m 256
@@ -8862,6 +8876,7 @@ SplineSet
  104 -231 50 -201 50 -135 c 256
 EndSplineSet
 Refer: 466 3512 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ma.reph
@@ -8872,7 +8887,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 268 613 m 256
@@ -8896,6 +8910,7 @@ SplineSet
  225 549 167 577 167 632 c 256
 EndSplineSet
 Refer: 466 3512 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MatraAa.halant
@@ -8906,10 +8921,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 479 3535 N 1 0 0 1 17 0 2
 Refer: 478 3530 N 1 0 0 1 310 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MatraU.alt
@@ -8920,7 +8935,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -307 -78 m 256
@@ -8935,6 +8949,7 @@ SplineSet
  -34 -119 -77 -187 -175 -187 c 256
  -241 -187 -307 -146 -307 -78 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraUu.alt
@@ -8945,7 +8960,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -287 -126 m 256
@@ -8966,6 +8980,7 @@ SplineSet
  -38 -157 -88 -200 -168 -200 c 256
  -225 -200 -287 -183 -287 -126 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Mb.halant
@@ -8976,7 +8991,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 29 225 m 256
@@ -9037,6 +9051,7 @@ SplineSet
  358 379 338 399 313 399 c 256
  288 399 268 379 268 354 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MbI
@@ -9047,7 +9062,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 71 549 m 256
@@ -9107,6 +9121,7 @@ SplineSet
  225 4 214 0 191 0 c 256
  83 0 29 117 29 225 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MbIi
@@ -9117,7 +9132,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 29 225 m 256
@@ -9182,6 +9196,7 @@ SplineSet
  436 459 385 459 286 465 c 256
  199 470 71 465 71 549 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_MbU
@@ -9192,7 +9207,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -139 m 256
@@ -9210,6 +9224,7 @@ SplineSet
  75 -229 50 -182 50 -139 c 256
 EndSplineSet
 Refer: 467 3513 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MbUu
@@ -9220,7 +9235,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -135 m 256
@@ -9241,6 +9255,7 @@ SplineSet
  104 -231 50 -201 50 -135 c 256
 EndSplineSet
 Refer: 467 3513 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_N.halant
@@ -9251,7 +9266,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 591 340 m 257
@@ -9268,6 +9282,7 @@ SplineSet
  619 492 l 257
 EndSplineSet
 Refer: 460 3505 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ND.halant
@@ -9278,7 +9293,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 685 413 m 257
@@ -9295,6 +9309,7 @@ SplineSet
  713 492 l 257
 EndSplineSet
 Refer: 230 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDAa
@@ -9305,7 +9320,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -9335,6 +9349,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 40 -1 N 1 0 0 1 428 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDAe
@@ -9345,7 +9360,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -9375,6 +9389,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 43 -1 N 1 0 0 1 429 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDAee
@@ -9385,7 +9400,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -9415,6 +9429,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 42 -1 N 1 0 0 1 429 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDI
@@ -9425,7 +9440,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 462 508 m 256
@@ -9441,6 +9455,7 @@ SplineSet
  510 421 462 447 462 508 c 256
 EndSplineSet
 Refer: 230 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDIi
@@ -9451,7 +9466,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 672 502 m 256
@@ -9472,6 +9486,7 @@ SplineSet
  509 423 462 444 462 506 c 256
 EndSplineSet
 Refer: 230 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDRI
@@ -9482,7 +9497,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 462 508 m 260
@@ -9547,6 +9561,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDRIi
@@ -9557,7 +9572,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 672 502 m 256
@@ -9627,6 +9641,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDRa
@@ -9637,7 +9652,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 461 -42 m 257
@@ -9691,6 +9705,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDU
@@ -9701,7 +9716,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 460 -139 m 256
@@ -9759,6 +9773,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDUu
@@ -9769,7 +9784,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 460 -135 m 256
@@ -9830,6 +9844,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NDa
@@ -9840,7 +9855,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -9870,6 +9884,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 458 3503 N 1 0 0 1 429 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDhI
@@ -9880,7 +9895,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -9910,6 +9924,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 84 -1 N 1 0 0 1 431 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDhIi
@@ -9920,7 +9935,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -9950,6 +9964,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 85 -1 N 1 0 0 1 430 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDhU
@@ -9960,7 +9975,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 481 -139 m 256
@@ -9978,6 +9992,7 @@ SplineSet
  506 -229 481 -182 481 -139 c 256
 EndSplineSet
 Refer: 235 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDhUu
@@ -9988,7 +10003,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 480 -135 m 256
@@ -10009,6 +10023,7 @@ SplineSet
  535 -231 480 -201 480 -135 c 256
 EndSplineSet
 Refer: 235 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDha
@@ -10019,7 +10034,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -10049,6 +10063,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 431 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDh.halant
@@ -10059,7 +10074,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 572 523 m 256
@@ -10120,6 +10134,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NI
@@ -10130,7 +10145,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 262 411 m 256
@@ -10146,6 +10160,7 @@ SplineSet
  267 347 262 381 262 411 c 256
 EndSplineSet
 Refer: 460 3505 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NIi
@@ -10156,7 +10171,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 568 465 m 256
@@ -10178,6 +10192,7 @@ SplineSet
  266 345 261 381 261 411 c 256
 EndSplineSet
 Refer: 460 3505 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NTh.halant
@@ -10188,7 +10203,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -10218,6 +10232,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 367 -1 N 1 0 0 1 439 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NThI
@@ -10228,7 +10243,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 527 561 m 256
@@ -10246,6 +10260,7 @@ SplineSet
  579 476 527 504 527 561 c 256
 EndSplineSet
 Refer: 244 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NThIi
@@ -10256,7 +10271,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 454 229 m 256
@@ -10322,6 +10336,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NThU
@@ -10332,7 +10347,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 476 -139 m 256
@@ -10350,6 +10364,7 @@ SplineSet
  501 -229 476 -182 476 -139 c 256
 EndSplineSet
 Refer: 244 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NThUu
@@ -10360,7 +10375,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 475 -135 m 256
@@ -10381,6 +10395,7 @@ SplineSet
  529 -231 475 -201 475 -135 c 256
 EndSplineSet
 Refer: 244 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NTha
@@ -10391,7 +10406,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -10421,6 +10435,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 457 3502 N 1 0 0 1 423 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NU
@@ -10431,7 +10446,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 141 -139 m 256
@@ -10449,6 +10463,7 @@ SplineSet
  166 -229 141 -182 141 -139 c 256
 EndSplineSet
 Refer: 460 3505 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NUu
@@ -10459,7 +10474,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 135 -126 m 256
@@ -10480,6 +10494,7 @@ SplineSet
  200 -231 135 -199 135 -126 c 256
 EndSplineSet
 Refer: 460 3505 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NV.halant
@@ -10490,7 +10505,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 460 161 m 256
@@ -10550,6 +10564,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_NVI
@@ -10560,7 +10575,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -10589,6 +10603,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 395 -1 N 1 0 0 1 427 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVIi
@@ -10599,7 +10614,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -10628,6 +10642,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 396 -1 N 1 0 0 1 427 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVU
@@ -10638,7 +10653,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 470 -139 m 256
@@ -10656,6 +10670,7 @@ SplineSet
  495 -229 470 -182 470 -139 c 256
 EndSplineSet
 Refer: 252 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVUu
@@ -10666,7 +10681,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 472 -135 m 256
@@ -10687,6 +10701,7 @@ SplineSet
  527 -231 472 -201 472 -135 c 256
 EndSplineSet
 Refer: 252 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVa
@@ -10697,7 +10712,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -10747,6 +10761,7 @@ SplineSet
  962 112 867 0 688 0 c 256
  570 0 459 45 459 161 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Na.reph
@@ -10757,7 +10772,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 445 499 m 256
@@ -10781,6 +10795,7 @@ SplineSet
  401 435 344 463 344 518 c 256
 EndSplineSet
 Refer: 460 3505 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Nd.halant
@@ -10791,7 +10806,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 339 403 m 261
@@ -10808,6 +10822,7 @@ SplineSet
  367 492 l 261
 EndSplineSet
 Refer: 461 3507 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdAa
@@ -10818,7 +10833,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 112 165 m 256
@@ -10858,6 +10872,7 @@ SplineSet
  58 361 173 396 250 396 c 257
  259 401 325 408 346 419 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdAae
@@ -10868,7 +10883,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 112 165 m 256
@@ -10918,6 +10932,7 @@ SplineSet
  26 329 95 426 259 426 c 256
  284 426 313 425 346 419 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdAe
@@ -10928,7 +10943,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 112 165 m 256
@@ -10968,6 +10982,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdI
@@ -10978,7 +10993,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 116 510 m 256
@@ -10994,6 +11008,7 @@ SplineSet
  168 406 116 440 116 510 c 256
 EndSplineSet
 Refer: 461 3507 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdIi
@@ -11004,7 +11019,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 325 481 m 256
@@ -11025,6 +11039,7 @@ SplineSet
  165 405 116 449 116 514 c 256
 EndSplineSet
 Refer: 461 3507 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdRa
@@ -11035,7 +11050,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 115 -42 m 257
@@ -11072,6 +11086,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdU
@@ -11082,7 +11097,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 26 216 m 256
@@ -11123,6 +11137,7 @@ SplineSet
  443 31 398 -1 311 -1 c 256
  183 -1 112 67 112 165 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdUu
@@ -11133,7 +11148,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 114 -135 m 256
@@ -11177,6 +11191,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ndj.halant
@@ -11187,7 +11202,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 389 328 m 257
@@ -11204,6 +11218,7 @@ SplineSet
  417 566 l 257
 EndSplineSet
 Refer: 449 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjI
@@ -11214,7 +11229,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 326 478 m 256
@@ -11233,6 +11247,7 @@ SplineSet
  353 397 326 429 326 478 c 256
 EndSplineSet
 Refer: 449 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjIi
@@ -11243,7 +11258,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 429 565 m 256
@@ -11266,6 +11280,7 @@ SplineSet
  353 397 326 429 326 478 c 256
 EndSplineSet
 Refer: 449 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjRa
@@ -11276,7 +11291,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 138 -43 m 261
@@ -11290,6 +11304,7 @@ SplineSet
  251 -214 174 -150 138 -43 c 261
 EndSplineSet
 Refer: 449 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjU
@@ -11300,7 +11315,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 137 -139 m 256
@@ -11318,6 +11332,7 @@ SplineSet
  162 -229 137 -182 137 -139 c 256
 EndSplineSet
 Refer: 449 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjUu
@@ -11328,7 +11343,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 137 -135 m 256
@@ -11349,6 +11363,7 @@ SplineSet
  191 -231 137 -201 137 -135 c 256
 EndSplineSet
 Refer: 449 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ng.halant
@@ -11359,7 +11374,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 150 525 m 256
@@ -11412,6 +11426,7 @@ SplineSet
  261 20 228 0 184 0 c 256
  104 0 50 59 50 137 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NgI
@@ -11422,7 +11437,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 72 549 m 256
@@ -11472,6 +11486,7 @@ SplineSet
  261 20 228 0 184 0 c 256
  104 0 50 59 50 137 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NgIi
@@ -11482,7 +11497,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 378 526 m 256
@@ -11537,6 +11551,7 @@ SplineSet
  261 20 228 0 184 0 c 256
  104 0 50 59 50 137 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Nn.halant
@@ -11547,7 +11562,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 174 m 257
@@ -11616,6 +11630,7 @@ SplineSet
  882 573 851 592 806 622 c 257
  806 492 l 257
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_NnI
@@ -11626,7 +11641,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 198 488 m 256
@@ -11642,6 +11656,7 @@ SplineSet
  231 413 198 443 198 488 c 256
 EndSplineSet
 Refer: 454 3499 N 1 0 0 1 0 0 2
+Validated: 37
 EndChar
 
 StartChar: si_NnIi
@@ -11652,7 +11667,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 174 m 257
@@ -11725,6 +11739,7 @@ SplineSet
  280 413 280 409 264 406 c 257
  231 413 198 443 198 488 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnU
@@ -11735,7 +11750,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 229 -139 m 256
@@ -11753,6 +11767,7 @@ SplineSet
  254 -229 229 -182 229 -139 c 256
 EndSplineSet
 Refer: 454 3499 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NnUu
@@ -11763,7 +11778,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 232 -126 m 256
@@ -11784,6 +11798,7 @@ SplineSet
  302 -231 232 -199 232 -126 c 256
 EndSplineSet
 Refer: 454 3499 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Nna.reph
@@ -11794,7 +11809,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 355 499 m 256
@@ -11818,6 +11832,7 @@ SplineSet
  312 435 255 463 255 518 c 256
 EndSplineSet
 Refer: 454 3499 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Nndd.halant
@@ -11828,7 +11843,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 234 525 m 256
@@ -11883,6 +11897,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnddI
@@ -11893,7 +11908,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 162 549 m 256
@@ -11945,6 +11959,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnddIi
@@ -11955,7 +11970,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 491 526 m 256
@@ -12012,6 +12026,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NnddU
@@ -12022,7 +12037,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 135 -139 m 256
@@ -12040,6 +12054,7 @@ SplineSet
  160 -229 135 -182 135 -139 c 256
 EndSplineSet
 Refer: 455 3500 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NnddUu
@@ -12050,7 +12065,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 134 -135 m 256
@@ -12071,6 +12085,7 @@ SplineSet
  189 -231 134 -201 134 -135 c 256
 EndSplineSet
 Refer: 455 3500 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Nng.halant
@@ -12081,7 +12096,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 539 340 m 257
@@ -12098,6 +12112,7 @@ SplineSet
  567 492 l 257
 EndSplineSet
 Refer: 442 3487 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NngI
@@ -12108,7 +12123,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 147 202 m 256
@@ -12158,6 +12172,7 @@ SplineSet
  502 399 l 257
  346 402 260 451 260 524 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NngIi
@@ -12168,7 +12183,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 498 508 m 256
@@ -12222,6 +12236,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NngU
@@ -12232,7 +12247,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 413 -78 m 256
@@ -12280,6 +12294,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NngUu
@@ -12290,7 +12305,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 442 -126 m 256
@@ -12312,6 +12326,7 @@ SplineSet
  504 -200 442 -183 442 -126 c 256
 EndSplineSet
 Refer: 442 3487 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ny.halant
@@ -12322,7 +12337,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 815 392 m 261
@@ -12339,6 +12353,7 @@ SplineSet
  843 492 l 261
 EndSplineSet
 Refer: 447 3492 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NyAa
@@ -12349,7 +12364,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 589 165 m 256
@@ -12429,6 +12443,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyI
@@ -12439,7 +12454,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 593 505 m 256
@@ -12456,6 +12470,7 @@ SplineSet
  648 410 593 443 593 505 c 256
 EndSplineSet
 Refer: 447 3492 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NyIi
@@ -12466,7 +12481,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 592 511 m 260
@@ -12487,6 +12501,7 @@ SplineSet
  828 536 799 511 799 481 c 260
 EndSplineSet
 Refer: 447 3492 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NyRI
@@ -12497,7 +12512,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 143 21 m 257
@@ -12586,6 +12600,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyRIi
@@ -12596,7 +12611,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 143 21 m 257
@@ -12689,6 +12703,7 @@ SplineSet
  928 511 898 536 863 536 c 260
  828 536 799 511 799 481 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyRa
@@ -12699,7 +12714,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 143 21 m 257
@@ -12776,6 +12790,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyU
@@ -12786,7 +12801,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 143 21 m 257
@@ -12867,6 +12881,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyUu
@@ -12877,7 +12892,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 143 21 m 257
@@ -12961,6 +12975,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_P.halant
@@ -12971,7 +12986,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 412 418 m 257
@@ -12988,6 +13002,7 @@ SplineSet
  440 492 l 257
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PI
@@ -12998,7 +13013,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 66 506 m 256
@@ -13014,6 +13028,7 @@ SplineSet
  131 399 66 433 66 506 c 256
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PIi
@@ -13024,7 +13039,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 378 502 m 256
@@ -13045,6 +13059,7 @@ SplineSet
  83 401 47 445 47 505 c 256
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PRI
@@ -13055,7 +13070,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 66 506 m 256
@@ -13080,6 +13094,7 @@ SplineSet
  170 -214 85 -150 49 -43 c 257
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PRIi
@@ -13090,7 +13105,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 378 502 m 256
@@ -13120,6 +13134,7 @@ SplineSet
  170 -214 85 -150 49 -43 c 257
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PRa
@@ -13130,7 +13145,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 -43 m 261
@@ -13144,6 +13158,7 @@ SplineSet
  170 -214 85 -150 49 -43 c 261
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PU
@@ -13154,7 +13169,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 44 -139 m 256
@@ -13172,6 +13186,7 @@ SplineSet
  69 -229 44 -182 44 -139 c 256
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PUu
@@ -13182,7 +13197,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 43 -135 m 256
@@ -13203,6 +13217,7 @@ SplineSet
  103 -231 43 -201 43 -135 c 256
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Pa.reph
@@ -13213,7 +13228,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 261 499 m 256
@@ -13237,6 +13251,7 @@ SplineSet
  218 435 161 463 161 518 c 256
 EndSplineSet
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ph.halant
@@ -13247,7 +13262,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 447 634 m 257
@@ -13291,6 +13305,7 @@ SplineSet
  390 474 344 516 307 543 c 257
  298 528 290 506 290 477 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_PhI
@@ -13301,7 +13316,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 75 563 m 256
@@ -13319,6 +13333,7 @@ SplineSet
  126 480 75 507 75 563 c 256
 EndSplineSet
 Refer: 463 3509 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PhIi
@@ -13329,7 +13344,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 389 542 m 256
@@ -13352,6 +13366,7 @@ SplineSet
  116 476 63 504 63 561 c 256
 EndSplineSet
 Refer: 463 3509 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PhU
@@ -13362,7 +13377,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 43 -139 m 256
@@ -13380,6 +13394,7 @@ SplineSet
  68 -229 43 -182 43 -139 c 256
 EndSplineSet
 Refer: 463 3509 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PhUu
@@ -13390,7 +13405,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 44 -135 m 260
@@ -13411,6 +13425,7 @@ SplineSet
  99 -231 44 -201 44 -135 c 260
 EndSplineSet
 Refer: 463 3509 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Pha.reph
@@ -13421,7 +13436,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 117 499 m 256
@@ -13472,6 +13486,7 @@ SplineSet
  426 469 389 518 355 542 c 257
  347 525 339 506 339 477 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_R.halant
@@ -13482,7 +13497,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 51 291 m 257
@@ -13499,6 +13513,7 @@ SplineSet
  79 492 l 257
 EndSplineSet
 Refer: 469 3515 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_RAae
@@ -13509,7 +13524,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 427 411 m 257
@@ -13536,6 +13550,7 @@ SplineSet
  427 411 l 257
 EndSplineSet
 Refer: 469 3515 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_RAe
@@ -13546,7 +13561,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 440 216 m 256
@@ -13562,6 +13576,7 @@ SplineSet
  449 0 440 111 440 216 c 256
 EndSplineSet
 Refer: 469 3515 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_RI
@@ -13572,7 +13587,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 48 486 m 256
@@ -13589,6 +13603,7 @@ SplineSet
  83 398 48 429 48 486 c 256
 EndSplineSet
 Refer: 469 3515 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_RIi
@@ -13599,7 +13614,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 208 m 256
@@ -13635,6 +13649,7 @@ SplineSet
  199 415 163 400 146 395 c 257
  83 398 48 429 48 486 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_RU
@@ -13645,7 +13660,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 428 304 m 257
@@ -13662,6 +13676,7 @@ SplineSet
  428 304 l 257
 EndSplineSet
 Refer: 469 3515 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_RUu
@@ -13672,7 +13687,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 430 305 m 257
@@ -13694,6 +13708,7 @@ SplineSet
  430 305 l 257
 EndSplineSet
 Refer: 469 3515 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Rakar
@@ -13704,7 +13719,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -585 -43 m 257
@@ -13717,6 +13731,7 @@ SplineSet
  -62 -121 -196 -214 -337 -214 c 256
  -467 -214 -549 -150 -585 -43 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Reph
@@ -13727,7 +13742,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -349 504 m 256
@@ -13750,6 +13764,7 @@ SplineSet
  -243 465 -277 439 -334 439 c 256
  -392 439 -449 467 -449 522 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_S.halant
@@ -13760,7 +13775,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 480 417 m 257
@@ -13777,6 +13791,7 @@ SplineSet
  508 492 l 257
 EndSplineSet
 Refer: 474 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SI
@@ -13787,7 +13802,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 99 506 m 256
@@ -13803,6 +13817,7 @@ SplineSet
  163 399 99 433 99 506 c 256
 EndSplineSet
 Refer: 474 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SIi
@@ -13813,7 +13828,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 410 502 m 256
@@ -13834,6 +13848,7 @@ SplineSet
  116 401 80 445 80 505 c 256
 EndSplineSet
 Refer: 474 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SRI
@@ -13844,7 +13859,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 73 -43 m 257
@@ -13858,6 +13872,7 @@ SplineSet
  194 -214 109 -150 73 -43 c 257
 EndSplineSet
 Refer: 322 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SRIi
@@ -13868,7 +13883,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 73 -43 m 257
@@ -13882,6 +13896,7 @@ SplineSet
  194 -214 109 -150 73 -43 c 257
 EndSplineSet
 Refer: 323 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SRa
@@ -13892,7 +13907,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 73 -43 m 261
@@ -13906,6 +13920,7 @@ SplineSet
  194 -214 109 -150 73 -43 c 261
 EndSplineSet
 Refer: 474 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SU
@@ -13916,7 +13931,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 66 -139 m 256
@@ -13934,6 +13948,7 @@ SplineSet
  91 -229 66 -182 66 -139 c 256
 EndSplineSet
 Refer: 474 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SUu
@@ -13944,7 +13959,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 67 -135 m 256
@@ -13965,6 +13979,7 @@ SplineSet
  121 -231 67 -201 67 -135 c 256
 EndSplineSet
 Refer: 474 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Sa.reph
@@ -13975,7 +13990,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 289 499 m 256
@@ -13999,6 +14013,7 @@ SplineSet
  246 435 189 463 189 518 c 256
 EndSplineSet
 Refer: 474 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Sh.halant
@@ -14009,7 +14024,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 420 413 m 257
@@ -14026,6 +14040,7 @@ SplineSet
  448 492 l 257
 EndSplineSet
 Refer: 472 3521 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ShI
@@ -14036,7 +14051,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 201 m 256
@@ -14088,6 +14102,7 @@ SplineSet
  388 398 l 261
  232 401 146 451 146 524 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShIi
@@ -14098,7 +14113,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 201 m 256
@@ -14154,6 +14168,7 @@ SplineSet
  388 400 l 261
  232 403 146 451 146 524 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShRI
@@ -14164,7 +14179,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 201 m 256
@@ -14226,6 +14240,7 @@ SplineSet
  388 398 l 257
  232 401 146 451 146 524 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShRIi
@@ -14236,7 +14251,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 201 m 256
@@ -14302,6 +14316,7 @@ SplineSet
  388 400 l 257
  232 403 146 451 146 524 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShRa
@@ -14312,7 +14327,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 201 m 256
@@ -14361,6 +14375,7 @@ SplineSet
  568 -121 452 -214 304 -214 c 260
  167 -214 90 -150 54 -43 c 261
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ShU
@@ -14371,7 +14386,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 299 -78 m 256
@@ -14387,6 +14401,7 @@ SplineSet
  365 -187 299 -146 299 -78 c 256
 EndSplineSet
 Refer: 472 3521 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ShUu
@@ -14397,7 +14412,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 322 -126 m 256
@@ -14419,6 +14433,7 @@ SplineSet
  384 -200 322 -183 322 -126 c 256
 EndSplineSet
 Refer: 472 3521 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Sha.reph
@@ -14429,7 +14444,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 277 499 m 256
@@ -14453,6 +14467,7 @@ SplineSet
  233 435 176 463 176 518 c 256
 EndSplineSet
 Refer: 472 3521 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ss.halant
@@ -14463,7 +14478,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 412 417 m 257
@@ -14480,6 +14494,7 @@ SplineSet
  440 492 l 257
 EndSplineSet
 Refer: 473 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsI
@@ -14490,7 +14505,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 66 506 m 256
@@ -14506,6 +14520,7 @@ SplineSet
  131 399 66 433 66 506 c 256
 EndSplineSet
 Refer: 473 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsIi
@@ -14516,7 +14531,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 378 502 m 256
@@ -14537,6 +14551,7 @@ SplineSet
  83 401 47 445 47 505 c 256
 EndSplineSet
 Refer: 473 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsRI
@@ -14547,7 +14562,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 -43 m 257
@@ -14561,6 +14575,7 @@ SplineSet
  170 -214 85 -150 49 -43 c 257
 EndSplineSet
 Refer: 340 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsRIi
@@ -14571,7 +14586,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 -43 m 257
@@ -14585,6 +14599,7 @@ SplineSet
  170 -214 85 -150 49 -43 c 257
 EndSplineSet
 Refer: 341 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsRa
@@ -14595,7 +14610,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 -43 m 261
@@ -14609,6 +14623,7 @@ SplineSet
  170 -214 85 -150 49 -43 c 261
 EndSplineSet
 Refer: 473 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsU
@@ -14619,7 +14634,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 44 -139 m 256
@@ -14637,6 +14651,7 @@ SplineSet
  69 -229 44 -182 44 -139 c 256
 EndSplineSet
 Refer: 473 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsUu
@@ -14647,7 +14662,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 43 -135 m 256
@@ -14668,6 +14682,7 @@ SplineSet
  103 -231 43 -201 43 -135 c 256
 EndSplineSet
 Refer: 473 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ssa.reph
@@ -14678,7 +14693,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 261 499 m 256
@@ -14702,6 +14716,7 @@ SplineSet
  218 435 161 463 161 518 c 256
 EndSplineSet
 Refer: 473 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_T.halant
@@ -14712,7 +14727,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 499 340 m 257
@@ -14729,6 +14743,7 @@ SplineSet
  526 492 l 257
 EndSplineSet
 Refer: 456 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TI
@@ -14739,7 +14754,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 207 411 m 256
@@ -14755,6 +14769,7 @@ SplineSet
  209 352 207 381 207 411 c 256
 EndSplineSet
 Refer: 456 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TIi
@@ -14765,7 +14780,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 495 465 m 256
@@ -14787,6 +14801,7 @@ SplineSet
  209 352 206 381 206 411 c 256
 EndSplineSet
 Refer: 456 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TRI
@@ -14797,7 +14812,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 108 -43 m 257
@@ -14811,6 +14825,7 @@ SplineSet
  230 -214 144 -150 108 -43 c 257
 EndSplineSet
 Refer: 349 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TRIi
@@ -14821,7 +14836,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 108 -43 m 257
@@ -14835,6 +14849,7 @@ SplineSet
  230 -214 144 -150 108 -43 c 257
 EndSplineSet
 Refer: 350 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TRa
@@ -14845,7 +14860,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 108 -43 m 261
@@ -14859,6 +14873,7 @@ SplineSet
  230 -214 144 -150 108 -43 c 261
 EndSplineSet
 Refer: 456 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TThI
@@ -14869,7 +14884,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 495 561 m 256
@@ -14887,6 +14901,7 @@ SplineSet
  547 476 495 504 495 561 c 256
 EndSplineSet
 Refer: 384 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TThIi
@@ -14897,7 +14912,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 24 m 257
@@ -14965,6 +14979,7 @@ SplineSet
  667 483 641 476 599 476 c 256
  540 476 488 504 488 561 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TThU
@@ -14975,7 +14990,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 444 -139 m 256
@@ -14993,6 +15007,7 @@ SplineSet
  469 -229 444 -182 444 -139 c 256
 EndSplineSet
 Refer: 384 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TThUu
@@ -15003,7 +15018,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 443 -135 m 256
@@ -15024,6 +15038,7 @@ SplineSet
  497 -231 443 -201 443 -135 c 256
 EndSplineSet
 Refer: 384 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TTh.halant
@@ -15034,7 +15049,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 24 m 257
@@ -15066,6 +15080,7 @@ SplineSet
  123 215 111 189 92 152 c 257
 EndSplineSet
 Refer: 367 -1 N 1 0 0 1 391 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TU
@@ -15076,7 +15091,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 24 m 261
@@ -15123,6 +15137,7 @@ SplineSet
  228 287 186 275 155 253 c 261
  124 215 112 189 93 152 c 261
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TUu
@@ -15133,7 +15148,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 386 -126 m 256
@@ -15155,6 +15169,7 @@ SplineSet
  448 -200 386 -183 386 -126 c 256
 EndSplineSet
 Refer: 456 3501 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TV.halant
@@ -15165,7 +15180,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 427 161 m 256
@@ -15230,6 +15244,7 @@ SplineSet
  228 287 186 275 155 253 c 257
  124 215 112 189 93 152 c 257
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_TVI
@@ -15240,7 +15255,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 441 549 m 260
@@ -15306,6 +15320,7 @@ SplineSet
  228 287 186 275 155 253 c 257
  124 215 112 189 93 152 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TVIi
@@ -15316,7 +15331,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 753 526 m 260
@@ -15387,6 +15401,7 @@ SplineSet
  228 287 186 275 155 253 c 257
  124 215 112 189 93 152 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TVU
@@ -15397,7 +15412,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 438 -139 m 256
@@ -15415,6 +15429,7 @@ SplineSet
  464 -229 438 -182 438 -139 c 256
 EndSplineSet
 Refer: 387 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TVUu
@@ -15425,7 +15440,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 440 -135 m 256
@@ -15446,6 +15460,7 @@ SplineSet
  495 -231 440 -201 440 -135 c 256
 EndSplineSet
 Refer: 387 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ta.reph
@@ -15456,7 +15471,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 363 499 m 256
@@ -15480,6 +15494,7 @@ SplineSet
  319 435 262 463 262 518 c 256
 EndSplineSet
 Refer: 456 3501 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Th.halant
@@ -15490,7 +15505,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 458 503 m 257
@@ -15525,6 +15539,7 @@ SplineSet
  405 474 354 521 317 548 c 257
  306 530 297 508 297 474 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_ThI
@@ -15535,7 +15550,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 103 561 m 256
@@ -15553,6 +15567,7 @@ SplineSet
  156 476 103 504 103 561 c 256
 EndSplineSet
 Refer: 457 3502 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ThIi
@@ -15563,7 +15578,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 229 m 256
@@ -15604,6 +15618,7 @@ SplineSet
  419 483 377 524 340 551 c 257
  333 541 320 514 320 480 c 256
 EndSplineSet
+Validated: 37
 EndChar
 
 StartChar: si_ThU
@@ -15614,7 +15629,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 52 -139 m 256
@@ -15632,6 +15646,7 @@ SplineSet
  77 -229 52 -182 52 -139 c 256
 EndSplineSet
 Refer: 457 3502 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ThUu
@@ -15642,7 +15657,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 51 -135 m 256
@@ -15663,6 +15677,7 @@ SplineSet
  106 -231 51 -201 51 -135 c 256
 EndSplineSet
 Refer: 457 3502 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Tha.reph
@@ -15673,7 +15688,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 113 499 m 260
@@ -15697,6 +15711,7 @@ SplineSet
  70 435 13 463 13 518 c 260
 EndSplineSet
 Refer: 457 3502 S 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Tt.halant
@@ -15707,7 +15722,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 141 525 m 256
@@ -15740,6 +15754,7 @@ SplineSet
  544 113 437 -1 279 -1 c 256
  130 -1 31 79 31 203 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtI
@@ -15750,7 +15765,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 51 549 m 256
@@ -15780,6 +15794,7 @@ SplineSet
  544 113 437 -1 279 -1 c 256
  130 -1 31 79 31 203 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtIi
@@ -15790,7 +15805,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 366 526 m 256
@@ -15825,6 +15839,7 @@ SplineSet
  544 113 437 -1 279 -1 c 256
  130 -1 31 79 31 203 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtRI
@@ -15835,7 +15850,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 257
@@ -15874,6 +15888,7 @@ SplineSet
  544 113 437 -1 279 -1 c 256
  130 -1 31 79 31 203 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtRIi
@@ -15884,7 +15899,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 366 526 m 256
@@ -15928,6 +15942,7 @@ SplineSet
  538 -121 421 -214 280 -214 c 256
  157 -214 81 -150 45 -43 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtRa
@@ -15938,7 +15953,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 261
@@ -15952,6 +15966,7 @@ SplineSet
  157 -214 81 -150 45 -43 c 261
 EndSplineSet
 Refer: 450 3495 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TtTth.halant
@@ -15962,7 +15977,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 548 505 m 261
@@ -16015,6 +16029,7 @@ SplineSet
  132 0 l 257
  67 32 26 108 26 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTthI
@@ -16025,7 +16040,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 199 561 m 256
@@ -16079,6 +16093,7 @@ SplineSet
  132 0 l 257
  67 32 26 108 26 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTthIi
@@ -16089,7 +16104,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 525 550 m 256
@@ -16148,6 +16162,7 @@ SplineSet
  132 0 l 257
  67 32 26 108 26 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTthU
@@ -16158,7 +16173,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 140 -139 m 256
@@ -16212,6 +16226,7 @@ SplineSet
  132 0 l 257
  67 32 26 108 26 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTthUu
@@ -16222,7 +16237,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 140 -135 m 256
@@ -16279,6 +16293,7 @@ SplineSet
  132 0 l 257
  67 32 26 108 26 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TTha
@@ -16289,7 +16304,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 24 m 257
@@ -16321,6 +16335,7 @@ SplineSet
  124 215 112 189 93 152 c 257
 EndSplineSet
 Refer: 457 3502 N 1 0 0 1 392 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TtU
@@ -16331,7 +16346,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 43 -139 m 256
@@ -16349,6 +16363,7 @@ SplineSet
  68 -229 43 -182 43 -139 c 256
 EndSplineSet
 Refer: 450 3495 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TtUu
@@ -16359,7 +16374,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -135 m 256
@@ -16380,6 +16394,7 @@ SplineSet
  99 -231 45 -201 45 -135 c 256
 EndSplineSet
 Refer: 450 3495 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TVa
@@ -16390,7 +16405,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 24 m 257
@@ -16424,6 +16438,7 @@ SplineSet
  124 215 112 189 93 152 c 257
 EndSplineSet
 Refer: 471 3520 N 1 0 0 1 395 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Tta.reph
@@ -16434,7 +16449,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 248 607 m 256
@@ -16458,6 +16472,7 @@ SplineSet
  205 543 147 571 147 626 c 256
 EndSplineSet
 Refer: 450 3495 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Tth.halant
@@ -16468,7 +16483,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 190 m 256
@@ -16512,6 +16526,7 @@ SplineSet
  458 425 l 257
  430 463 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TthI
@@ -16522,7 +16537,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 109 561 m 256
@@ -16540,6 +16554,7 @@ SplineSet
  161 476 109 504 109 561 c 256
 EndSplineSet
 Refer: 451 3496 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TthIi
@@ -16550,7 +16565,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 435 550 m 256
@@ -16573,6 +16587,7 @@ SplineSet
  161 476 109 504 109 561 c 256
 EndSplineSet
 Refer: 451 3496 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TthU
@@ -16583,7 +16598,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -139 m 256
@@ -16601,6 +16615,7 @@ SplineSet
  75 -229 50 -182 50 -139 c 256
 EndSplineSet
 Refer: 451 3496 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TthUu
@@ -16611,7 +16626,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 -135 m 256
@@ -16632,6 +16646,7 @@ SplineSet
  104 -231 50 -201 50 -135 c 256
 EndSplineSet
 Refer: 451 3496 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_V.halant
@@ -16642,7 +16657,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 161 m 256
@@ -16678,6 +16692,7 @@ SplineSet
  452 523 374 561 261 561 c 256
  191 561 138 544 138 525 c 256
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: si_VI
@@ -16688,7 +16703,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 549 m 256
@@ -16725,6 +16739,7 @@ SplineSet
  535 112 440 0 261 0 c 256
  143 0 32 45 32 161 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_VIi
@@ -16735,7 +16750,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 357 526 m 256
@@ -16777,6 +16791,7 @@ SplineSet
  535 112 440 0 261 0 c 256
  143 0 32 45 32 161 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_VRI
@@ -16787,7 +16802,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 549 m 256
@@ -16833,6 +16847,7 @@ SplineSet
  533 -121 421 -214 280 -214 c 256
  157 -214 81 -150 45 -43 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_VRIi
@@ -16843,7 +16858,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 357 526 m 256
@@ -16894,6 +16908,7 @@ SplineSet
  533 -121 421 -214 280 -214 c 256
  157 -214 81 -150 45 -43 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_VRa
@@ -16904,7 +16919,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 261
@@ -16918,6 +16932,7 @@ SplineSet
  157 -214 81 -150 45 -43 c 261
 EndSplineSet
 Refer: 471 3520 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_VU
@@ -16928,7 +16943,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 43 -139 m 256
@@ -16946,6 +16960,7 @@ SplineSet
  68 -229 43 -182 43 -139 c 256
 EndSplineSet
 Refer: 471 3520 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_VUu
@@ -16956,7 +16971,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -135 m 256
@@ -16977,6 +16991,7 @@ SplineSet
  99 -231 45 -201 45 -135 c 256
 EndSplineSet
 Refer: 471 3520 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Va.reph
@@ -16987,7 +17002,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 261 602 m 260
@@ -17011,6 +17025,7 @@ SplineSet
  217 538 160 566 160 621 c 260
 EndSplineSet
 Refer: 471 3520 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Y.halant
@@ -17021,7 +17036,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 412 410 m 257
@@ -17038,6 +17052,7 @@ SplineSet
  440 492 l 257
 EndSplineSet
 Refer: 468 3514 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Y.post.halant
@@ -17048,7 +17063,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 339 406 m 257
@@ -17065,6 +17079,7 @@ SplineSet
  367 492 l 257
 EndSplineSet
 Refer: 412 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YI
@@ -17075,7 +17090,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 88 519 m 256
@@ -17091,6 +17105,7 @@ SplineSet
  194 399 88 435 88 519 c 256
 EndSplineSet
 Refer: 468 3514 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YIi
@@ -17101,7 +17116,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 367 508 m 256
@@ -17122,6 +17136,7 @@ SplineSet
  194 393 88 433 88 519 c 256
 EndSplineSet
 Refer: 468 3514 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YU
@@ -17132,7 +17147,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 -139 m 256
@@ -17150,6 +17164,7 @@ SplineSet
  74 -229 49 -182 49 -139 c 256
 EndSplineSet
 Refer: 468 3514 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YU.post
@@ -17160,7 +17175,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 25 -139 m 260
@@ -17178,6 +17192,7 @@ SplineSet
  50 -229 25 -182 25 -139 c 260
 EndSplineSet
 Refer: 412 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YUu
@@ -17188,7 +17203,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 -135 m 256
@@ -17209,6 +17223,7 @@ SplineSet
  103 -231 49 -201 49 -135 c 256
 EndSplineSet
 Refer: 468 3514 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YUu.post
@@ -17219,7 +17234,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 17 -135 m 260
@@ -17240,6 +17254,7 @@ SplineSet
  71 -231 17 -201 17 -135 c 260
 EndSplineSet
 Refer: 412 -1 S 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_YUu.post.reph
@@ -17250,7 +17265,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 221 492 m 256
@@ -17290,6 +17304,7 @@ SplineSet
  71 -231 17 -201 17 -135 c 260
 EndSplineSet
 Refer: 412 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ya.post
@@ -17300,7 +17315,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 12 23 m 257
@@ -17329,6 +17343,7 @@ SplineSet
  114 47 70 15 28 1 c 257
  12 23 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ya.post.reph
@@ -17339,7 +17354,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 221 492 m 256
@@ -17363,6 +17377,7 @@ SplineSet
  177 428 120 456 120 511 c 256
 EndSplineSet
 Refer: 412 -1 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ya.reph
@@ -17373,7 +17388,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 263 499 m 256
@@ -17397,6 +17411,7 @@ SplineSet
  220 435 163 463 163 518 c 256
 EndSplineSet
 Refer: 468 3514 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Yu.post.reph
@@ -17407,7 +17422,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 221 492 m 256
@@ -17444,6 +17458,7 @@ SplineSet
  50 -229 25 -182 25 -139 c 260
 EndSplineSet
 Refer: 412 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: space
@@ -17454,8 +17469,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
+Validated: 1
 EndChar
 
 StartChar: anusvara
@@ -17466,7 +17481,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 80 188 m 256
@@ -17480,6 +17494,7 @@ SplineSet
  310 85 247 23 169 23 c 256
  91 23 28 85 28 161 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: visarga
@@ -17490,7 +17505,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 62 108 m 256
@@ -17514,6 +17528,7 @@ SplineSet
  194 260 157 223 112 223 c 256
  67 223 30 260 30 305 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_A
@@ -17524,7 +17539,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 375 198 m 257
@@ -17566,6 +17580,7 @@ SplineSet
  461 17 377 -4 275 -4 c 256
  115 -4 32 60 32 156 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Aa
@@ -17576,10 +17591,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 479 3535 N 1 0 0 1 527 0 2
 Refer: 419 3461 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ae
@@ -17590,10 +17605,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 419 3461 N 1 0 0 1 0 0 2
 Refer: 480 3536 N 1 0 0 1 531 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Aae
@@ -17604,10 +17619,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 481 3537 N 1 0 0 1 528 0 2
 Refer: 419 3461 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_I
@@ -17618,7 +17633,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 216 m 256
@@ -17655,6 +17669,7 @@ SplineSet
  330 199 307 220 281 220 c 256
  254 220 232 198 232 172 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ii
@@ -17665,7 +17680,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 401 457 m 256
@@ -17706,6 +17720,7 @@ SplineSet
  396 353 343 401 254 401 c 256
  178 401 77 344 77 250 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_U
@@ -17716,7 +17731,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 31 97 m 256
@@ -17737,6 +17751,7 @@ SplineSet
  589 -63 468 -157 320 -157 c 256
  173 -157 31 -60 31 97 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Uu
@@ -17747,10 +17762,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 493 3551 N 1 0 0 1 537 0 2
 Refer: 425 3467 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_vocalicR
@@ -17761,7 +17776,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 150 m 256
@@ -17803,6 +17817,7 @@ SplineSet
  389 376 360 349 356 303 c 257
 EndSplineSet
 Refer: 486 3544 N 1 0 0 1 569 0 2
+Validated: 1
 EndChar
 
 StartChar: si_vocalicRr
@@ -17815,7 +17830,6 @@ Flags: HW
 HStem: -1 70 -1 28 17 25 190 26 284 24 350 34 386 35
 VStem: 30 37 61 72 257 29 294 26<193 209 173 209> 508 38 558 36 603 29 768 44 769 60 843 29 1008 44 1009 60
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 150 m 256
@@ -17858,6 +17872,7 @@ SplineSet
 EndSplineSet
 Refer: 486 3544 N 1 0 0 1 815 0 2
 Refer: 486 3544 N 1 0 0 1 569 0 2
+Validated: 8388609
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -17868,103 +17883,103 @@ p4
 (dp6
 S'position'
 p7
-I31
+L31L
 sS'width'
 p8
-I38
+L38L
 sa(dp9
 g7
-I62
+L62L
 sg8
-I74
+L74L
 sa(dp10
 g7
-I263
+L263L
 sg8
-I30
+L30L
 sa(dp11
 g7
-I301
+L301L
 sg8
-I27
+L27L
 sa(dp12
 g7
-I520
+L520L
 sg8
-I39
+L39L
 sa(dp13
 g7
-I571
+L571L
 sg8
-I37
+L37L
 sa(dp14
 g7
-I617
+L617L
 sg8
-I30
+L30L
 sa(dp15
 g7
-I786
+L786L
 sg8
-I45
+L45L
 sa(dp16
 g7
-I787
+L787L
 sg8
-I61
+L61L
 sa(dp17
 g7
-I863
+L863L
 sg8
-I30
+L30L
 sa(dp18
 g7
-I1032
+L1032L
 sg8
-I45
+L45L
 sa(dp19
 g7
-I1033
+L1033L
 sg8
-I61
+L61L
 sasS'hhints'
 p20
 (lp21
 (dp22
 g7
-I-1
+L-1L
 sg8
-I72
+L72L
 sa(dp23
 g7
-I-1
+L-1L
 sg8
-I29
+L29L
 sa(dp24
 g7
-I17
+L17L
 sg8
-I26
+L26L
 sa(dp25
 g7
-I195
+L195L
 sg8
-I27
+L27L
 sa(dp26
 g7
-I291
+L291L
 sg8
-I25
+L25L
 sa(dp27
 g7
-I358
+L358L
 sg8
-I35
+L35L
 sa(dp28
 g7
-I395
+L395L
 sg8
-I36
+L36L
 sass."
 EndChar
 
@@ -17976,7 +17991,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 626 52 m 256
@@ -18047,6 +18061,7 @@ SplineSet
  590 371 567 393 521 393 c 256
  480 393 446 372 446 328 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_vocalicLL
@@ -18057,10 +18072,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 493 3551 N 1 0 0 1 746 0 2
 Refer: 429 3471 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_E
@@ -18071,7 +18086,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 44 161 m 256
@@ -18112,6 +18126,7 @@ SplineSet
  409 474 363 517 326 544 c 257
  318 527 310 506 310 477 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ee
@@ -18122,7 +18137,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 430 434 m 257
@@ -18175,6 +18189,7 @@ SplineSet
  409 456 363 500 326 527 c 257
  318 510 310 488 310 459 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ai
@@ -18185,10 +18200,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 487 3545 N 1 0 0 1 0 0 2
 Refer: 431 3473 N 1 0 0 1 571 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Os
@@ -18199,7 +18214,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 268 353 m 256
@@ -18241,6 +18255,7 @@ SplineSet
  277 15 240 0 191 0 c 256
  76 0 29 124 29 219 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Oo
@@ -18251,7 +18266,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 141 525 m 256
@@ -18307,6 +18321,7 @@ SplineSet
  277 15 240 0 191 0 c 256
  76 0 29 124 29 219 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Au
@@ -18315,12 +18330,11 @@ GlifName: si_A_u
 Width: 1009
 VWidth: 0
 GlyphClass: 2
-Flags: HW
+Flags: HWO
 LayerCount: 2
-Back
 Fore
-Refer: 434 3476 N 1 0 0 1 0 0 2
 Refer: 493 3551 N 1 0 0 1 578 0 2
+Refer: 434 3476 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: si_Ka
@@ -18331,7 +18345,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 21 m 257
@@ -18377,6 +18390,7 @@ SplineSet
  159 248 143 229 128 207 c 256
  102 168 99 160 89 140 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Kha
@@ -18387,7 +18401,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 91 71 m 256
@@ -18421,6 +18434,7 @@ SplineSet
  207 36 178 -1 138 -1 c 256
  55 -1 31 106 31 179 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ga
@@ -18431,7 +18445,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 202 m 256
@@ -18460,6 +18473,7 @@ SplineSet
  344 55 288 -2 203 -2 c 256
  95 -2 33 94 33 202 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Gha
@@ -18470,7 +18484,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 150 m 256
@@ -18525,6 +18538,7 @@ SplineSet
  524 367 488 381 460 381 c 256
  409 381 381 356 376 303 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Nga
@@ -18535,7 +18549,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 87 338 m 256
@@ -18574,6 +18587,7 @@ SplineSet
  194 542 130 514 78 457 c 257
  45 457 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Nnga
@@ -18584,7 +18598,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 147 202 m 256
@@ -18621,6 +18634,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ca
@@ -18631,7 +18645,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 62 161 m 256
@@ -18666,6 +18679,7 @@ SplineSet
  145 268 l 258
  76 267 29 264 13 261 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Cha
@@ -18676,7 +18690,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 166 m 256
@@ -18717,6 +18730,7 @@ SplineSet
  536 44 414 0 291 0 c 256
  156 0 32 43 32 166 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ja
@@ -18727,7 +18741,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 166 m 256
@@ -18767,6 +18780,7 @@ SplineSet
  536 44 414 0 291 0 c 256
  156 0 32 43 32 166 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Jha
@@ -18777,7 +18791,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 89 140 m 257
@@ -18841,6 +18854,7 @@ SplineSet
  705 20 669 0 625 0 c 256
  525 0 472 93 472 190 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Nya
@@ -18851,7 +18865,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 589 165 m 260
@@ -18925,6 +18938,7 @@ SplineSet
  132 0 l 261
  67 32 26 117 26 216 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Jnya
@@ -18935,7 +18949,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 411 165 m 260
@@ -18990,6 +19003,7 @@ SplineSet
  132 0 l 261
  67 32 26 117 26 216 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ndja
@@ -19000,7 +19014,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 131 166 m 256
@@ -19048,6 +19061,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Tta
@@ -19058,7 +19072,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 31 203 m 256
@@ -19077,6 +19090,7 @@ SplineSet
  544 113 437 -1 279 -1 c 256
  130 -1 31 79 31 203 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ttha
@@ -19087,7 +19101,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 190 m 256
@@ -19119,6 +19132,7 @@ SplineSet
  443 482 396 524 360 551 c 257
  349 534 340 512 340 479 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Dda
@@ -19129,7 +19143,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 15 278 m 257
@@ -19162,6 +19175,7 @@ SplineSet
  45 207 69 255 122 278 c 257
  15 278 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ddha
@@ -19172,7 +19186,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 15 278 m 257
@@ -19210,6 +19223,7 @@ SplineSet
  446 491 399 532 365 549 c 257
  352 534 342 498 342 470 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Nna
@@ -19220,7 +19234,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 174 m 257
@@ -19277,6 +19290,7 @@ SplineSet
  724 141 722 126 719 113 c 256
  719 110 719 107 719 103 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Nndda
@@ -19287,7 +19301,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 100 278 m 257
@@ -19328,6 +19341,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ta
@@ -19338,7 +19352,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 24 m 257
@@ -19374,6 +19387,7 @@ SplineSet
  228 287 186 275 155 253 c 257
  124 215 112 189 93 152 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Tha
@@ -19384,7 +19398,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 229 m 256
@@ -19407,6 +19420,7 @@ SplineSet
  431 483 386 524 349 551 c 257
  337 533 329 514 329 480 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Da
@@ -19417,7 +19431,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 165 m 256
@@ -19443,6 +19456,7 @@ SplineSet
  283 1 256 -1 229 -1 c 256
  101 -1 30 67 30 165 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Dha
@@ -19453,7 +19467,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 190 m 256
@@ -19479,6 +19492,7 @@ SplineSet
  266 20 230 0 186 0 c 256
  86 0 32 93 32 190 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Na
@@ -19489,7 +19503,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 23 172 m 257
@@ -19522,6 +19535,7 @@ SplineSet
  408 253 381 274 326 274 c 256
  185 274 184 186 122 144 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Nda
@@ -19532,7 +19546,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 112 165 m 256
@@ -19566,6 +19579,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Pa
@@ -19576,7 +19590,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 31 179 m 256
@@ -19611,6 +19624,7 @@ SplineSet
  491 371 468 393 422 393 c 256
  381 393 347 372 347 328 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Pha
@@ -19621,7 +19635,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 161 m 256
@@ -19653,6 +19666,7 @@ SplineSet
  398 474 351 517 314 544 c 257
  306 527 298 506 298 477 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ba
@@ -19663,7 +19677,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 100 74 m 256
@@ -19693,6 +19706,7 @@ SplineSet
  224 28 185 -1 146 -1 c 256
  66 -1 32 89 32 183 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Bha
@@ -19703,7 +19717,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 6 262 m 257
@@ -19742,6 +19755,7 @@ SplineSet
  373 52 304 -1 212 -1 c 256
  117 -1 48 59 48 151 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ma
@@ -19752,7 +19766,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 259 344 m 256
@@ -19787,6 +19800,7 @@ SplineSet
  571 107 464 0 303 0 c 256
  140 0 32 92 32 244 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Mba
@@ -19797,7 +19811,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 29 225 m 256
@@ -19846,6 +19859,7 @@ SplineSet
  358 379 338 399 313 399 c 256
  288 399 268 379 268 354 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ya
@@ -19856,7 +19870,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 29 181 m 256
@@ -19890,6 +19903,7 @@ SplineSet
  504 365 475 383 441 383 c 256
  383 383 344 357 344 312 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ra
@@ -19900,7 +19914,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 208 m 256
@@ -19920,6 +19933,7 @@ SplineSet
  396 353 343 401 254 401 c 256
  178 401 77 344 77 250 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_La
@@ -19930,7 +19944,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 132 m 256
@@ -19956,6 +19969,7 @@ SplineSet
  610 -71 488 -150 353 -150 c 256
  176 -150 30 -56 30 132 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Va
@@ -19966,7 +19980,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 161 m 256
@@ -19992,6 +20005,7 @@ SplineSet
  535 112 440 0 261 0 c 256
  143 0 32 45 32 161 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Sha
@@ -20002,7 +20016,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 33 201 m 256
@@ -20042,6 +20055,7 @@ SplineSet
  494 153 479 153 471 153 c 256
  426 153 390 123 390 77 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Ssa
@@ -20052,7 +20066,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 31 179 m 256
@@ -20101,6 +20114,7 @@ SplineSet
  392 237 359 246 291 246 c 256
  229 246 199 236 199 217 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Sa
@@ -20111,7 +20125,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 50 150 m 256
@@ -20159,6 +20172,7 @@ SplineSet
  524 361 495 376 459 376 c 256
  408 376 380 348 376 303 c 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ha
@@ -20169,7 +20183,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 151 m 256
@@ -20202,6 +20215,7 @@ SplineSet
  358 52 288 -1 196 -1 c 256
  101 -1 32 59 32 151 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Lla
@@ -20212,7 +20226,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 30 111 m 256
@@ -20240,6 +20253,7 @@ SplineSet
  604 -67 461 -149 335 -149 c 256
  164 -149 30 -56 30 111 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Fa
@@ -20250,7 +20264,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 207 m 256
@@ -20276,6 +20289,7 @@ SplineSet
  202 1 190 -1 178 -1 c 256
  79 -1 32 107 32 207 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_Halant
@@ -20286,7 +20300,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -138 340 m 257
@@ -20302,6 +20315,7 @@ SplineSet
  -34 573 -65 592 -110 622 c 257
  -110 492 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraAa
@@ -20312,7 +20326,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 108 m 256
@@ -20331,6 +20344,7 @@ SplineSet
  264 71 219 -1 130 -1 c 256
  64 -1 21 41 21 108 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraAe
@@ -20341,7 +20355,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 3 304 m 257
@@ -20357,6 +20370,7 @@ SplineSet
  49 151 145 242 203 304 c 257
  3 304 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraAae
@@ -20367,7 +20381,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 4 305 m 257
@@ -20388,6 +20401,7 @@ SplineSet
  193 305 l 257
  4 305 l 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraI
@@ -20398,7 +20412,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -532 506 m 256
@@ -20413,6 +20426,7 @@ SplineSet
  -393 396 l 257
  -468 399 -532 433 -532 506 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraIi
@@ -20423,7 +20437,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -243 502 m 256
@@ -20443,6 +20456,7 @@ SplineSet
  -485 396 l 257
  -537 401 -573 445 -573 505 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraU
@@ -20453,7 +20467,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -581 -139 m 256
@@ -20470,6 +20483,7 @@ SplineSet
  -478 -229 l 258
  -556 -229 -581 -182 -581 -139 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraUu
@@ -20480,7 +20494,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 -568 -135 m 256
@@ -20500,6 +20513,7 @@ SplineSet
  -291 -143 -364 -231 -460 -231 c 256
  -514 -231 -568 -201 -568 -135 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraR
@@ -20510,7 +20524,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 243 m 256
@@ -20539,6 +20552,7 @@ SplineSet
  147 188 128 183 120 181 c 256
  85 170 63 147 63 104 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraE
@@ -20549,7 +20563,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 215 270 m 256
@@ -20574,6 +20587,7 @@ SplineSet
  479 79 403 0 263 0 c 256
  131 0 32 82 32 207 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraEe
@@ -20584,10 +20598,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 478 3530 N 1 0 0 1 869 0 2
-Refer: 487 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraAi
@@ -20598,10 +20610,10 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 487 3545 N 1 0 0 1 566 0 2
 Refer: 487 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraO
@@ -20612,10 +20624,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 479 3535 N 1 0 0 1 605 0 2
-Refer: 487 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraOo
@@ -20626,11 +20636,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 478 3530 N 1 0 0 1 957 0 2
-Refer: 479 3535 N 1 0 0 1 664 0 2
-Refer: 487 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraAu
@@ -20641,10 +20648,8 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
-Refer: 493 3551 N 1 0 0 1 625 0 2
-Refer: 487 3545 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_MatraLs
@@ -20655,7 +20660,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 313 m 256
@@ -20682,6 +20686,7 @@ SplineSet
  196 232 168 207 119 207 c 256
  65 207 32 255 32 313 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_MatraRr
@@ -20694,10 +20699,10 @@ Flags: HW
 HStem: -1 28 17 25 190 26 350 34
 VStem: 32 29 197 44 198 60 285 29 450 44 451 60
 LayerCount: 2
-Back
 Fore
 Refer: 486 3544 N 1 0 0 1 247 0 2
 Refer: 486 3544 N 1 0 0 1 0 0 2
+Validated: 1
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -20708,58 +20713,58 @@ p4
 (dp6
 S'position'
 p7
-I33
+L33L
 sS'width'
 p8
-I30
+L30L
 sa(dp9
 g7
-I202
+L202L
 sg8
-I45
+L45L
 sa(dp10
 g7
-I203
+L203L
 sg8
-I61
+L61L
 sa(dp11
 g7
-I292
+L292L
 sg8
-I30
+L30L
 sa(dp12
 g7
-I461
+L461L
 sg8
-I45
+L45L
 sa(dp13
 g7
-I462
+L462L
 sg8
-I61
+L61L
 sasS'hhints'
 p14
 (lp15
 (dp16
 g7
-I-1
+L-1L
 sg8
-I29
+L29L
 sa(dp17
 g7
-I17
+L17L
 sg8
-I26
+L26L
 sa(dp18
 g7
-I195
+L195L
 sg8
-I27
+L27L
 sa(dp19
 g7
-I358
+L358L
 sg8
-I35
+L35L
 sass."
 EndChar
 
@@ -20771,7 +20776,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 32 313 m 256
@@ -20798,6 +20802,7 @@ SplineSet
  196 232 168 207 119 207 c 256
  65 207 32 255 32 313 c 256
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: si_kundaliya
@@ -20808,7 +20813,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 1250 38 m 257
@@ -20859,6 +20863,7 @@ SplineSet
  1506 -2 1456 92 1380 92 c 256
  1358 92 1325 90 1250 38 c 257
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dottedcircle
@@ -20869,7 +20874,6 @@ VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 94 94 m 257
@@ -20953,6 +20957,7 @@ SplineSet
  441 356 429 344 410 344 c 256
  391 344 378 356 379 375 c 257
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: si_JnyAa.halant
@@ -20962,7 +20967,6 @@ Width: 951
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 789 -65 m 257
@@ -21035,6 +21039,7 @@ SplineSet
  654 1 637 -1 610 -1 c 256
  482 -1 412 67 412 165 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NdAa.halant
@@ -21044,7 +21049,6 @@ Width: 641
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 112 165 m 256
@@ -21096,6 +21100,7 @@ SplineSet
  132 0 l 261
  67 32 26 117 26 216 c 260
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_NyAa.halant
@@ -21105,7 +21110,6 @@ Width: 1124
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 589 165 m 260
@@ -21197,6 +21201,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_TtTtha
@@ -21206,7 +21211,6 @@ Width: 711
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 122 190 m 256
@@ -21247,6 +21251,7 @@ SplineSet
  132 0 l 257
  67 32 26 108 26 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ka.touch
@@ -21256,9 +21261,9 @@ Width: 728
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 437 3482 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Kha.touch
@@ -21268,9 +21273,9 @@ Width: 615
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 438 3483 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ga.touch
@@ -21280,9 +21285,9 @@ Width: 621
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 439 3484 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Gha.touch
@@ -21292,9 +21297,9 @@ Width: 661
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 440 3485 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Nga.touch
@@ -21304,9 +21309,9 @@ Width: 602
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 441 3486 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Nnga.touch
@@ -21316,9 +21321,9 @@ Width: 731
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 442 3487 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ca.touch
@@ -21328,9 +21333,9 @@ Width: 583
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 443 3488 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Cha.touch
@@ -21340,9 +21345,9 @@ Width: 583
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 444 3489 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ja.touch
@@ -21352,9 +21357,9 @@ Width: 583
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 445 3490 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Jha.touch
@@ -21364,9 +21369,9 @@ Width: 1061
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 446 3491 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Nya.touch
@@ -21376,9 +21381,9 @@ Width: 1000
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 447 3492 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Jnya.touch
@@ -21388,9 +21393,9 @@ Width: 822
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 448 3493 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ndja.touch
@@ -21400,9 +21405,9 @@ Width: 682
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 449 3494 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Tta.touch
@@ -21412,9 +21417,9 @@ Width: 588
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 450 3495 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ttha.touch
@@ -21424,9 +21429,9 @@ Width: 599
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 451 3496 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Dda.touch
@@ -21436,9 +21441,9 @@ Width: 631
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 452 3497 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ddha.touch
@@ -21448,9 +21453,9 @@ Width: 631
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 453 3498 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Nna.touch
@@ -21461,8 +21466,10 @@ VWidth: 0
 Flags: HW
 LayerCount: 2
 Back
+Refer: 454 3499 S 1 0 0 1 0 0 2
 Fore
-Refer: 454 3499 N 1 0 0 1 0 0 2
+Refer: 454 3499 S 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ndda.touch
@@ -21472,9 +21479,9 @@ Width: 713
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 455 3500 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ta.touch
@@ -21484,9 +21491,9 @@ Width: 687
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 456 3501 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Tha.touch
@@ -21496,9 +21503,9 @@ Width: 599
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 457 3502 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Da.touch
@@ -21508,9 +21515,9 @@ Width: 445
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 458 3503 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Dha.touch
@@ -21520,9 +21527,9 @@ Width: 623
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 459 3504 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Na.touch
@@ -21532,9 +21539,9 @@ Width: 787
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 460 3505 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Nda.touch
@@ -21544,9 +21551,9 @@ Width: 525
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 461 3507 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Pa.touch
@@ -21556,9 +21563,9 @@ Width: 601
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 462 3508 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Pha.touch
@@ -21568,9 +21575,9 @@ Width: 569
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 463 3509 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ba.touch
@@ -21580,9 +21587,9 @@ Width: 604
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 464 3510 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Bha.touch
@@ -21592,9 +21599,9 @@ Width: 654
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 465 3511 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ma.touch
@@ -21604,9 +21611,9 @@ Width: 620
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 466 3512 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Mba.touch
@@ -21616,9 +21623,9 @@ Width: 621
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 467 3513 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ya.touch
@@ -21628,9 +21635,9 @@ Width: 621
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 468 3514 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ra.touch
@@ -21640,9 +21647,9 @@ Width: 515
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 469 3515 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_La.touch
@@ -21652,9 +21659,9 @@ Width: 654
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 470 3517 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Va.touch
@@ -21664,9 +21671,9 @@ Width: 583
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 471 3520 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Sha.touch
@@ -21676,9 +21683,9 @@ Width: 616
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 472 3521 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ssa.touch
@@ -21688,9 +21695,9 @@ Width: 607
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 473 3522 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Sa.touch
@@ -21700,9 +21707,9 @@ Width: 661
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 474 3523 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ha.touch
@@ -21712,9 +21719,9 @@ Width: 637
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 475 3524 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Lla.touch
@@ -21724,9 +21731,9 @@ Width: 621
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 476 3525 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Fa.touch
@@ -21736,9 +21743,9 @@ Width: 592
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 Refer: 477 3526 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_GhR.halant
@@ -21748,7 +21755,6 @@ Width: 661
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 62 -43 m 261
@@ -21762,6 +21768,7 @@ SplineSet
  188 -214 98 -150 62 -43 c 261
 EndSplineSet
 Refer: 114 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_CR.halant
@@ -21771,7 +21778,6 @@ Width: 606
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 261
@@ -21785,6 +21791,7 @@ SplineSet
  157 -214 81 -150 45 -43 c 261
 EndSplineSet
 Refer: 25 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JR.halant
@@ -21794,7 +21801,6 @@ Width: 583
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 40 -43 m 261
@@ -21808,6 +21814,7 @@ SplineSet
  152 -214 76 -150 40 -43 c 261
 EndSplineSet
 Refer: 131 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JhR.halant
@@ -21817,7 +21824,6 @@ Width: 1061
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 494 -43 m 261
@@ -21831,6 +21837,7 @@ SplineSet
  612 -214 530 -150 494 -43 c 261
 EndSplineSet
 Refer: 140 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NyR.halant
@@ -21840,7 +21847,6 @@ Width: 1000
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 815 392 m 261
@@ -21857,6 +21863,7 @@ SplineSet
  843 492 l 261
 EndSplineSet
 Refer: 294 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_JnyR.halant
@@ -21866,7 +21873,6 @@ Width: 822
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 639 392 m 261
@@ -21883,6 +21889,7 @@ SplineSet
  667 492 l 261
 EndSplineSet
 Refer: 157 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NdjR.halant
@@ -21892,7 +21899,6 @@ Width: 682
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 138 -43 m 261
@@ -21906,6 +21912,7 @@ SplineSet
  251 -214 174 -150 138 -43 c 261
 EndSplineSet
 Refer: 263 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TtR.halant
@@ -21915,7 +21922,6 @@ Width: 588
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 261
@@ -21929,6 +21935,7 @@ SplineSet
  157 -214 81 -150 45 -43 c 261
 EndSplineSet
 Refer: 373 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DdR.halant
@@ -21938,7 +21945,6 @@ Width: 631
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 257
@@ -21952,6 +21958,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 257
 EndSplineSet
 Refer: 69 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TR.halant
@@ -21961,7 +21968,6 @@ Width: 687
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 108 -43 m 261
@@ -21975,6 +21981,7 @@ SplineSet
  230 -214 144 -150 108 -43 c 261
 EndSplineSet
 Refer: 348 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DR.halant
@@ -21984,7 +21991,6 @@ Width: 445
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 257 403 m 261
@@ -22001,6 +22007,7 @@ SplineSet
  285 492 l 261
 EndSplineSet
 Refer: 54 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DhR.halant
@@ -22010,7 +22017,6 @@ Width: 623
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 261
@@ -22024,6 +22030,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 261
 EndSplineSet
 Refer: 83 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BR.halant
@@ -22033,7 +22040,6 @@ Width: 604
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 57 -43 m 261
@@ -22047,6 +22053,7 @@ SplineSet
  171 -214 93 -150 57 -43 c 261
 EndSplineSet
 Refer: 7 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_BhRa.halant
@@ -22056,7 +22063,6 @@ Width: 654
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 74 -43 m 261
@@ -22070,6 +22076,7 @@ SplineSet
  186 -214 110 -150 74 -43 c 261
 EndSplineSet
 Refer: 16 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_PR.halant
@@ -22079,7 +22086,6 @@ Width: 601
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 -43 m 261
@@ -22093,6 +22099,7 @@ SplineSet
  170 -214 85 -150 49 -43 c 261
 EndSplineSet
 Refer: 297 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MR.halant
@@ -22102,7 +22109,6 @@ Width: 620
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 261
@@ -22116,6 +22122,7 @@ SplineSet
  172 -214 90 -150 54 -43 c 261
 EndSplineSet
 Refer: 201 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_VR.halant
@@ -22125,7 +22132,6 @@ Width: 583
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 45 -43 m 261
@@ -22139,6 +22145,7 @@ SplineSet
  157 -214 81 -150 45 -43 c 261
 EndSplineSet
 Refer: 394 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_ShR.halant
@@ -22148,7 +22155,6 @@ Width: 616
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 54 -43 m 261
@@ -22162,6 +22168,7 @@ SplineSet
  167 -214 90 -150 54 -43 c 261
 EndSplineSet
 Refer: 330 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SsR.halant
@@ -22171,7 +22178,6 @@ Width: 607
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 49 -43 m 261
@@ -22185,6 +22191,7 @@ SplineSet
  170 -214 85 -150 49 -43 c 261
 EndSplineSet
 Refer: 339 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_SR.halant
@@ -22194,7 +22201,6 @@ Width: 661
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 73 -43 m 261
@@ -22208,6 +22214,7 @@ SplineSet
  194 -214 109 -150 73 -43 c 261
 EndSplineSet
 Refer: 321 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_HR.halant
@@ -22217,7 +22224,6 @@ Width: 637
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 60 -43 m 261
@@ -22231,6 +22237,7 @@ SplineSet
  175 -214 96 -150 60 -43 c 261
 EndSplineSet
 Refer: 123 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_HRI
@@ -22240,7 +22247,6 @@ Width: 637
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 60 -43 m 261
@@ -22254,6 +22260,7 @@ SplineSet
  175 -214 96 -150 60 -43 c 261
 EndSplineSet
 Refer: 124 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_FR.halant
@@ -22263,7 +22270,6 @@ Width: 592
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 58 -43 m 261
@@ -22277,6 +22283,7 @@ SplineSet
  168 -214 94 -150 58 -43 c 261
 EndSplineSet
 Refer: 94 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDAa.halant
@@ -22286,7 +22293,6 @@ Width: 1023
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 836 -65 m 257
@@ -22303,6 +22309,7 @@ SplineSet
  864 492 l 257
 EndSplineSet
 Refer: 220 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Ya.post.MatraI
@@ -22312,7 +22319,6 @@ Width: 531
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 86 525 m 260
@@ -22354,6 +22360,7 @@ SplineSet
  114 47 70 15 28 1 c 257
  12 23 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Ya.post.MatraIi
@@ -22363,7 +22370,6 @@ Width: 531
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 334 508 m 260
@@ -22409,6 +22415,7 @@ SplineSet
  114 47 70 15 28 1 c 257
  12 23 l 257
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_KSsa.reph
@@ -22418,7 +22425,6 @@ Width: 1043
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 697 499 m 256
@@ -22480,6 +22486,7 @@ SplineSet
  21 21 l 257
 EndSplineSet
 Refer: 473 3522 N 1 0 0 1 436 0 2
+Validated: 5
 EndChar
 
 StartChar: si_KVa.reph
@@ -22489,7 +22496,6 @@ Width: 1036
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 702 606 m 256
@@ -22553,6 +22559,7 @@ SplineSet
  102 168 99 160 89 140 c 257
 EndSplineSet
 Refer: 471 3520 N 1 0 0 1 454 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDha.reph
@@ -22562,7 +22569,6 @@ Width: 1052
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 699 607 m 256
@@ -22611,6 +22617,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 431 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NDa.reph
@@ -22620,7 +22627,6 @@ Width: 873
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 624 499 m 260
@@ -22669,6 +22675,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 458 3503 S 1 0 0 1 429 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NTha.reph
@@ -22678,7 +22685,6 @@ Width: 1021
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 536 499 m 256
@@ -22727,6 +22733,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 457 3502 N 1 0 0 1 423 0 2
+Validated: 5
 EndChar
 
 StartChar: si_NVa.reph
@@ -22736,7 +22743,6 @@ Width: 1007
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 675 606 m 260
@@ -22784,6 +22790,7 @@ SplineSet
  185 274 184 186 122 144 c 257
 EndSplineSet
 Refer: 471 3520 N 1 0 0 1 427 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TTha.reph
@@ -22793,7 +22800,6 @@ Width: 992
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 505 499 m 256
@@ -22844,6 +22850,7 @@ SplineSet
  124 215 112 189 93 152 c 257
 EndSplineSet
 Refer: 457 3502 N 1 0 0 1 392 0 2
+Validated: 5
 EndChar
 
 StartChar: si_GDha.reph
@@ -22853,7 +22860,6 @@ Width: 919
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 567 607 m 256
@@ -22898,6 +22904,7 @@ SplineSet
  95 -2 33 94 33 202 c 256
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 299 0 2
+Validated: 5
 EndChar
 
 StartChar: si_TtTtha.reph
@@ -22907,7 +22914,6 @@ Width: 711
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 214 499 m 256
@@ -22967,6 +22973,7 @@ SplineSet
  132 0 l 257
  67 32 26 108 26 207 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_DDha.reph
@@ -22976,7 +22983,6 @@ Width: 711
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 359 607 m 260
@@ -23009,6 +23015,7 @@ SplineSet
  67 32 26 108 26 207 c 256
 EndSplineSet
 Refer: 459 3504 N 1 0 0 1 91 0 2
+Validated: 5
 EndChar
 
 StartChar: si_DVa.reph
@@ -23018,7 +23025,6 @@ Width: 671
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 348 602 m 260
@@ -23050,6 +23056,7 @@ SplineSet
  67 32 26 117 26 216 c 256
 EndSplineSet
 Refer: 471 3520 N 1 0 0 1 90 0 2
+Validated: 5
 EndChar
 
 StartChar: mooniak
@@ -23059,7 +23066,6 @@ Width: 952
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 692.599609375 656 m 260
@@ -23073,6 +23079,7 @@ SplineSet
  659.599609375 197.199994821 518.7997842 56.400390625 345 56.400390625 c 260
  171.199994821 56.400390625 30.400390625 197.199994821 30.400390625 371 c 260
 EndSplineSet
+Validated: 524289
 EndChar
 
 StartChar: si_TVa.reph
@@ -23082,7 +23089,6 @@ Width: 977
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 659 602 m 260
@@ -23106,15 +23112,16 @@ SplineSet
  616 538 558 566 558 621 c 260
 EndSplineSet
 Refer: 387 -1 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_Nya.reph
 Encoding: 582 -1 582
+GlifName: si_N_ya.reph
 Width: 1000
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 754 499 m 256
@@ -23207,15 +23214,16 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: si_Jnya.reph
 Encoding: 583 -1 583
+GlifName: si_J_nya.reph
 Width: 822
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Back
 Fore
 SplineSet
 576 499 m 256
@@ -23289,6 +23297,7 @@ SplineSet
  132 0 l 257
  67 32 26 117 26 216 c 256
 EndSplineSet
+Validated: 5
 EndChar
 EndChars
 EndSplineFont
