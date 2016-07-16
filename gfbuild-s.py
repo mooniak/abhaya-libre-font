@@ -24,7 +24,7 @@ family.masters[0]._file_name = 'AbhayaLibre-Regular.ufo'
 family.masters[1]._file_name = 'AbhayaLibre-ExtraBold.ufo'
 
 family.set_styles([
-    ('Regular',     0.0, 400),
+    ('Regular',     1.0, 400),
     ('Medium',     20, 500),
     ('SemiBold',   41, 600),
     ('Bold',       68, 700),
