@@ -4,19 +4,19 @@ languagesystem DFLT dflt;
 # GSUB 
 
 
-lookup AbhayaLibreLatinRegularordnOrdi {
+lookup AbhayaLibreLatinRegularordnOrdinalslookup2 {
   lookupflag 0;
     sub [\uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038 
 	\uni0039 ] [\uni0041 \uni0061 ]'  by [NULL NULL ];
     sub [\uni0030 \uni0031 \uni0032 \uni0033 \uni0034 \uni0035 \uni0036 \uni0037 \uni0038 
 	\uni0039 ] [\uni004F \uni006F ]'  by [NULL NULL ];
-} AbhayaLibreLatinRegularordnOrdi;
+} AbhayaLibreLatinRegularordnOrdinalslookup2;
 
 feature ordn {
 
  script DFLT;
      language dflt ;
-      lookup AbhayaLibreLatinRegularordnOrdi;
+      lookup AbhayaLibreLatinRegularordnOrdinalslookup2;
 } ordn;
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
@@ -76,32 +76,32 @@ feature ordn {
 	\si_YIi \si_YU \si_YU.post \si_YUu \si_YUu.post \si_YUu.post.reph \si_Ya.post 
 	\si_Ya.post.reph \si_Ya.reph \si_Yu.post.reph \space \anusvara \visarga \si_A 
 	\si_Aa \si_Ae \si_Aae \si_I \si_Ii \si_U \si_Uu \si_vocalicR \si_vocalicRr 
-	\si_vocalicL \si_vocalicLL \si_E \si_Ee \si_Ai \si_Os \si_Oo \si_Au \si_Ka 
-	\si_Kha \si_Ga \si_Gha \si_Nga \si_Nnga \si_Ca \si_Cha \si_Ja \si_Jha \si_Nya 
-	\si_Jnya \si_Ndja \si_Tta \si_Ttha \si_Dda \si_Ddha \si_Nna \si_Nndda \si_Ta 
-	\si_Tha \si_Da \si_Dha \si_Na \si_Nda \si_Pa \si_Pha \si_Ba \si_Bha \si_Ma \si_Mba 
-	\si_Ya \si_Ra \si_La \si_Va \si_Sha \si_Ssa \si_Sa \si_Ha \si_Lla \si_Fa 
-	\si_Halant \si_MatraAa \si_MatraAe \si_MatraAae \si_MatraI \si_MatraIi 
-	\si_MatraU \si_MatraUu \si_MatraR \si_MatraE \si_MatraEe \si_MatraAi 
-	\si_MatraO \si_MatraOo \si_MatraAu \si_MatraLs \si_MatraRr \si_MatraLl 
-	\si_kundaliya \dottedcircle \si_JnyAa.halant \si_NdAa.halant \si_NyAa.halant 
-	\si_TtTtha \si_Ka.touch \si_Kha.touch \si_Ga.touch \si_Gha.touch 
-	\si_Nga.touch \si_Nnga.touch \si_Ca.touch \si_Cha.touch \si_Ja.touch 
-	\si_Jha.touch \si_Nya.touch \si_Jnya.touch \si_Ndja.touch \si_Tta.touch 
-	\si_Ttha.touch \si_Dda.touch \si_Ddha.touch \si_Nna.touch \si_Ndda.touch 
-	\si_Ta.touch \si_Tha.touch \si_Da.touch \si_Dha.touch \si_Na.touch 
-	\si_Nda.touch \si_Pa.touch \si_Pha.touch \si_Ba.touch \si_Bha.touch 
-	\si_Ma.touch \si_Mba.touch \si_Ya.touch \si_Ra.touch \si_La.touch 
-	\si_Va.touch \si_Sha.touch \si_Ssa.touch \si_Sa.touch \si_Ha.touch 
-	\si_Lla.touch \si_Fa.touch \si_GhR.halant \si_CR.halant \si_JR.halant 
-	\si_JhR.halant \si_NyR.halant \si_JnyR.halant \si_NdjR.halant \si_TtR.halant 
-	\si_DdR.halant \si_TR.halant \si_DR.halant \si_DhR.halant \si_BR.halant 
-	\si_BhRa.halant \si_PR.halant \si_MR.halant \si_VR.halant \si_ShR.halant 
-	\si_SsR.halant \si_SR.halant \si_HR.halant \si_HRI \si_FR.halant 
-	\si_NDAa.halant \si_Ya.post.MatraI \si_Ya.post.MatraIi \si_KSsa.reph 
-	\si_KVa.reph \si_NDha.reph \si_NDa.reph \si_NTha.reph \si_NVa.reph 
-	\si_TTha.reph \si_GDha.reph \si_TtTtha.reph \si_DDha.reph \si_DVa.reph 
-	\mooniak \si_TVa.reph \si_Nya.reph \si_Jnya.reph ];
+	\si_vocalicL \si_vocalicLL \si_E \si_Ee \si_Ai \si_O \si_Oo \si_Au \si_Ka \si_Kha 
+	\si_Ga \si_Gha \si_Nga \si_Nnga \si_Ca \si_Cha \si_Ja \si_Jha \si_Nya \si_Jnya 
+	\si_Ndja \si_Tta \si_Ttha \si_Dda \si_Ddha \si_Nna \si_Nndda \si_Ta \si_Tha 
+	\si_Da \si_Dha \si_Na \si_Nda \si_Pa \si_Pha \si_Ba \si_Bha \si_Ma \si_Mba \si_Ya 
+	\si_Ra \si_La \si_Va \si_Sha \si_Ssa \si_Sa \si_Ha \si_Lla \si_Fa \si_Halant 
+	\si_MatraAa \si_MatraAe \si_MatraAae \si_MatraI \si_MatraIi \si_MatraU 
+	\si_MatraUu \si_MatraR \si_MatraE \si_MatraEe \si_MatraAi \si_MatraO 
+	\si_MatraOo \si_MatraAu \si_MatraLs \si_MatraRr \si_MatraLl \si_kundaliya 
+	\dottedcircle \si_JnyAa.halant \si_NdAa.halant \si_NyAa.halant \si_TtTtha 
+	\si_Ka.touch \si_Kha.touch \si_Ga.touch \si_Gha.touch \si_Nga.touch 
+	\si_Nnga.touch \si_Ca.touch \si_Cha.touch \si_Ja.touch \si_Jha.touch 
+	\si_Nya.touch \si_Jnya.touch \si_Ndja.touch \si_Tta.touch \si_Ttha.touch 
+	\si_Dda.touch \si_Ddha.touch \si_Nna.touch \si_Ndda.touch \si_Ta.touch 
+	\si_Tha.touch \si_Da.touch \si_Dha.touch \si_Na.touch \si_Nda.touch 
+	\si_Pa.touch \si_Pha.touch \si_Ba.touch \si_Bha.touch \si_Ma.touch 
+	\si_Mba.touch \si_Ya.touch \si_Ra.touch \si_La.touch \si_Va.touch 
+	\si_Sha.touch \si_Ssa.touch \si_Sa.touch \si_Ha.touch \si_Lla.touch 
+	\si_Fa.touch \si_GhR.halant \si_CR.halant \si_JR.halant \si_JhR.halant 
+	\si_NyR.halant \si_JnyR.halant \si_NdjR.halant \si_TtR.halant \si_DdR.halant 
+	\si_TR.halant \si_DR.halant \si_DhR.halant \si_BR.halant \si_BhRa.halant 
+	\si_PR.halant \si_MR.halant \si_VR.halant \si_ShR.halant \si_SsR.halant 
+	\si_SR.halant \si_HR.halant \si_HRI \si_FR.halant \si_NDAa.halant 
+	\si_Ya.post.MatraI \si_Ya.post.MatraIi \si_KSsa.reph \si_KVa.reph 
+	\si_NDha.reph \si_NDa.reph \si_NTha.reph \si_NVa.reph \si_TTha.reph 
+	\si_GDha.reph \si_TtTtha.reph \si_DDha.reph \si_DVa.reph \mooniak 
+	\si_TVa.reph \si_Nya.reph \si_Jnya.reph ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
