@@ -6,7 +6,6 @@ Weight: ExtraBold
 Copyright: Copyright (c) 1997 Pushpananda Ekanayake (http://isiwara.lk)  Copyright (c) 2015 Sol Matas (http://sonnenshine.com.ar/) Copyright (c) 2015 mooniak (http://mooniak.com)
 UComments: "2015-2-15: Created with FontForge (http://fontforge.org) The  Free Font Editor"
 Version: 1.0
-StyleMapFamilyName: AbhayaLibre
 ItalicAngle: 0
 UnderlinePosition: -99
 UnderlineWidth: 49
@@ -25,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051463
-ModificationTime: 1468673729
+ModificationTime: 1468748533
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -501,7 +500,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 8 2
+WinInfo: 30 15 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
@@ -543,7 +542,7 @@ SplineSet
  284.018 432.286 266.365 421.105 255.462 406.199 c 257
  212.887 451.452 l 257
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: si_JnyAe
@@ -17872,7 +17871,7 @@ SplineSet
 EndSplineSet
 Refer: 486 3544 N 1 0 0 1 815 0 2
 Refer: 486 3544 N 1 0 0 1 569 0 2
-Validated: 8388609
+Validated: 1
 PickledDataWithLists: "(dp1
 S'com.fontlab.hintData'
 p2
@@ -18206,7 +18205,7 @@ Refer: 431 3473 N 1 0 0 1 571 0 2
 Validated: 5
 EndChar
 
-StartChar: si_Os
+StartChar: si_O
 Encoding: 18 3476 434
 GlifName: si_O_s
 Width: 621
@@ -18330,11 +18329,12 @@ GlifName: si_A_u
 Width: 1009
 VWidth: 0
 GlyphClass: 2
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 493 3551 N 1 0 0 1 578 0 2
 Refer: 434 3476 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: si_Ka
@@ -20593,12 +20593,14 @@ EndChar
 StartChar: si_MatraEe
 Encoding: 72 3546 488
 GlifName: si_M_atraE_e
-Width: 901
+Width: 950
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 478 3530 N 1 0 0 1 890 0 2
+Refer: 487 3545 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -20619,36 +20621,42 @@ EndChar
 StartChar: si_MatraO
 Encoding: 74 3548 490
 GlifName: si_M_atraO_
-Width: 906
+Width: 1164
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 479 3535 N 1 0 0 1 850 0 2
+Refer: 487 3545 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: si_MatraOo
 Encoding: 75 3549 491
 GlifName: si_M_atraO_o
-Width: 989
+Width: 1068
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
-Validated: 1
+Refer: 210 -1 N 1 0 0 1 690 0 2
+Refer: 487 3545 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: si_MatraAu
 Encoding: 76 3550 492
 GlifName: si_M_atraA_u
-Width: 1035
+Width: 1102
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
 Fore
+Refer: 493 3551 N 1 0 0 1 660 0 2
+Refer: 487 3545 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -22321,19 +22329,19 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-86 525 m 260
- 86 614 183 652 283 652 c 260
- 386 652 486 605 486 512 c 260
- 486 451 448 404 369 398 c 261
- 347 422 l 261
- 350 422 356 422 359 422 c 260
- 416 422 445 456 445 487 c 260
- 445 540 368 554 290 554 c 260
- 210 554 156 526 156 492 c 260
- 156 444 257 422 341 422 c 260
- 342 422 342 422 343 422 c 261
- 328 399 l 261
- 172 402 86 452 86 525 c 260
+132 525 m 256
+ 132 613.299212598 217.675126904 651 306 651 c 260
+ 397.330049261 651 486 604.335714286 486 512 c 256
+ 486 451 448 404 369 398 c 257
+ 347 422 l 257
+ 350 422 356 422 359 422 c 256
+ 416 422 445 456 445 487 c 256
+ 445 534 379.425806452 554 313 554 c 256
+ 243.149253731 554 196 526 196 492 c 256
+ 196 444 275.162162162 422 341 422 c 256
+ 342 422 342 422 343 422 c 257
+ 328 399 l 257
+ 201.652892562 402 132 452 132 525 c 256
 12 23 m 257
  99 60 180 138 180 262 c 256
  180 328 146 395 82 395 c 256
@@ -22360,7 +22368,7 @@ SplineSet
  114 47 70 15 28 1 c 257
  12 23 l 257
 EndSplineSet
-Validated: 5
+Validated: 524293
 EndChar
 
 StartChar: si_Ya.post.MatraIi
@@ -22372,23 +22380,23 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-334 508 m 260
- 334 476 363 449 399 449 c 260
- 435 449 464 476 464 508 c 260
- 464 540 435 566 399 566 c 260
- 363 566 334 540 334 508 c 260
-96 524 m 260
- 96 613 193 651 293 651 c 260
- 396 651 496 604 496 513 c 260
- 496 446 440 421 399 421 c 260
- 354 421 303 453 303 508 c 260
- 303 527 309 542 316 553 c 261
- 310 553 306 553 300 553 c 260
- 220 553 166 525 166 491 c 260
- 166 443 267 421 351 421 c 260
- 352 421 352 421 353 421 c 261
- 338 400 l 261
- 182 403 96 451 96 524 c 260
+334 508 m 256
+ 334 476 363 449 399 449 c 256
+ 435 449 464 476 464 508 c 256
+ 464 540 435 566 399 566 c 256
+ 363 566 334 540 334 508 c 256
+136 524 m 256
+ 136 613 223.152284264 651 313 651 c 256
+ 405.852216749 651 496 604 496 513 c 256
+ 496 446 440 421 399 421 c 256
+ 354 421 303 453 303 508 c 256
+ 303 527 309 542 316 553 c 257
+ 310 553 306 553 300 553 c 256
+ 237.910447761 553 196 525 196 491 c 260
+ 196 443 280.621621622 421 351 421 c 256
+ 352 421 352 421 353 421 c 257
+ 338 400 l 257
+ 207.785123967 403 136 451 136 524 c 256
 12 23 m 257
  99 60 180 138 180 262 c 256
  180 328 146 395 82 395 c 256
@@ -22415,7 +22423,7 @@ SplineSet
  114 47 70 15 28 1 c 257
  12 23 l 257
 EndSplineSet
-Validated: 5
+Validated: 524293
 EndChar
 
 StartChar: si_KSsa.reph
@@ -23079,7 +23087,7 @@ SplineSet
  659.599609375 197.199994821 518.7997842 56.400390625 345 56.400390625 c 260
  171.199994821 56.400390625 30.400390625 197.199994821 30.400390625 371 c 260
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: si_TVa.reph
