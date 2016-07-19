@@ -13,7 +13,14 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
-6 April 2016 (mooniak) Abhaya Libre - ttf Build v1.030
+19 July 2016 (mooniak) Abhaya Libre v1.050
+- Minor design fixes
+- Ya post forms fixes
+- Fractions fixes
+- Fixes shaping issues on some GNU/Linux platforms(#43)
+
+
+6 April 2016 (mooniak) Abhaya Libre - ttf Build v1.040
 - Minor design fixes
 - New ttf build
 - Added Yansa forms
