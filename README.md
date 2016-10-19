@@ -1,11 +1,4 @@
 
-|  WORK IN PROGRESS      |
-| ------------- |:-------------:|
-| This repo is the active devleopment repo of the project. So files move here and the sometimes. See [Repository Structure](#repository-structure) before downloading any files.       |  
-|  [Live Testing Page](http://mooniak.com/abhaya-libre-font/tests)      |
-
-
-
 අභය ලිබ්රේ අකුරු මුහුණත / Abhaya Libre Font
 ==============
 
@@ -17,6 +10,7 @@ Abhaya Libre - is the unicode compliant, complete libre version of Pushpananda E
 See the discussions on [Googel Fonts mailing list ](https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion)
 See the [video discussions](https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv)
 
+Now use on your website from [Google Fonts](https://fonts.google.com/specimen/Abhaya+Libre)
 
 ##
 
@@ -30,17 +24,7 @@ It comes with a Latin set designed by Sol Matas to match the aesthetics of Abhay
 
 After several tests and discussions we agreed on the height for uppercase and lowercase to match harmoniously with Sinhala. The width of each character and its position on the baseline have been carefully designed to get a nice balance between both writing systems. Adding large counters for optimizing on screen viewing and small ascenders and descenders.
 
-The project was funded by Google, being led by Mooniak, a collaborative collective of designers based in Colombo Sri Lanka with the cooperation of Mr. Pushpananda Ekanayake, the designer  of the FM Abhaya font and Sol Matas as the Latin designer. For Moonaik, Pathum Egodawatta and Ayantha Randika contributed to the project in consulting, managing and Opentype engineering.
-
-
-
-වර්තමානයේ, මාධ්‍ය සහ තොරතුරු ක්ෂේත්‍රයේ වැඩිපුරම භාවිතා වන සිංහල ෆොන්ටය වන්නේ 1996 වසරේ  නිමවන ලද ‘එෆ්එම් අභය' අකුරු මුහුණතයි. ලක්දිව උපතිස්ස නුවර ක්‍රිස්තු පූර්ව 474 සිට ක්‍රිස්තු පූර්ව 454 දක්වා රජකම් කළ ‘අභය’ රජුගේ නමින් නාමික අභාෂය ලබන එෆ්එම් අභය, අතීත අච්චු අකුරු මුහුණත් වලින් රූපික ආභාෂය ලැබගනී. ‘අභය ලිබරේ’, එෆ්එම් අභය අකුරු මුහුණත පුර්වජයා කොටගත්, සම්පූර්ණ නිදහස්, හිමිකමින් තොර, යුනිකෝඩ් අනුකූලතා පහසුකම සහිත, පොළොව මත වැඩිපුරම භාවිතයක් ඇති සිංහල ෆොන්ටයේ නිදහස් අනුවර්තනයයි.
-
-යුනිකෝඩ් අනුවර්තන ක්‍රියාවලියේදී, වෙබ්, ටැබ් සහ වඩාත් කුඩා අකුරු මුහුණත් අවශ්‍ය වන ස්මාර්ට් ෆෝන් අතුරු මුහුණත් සඳහා අවශ්‍ය එෆ්එම් අභය අකුරු මුහුණත මුළුමුනින්ම නැවත අඳින ලදී. පැහැ අන්තර පහක් (5) යටතේ අතුරු මුහුණත් නිර්මාණ ශිල්පීන්ට නිර්මාණවල ගුණාත්මක අගය විවිධාකාර පරාසයන් කරා රැගෙන යා හැකිය. වඩා තද අකුරු සිරස්තල සඳහාද ලා අකුරු සිරස්තලයේ අන්තර්ගතය සඳහාද යොදා ගත හැකිය.ඒ අකුරු මුහුනත් පහම සිංහල, පාලි සහ සංස්කෘත යන භාෂා ත්‍රිත්වය සඳහාම සහයෝගය දක්වයි.
-
-ආර්ජන්ටිනානු ජාතික අකුරු නිර්මාණ ශිල්පිනී සොල් මේට්ස් විසින් නිර්මාණය කරන ලද සිංහල ඌරුවේ ලතින් අකුරුද  අභය ලිබරේ අකුරු මුහුණතේ අන්තර්ගතය.
-
-ව්‍යාපෘතිය ගූග්ල් සමාගමේ අනුග්‍රහය යටතේ එෆ්එම් අභය අකුරු මෝස්තරයේ නිර්මාණ ශිල්පී පුෂ්පානන්ද ඒකනායක මහතාගේ සහයෝගිත්වය ඇතිව මූනියැක් සමගම විසින් සිදුකරන ලදී. මූනියැක්, නිර්මාණවේදීන්ගේ සහයෝගීත්ව සාමූහිකය, වඩාත් දියුණු ශ්‍රී ලාංකීය ජාතියක් උදෙසා නිර්මානවේදයේ උපයෝගීතාවයන් සොයන අගනුවර ආශ්‍රිත තරුණ ක්‍රියාකාරිකයන් සමූහයකි.
+The project was funded by Google, being led by Mooniak, a collaborative collective of designers based in Colombo Sri Lanka with the cooperation of Mr. Pushpananda Ekanayake, the designer  of the FM Abhaya font and Sol Matas as the Latin designer.
 
 
 ## Repository Structure
@@ -83,6 +67,8 @@ See `FONTLOG.md` for details on contributions.
 - Sol Matas(Latin)
 - Pathum Egodawatta (Refactoring and Project coordination)
 - Ayantha Randika (Opentype features and engineering)
+- Kosala Senvirathne (Documentation)
+
 
 Special thanks to Dave Crossland, Sumantri Samarawickrama, Liang Hai for consultancy and support. And thanks to all the tweeps who helped to spot errors and bugs.
 
@@ -98,8 +84,3 @@ rationale and various recommendations regarding why you would want to
 contribute to the project or make your own version of the font.
 
 
-
-***
-
-|   This repository follows the [Unified Font Repository](https://github.com/raphaelbastide/Unified-Font-Repository) v2.0, a standard way to organize font project source files.           |
-| ------------- |:
