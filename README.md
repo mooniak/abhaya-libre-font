@@ -2,7 +2,8 @@
 අභය ලිබ්රේ අකුරු මුහුණත / Abhaya Libre Font
 ==============
 
-Abhaya Libre - is the unicode compliant, complete libre version of Pushpananda Ekanayakes's FM Abhaya font, with Latin designed by Sol Matas.
+Abhaya Libre - is the unicode compliant, complete libre version of FM Abhaya font. 
+Designed by Pushpanada Ekanayake with Sol Matas.
 
 එෆ් එම් අභය අකුරු මුහුණතේ යුනිකේත අනුකූල නිදහස් නිකුතුව.
 
