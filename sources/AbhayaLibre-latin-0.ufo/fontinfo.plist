@@ -10,8 +10,6 @@
 	<string>(c) 1997 Pushpananda Ekanayake(http://isiwara.lk), 2013 Path Nirvana(http://pathnirvana.org/), 2014 mooniak(mooniak.com). All Rights Reserved.</string>
 	<key>descender</key>
 	<integer>-254</integer>
-	<key>description</key>
-	<string>Pushpananda Ekanayake and mooniak</string>
 	<key>familyName</key>
 	<string>Abhaya Libre Latin</string>
 	<key>license</key>
@@ -20,6 +18,8 @@
 	<string>http://www.apache.org/licenses/LICENSE-2.0</string>
 	<key>openTypeHeadCreated</key>
 	<string>2015/06/27 14:27:01</string>
+	<key>openTypeNameDescription</key>
+	<string>Pushpananda Ekanayake and mooniak</string>
 	<key>openTypeNameDesigner</key>
 	<string>Pushpananda Ekanayake(isiwara.lk)</string>
 	<key>openTypeNameDesignerURL</key>
@@ -38,6 +38,8 @@
 	<integer>-254</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>36</integer>
+	<key>openTypeOS2VendorID</key>
+	<string>MS  </string>
 	<key>openTypeOS2WeightClass</key>
 	<integer>400</integer>
 	<key>openTypeOS2WidthClass</key>
@@ -53,6 +55,8 @@
 		<integer>746</integer>
 		<integer>762</integer>
 	</array>
+	<key>postscriptFontName</key>
+	<string>AbhayaLibreLatin-Regular</string>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<integer>-270</integer>
@@ -91,8 +95,6 @@
 	<string>Regular</string>
 	<key>unitsPerEm</key>
 	<integer>1000</integer>
-	<key>vendorID</key>
-	<string>MS  </string>
 	<key>versionMajor</key>
 	<integer>0</integer>
 	<key>versionMinor</key>

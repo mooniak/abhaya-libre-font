@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>GSDimensionPlugin.Dimensions</key>
@@ -41,6 +41,10 @@
 			<integer>85</integer>
 		</dict>
 	</dict>
+	<key>UFOFormat</key>
+	<integer>2</integer>
+	<key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+	<false/>
 	<key>com.schriftgestaltung.fontMaster.userData</key>
 	<dict>
 		<key>angle</key>
@@ -309,14 +313,12 @@
 		<string>si_YU</string>
 	</array>
 	<key>com.schriftgestaltung.useNiceNames</key>
-	<integer>0</integer>
+	<false/>
 	<key>com.schriftgestaltung.weightValue</key>
 	<integer>70</integer>
 	<key>com.typemytype.robofont.guides</key>
 	<array>
 		<dict>
-			<key>angle</key>
-			<integer>0</integer>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
@@ -325,8 +327,6 @@
 			<integer>600</integer>
 		</dict>
 		<dict>
-			<key>angle</key>
-			<integer>0</integer>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
@@ -335,8 +335,6 @@
 			<integer>610</integer>
 		</dict>
 		<dict>
-			<key>angle</key>
-			<integer>0</integer>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
@@ -345,18 +343,12 @@
 			<integer>650</integer>
 		</dict>
 		<dict>
-			<key>angle</key>
-			<integer>0</integer>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
 			<integer>593</integer>
-			<key>y</key>
-			<integer>0</integer>
 		</dict>
 		<dict>
-			<key>angle</key>
-			<integer>0</integer>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
@@ -365,8 +357,6 @@
 			<integer>435</integer>
 		</dict>
 		<dict>
-			<key>angle</key>
-			<integer>0</integer>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
@@ -375,8 +365,6 @@
 			<integer>-190</integer>
 		</dict>
 		<dict>
-			<key>angle</key>
-			<integer>0</integer>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
@@ -385,8 +373,6 @@
 			<integer>530</integer>
 		</dict>
 		<dict>
-			<key>angle</key>
-			<integer>0</integer>
 			<key>isGlobal</key>
 			<true/>
 			<key>x</key>
@@ -395,8 +381,13 @@
 			<integer>-80</integer>
 		</dict>
 	</array>
+	<key>com.typemytype.robofont.layerOrder</key>
+	<array>
+		<string>background</string>
+	</array>
 	<key>public.glyphOrder</key>
 	<array>
+		<string>.notdef</string>
 		<string>space</string>
 		<string>parenleft</string>
 		<string>parenright</string>
@@ -423,9 +414,147 @@
 		<string>braceright</string>
 		<string>multiply</string>
 		<string>divide</string>
+		<string>anusvara</string>
+		<string>visarga</string>
+		<string>si_A</string>
+		<string>si_Aa</string>
+		<string>si_Ae</string>
+		<string>si_I</string>
+		<string>si_Ii</string>
+		<string>si_U</string>
+		<string>si_Uu</string>
+		<string>si_vocalicR</string>
+		<string>si_vocalicRr</string>
+		<string>si_E</string>
+		<string>si_Ee</string>
+		<string>si_O</string>
+		<string>si_Oo</string>
+		<string>si_Ka</string>
+		<string>si_Kha</string>
+		<string>si_Ga</string>
+		<string>si_Gha</string>
+		<string>si_Nga</string>
+		<string>si_Nnga</string>
+		<string>si_Ca</string>
+		<string>si_Cha</string>
+		<string>si_Ja</string>
+		<string>si_Jha</string>
+		<string>si_Nya</string>
+		<string>si_Jnya</string>
+		<string>si_Ndja</string>
+		<string>si_Tta</string>
+		<string>si_Ttha</string>
+		<string>si_Dda</string>
+		<string>si_Ddha</string>
+		<string>si_Nna</string>
+		<string>si_Ta</string>
+		<string>si_Tha</string>
+		<string>si_Da</string>
+		<string>si_Dha</string>
+		<string>si_Na</string>
+		<string>si_Nda</string>
+		<string>si_Pa</string>
+		<string>si_Pha</string>
+		<string>si_Ba</string>
+		<string>si_Bha</string>
+		<string>si_Ma</string>
+		<string>si_Mba</string>
+		<string>si_Ya</string>
+		<string>si_Ra</string>
+		<string>si_La</string>
+		<string>si_Va</string>
+		<string>si_Sha</string>
+		<string>si_Ssa</string>
+		<string>si_Sa</string>
+		<string>si_Ha</string>
+		<string>si_Lla</string>
+		<string>si_Fa</string>
+		<string>si_Halant</string>
+		<string>si_MatraAa</string>
+		<string>si_MatraAe</string>
+		<string>si_MatraI</string>
+		<string>si_MatraIi</string>
+		<string>si_MatraU</string>
+		<string>si_MatraR</string>
+		<string>si_MatraE</string>
+		<string>si_MatraEe</string>
+		<string>si_MatraAi</string>
+		<string>si_MatraO</string>
+		<string>si_MatraOo</string>
+		<string>si_MatraAu</string>
+		<string>si_MatraLs</string>
+		<string>si_MatraRr</string>
+		<string>si_MatraLl</string>
+		<string>si_kundaliya</string>
+		<string>zwnj</string>
+		<string>zwj</string>
 		<string>short_dash2</string>
 		<string>quoteleft</string>
 		<string>quoteright</string>
+		<string>si_RAe</string>
+		<string>si_NdAa</string>
+		<string>si_NdI</string>
+		<string>si_NdIi</string>
+		<string>si_DUu</string>
+		<string>si_DIi</string>
+		<string>si_Ya.reph</string>
+		<string>si_NdUu</string>
+		<string>si_JhI</string>
+		<string>si_JhIi</string>
+		<string>si_DAe</string>
+		<string>si_LlU</string>
+		<string>si_TthI</string>
+		<string>si_TthIi</string>
+		<string>si_ChIi</string>
+		<string>si_KhI</string>
+		<string>si_LUu</string>
+		<string>si_KhIi</string>
+		<string>si_DI</string>
+		<string>si_RIi</string>
+		<string>si_DdhI</string>
+		<string>si_DdhIi</string>
+		<string>si_CI</string>
+		<string>si_ThIi</string>
+		<string>si_ThI</string>
+		<string>si_JIi</string>
+		<string>si_CIi</string>
+		<string>si_JnyAa</string>
+		<string>si_PhIi</string>
+		<string>si_PhI</string>
+		<string>si_DAa</string>
+		<string>si_RI</string>
+		<string>si_TtIi</string>
+		<string>si_TtI</string>
+		<string>si_DdIi</string>
+		<string>si_DdI</string>
+		<string>si_DhI</string>
+		<string>si_DhIi</string>
+		<string>si_BI</string>
+		<string>si_BIi</string>
+		<string>si_JI</string>
+		<string>si_MI</string>
+		<string>si_MIi</string>
+		<string>si_MbI</string>
+		<string>si_MbIi</string>
+		<string>si_NdU</string>
+		<string>si_VIi</string>
+		<string>si_VI</string>
+		<string>si_NyU</string>
+		<string>si_NyUu</string>
+		<string>si_ChI</string>
+		<string>si_DU</string>
+		<string>si_NnIi</string>
+		<string>si_NdAe</string>
+		<string>si_NnI</string>
+		<string>si_Nna.reph</string>
+		<string>si_KSsa</string>
+		<string>si_TTha</string>
+		<string>si_NDa</string>
+		<string>si_TVa</string>
+		<string>si_NDAa</string>
+		<string>si_MatraU.alt</string>
+		<string>si_MatraUu.alt</string>
+		<string>si_YU</string>
 		<string>A</string>
 		<string>Aacute</string>
 		<string>Abreve</string>
@@ -635,6 +764,229 @@
 		<string>ordfeminine</string>
 		<string>ordmasculine</string>
 		<string>pi</string>
+		<string>uni0B85</string>
+		<string>uni0B86</string>
+		<string>uni0B87</string>
+		<string>uni0B88</string>
+		<string>uni0B89</string>
+		<string>uni0B8A</string>
+		<string>uni0B8E</string>
+		<string>uni0B8F</string>
+		<string>uni0B90</string>
+		<string>uni0B92</string>
+		<string>uni0B93</string>
+		<string>uni0B94</string>
+		<string>uni0B95</string>
+		<string>uni0B99</string>
+		<string>uni0B9A</string>
+		<string>uni0B9C</string>
+		<string>uni0B9E</string>
+		<string>uni0B9F</string>
+		<string>uni0BA3</string>
+		<string>uni0BA4</string>
+		<string>uni0BA8</string>
+		<string>uni0BA9</string>
+		<string>uni0BAA</string>
+		<string>uni0BAE</string>
+		<string>uni0BAF</string>
+		<string>uni0BB0</string>
+		<string>uni0BB1</string>
+		<string>uni0BB2</string>
+		<string>uni0BB3</string>
+		<string>uni0BB4</string>
+		<string>uni0BB5</string>
+		<string>uni0BB6</string>
+		<string>uni0BB7</string>
+		<string>uni0BB8</string>
+		<string>uni0BB9</string>
+		<string>uni0BD0</string>
+		<string>uni0B83</string>
+		<string>uni0B95_uni0BCD_uni0BB7</string>
+		<string>uni0B95_uni0BCD_uni0BB7_uni0BBF</string>
+		<string>uni0B95_uni0BCD_uni0BB7_uni0BC0</string>
+		<string>uni0B95_uni0BCD_uni0BB7_uni0BCD</string>
+		<string>uni0BB8_uni0BCD_uni0BB0_uni0BC0.abvs</string>
+		<string>uni0B95_uni0BBF</string>
+		<string>uni0B95_uni0BC0</string>
+		<string>uni0B95_uni0BC1</string>
+		<string>uni0B95_uni0BC2</string>
+		<string>uni0B95_uni0BCD</string>
+		<string>uni0B99_uni0BBF</string>
+		<string>uni0B99_uni0BC0</string>
+		<string>uni0B99_uni0BC1</string>
+		<string>uni0B99_uni0BC2</string>
+		<string>uni0B99_uni0BCD</string>
+		<string>uni0B9A_uni0BBF</string>
+		<string>uni0B9A_uni0BC0</string>
+		<string>uni0B9A_uni0BC1</string>
+		<string>uni0B9A_uni0BC2</string>
+		<string>uni0B9A_uni0BCD</string>
+		<string>uni0B9C_uni0BBF</string>
+		<string>uni0B9C_uni0BC0</string>
+		<string>uni0B9C_uni0BCD</string>
+		<string>uni0B9E_uni0BBF</string>
+		<string>uni0B9E_uni0BC0</string>
+		<string>uni0B9E_uni0BC1</string>
+		<string>uni0B9E_uni0BC2</string>
+		<string>uni0B9E_uni0BCD</string>
+		<string>uni0B9F_uni0BBF</string>
+		<string>uni0B9F_uni0BC0</string>
+		<string>uni0B9F_uni0BC1</string>
+		<string>uni0B9F_uni0BC2</string>
+		<string>uni0B9F_uni0BCD</string>
+		<string>uni0BA3_uni0BBF</string>
+		<string>uni0BA3_uni0BC0</string>
+		<string>uni0BA3_uni0BC1</string>
+		<string>uni0BA3_uni0BC2</string>
+		<string>uni0BA3_uni0BCD</string>
+		<string>uni0BA4_uni0BBF</string>
+		<string>uni0BA4_uni0BC0</string>
+		<string>uni0BA4_uni0BC1</string>
+		<string>uni0BA4_uni0BC2</string>
+		<string>uni0BA4_uni0BCD</string>
+		<string>uni0BA8_uni0BBF</string>
+		<string>uni0BA8_uni0BC0</string>
+		<string>uni0BA8_uni0BC1</string>
+		<string>uni0BA8_uni0BC2</string>
+		<string>uni0BA8_uni0BCD</string>
+		<string>uni0BA9_uni0BBF</string>
+		<string>uni0BA9_uni0BC0</string>
+		<string>uni0BA9_uni0BC1</string>
+		<string>uni0BA9_uni0BC2</string>
+		<string>uni0BA9_uni0BCD</string>
+		<string>uni0BAA_uni0BBF</string>
+		<string>uni0BAA_uni0BC0</string>
+		<string>uni0BAA_uni0BC1</string>
+		<string>uni0BAA_uni0BC2</string>
+		<string>uni0BAA_uni0BCD</string>
+		<string>uni0BAE_uni0BBF</string>
+		<string>uni0BAE_uni0BC0</string>
+		<string>uni0BAE_uni0BC1</string>
+		<string>uni0BAE_uni0BC2</string>
+		<string>uni0BAE_uni0BCD</string>
+		<string>uni0BAF_uni0BBF</string>
+		<string>uni0BAF_uni0BC0</string>
+		<string>uni0BAF_uni0BC1</string>
+		<string>uni0BAF_uni0BC2</string>
+		<string>uni0BAF_uni0BCD</string>
+		<string>uni0BB0_uni0BBF</string>
+		<string>uni0BB0_uni0BC0</string>
+		<string>uni0BB0_uni0BC1</string>
+		<string>uni0BB0_uni0BC2</string>
+		<string>uni0BB0_uni0BCD</string>
+		<string>uni0BB1_uni0BBF</string>
+		<string>uni0BB1_uni0BC0</string>
+		<string>uni0BB1_uni0BC1</string>
+		<string>uni0BB1_uni0BC2</string>
+		<string>uni0BB1_uni0BCD</string>
+		<string>uni0BB2_uni0BBF</string>
+		<string>uni0BB2_uni0BC0</string>
+		<string>uni0BB2_uni0BC1</string>
+		<string>uni0BB2_uni0BC2</string>
+		<string>uni0BB2_uni0BCD</string>
+		<string>uni0BB3_uni0BBF</string>
+		<string>uni0BB3_uni0BC0</string>
+		<string>uni0BB3_uni0BC1</string>
+		<string>uni0BB3_uni0BC2</string>
+		<string>uni0BB3_uni0BCD</string>
+		<string>uni0BB4_uni0BBF</string>
+		<string>uni0BB4_uni0BC0</string>
+		<string>uni0BB4_uni0BC1</string>
+		<string>uni0BB4_uni0BC2</string>
+		<string>uni0BB4_uni0BCD</string>
+		<string>uni0BB5_uni0BBF</string>
+		<string>uni0BB5_uni0BC0</string>
+		<string>uni0BB5_uni0BC1</string>
+		<string>uni0BB5_uni0BC2</string>
+		<string>uni0BB5_uni0BCD</string>
+		<string>uni0BB6_uni0BBF</string>
+		<string>uni0BB6_uni0BC0</string>
+		<string>uni0BB6_uni0BCD</string>
+		<string>uni0BB7_uni0BBF</string>
+		<string>uni0BB7_uni0BC0</string>
+		<string>uni0BB7_uni0BCD</string>
+		<string>uni0BB8_uni0BBF</string>
+		<string>uni0BB8_uni0BC0</string>
+		<string>uni0BB8_uni0BCD</string>
+		<string>uni0BB9_uni0BBF</string>
+		<string>uni0BB9_uni0BC0</string>
+		<string>uni0BB9_uni0BCD</string>
+		<string>si_Aae</string>
+		<string>si_Ai</string>
+		<string>si_Au</string>
+		<string>si_Nndda</string>
+		<string>si_vocalicL</string>
+		<string>si_vocalicLL</string>
+		<string>si_Ba.reph</string>
+		<string>si_Ba.touch</string>
+		<string>si_Bha.reph</string>
+		<string>si_Bha.touch</string>
+		<string>si_Ca.reph</string>
+		<string>si_Ca.touch</string>
+		<string>si_Cha.touch</string>
+		<string>si_Da.reph</string>
+		<string>si_Da.touch</string>
+		<string>si_Dda.reph</string>
+		<string>si_Dda.touch</string>
+		<string>si_Ddha.touch</string>
+		<string>si_Dha.reph</string>
+		<string>si_Dha.touch</string>
+		<string>si_Fa.reph</string>
+		<string>si_Fa.touch</string>
+		<string>si_Ga.reph</string>
+		<string>si_Ga.touch</string>
+		<string>si_Gha.reph</string>
+		<string>si_Gha.touch</string>
+		<string>si_Ha.reph</string>
+		<string>si_Ha.touch</string>
+		<string>si_Ja.reph</string>
+		<string>si_Ja.touch</string>
+		<string>si_Jha.reph</string>
+		<string>si_Jha.touch</string>
+		<string>si_Jnya.reph</string>
+		<string>si_Jnya.touch</string>
+		<string>si_Ka.reph</string>
+		<string>si_Ka.touch</string>
+		<string>si_Kha.touch</string>
+		<string>si_La.touch</string>
+		<string>si_Lla.touch</string>
+		<string>si_Ma.reph</string>
+		<string>si_Ma.touch</string>
+		<string>si_Mba.touch</string>
+		<string>si_Na.reph</string>
+		<string>si_Na.touch</string>
+		<string>si_Nda.touch</string>
+		<string>si_Ndja.touch</string>
+		<string>si_Nga.touch</string>
+		<string>si_Nna.touch</string>
+		<string>si_Nnga.touch</string>
+		<string>si_Nya.reph</string>
+		<string>si_Nya.touch</string>
+		<string>si_Pa.reph</string>
+		<string>si_Pa.touch</string>
+		<string>si_Pha.reph</string>
+		<string>si_Pha.touch</string>
+		<string>si_Ra.touch</string>
+		<string>si_Sa.reph</string>
+		<string>si_Sa.touch</string>
+		<string>si_Sha.reph</string>
+		<string>si_Sha.touch</string>
+		<string>si_Ssa.reph</string>
+		<string>si_Ssa.touch</string>
+		<string>si_Ta.reph</string>
+		<string>si_Ta.touch</string>
+		<string>si_Tha.reph</string>
+		<string>si_Tha.touch</string>
+		<string>si_Tta.reph</string>
+		<string>si_Tta.touch</string>
+		<string>si_Ttha.touch</string>
+		<string>si_Va.reph</string>
+		<string>si_Va.touch</string>
+		<string>si_Ya.post</string>
+		<string>si_Ya.post.MatraI</string>
+		<string>si_Ya.post.MatraIi</string>
+		<string>si_Ya.post.reph</string>
+		<string>si_Ya.touch</string>
 		<string>zero.tf</string>
 		<string>one.tf</string>
 		<string>two.tf</string>
@@ -645,10 +997,6 @@
 		<string>seven.tf</string>
 		<string>eight.tf</string>
 		<string>nine.tf</string>
-		<string>fraction</string>
-		<string>onehalf</string>
-		<string>onequarter</string>
-		<string>threequarters</string>
 		<string>zero.numr</string>
 		<string>one.numr</string>
 		<string>two.numr</string>
@@ -662,6 +1010,23 @@
 		<string>onesuperior</string>
 		<string>twosuperior</string>
 		<string>threesuperior</string>
+		<string>fraction</string>
+		<string>onehalf</string>
+		<string>onequarter</string>
+		<string>threequarters</string>
+		<string>uni0BF0</string>
+		<string>uni0BF1</string>
+		<string>uni0BF2</string>
+		<string>uni0BE6</string>
+		<string>uni0BE7</string>
+		<string>uni0BE8</string>
+		<string>uni0BE9</string>
+		<string>uni0BEA</string>
+		<string>uni0BEB</string>
+		<string>uni0BEC</string>
+		<string>uni0BED</string>
+		<string>uni0BEE</string>
+		<string>uni0BEF</string>
 		<string>backslash</string>
 		<string>periodcentered</string>
 		<string>bullet</string>
@@ -688,56 +1053,73 @@
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
 		<string>quotesinglbase</string>
+		<string>uni0964</string>
+		<string>uni0965</string>
 		<string>uni00A0</string>
+		<string>space.001</string>
+		<string>space.002</string>
+		<string>uni200C</string>
+		<string>uni200D</string>
+		<string>.notdef.001</string>
 		<string>Euro</string>
 		<string>cent</string>
 		<string>currency</string>
 		<string>dollar</string>
 		<string>florin</string>
 		<string>sterling</string>
+		<string>dottedcircle</string>
+		<string>paragraph</string>
+		<string>section</string>
+		<string>copyright</string>
+		<string>registered</string>
+		<string>trademark</string>
+		<string>degree</string>
+		<string>bar</string>
+		<string>brokenbar</string>
+		<string>dagger</string>
+		<string>uni2113</string>
+		<string>daggerdbl</string>
+		<string>estimated</string>
+		<string>asciicircum</string>
+		<string>uni0BF9</string>
+		<string>uni20B9</string>
 		<string>uni20BA</string>
 		<string>uni20BD</string>
 		<string>yen</string>
+		<string>minus</string>
+		<string>equal</string>
+		<string>notequal</string>
+		<string>greater</string>
+		<string>less</string>
+		<string>greaterequal</string>
+		<string>lessequal</string>
+		<string>plusminus</string>
 		<string>approxequal</string>
 		<string>asciitilde</string>
-		<string>equal</string>
-		<string>greater</string>
-		<string>greaterequal</string>
+		<string>logicalnot</string>
 		<string>infinity</string>
 		<string>integral</string>
-		<string>less</string>
-		<string>lessequal</string>
-		<string>logicalnot</string>
-		<string>minus</string>
-		<string>notequal</string>
-		<string>partialdiff</string>
-		<string>percent</string>
-		<string>perthousand</string>
-		<string>plusminus</string>
-		<string>product</string>
-		<string>radical</string>
-		<string>summation</string>
-		<string>uni00B5</string>
 		<string>uni2126</string>
 		<string>uni2206</string>
+		<string>product</string>
+		<string>summation</string>
+		<string>radical</string>
+		<string>partialdiff</string>
+		<string>uni00B5</string>
+		<string>percent</string>
+		<string>perthousand</string>
 		<string>uni2215</string>
 		<string>uni2219</string>
 		<string>lozenge</string>
-		<string>bar</string>
-		<string>brokenbar</string>
 		<string>at</string>
 		<string>ampersand</string>
-		<string>paragraph</string>
-		<string>copyright</string>
-		<string>registered</string>
-		<string>section</string>
-		<string>trademark</string>
-		<string>degree</string>
-		<string>estimated</string>
-		<string>uni2113</string>
-		<string>asciicircum</string>
-		<string>dagger</string>
-		<string>daggerdbl</string>
+		<string>uni0BF3</string>
+		<string>uni0BF4</string>
+		<string>uni0BF5</string>
+		<string>uni0BF6</string>
+		<string>uni0BF7</string>
+		<string>uni0BF8</string>
+		<string>uni0BFA</string>
 		<string>commaaccent</string>
 		<string>uni02C9</string>
 		<string>acute</string>
@@ -753,8 +1135,392 @@
 		<string>ogonek</string>
 		<string>ring</string>
 		<string>tilde</string>
+		<string>si_MatraUu</string>
+		<string>si_MatraAae</string>
+		<string>si_MatraAa.halant</string>
+		<string>uni0BC0</string>
+		<string>uni0BCD</string>
+		<string>uni0BBE</string>
+		<string>uni0BBF</string>
+		<string>uni0BC1</string>
+		<string>uni0BC2</string>
+		<string>uni0BC6</string>
+		<string>uni0BC7</string>
+		<string>uni0BC8</string>
+		<string>uni0BCA</string>
+		<string>uni0BCB</string>
+		<string>uni0BCC</string>
+		<string>uni0BD7</string>
+		<string>uni0BC1.abvs</string>
+		<string>uni0BC2.abvs</string>
 		<string>czechcaron</string>
 		<string>vertical_stem_upper</string>
+		<string>nonmarkingreturn</string>
+		<string>NULL</string>
+		<string>mooniak</string>
+		<string>si_NdAa.halant</string>
+		<string>si_JnyAe</string>
+		<string>si_JnyAee</string>
+		<string>si_NyAa.halant</string>
+		<string>si_NyAe</string>
+		<string>si_NyAee</string>
+		<string>si_B.halant</string>
+		<string>si_Bh.halant</string>
+		<string>si_BhI</string>
+		<string>si_BhRa</string>
+		<string>si_BhIi</string>
+		<string>si_BhRa.halant</string>
+		<string>si_BhRI</string>
+		<string>si_BhRIi</string>
+		<string>si_BhUu</string>
+		<string>si_BRa</string>
+		<string>si_BhU</string>
+		<string>si_BR.halant</string>
+		<string>si_BRI</string>
+		<string>si_BRIi</string>
+		<string>si_BU</string>
+		<string>si_BUu</string>
+		<string>si_C.halant</string>
+		<string>si_Ch.halant</string>
+		<string>si_ChU</string>
+		<string>si_ChUu</string>
+		<string>si_CR.halant</string>
+		<string>si_CRa</string>
+		<string>si_CRI</string>
+		<string>si_CRIi</string>
+		<string>si_CU</string>
+		<string>si_CUu</string>
+		<string>si_D.halant</string>
+		<string>si_DAa.halant</string>
+		<string>si_DAae</string>
+		<string>si_DDha</string>
+		<string>si_DDdh.halant</string>
+		<string>si_DDha.reph</string>
+		<string>si_Dd.halant</string>
+		<string>si_DDhI</string>
+		<string>si_DDhIi</string>
+		<string>si_DDhU</string>
+		<string>si_DDhUu</string>
+		<string>si_Ddh.halant</string>
+		<string>si_DdhU</string>
+		<string>si_DdhUu</string>
+		<string>si_DdR.halant</string>
+		<string>si_DdRa</string>
+		<string>si_DdRI</string>
+		<string>si_DdRIi</string>
+		<string>si_DdU</string>
+		<string>si_DdUu</string>
+		<string>si_Dh.halant</string>
+		<string>si_DhR.halant</string>
+		<string>si_DhRa</string>
+		<string>si_DhU</string>
+		<string>si_DhRI</string>
+		<string>si_DhUu</string>
+		<string>si_DhRIi</string>
+		<string>si_DR.halant</string>
+		<string>si_DRa</string>
+		<string>si_DRI</string>
+		<string>si_DRIi</string>
+		<string>si_DV.halant</string>
+		<string>si_DVa.reph</string>
+		<string>si_DVa</string>
+		<string>si_DVI</string>
+		<string>si_DVUu</string>
+		<string>si_DVU</string>
+		<string>si_DvocR</string>
+		<string>si_DVIi</string>
+		<string>si_DvocRr</string>
+		<string>si_DYa.post</string>
+		<string>si_DYAa.post</string>
+		<string>si_DYOo.post</string>
+		<string>si_DYu.post</string>
+		<string>si_DYUu.post</string>
+		<string>si_F.halant</string>
+		<string>si_FI</string>
+		<string>si_FIi</string>
+		<string>si_FR.halant</string>
+		<string>si_FRa</string>
+		<string>si_FU</string>
+		<string>si_FRI</string>
+		<string>si_G.halant</string>
+		<string>si_FUu</string>
+		<string>si_FRIi</string>
+		<string>si_GDha</string>
+		<string>si_Gh.halant</string>
+		<string>si_GDha.reph</string>
+		<string>si_GhI</string>
+		<string>si_GhIi</string>
+		<string>si_GhR.halant</string>
+		<string>si_GhRa</string>
+		<string>si_GhRIi</string>
+		<string>si_GhU</string>
+		<string>si_GhRI</string>
+		<string>si_GhUu</string>
+		<string>si_GI</string>
+		<string>si_GRa</string>
+		<string>si_GRI</string>
+		<string>si_GR.halant</string>
+		<string>si_GRIi</string>
+		<string>si_GIi</string>
+		<string>si_GU</string>
+		<string>si_GUu</string>
+		<string>si_H.halant</string>
+		<string>si_HI</string>
+		<string>si_HIi</string>
+		<string>si_HR.halant</string>
+		<string>si_HRI</string>
+		<string>si_HRa</string>
+		<string>si_HU</string>
+		<string>si_HUu</string>
+		<string>si_HRIi</string>
+		<string>si_J.halant</string>
+		<string>si_Jh.halant</string>
+		<string>si_JhR.halant</string>
+		<string>si_JhRa</string>
+		<string>si_JhRI</string>
+		<string>si_JhRIi</string>
+		<string>si_JhU</string>
+		<string>si_JhU.reph</string>
+		<string>si_JhUu</string>
+		<string>si_Jny.halant</string>
+		<string>si_JhUu.reph</string>
+		<string>si_JnyI</string>
+		<string>si_JnyIi</string>
+		<string>si_JnyR.halant</string>
+		<string>si_JnyAa.halant</string>
+		<string>si_JR.halant</string>
+		<string>si_JRa</string>
+		<string>si_JnyRa</string>
+		<string>si_JnyRI</string>
+		<string>si_JRI</string>
+		<string>si_JnyRIi</string>
+		<string>si_JnyUu</string>
+		<string>si_JnyU</string>
+		<string>si_JU</string>
+		<string>si_K.halant</string>
+		<string>si_JUu</string>
+		<string>si_JRIi</string>
+		<string>si_Kh.halant</string>
+		<string>si_KhRa</string>
+		<string>si_KhR.halant</string>
+		<string>si_KI</string>
+		<string>si_KhU</string>
+		<string>si_KIi</string>
+		<string>si_KhUu</string>
+		<string>si_KhRIi</string>
+		<string>si_KRa</string>
+		<string>si_KhRI</string>
+		<string>si_KRI</string>
+		<string>si_KRIi</string>
+		<string>si_KSs.halant</string>
+		<string>si_KSsU</string>
+		<string>si_KSsIi</string>
+		<string>si_KSsI</string>
+		<string>si_KSsUu</string>
+		<string>si_KSsa.reph</string>
+		<string>si_KU.reph</string>
+		<string>si_KUu</string>
+		<string>si_KU</string>
+		<string>si_KV.halant</string>
+		<string>si_KVI</string>
+		<string>si_KVU</string>
+		<string>si_KVa.reph</string>
+		<string>si_KVa</string>
+		<string>si_KVIi</string>
+		<string>si_KVUu</string>
+		<string>si_L.halant</string>
+		<string>si_LIi</string>
+		<string>si_LI</string>
+		<string>si_Ll.halant</string>
+		<string>si_LlI</string>
+		<string>si_LlIi</string>
+		<string>si_LlUu</string>
+		<string>si_LU</string>
+		<string>si_M.halant</string>
+		<string>si_Mb.halant</string>
+		<string>si_MbUu</string>
+		<string>si_MbU</string>
+		<string>si_MR.halant</string>
+		<string>si_MRa</string>
+		<string>si_MRI</string>
+		<string>si_MU</string>
+		<string>si_N.halant</string>
+		<string>si_MUu</string>
+		<string>si_MRIi</string>
+		<string>si_Nd.halant</string>
+		<string>si_ND.halant</string>
+		<string>si_NDa.reph</string>
+		<string>si_NDAa.halant</string>
+		<string>si_NDAe</string>
+		<string>si_NDAee</string>
+		<string>si_NDha</string>
+		<string>si_NDh.halant</string>
+		<string>si_NDha.reph</string>
+		<string>si_NDhI</string>
+		<string>si_NDhIi</string>
+		<string>si_NDhU</string>
+		<string>si_NDI</string>
+		<string>si_NDhUu</string>
+		<string>si_NDIi</string>
+		<string>si_NDRI</string>
+		<string>si_NDRa</string>
+		<string>si_NDU</string>
+		<string>si_NDRIi</string>
+		<string>si_NDUu</string>
+		<string>si_Ndda.touch</string>
+		<string>si_Ndj.halant</string>
+		<string>si_NdAae</string>
+		<string>si_NdjI</string>
+		<string>si_NdjR.halant</string>
+		<string>si_NdjRa</string>
+		<string>si_NdjIi</string>
+		<string>si_NdjU</string>
+		<string>si_NdjUu</string>
+		<string>si_NdRa</string>
+		<string>si_Ng.halant</string>
+		<string>si_NgI</string>
+		<string>si_NI</string>
+		<string>si_NgIi</string>
+		<string>si_NIi</string>
+		<string>si_Nn.halant</string>
+		<string>si_Nndd.halant</string>
+		<string>si_NnddUu</string>
+		<string>si_NnddU</string>
+		<string>si_NnddIi</string>
+		<string>si_Nng.halant</string>
+		<string>si_NnddI</string>
+		<string>si_NngUu</string>
+		<string>si_NnU</string>
+		<string>si_NngU</string>
+		<string>si_NngI</string>
+		<string>si_NngIi</string>
+		<string>si_NnUu</string>
+		<string>si_NTha</string>
+		<string>si_NThI</string>
+		<string>si_NTh.halant</string>
+		<string>si_NThU</string>
+		<string>si_NTha.reph</string>
+		<string>si_NThIi</string>
+		<string>si_NU</string>
+		<string>si_NThUu</string>
+		<string>si_NUu</string>
+		<string>si_NVU</string>
+		<string>si_NVUu</string>
+		<string>si_NVI</string>
+		<string>si_NVa</string>
+		<string>si_NVIi</string>
+		<string>si_NV.halant</string>
+		<string>si_Ny.halant</string>
+		<string>si_NVa.reph</string>
+		<string>si_NyI</string>
+		<string>si_NyIi</string>
+		<string>si_NyR.halant</string>
+		<string>si_NyAa</string>
+		<string>si_NyRa</string>
+		<string>si_NyRIi</string>
+		<string>si_NyRI</string>
+		<string>si_P.halant</string>
+		<string>si_Ph.halant</string>
+		<string>si_PhU</string>
+		<string>si_PI</string>
+		<string>si_PhUu</string>
+		<string>si_PIi</string>
+		<string>si_PR.halant</string>
+		<string>si_PRa</string>
+		<string>si_PRI</string>
+		<string>si_PRIi</string>
+		<string>si_PU</string>
+		<string>si_PUu</string>
+		<string>si_R.halant</string>
+		<string>si_RAae</string>
+		<string>si_Rakar</string>
+		<string>si_Reph</string>
+		<string>si_RU</string>
+		<string>si_RUu</string>
+		<string>si_S.halant</string>
+		<string>si_Sh.halant</string>
+		<string>si_ShR.halant</string>
+		<string>si_ShU</string>
+		<string>si_ShRa</string>
+		<string>si_ShIi</string>
+		<string>si_ShI</string>
+		<string>si_ShRI</string>
+		<string>si_ShUu</string>
+		<string>si_ShRIi</string>
+		<string>si_SI</string>
+		<string>si_SRa</string>
+		<string>si_SIi</string>
+		<string>si_SR.halant</string>
+		<string>si_SRI</string>
+		<string>si_Ss.halant</string>
+		<string>si_SRIi</string>
+		<string>si_SsIi</string>
+		<string>si_SsI</string>
+		<string>si_SsR.halant</string>
+		<string>si_SsRa</string>
+		<string>si_SsRI</string>
+		<string>si_SsU</string>
+		<string>si_SsRIi</string>
+		<string>si_SU</string>
+		<string>si_SsUu</string>
+		<string>si_T.halant</string>
+		<string>si_SUu</string>
+		<string>si_Th.halant</string>
+		<string>si_ThUu</string>
+		<string>si_ThU</string>
+		<string>si_TI</string>
+		<string>si_TIi</string>
+		<string>si_TR.halant</string>
+		<string>si_TRI</string>
+		<string>si_TRIi</string>
+		<string>si_TRa</string>
+		<string>si_TTh.halant</string>
+		<string>si_Tt.halant</string>
+		<string>si_TThU</string>
+		<string>si_TThI</string>
+		<string>si_TThUu</string>
+		<string>si_TThIi</string>
+		<string>si_TTha.reph</string>
+		<string>si_Tth.halant</string>
+		<string>si_TthU</string>
+		<string>si_TthUu</string>
+		<string>si_TtRa</string>
+		<string>si_TtR.halant</string>
+		<string>si_TtRI</string>
+		<string>si_TtRIi</string>
+		<string>si_TtTth.halant</string>
+		<string>si_TtU</string>
+		<string>si_TtTthI</string>
+		<string>si_TtTthU</string>
+		<string>si_TtUu</string>
+		<string>si_TtTthIi</string>
+		<string>si_TtTthUu</string>
+		<string>si_TtTtha.reph</string>
+		<string>si_TUu</string>
+		<string>si_TVa.reph</string>
+		<string>si_TU</string>
+		<string>si_TtTtha</string>
+		<string>si_TVU</string>
+		<string>si_TV.halant</string>
+		<string>si_TVI</string>
+		<string>si_TVUu</string>
+		<string>si_TVIi</string>
+		<string>si_V.halant</string>
+		<string>si_VR.halant</string>
+		<string>si_VRa</string>
+		<string>si_VU</string>
+		<string>si_VUu</string>
+		<string>si_VRI</string>
+		<string>si_VRIi</string>
+		<string>si_Y.halant</string>
+		<string>si_Y.post.halant</string>
+		<string>si_YI</string>
+		<string>si_YIi</string>
+		<string>si_Yu.post.reph</string>
+		<string>si_YU.post</string>
+		<string>si_YUu</string>
+		<string>si_YUu.post</string>
+		<string>si_YUu.post.reph</string>
 	</array>
 </dict>
 </plist>

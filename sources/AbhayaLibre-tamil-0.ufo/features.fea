@@ -9,12 +9,12 @@ lookup akhnAkhandinTamillookup0 {
     sub \uni0B95 \uni0BCD \uni0BB7  by \uni0B95_uni0BCD_uni0BB7;
 } akhnAkhandinTamillookup0;
 
-lookup abvsAboveBaseSubstitutionsinTam {
+lookup abvsAboveBaseSubstitutionsinTamillookup1 {
   lookupflag 0;
     sub \uni0BB8_uni0BCD \uni0BB0 \uni0BC0  by \uni0BB8_uni0BCD_uni0BB0_uni0BC0.abvs;
-} abvsAboveBaseSubstitutionsinTam;
+} abvsAboveBaseSubstitutionsinTamillookup1;
 
-lookup sub_ligature_abvstaml_0 {
+lookup abvsAboveBaseSubstitutionsinTamillookup2 {
   lookupflag 0;
     sub \uni0B95 \uni0BBF  by \uni0B95_uni0BBF;
     sub \uni0B99 \uni0BBF  by \uni0B99_uni0BBF;
@@ -64,9 +64,9 @@ lookup sub_ligature_abvstaml_0 {
     sub \uni0B95_uni0BCD_uni0BB7 \uni0BC0  by \uni0B95_uni0BCD_uni0BB7_uni0BC0;
     sub \uni0BB6 \uni0BBF  by \uni0BB6_uni0BBF;
     sub \uni0BB6 \uni0BC0  by \uni0BB6_uni0BC0;
-} sub_ligature_abvstaml_0;
+} abvsAboveBaseSubstitutionsinTamillookup2;
 
-lookup blwsBelowBaseSubstitutionsinTam {
+lookup blwsBelowBaseSubstitutionsinTamillookup3 {
   lookupflag 0;
     sub \uni0B95 \uni0BC1  by \uni0B95_uni0BC1;
     sub \uni0B99 \uni0BC1  by \uni0B99_uni0BC1;
@@ -104,7 +104,7 @@ lookup blwsBelowBaseSubstitutionsinTam {
     sub \uni0BB3 \uni0BC2  by \uni0BB3_uni0BC2;
     sub \uni0BB4 \uni0BC2  by \uni0BB4_uni0BC2;
     sub \uni0BB5 \uni0BC2  by \uni0BB5_uni0BC2;
-} blwsBelowBaseSubstitutionsinTam;
+} blwsBelowBaseSubstitutionsinTamillookup3;
 
 lookup halnHalantFormsinTamillookup4 {
   lookupflag 0;
@@ -162,10 +162,10 @@ lookup halfHalfFormsinTamillookup5 {
     sub \uni0BB6 \uni0BCD  by \uni0BB6_uni0BCD;
 } halfHalfFormsinTamillookup5;
 
-lookup sub_chain_abvstaml_0 {
+lookup abvsAboveBaseSubstitutionsinTamillookup6 {
   lookupflag 0;
     sub [\uni0B9C \uni0BB7 \uni0BB8 \uni0BB9 \uni0BB6 \uni0B95_uni0BCD_uni0BB7 ] [\uni0BC1 \uni0BC2 ]'  by [\uni0BC1.abvs \uni0BC2.abvs ];
-} sub_chain_abvstaml_0;
+} abvsAboveBaseSubstitutionsinTamillookup6;
 
 feature akhn {
 
@@ -178,16 +178,16 @@ feature abvs {
 
  script taml;
      language dflt ;
-      lookup abvsAboveBaseSubstitutionsinTam;
-      lookup sub_ligature_abvstaml_0;
-      lookup sub_chain_abvstaml_0;
+      lookup abvsAboveBaseSubstitutionsinTamillookup1;
+      lookup abvsAboveBaseSubstitutionsinTamillookup2;
+      lookup abvsAboveBaseSubstitutionsinTamillookup6;
 } abvs;
 
 feature blws {
 
  script taml;
      language dflt ;
-      lookup blwsBelowBaseSubstitutionsinTam;
+      lookup blwsBelowBaseSubstitutionsinTamillookup3;
 } blws;
 
 feature haln {

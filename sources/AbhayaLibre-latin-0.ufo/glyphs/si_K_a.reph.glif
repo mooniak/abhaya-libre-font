@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Ka.reph" format="1">
+  <advance width="728"/>
+  <outline>
+    <component base="si_Reph" xOffset="420" yOffset="-25"/>
+    <component base="si_Ka"/>
+    <contour>
+      <point x="66" y="0" type="move" name="_cursive"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:38:18 +0000</string>
+    </dict>
+  </lib>
+</glyph>

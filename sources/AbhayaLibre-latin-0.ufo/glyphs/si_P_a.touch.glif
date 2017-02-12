@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Pa.touch" format="1">
+  <advance width="601"/>
+  <outline>
+    <component base="si_Pa"/>
+    <contour>
+      <point x="561" y="0" type="move" name="cursive"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:38:18 +0000</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twosuperior" format="1">
-  <advance width="339"/>
+  <advance width="294"/>
   <unicode hex="00B2"/>
   <outline>
-    <component base="two.numr" xOffset="15" yOffset="329"/>
+    <component base="two.numr" yOffset="329"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:37:58 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>two</string>
       <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0BB9_uni0BCD" format="1">
+  <advance width="1162"/>
+  <outline>
+    <component base="uni0BB9"/>
+    <component base="uni0BCD" xOffset="453"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:37:54 +0000</string>
+    </dict>
+  </lib>
+</glyph>

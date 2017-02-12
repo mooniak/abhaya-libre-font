@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onehalf" format="1">
-  <advance width="734"/>
+  <advance width="718"/>
   <unicode hex="00BD"/>
   <outline>
-    <component base="fraction" xOffset="289"/>
-    <component base="one.numr" xOffset="30" yOffset="289"/>
-    <component base="two.numr" xOffset="415"/>
+    <component base="fraction"/>
+    <component base="one.numr" xOffset="147"/>
+    <component base="two.numr" xOffset="424"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>9</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:37:58 +0000</string>
       <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
       <string>onequarter</string>
       <key>public.markColor</key>

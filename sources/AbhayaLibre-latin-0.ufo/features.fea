@@ -1,10 +1,10 @@
-# Prefix: Languagesystems
-# automatic
-languagesystem DFLT dflt;
-
 @FIGURES = [ zero one two three four five six seven eight nine ];
 
 @FIGURES_TF = [ zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf ];
+
+# Prefix: Languagesystems
+# automatic
+languagesystem DFLT dflt;
 
 feature aalt {
 # automatic

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="si_Ga.reph" format="1">
+  <advance width="621"/>
+  <outline>
+    <component base="si_Reph" xOffset="370" yOffset="-25"/>
+    <component base="si_Ga"/>
+    <contour>
+      <point x="56" y="0" type="move" name="_cursive"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-01-29 15:38:18 +0000</string>
+    </dict>
+  </lib>
+</glyph>
