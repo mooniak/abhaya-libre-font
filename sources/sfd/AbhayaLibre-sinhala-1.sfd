@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051463
-ModificationTime: 1468748533
+ModificationTime: 1487243171
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -500,11 +500,11 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 30 15 8
+WinInfo: 480 15 8
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
-BeginChars: 584 584
+BeginChars: 587 587
 
 StartChar: .notdef
 Encoding: 579 -1 0
@@ -17463,13 +17463,11 @@ EndChar
 StartChar: space
 Encoding: 0 32 416
 GlifName: space
-Width: 195
+Width: 200
 VWidth: 0
 GlyphClass: 2
 Flags: HW
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: anusvara
@@ -22368,7 +22366,7 @@ SplineSet
  114 47 70 15 28 1 c 257
  12 23 l 257
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: si_Ya.post.MatraIi
@@ -22423,7 +22421,7 @@ SplineSet
  114 47 70 15 28 1 c 257
  12 23 l 257
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: si_KSsa.reph
@@ -23306,6 +23304,30 @@ SplineSet
  67 32 26 117 26 216 c 256
 EndSplineSet
 Validated: 5
+EndChar
+
+StartChar: nbspace
+Encoding: 584 160 584
+Width: 200
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: null
+Encoding: 585 0 585
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: CR
+Encoding: 586 13 586
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

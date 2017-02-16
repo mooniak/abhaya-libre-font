@@ -24,7 +24,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1440051439
-ModificationTime: 1468748876
+ModificationTime: 1487243148
 PfmFamily: 16
 TTFWeight: 400
 TTFWidth: 5
@@ -478,11 +478,11 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 11 6
+WinInfo: 576 8 2
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "cursive" "'curs' Cursive Attachment in Sinhala lookup 2-1" "topright" "" "center" "" "bottom" "" "top" "" "ogonek" "" 
-BeginChars: 584 584
+BeginChars: 587 587
 
 StartChar: si_NdAa.halant
 Encoding: 304 -1 0
@@ -17210,12 +17210,10 @@ EndChar
 StartChar: space
 Encoding: 0 32 418
 GlifName: uni0020
-Width: 195
+Width: 200
 VWidth: 0
 Flags: HW
 LayerCount: 2
-Fore
-Validated: 1
 EndChar
 
 StartChar: anusvara
@@ -22706,6 +22704,30 @@ SplineSet
  68 32 26 117 26 216 c 256
 EndSplineSet
 Validated: 37
+EndChar
+
+StartChar: nbspace
+Encoding: 584 160 584
+Width: 200
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: null
+Encoding: 585 0 585
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: CR
+Encoding: 586 13 586
+Width: 0
+VWidth: 0
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
