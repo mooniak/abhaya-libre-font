@@ -7,6 +7,7 @@ Designed by Pushpanada Ekanayake with Sol Matas.
 
 එෆ් එම් අභය අකුරු මුහුණතේ යුනිකේත අනුකූල නිදහස් නිකුතුව.
 
+![Abhaya-display](https://raw.githubusercontent.com/mooniak/abhaya-libre-font/master/documentation/Sample%20Image.png)
 
 See the discussions on [Googel Fonts mailing list ](https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion)
 See the [video discussions](https://www.youtube.com/playlist?list=PLpw12zH02-An-6i79877NUi_ld3U_4tmv)
@@ -17,9 +18,12 @@ Now use on your website from [Google Fonts](https://fonts.google.com/specimen/Ab
 
 At the present, ‘FM Abhaya’ designed in 1996, is the most widely used Sinhala typeface in all around contexts. FM Abhaya is an interpretation of the earliest Sinhala letterpress typefaces. The name ‘Abhaya’ comes after the King Abhaya (474 BCE to 454 BCE) who reigned Sri Lanka from the ancient kingdom of Upatissa Nuwara. The ‘Abhaya Libre’ is the Unicode compliant, complete libre version of the most popular Sinhala typeface on Earth.
 
+![](https://raw.githubusercontent.com/mooniak/abhaya-libre-font/master/documentation/3.png)
+
 In the Unicode adaptation process, the FM Abhaya font was completely redrawn from the scratch to suit the modern usages in Web, Tab and smaller sizes for Smartphones. Abhaya Libre comes in 5 weights which enables designers to build sophisticated typographic layouts. Lighter weights suites mostly for body text and heavier weights do best in title settings.
 
 Each of those weights contains 925 glyphs that enables clean and precise rendering for Sinhala, Pali and Sanskrit texts. The Custom compact ‘Da’ forms can be enabled using stylistic sets.
+![Da forms](https://raw.githubusercontent.com/mooniak/abhaya-libre-font/master/documentation/2.png)
 
 It comes with a Latin set designed by Sol Matas to match the aesthetics of Abhaya Libre Sinhala. The Latin set was inspired by the style of the original Sinhala, with the notable inherent contrast in between thick and thin strokes, was modified to tally with the visualization logics of Latin typefaces. The ductus references according to the lines of a Didone typeface add some Sinhala forms to certain terminations.
 
