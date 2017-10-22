@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="si_MatraAu" format="1">
-  <advance width="1102"/>
-  <unicode hex="0DDE"/>
-  <outline>
-    <component base="si_MatraLs" xOffset="660"/>
-    <component base="si_MatraE"/>
-  </outline>
-</glyph>

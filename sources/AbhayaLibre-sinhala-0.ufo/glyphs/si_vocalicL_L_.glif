@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="si_vocalicLL" format="1">
-  <advance width="1174"/>
-  <unicode hex="0D90"/>
-  <outline>
-    <component base="si_MatraLs" xOffset="745"/>
-    <component base="si_vocalicL"/>
-  </outline>
-</glyph>
