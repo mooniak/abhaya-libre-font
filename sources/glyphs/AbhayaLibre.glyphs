@@ -20,8 +20,6 @@ DisplayStrings = (
 /sinAa,
 /sinAee,
 /sinAu,
-"",
-"",
 "/ca_iiMatra-tamil",
 /taNnU,
 /taIi,
@@ -38,10 +36,22 @@ DisplayStrings = (
 /taRra,
 /taRrAa.alt,
 /taHalant,
-"",
 /sinMatraEe,
+/sinMatraE,
 "",
-/sinMatraE
+"",
+/dottedCircle,
+/sinZerolith/sinOnelith/sinTwolith/sinThreelith/sinFourlith/sinFivelith/sinSixlith/sinSevenlith/sinEightlith/sinNinelith,
+/sinOnelith,
+/sinTwolith,
+/sinZerolith,
+/sinKVa.reph,
+/sinGDha.reph,
+/sinReph,
+/sinFI,
+e/emacron,
+/uni20B9,
+/taLllU
 );
 classes = (
 {
@@ -107,7 +117,7 @@ code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012languagesystem
 name = Languagesystems;
 },
 {
-code = "#---- --AKHN ------------\012\012lookup sinakhands {\012  sub sinKa sinHalant zerowidthjoiner sinSsa by sinKSsa;\012  sub sinKa sinHalant zerowidthjoiner sinVa by sinKVa;\012  sub sinTa sinHalant zerowidthjoiner sinVa by sinTVa;\012  sub sinTa sinHalant zerowidthjoiner sinTha by sinTTha;\012  sub sinNa sinHalant zerowidthjoiner sinDa by sinNDa;\012  sub sinNa sinHalant zerowidthjoiner sinVa by sinNVa;\012  sub sinNa sinHalant zerowidthjoiner sinDha by sinNDha;\012  sub sinNa sinHalant zerowidthjoiner sinTha by sinNTha;\012  sub sinDa sinHalant zerowidthjoiner sinVa by sinDVa;\012  sub sinDa sinHalant zerowidthjoiner sinDha by sinDDha;\012  sub sinTta sinHalant zerowidthjoiner sinTtha by sinTtTtha;\012  sub sinGa sinHalant zerowidthjoiner sinDha by sinGDha;\012} sinakhands;\012\012#---- REPH ----\012\012lookup sinreph {\012    sub sinRa sinHalant zerowidthjoiner by sinReph;\012} sinreph;\012\012#---- HALN ----\012\012lookup sinhalant_1 {\012  sub sinMatraAa sinHalant by sinMatraAa.halant;\012  sub sinKa sinHalant by sinK.halant;\012  sub sinKha sinHalant by sinKh.halant;\012  sub sinGa sinHalant by sinG.halant;\012  sub sinGha sinHalant by sinGh.halant;\012  sub sinNga sinHalant by sinNg.halant;\012  sub sinNnga sinHalant by sinNng.halant;\012  sub sinCa sinHalant by sinC.halant;\012  sub sinCha sinHalant by sinCh.halant;\012  sub sinJa sinHalant by sinJ.halant;\012  sub sinJha sinHalant by sinJh.halant;\012  sub sinNya sinHalant by sinNy.halant;\012  sub sinJnya sinHalant by sinJny.halant;\012  sub sinNdja sinHalant by sinNdj.halant;\012  sub sinTta sinHalant by sinTt.halant;\012  sub sinTtha sinHalant by sinTth.halant;\012  sub sinDda sinHalant by sinDd.halant;\012  sub sinDdha sinHalant by sinDdh.halant;\012  sub sinNna sinHalant by sinNn.halant;\012  sub sinNndda sinHalant by sinNndd.halant;\012  sub sinTa sinHalant by sinT.halant;\012  sub sinTha sinHalant by sinTh.halant;\012  sub sinDa sinHalant by sinD.halant;\012  sub sinDha sinHalant by sinDh.halant;\012  sub sinNa sinHalant by sinN.halant;\012  sub sinNda sinHalant by sinNd.halant;\012  sub sinPa sinHalant by sinP.halant;\012  sub sinPha sinHalant by sinPh.halant;\012  sub sinBa sinHalant by sinB.halant;\012  sub sinBha sinHalant by sinBh.halant;\012  sub sinMa sinHalant by sinM.halant;\012  sub sinMba sinHalant by sinMb.halant;\012  sub sinYa sinHalant by sinY.halant;\012  sub sinRa sinHalant by sinR.halant;\012  sub sinLa sinHalant by sinL.halant;\012  sub sinVa sinHalant by sinV.halant;\012  sub sinSha sinHalant by sinSh.halant;\012  sub sinSsa sinHalant by sinSs.halant;\012  sub sinSa sinHalant by sinS.halant;\012  sub sinHa sinHalant by sinH.halant;\012  sub sinLla sinHalant by sinLl.halant;\012  sub sinFa sinHalant by sinF.halant;\012} sinhalant_1;\012\012lookup sinhalant_2 {\012  sub sinKhRa sinHalant by sinKhR.halant;\012  sub sinGRa sinHalant by sinGR.halant;\012  sub sinDVa sinHalant by sinDV.halant;\012  sub sinKVa sinHalant by sinKV.halant;\012  sub sinKSsa sinHalant by sinKSs.halant;\012  sub sinNVa sinHalant by sinNV.halant;\012  sub sinNDa  sinHalant by sinND.halant;\012  sub sinTtTtha sinHalant by sinTtTth.halant;\012  sub sinDDha sinHalant by sinDDdh.halant;\012  sub sinTVa sinHalant by sinTV.halant;\012  sub sinTTha sinHalant by sinTTh.halant;\012  sub sinNDha sinHalant by sinNDh.halant;\012  sub sinNTha sinHalant by sinNTh.halant;\012  sub sinYa.post sinHalant by sinY.post.halant;\012 } sinhalant_2;\012\012 lookup sinhalant_3 {\012   sub sinGhRa sinHalant by sinGhR.halant;\012   sub sinCRa sinHalant by sinCR.halant;\012   sub sinJRa sinHalant by sinJR.halant;\012   sub sinJhRa sinHalant by sinJhR.halant;\012   sub sinNyRa sinHalant by sinNyR.halant;\012   sub sinTtRa sinHalant by sinTtR.halant;\012   sub sinJnyRa sinHalant by sinJnyR.halant;\012   sub sinNdjRa sinHalant by sinNdjR.halant;\012   sub sinDdRa sinHalant by sinDdR.halant;\012   sub sinTRa sinHalant by sinTR.halant;\012   sub sinDRa sinHalant by sinDR.halant;\012   sub sinDhRa sinHalant by sinDhR.halant;\012   sub sinPRa sinHalant by sinPR.halant;\012   sub sinBhRa sinHalant by sinBhRa.halant;\012   sub sinMRa sinHalant by sinMR.halant;\012   sub sinVRa sinHalant by sinVR.halant;\012   sub sinShRa sinHalant by sinShR.halant;\012   sub sinSsRa sinHalant by sinSsR.halant;\012   sub sinSRa sinHalant by sinSR.halant;\012   sub sinHRa sinHalant by sinHR.halant;\012   sub sinFRa sinHalant by sinFR.halant;\012   sub sinBRa sinHalant by sinBR.halant;\012 } sinhalant_3;\012\012#---- ABVS ----\012\012lookup sinabvs_1 {\012  sub sinKa sinMatraI by sinKI;\012  sub sinKha sinMatraI by sinKhI;\012  sub sinGa sinMatraI by sinGI;\012  sub sinGha sinMatraI by sinGhI;\012  sub sinNga sinMatraI by sinNgI;\012  sub sinNnga sinMatraI by sinNngI;\012  sub sinCa sinMatraI by sinCI;\012  sub sinCha sinMatraI by sinChI;\012  sub sinJa sinMatraI by sinJI;\012  sub sinJha sinMatraI by sinJhI;\012  sub sinNya sinMatraI by sinNyI;\012  sub sinJnya sinMatraI by sinJnyI;\012  sub sinNdja sinMatraI by sinNdjI;\012  sub sinTta sinMatraI by sinTtI;\012  sub sinTtha sinMatraI by sinTthI;\012  sub sinDda sinMatraI by sinDdI;\012  sub sinDdha sinMatraI by sinDdhI;\012  sub sinNna sinMatraI by sinNnI;\012  sub sinNndda sinMatraI by sinNnddI;\012  sub sinTa sinMatraI by sinTI;\012  sub sinTha sinMatraI by sinThI;\012  sub sinDa sinMatraI by sinDI;\012  sub sinDha sinMatraI by sinDhI;\012  sub sinNa sinMatraI by sinNI;\012  sub sinNda sinMatraI by sinNdI;\012  sub sinPa sinMatraI by sinPI;\012  sub sinPha sinMatraI by sinPhI;\012  sub sinBa sinMatraI by sinBI;\012  sub sinBha sinMatraI by sinBhI;\012  sub sinMa sinMatraI by sinMI;\012  sub sinMba sinMatraI by sinMbI;\012  sub sinYa sinMatraI by sinYI;\012  sub sinRa sinMatraI by sinRI;\012  sub sinLa sinMatraI by sinLI;\012  sub sinVa sinMatraI by sinVI;\012  sub sinSha sinMatraI by sinShI;\012  sub sinSsa sinMatraI by sinSsI;\012  sub sinSa sinMatraI by sinSI;\012  sub sinHa sinMatraI by sinHI;\012  sub sinLla sinMatraI by sinLlI;\012  sub sinFa sinMatraI by sinFI;\012  sub sinYa.post sinMatraI by sinYa.post.MatraI;\012} sinabvs_1;\012\012lookup sinabvs_2 {\012  sub sinKa sinMatraIi by sinKIi;\012  sub sinKha sinMatraIi by sinKhIi;\012  sub sinGa sinMatraIi by sinGIi;\012  sub sinGha sinMatraIi by sinGhIi;\012  sub sinNga sinMatraIi by sinNgIi;\012  sub sinNnga sinMatraIi by sinNngIi;\012  sub sinCa sinMatraIi by sinCIi;\012  sub sinCha sinMatraIi by sinChIi;\012  sub sinJa sinMatraIi by sinJIi;\012  sub sinJha sinMatraIi by sinJhIi;\012  sub sinNya sinMatraIi by sinNyIi;\012  sub sinJnya sinMatraIi by sinJnyIi;\012  sub sinNdja sinMatraIi by sinNdjIi;\012  sub sinTta sinMatraIi by sinTtIi;\012  sub sinTtha sinMatraIi by sinTthIi;\012  sub sinDda sinMatraIi by sinDdIi;\012  sub sinDdha sinMatraIi by sinDdhIi;\012  sub sinNna sinMatraIi by sinNnIi;\012  sub sinNndda sinMatraIi by sinNnddIi;\012  sub sinTa sinMatraIi by sinTIi;\012  sub sinTha sinMatraIi by sinThIi;\012  sub sinDa sinMatraIi by sinDIi;\012  sub sinDha sinMatraIi by sinDhIi;\012  sub sinNa sinMatraIi by sinNIi;\012  sub sinNda sinMatraIi by sinNdIi;\012  sub sinPa sinMatraIi by sinPIi;\012  sub sinPha sinMatraIi by sinPhIi;\012  sub sinBa sinMatraIi by sinBIi;\012  sub sinBha sinMatraIi by sinBhIi;\012  sub sinMa sinMatraIi by sinMIi;\012  sub sinMba sinMatraIi by sinMbIi;\012  sub sinYa sinMatraIi by sinYIi;\012  sub sinRa sinMatraIi by sinRIi;\012  sub sinLa sinMatraIi by sinLIi;\012  sub sinVa sinMatraIi by sinVIi;\012  sub sinSha sinMatraIi by sinShIi;\012  sub sinSsa sinMatraIi by sinSsIi;\012  sub sinSa sinMatraIi by sinSIi;\012  sub sinHa sinMatraIi by sinHIi;\012  sub sinLla sinMatraIi by sinLlIi;\012  sub sinFa sinMatraIi by sinFIi;\012  sub sinYa.post sinMatraIi by sinYa.post.MatraIi;\012} sinabvs_2;\012\012lookup sinabvs_3 {\012  sub sinKRa sinMatraI by sinKRI;\012  sub sinKhRa sinMatraI by sinKhRI;\012  sub sinGRa sinMatraI by sinGRI;\012  sub sinGhRa sinMatraI by sinGhRI;\012  sub sinCRa sinMatraI by sinCRI;\012  sub sinJRa sinMatraI by sinJRI;\012  sub sinJhRa sinMatraI by sinJhRI;\012  sub sinNyRa sinMatraI by sinNyRI;\012  sub sinJnyRa sinMatraI by sinJnyRI;\012  sub sinTtRa sinMatraI by sinTtRI;\012  sub sinDdRa sinMatraI by sinDdRI;\012  sub sinTRa sinMatraI by sinTRI;\012  sub sinDRa sinMatraI by sinDRI;\012  sub sinDhRa sinMatraI by sinDhRI;\012  sub sinPRa sinMatraI by sinPRI;\012  sub sinBRa sinMatraI by sinBRI;\012  sub sinBhRa sinMatraI by sinBhRI;\012  sub sinMRa sinMatraI by sinMRI;\012  sub sinVRa sinMatraI by sinVRI;\012  sub sinShRa sinMatraI by sinShRI;\012  sub sinSRa sinMatraI by sinSRI;\012  sub sinHRa sinMatraI by sinHRI;\012} sinabvs_3;\012\012lookup sinabvs_4 {\012  sub sinKRa sinMatraIi by sinKRIi;\012  sub sinKhRa sinMatraIi by sinKhRIi;\012  sub sinGRa sinMatraIi by sinGRIi;\012  sub sinGhRa sinMatraIi by sinGhRIi;\012  sub sinCRa sinMatraIi by sinCRIi;\012  sub sinJRa sinMatraIi by sinJRIi;\012  sub sinJhRa sinMatraIi by sinJhRIi;\012  sub sinNyRa sinMatraIi by sinNyRIi;\012  sub sinJnyRa sinMatraIi by sinJnyRIi;\012  sub sinTtRa sinMatraIi by sinTtRIi;\012  sub sinDdRa sinMatraIi by sinDdRIi;\012  sub sinTRa sinMatraIi by sinTRIi;\012  sub sinDRa sinMatraIi by sinDRIi;\012  sub sinDhRa sinMatraIi by sinDhRIi;\012  sub sinPRa sinMatraIi by sinPRIi;\012  sub sinBRa sinMatraIi by sinBRIi;\012  sub sinBhRa sinMatraIi by sinBhRIi;\012  sub sinMRa sinMatraIi by sinMRIi;\012  sub sinVRa sinMatraIi by sinVRIi;\012  sub sinShRa sinMatraIi by sinShRIi;\012  sub sinSRa sinMatraIi by sinSRIi;\012  sub sinHRa sinMatraIi by sinHRIi;\012} sinabvs_4;\012\012lookup sinabvs_5 {\012   sub	sinKSsa	sinMatraI	by	sinKSsI;\012   sub	sinKVa	sinMatraI	by	sinKVI;\012   sub	sinTVa	sinMatraI	by	sinTVI;\012   sub	sinTTha	sinMatraI	by	sinTThI;\012   sub	sinNDa	sinMatraI	by	sinNDI;\012   sub	sinNVa	sinMatraI	by	sinNVI;\012   sub	sinNDha	sinMatraI	by	sinNDhI;\012   sub	sinNTha	sinMatraI	by	sinNThI;\012   sub	sinDVa	sinMatraI	by	sinDVI;\012   sub	sinDDha	sinMatraI	by	sinDDhI;\012   sub	sinTtTtha	sinMatraI	by	sinTtTthI;\012} sinabvs_5;\012\012lookup sinabvs_6 {\012  sub	sinKSsa	sinMatraIi	by	sinKSsIi;\012  sub	sinKVa	sinMatraIi	by	sinKVIi;\012  sub	sinTVa	sinMatraIi	by	sinTVIi;\012  sub	sinTTha	sinMatraIi	by	sinTThIi;\012  sub	sinNDa	sinMatraIi	by	sinNDIi;\012  sub	sinNVa	sinMatraIi	by	sinNVIi;\012  sub	sinNDha	sinMatraIi	by	sinNDhIi;\012  sub	sinNTha	sinMatraIi	by	sinNThIi;\012  sub	sinDVa	sinMatraIi	by	sinDVIi;\012  sub	sinDDha	sinMatraIi	by	sinDDhIi;\012  sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;\012} sinabvs_6;\012\012lookup sinabvs_7 {\012  sub sinYa.post sinReph by sinYa.post.reph;\012  sub sinKa sinReph by sinKa.reph;\012  sub sinGa sinReph by sinGa.reph;\012  sub sinGha sinReph by sinGha.reph;\012  sub sinCa sinReph by sinCa.reph;\012  sub sinJa sinReph by sinJa.reph;\012  sub sinTta sinReph by sinTta.reph;\012  sub sinDda sinReph by sinDda.reph;\012  sub sinNna sinReph by sinNna.reph;\012  sub sinTa sinReph by sinTa.reph;\012  sub sinTha sinReph by sinTha.reph;\012  sub sinDa sinReph by sinDa.reph;\012  sub sinDha sinReph by sinDha.reph;\012  sub sinPa sinReph by sinPa.reph;\012  sub sinBa sinReph by sinBa.reph;\012  sub sinBha sinReph by sinBha.reph;\012  sub sinMa sinReph by sinMa.reph;\012  sub sinYa sinReph by sinYa.reph;\012  sub sinVa sinReph by sinVa.reph;\012  sub sinSha sinReph by sinSha.reph;\012  sub sinSsa sinReph by sinSsa.reph;\012  sub sinSa sinReph by sinSa.reph;\012  sub sinHa sinReph by sinHa.reph;\012  sub sinNa sinReph by sinNa.reph;\012  sub sinJha sinReph by sinJha.reph;\012  sub sinNya sinReph by sinNya.reph;\012  sub sinJnya sinReph by sinJnya.reph;\012} sinabvs_7;\012\012lookup sinakhands_reph {\012  sub sinKSsa sinReph by sinKSsa.reph;\012  sub sinKa sinReph sinHalant zerowidthjoiner sinSsa by sinKSsa.reph;\012  sub sinKVa sinReph by sinKVa.reph;\012  sub sinKa sinReph sinHalant zerowidthjoiner sinVa by sinKVa.reph;\012  sub sinTVa sinReph by sinTVa.reph;\012  sub sinTa sinReph sinHalant zerowidthjoiner sinVa by sinTVa.reph;\012  sub sinTTha sinReph by sinTTha.reph;\012  sub sinTa sinReph sinHalant zerowidthjoiner sinTha by sinTTha.reph;\012  sub sinNDa sinReph by sinNDa.reph;\012  sub sinNa sinReph sinHalant zerowidthjoiner sinDa by sinNDa.reph;\012  sub sinNVa sinReph by sinNVa.reph;\012  sub sinNa sinReph sinHalant zerowidthjoiner sinVa by sinNVa.reph;\012  sub sinNDha sinReph by sinNDha.reph;\012  sub sinNa sinReph sinHalant zerowidthjoiner sinDha by sinNDha.reph;\012  sub sinNTha sinReph by sinNTha.reph;\012  sub sinNa sinReph sinHalant zerowidthjoiner sinTha by sinNTha.reph;\012  sub sinDVa sinReph by sinDVa.reph;\012  sub sinDa sinReph sinHalant zerowidthjoiner sinVa by sinDVa.reph;\012  sub sinDDha sinReph by sinDDha.reph;\012  sub sinDa sinReph sinHalant zerowidthjoiner sinDha by sinDDha.reph;\012  sub sinTtTtha sinReph by sinTtTtha.reph;\012  sub sinTta sinReph sinHalant zerowidthjoiner sinTtha by sinTtTtha.reph;\012  sub sinGDha sinReph by sinGDha.reph;\012  sub sinGa sinReph sinHalant zerowidthjoiner sinDha by sinGDha.reph;\012} sinakhands_reph;\012\012#----------- BLWS --------------\012#-------------------------------\012\012lookup sinblws_1 {\012  sub sinKa sinMatraU by sinKU;\012  sub sinKha sinMatraU by sinKhU;\012  sub sinGa sinMatraU by sinGU;\012  sub sinGha sinMatraU by sinGhU;\012  sub sinNnga sinMatraU by sinNngU;\012  sub sinCa sinMatraU by sinCU;\012  sub sinCha sinMatraU by sinChU;\012  sub sinJa sinMatraU by sinJU;\012  sub sinJha sinMatraU by sinJhU;\012  sub sinNya sinMatraU by sinNyU;\012  sub sinJnya sinMatraU by sinJnyU;\012  sub sinNdja sinMatraU by sinNdjU;\012  sub sinTta sinMatraU by sinTtU;\012  sub sinTtha sinMatraU by sinTthU;\012  sub sinDda sinMatraU by sinDdU;\012  sub sinDdha sinMatraU by sinDdhU;\012  sub sinNna sinMatraU by sinNnU;\012  sub sinNndda sinMatraU by sinNnddU;\012  sub sinTa sinMatraU by sinTU;\012  sub sinTha sinMatraU by sinThU;\012  sub sinDa sinMatraU by sinDU;\012  sub sinDha sinMatraU by sinDhU;\012  sub sinNa sinMatraU by sinNU;\012  sub sinNda sinMatraU by sinNdU;\012  sub sinPa sinMatraU by sinPU;\012  sub sinPha sinMatraU by sinPhU;\012  sub sinBa sinMatraU by sinBU;\012  sub sinBha sinMatraU by sinBhU;\012  sub sinMa sinMatraU by sinMU;\012  sub sinMba sinMatraU by sinMbU;\012  sub sinYa sinMatraU by sinYU;\012  sub sinRa sinMatraU by sinRU;\012  sub sinLa sinMatraU by sinLU;\012  sub sinVa sinMatraU by sinVU;\012  sub sinSha sinMatraU by sinShU;\012  sub sinSsa sinMatraU by sinSsU;\012  sub sinSa sinMatraU by sinSU;\012  sub sinHa sinMatraU by sinHU;\012  sub sinLla sinMatraU by sinLlU;\012  sub sinFa sinMatraU by sinFU;\012} sinblws_1;\012\012lookup sinblws_2 {\012  sub	sinKSsa	sinMatraU	by	sinKSsU;\012  sub	sinKVa	sinMatraU	by	sinKVU;\012  sub	sinTVa	sinMatraU	by	sinTVU;\012  sub	sinTTha	sinMatraU	by	sinTThU;\012  sub	sinNDa	sinMatraU	by	sinNDU;\012  sub	sinNVa	sinMatraU	by	sinNVU;\012  sub	sinNDha	sinMatraU	by	sinNDhU;\012  sub	sinNTha	sinMatraU	by	sinNThU;\012  sub	sinDVa	sinMatraU	by	sinDVU;\012  sub	sinDDha	sinMatraU	by	sinDDhU;\012  sub	sinTtTtha	sinMatraU	by	sinTtTthU;\012  sub sinYa.post sinMatraU by sinYU.post;\012} sinblws_2;\012\012lookup sinblws_3 {\012  sub sinKa sinMatraUu by sinKUu;\012  sub sinKha sinMatraUu by sinKhUu;\012  sub sinGa sinMatraUu by sinGUu;\012  sub sinGha sinMatraUu by sinGhUu;\012  sub sinNnga sinMatraUu by sinNngUu;\012  sub sinCa sinMatraUu by sinCUu;\012  sub sinCha sinMatraUu by sinChUu;\012  sub sinJa sinMatraUu by sinJUu;\012  sub sinJha sinMatraUu by sinJhUu;\012  sub sinNya sinMatraUu by sinNyUu;\012  sub sinJnya sinMatraUu by sinJnyUu;\012  sub sinNdja sinMatraUu by sinNdjUu;\012  sub sinTta sinMatraUu by sinTtUu;\012  sub sinTtha sinMatraUu by sinTthUu;\012  sub sinDda sinMatraUu by sinDdUu;\012  sub sinDdha sinMatraUu by sinDdhUu;\012  sub sinNna sinMatraUu by sinNnUu;\012  sub sinNndda sinMatraUu by sinNnddUu;\012  sub sinTa sinMatraUu by sinTUu;\012  sub sinTha sinMatraUu by sinThUu;\012  sub sinDa sinMatraUu by sinDUu;\012  sub sinDha sinMatraUu by sinDhUu;\012  sub sinNa sinMatraUu by sinNUu;\012  sub sinNda sinMatraUu by sinNdUu;\012  sub sinPa sinMatraUu by sinPUu;\012  sub sinPha sinMatraUu by sinPhUu;\012  sub sinBa sinMatraUu by sinBUu;\012  sub sinBha sinMatraUu by sinBhUu;\012  sub sinMa sinMatraUu by sinMUu;\012  sub sinMba sinMatraUu by sinMbUu;\012  sub sinYa sinMatraUu by sinYUu;\012  sub sinRa sinMatraUu by sinRUu;\012  sub sinLa sinMatraUu by sinLUu;\012  sub sinVa sinMatraUu by sinVUu;\012  sub sinSha sinMatraUu by sinShUu;\012  sub sinSsa sinMatraUu by sinSsUu;\012  sub sinSa sinMatraUu by sinSUu;\012  sub sinHa sinMatraUu by sinHUu;\012  sub sinLla sinMatraUu by sinLlUu;\012  sub sinFa sinMatraUu by sinFUu;\012} sinblws_3;\012\012lookup sinblws_4 {\012  sub	sinKSsa	sinMatraUu	by	sinKSsUu;\012  sub	sinKVa	sinMatraUu	by	sinKVUu;\012  sub	sinTVa	sinMatraUu	by	sinTVUu;\012  sub	sinTTha	sinMatraUu	by	sinTThUu;\012  sub	sinNDa	sinMatraUu	by	sinNDUu;\012  sub	sinNVa	sinMatraUu	by	sinNVUu;\012  sub	sinNDha	sinMatraUu	by	sinNDhUu;\012  sub	sinNTha	sinMatraUu	by	sinNThUu;\012  sub	sinDVa	sinMatraUu	by	sinDVUu;\012  sub	sinDDha	sinMatraUu	by	sinDDhUu;\012  sub	sinTtTtha	sinMatraUu	by	sinTtTthUu;\012  sub sinYa.post sinMatraUu by sinYUu.post;\012} sinblws_4;\012\012lookup sinblws_5 {\012  sub sinDa sinMatraR by sinDvocR;\012  sub sinDa sinMatraRr by sinDvocRr;\012} sinblws_5;\012#----------- Yansaya --------------\012#-------------------------------\012\012lookup sinyansaya {\012  sub sinHalant zerowidthjoiner sinYa by sinYa.post;\012} sinyansaya;\012\012#----------- Rae, Raae --------------\012#-------------------------------\012\012lookup sinraer {\012  sub sinRa sinMatraAe by sinRAe;\012  sub sinRa sinMatraAae by sinRAae;\012}  sinraer;\012#----------- Rakaar ------------\012#-------------------------------\012\012lookup sinrakaar {\012  sub sinKa sinHalant zerowidthjoiner sinRa by sinKRa;\012  sub sinKha sinHalant zerowidthjoiner sinRa by sinKhRa;\012  sub sinGa sinHalant zerowidthjoiner sinRa by sinGRa;\012  sub sinGha sinHalant zerowidthjoiner sinRa by sinGhRa;\012  sub sinCa sinHalant zerowidthjoiner sinRa by sinCRa;\012  sub sinJa sinHalant zerowidthjoiner sinRa by sinJRa;\012  sub sinJha sinHalant zerowidthjoiner sinRa by sinJhRa;\012  sub sinNya sinHalant zerowidthjoiner sinRa by sinNyRa;\012  sub sinTta sinHalant zerowidthjoiner sinRa by sinTtRa;\012  sub sinJnya sinHalant zerowidthjoiner sinRa by sinJnyRa;\012  sub sinNdja sinHalant zerowidthjoiner sinRa by sinNdjRa;\012  sub sinDda sinHalant zerowidthjoiner sinRa by sinDdRa;\012  sub sinTa sinHalant zerowidthjoiner sinRa by sinTRa;\012  sub sinDa sinHalant zerowidthjoiner sinRa by sinDRa;\012  sub sinDha sinHalant zerowidthjoiner sinRa by sinDhRa;\012  sub sinPa sinHalant zerowidthjoiner sinRa by sinPRa;\012  sub sinBha sinHalant zerowidthjoiner sinRa by sinBhRa;\012  sub sinMa sinHalant zerowidthjoiner sinRa by sinMRa;\012  sub sinVa sinHalant zerowidthjoiner sinRa by sinVRa;\012  sub sinSha sinHalant zerowidthjoiner sinRa by sinShRa;\012  sub sinSsa sinHalant zerowidthjoiner sinRa by sinSsRa;\012  sub sinSa sinHalant zerowidthjoiner sinRa by sinSRa;\012  sub sinHa sinHalant zerowidthjoiner sinRa by sinHRa;\012  sub sinFa sinHalant zerowidthjoiner sinRa by sinFRa;\012  sub sinNDa sinHalant zerowidthjoiner sinRa by sinNDRa;\012  sub sinBa sinHalant zerowidthjoiner sinRa by sinBRa;\012} sinrakaar;\012\012#----------- Split Matras ------------\012#-------------------------------------\012\012lookup sinsplit_matra {\012  sub sinMatraEe by sinHalant;\012  sub sinMatraO by sinMatraAa;\012  sub sinMatraOo by sinMatraAa.halant;\012  sub sinMatraAu by sinMatraLs;\012} sinsplit_matra;\012\012#----------- Da forms ------------\012#---------------------------------\012\012lookup sinda_style {\012  sub sinDa sinMatraAa by sinDAa;\012  sub sinDa sinMatraAa.halant by sinDAa.halant;\012  sub sinDa sinMatraAae by sinDAae;\012  sub sinDa sinMatraAe by sinDAe;\012  sub sinDa sinYa.post sinMatraAa.halant by sinDYOo.post;\012  sub sinDa sinYUu.post by sinDYUu.post;\012  sub sinDa sinYa.post by sinDYa.post;\012  sub sinDa sinYa.post sinMatraAa by sinDYAa.post;\012  sub sinDa sinYU.post by sinDYu.post;\012  sub sinNda sinMatraAa by sinNdAa;\012  sub sinNda sinMatraAa.halant by sinNdAa.halant;\012  sub sinNda sinMatraAae by sinNdAae;\012  sub sinNda sinMatraAe by sinNdAe;\012  sub sinJnya sinMatraAa by sinJnyAa;\012  sub sinJnya sinMatraAa.halant by sinJnyAa.halant;\012  sub sinJnya sinMatraAae by sinJnyAee;\012  sub sinJnya sinMatraAe by sinJnyAe;\012  sub sinNDa sinMatraAa by sinNDAa;\012  sub sinNDa sinMatraAa.halant by sinNDAa.halant;\012  sub sinNDa sinMatraAae by sinNDAee;\012  sub sinNDa sinMatraAe by sinNDAe;\012  sub sinNya sinMatraAa by sinNyAa;\012  sub sinNya sinMatraAa.halant by sinNyAa.halant;\012  sub sinNya sinMatraAae by sinNyAee;\012  sub sinNya sinMatraAe by sinNyAe;\012\012} sinda_style;\012#----------- Touching ------------\012#---------------------------------\012\012lookup sintouching {\012  sub sinKa zerowidthjoiner sinHalant by sinKa.touch;\012  sub sinKha zerowidthjoiner sinHalant by sinKha.touch;\012  sub sinGa  zerowidthjoiner sinHalant by sinGa.touch;\012  sub sinGha zerowidthjoiner sinHalant by sinGha.touch;\012  sub sinNga zerowidthjoiner sinHalant by sinNga.touch;\012  sub sinNnga zerowidthjoiner sinHalant by sinNnga.touch;\012  sub sinCa zerowidthjoiner sinHalant by sinCa.touch;\012  sub sinCha zerowidthjoiner sinHalant by sinCha.touch;\012  sub sinJa zerowidthjoiner sinHalant by sinJa.touch;\012  sub sinJha zerowidthjoiner sinHalant by sinJha.touch;\012  sub sinNya zerowidthjoiner sinHalant by sinNya.touch;\012  sub sinJnya zerowidthjoiner sinHalant by sinJnya.touch;\012  sub sinNdja zerowidthjoiner sinHalant by sinNdja.touch;\012  sub sinTta zerowidthjoiner sinHalant by sinTta.touch;\012  sub sinTtha zerowidthjoiner sinHalant by sinTtha.touch;\012  sub sinDda zerowidthjoiner sinHalant by sinDda.touch;\012  sub sinDdha zerowidthjoiner sinHalant by sinDdha.touch;\012  sub sinNna zerowidthjoiner sinHalant by sinNna.touch;\012  sub sinNndda zerowidthjoiner sinHalant by sinNdda.touch;\012  sub sinTa zerowidthjoiner sinHalant by sinTa.touch;\012  sub sinTha zerowidthjoiner sinHalant by sinTha.touch;\012  sub sinDa zerowidthjoiner sinHalant by sinDa.touch;\012  sub sinDha zerowidthjoiner sinHalant by sinDha.touch;\012  sub sinNa zerowidthjoiner sinHalant by sinNa.touch;\012  sub sinNda zerowidthjoiner sinHalant by sinNda.touch;\012  sub sinPa zerowidthjoiner sinHalant by sinPa.touch;\012  sub sinPha zerowidthjoiner sinHalant by sinPha.touch;\012  sub sinBa zerowidthjoiner sinHalant by sinBa.touch;\012  sub sinBha zerowidthjoiner sinHalant by sinBha.touch;\012  sub sinMa zerowidthjoiner sinHalant by sinMa.touch;\012  sub sinMba zerowidthjoiner sinHalant by sinMba.touch;\012  sub sinYa zerowidthjoiner sinHalant by sinYa.touch;\012  sub sinRa zerowidthjoiner sinHalant by sinRa.touch;\012  sub sinLa zerowidthjoiner sinHalant by sinLa.touch;\012  sub sinVa zerowidthjoiner sinHalant by sinVa.touch;\012  sub sinSha zerowidthjoiner sinHalant by sinSha.touch;\012  sub sinSsa zerowidthjoiner sinHalant by sinSsa.touch;\012  sub sinSa zerowidthjoiner sinHalant by sinSa.touch;\012  sub sinHa zerowidthjoiner sinHalant by sinHa.touch;\012  sub sinLla zerowidthjoiner sinHalant by sinLla.touch;\012  sub sinFa zerowidthjoiner sinHalant by sinFa.touch;\012} sintouching;\012\012";
+code = "#---- --AKHN ------------\012\012lookup sinakhands {\012  sub sinKa sinHalant zerowidthjoiner sinSsa by sinKSsa;\012  sub sinKa sinHalant zerowidthjoiner sinVa by sinKVa;\012  sub sinTa sinHalant zerowidthjoiner sinVa by sinTVa;\012  sub sinTa sinHalant zerowidthjoiner sinTha by sinTTha;\012  sub sinNa sinHalant zerowidthjoiner sinDa by sinNDa;\012  sub sinNa sinHalant zerowidthjoiner sinVa by sinNVa;\012  sub sinNa sinHalant zerowidthjoiner sinDha by sinNDha;\012  sub sinNa sinHalant zerowidthjoiner sinTha by sinNTha;\012  sub sinDa sinHalant zerowidthjoiner sinVa by sinDVa;\012  sub sinDa sinHalant zerowidthjoiner sinDha by sinDDha;\012  sub sinTta sinHalant zerowidthjoiner sinTtha by sinTtTtha;\012  sub sinGa sinHalant zerowidthjoiner sinDha by sinGDha;\012} sinakhands;\012\012#---- REPH ----\012\012lookup sinreph {\012    sub sinRa sinHalant zerowidthjoiner by sinReph;\012} sinreph;\012\012#---- HALN ----\012\012lookup sinhalant_1 {\012  sub sinMatraAa sinHalant by sinMatraAa.halant;\012  sub sinKa sinHalant by sinK.halant;\012  sub sinKha sinHalant by sinKh.halant;\012  sub sinGa sinHalant by sinG.halant;\012  sub sinGha sinHalant by sinGh.halant;\012  sub sinNga sinHalant by sinNg.halant;\012  sub sinNnga sinHalant by sinNng.halant;\012  sub sinCa sinHalant by sinC.halant;\012  sub sinCha sinHalant by sinCh.halant;\012  sub sinJa sinHalant by sinJ.halant;\012  sub sinJha sinHalant by sinJh.halant;\012  sub sinNya sinHalant by sinNy.halant;\012  sub sinJnya sinHalant by sinJny.halant;\012  sub sinNdja sinHalant by sinNdj.halant;\012  sub sinTta sinHalant by sinTt.halant;\012  sub sinTtha sinHalant by sinTth.halant;\012  sub sinDda sinHalant by sinDd.halant;\012  sub sinDdha sinHalant by sinDdh.halant;\012  sub sinNna sinHalant by sinNn.halant;\012  sub sinNndda sinHalant by sinNndd.halant;\012  sub sinTa sinHalant by sinT.halant;\012  sub sinTha sinHalant by sinTh.halant;\012  sub sinDa sinHalant by sinD.halant;\012  sub sinDha sinHalant by sinDh.halant;\012  sub sinNa sinHalant by sinN.halant;\012  sub sinNda sinHalant by sinNd.halant;\012  sub sinPa sinHalant by sinP.halant;\012  sub sinPha sinHalant by sinPh.halant;\012  sub sinBa sinHalant by sinB.halant;\012  sub sinBha sinHalant by sinBh.halant;\012  sub sinMa sinHalant by sinM.halant;\012  sub sinMba sinHalant by sinMb.halant;\012  sub sinYa sinHalant by sinY.halant;\012  sub sinRa sinHalant by sinR.halant;\012  sub sinLa sinHalant by sinL.halant;\012  sub sinVa sinHalant by sinV.halant;\012  sub sinSha sinHalant by sinSh.halant;\012  sub sinSsa sinHalant by sinSs.halant;\012  sub sinSa sinHalant by sinS.halant;\012  sub sinHa sinHalant by sinH.halant;\012  sub sinLla sinHalant by sinLl.halant;\012  sub sinFa sinHalant by sinF.halant;\012} sinhalant_1;\012\012lookup sinhalant_2 {\012  sub sinKhRa sinHalant by sinKhR.halant;\012  sub sinGRa sinHalant by sinGR.halant;\012  sub sinDVa sinHalant by sinDV.halant;\012  sub sinKVa sinHalant by sinKV.halant;\012  sub sinKSsa sinHalant by sinKSs.halant;\012  sub sinNVa sinHalant by sinNV.halant;\012  sub sinNDa  sinHalant by sinND.halant;\012  sub sinTtTtha sinHalant by sinTtTth.halant;\012  sub sinDDha sinHalant by sinDDdh.halant;\012  sub sinTVa sinHalant by sinTV.halant;\012  sub sinTTha sinHalant by sinTTh.halant;\012  sub sinNDha sinHalant by sinNDh.halant;\012  sub sinNTha sinHalant by sinNTh.halant;\012  sub sinYa.post sinHalant by sinY.post.halant;\012 } sinhalant_2;\012\012 lookup sinhalant_3 {\012   sub sinGhRa sinHalant by sinGhR.halant;\012   sub sinCRa sinHalant by sinCR.halant;\012   sub sinJRa sinHalant by sinJR.halant;\012   sub sinJhRa sinHalant by sinJhR.halant;\012   sub sinNyRa sinHalant by sinNyR.halant;\012   sub sinTtRa sinHalant by sinTtR.halant;\012   sub sinJnyRa sinHalant by sinJnyR.halant;\012   sub sinNdjRa sinHalant by sinNdjR.halant;\012   sub sinDdRa sinHalant by sinDdR.halant;\012   sub sinTRa sinHalant by sinTR.halant;\012   sub sinDRa sinHalant by sinDR.halant;\012   sub sinDhRa sinHalant by sinDhR.halant;\012   sub sinPRa sinHalant by sinPR.halant;\012   sub sinBhRa sinHalant by sinBhRa.halant;\012   sub sinMRa sinHalant by sinMR.halant;\012   sub sinVRa sinHalant by sinVR.halant;\012   sub sinShRa sinHalant by sinShR.halant;\012   sub sinSsRa sinHalant by sinSsR.halant;\012   sub sinSRa sinHalant by sinSR.halant;\012   sub sinHRa sinHalant by sinHR.halant;\012   sub sinFRa sinHalant by sinFR.halant;\012   sub sinBRa sinHalant by sinBR.halant;\012 } sinhalant_3;\012\012#---- ABVS ----\012\012lookup sinabvs_1 {\012  sub sinKa sinMatraI by sinKI;\012  sub sinKha sinMatraI by sinKhI;\012  sub sinGa sinMatraI by sinGI;\012  sub sinGha sinMatraI by sinGhI;\012  sub sinNga sinMatraI by sinNgI;\012  sub sinNnga sinMatraI by sinNngI;\012  sub sinCa sinMatraI by sinCI;\012  sub sinCha sinMatraI by sinChI;\012  sub sinJa sinMatraI by sinJI;\012  sub sinJha sinMatraI by sinJhI;\012  sub sinNya sinMatraI by sinNyI;\012  sub sinJnya sinMatraI by sinJnyI;\012  sub sinNdja sinMatraI by sinNdjI;\012  sub sinTta sinMatraI by sinTtI;\012  sub sinTtha sinMatraI by sinTthI;\012  sub sinDda sinMatraI by sinDdI;\012  sub sinDdha sinMatraI by sinDdhI;\012  sub sinNna sinMatraI by sinNnI;\012  sub sinNndda sinMatraI by sinNnddI;\012  sub sinTa sinMatraI by sinTI;\012  sub sinTha sinMatraI by sinThI;\012  sub sinDa sinMatraI by sinDI;\012  sub sinDha sinMatraI by sinDhI;\012  sub sinNa sinMatraI by sinNI;\012  sub sinNda sinMatraI by sinNdI;\012  sub sinPa sinMatraI by sinPI;\012  sub sinPha sinMatraI by sinPhI;\012  sub sinBa sinMatraI by sinBI;\012  sub sinBha sinMatraI by sinBhI;\012  sub sinMa sinMatraI by sinMI;\012  sub sinMba sinMatraI by sinMbI;\012  sub sinYa sinMatraI by sinYI;\012  sub sinRa sinMatraI by sinRI;\012  sub sinLa sinMatraI by sinLI;\012  sub sinVa sinMatraI by sinVI;\012  sub sinSha sinMatraI by sinShI;\012  sub sinSsa sinMatraI by sinSsI;\012  sub sinSa sinMatraI by sinSI;\012  sub sinHa sinMatraI by sinHI;\012  sub sinLla sinMatraI by sinLlI;\012  sub sinFa sinMatraI by sinFI;\012  sub sinYa.post sinMatraI by sinYa.post.MatraI;\012} sinabvs_1;\012\012lookup sinabvs_2 {\012  sub sinKa sinMatraIi by sinKIi;\012  sub sinKha sinMatraIi by sinKhIi;\012  sub sinGa sinMatraIi by sinGIi;\012  sub sinGha sinMatraIi by sinGhIi;\012  sub sinNga sinMatraIi by sinNgIi;\012  sub sinNnga sinMatraIi by sinNngIi;\012  sub sinCa sinMatraIi by sinCIi;\012  sub sinCha sinMatraIi by sinChIi;\012  sub sinJa sinMatraIi by sinJIi;\012  sub sinJha sinMatraIi by sinJhIi;\012  sub sinNya sinMatraIi by sinNyIi;\012  sub sinJnya sinMatraIi by sinJnyIi;\012  sub sinNdja sinMatraIi by sinNdjIi;\012  sub sinTta sinMatraIi by sinTtIi;\012  sub sinTtha sinMatraIi by sinTthIi;\012  sub sinDda sinMatraIi by sinDdIi;\012  sub sinDdha sinMatraIi by sinDdhIi;\012  sub sinNna sinMatraIi by sinNnIi;\012  sub sinNndda sinMatraIi by sinNnddIi;\012  sub sinTa sinMatraIi by sinTIi;\012  sub sinTha sinMatraIi by sinThIi;\012  sub sinDa sinMatraIi by sinDIi;\012  sub sinDha sinMatraIi by sinDhIi;\012  sub sinNa sinMatraIi by sinNIi;\012  sub sinNda sinMatraIi by sinNdIi;\012  sub sinPa sinMatraIi by sinPIi;\012  sub sinPha sinMatraIi by sinPhIi;\012  sub sinBa sinMatraIi by sinBIi;\012  sub sinBha sinMatraIi by sinBhIi;\012  sub sinMa sinMatraIi by sinMIi;\012  sub sinMba sinMatraIi by sinMbIi;\012  sub sinYa sinMatraIi by sinYIi;\012  sub sinRa sinMatraIi by sinRIi;\012  sub sinLa sinMatraIi by sinLIi;\012  sub sinVa sinMatraIi by sinVIi;\012  sub sinSha sinMatraIi by sinShIi;\012  sub sinSsa sinMatraIi by sinSsIi;\012  sub sinSa sinMatraIi by sinSIi;\012  sub sinHa sinMatraIi by sinHIi;\012  sub sinLla sinMatraIi by sinLlIi;\012  sub sinFa sinMatraIi by sinFIi;\012  sub sinYa.post sinMatraIi by sinYa.post.MatraIi;\012} sinabvs_2;\012\012lookup sinabvs_3 {\012  sub sinKRa sinMatraI by sinKRI;\012  sub sinKhRa sinMatraI by sinKhRI;\012  sub sinGRa sinMatraI by sinGRI;\012  sub sinGhRa sinMatraI by sinGhRI;\012  sub sinCRa sinMatraI by sinCRI;\012  sub sinJRa sinMatraI by sinJRI;\012  sub sinJhRa sinMatraI by sinJhRI;\012  sub sinNyRa sinMatraI by sinNyRI;\012  sub sinJnyRa sinMatraI by sinJnyRI;\012  sub sinTtRa sinMatraI by sinTtRI;\012  sub sinDdRa sinMatraI by sinDdRI;\012  sub sinTRa sinMatraI by sinTRI;\012  sub sinDRa sinMatraI by sinDRI;\012  sub sinDhRa sinMatraI by sinDhRI;\012  sub sinPRa sinMatraI by sinPRI;\012  sub sinBRa sinMatraI by sinBRI;\012  sub sinBhRa sinMatraI by sinBhRI;\012  sub sinMRa sinMatraI by sinMRI;\012  sub sinVRa sinMatraI by sinVRI;\012  sub sinShRa sinMatraI by sinShRI;\012  sub sinSRa sinMatraI by sinSRI;\012  sub sinHRa sinMatraI by sinHRI;\012} sinabvs_3;\012\012lookup sinabvs_4 {\012  sub sinKRa sinMatraIi by sinKRIi;\012  sub sinKhRa sinMatraIi by sinKhRIi;\012  sub sinGRa sinMatraIi by sinGRIi;\012  sub sinGhRa sinMatraIi by sinGhRIi;\012  sub sinCRa sinMatraIi by sinCRIi;\012  sub sinJRa sinMatraIi by sinJRIi;\012  sub sinJhRa sinMatraIi by sinJhRIi;\012  sub sinNyRa sinMatraIi by sinNyRIi;\012  sub sinJnyRa sinMatraIi by sinJnyRIi;\012  sub sinTtRa sinMatraIi by sinTtRIi;\012  sub sinDdRa sinMatraIi by sinDdRIi;\012  sub sinTRa sinMatraIi by sinTRIi;\012  sub sinDRa sinMatraIi by sinDRIi;\012  sub sinDhRa sinMatraIi by sinDhRIi;\012  sub sinPRa sinMatraIi by sinPRIi;\012  sub sinBRa sinMatraIi by sinBRIi;\012  sub sinBhRa sinMatraIi by sinBhRIi;\012  sub sinMRa sinMatraIi by sinMRIi;\012  sub sinVRa sinMatraIi by sinVRIi;\012  sub sinShRa sinMatraIi by sinShRIi;\012  sub sinSRa sinMatraIi by sinSRIi;\012  sub sinHRa sinMatraIi by sinHRIi;\012} sinabvs_4;\012\012lookup sinabvs_5 {\012   sub	sinKSsa	sinMatraI	by	sinKSsI;\012   sub	sinKVa	sinMatraI	by	sinKVI;\012   sub	sinTVa	sinMatraI	by	sinTVI;\012   sub	sinTTha	sinMatraI	by	sinTThI;\012   sub	sinNDa	sinMatraI	by	sinNDI;\012   sub	sinNVa	sinMatraI	by	sinNVI;\012   sub	sinNDha	sinMatraI	by	sinNDhI;\012   sub	sinNTha	sinMatraI	by	sinNThI;\012   sub	sinDVa	sinMatraI	by	sinDVI;\012   sub	sinDDha	sinMatraI	by	sinDDhI;\012   sub	sinTtTtha	sinMatraI	by	sinTtTthI;\012} sinabvs_5;\012\012lookup sinabvs_6 {\012  sub	sinKSsa	sinMatraIi	by	sinKSsIi;\012  sub	sinKVa	sinMatraIi	by	sinKVIi;\012  sub	sinTVa	sinMatraIi	by	sinTVIi;\012  sub	sinTTha	sinMatraIi	by	sinTThIi;\012  sub	sinNDa	sinMatraIi	by	sinNDIi;\012  sub	sinNVa	sinMatraIi	by	sinNVIi;\012  sub	sinNDha	sinMatraIi	by	sinNDhIi;\012  sub	sinNTha	sinMatraIi	by	sinNThIi;\012  sub	sinDVa	sinMatraIi	by	sinDVIi;\012  sub	sinDDha	sinMatraIi	by	sinDDhIi;\012  sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;\012} sinabvs_6;\012\012lookup sinabvs_7 {\012  sub sinYa.post sinReph by sinYa.post.reph;\012  sub sinKa sinReph by sinKa.reph;\012  sub sinGa sinReph by sinGa.reph;\012  sub sinGha sinReph by sinGha.reph;\012  sub sinCa sinReph by sinCa.reph;\012  sub sinJa sinReph by sinJa.reph;\012  sub sinTta sinReph by sinTta.reph;\012  sub sinDda sinReph by sinDda.reph;\012  sub sinNna sinReph by sinNna.reph;\012  sub sinTa sinReph by sinTa.reph;\012  sub sinTha sinReph by sinTha.reph;\012  sub sinDa sinReph by sinDa.reph;\012  sub sinDha sinReph by sinDha.reph;\012  sub sinPa sinReph by sinPa.reph;\012  sub sinBa sinReph by sinBa.reph;\012  sub sinBha sinReph by sinBha.reph;\012  sub sinMa sinReph by sinMa.reph;\012  sub sinYa sinReph by sinYa.reph;\012  sub sinVa sinReph by sinVa.reph;\012  sub sinSha sinReph by sinSha.reph;\012  sub sinSsa sinReph by sinSsa.reph;\012  sub sinSa sinReph by sinSa.reph;\012  sub sinHa sinReph by sinHa.reph;\012  sub sinNa sinReph by sinNa.reph;\012  sub sinJha sinReph by sinJha.reph;\012  sub sinNya sinReph by sinNya.reph;\012  sub sinJnya sinReph by sinJnya.reph;\012} sinabvs_7;\012\012lookup sinakhands_reph {\012  sub sinKSsa sinReph by sinKSsa.reph;\012  sub sinKa sinReph sinHalant zerowidthjoiner sinSsa by sinKSsa.reph;\012  sub sinKVa sinReph by sinKVa.reph;\012  sub sinKa sinReph sinHalant zerowidthjoiner sinVa by sinKVa.reph;\012  sub sinTVa sinReph by sinTVa.reph;\012  sub sinTa sinReph sinHalant zerowidthjoiner sinVa by sinTVa.reph;\012  sub sinTTha sinReph by sinTTha.reph;\012  sub sinTa sinReph sinHalant zerowidthjoiner sinTha by sinTTha.reph;\012  sub sinNDa sinReph by sinNDa.reph;\012  sub sinNa sinReph sinHalant zerowidthjoiner sinDa by sinNDa.reph;\012  sub sinNVa sinReph by sinNVa.reph;\012  sub sinNa sinReph sinHalant zerowidthjoiner sinVa by sinNVa.reph;\012  sub sinNDha sinReph by sinNDha.reph;\012  sub sinNa sinReph sinHalant zerowidthjoiner sinDha by sinNDha.reph;\012  sub sinNTha sinReph by sinNTha.reph;\012  sub sinNa sinReph sinHalant zerowidthjoiner sinTha by sinNTha.reph;\012  sub sinDVa sinReph by sinDVa.reph;\012  sub sinDa sinReph sinHalant zerowidthjoiner sinVa by sinDVa.reph;\012  sub sinDDha sinReph by sinDDha.reph;\012  sub sinDa sinReph sinHalant zerowidthjoiner sinDha by sinDDha.reph;\012  sub sinTtTtha sinReph by sinTtTtha.reph;\012  sub sinTta sinReph sinHalant zerowidthjoiner sinTtha by sinTtTtha.reph;\012  sub sinGDha sinReph by sinGDha.reph;\012  sub sinGa sinReph sinHalant zerowidthjoiner sinDha by sinGDha.reph;\012} sinakhands_reph;\012\012#----------- BLWS --------------\012#-------------------------------\012\012lookup sinblws_1 {\012  sub sinKa sinMatraU by sinKU;\012  sub sinKha sinMatraU by sinKhU;\012  sub sinGa sinMatraU by sinGU;\012  sub sinGha sinMatraU by sinGhU;\012  sub sinNnga sinMatraU by sinNngU;\012  sub sinCa sinMatraU by sinCU;\012  sub sinCha sinMatraU by sinChU;\012  sub sinJa sinMatraU by sinJU;\012  sub sinJha sinMatraU by sinJhU;\012  sub sinNya sinMatraU by sinNyU;\012  sub sinJnya sinMatraU by sinJnyU;\012  sub sinNdja sinMatraU by sinNdjU;\012  sub sinTta sinMatraU by sinTtU;\012  sub sinTtha sinMatraU by sinTthU;\012  sub sinDda sinMatraU by sinDdU;\012  sub sinDdha sinMatraU by sinDdhU;\012  sub sinNna sinMatraU by sinNnU;\012  sub sinNndda sinMatraU by sinNnddU;\012  sub sinTa sinMatraU by sinTU;\012  sub sinTha sinMatraU by sinThU;\012  sub sinDa sinMatraU by sinDU;\012  sub sinDha sinMatraU by sinDhU;\012  sub sinNa sinMatraU by sinNU;\012  sub sinNda sinMatraU by sinNdU;\012  sub sinPa sinMatraU by sinPU;\012  sub sinPha sinMatraU by sinPhU;\012  sub sinBa sinMatraU by sinBU;\012  sub sinBha sinMatraU by sinBhU;\012  sub sinMa sinMatraU by sinMU;\012  sub sinMba sinMatraU by sinMbU;\012  sub sinYa sinMatraU by sinYU;\012  sub sinRa sinMatraU by sinRU;\012  sub sinLa sinMatraU by sinLU;\012  sub sinVa sinMatraU by sinVU;\012  sub sinSha sinMatraU by sinShU;\012  sub sinSsa sinMatraU by sinSsU;\012  sub sinSa sinMatraU by sinSU;\012  sub sinHa sinMatraU by sinHU;\012  sub sinLla sinMatraU by sinLlU;\012  sub sinFa sinMatraU by sinFU;\012} sinblws_1;\012\012lookup sinblws_2 {\012  sub	sinKSsa	sinMatraU	by	sinKSsU;\012  sub	sinKVa	sinMatraU	by	sinKVU;\012  sub	sinTVa	sinMatraU	by	sinTVU;\012  sub	sinTTha	sinMatraU	by	sinTThU;\012  sub	sinNDa	sinMatraU	by	sinNDU;\012  sub	sinNVa	sinMatraU	by	sinNVU;\012  sub	sinNDha	sinMatraU	by	sinNDhU;\012  sub	sinNTha	sinMatraU	by	sinNThU;\012  sub	sinDVa	sinMatraU	by	sinDVU;\012  sub	sinDDha	sinMatraU	by	sinDDhU;\012  sub	sinTtTtha	sinMatraU	by	sinTtTthU;\012  sub sinYa.post sinMatraU by sinYU.post;\012} sinblws_2;\012\012lookup sinblws_3 {\012  sub sinKa sinMatraUu by sinKUu;\012  sub sinKha sinMatraUu by sinKhUu;\012  sub sinGa sinMatraUu by sinGUu;\012  sub sinGha sinMatraUu by sinGhUu;\012  sub sinNnga sinMatraUu by sinNngUu;\012  sub sinCa sinMatraUu by sinCUu;\012  sub sinCha sinMatraUu by sinChUu;\012  sub sinJa sinMatraUu by sinJUu;\012  sub sinJha sinMatraUu by sinJhUu;\012  sub sinNya sinMatraUu by sinNyUu;\012  sub sinJnya sinMatraUu by sinJnyUu;\012  sub sinNdja sinMatraUu by sinNdjUu;\012  sub sinTta sinMatraUu by sinTtUu;\012  sub sinTtha sinMatraUu by sinTthUu;\012  sub sinDda sinMatraUu by sinDdUu;\012  sub sinDdha sinMatraUu by sinDdhUu;\012  sub sinNna sinMatraUu by sinNnUu;\012  sub sinNndda sinMatraUu by sinNnddUu;\012  sub sinTa sinMatraUu by sinTUu;\012  sub sinTha sinMatraUu by sinThUu;\012  sub sinDa sinMatraUu by sinDUu;\012  sub sinDha sinMatraUu by sinDhUu;\012  sub sinNa sinMatraUu by sinNUu;\012  sub sinNda sinMatraUu by sinNdUu;\012  sub sinPa sinMatraUu by sinPUu;\012  sub sinPha sinMatraUu by sinPhUu;\012  sub sinBa sinMatraUu by sinBUu;\012  sub sinBha sinMatraUu by sinBhUu;\012  sub sinMa sinMatraUu by sinMUu;\012  sub sinMba sinMatraUu by sinMbUu;\012  sub sinYa sinMatraUu by sinYUu;\012  sub sinRa sinMatraUu by sinRUu;\012  sub sinLa sinMatraUu by sinLUu;\012  sub sinVa sinMatraUu by sinVUu;\012  sub sinSha sinMatraUu by sinShUu;\012  sub sinSsa sinMatraUu by sinSsUu;\012  sub sinSa sinMatraUu by sinSUu;\012  sub sinHa sinMatraUu by sinHUu;\012  sub sinLla sinMatraUu by sinLlUu;\012  sub sinFa sinMatraUu by sinFUu;\012} sinblws_3;\012\012lookup sinblws_4 {\012  sub	sinKSsa	sinMatraUu	by	sinKSsUu;\012  sub	sinKVa	sinMatraUu	by	sinKVUu;\012  sub	sinTVa	sinMatraUu	by	sinTVUu;\012  sub	sinTTha	sinMatraUu	by	sinTThUu;\012  sub	sinNDa	sinMatraUu	by	sinNDUu;\012  sub	sinNVa	sinMatraUu	by	sinNVUu;\012  sub	sinNDha	sinMatraUu	by	sinNDhUu;\012  sub	sinNTha	sinMatraUu	by	sinNThUu;\012  sub	sinDVa	sinMatraUu	by	sinDVUu;\012  sub	sinDDha	sinMatraUu	by	sinDDhUu;\012  sub	sinTtTtha	sinMatraUu	by	sinTtTthUu;\012  sub sinYa.post sinMatraUu by sinYUu.post;\012} sinblws_4;\012\012lookup sinblws_5 {\012  sub sinDa sinMatraR by sinDvocR;\012  sub sinDa sinMatraRr by sinDvocRr;\012} sinblws_5;\012#----------- Yansaya --------------\012#-------------------------------\012\012lookup sinyansaya {\012  sub sinHalant zerowidthjoiner sinYa by sinYa.post;\012} sinyansaya;\012\012#----------- Rae, Raae --------------\012#-------------------------------\012\012lookup sinraer {\012  sub sinRa sinMatraAe by sinRAe;\012  sub sinRa sinMatraAae by sinRAae;\012}  sinraer;\012#----------- Rakaar ------------\012#-------------------------------\012\012lookup sinrakaar {\012  sub sinKa sinHalant zerowidthjoiner sinRa by sinKRa;\012  sub sinKha sinHalant zerowidthjoiner sinRa by sinKhRa;\012  sub sinGa sinHalant zerowidthjoiner sinRa by sinGRa;\012  sub sinGha sinHalant zerowidthjoiner sinRa by sinGhRa;\012  sub sinCa sinHalant zerowidthjoiner sinRa by sinCRa;\012  sub sinJa sinHalant zerowidthjoiner sinRa by sinJRa;\012  sub sinJha sinHalant zerowidthjoiner sinRa by sinJhRa;\012  sub sinNya sinHalant zerowidthjoiner sinRa by sinNyRa;\012  sub sinTta sinHalant zerowidthjoiner sinRa by sinTtRa;\012  sub sinJnya sinHalant zerowidthjoiner sinRa by sinJnyRa;\012  sub sinNdja sinHalant zerowidthjoiner sinRa by sinNdjRa;\012  sub sinDda sinHalant zerowidthjoiner sinRa by sinDdRa;\012  sub sinTa sinHalant zerowidthjoiner sinRa by sinTRa;\012  sub sinDa sinHalant zerowidthjoiner sinRa by sinDRa;\012  sub sinDha sinHalant zerowidthjoiner sinRa by sinDhRa;\012  sub sinPa sinHalant zerowidthjoiner sinRa by sinPRa;\012  sub sinBha sinHalant zerowidthjoiner sinRa by sinBhRa;\012  sub sinMa sinHalant zerowidthjoiner sinRa by sinMRa;\012  sub sinVa sinHalant zerowidthjoiner sinRa by sinVRa;\012  sub sinSha sinHalant zerowidthjoiner sinRa by sinShRa;\012  sub sinSsa sinHalant zerowidthjoiner sinRa by sinSsRa;\012  sub sinSa sinHalant zerowidthjoiner sinRa by sinSRa;\012  sub sinHa sinHalant zerowidthjoiner sinRa by sinHRa;\012  sub sinFa sinHalant zerowidthjoiner sinRa by sinFRa;\012  sub sinNDa sinHalant zerowidthjoiner sinRa by sinNDRa;\012  sub sinBa sinHalant zerowidthjoiner sinRa by sinBRa;\012} sinrakaar;\012\012#----------- Split Matras ------------\012#-------------------------------------\012\012lookup sinsplit_matra {\012  sub sinMatraEe by sinHalant;\012  sub sinMatraO by sinMatraAa;\012  sub sinMatraOo by sinMatraAa.halant;\012  sub sinMatraAu by sinMatraLs;\012} sinsplit_matra;\012\012#----------- Da forms ------------\012#---------------------------------\012\012lookup sinda_style {\012  sub sinDa sinMatraAa by sinDAa;\012  sub sinDa sinMatraAa.halant by sinDAa.halant;\012  sub sinDa sinMatraAae by sinDAae;\012  sub sinDa sinMatraAe by sinDAe;\012  sub sinDa sinYa.post sinMatraAa.halant by sinDYOo.post;\012  sub sinDa sinYUu.post by sinDYUu.post;\012  sub sinDa sinYa.post by sinDYa.post;\012  sub sinDa sinYa.post sinMatraAa by sinDYAa.post;\012  sub sinDa sinYU.post by sinDYu.post;\012  sub sinNda sinMatraAa by sinNdAa;\012  sub sinNda sinMatraAa.halant by sinNdAa.halant;\012  sub sinNda sinMatraAae by sinNdAae;\012  sub sinNda sinMatraAe by sinNdAe;\012  sub sinJnya sinMatraAa by sinJnyAa;\012  sub sinJnya sinMatraAa.halant by sinJnyAa.halant;\012  sub sinJnya sinMatraAae by sinJnyAee;\012  sub sinJnya sinMatraAe by sinJnyAe;\012  sub sinNDa sinMatraAa by sinNDAa;\012  sub sinNDa sinMatraAa.halant by sinNDAa.halant;\012  sub sinNDa sinMatraAae by sinNDAee;\012  sub sinNDa sinMatraAe by sinNDAe;\012  sub sinNya sinMatraAa by sinNyAa;\012  sub sinNya sinMatraAa.halant by sinNyAa.halant;\012  sub sinNya sinMatraAae by sinNyAee;\012  sub sinNya sinMatraAe by sinNyAe;\012} sinda_style;\012\012\012#----------- Sinhala Numerals------------\012#---------------------------------\012\012lookup sin_lithnum_style {\012  sub zero by sinZerolith;\012sub one by sinOnelith;\012sub two by sinTwolith;\012sub three by sinThreelith;\012sub four by sinFourlith;\012sub five by sinFivelith;\012sub six by sinSixlith;\012sub seven by sinSevenlith;\012sub eight by sinEightlith;\012sub nine by sinNinelith;\012} sin_lithnum_style;\012\012#----------- Sinhala touching  ------------\012#---------------------------------\012\012lookup sintouching {\012  sub sinKa zerowidthjoiner sinHalant by sinKa.touch;\012  sub sinKha zerowidthjoiner sinHalant by sinKha.touch;\012  sub sinGa  zerowidthjoiner sinHalant by sinGa.touch;\012  sub sinGha zerowidthjoiner sinHalant by sinGha.touch;\012  sub sinNga zerowidthjoiner sinHalant by sinNga.touch;\012  sub sinNnga zerowidthjoiner sinHalant by sinNnga.touch;\012  sub sinCa zerowidthjoiner sinHalant by sinCa.touch;\012  sub sinCha zerowidthjoiner sinHalant by sinCha.touch;\012  sub sinJa zerowidthjoiner sinHalant by sinJa.touch;\012  sub sinJha zerowidthjoiner sinHalant by sinJha.touch;\012  sub sinNya zerowidthjoiner sinHalant by sinNya.touch;\012  sub sinJnya zerowidthjoiner sinHalant by sinJnya.touch;\012  sub sinNdja zerowidthjoiner sinHalant by sinNdja.touch;\012  sub sinTta zerowidthjoiner sinHalant by sinTta.touch;\012  sub sinTtha zerowidthjoiner sinHalant by sinTtha.touch;\012  sub sinDda zerowidthjoiner sinHalant by sinDda.touch;\012  sub sinDdha zerowidthjoiner sinHalant by sinDdha.touch;\012  sub sinNna zerowidthjoiner sinHalant by sinNna.touch;\012  sub sinNndda zerowidthjoiner sinHalant by sinNdda.touch;\012  sub sinTa zerowidthjoiner sinHalant by sinTa.touch;\012  sub sinTha zerowidthjoiner sinHalant by sinTha.touch;\012  sub sinDa zerowidthjoiner sinHalant by sinDa.touch;\012  sub sinDha zerowidthjoiner sinHalant by sinDha.touch;\012  sub sinNa zerowidthjoiner sinHalant by sinNa.touch;\012  sub sinNda zerowidthjoiner sinHalant by sinNda.touch;\012  sub sinPa zerowidthjoiner sinHalant by sinPa.touch;\012  sub sinPha zerowidthjoiner sinHalant by sinPha.touch;\012  sub sinBa zerowidthjoiner sinHalant by sinBa.touch;\012  sub sinBha zerowidthjoiner sinHalant by sinBha.touch;\012  sub sinMa zerowidthjoiner sinHalant by sinMa.touch;\012  sub sinMba zerowidthjoiner sinHalant by sinMba.touch;\012  sub sinYa zerowidthjoiner sinHalant by sinYa.touch;\012  sub sinRa zerowidthjoiner sinHalant by sinRa.touch;\012  sub sinLa zerowidthjoiner sinHalant by sinLa.touch;\012  sub sinVa zerowidthjoiner sinHalant by sinVa.touch;\012  sub sinSha zerowidthjoiner sinHalant by sinSha.touch;\012  sub sinSsa zerowidthjoiner sinHalant by sinSsa.touch;\012  sub sinSa zerowidthjoiner sinHalant by sinSa.touch;\012  sub sinHa zerowidthjoiner sinHalant by sinHa.touch;\012  sub sinLla zerowidthjoiner sinHalant by sinLla.touch;\012  sub sinFa zerowidthjoiner sinHalant by sinFa.touch;\012} sintouching;\012\012";
 name = Prefix;
 },
 {
@@ -118,7 +128,7 @@ name = Prefix;
 features = (
 {
 automatic = 1;
-code = "feature sups;\012feature numr;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature ccmp;\012";
+code = "feature sups;\012feature numr;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature abvs;\012feature psts;\012";
 name = aalt;
 },
 {
@@ -227,6 +237,14 @@ name = blwm;
 {
 code = "  script sinh;\012    lookup sinda_style;";
 name = ss05;
+},
+{
+code = "  script sinh;\012    lookup sin_lithnum_style;";
+name = ss06;
+},
+{
+code = "    script sinh;";
+name = ccmp;
 }
 );
 fontMaster = (
@@ -443,9 +461,8 @@ xHeight = 500;
 );
 glyphs = (
 {
-color = 9;
 glyphname = A;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -662,7 +679,7 @@ unicode = 0041;
 },
 {
 glyphname = Aacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -695,7 +712,7 @@ unicode = 00C1;
 },
 {
 glyphname = Abreve;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -728,7 +745,7 @@ unicode = 0102;
 },
 {
 glyphname = Acircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -761,7 +778,7 @@ unicode = 00C2;
 },
 {
 glyphname = Adieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -794,7 +811,7 @@ unicode = 00C4;
 },
 {
 glyphname = Agrave;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -827,7 +844,7 @@ unicode = 00C0;
 },
 {
 glyphname = Amacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -860,7 +877,7 @@ unicode = 0100;
 },
 {
 glyphname = Aogonek;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -892,9 +909,8 @@ width = 647;
 unicode = 0104;
 },
 {
-color = 1;
 glyphname = Aring;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -929,7 +945,7 @@ unicode = 00C5;
 },
 {
 glyphname = Atilde;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -961,9 +977,8 @@ width = 647;
 unicode = 00C3;
 },
 {
-color = 1;
 glyphname = AE;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -1182,9 +1197,8 @@ rightMetricsKey = E;
 unicode = 00C6;
 },
 {
-color = 9;
 glyphname = B;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -1387,9 +1401,8 @@ leftKerningGroup = I;
 unicode = 0042;
 },
 {
-color = 2;
 glyphname = C;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -1839,7 +1852,7 @@ unicode = 0043;
 },
 {
 glyphname = Cacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -1872,7 +1885,7 @@ unicode = 0106;
 },
 {
 glyphname = Ccaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -1905,7 +1918,7 @@ unicode = 010C;
 },
 {
 glyphname = Ccedilla;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -1937,9 +1950,8 @@ width = 600;
 unicode = 00C7;
 },
 {
-color = 1;
 glyphname = D;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -2038,7 +2050,7 @@ unicode = 0044;
 },
 {
 glyphname = Eth;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2081,7 +2093,7 @@ unicode = 00D0;
 },
 {
 glyphname = Dcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2114,7 +2126,7 @@ unicode = 010E;
 },
 {
 glyphname = Dcroat;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2138,9 +2150,8 @@ width = 670;
 unicode = 0110;
 },
 {
-color = 9;
 glyphname = E;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -2348,7 +2359,7 @@ unicode = 0045;
 },
 {
 glyphname = Eacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2382,7 +2393,7 @@ unicode = 00C9;
 },
 {
 glyphname = Ecaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2415,7 +2426,7 @@ unicode = 011A;
 },
 {
 glyphname = Ecircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2448,7 +2459,7 @@ unicode = 00CA;
 },
 {
 glyphname = Edieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2481,7 +2492,7 @@ unicode = 00CB;
 },
 {
 glyphname = Edotaccent;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2514,7 +2525,7 @@ unicode = 0116;
 },
 {
 glyphname = Egrave;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2547,7 +2558,7 @@ unicode = 00C8;
 },
 {
 glyphname = Emacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2580,7 +2591,7 @@ unicode = 0112;
 },
 {
 glyphname = Eogonek;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2612,9 +2623,8 @@ width = 569;
 unicode = 0118;
 },
 {
-color = 9;
 glyphname = F;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2709,9 +2719,8 @@ leftKerningGroup = I;
 unicode = 0046;
 },
 {
-color = 9;
 glyphname = G;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -2948,7 +2957,7 @@ unicode = 0047;
 },
 {
 glyphname = Gbreve;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -2980,9 +2989,8 @@ width = 695;
 unicode = 011E;
 },
 {
-color = 3;
 glyphname = H;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -3328,9 +3336,8 @@ rightKerningGroup = I;
 unicode = 0048;
 },
 {
-color = 1;
 glyphname = I;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -3446,7 +3453,7 @@ unicode = 0049;
 },
 {
 glyphname = Iacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -3479,7 +3486,7 @@ unicode = 00CD;
 },
 {
 glyphname = Icircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -3512,7 +3519,7 @@ unicode = 00CE;
 },
 {
 glyphname = Idieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -3545,7 +3552,7 @@ unicode = 00CF;
 },
 {
 glyphname = Idotaccent;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -3578,7 +3585,7 @@ unicode = 0130;
 },
 {
 glyphname = Igrave;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -3611,7 +3618,7 @@ unicode = 00CC;
 },
 {
 glyphname = Imacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -3644,7 +3651,7 @@ unicode = 012A;
 },
 {
 glyphname = Iogonek;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -3676,9 +3683,8 @@ width = 340;
 unicode = 012E;
 },
 {
-color = 9;
 glyphname = J;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -3913,9 +3919,8 @@ rightKerningGroup = J;
 unicode = 004A;
 },
 {
-color = 9;
 glyphname = K;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -4121,9 +4126,8 @@ rightKerningGroup = K;
 unicode = 004B;
 },
 {
-color = 1;
 glyphname = L;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -4279,7 +4283,7 @@ unicode = 004C;
 },
 {
 glyphname = Lacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -4312,7 +4316,7 @@ unicode = 0139;
 },
 {
 glyphname = Lcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -4347,7 +4351,7 @@ unicode = 013D;
 },
 {
 glyphname = Lslash;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -4393,9 +4397,8 @@ width = 515;
 unicode = 0141;
 },
 {
-color = 1;
 glyphname = M;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -4627,9 +4630,8 @@ width = 803;
 unicode = 004D;
 },
 {
-color = 1;
 glyphname = N;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -4818,7 +4820,7 @@ unicode = 004E;
 },
 {
 glyphname = Nacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -4851,7 +4853,7 @@ unicode = 0143;
 },
 {
 glyphname = Ncaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -4884,7 +4886,7 @@ unicode = 0147;
 },
 {
 glyphname = Ntilde;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -4918,9 +4920,8 @@ rightKerningGroup = N;
 unicode = 00D1;
 },
 {
-color = 3;
 glyphname = O;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -5177,7 +5178,7 @@ unicode = 004F;
 },
 {
 glyphname = Oacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -5210,7 +5211,7 @@ unicode = 00D3;
 },
 {
 glyphname = Ocircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -5243,7 +5244,7 @@ unicode = 00D4;
 },
 {
 glyphname = Odieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -5276,7 +5277,7 @@ unicode = 00D6;
 },
 {
 glyphname = Ograve;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -5309,7 +5310,7 @@ unicode = 00D2;
 },
 {
 glyphname = Ohungarumlaut;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -5342,7 +5343,7 @@ unicode = 0150;
 },
 {
 glyphname = Omacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -5375,7 +5376,7 @@ unicode = 014C;
 },
 {
 glyphname = Oslash;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -5408,7 +5409,7 @@ unicode = 00D8;
 },
 {
 glyphname = Otilde;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -5440,9 +5441,8 @@ width = 704;
 unicode = 00D5;
 },
 {
-color = 1;
 glyphname = OE;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -5726,9 +5726,8 @@ rightMetricsKey = E;
 unicode = 0152;
 },
 {
-color = 9;
 glyphname = P;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -5912,9 +5911,8 @@ leftKerningGroup = I;
 unicode = 0050;
 },
 {
-color = 1;
 glyphname = Thorn;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -6032,9 +6030,8 @@ rightMetricsKey = P;
 unicode = 00DE;
 },
 {
-color = 1;
 glyphname = Q;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -6871,9 +6868,8 @@ rightKerningGroup = O;
 unicode = 0051;
 },
 {
-color = 9;
 glyphname = R;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -7015,7 +7011,7 @@ unicode = 0052;
 },
 {
 glyphname = Racute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -7048,7 +7044,7 @@ unicode = 0154;
 },
 {
 glyphname = Rcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -7080,9 +7076,8 @@ width = 614;
 unicode = 0158;
 },
 {
-color = 9;
 glyphname = S;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -7422,7 +7417,7 @@ unicode = 0053;
 },
 {
 glyphname = Sacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -7455,7 +7450,7 @@ unicode = 015A;
 },
 {
 glyphname = Scaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -7487,9 +7482,8 @@ width = 558;
 unicode = 0160;
 },
 {
-color = 1;
 glyphname = T;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -7626,7 +7620,7 @@ unicode = 0054;
 },
 {
 glyphname = Tcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -7658,9 +7652,8 @@ width = 556;
 unicode = 0164;
 },
 {
-color = 1;
 glyphname = U;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -7887,7 +7880,7 @@ unicode = 0055;
 },
 {
 glyphname = Uacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -7920,7 +7913,7 @@ unicode = 00DA;
 },
 {
 glyphname = Ucircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -7953,7 +7946,7 @@ unicode = 00DB;
 },
 {
 glyphname = Udieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -7986,7 +7979,7 @@ unicode = 00DC;
 },
 {
 glyphname = Ugrave;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -8019,7 +8012,7 @@ unicode = 00D9;
 },
 {
 glyphname = Uhungarumlaut;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -8052,7 +8045,7 @@ unicode = 0170;
 },
 {
 glyphname = Umacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -8085,7 +8078,7 @@ unicode = 016A;
 },
 {
 glyphname = Uogonek;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -8117,9 +8110,8 @@ width = 647;
 unicode = 0172;
 },
 {
-color = 1;
 glyphname = Uring;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -8153,9 +8145,8 @@ width = 658;
 unicode = 016E;
 },
 {
-color = 9;
 glyphname = V;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -8293,9 +8284,8 @@ width = 593;
 unicode = 0056;
 },
 {
-color = 9;
 glyphname = W;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -8520,9 +8510,8 @@ rightKerningGroup = W;
 unicode = 0057;
 },
 {
-color = 9;
 glyphname = X;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -8800,9 +8789,8 @@ width = 634;
 unicode = 0058;
 },
 {
-color = 9;
 glyphname = Y;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -9013,7 +9001,7 @@ unicode = 0059;
 },
 {
 glyphname = Yacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9046,7 +9034,7 @@ unicode = 00DD;
 },
 {
 glyphname = Ydieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9078,9 +9066,8 @@ width = 579;
 unicode = 0178;
 },
 {
-color = 9;
 glyphname = Z;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -9277,7 +9264,7 @@ unicode = 005A;
 },
 {
 glyphname = Zacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9310,7 +9297,7 @@ unicode = 0179;
 },
 {
 glyphname = Zcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9343,7 +9330,7 @@ unicode = 017D;
 },
 {
 glyphname = Zdotaccent;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9376,7 +9363,7 @@ unicode = 017B;
 },
 {
 glyphname = uni0122;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9409,7 +9396,7 @@ unicode = 0122;
 },
 {
 glyphname = uni0136;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9442,7 +9429,7 @@ unicode = 0136;
 },
 {
 glyphname = uni013B;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9475,7 +9462,7 @@ unicode = 013B;
 },
 {
 glyphname = uni0145;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9508,7 +9495,7 @@ unicode = 0145;
 },
 {
 glyphname = uni0156;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9541,7 +9528,7 @@ unicode = 0156;
 },
 {
 glyphname = uni015E;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9574,7 +9561,7 @@ unicode = 015E;
 },
 {
 glyphname = uni0162;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9607,7 +9594,7 @@ unicode = 0162;
 },
 {
 glyphname = uni0218;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9640,7 +9627,7 @@ unicode = 0218;
 },
 {
 glyphname = uni021A;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -9672,9 +9659,8 @@ width = 556;
 unicode = 021A;
 },
 {
-color = 9;
 glyphname = P.001;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -9856,9 +9842,8 @@ width = 565;
 );
 },
 {
-color = 3;
 glyphname = a;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -10125,7 +10110,7 @@ unicode = 0061;
 },
 {
 glyphname = aacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10158,7 +10143,7 @@ unicode = 00E1;
 },
 {
 glyphname = abreve;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10191,7 +10176,7 @@ unicode = 0103;
 },
 {
 glyphname = acircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10224,7 +10209,7 @@ unicode = 00E2;
 },
 {
 glyphname = adieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10257,7 +10242,7 @@ unicode = 00E4;
 },
 {
 glyphname = agrave;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10290,7 +10275,7 @@ unicode = 00E0;
 },
 {
 glyphname = amacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10323,7 +10308,7 @@ unicode = 0101;
 },
 {
 glyphname = aogonek;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10355,9 +10340,8 @@ width = 493;
 unicode = 0105;
 },
 {
-color = 1;
 glyphname = aring;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10390,7 +10374,7 @@ unicode = 00E5;
 },
 {
 glyphname = atilde;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -10422,9 +10406,8 @@ width = 493;
 unicode = 00E3;
 },
 {
-color = 1;
 glyphname = ae;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -10664,9 +10647,8 @@ rightMetricsKey = e;
 unicode = 00E6;
 },
 {
-color = 3;
 glyphname = b;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -10880,9 +10862,8 @@ width = 556;
 unicode = 0062;
 },
 {
-color = 1;
 glyphname = c;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -11119,7 +11100,7 @@ unicode = 0063;
 },
 {
 glyphname = cacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -11152,7 +11133,7 @@ unicode = 0107;
 },
 {
 glyphname = ccaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -11184,7 +11165,7 @@ unicode = 010D;
 },
 {
 glyphname = ccedilla;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -11216,9 +11197,8 @@ width = 454;
 unicode = 00E7;
 },
 {
-color = 3;
 glyphname = d;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -11681,9 +11661,8 @@ leftKerningGroup = d;
 unicode = 0064;
 },
 {
-color = 1;
 glyphname = eth;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -11897,7 +11876,7 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -11933,7 +11912,7 @@ unicode = 010F;
 },
 {
 glyphname = dcroat;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -11991,9 +11970,8 @@ width = 571;
 unicode = 0111;
 },
 {
-color = 3;
 glyphname = e;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -12420,7 +12398,7 @@ unicode = 0065;
 },
 {
 glyphname = eacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -12453,7 +12431,7 @@ unicode = 00E9;
 },
 {
 glyphname = ecaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -12486,7 +12464,7 @@ unicode = 011B;
 },
 {
 glyphname = ecircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -12519,7 +12497,7 @@ unicode = 00EA;
 },
 {
 glyphname = edieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -12552,7 +12530,7 @@ unicode = 00EB;
 },
 {
 glyphname = edotaccent;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -12585,7 +12563,7 @@ unicode = 0117;
 },
 {
 glyphname = egrave;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -12618,7 +12596,7 @@ unicode = 00E8;
 },
 {
 glyphname = emacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -12651,7 +12629,7 @@ unicode = 0113;
 },
 {
 glyphname = eogonek;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -12683,9 +12661,8 @@ width = 476;
 unicode = 0119;
 },
 {
-color = 1;
 glyphname = f;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -12949,9 +12926,8 @@ rightKerningGroup = f;
 unicode = 0066;
 },
 {
-color = 1;
 glyphname = g;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -13670,7 +13646,7 @@ unicode = 0067;
 },
 {
 glyphname = gbreve;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -13701,9 +13677,8 @@ width = 506;
 unicode = 011F;
 },
 {
-color = 3;
 glyphname = h;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -13874,9 +13849,8 @@ rightKerningGroup = h;
 unicode = 0068;
 },
 {
-color = 3;
 glyphname = i;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -14129,7 +14103,7 @@ unicode = 0069;
 },
 {
 glyphname = dotlessi;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -14206,7 +14180,7 @@ unicode = 0131;
 },
 {
 glyphname = iacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -14239,7 +14213,7 @@ unicode = 00ED;
 },
 {
 glyphname = icircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -14272,7 +14246,7 @@ unicode = 00EE;
 },
 {
 glyphname = idieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -14369,7 +14343,7 @@ unicode = 00EF;
 },
 {
 glyphname = igrave;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -14402,7 +14376,7 @@ unicode = 00EC;
 },
 {
 glyphname = imacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -14449,7 +14423,7 @@ unicode = 012B;
 },
 {
 glyphname = iogonek;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -14488,9 +14462,8 @@ width = 283;
 unicode = 012F;
 },
 {
-color = 1;
 glyphname = j;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -14913,9 +14886,8 @@ width = 287;
 unicode = 006A;
 },
 {
-color = 1;
 glyphname = k;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -15157,9 +15129,8 @@ rightKerningGroup = k;
 unicode = 006B;
 },
 {
-color = 1;
 glyphname = l;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -15240,7 +15211,7 @@ unicode = 006C;
 },
 {
 glyphname = lacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -15311,7 +15282,7 @@ unicode = 013A;
 },
 {
 glyphname = lcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -15346,7 +15317,7 @@ unicode = 013E;
 },
 {
 glyphname = lslash;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -15418,9 +15389,8 @@ width = 319;
 unicode = 0142;
 },
 {
-color = 3;
 glyphname = m;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -15709,9 +15679,8 @@ width = 808;
 unicode = 006D;
 },
 {
-color = 3;
 glyphname = n;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -15966,7 +15935,7 @@ unicode = 006E;
 },
 {
 glyphname = nacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -15999,7 +15968,7 @@ unicode = 0144;
 },
 {
 glyphname = ncaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16032,7 +16001,7 @@ unicode = 0148;
 },
 {
 glyphname = ntilde;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16064,9 +16033,8 @@ width = 562;
 unicode = 00F1;
 },
 {
-color = 3;
 glyphname = o;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -16249,7 +16217,7 @@ unicode = 006F;
 },
 {
 glyphname = oacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16282,7 +16250,7 @@ unicode = 00F3;
 },
 {
 glyphname = ocircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16315,7 +16283,7 @@ unicode = 00F4;
 },
 {
 glyphname = odieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16348,7 +16316,7 @@ unicode = 00F6;
 },
 {
 glyphname = ograve;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16381,7 +16349,7 @@ unicode = 00F2;
 },
 {
 glyphname = ohungarumlaut;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16414,7 +16382,7 @@ unicode = 0151;
 },
 {
 glyphname = omacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16447,7 +16415,7 @@ unicode = 014D;
 },
 {
 glyphname = oslash;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16494,7 +16462,7 @@ unicode = 00F8;
 },
 {
 glyphname = otilde;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -16526,9 +16494,8 @@ width = 521;
 unicode = 00F5;
 },
 {
-color = 1;
 glyphname = oe;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -16706,9 +16673,8 @@ rightMetricsKey = e;
 unicode = 0153;
 },
 {
-color = 3;
 glyphname = p;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -17051,9 +17017,8 @@ rightKerningGroup = p;
 unicode = 0070;
 },
 {
-color = 1;
 glyphname = thorn;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -17217,9 +17182,8 @@ rightMetricsKey = p;
 unicode = 00FE;
 },
 {
-color = 3;
 glyphname = q;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -17686,9 +17650,8 @@ width = 568;
 unicode = 0071;
 },
 {
-color = 3;
 glyphname = r;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -17901,7 +17864,7 @@ unicode = 0072;
 },
 {
 glyphname = racute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -17934,7 +17897,7 @@ unicode = 0155;
 },
 {
 glyphname = rcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -17966,9 +17929,8 @@ width = 422;
 unicode = 0159;
 },
 {
-color = 3;
 glyphname = s;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -18307,7 +18269,7 @@ unicode = 0073;
 },
 {
 glyphname = sacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -18340,7 +18302,7 @@ unicode = 015B;
 },
 {
 glyphname = scaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -18372,9 +18334,8 @@ width = 419;
 unicode = 0161;
 },
 {
-color = 9;
 glyphname = germandbls;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -18672,9 +18633,8 @@ rightKerningGroup = s;
 unicode = 00DF;
 },
 {
-color = 1;
 glyphname = t;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -18851,7 +18811,7 @@ unicode = 0074;
 },
 {
 glyphname = tcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -18883,9 +18843,8 @@ width = 361;
 unicode = 0165;
 },
 {
-color = 3;
 glyphname = u;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -19078,7 +19037,7 @@ unicode = 0075;
 },
 {
 glyphname = uacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19111,7 +19070,7 @@ unicode = 00FA;
 },
 {
 glyphname = ucircumflex;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19144,7 +19103,7 @@ unicode = 00FB;
 },
 {
 glyphname = udieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19177,7 +19136,7 @@ unicode = 00FC;
 },
 {
 glyphname = ugrave;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19210,7 +19169,7 @@ unicode = 00F9;
 },
 {
 glyphname = uhungarumlaut;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19243,7 +19202,7 @@ unicode = 0171;
 },
 {
 glyphname = umacron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19276,7 +19235,7 @@ unicode = 016B;
 },
 {
 glyphname = uni0123;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19311,7 +19270,7 @@ unicode = 0123;
 },
 {
 glyphname = uni0137;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19344,7 +19303,7 @@ unicode = 0137;
 },
 {
 glyphname = uni013C;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19377,7 +19336,7 @@ unicode = 013C;
 },
 {
 glyphname = uni0146;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19410,7 +19369,7 @@ unicode = 0146;
 },
 {
 glyphname = uni0157;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19443,7 +19402,7 @@ unicode = 0157;
 },
 {
 glyphname = uni015F;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19476,7 +19435,7 @@ unicode = 015F;
 },
 {
 glyphname = uni0163;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19509,7 +19468,7 @@ unicode = 0163;
 },
 {
 glyphname = uni0219;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19542,7 +19501,7 @@ unicode = 0219;
 },
 {
 glyphname = uni021B;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19575,7 +19534,7 @@ unicode = 021B;
 },
 {
 glyphname = uogonek;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19607,9 +19566,8 @@ width = 562;
 unicode = 0173;
 },
 {
-color = 1;
 glyphname = uring;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -19641,9 +19599,8 @@ width = 562;
 unicode = 016F;
 },
 {
-color = 3;
 glyphname = v;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -19781,9 +19738,8 @@ width = 475;
 unicode = 0076;
 },
 {
-color = 1;
 glyphname = w;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -19995,9 +19951,8 @@ rightKerningGroup = w;
 unicode = 0077;
 },
 {
-color = 1;
 glyphname = x;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -20172,9 +20127,8 @@ width = 482;
 unicode = 0078;
 },
 {
-color = 1;
 glyphname = y;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -20523,7 +20477,7 @@ unicode = 0079;
 },
 {
 glyphname = yacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -20554,7 +20508,7 @@ unicode = 00FD;
 },
 {
 glyphname = ydieresis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -20584,9 +20538,8 @@ width = 490;
 unicode = 00FF;
 },
 {
-color = 1;
 glyphname = z;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 anchors = (
@@ -20817,7 +20770,7 @@ unicode = 007A;
 },
 {
 glyphname = zacute;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -20850,7 +20803,7 @@ unicode = 017A;
 },
 {
 glyphname = zcaron;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -20883,7 +20836,7 @@ unicode = 017E;
 },
 {
 glyphname = zdotaccent;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 components = (
@@ -20915,9 +20868,8 @@ width = 419;
 unicode = 017C;
 },
 {
-color = 9;
 glyphname = fi;
-lastChange = "2017-10-22 14:15:38 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -21226,9 +21178,8 @@ rightMetricsKey = i;
 unicode = FB01;
 },
 {
-color = 9;
 glyphname = fl;
-lastChange = "2017-10-22 14:15:38 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -21653,9 +21604,8 @@ rightMetricsKey = l;
 unicode = FB02;
 },
 {
-color = 9;
 glyphname = ordfeminine;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -21997,9 +21947,8 @@ width = 306;
 unicode = 00AA;
 },
 {
-color = 9;
 glyphname = ordmasculine;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -22150,9 +22099,8 @@ width = 316;
 unicode = 00BA;
 },
 {
-color = 1;
 glyphname = pi;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:59 +0000";
 layers = (
 {
 background = {
@@ -36379,225 +36327,6 @@ nodes = (
 width = 1820;
 },
 {
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"1554 449 OFFCURVE",
-"1601 423 OFFCURVE",
-"1634 380 CURVE SMOOTH",
-"1666 336 OFFCURVE",
-"1687 276 OFFCURVE",
-"1687 205 CURVE SMOOTH",
-"1687 138 OFFCURVE",
-"1672 73 OFFCURVE",
-"1631 16 CURVE SMOOTH",
-"1590 -41 OFFCURVE",
-"1521 -91 OFFCURVE",
-"1413 -126 CURVE SMOOTH",
-"1305 -162 OFFCURVE",
-"1157 -183 OFFCURVE",
-"957 -183 CURVE SMOOTH",
-"657 -183 OFFCURVE",
-"452 -148 OFFCURVE",
-"321 -80 CURVE SMOOTH",
-"190 -13 OFFCURVE",
-"135 85 OFFCURVE",
-"135 209 CURVE SMOOTH",
-"135 254 OFFCURVE",
-"142 298 OFFCURVE",
-"158 344 CURVE SMOOTH",
-"174 390 OFFCURVE",
-"198 438 OFFCURVE",
-"233 493 CURVE",
-"164 511 LINE",
-"97 410 OFFCURVE",
-"61 317 OFFCURVE",
-"61 209 CURVE SMOOTH",
-"61 70 OFFCURVE",
-"120 -44 OFFCURVE",
-"261 -124 CURVE SMOOTH",
-"401 -204 OFFCURVE",
-"625 -250 OFFCURVE",
-"957 -250 CURVE SMOOTH",
-"1173 -250 OFFCURVE",
-"1335 -226 OFFCURVE",
-"1454 -186 CURVE SMOOTH",
-"1573 -146 OFFCURVE",
-"1649 -89 OFFCURVE",
-"1696 -21 CURVE SMOOTH",
-"1743 47 OFFCURVE",
-"1760 124 OFFCURVE",
-"1760 205 CURVE SMOOTH",
-"1760 286 OFFCURVE",
-"1734 363 OFFCURVE",
-"1689 419 CURVE SMOOTH",
-"1644 475 OFFCURVE",
-"1579 511 OFFCURVE",
-"1502 511 CURVE SMOOTH",
-"1438 511 OFFCURVE",
-"1382 486 OFFCURVE",
-"1335 442 CURVE",
-"1284 483 OFFCURVE",
-"1221 511 OFFCURVE",
-"1148 511 CURVE SMOOTH",
-"1069 511 OFFCURVE",
-"1000 482 OFFCURVE",
-"940 429 CURVE",
-"873 480 OFFCURVE",
-"786 511 OFFCURVE",
-"679 511 CURVE SMOOTH",
-"555 511 OFFCURVE",
-"454 479 OFFCURVE",
-"385 426 CURVE SMOOTH",
-"316 373 OFFCURVE",
-"277 300 OFFCURVE",
-"277 216 CURVE SMOOTH",
-"277 149 OFFCURVE",
-"305 93 OFFCURVE",
-"349 54 CURVE SMOOTH",
-"393 14 OFFCURVE",
-"452 -9 OFFCURVE",
-"513 -9 CURVE SMOOTH",
-"569 -9 OFFCURVE",
-"618 9 OFFCURVE",
-"654 39 CURVE SMOOTH",
-"689 69 OFFCURVE",
-"710 110 OFFCURVE",
-"710 158 CURVE SMOOTH",
-"710 235 OFFCURVE",
-"660 293 OFFCURVE",
-"577 293 CURVE SMOOTH",
-"494 293 OFFCURVE",
-"443 234 OFFCURVE",
-"436 158 CURVE SMOOTH",
-"432 123 OFFCURVE",
-"437 88 OFFCURVE",
-"449 56 CURVE",
-"393 73 OFFCURVE",
-"351 120 OFFCURVE",
-"351 208 CURVE SMOOTH",
-"351 277 OFFCURVE",
-"385 337 OFFCURVE",
-"443 380 CURVE SMOOTH",
-"501 423 OFFCURVE",
-"583 449 OFFCURVE",
-"679 449 CURVE SMOOTH",
-"759 449 OFFCURVE",
-"833 425 OFFCURVE",
-"892 390 CURVE",
-"829 326 OFFCURVE",
-"790 249 OFFCURVE",
-"790 162 CURVE SMOOTH",
-"790 110 OFFCURVE",
-"806 68 OFFCURVE",
-"834 38 CURVE SMOOTH",
-"862 8 OFFCURVE",
-"901 -9 OFFCURVE",
-"946 -9 CURVE SMOOTH",
-"991 -9 OFFCURVE",
-"1031 8 OFFCURVE",
-"1059 38 CURVE SMOOTH",
-"1087 68 OFFCURVE",
-"1103 110 OFFCURVE",
-"1103 162 CURVE SMOOTH",
-"1103 238 OFFCURVE",
-"1066 322 OFFCURVE",
-"990 393 CURVE",
-"1037 428 OFFCURVE",
-"1094 449 OFFCURVE",
-"1147 449 CURVE SMOOTH",
-"1198 449 OFFCURVE",
-"1251 432 OFFCURVE",
-"1294 403 CURVE",
-"1225 334 OFFCURVE",
-"1186 249 OFFCURVE",
-"1186 162 CURVE SMOOTH",
-"1186 110 OFFCURVE",
-"1202 68 OFFCURVE",
-"1230 38 CURVE SMOOTH",
-"1258 8 OFFCURVE",
-"1297 -9 OFFCURVE",
-"1342 -9 CURVE SMOOTH",
-"1387 -9 OFFCURVE",
-"1427 8 OFFCURVE",
-"1455 38 CURVE SMOOTH",
-"1482 68 OFFCURVE",
-"1498 110 OFFCURVE",
-"1498 162 CURVE SMOOTH",
-"1498 250 OFFCURVE",
-"1455 339 OFFCURVE",
-"1387 406 CURVE",
-"1420 431 OFFCURVE",
-"1459 449 OFFCURVE",
-"1502 449 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"999 304 OFFCURVE",
-"1032 238 OFFCURVE",
-"1032 162 CURVE SMOOTH",
-"1032 95 OFFCURVE",
-"993 51 OFFCURVE",
-"946 51 CURVE SMOOTH",
-"899 51 OFFCURVE",
-"861 94 OFFCURVE",
-"861 162 CURVE SMOOTH",
-"861 237 OFFCURVE",
-"894 303 OFFCURVE",
-"942 356 CURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"1428 93 OFFCURVE",
-"1390 52 OFFCURVE",
-"1343 52 CURVE SMOOTH",
-"1295 52 OFFCURVE",
-"1258 93 OFFCURVE",
-"1258 161 CURVE SMOOTH",
-"1258 229 OFFCURVE",
-"1290 305 OFFCURVE",
-"1341 364 CURVE",
-"1393 311 OFFCURVE",
-"1428 240 OFFCURVE",
-"1428 161 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"612 232 OFFCURVE",
-"636 201 OFFCURVE",
-"636 158 CURVE SMOOTH",
-"636 122 OFFCURVE",
-"619 95 OFFCURVE",
-"595 76 CURVE SMOOTH",
-"571 57 OFFCURVE",
-"541 47 OFFCURVE",
-"516 47 CURVE SMOOTH",
-"507 47 OFFCURVE",
-"500 48 OFFCURVE",
-"493 50 CURVE",
-"482 75 OFFCURVE",
-"478 101 OFFCURVE",
-"480 129 CURVE SMOOTH",
-"481 156 OFFCURVE",
-"490 181 OFFCURVE",
-"506 201 CURVE SMOOTH",
-"521 220 OFFCURVE",
-"541 232 OFFCURVE",
-"569 232 CURVE SMOOTH"
-);
-}
-);
-width = 1820;
-},
-{
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 width = 600;
 }
@@ -36778,175 +36507,6 @@ nodes = (
 width = 1431;
 },
 {
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"553 511 OFFCURVE",
-"455 479 OFFCURVE",
-"387 426 CURVE SMOOTH",
-"319 373 OFFCURVE",
-"280 300 OFFCURVE",
-"280 216 CURVE SMOOTH",
-"280 149 OFFCURVE",
-"308 93 OFFCURVE",
-"352 54 CURVE SMOOTH",
-"395 14 OFFCURVE",
-"454 -9 OFFCURVE",
-"515 -9 CURVE SMOOTH",
-"571 -9 OFFCURVE",
-"620 9 OFFCURVE",
-"656 39 CURVE SMOOTH",
-"691 69 OFFCURVE",
-"712 110 OFFCURVE",
-"712 158 CURVE SMOOTH",
-"712 235 OFFCURVE",
-"662 293 OFFCURVE",
-"579 293 CURVE SMOOTH",
-"538 293 OFFCURVE",
-"505 278 OFFCURVE",
-"481 254 CURVE SMOOTH",
-"457 230 OFFCURVE",
-"443 195 OFFCURVE",
-"439 158 CURVE SMOOTH",
-"434 123 OFFCURVE",
-"440 88 OFFCURVE",
-"452 56 CURVE",
-"396 73 OFFCURVE",
-"354 120 OFFCURVE",
-"354 208 CURVE SMOOTH",
-"354 277 OFFCURVE",
-"388 337 OFFCURVE",
-"445 380 CURVE SMOOTH",
-"502 423 OFFCURVE",
-"581 449 OFFCURVE",
-"673 449 CURVE SMOOTH",
-"757 449 OFFCURVE",
-"833 429 OFFCURVE",
-"890 397 CURVE",
-"826 325 OFFCURVE",
-"795 241 OFFCURVE",
-"795 161 CURVE SMOOTH",
-"795 109 OFFCURVE",
-"811 66 OFFCURVE",
-"839 37 CURVE SMOOTH",
-"867 8 OFFCURVE",
-"905 -9 OFFCURVE",
-"952 -9 CURVE SMOOTH",
-"997 -9 OFFCURVE",
-"1037 8 OFFCURVE",
-"1065 37 CURVE SMOOTH",
-"1093 66 OFFCURVE",
-"1110 109 OFFCURVE",
-"1110 161 CURVE SMOOTH",
-"1110 257 OFFCURVE",
-"1064 343 OFFCURVE",
-"985 404 CURVE",
-"1020 432 OFFCURVE",
-"1061 449 OFFCURVE",
-"1104 449 CURVE SMOOTH",
-"1159 449 OFFCURVE",
-"1206 423 OFFCURVE",
-"1241 380 CURVE SMOOTH",
-"1276 336 OFFCURVE",
-"1297 276 OFFCURVE",
-"1297 205 CURVE SMOOTH",
-"1297 96 OFFCURVE",
-"1250 -2 OFFCURVE",
-"1157 -71 CURVE SMOOTH",
-"1064 -140 OFFCURVE",
-"925 -182 OFFCURVE",
-"741 -182 CURVE SMOOTH",
-"554 -182 OFFCURVE",
-"402 -145 OFFCURVE",
-"298 -77 CURVE SMOOTH",
-"193 -10 OFFCURVE",
-"135 88 OFFCURVE",
-"135 209 CURVE SMOOTH",
-"135 254 OFFCURVE",
-"143 298 OFFCURVE",
-"159 344 CURVE SMOOTH",
-"175 390 OFFCURVE",
-"200 438 OFFCURVE",
-"235 493 CURVE",
-"166 511 LINE",
-"101 410 OFFCURVE",
-"61 317 OFFCURVE",
-"61 209 CURVE SMOOTH",
-"61 68 OFFCURVE",
-"128 -47 OFFCURVE",
-"246 -126 CURVE SMOOTH",
-"364 -206 OFFCURVE",
-"534 -250 OFFCURVE",
-"742 -250 CURVE SMOOTH",
-"961 -250 OFFCURVE",
-"1118 -197 OFFCURVE",
-"1221 -113 CURVE SMOOTH",
-"1324 -30 OFFCURVE",
-"1371 84 OFFCURVE",
-"1371 205 CURVE SMOOTH",
-"1371 286 OFFCURVE",
-"1344 363 OFFCURVE",
-"1297 419 CURVE SMOOTH",
-"1250 475 OFFCURVE",
-"1184 511 OFFCURVE",
-"1105 511 CURVE SMOOTH",
-"1039 511 OFFCURVE",
-"981 486 OFFCURVE",
-"931 436 CURVE",
-"862 486 OFFCURVE",
-"776 511 OFFCURVE",
-"673 511 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"1038 93 OFFCURVE",
-"1000 52 OFFCURVE",
-"952 52 CURVE SMOOTH",
-"905 52 OFFCURVE",
-"868 93 OFFCURVE",
-"868 161 CURVE SMOOTH",
-"868 229 OFFCURVE",
-"895 302 OFFCURVE",
-"944 365 CURVE",
-"1001 312 OFFCURVE",
-"1038 240 OFFCURVE",
-"1038 161 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"614 232 OFFCURVE",
-"638 201 OFFCURVE",
-"638 158 CURVE SMOOTH",
-"638 122 OFFCURVE",
-"621 95 OFFCURVE",
-"597 76 CURVE SMOOTH",
-"573 57 OFFCURVE",
-"543 47 OFFCURVE",
-"518 47 CURVE SMOOTH",
-"510 47 OFFCURVE",
-"503 48 OFFCURVE",
-"496 50 CURVE",
-"485 73 OFFCURVE",
-"480 101 OFFCURVE",
-"483 129 CURVE",
-"484 156 OFFCURVE",
-"493 181 OFFCURVE",
-"508 201 CURVE SMOOTH",
-"523 220 OFFCURVE",
-"544 232 OFFCURVE",
-"571 232 CURVE SMOOTH"
-);
-}
-);
-width = 1431;
-},
-{
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 width = 600;
 }
@@ -36957,90 +36517,6 @@ note = tml_NnnAa.alt;
 glyphname = taRrAa.alt;
 lastChange = "2017-10-22 16:49:17 +0000";
 layers = (
-{
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"386 511 OFFCURVE",
-"328 442 OFFCURVE",
-"328 306 CURVE SMOOTH",
-"328 0 LINE",
-"398 0 LINE",
-"398 306 LINE SMOOTH",
-"398 399 OFFCURVE",
-"435 449 OFFCURVE",
-"499 449 CURVE SMOOTH",
-"563 449 OFFCURVE",
-"601 399 OFFCURVE",
-"601 306 CURVE SMOOTH",
-"601 0 LINE",
-"671 0 LINE",
-"671 306 LINE SMOOTH",
-"671 401 OFFCURVE",
-"722 449 OFFCURVE",
-"783 449 CURVE SMOOTH",
-"843 449 OFFCURVE",
-"890 406 OFFCURVE",
-"890 330 CURVE SMOOTH",
-"890 276 OFFCURVE",
-"867 232 OFFCURVE",
-"821 197 CURVE",
-"873 157 OFFCURVE",
-"905 104 OFFCURVE",
-"905 36 CURVE SMOOTH",
-"905 -108 OFFCURVE",
-"781 -185 OFFCURVE",
-"573 -185 CURVE SMOOTH",
-"284 -185 OFFCURVE",
-"134 -58 OFFCURVE",
-"134 169 CURVE SMOOTH",
-"134 226 OFFCURVE",
-"141 279 OFFCURVE",
-"157 332 CURVE SMOOTH",
-"172 384 OFFCURVE",
-"196 436 OFFCURVE",
-"228 493 CURVE",
-"161 511 LINE",
-"98 406 OFFCURVE",
-"60 297 OFFCURVE",
-"60 169 CURVE SMOOTH",
-"60 41 OFFCURVE",
-"107 -63 OFFCURVE",
-"195 -136 CURVE SMOOTH",
-"282 -209 OFFCURVE",
-"410 -250 OFFCURVE",
-"573 -250 CURVE SMOOTH",
-"701 -250 OFFCURVE",
-"803 -223 OFFCURVE",
-"872 -175 CURVE SMOOTH",
-"941 -127 OFFCURVE",
-"979 -56 OFFCURVE",
-"979 32 CURVE SMOOTH",
-"979 100 OFFCURVE",
-"949 156 OFFCURVE",
-"893 199 CURVE",
-"938 231 OFFCURVE",
-"964 281 OFFCURVE",
-"964 341 CURVE SMOOTH",
-"964 389 OFFCURVE",
-"946 431 OFFCURVE",
-"914 462 CURVE SMOOTH",
-"882 493 OFFCURVE",
-"836 511 OFFCURVE",
-"783 511 CURVE SMOOTH",
-"707 511 OFFCURVE",
-"647 476 OFFCURVE",
-"618 404 CURVE",
-"603 468 OFFCURVE",
-"562 511 OFFCURVE",
-"491 511 CURVE SMOOTH"
-);
-}
-);
-width = 1039;
-},
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
 paths = (
@@ -73953,7 +73429,7 @@ width = 592;
 },
 {
 glyphname = sinGDha.reph;
-lastChange = "2017-10-22 12:17:34 +0000";
+lastChange = "2017-10-22 19:00:30 +0000";
 layers = (
 {
 components = (
@@ -73992,8 +73468,8 @@ nodes = (
 "741 682 OFFCURVE",
 "741 613 CURVE SMOOTH",
 "741 590 OFFCURVE",
-"735 569 OFFCURVE",
-"718 550 CURVE",
+"731 558 OFFCURVE",
+"707 536 CURVE",
 "685 550 LINE",
 "698 562 OFFCURVE",
 "712 586 OFFCURVE",
@@ -75693,76 +75169,21 @@ width = 1043;
 },
 {
 glyphname = sinKVa.reph;
-lastChange = "2017-10-22 12:34:30 +0000";
+lastChange = "2017-10-22 18:59:54 +0000";
 layers = (
 {
 components = (
 {
 name = sinVa;
 transform = "{1, 0, 0, 1, 454, 0}";
+},
+{
+name = sinReph;
+transform = "{1, 0, 0, 1, 740, 104}";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
 paths = (
-{
-closed = 1;
-nodes = (
-"701 606 CURVE SMOOTH",
-"701 627 OFFCURVE",
-"720 643 OFFCURVE",
-"741 643 CURVE SMOOTH",
-"762 643 OFFCURVE",
-"781 627 OFFCURVE",
-"781 606 CURVE SMOOTH",
-"781 585 OFFCURVE",
-"762 570 OFFCURVE",
-"741 570 CURVE SMOOTH",
-"720 570 OFFCURVE",
-"701 585 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"601 625 CURVE SMOOTH",
-"601 570 OFFCURVE",
-"659 542 OFFCURVE",
-"717 542 CURVE SMOOTH",
-"774 542 OFFCURVE",
-"808 567 OFFCURVE",
-"808 605 CURVE SMOOTH",
-"808 639 OFFCURVE",
-"780 666 OFFCURVE",
-"740 666 CURVE SMOOTH",
-"705 666 OFFCURVE",
-"675 641 OFFCURVE",
-"675 607 CURVE SMOOTH",
-"675 586 OFFCURVE",
-"686 572 OFFCURVE",
-"694 566 CURVE",
-"672 568 OFFCURVE",
-"632 587 OFFCURVE",
-"632 625 CURVE SMOOTH",
-"632 677 OFFCURVE",
-"685 697 OFFCURVE",
-"737 697 CURVE SMOOTH",
-"797 697 OFFCURVE",
-"847 667 OFFCURVE",
-"847 611 CURVE SMOOTH",
-"847 585 OFFCURVE",
-"831 561 OFFCURVE",
-"818 549 CURVE",
-"851 549 LINE",
-"868 568 OFFCURVE",
-"876 589 OFFCURVE",
-"876 612 CURVE SMOOTH",
-"876 681 OFFCURVE",
-"813 724 OFFCURVE",
-"738 724 CURVE SMOOTH",
-"658 724 OFFCURVE",
-"601 687 OFFCURVE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -75845,6 +75266,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"98 167 OFFCURVE",
+"79 129 OFFCURVE",
 "68 93 CURVE",
 "74 96 OFFCURVE",
 "80 98 OFFCURVE",
@@ -75876,9 +75299,7 @@ nodes = (
 "178 267 CURVE",
 "161 252 OFFCURVE",
 "142 229 OFFCURVE",
-"126 207 CURVE SMOOTH",
-"98 167 OFFCURVE",
-"79 129 OFFCURVE"
+"126 207 CURVE SMOOTH"
 );
 }
 );
@@ -75889,69 +75310,14 @@ components = (
 {
 name = sinVa;
 transform = "{1, 0, 0, 1, 454, 0}";
+},
+{
+name = sinReph;
+transform = "{1, 0, 0, 1, 1051, 104}";
 }
 );
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 paths = (
-{
-closed = 1;
-nodes = (
-"702 606 CURVE SMOOTH",
-"702 626 OFFCURVE",
-"720 642 OFFCURVE",
-"741 642 CURVE SMOOTH",
-"762 642 OFFCURVE",
-"780 626 OFFCURVE",
-"780 606 CURVE SMOOTH",
-"780 586 OFFCURVE",
-"762 571 OFFCURVE",
-"741 571 CURVE SMOOTH",
-"720 571 OFFCURVE",
-"702 586 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"601 625 CURVE SMOOTH",
-"601 570 OFFCURVE",
-"658 542 OFFCURVE",
-"716 542 CURVE SMOOTH",
-"773 542 OFFCURVE",
-"807 567 OFFCURVE",
-"807 605 CURVE SMOOTH",
-"807 639 OFFCURVE",
-"780 666 OFFCURVE",
-"740 666 CURVE SMOOTH",
-"705 666 OFFCURVE",
-"674 641 OFFCURVE",
-"674 607 CURVE SMOOTH",
-"674 586 OFFCURVE",
-"685 574 OFFCURVE",
-"693 568 CURVE",
-"676 570 OFFCURVE",
-"633 587 OFFCURVE",
-"633 625 CURVE SMOOTH",
-"633 674 OFFCURVE",
-"685 696 OFFCURVE",
-"737 696 CURVE SMOOTH",
-"797 696 OFFCURVE",
-"844 664 OFFCURVE",
-"844 611 CURVE SMOOTH",
-"844 584 OFFCURVE",
-"829 561 OFFCURVE",
-"816 549 CURVE",
-"851 549 LINE",
-"867 568 OFFCURVE",
-"876 589 OFFCURVE",
-"876 612 CURVE SMOOTH",
-"876 681 OFFCURVE",
-"813 724 OFFCURVE",
-"738 724 CURVE SMOOTH",
-"658 724 OFFCURVE",
-"601 687 OFFCURVE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -76034,6 +75400,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"102 168 OFFCURVE",
+"99 160 OFFCURVE",
 "89 140 CURVE",
 "101 150 OFFCURVE",
 "112 156 OFFCURVE",
@@ -76065,9 +75433,7 @@ nodes = (
 "176 262 CURVE",
 "159 248 OFFCURVE",
 "143 229 OFFCURVE",
-"128 207 CURVE SMOOTH",
-"102 168 OFFCURVE",
-"99 160 OFFCURVE"
+"128 207 CURVE SMOOTH"
 );
 }
 );
@@ -82332,9 +81698,8 @@ width = 621;
 );
 },
 {
-color = 9;
 glyphname = zero;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -82530,9 +81895,8 @@ width = 568;
 unicode = 0030;
 },
 {
-color = 9;
 glyphname = one;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -82635,9 +81999,8 @@ width = 442;
 unicode = 0031;
 },
 {
-color = 9;
 glyphname = two;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -83214,9 +82577,8 @@ width = 493;
 unicode = 0032;
 },
 {
-color = 1;
 glyphname = three;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -83531,9 +82893,8 @@ width = 539;
 unicode = 0033;
 },
 {
-color = 9;
 glyphname = four;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -83928,9 +83289,8 @@ width = 532;
 unicode = 0034;
 },
 {
-color = 9;
 glyphname = five;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -84238,9 +83598,8 @@ width = 523;
 unicode = 0035;
 },
 {
-color = 9;
 glyphname = six;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -84566,9 +83925,8 @@ width = 552;
 unicode = 0036;
 },
 {
-color = 9;
 glyphname = seven;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -84779,9 +84137,8 @@ width = 485;
 unicode = 0037;
 },
 {
-color = 9;
 glyphname = eight;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -85133,9 +84490,8 @@ width = 545;
 unicode = 0038;
 },
 {
-color = 9;
 glyphname = nine;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -85477,9 +84833,384 @@ width = 552;
 unicode = 0039;
 },
 {
-color = 3;
+color = 0;
+glyphname = sinZerolith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"112 603 LINE",
+"66 593 OFFCURVE",
+"58 573 OFFCURVE",
+"58 562 CURVE SMOOTH",
+"58 529 OFFCURVE",
+"119 516 OFFCURVE",
+"128 520 CURVE",
+"117 497 LINE",
+"104 492 OFFCURVE",
+"22 507 OFFCURVE",
+"22 563 CURVE SMOOTH",
+"22 620 OFFCURVE",
+"86 614 OFFCURVE",
+"139 645 CURVE",
+"140 134 LINE",
+"112 133 LINE",
+"113 509 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"113 210 LINE",
+"113 525 LINE",
+"166 504 OFFCURVE",
+"270 489 OFFCURVE",
+"270 399 CURVE SMOOTH",
+"270 356 OFFCURVE",
+"246 317 OFFCURVE",
+"184 317 CURVE SMOOTH",
+"169 317 OFFCURVE",
+"155 320 OFFCURVE",
+"140 327 CURVE",
+"140 193 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"140 351 LINE",
+"149 346 OFFCURVE",
+"159 344 OFFCURVE",
+"172 344 CURVE SMOOTH",
+"209 344 OFFCURVE",
+"214 369 OFFCURVE",
+"214 392 CURVE SMOOTH",
+"214 433 OFFCURVE",
+"186 453 OFFCURVE",
+"140 483 CURVE"
+);
+}
+);
+width = 177;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DE6;
+},
+{
+color = 0;
+glyphname = sinOnelith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"230 239 CURVE SMOOTH",
+"230 214 OFFCURVE",
+"255 193 OFFCURVE",
+"284 193 CURVE SMOOTH",
+"313 193 OFFCURVE",
+"338 214 OFFCURVE",
+"338 239 CURVE SMOOTH",
+"338 264 OFFCURVE",
+"313 285 OFFCURVE",
+"284 285 CURVE SMOOTH",
+"255 285 OFFCURVE",
+"230 264 OFFCURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"32 207 CURVE SMOOTH",
+"32 339 OFFCURVE",
+"157 422 OFFCURVE",
+"294 422 CURVE SMOOTH",
+"471 422 OFFCURVE",
+"605 305 OFFCURVE",
+"630 11 CURVE",
+"602 11 LINE",
+"570 289 OFFCURVE",
+"450 388 OFFCURVE",
+"294 388 CURVE SMOOTH",
+"183 388 OFFCURVE",
+"74 332 OFFCURVE",
+"74 222 CURVE SMOOTH",
+"74 138 OFFCURVE",
+"159 69 OFFCURVE",
+"263 69 CURVE SMOOTH",
+"350 69 OFFCURVE",
+"444 103 OFFCURVE",
+"444 185 CURVE SMOOTH",
+"444 239 OFFCURVE",
+"400 271 OFFCURVE",
+"352 280 CURVE",
+"365 266 OFFCURVE",
+"370 250 OFFCURVE",
+"370 234 CURVE SMOOTH",
+"370 187 OFFCURVE",
+"327 162 OFFCURVE",
+"285 162 CURVE SMOOTH",
+"240 162 OFFCURVE",
+"198 193 OFFCURVE",
+"198 236 CURVE SMOOTH",
+"198 283 OFFCURVE",
+"242 314 OFFCURVE",
+"297 314 CURVE SMOOTH",
+"397 314 OFFCURVE",
+"479 262 OFFCURVE",
+"479 164 CURVE SMOOTH",
+"479 66 OFFCURVE",
+"403 0 OFFCURVE",
+"263 0 CURVE SMOOTH",
+"131 0 OFFCURVE",
+"32 82 OFFCURVE"
+);
+}
+);
+width = 588;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"215 270 CURVE SMOOTH",
+"215 245 OFFCURVE",
+"240 224 OFFCURVE",
+"269 224 CURVE SMOOTH",
+"298 224 OFFCURVE",
+"322 245 OFFCURVE",
+"322 270 CURVE SMOOTH",
+"322 295 OFFCURVE",
+"298 315 OFFCURVE",
+"269 315 CURVE SMOOTH",
+"240 315 OFFCURVE",
+"215 295 OFFCURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"32 207 CURVE SMOOTH",
+"32 339 OFFCURVE",
+"133 422 OFFCURVE",
+"294 422 CURVE SMOOTH",
+"479 422 OFFCURVE",
+"614 262 OFFCURVE",
+"629 12 CURVE",
+"599 12 LINE",
+"576 243 OFFCURVE",
+"460 392 OFFCURVE",
+"294 392 CURVE SMOOTH",
+"182 392 OFFCURVE",
+"104 336 OFFCURVE",
+"104 258 CURVE SMOOTH",
+"104 193 OFFCURVE",
+"160 134 OFFCURVE",
+"263 134 CURVE SMOOTH",
+"350 134 OFFCURVE",
+"407 175 OFFCURVE",
+"407 238 CURVE SMOOTH",
+"407 269 OFFCURVE",
+"384 304 OFFCURVE",
+"336 315 CURVE",
+"349 303 OFFCURVE",
+"356 285 OFFCURVE",
+"356 269 CURVE SMOOTH",
+"356 226 OFFCURVE",
+"313 195 OFFCURVE",
+"269 195 CURVE SMOOTH",
+"225 195 OFFCURVE",
+"181 226 OFFCURVE",
+"181 269 CURVE SMOOTH",
+"181 315 OFFCURVE",
+"225 346 OFFCURVE",
+"283 346 CURVE SMOOTH",
+"390 346 OFFCURVE",
+"479 286 OFFCURVE",
+"479 173 CURVE SMOOTH",
+"479 79 OFFCURVE",
+"403 0 OFFCURVE",
+"263 0 CURVE SMOOTH",
+"131 0 OFFCURVE",
+"32 82 OFFCURVE"
+);
+}
+);
+width = 600;
+}
+);
+unicode = 0DE7;
+},
+{
+color = 0;
+glyphname = sinTwolith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+components = (
+{
+name = sinOnelith;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"566 267 OFFCURVE",
+"628 416 OFFCURVE",
+"772 414 CURVE SMOOTH",
+"959 412 OFFCURVE",
+"940 86 OFFCURVE",
+"945 13 CURVE",
+"910 15 LINE",
+"928 211 OFFCURVE",
+"861 352 OFFCURVE",
+"770 352 CURVE SMOOTH",
+"599 352 OFFCURVE",
+"628 29 OFFCURVE",
+"628 10 CURVE",
+"597 12 LINE"
+);
+}
+);
+width = 967;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DE8;
+},
+{
+color = 0;
+glyphname = sinThreelith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DE9;
+},
+{
+color = 0;
+glyphname = sinFourlith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DEA;
+},
+{
+color = 0;
+glyphname = sinFivelith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DEB;
+},
+{
+color = 0;
+glyphname = sinSixlith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DEC;
+},
+{
+color = 0;
+glyphname = sinSevenlith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DED;
+},
+{
+color = 0;
+glyphname = sinEightlith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DEE;
+},
+{
+color = 0;
+glyphname = sinNinelith;
+lastChange = "2017-10-22 19:03:47 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0DEF;
+},
+{
 glyphname = zero.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -85658,9 +85389,8 @@ width = 624;
 );
 },
 {
-color = 3;
 glyphname = one.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -85762,9 +85492,8 @@ width = 468;
 );
 },
 {
-color = 3;
 glyphname = two.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -86287,9 +86016,8 @@ width = 525;
 );
 },
 {
-color = 3;
 glyphname = three.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -86450,9 +86178,8 @@ width = 539;
 );
 },
 {
-color = 3;
 glyphname = four.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -86735,9 +86462,8 @@ width = 532;
 );
 },
 {
-color = 3;
 glyphname = five.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -86921,9 +86647,8 @@ width = 523;
 );
 },
 {
-color = 3;
 glyphname = six.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -87054,9 +86779,8 @@ width = 552;
 );
 },
 {
-color = 3;
 glyphname = seven.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -87163,9 +86887,8 @@ width = 485;
 );
 },
 {
-color = 3;
 glyphname = eight.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -87424,9 +87147,8 @@ width = 545;
 );
 },
 {
-color = 3;
 glyphname = nine.tf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -87685,9 +87407,8 @@ width = 552;
 );
 },
 {
-color = 9;
 glyphname = zero.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -87864,9 +87585,8 @@ width = 412;
 );
 },
 {
-color = 9;
 glyphname = one.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -87986,9 +87706,8 @@ width = 315;
 );
 },
 {
-color = 9;
 glyphname = two.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -88637,9 +88356,8 @@ width = 320;
 );
 },
 {
-color = 9;
 glyphname = three.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -88994,9 +88712,8 @@ width = 345;
 );
 },
 {
-color = 9;
 glyphname = four.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -89373,9 +89090,8 @@ width = 410;
 );
 },
 {
-color = 7;
 glyphname = five.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -89668,9 +89384,8 @@ width = 523;
 );
 },
 {
-color = 7;
 glyphname = six.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -89895,9 +89610,8 @@ width = 574;
 );
 },
 {
-color = 7;
 glyphname = seven.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -90070,9 +89784,8 @@ width = 485;
 );
 },
 {
-color = 7;
 glyphname = eight.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -90423,9 +90136,8 @@ width = 540;
 );
 },
 {
-color = 7;
 glyphname = nine.numr;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -90776,9 +90488,8 @@ width = 564;
 );
 },
 {
-color = 9;
 glyphname = onesuperior;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 components = (
@@ -90808,9 +90519,8 @@ rightMetricsKey = one;
 unicode = 00B9;
 },
 {
-color = 9;
 glyphname = twosuperior;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 components = (
@@ -90840,9 +90550,8 @@ rightMetricsKey = two;
 unicode = 00B2;
 },
 {
-color = 9;
 glyphname = threesuperior;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 components = (
@@ -90872,9 +90581,8 @@ rightMetricsKey = three;
 unicode = 00B3;
 },
 {
-color = 9;
 glyphname = fraction;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -90936,9 +90644,8 @@ width = 147;
 unicode = 2044;
 },
 {
-color = 9;
 glyphname = onehalf;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 components = (
@@ -90985,9 +90692,8 @@ leftMetricsKey = onequarter;
 unicode = 00BD;
 },
 {
-color = 9;
 glyphname = onequarter;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 background = {
@@ -91057,9 +90763,8 @@ width = 764;
 unicode = 00BC;
 },
 {
-color = 9;
 glyphname = threequarters;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:36 +0000";
 layers = (
 {
 components = (
@@ -92985,9 +92690,8 @@ width = 929;
 unicode = 0BEF;
 },
 {
-color = 1;
 glyphname = asterisk;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -93553,9 +93257,8 @@ width = 383;
 unicode = 002A;
 },
 {
-color = 1;
 glyphname = backslash;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -93581,9 +93284,8 @@ width = 456;
 unicode = 005C;
 },
 {
-color = 1;
 glyphname = periodcentered;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -93635,9 +93337,8 @@ width = 249;
 unicode = 00B7;
 },
 {
-color = 1;
 glyphname = bullet;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -93689,9 +93390,8 @@ width = 345;
 unicode = 2022;
 },
 {
-color = 1;
 glyphname = colon;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -93815,9 +93515,8 @@ width = 201;
 unicode = 003A;
 },
 {
-color = 1;
 glyphname = comma;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -93984,9 +93683,8 @@ width = 187;
 unicode = 002C;
 },
 {
-color = 1;
 glyphname = ellipsis;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -94027,9 +93725,8 @@ width = 600;
 unicode = 2026;
 },
 {
-color = 1;
 glyphname = exclam;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -94129,9 +93826,8 @@ width = 234;
 unicode = 0021;
 },
 {
-color = 1;
 glyphname = exclamdown;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -94157,9 +93853,8 @@ width = 289;
 unicode = 00A1;
 },
 {
-color = 1;
 glyphname = numbersign;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -94249,9 +93944,8 @@ width = 579;
 unicode = 0023;
 },
 {
-color = 1;
 glyphname = period;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -94303,9 +93997,8 @@ width = 191;
 unicode = 002E;
 },
 {
-color = 1;
 glyphname = question;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -94471,9 +94164,8 @@ width = 467;
 unicode = 003F;
 },
 {
-color = 1;
 glyphname = questiondown;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -94499,9 +94191,8 @@ width = 492;
 unicode = 00BF;
 },
 {
-color = 1;
 glyphname = quotedbl;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -94613,9 +94304,8 @@ width = 308;
 unicode = 0022;
 },
 {
-color = 1;
 glyphname = quotesingle;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -94669,9 +94359,8 @@ width = 168;
 unicode = 0027;
 },
 {
-color = 1;
 glyphname = semicolon;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -94771,9 +94460,8 @@ width = 187;
 unicode = 003B;
 },
 {
-color = 1;
 glyphname = slash;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -94809,9 +94497,8 @@ width = 436;
 unicode = 002F;
 },
 {
-color = 1;
 glyphname = underscore;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -94847,10 +94534,9 @@ width = 510;
 unicode = 005F;
 },
 {
-color = 7;
 export = 0;
 glyphname = dot;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -94908,9 +94594,8 @@ width = 178;
 unicode = 002E;
 },
 {
-color = 1;
 glyphname = braceleft;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -95098,9 +94783,8 @@ width = 400;
 unicode = 007B;
 },
 {
-color = 1;
 glyphname = braceright;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -95126,9 +94810,8 @@ width = 400;
 unicode = 007D;
 },
 {
-color = 1;
 glyphname = bracketleft;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -95172,9 +94855,8 @@ width = 376;
 unicode = 005B;
 },
 {
-color = 1;
 glyphname = bracketright;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -95200,9 +94882,8 @@ width = 389;
 unicode = 005D;
 },
 {
-color = 1;
 glyphname = parenleft;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -95281,9 +94962,8 @@ width = 336;
 unicode = 0028;
 },
 {
-color = 1;
 glyphname = parenright;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -95342,9 +95022,8 @@ width = 336;
 unicode = 0029;
 },
 {
-color = 1;
 glyphname = emdash;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -95380,9 +95059,8 @@ width = 810;
 unicode = 2014;
 },
 {
-color = 1;
 glyphname = endash;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -95418,9 +95096,8 @@ width = 610;
 unicode = 2013;
 },
 {
-color = 1;
 glyphname = hyphen;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -95457,7 +95134,7 @@ unicode = 002D;
 },
 {
 glyphname = short_dash2;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -95493,9 +95170,8 @@ width = 297;
 unicode = 2010;
 },
 {
-color = 1;
 glyphname = uni00AD;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -95519,10 +95195,9 @@ width = 350;
 unicode = 00AD;
 },
 {
-color = 7;
 export = 0;
 glyphname = short_dash1;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -95558,9 +95233,8 @@ width = 297;
 unicode = 002D;
 },
 {
-color = 1;
 glyphname = guillemotleft;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -95772,9 +95446,8 @@ width = 421;
 unicode = 00AB;
 },
 {
-color = 1;
 glyphname = guillemotright;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -95800,9 +95473,8 @@ width = 421;
 unicode = 00BB;
 },
 {
-color = 1;
 glyphname = guilsinglleft;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -95899,9 +95571,8 @@ width = 241;
 unicode = 2039;
 },
 {
-color = 1;
 glyphname = guilsinglright;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -95927,9 +95598,8 @@ width = 241;
 unicode = 203A;
 },
 {
-color = 1;
 glyphname = quotedblbase;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -96043,9 +95713,8 @@ width = 336;
 unicode = 201E;
 },
 {
-color = 1;
 glyphname = quotedblleft;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -96091,9 +95760,8 @@ width = 336;
 unicode = 201C;
 },
 {
-color = 1;
 glyphname = quotedblright;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 components = (
@@ -96127,9 +95795,8 @@ width = 336;
 unicode = 201D;
 },
 {
-color = 1;
 glyphname = quoteleft;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 guideLines = (
@@ -96208,9 +95875,8 @@ width = 187;
 unicode = 2018;
 },
 {
-color = 1;
 glyphname = quoteright;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -96281,9 +95947,8 @@ width = 238;
 unicode = 2019;
 },
 {
-color = 1;
 glyphname = quotesinglbase;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:03:42 +0000";
 layers = (
 {
 background = {
@@ -96997,9 +96662,8 @@ width = 631;
 );
 },
 {
-color = 1;
 glyphname = Euro;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -97243,9 +96907,8 @@ width = 616;
 unicode = 20AC;
 },
 {
-color = 1;
 glyphname = cent;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -97393,9 +97056,8 @@ width = 467;
 unicode = 00A2;
 },
 {
-color = 1;
 glyphname = currency;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -97701,9 +97363,8 @@ width = 606;
 unicode = 00A4;
 },
 {
-color = 1;
 glyphname = dollar;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -97965,9 +97626,8 @@ width = 565;
 unicode = 0024;
 },
 {
-color = 1;
 glyphname = florin;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -98230,9 +97890,8 @@ width = 530;
 unicode = 0192;
 },
 {
-color = 1;
 glyphname = sterling;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -98529,7 +98188,7 @@ unicode = 00A3;
 },
 {
 glyphname = taRupee;
-lastChange = "2017-10-22 16:44:23 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -98711,7 +98370,7 @@ unicode = 0BF9;
 },
 {
 glyphname = uni20B9;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:05:25 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -98739,11 +98398,8 @@ nodes = (
 "339.366 243.836 OFFCURVE",
 "249.075 199 OFFCURVE",
 "160 199 CURVE",
-"187.333 147 OFFCURVE",
-"219.667 105.667 OFFCURVE",
-"257 75 CURVE SMOOTH",
-"293.667 45 OFFCURVE",
-"330 30 OFFCURVE",
+"206 112 OFFCURVE",
+"283 30 OFFCURVE",
 "366 30 CURVE SMOOTH",
 "393.583 30 OFFCURVE",
 "417.844 42.116 OFFCURVE",
@@ -98752,11 +98408,8 @@ nodes = (
 "429.199 8.554 OFFCURVE",
 "385.359 -7 OFFCURVE",
 "335 -7 CURVE SMOOTH",
-"283.667 -7 OFFCURVE",
-"234.333 12.667 OFFCURVE",
-"187 52 CURVE SMOOTH",
-"139 90.667 OFFCURVE",
-"101.333 142.667 OFFCURVE",
+"225 -7 OFFCURVE",
+"124 89 OFFCURVE",
 "74 208 CURVE",
 "74 223 LINE",
 "158.472 223 OFFCURVE",
@@ -98803,18 +98456,12 @@ nodes = (
 "456 7 OFFCURVE",
 "412 -7 OFFCURVE",
 "367 -7 CURVE SMOOTH",
-"297 -7 OFFCURVE",
-"233 11 OFFCURVE",
-"175 48 CURVE SMOOTH",
-"118 85 OFFCURVE",
-"76 134 OFFCURVE",
+"228 -7 OFFCURVE",
+"104 69 OFFCURVE",
 "50 195 CURVE",
 "50 209 LINE",
-"121 209 OFFCURVE",
-"181 218 OFFCURVE",
-"230 235 CURVE SMOOTH",
-"279 252 OFFCURVE",
-"307 275 OFFCURVE",
+"153 209 OFFCURVE",
+"298 234 OFFCURVE",
 "313 302 CURVE"
 );
 }
@@ -98825,9 +98472,8 @@ width = 651;
 unicode = 20B9;
 },
 {
-color = 1;
 glyphname = uni20BA;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -99083,9 +98729,8 @@ width = 588;
 unicode = 20BA;
 },
 {
-color = 1;
 glyphname = uni20BD;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 components = (
@@ -99213,9 +98858,8 @@ width = 585;
 unicode = 20BD;
 },
 {
-color = 1;
 glyphname = yen;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -99478,9 +99122,8 @@ width = 574;
 unicode = 00A5;
 },
 {
-color = 1;
 glyphname = bulletoperator;
-lastChange = "2017-10-22 17:21:26 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 components = (
@@ -99504,9 +99147,8 @@ width = 345;
 unicode = 2219;
 },
 {
-color = 1;
 glyphname = divisionslash;
-lastChange = "2017-10-22 17:21:26 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 components = (
@@ -99530,9 +99172,8 @@ width = 147;
 unicode = 2215;
 },
 {
-color = 1;
 glyphname = plus;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -99608,9 +99249,8 @@ width = 448;
 unicode = 002B;
 },
 {
-color = 1;
 glyphname = minus;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -99646,9 +99286,8 @@ width = 448;
 unicode = 2212;
 },
 {
-color = 1;
 glyphname = multiply;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -99724,9 +99363,8 @@ width = 404;
 unicode = 00D7;
 },
 {
-color = 1;
 glyphname = divide;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 components = (
@@ -99782,9 +99420,8 @@ width = 448;
 unicode = 00F7;
 },
 {
-color = 1;
 glyphname = equal;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -99864,9 +99501,8 @@ width = 448;
 unicode = 003D;
 },
 {
-color = 1;
 glyphname = notequal;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 components = (
@@ -99912,9 +99548,8 @@ width = 448;
 unicode = 2260;
 },
 {
-color = 1;
 glyphname = greater;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -99984,9 +99619,8 @@ width = 442;
 unicode = 003E;
 },
 {
-color = 1;
 glyphname = less;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -100030,9 +99664,8 @@ width = 442;
 unicode = 003C;
 },
 {
-color = 1;
 glyphname = greaterequal;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -100120,9 +99753,8 @@ width = 445;
 unicode = 2265;
 },
 {
-color = 1;
 glyphname = lessequal;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -100210,9 +99842,8 @@ width = 440;
 unicode = 2264;
 },
 {
-color = 1;
 glyphname = plusminus;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -100346,9 +99977,8 @@ width = 448;
 unicode = 00B1;
 },
 {
-color = 1;
 glyphname = approxequal;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -100549,9 +100179,8 @@ width = 482;
 unicode = 2248;
 },
 {
-color = 1;
 glyphname = asciitilde;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -100677,9 +100306,8 @@ width = 482;
 unicode = 007E;
 },
 {
-color = 1;
 glyphname = logicalnot;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -100755,9 +100383,8 @@ width = 480;
 unicode = 00AC;
 },
 {
-color = 1;
 glyphname = infinity;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -100968,9 +100595,8 @@ width = 664;
 unicode = 221E;
 },
 {
-color = 1;
 glyphname = integral;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -101148,9 +100774,8 @@ width = 395;
 unicode = 222B;
 },
 {
-color = 1;
 glyphname = uni2126;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -101416,9 +101041,8 @@ width = 678;
 unicode = 2126;
 },
 {
-color = 1;
 glyphname = uni2206;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -101560,9 +101184,8 @@ width = 558;
 unicode = 2206;
 },
 {
-color = 1;
 glyphname = product;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -101731,9 +101354,8 @@ width = 598;
 unicode = 220F;
 },
 {
-color = 1;
 glyphname = summation;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 guideLines = (
@@ -101926,9 +101548,8 @@ width = 484;
 unicode = 2211;
 },
 {
-color = 1;
 glyphname = radical;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -102038,9 +101659,8 @@ width = 450;
 unicode = 221A;
 },
 {
-color = 1;
 glyphname = partialdiff;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -102610,9 +102230,8 @@ width = 537;
 unicode = 2202;
 },
 {
-color = 1;
 glyphname = uni00B5;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -102830,9 +102449,8 @@ width = 562;
 unicode = 00B5;
 },
 {
-color = 1;
 glyphname = percent;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 components = (
@@ -102880,9 +102498,8 @@ width = 836;
 unicode = 0025;
 },
 {
-color = 1;
 glyphname = perthousand;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 components = (
@@ -102917,8 +102534,8 @@ leftMetricsKey = percent;
 unicode = 2030;
 },
 {
-glyphname = dottedcircle;
-lastChange = "2017-10-22 11:52:05 +0000";
+glyphname = dottedCircle;
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -102926,277 +102543,209 @@ paths = (
 {
 closed = 1;
 nodes = (
-"104 94 CURVE SMOOTH",
-"105 109 OFFCURVE",
-"111 115 OFFCURVE",
-"126 115 CURVE SMOOTH",
-"142 115 OFFCURVE",
-"148 109 OFFCURVE",
-"147 94 CURVE SMOOTH",
-"146 79 OFFCURVE",
-"141 72 OFFCURVE",
-"126 72 CURVE SMOOTH",
-"110 72 OFFCURVE",
-"103 79 OFFCURVE"
+"281 463 CURVE SMOOTH",
+"281 480 OFFCURVE",
+"292 495 OFFCURVE",
+"309 495 CURVE SMOOTH",
+"326 495 OFFCURVE",
+"338 480 OFFCURVE",
+"338 463 CURVE SMOOTH",
+"338 445 OFFCURVE",
+"326 430 OFFCURVE",
+"309 430 CURVE SMOOTH",
+"293 430 OFFCURVE",
+"281 446 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"62 160 CURVE SMOOTH",
-"63 175 OFFCURVE",
-"70 182 OFFCURVE",
-"84 182 CURVE SMOOTH",
-"99 182 OFFCURVE",
-"105 175 OFFCURVE",
-"104 160 CURVE SMOOTH",
-"103 145 OFFCURVE",
-"97 138 OFFCURVE",
-"83 138 CURVE SMOOTH",
-"68 138 OFFCURVE",
-"61 145 OFFCURVE"
+"281 41 CURVE SMOOTH",
+"281 58 OFFCURVE",
+"293 74 OFFCURVE",
+"309 74 CURVE SMOOTH",
+"326 74 OFFCURVE",
+"338 59 OFFCURVE",
+"338 41 CURVE SMOOTH",
+"338 24 OFFCURVE",
+"326 9 OFFCURVE",
+"309 9 CURVE SMOOTH",
+"292 9 OFFCURVE",
+"281 24 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"168 52 CURVE SMOOTH",
-"169 67 OFFCURVE",
-"175 73 OFFCURVE",
-"189 73 CURVE SMOOTH",
-"204 73 OFFCURVE",
-"212 67 OFFCURVE",
-"211 52 CURVE SMOOTH",
-"210 37 OFFCURVE",
-"202 30 OFFCURVE",
-"188 30 CURVE SMOOTH",
-"173 30 OFFCURVE",
-"167 37 OFFCURVE"
+"95 252 CURVE SMOOTH",
+"95 269 OFFCURVE",
+"107 284 OFFCURVE",
+"124 284 CURVE SMOOTH",
+"141 284 OFFCURVE",
+"152 269 OFFCURVE",
+"152 252 CURVE SMOOTH",
+"152 235 OFFCURVE",
+"141 220 OFFCURVE",
+"124 220 CURVE SMOOTH",
+"107 220 OFFCURVE",
+"95 235 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"242 36 CURVE SMOOTH",
-"243 51 OFFCURVE",
-"250 58 OFFCURVE",
-"264 58 CURVE SMOOTH",
-"279 58 OFFCURVE",
-"285 51 OFFCURVE",
-"284 36 CURVE SMOOTH",
-"283 21 OFFCURVE",
-"277 15 OFFCURVE",
-"263 15 CURVE SMOOTH",
-"248 15 OFFCURVE",
-"241 21 OFFCURVE"
+"466 252 CURVE SMOOTH",
+"466 269 OFFCURVE",
+"478 284 OFFCURVE",
+"495 284 CURVE SMOOTH",
+"512 284 OFFCURVE",
+"523 269 OFFCURVE",
+"523 252 CURVE SMOOTH",
+"523 235 OFFCURVE",
+"512 220 OFFCURVE",
+"495 220 CURVE SMOOTH",
+"478 220 OFFCURVE",
+"466 235 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"49 234 CURVE SMOOTH",
-"49 249 OFFCURVE",
-"55 256 OFFCURVE",
-"70 256 CURVE SMOOTH",
-"86 256 OFFCURVE",
-"93 249 OFFCURVE",
-"92 234 CURVE SMOOTH",
-"91 219 OFFCURVE",
-"84 213 OFFCURVE",
-"70 213 CURVE SMOOTH",
-"55 213 OFFCURVE",
-"49 219 OFFCURVE"
+"119 147 CURVE SMOOTH",
+"119 164 OFFCURVE",
+"132 179 OFFCURVE",
+"149 179 CURVE SMOOTH",
+"166 179 OFFCURVE",
+"177 164 OFFCURVE",
+"177 147 CURVE SMOOTH",
+"177 130 OFFCURVE",
+"165 114 OFFCURVE",
+"149 114 CURVE SMOOTH",
+"133 114 OFFCURVE",
+"119 130 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"65 309 CURVE SMOOTH",
-"66 324 OFFCURVE",
-"74 331 OFFCURVE",
-"88 331 CURVE SMOOTH",
-"103 331 OFFCURVE",
-"108 324 OFFCURVE",
-"107 309 CURVE SMOOTH",
-"106 294 OFFCURVE",
-"101 287 OFFCURVE",
-"88 287 CURVE SMOOTH",
-"72 287 OFFCURVE",
-"64 294 OFFCURVE"
+"441 357 CURVE SMOOTH",
+"441 374 OFFCURVE",
+"453 390 OFFCURVE",
+"469 390 CURVE SMOOTH",
+"486 390 OFFCURVE",
+"498 375 OFFCURVE",
+"498 357 CURVE SMOOTH",
+"498 340 OFFCURVE",
+"486 325 OFFCURVE",
+"469 325 CURVE SMOOTH",
+"452 325 OFFCURVE",
+"441 340 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"319 52 CURVE SMOOTH",
-"320 67 OFFCURVE",
-"327 73 OFFCURVE",
-"341 73 CURVE SMOOTH",
-"356 73 OFFCURVE",
-"363 67 OFFCURVE",
-"362 52 CURVE SMOOTH",
-"361 37 OFFCURVE",
-"354 30 OFFCURVE",
-"340 30 CURVE SMOOTH",
-"325 30 OFFCURVE",
-"318 37 OFFCURVE"
+"374 435 CURVE SMOOTH",
+"374 452 OFFCURVE",
+"385 467 OFFCURVE",
+"402 467 CURVE SMOOTH",
+"419 467 OFFCURVE",
+"431 452 OFFCURVE",
+"431 435 CURVE SMOOTH",
+"431 417 OFFCURVE",
+"419 402 OFFCURVE",
+"402 402 CURVE SMOOTH",
+"386 402 OFFCURVE",
+"374 418 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"109 375 CURVE SMOOTH",
-"110 389 OFFCURVE",
-"118 396 OFFCURVE",
-"132 396 CURVE SMOOTH",
-"147 396 OFFCURVE",
-"153 389 OFFCURVE",
-"152 375 CURVE SMOOTH",
-"151 361 OFFCURVE",
-"144 354 OFFCURVE",
-"130 354 CURVE SMOOTH",
-"115 354 OFFCURVE",
-"108 361 OFFCURVE"
+"189 69 CURVE SMOOTH",
+"189 86 OFFCURVE",
+"200 103 OFFCURVE",
+"216 103 CURVE SMOOTH",
+"233 103 OFFCURVE",
+"245 87 OFFCURVE",
+"245 69 CURVE SMOOTH",
+"245 52 OFFCURVE",
+"233 37 OFFCURVE",
+"216 37 CURVE SMOOTH",
+"200 37 OFFCURVE",
+"189 53 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"385 94 CURVE SMOOTH",
-"386 109 OFFCURVE",
-"392 115 OFFCURVE",
-"406 115 CURVE SMOOTH",
-"421 115 OFFCURVE",
-"428 109 OFFCURVE",
-"427 94 CURVE SMOOTH",
-"426 79 OFFCURVE",
-"419 72 OFFCURVE",
-"405 72 CURVE SMOOTH",
-"390 72 OFFCURVE",
-"384 79 OFFCURVE"
+"119 357 CURVE SMOOTH",
+"119 374 OFFCURVE",
+"133 390 OFFCURVE",
+"149 390 CURVE SMOOTH",
+"165 390 OFFCURVE",
+"177 374 OFFCURVE",
+"177 357 CURVE SMOOTH",
+"177 340 OFFCURVE",
+"166 325 OFFCURVE",
+"149 325 CURVE SMOOTH",
+"132 325 OFFCURVE",
+"119 340 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"174 418 CURVE SMOOTH",
-"175 433 OFFCURVE",
-"182 439 OFFCURVE",
-"196 439 CURVE SMOOTH",
-"211 439 OFFCURVE",
-"218 433 OFFCURVE",
-"217 418 CURVE SMOOTH",
-"216 403 OFFCURVE",
-"209 396 OFFCURVE",
-"195 396 CURVE SMOOTH",
-"180 396 OFFCURVE",
-"173 403 OFFCURVE"
+"441 147 CURVE SMOOTH",
+"441 164 OFFCURVE",
+"452 179 OFFCURVE",
+"469 179 CURVE SMOOTH",
+"486 179 OFFCURVE",
+"498 164 OFFCURVE",
+"498 147 CURVE SMOOTH",
+"498 129 OFFCURVE",
+"486 114 OFFCURVE",
+"469 114 CURVE SMOOTH",
+"453 114 OFFCURVE",
+"441 130 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"428 160 CURVE SMOOTH",
-"429 175 OFFCURVE",
-"435 182 OFFCURVE",
-"450 182 CURVE SMOOTH",
-"466 182 OFFCURVE",
-"473 175 OFFCURVE",
-"472 160 CURVE SMOOTH",
-"471 145 OFFCURVE",
-"463 138 OFFCURVE",
-"448 138 CURVE SMOOTH",
-"432 138 OFFCURVE",
-"427 145 OFFCURVE"
+"189 435 CURVE SMOOTH",
+"189 451 OFFCURVE",
+"200 467 OFFCURVE",
+"216 467 CURVE SMOOTH",
+"233 467 OFFCURVE",
+"245 452 OFFCURVE",
+"245 435 CURVE SMOOTH",
+"245 417 OFFCURVE",
+"233 402 OFFCURVE",
+"216 402 CURVE SMOOTH",
+"201 402 OFFCURVE",
+"189 418 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"250 432 CURVE SMOOTH",
-"251 447 OFFCURVE",
-"257 454 OFFCURVE",
-"271 454 CURVE SMOOTH",
-"286 454 OFFCURVE",
-"293 447 OFFCURVE",
-"292 432 CURVE SMOOTH",
-"291 417 OFFCURVE",
-"285 410 OFFCURVE",
-"271 410 CURVE SMOOTH",
-"256 410 OFFCURVE",
-"249 417 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"443 234 CURVE SMOOTH",
-"443 249 OFFCURVE",
-"451 256 OFFCURVE",
-"466 256 CURVE SMOOTH",
-"482 256 OFFCURVE",
-"488 249 OFFCURVE",
-"487 234 CURVE SMOOTH",
-"486 219 OFFCURVE",
-"480 213 OFFCURVE",
-"466 213 CURVE SMOOTH",
-"451 213 OFFCURVE",
-"443 219 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"325 418 CURVE SMOOTH",
-"326 433 OFFCURVE",
-"334 439 OFFCURVE",
-"348 439 CURVE SMOOTH",
-"363 439 OFFCURVE",
-"369 433 OFFCURVE",
-"368 418 CURVE SMOOTH",
-"367 403 OFFCURVE",
-"361 396 OFFCURVE",
-"347 396 CURVE SMOOTH",
-"332 396 OFFCURVE",
-"324 403 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"431 309 CURVE SMOOTH",
-"432 324 OFFCURVE",
-"439 331 OFFCURVE",
-"453 331 CURVE SMOOTH",
-"469 331 OFFCURVE",
-"476 324 OFFCURVE",
-"475 309 CURVE SMOOTH",
-"474 294 OFFCURVE",
-"466 287 OFFCURVE",
-"452 287 CURVE SMOOTH",
-"436 287 OFFCURVE",
-"430 294 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"389 375 CURVE SMOOTH",
-"390 389 OFFCURVE",
-"396 396 OFFCURVE",
-"411 396 CURVE SMOOTH",
-"427 396 OFFCURVE",
-"434 389 OFFCURVE",
-"433 375 CURVE SMOOTH",
-"432 361 OFFCURVE",
-"425 354 OFFCURVE",
-"410 354 CURVE SMOOTH",
-"394 354 OFFCURVE",
-"388 361 OFFCURVE"
+"374 69 CURVE SMOOTH",
+"374 86 OFFCURVE",
+"385 103 OFFCURVE",
+"402 103 CURVE SMOOTH",
+"419 103 OFFCURVE",
+"431 87 OFFCURVE",
+"431 69 CURVE SMOOTH",
+"431 52 OFFCURVE",
+"419 37 OFFCURVE",
+"402 37 CURVE SMOOTH",
+"385 37 OFFCURVE",
+"374 52 OFFCURVE"
 );
 }
 );
-width = 544;
+width = 600;
 },
 {
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
@@ -103204,285 +102753,216 @@ paths = (
 {
 closed = 1;
 nodes = (
-"94 94 CURVE",
-"95 113 OFFCURVE",
-"107 125 OFFCURVE",
-"126 125 CURVE SMOOTH",
-"145 125 OFFCURVE",
-"159 113 OFFCURVE",
-"158 93 CURVE SMOOTH",
-"157 74 OFFCURVE",
-"145 62 OFFCURVE",
-"126 62 CURVE SMOOTH",
-"107 62 OFFCURVE",
-"93 75 OFFCURVE"
+"271 414 CURVE SMOOTH",
+"271 431 OFFCURVE",
+"282 446 OFFCURVE",
+"299 446 CURVE SMOOTH",
+"316 446 OFFCURVE",
+"328 431 OFFCURVE",
+"328 414 CURVE SMOOTH",
+"328 396 OFFCURVE",
+"316 381 OFFCURVE",
+"299 381 CURVE SMOOTH",
+"283 381 OFFCURVE",
+"271 397 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"53 160 CURVE",
-"54 179 OFFCURVE",
-"65 191 OFFCURVE",
-"84 191 CURVE SMOOTH",
-"103 191 OFFCURVE",
-"115 178 OFFCURVE",
-"114 159 CURVE SMOOTH",
-"113 140 OFFCURVE",
-"102 128 OFFCURVE",
-"83 128 CURVE SMOOTH",
-"64 128 OFFCURVE",
-"52 141 OFFCURVE"
+"271 -8 CURVE SMOOTH",
+"271 9 OFFCURVE",
+"283 25 OFFCURVE",
+"299 25 CURVE SMOOTH",
+"316 25 OFFCURVE",
+"328 10 OFFCURVE",
+"328 -8 CURVE SMOOTH",
+"328 -25 OFFCURVE",
+"316 -40 OFFCURVE",
+"299 -40 CURVE SMOOTH",
+"282 -40 OFFCURVE",
+"271 -25 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"158 52 CURVE",
-"159 71 OFFCURVE",
-"170 83 OFFCURVE",
-"189 83 CURVE SMOOTH",
-"208 83 OFFCURVE",
-"221 70 OFFCURVE",
-"220 51 CURVE SMOOTH",
-"219 32 OFFCURVE",
-"208 21 OFFCURVE",
-"189 21 CURVE SMOOTH",
-"170 21 OFFCURVE",
-"157 33 OFFCURVE"
+"85 203 CURVE SMOOTH",
+"85 220 OFFCURVE",
+"97 235 OFFCURVE",
+"114 235 CURVE SMOOTH",
+"131 235 OFFCURVE",
+"142 220 OFFCURVE",
+"142 203 CURVE SMOOTH",
+"142 186 OFFCURVE",
+"131 171 OFFCURVE",
+"114 171 CURVE SMOOTH",
+"97 171 OFFCURVE",
+"85 186 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"232 37 CURVE",
-"233 55 OFFCURVE",
-"245 67 OFFCURVE",
-"263 67 CURVE SMOOTH",
-"282 67 OFFCURVE",
-"295 55 OFFCURVE",
-"294 36 CURVE",
-"293 18 OFFCURVE",
-"281 5 OFFCURVE",
-"263 5 CURVE SMOOTH",
-"244 5 OFFCURVE",
-"231 18 OFFCURVE"
+"456 203 CURVE SMOOTH",
+"456 220 OFFCURVE",
+"468 235 OFFCURVE",
+"485 235 CURVE SMOOTH",
+"502 235 OFFCURVE",
+"513 220 OFFCURVE",
+"513 203 CURVE SMOOTH",
+"513 186 OFFCURVE",
+"502 171 OFFCURVE",
+"485 171 CURVE SMOOTH",
+"468 171 OFFCURVE",
+"456 186 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"39 235 CURVE SMOOTH",
-"40 254 OFFCURVE",
-"51 266 OFFCURVE",
-"70 266 CURVE SMOOTH",
-"89 266 OFFCURVE",
-"103 254 OFFCURVE",
-"102 234 CURVE SMOOTH",
-"101 215 OFFCURVE",
-"89 203 OFFCURVE",
-"70 203 CURVE SMOOTH",
-"51 203 OFFCURVE",
-"38 216 OFFCURVE"
+"109 98 CURVE SMOOTH",
+"109 115 OFFCURVE",
+"122 130 OFFCURVE",
+"139 130 CURVE SMOOTH",
+"156 130 OFFCURVE",
+"167 115 OFFCURVE",
+"167 98 CURVE SMOOTH",
+"167 81 OFFCURVE",
+"155 65 OFFCURVE",
+"139 65 CURVE SMOOTH",
+"123 65 OFFCURVE",
+"109 81 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"56 310 CURVE",
-"57 328 OFFCURVE",
-"68 341 OFFCURVE",
-"87 341 CURVE SMOOTH",
-"106 341 OFFCURVE",
-"118 327 OFFCURVE",
-"117 308 CURVE",
-"116 290 OFFCURVE",
-"105 277 OFFCURVE",
-"87 277 CURVE SMOOTH",
-"67 277 OFFCURVE",
-"55 290 OFFCURVE"
+"431 308 CURVE SMOOTH",
+"431 325 OFFCURVE",
+"443 341 OFFCURVE",
+"459 341 CURVE SMOOTH",
+"476 341 OFFCURVE",
+"488 326 OFFCURVE",
+"488 308 CURVE SMOOTH",
+"488 291 OFFCURVE",
+"476 276 OFFCURVE",
+"459 276 CURVE SMOOTH",
+"442 276 OFFCURVE",
+"431 291 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"309 52 CURVE",
-"310 71 OFFCURVE",
-"322 83 OFFCURVE",
-"341 83 CURVE SMOOTH",
-"360 83 OFFCURVE",
-"373 70 OFFCURVE",
-"372 51 CURVE SMOOTH",
-"371 32 OFFCURVE",
-"359 21 OFFCURVE",
-"340 21 CURVE SMOOTH",
-"321 21 OFFCURVE",
-"308 33 OFFCURVE"
+"364 386 CURVE SMOOTH",
+"364 403 OFFCURVE",
+"375 418 OFFCURVE",
+"392 418 CURVE SMOOTH",
+"409 418 OFFCURVE",
+"421 403 OFFCURVE",
+"421 386 CURVE SMOOTH",
+"421 368 OFFCURVE",
+"409 353 OFFCURVE",
+"392 353 CURVE SMOOTH",
+"376 353 OFFCURVE",
+"364 369 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"100 375 CURVE",
-"101 393 OFFCURVE",
-"114 405 OFFCURVE",
-"132 405 CURVE SMOOTH",
-"151 405 OFFCURVE",
-"164 393 OFFCURVE",
-"162 374 CURVE SMOOTH",
-"161 356 OFFCURVE",
-"148 344 OFFCURVE",
-"130 344 CURVE SMOOTH",
-"111 344 OFFCURVE",
-"98 356 OFFCURVE"
+"179 20 CURVE SMOOTH",
+"179 37 OFFCURVE",
+"190 54 OFFCURVE",
+"206 54 CURVE SMOOTH",
+"223 54 OFFCURVE",
+"235 38 OFFCURVE",
+"235 20 CURVE SMOOTH",
+"235 3 OFFCURVE",
+"223 -12 OFFCURVE",
+"206 -12 CURVE SMOOTH",
+"190 -12 OFFCURVE",
+"179 4 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"375 94 CURVE",
-"376 112 OFFCURVE",
-"389 125 OFFCURVE",
-"407 125 CURVE SMOOTH",
-"426 125 OFFCURVE",
-"437 112 OFFCURVE",
-"436 93 CURVE SMOOTH",
-"435 75 OFFCURVE",
-"423 62 OFFCURVE",
-"405 62 CURVE SMOOTH",
-"386 62 OFFCURVE",
-"374 75 OFFCURVE"
+"109 308 CURVE SMOOTH",
+"109 325 OFFCURVE",
+"123 341 OFFCURVE",
+"139 341 CURVE SMOOTH",
+"155 341 OFFCURVE",
+"167 325 OFFCURVE",
+"167 308 CURVE SMOOTH",
+"167 291 OFFCURVE",
+"156 276 OFFCURVE",
+"139 276 CURVE SMOOTH",
+"122 276 OFFCURVE",
+"109 291 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"164 418 CURVE",
-"165 437 OFFCURVE",
-"177 449 OFFCURVE",
-"196 449 CURVE SMOOTH",
-"215 449 OFFCURVE",
-"228 436 OFFCURVE",
-"227 417 CURVE SMOOTH",
-"226 398 OFFCURVE",
-"214 386 OFFCURVE",
-"195 386 CURVE SMOOTH",
-"176 386 OFFCURVE",
-"163 399 OFFCURVE"
+"431 98 CURVE SMOOTH",
+"431 115 OFFCURVE",
+"442 130 OFFCURVE",
+"459 130 CURVE SMOOTH",
+"476 130 OFFCURVE",
+"488 115 OFFCURVE",
+"488 98 CURVE SMOOTH",
+"488 80 OFFCURVE",
+"476 65 OFFCURVE",
+"459 65 CURVE SMOOTH",
+"443 65 OFFCURVE",
+"431 81 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"418 160 CURVE",
-"419 179 OFFCURVE",
-"431 191 OFFCURVE",
-"450 191 CURVE SMOOTH",
-"470 191 OFFCURVE",
-"482 179 OFFCURVE",
-"481 159 CURVE SMOOTH",
-"480 140 OFFCURVE",
-"468 128 OFFCURVE",
-"449 128 CURVE SMOOTH",
-"429 128 OFFCURVE",
-"417 140 OFFCURVE"
+"179 386 CURVE SMOOTH",
+"179 402 OFFCURVE",
+"190 418 OFFCURVE",
+"206 418 CURVE SMOOTH",
+"223 418 OFFCURVE",
+"235 403 OFFCURVE",
+"235 386 CURVE SMOOTH",
+"235 368 OFFCURVE",
+"223 353 OFFCURVE",
+"206 353 CURVE SMOOTH",
+"191 353 OFFCURVE",
+"179 369 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"240 433 CURVE",
-"241 452 OFFCURVE",
-"253 464 OFFCURVE",
-"272 464 CURVE SMOOTH",
-"291 464 OFFCURVE",
-"303 451 OFFCURVE",
-"302 432 CURVE",
-"301 413 OFFCURVE",
-"290 400 OFFCURVE",
-"271 400 CURVE SMOOTH",
-"252 400 OFFCURVE",
-"239 414 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"434 235 CURVE SMOOTH",
-"435 254 OFFCURVE",
-"447 266 OFFCURVE",
-"466 266 CURVE SMOOTH",
-"485 266 OFFCURVE",
-"498 254 OFFCURVE",
-"497 234 CURVE SMOOTH",
-"496 215 OFFCURVE",
-"484 203 OFFCURVE",
-"465 203 CURVE SMOOTH",
-"446 203 OFFCURVE",
-"433 216 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"316 418 CURVE",
-"317 437 OFFCURVE",
-"328 449 OFFCURVE",
-"347 449 CURVE SMOOTH",
-"366 449 OFFCURVE",
-"379 436 OFFCURVE",
-"378 417 CURVE SMOOTH",
-"377 398 OFFCURVE",
-"366 386 OFFCURVE",
-"347 386 CURVE SMOOTH",
-"328 386 OFFCURVE",
-"315 399 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"421 310 CURVE SMOOTH",
-"422 329 OFFCURVE",
-"434 341 OFFCURVE",
-"453 341 CURVE SMOOTH",
-"473 341 OFFCURVE",
-"485 329 OFFCURVE",
-"484 309 CURVE SMOOTH",
-"483 290 OFFCURVE",
-"471 277 OFFCURVE",
-"452 277 CURVE SMOOTH",
-"432 277 OFFCURVE",
-"420 290 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"379 375 CURVE",
-"380 393 OFFCURVE",
-"392 405 OFFCURVE",
-"411 405 CURVE SMOOTH",
-"430 405 OFFCURVE",
-"443 393 OFFCURVE",
-"442 374 CURVE SMOOTH",
-"441 356 OFFCURVE",
-"429 344 OFFCURVE",
-"410 344 CURVE SMOOTH",
-"391 344 OFFCURVE",
-"378 356 OFFCURVE"
+"364 20 CURVE SMOOTH",
+"364 37 OFFCURVE",
+"375 54 OFFCURVE",
+"392 54 CURVE SMOOTH",
+"409 54 OFFCURVE",
+"421 38 OFFCURVE",
+"421 20 CURVE SMOOTH",
+"421 3 OFFCURVE",
+"409 -12 OFFCURVE",
+"392 -12 CURVE SMOOTH",
+"375 -12 OFFCURVE",
+"364 3 OFFCURVE"
 );
 }
 );
-width = 544;
+width = 600;
 }
 );
 unicode = 25CC;
 },
 {
-color = 1;
 glyphname = lozenge;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -103605,9 +103085,8 @@ width = 536;
 unicode = 25CA;
 },
 {
-color = 9;
 glyphname = at;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -104289,9 +103768,8 @@ width = 898;
 unicode = 0040;
 },
 {
-color = 1;
 glyphname = ampersand;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -104672,9 +104150,8 @@ width = 589;
 unicode = 0026;
 },
 {
-color = 1;
 glyphname = paragraph;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -105053,9 +104530,8 @@ width = 554;
 unicode = 00B6;
 },
 {
-color = 1;
 glyphname = section;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -105411,9 +104887,8 @@ width = 473;
 unicode = 00A7;
 },
 {
-color = 1;
 glyphname = copyright;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -105740,9 +105215,8 @@ width = 631;
 unicode = 00A9;
 },
 {
-color = 1;
 glyphname = registered;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -106076,9 +105550,8 @@ width = 395;
 unicode = 00AE;
 },
 {
-color = 1;
 glyphname = trademark;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 guideLines = (
@@ -106462,9 +105935,8 @@ width = 583;
 unicode = 2122;
 },
 {
-color = 1;
 glyphname = degree;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -106550,9 +106022,8 @@ width = 278;
 unicode = 00B0;
 },
 {
-color = 1;
 glyphname = bar;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 guideLines = (
@@ -106593,9 +106064,8 @@ width = 260;
 unicode = 007C;
 },
 {
-color = 1;
 glyphname = brokenbar;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -106693,9 +106163,8 @@ width = 260;
 unicode = 00A6;
 },
 {
-color = 1;
 glyphname = dagger;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -107009,9 +106478,8 @@ width = 465;
 unicode = 2020;
 },
 {
-color = 1;
 glyphname = uni2113;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -107193,9 +106661,8 @@ width = 388;
 unicode = 2113;
 },
 {
-color = 1;
 glyphname = daggerdbl;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -107629,9 +107096,8 @@ width = 455;
 unicode = 2021;
 },
 {
-color = 1;
 glyphname = estimated;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -107787,9 +107253,8 @@ width = 735;
 unicode = 212E;
 },
 {
-color = 1;
 glyphname = asciicircum;
-lastChange = "2017-10-22 11:52:05 +0000";
+lastChange = "2017-10-22 19:04:53 +0000";
 layers = (
 {
 background = {
@@ -111758,7 +111223,7 @@ width = 1;
 },
 {
 glyphname = sinReph;
-lastChange = "2017-10-22 12:17:34 +0000";
+lastChange = "2017-10-22 19:02:19 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -111788,16 +111253,16 @@ nodes = (
 "-81 621 OFFCURVE",
 "-1 621 CURVE SMOOTH",
 "74 621 OFFCURVE",
-"137 579 OFFCURVE",
-"137 510 CURVE SMOOTH",
-"137 487 OFFCURVE",
-"129 465 OFFCURVE",
-"112 446 CURVE",
+"136 580 OFFCURVE",
+"136 511 CURVE SMOOTH",
+"136 482 OFFCURVE",
+"122 450 OFFCURVE",
+"101 429 CURVE",
 "79 446 LINE",
 "92 458 OFFCURVE",
-"107 483 OFFCURVE",
-"107 509 CURVE SMOOTH",
-"107 565 OFFCURVE",
+"108 482 OFFCURVE",
+"108 511 CURVE SMOOTH",
+"108 561 OFFCURVE",
 "58 595 OFFCURVE",
 "-2 595 CURVE SMOOTH",
 "-54 595 OFFCURVE",
@@ -114403,46 +113868,6 @@ nodes = (
 width = 0;
 },
 {
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-250 609 OFFCURVE",
-"-194 553 OFFCURVE",
-"-127 553 CURVE SMOOTH",
-"-59 553 OFFCURVE",
-"-4 609 OFFCURVE",
-"-4 676 CURVE SMOOTH",
-"-4 744 OFFCURVE",
-"-60 799 OFFCURVE",
-"-127 799 CURVE SMOOTH",
-"-194 799 OFFCURVE",
-"-250 743 OFFCURVE",
-"-250 676 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"-200 717 OFFCURVE",
-"-168 750 OFFCURVE",
-"-127 750 CURVE SMOOTH",
-"-86 750 OFFCURVE",
-"-53 717 OFFCURVE",
-"-53 676 CURVE SMOOTH",
-"-53 635 OFFCURVE",
-"-86 602 OFFCURVE",
-"-127 602 CURVE SMOOTH",
-"-167 602 OFFCURVE",
-"-200 635 OFFCURVE",
-"-200 676 CURVE SMOOTH"
-);
-}
-);
-width = 0;
-},
-{
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 width = 600;
 }
@@ -114511,62 +113936,6 @@ nodes = (
 width = 0;
 },
 {
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-138 467 OFFCURVE",
-"-147 495 OFFCURVE",
-"-194 522 CURVE SMOOTH",
-"-243 550 OFFCURVE",
-"-274 609 OFFCURVE",
-"-274 676 CURVE SMOOTH",
-"-274 737 OFFCURVE",
-"-233 790 OFFCURVE",
-"-176 799 CURVE",
-"-199 786 OFFCURVE",
-"-212 753 OFFCURVE",
-"-212 713 CURVE SMOOTH",
-"-212 646 OFFCURVE",
-"-157 590 OFFCURVE",
-"-90 590 CURVE SMOOTH",
-"-22 590 OFFCURVE",
-"33 646 OFFCURVE",
-"33 713 CURVE SMOOTH",
-"33 789 OFFCURVE",
-"-50 848 OFFCURVE",
-"-151 848 CURVE SMOOTH",
-"-252 848 OFFCURVE",
-"-335 771 OFFCURVE",
-"-335 676 CURVE SMOOTH",
-"-335 591 OFFCURVE",
-"-294 513 OFFCURVE",
-"-225 473 CURVE SMOOTH",
-"-168 440 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"-151 754 OFFCURVE",
-"-125 787 OFFCURVE",
-"-90 787 CURVE SMOOTH",
-"-55 787 OFFCURVE",
-"-28 754 OFFCURVE",
-"-28 713 CURVE SMOOTH",
-"-28 672 OFFCURVE",
-"-55 639 OFFCURVE",
-"-90 639 CURVE SMOOTH",
-"-123 639 OFFCURVE",
-"-151 672 OFFCURVE",
-"-151 713 CURVE SMOOTH"
-);
-}
-);
-width = 0;
-},
-{
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 width = 600;
 }
@@ -114577,115 +113946,6 @@ note = tml_MatraIi.alt1;
 glyphname = taMatraIi.stylalt1;
 lastChange = "2017-10-22 16:39:32 +0000";
 layers = (
-{
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"406 578 OFFCURVE",
-"376 606 OFFCURVE",
-"376 649 CURVE SMOOTH",
-"376 696 OFFCURVE",
-"405 729 OFFCURVE",
-"452 729 CURVE SMOOTH",
-"480 729 OFFCURVE",
-"510 714 OFFCURVE",
-"534 691 CURVE",
-"535 686 OFFCURVE",
-"535 683 OFFCURVE",
-"535 680 CURVE SMOOTH",
-"535 677 OFFCURVE",
-"535 675 OFFCURVE",
-"535 673 CURVE SMOOTH",
-"535 649 OFFCURVE",
-"528 626 OFFCURVE",
-"514 608 CURVE SMOOTH",
-"500 590 OFFCURVE",
-"478 578 OFFCURVE",
-"451 578 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"243 869 OFFCURVE",
-"169 834 OFFCURVE",
-"117 767 CURVE SMOOTH",
-"64 700 OFFCURVE",
-"30 603 OFFCURVE",
-"30 479 CURVE SMOOTH",
-"30 434 OFFCURVE",
-"35 396 OFFCURVE",
-"45 364 CURVE SMOOTH",
-"65 300 OFFCURVE",
-"91 257 OFFCURVE",
-"128 225 CURVE",
-"129 225 OFFCURVE",
-"133 226 OFFCURVE",
-"139 228 CURVE SMOOTH",
-"145 230 OFFCURVE",
-"152 232 OFFCURVE",
-"159 235 CURVE",
-"166 237 OFFCURVE",
-"173 239 OFFCURVE",
-"180 242 CURVE",
-"187 244 OFFCURVE",
-"192 245 OFFCURVE",
-"195 245 CURVE",
-"191 246 OFFCURVE",
-"183 252 OFFCURVE",
-"172 262 CURVE",
-"161 271 OFFCURVE",
-"149 286 OFFCURVE",
-"136 305 CURVE SMOOTH",
-"111 343 OFFCURVE",
-"88 399 OFFCURVE",
-"88 479 CURVE SMOOTH",
-"88 576 OFFCURVE",
-"113 662 OFFCURVE",
-"156 723 CURVE SMOOTH",
-"199 784 OFFCURVE",
-"256 822 OFFCURVE",
-"323 822 CURVE SMOOTH",
-"356 822 OFFCURVE",
-"397 815 OFFCURVE",
-"433 802 CURVE SMOOTH",
-"469 789 OFFCURVE",
-"501 770 OFFCURVE",
-"516 746 CURVE",
-"493 759 OFFCURVE",
-"471 766 OFFCURVE",
-"449 766 CURVE SMOOTH",
-"417 766 OFFCURVE",
-"385 754 OFFCURVE",
-"362 734 CURVE SMOOTH",
-"338 714 OFFCURVE",
-"322 684 OFFCURVE",
-"322 648 CURVE SMOOTH",
-"322 615 OFFCURVE",
-"337 586 OFFCURVE",
-"361 566 CURVE",
-"384 545 OFFCURVE",
-"415 533 OFFCURVE",
-"450 533 CURVE SMOOTH",
-"489 533 OFFCURVE",
-"523 549 OFFCURVE",
-"547 574 CURVE SMOOTH",
-"571 599 OFFCURVE",
-"586 635 OFFCURVE",
-"586 676 CURVE SMOOTH",
-"586 732 OFFCURVE",
-"549 781 OFFCURVE",
-"497 815 CURVE SMOOTH",
-"445 849 OFFCURVE",
-"379 869 OFFCURVE",
-"323 869 CURVE SMOOTH"
-);
-}
-);
-width = 0;
-},
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
 paths = (
@@ -115002,47 +114262,6 @@ width = 356;
 }
 );
 unicode = 0BC1;
-},
-{
-glyphname = tml_MatraU.alt1;
-lastChange = "2017-10-22 16:50:20 +0000";
-layers = (
-{
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-123 -246 LINE",
-"-61 -246 LINE",
-"-61 0 LINE",
-"-123 0 LINE"
-);
-}
-);
-width = 0;
-},
-{
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-123 -246 LINE",
-"-61 -246 LINE",
-"-61 0 LINE",
-"-123 0 LINE"
-);
-}
-);
-width = 0;
-},
-{
-layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
-width = 600;
-}
-);
-note = "\012    tml_MatraU.alt1\012  ";
 },
 {
 glyphname = taMatraUu;
@@ -116026,103 +115245,6 @@ nodes = (
 width = 375;
 },
 {
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"442 211 OFFCURVE",
-"408 155 OFFCURVE",
-"368 116 CURVE SMOOTH",
-"327 76 OFFCURVE",
-"280 54 OFFCURVE",
-"229 54 CURVE SMOOTH",
-"168 54 OFFCURVE",
-"127 94 OFFCURVE",
-"127 150 CURVE SMOOTH",
-"127 189 OFFCURVE",
-"147 217 OFFCURVE",
-"187 249 CURVE SMOOTH",
-"378 397 LINE SMOOTH",
-"449 450 OFFCURVE",
-"495 513 OFFCURVE",
-"495 606 CURVE SMOOTH",
-"495 658 OFFCURVE",
-"473 707 OFFCURVE",
-"435 743 CURVE SMOOTH",
-"397 779 OFFCURVE",
-"342 802 OFFCURVE",
-"281 802 CURVE SMOOTH",
-"221 802 OFFCURVE",
-"165 785 OFFCURVE",
-"125 756 CURVE SMOOTH",
-"85 727 OFFCURVE",
-"59 685 OFFCURVE",
-"59 636 CURVE SMOOTH",
-"59 597 OFFCURVE",
-"75 564 OFFCURVE",
-"101 541 CURVE SMOOTH",
-"127 517 OFFCURVE",
-"161 503 OFFCURVE",
-"201 503 CURVE SMOOTH",
-"244 503 OFFCURVE",
-"276 519 OFFCURVE",
-"299 544 CURVE SMOOTH",
-"322 569 OFFCURVE",
-"334 603 OFFCURVE",
-"334 642 CURVE SMOOTH",
-"334 679 OFFCURVE",
-"320 717 OFFCURVE",
-"297 745 CURVE",
-"333 741 OFFCURVE",
-"366 726 OFFCURVE",
-"388 702 CURVE SMOOTH",
-"410 678 OFFCURVE",
-"423 645 OFFCURVE",
-"423 608 CURVE SMOOTH",
-"423 540 OFFCURVE",
-"388 494 OFFCURVE",
-"325 447 CURVE SMOOTH",
-"152 311 LINE SMOOTH",
-"89 263 OFFCURVE",
-"53 219 OFFCURVE",
-"53 152 CURVE SMOOTH",
-"53 108 OFFCURVE",
-"71 67 OFFCURVE",
-"102 38 CURVE SMOOTH",
-"133 9 OFFCURVE",
-"177 -9 OFFCURVE",
-"229 -9 CURVE SMOOTH",
-"337 -9 OFFCURVE",
-"416 55 OFFCURVE",
-"465 163 CURVE",
-"466 278 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"277 717 OFFCURVE",
-"285 685 OFFCURVE",
-"285 653 CURVE SMOOTH",
-"285 600 OFFCURVE",
-"252 558 OFFCURVE",
-"203 558 CURVE SMOOTH",
-"155 558 OFFCURVE",
-"129 590 OFFCURVE",
-"129 637 CURVE SMOOTH",
-"129 668 OFFCURVE",
-"146 694 OFFCURVE",
-"171 714 CURVE SMOOTH",
-"195 733 OFFCURVE",
-"228 745 OFFCURVE",
-"261 748 CURVE"
-);
-}
-);
-width = 375;
-},
-{
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 width = 600;
 }
@@ -116179,21 +115301,6 @@ note = tml_MatraI.alt1;
 glyphname = taMatraU.alt1;
 lastChange = "2017-10-22 16:43:28 +0000";
 layers = (
-{
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"-123 -246 LINE",
-"-61 -246 LINE",
-"-61 0 LINE",
-"-123 0 LINE"
-);
-}
-);
-width = 0;
-},
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
 paths = (
@@ -116583,6 +115690,32 @@ width = 600;
 }
 );
 note = tml_MatraI.stylalt1;
+},
+{
+glyphname = tml_MatraU.alt1;
+lastChange = "2017-10-22 16:50:20 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-123 -246 LINE",
+"-61 -246 LINE",
+"-61 0 LINE",
+"-123 0 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+note = "\012    tml_MatraU.alt1\012  ";
 },
 {
 color = 0;
@@ -175864,7 +174997,7 @@ i = -20;
 };
 };
 };
-manufacturer = "mooniak PLC.";
+manufacturer = "mooniak PLC";
 manufacturerURL = "https://github.com/mooniak/abhaya-libre-font";
 unitsPerEm = 1000;
 userData = {
