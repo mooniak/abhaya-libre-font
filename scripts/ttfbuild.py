@@ -9,7 +9,7 @@ full_font_name=sys.argv[3]
 font_name=sys.argv[4]
 FEATURES = '''\
 table head {
-  FontRevision 1.040;
+  FontRevision 1.060;
 } head;
 include (features-'''+lang+'''.fea)\n'''
 INFO='''<?xml version="1.0" encoding="UTF-8"?>
@@ -52,7 +52,7 @@ for file in file_list:
     font.familyname=family_name
     font.fontname=font_name+"-"+file
     font.fullname=full_font_name+" "+file
-    font.version="1.040"
+    font.version="1.060"
     if not os.path.exists("ttf-build"):
         os.mkdir("ttf-build")
     if lang=="s" and not os.path.exists("ttf-build/Sinhala"):

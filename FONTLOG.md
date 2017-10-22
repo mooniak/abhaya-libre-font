@@ -13,6 +13,9 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+12 February 2017 (mooniak) Abhaya Libre v1.060 - Bugfix
+- Fixing interpolation error bug (#46)
+
 19 July 2016 (mooniak) Abhaya Libre v1.050
 - Minor design fixes
 - Ya post forms fixes

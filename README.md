@@ -59,6 +59,11 @@ $vagrant ssh
 $cd /vagrant/scripts && sh builder.sh
 ```
 
+- Run below command to build according to the Google fonts spec.
+```shell
+$cd /vagrant/scripts && sh gfbuilder.sh
+```
+
 
 ## Credits
 
