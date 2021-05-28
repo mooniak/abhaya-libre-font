@@ -7,9 +7,10 @@ DisplayStrings = (
 "/sinYansaya_Reph_MatraU",
 "/sinYansa_MatraU/sinYansa_MatraUu/sinYansaya_Reph_MatraU/sinYansaya_Reph_MatraUu",
 "/sinYansaya.MatraI/sinYansaya.MatraIi/sinYansaya.reph/sinYansaya.virama/sinYansaya_Reph_MatraAa/sinYansa_MatraUu/sinYansa_MatraU/sinYansaya_Reph_MatraU/sinYansaya_Reph_MatraUu",
-"/sinBRa/sinMatraRUu/sinNyAee.ss01",
+"/sinMatraAe/sinAe/sinBRa/sinMatraRU/sinMatraRUu/sinNyAee.ss01",
 "/sinMatraU",
-"/sinMatraUu"
+"/sinMatraUu",
+"/sinMatraRU/sinMatraRUu"
 );
 classes = (
 {
@@ -16859,7 +16860,7 @@ unicode = 0DD1;
 },
 {
 glyphname = sinMatraAe;
-lastChange = "2020-11-25 08:06:16 +0000";
+lastChange = "2021-05-28 03:41:58 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -16870,9 +16871,7 @@ nodes = (
 "3 306 LINE",
 "3 331 LINE",
 "243 331 LINE",
-"242 329 OFFCURVE",
-"241 324 OFFCURVE",
-"240 315 CURVE",
+"240 315 LINE",
 "174 217 OFFCURVE",
 "149 126 OFFCURVE",
 "149 49 CURVE SMOOTH",
@@ -16906,9 +16905,7 @@ nodes = (
 "3 304 LINE",
 "3 331 LINE",
 "243 331 LINE",
-"242 329 OFFCURVE",
-"241 321 OFFCURVE",
-"240 313 CURVE",
+"240 313 LINE",
 "188 233 OFFCURVE",
 "174 165 OFFCURVE",
 "174 88 CURVE SMOOTH",
@@ -153111,7 +153108,7 @@ unicode = 0000;
 },
 {
 glyphname = sinMatraRU;
-lastChange = "2021-05-28 03:11:17 +0000";
+lastChange = "2021-05-28 03:44:47 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -153119,35 +153116,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"3 306 LINE",
-"3 331 LINE",
-"243 331 LINE",
-"242 329 OFFCURVE",
-"241 324 OFFCURVE",
-"240 315 CURVE",
-"174 217 OFFCURVE",
-"149 126 OFFCURVE",
-"149 49 CURVE SMOOTH",
-"149 -53 OFFCURVE",
-"201 -91 OFFCURVE",
-"258 -91 CURVE SMOOTH",
-"271 -91 OFFCURVE",
-"282 -89 OFFCURVE",
-"295 -86 CURVE",
-"299 -104 LINE",
-"273 -134 OFFCURVE",
-"242 -144 OFFCURVE",
-"202 -144 CURVE SMOOTH",
-"119 -144 OFFCURVE",
-"82 -71 OFFCURVE",
-"82 14 CURVE SMOOTH",
-"82 130 OFFCURVE",
-"154 248 OFFCURVE",
-"206 306 CURVE"
+"-5 112 LINE",
+"-5 139 LINE",
+"158 139 LINE",
+"156 128 LINE",
+"114 64 OFFCURVE",
+"93 -9 OFFCURVE",
+"93 -66 CURVE SMOOTH",
+"93 -125 OFFCURVE",
+"129 -157 OFFCURVE",
+"166 -162 CURVE SMOOTH",
+"174 -163 OFFCURVE",
+"181 -163 OFFCURVE",
+"193 -161 CURVE",
+"196 -174 LINE",
+"178 -194 OFFCURVE",
+"156 -201 OFFCURVE",
+"129 -201 CURVE SMOOTH",
+"72 -201 OFFCURVE",
+"32 -163 OFFCURVE",
+"32 -96 CURVE SMOOTH",
+"32 -12 OFFCURVE",
+"90 72 OFFCURVE",
+"118 112 CURVE"
 );
 }
 );
-width = 326;
+width = 219;
 },
 {
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
@@ -153155,41 +153150,39 @@ paths = (
 {
 closed = 1;
 nodes = (
-"3 304 LINE",
-"3 331 LINE",
-"243 331 LINE",
-"242 329 OFFCURVE",
-"241 321 OFFCURVE",
-"240 313 CURVE",
-"188 233 OFFCURVE",
-"174 165 OFFCURVE",
-"174 88 CURVE SMOOTH",
-"174 26 OFFCURVE",
-"196 -48 OFFCURVE",
-"252 -74 CURVE SMOOTH",
-"264 -80 OFFCURVE",
-"279 -83 OFFCURVE",
-"295 -84 CURVE",
-"299 -104 LINE",
-"272 -134 OFFCURVE",
-"233 -144 OFFCURVE",
-"193 -144 CURVE SMOOTH",
-"110 -144 OFFCURVE",
-"49 -81 OFFCURVE",
-"49 18 CURVE SMOOTH",
-"49 151 OFFCURVE",
-"145 242 OFFCURVE",
-"203 304 CURVE"
+"-5 112 LINE",
+"-5 139 LINE",
+"158 139 LINE",
+"156 128 LINE",
+"114 64 OFFCURVE",
+"96 -9 OFFCURVE",
+"96 -64 CURVE SMOOTH",
+"96 -125 OFFCURVE",
+"121 -152 OFFCURVE",
+"157 -152 CURVE SMOOTH",
+"176 -152 OFFCURVE",
+"184 -149 OFFCURVE",
+"196 -146 CURVE",
+"199 -170 LINE",
+"181 -190 OFFCURVE",
+"153 -201 OFFCURVE",
+"124 -201 CURVE SMOOTH",
+"59 -201 OFFCURVE",
+"18 -163 OFFCURVE",
+"18 -96 CURVE SMOOTH",
+"18 12 OFFCURVE",
+"81 72 OFFCURVE",
+"112 112 CURVE"
 );
 }
 );
-width = 326;
+width = 206;
 }
 );
 },
 {
 glyphname = sinMatraRUu;
-lastChange = "2021-05-28 03:23:22 +0000";
+lastChange = "2021-05-28 03:40:35 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -153216,7 +153209,7 @@ nodes = (
 "134 -209 CURVE SMOOTH",
 "77 -209 OFFCURVE",
 "39 -176 OFFCURVE",
-"39 -123 CURVE SMOOTH",
+"39 -120 CURVE SMOOTH",
 "39 -36 OFFCURVE",
 "94 4 OFFCURVE",
 "135 33 CURVE",
