@@ -5,40 +5,19 @@ DisplayStrings = (
 "/sinGDhIi/sinDDhIi",
 "/sinGDh/sinDDh/sinGDhIi",
 "/sinGDhU/sinDVU",
-"/sinGDhU",
-"/sinGDhUu/sinDVUu",
-"/sinNndda/sinNyCIi/sinCU/sinCUu/sinNyCUu/sinNyCU/sinNyCI/sinCa/sinNyCa",
-"/sinGDh",
-"/sinNyCIi",
-"/sinNyja/sinNyCha/sinNyChI/sinNyChIi/sinChU/sinNyChU/sinChUu/sinNyChUu",
-"/sinNyCU",
-"/sinNyCa",
-"/sinTtTtha/sinNyCa/sinNyCha/sinNga/sinBa/sinKha \012\012/sinBBa/sinBa \012/sinDha \012/sinDha/sinBBa/sinBa",
-"/sinBBa/sinDDh/sinBB/sinDhI/sinDDhI/sinBBI/sinDhIi/sinDhIi/sinDDhIi/sinBBIi/sinBBU/sinBBUu",
-"/sinBBI",
-"/sinBBa/sinBB/sinBBI/sinBBIi/sinDhUu/sinDdhU/sinBBU/sinBBUu",
-"/sinNyC/sinNyCI",
-"/sinNyC",
-"/sinNyCha/sinNyCh",
-"/sinNyCh",
-"/sinPRa",
-"/sinRakar",
-"/sinKR/sinG/sinGR",
-"/sinKR",
-"/sinKR/sinG/sinGR",
-"/sinKSsa/sinKVa/sinTVa/sinTTha/sinNDa/sinNDha/sinNVa/sinNTha/sinGDha \012\012eao/sinDVa/sinDDha/sinTtTtha/sinNyCa/sinNyCha/sinBBa",
-"/sinDRAa.ss01/sinNdRAa.ss01 \012\012\012\012",
-"/sinMatraAu",
-"/sinMatraEe",
-"/sinMatraEe/sinMatraO/sinMatraOo",
-"/.notdef",
-"/eogonek",
-"/sinDDha \012\012",
-"/sinMba.reph/sinVa.reph",
-"/sinMa.reph.001",
-"/sinReph.001",
+"/sinNna.reph",
 "/sinNna",
-"/sinKRa/sinTtRa"
+"",
+"/sinCha/sinCha",
+"/sinCha",
+"/sinNya.reph",
+"/sinNga.reph/sinNnga.reph/sinNyja.reph/sinTtha.reph/sinDdha.reph/sinNndda.reph/sinNda.reph/sinRa.reph/sinLa.reph/sinLla.reph/sinNyCa.reph/sinNyCha.reph/sinBBa.reph",
+"/sinGha.reph/sinNga.reph/sinNnga.reph/sinNyja.reph/sinTtha.reph/sinDdha.reph/sinNndda.reph/sinNda.reph/sinRa.reph/sinLa.reph/sinLla.reph/sinNyCa.reph/sinNyCha.reph/sinBBa.reph",
+"/sinBBa.reph",
+"/sinNyCha.reph/sinBBa.reph",
+"/sinBa.reph",
+"/sinMa/sinMI/sinReph.003",
+"/sinReph.004"
 );
 classes = (
 {
@@ -849,11 +828,11 @@ code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012languagesystem
 name = Languagesystems;
 },
 {
-code = "#---- --AKHN ------------\012\012lookup sinakhands {\012  sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;\012  sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;\012  sub sinTa sinVirama zerowidthjoiner sinVa by sinTVa;\012  sub sinTa sinVirama zerowidthjoiner sinTha by sinTTha;\012  sub sinNa sinVirama zerowidthjoiner sinDa by sinNDa;\012  sub sinNa sinVirama zerowidthjoiner sinVa by sinNVa;\012  sub sinNa sinVirama zerowidthjoiner sinDha by sinNDha;\012  sub sinNa sinVirama zerowidthjoiner sinTha by sinNTha;\012  sub sinDa sinVirama zerowidthjoiner sinVa by sinDVa;\012  sub sinDa sinVirama zerowidthjoiner sinDha by sinDDha;\012  sub sinTta sinVirama zerowidthjoiner sinTtha by sinTtTtha;\012  sub sinGa sinVirama zerowidthjoiner sinDha by sinGDha;\012  sub sinNna sinVirama zerowidthjoiner sinDda by sinNndda;\012  sub sinNya sinVirama zerowidthjoiner sinJa by sinNyja;\012  sub sinMa sinVirama zerowidthjoiner sinBa by sinMba;\012  sub sinNga sinVirama zerowidthjoiner sinGa by sinNnga;\012  sub sinNya sinVirama zerowidthjoiner sinCa by sinNyCa;\012  sub sinNya sinVirama zerowidthjoiner sinCha by sinNyCha;\012  sub sinBa sinVirama zerowidthjoiner sinBa by sinBBa;\012\012} sinakhands;\012\012#---- REPH ----\012\012lookup sinreph {\012  sub sinRa sinVirama zerowidthjoiner by sinReph;\012} sinreph;\012\012#---- HALN ----\012\012lookup sin_virama {\012  sub sinMatraAa sinVirama by sinMatraAa;\012  sub sinKa sinVirama by sinK;\012  sub sinKha sinVirama by sinKh;\012  sub sinGa sinVirama by sinG;\012  sub sinGha sinVirama by sinGh;\012  sub sinNga sinVirama by sinNg;\012  sub sinNnga sinVirama by sinNng;\012  sub sinCa sinVirama by sinC;\012  sub sinCha sinVirama by sinCh;\012  sub sinJa sinVirama by sinJ;\012  sub sinJha sinVirama by sinJh;\012  sub sinNya sinVirama by sinNy;\012  sub sinJnya sinVirama by sinJny;\012  sub sinNyja sinVirama by sinNyj;\012  sub sinTta sinVirama by sinTt;\012  sub sinTtha sinVirama by sinTth;\012  sub sinDda sinVirama by sinDd;\012  sub sinDdha sinVirama by sinDdh;\012  sub sinNna sinVirama by sinNn;\012  sub sinNndda sinVirama by sinNndd;\012  sub sinTa sinVirama by sinT;\012  sub sinTha sinVirama by sinTh;\012  sub sinDa sinVirama by sinD;\012  sub sinDha sinVirama by sinDh;\012  sub sinNa sinVirama by sinN;\012  sub sinNda sinVirama by sinNd;\012  sub sinPa sinVirama by sinP;\012  sub sinPha sinVirama by sinPh;\012  sub sinBa sinVirama by sinB;\012  sub sinBha sinVirama by sinBh;\012  sub sinMa sinVirama by sinM;\012  sub sinMba sinVirama by sinMb;\012  sub sinYa sinVirama by sinY;\012  sub sinRa sinVirama by sinR;\012  sub sinLa sinVirama by sinL;\012  sub sinVa sinVirama by sinV;\012  sub sinSha sinVirama by sinSh;\012  sub sinSsa sinVirama by sinSs;\012  sub sinSa sinVirama by sinS;\012  sub sinHa sinVirama by sinH;\012  sub sinLla sinVirama by sinLl;\012  sub sinFa sinVirama by sinF;\012\012  sub sinDVa sinVirama by sinDV;\012  sub sinKVa sinVirama by sinKV;\012  sub sinKSsa sinVirama by sinKSs;\012  sub sinNVa sinVirama by sinNV;\012  sub sinNDa  sinVirama by sinND;\012  sub sinTtTtha sinVirama by sinTtTth;\012  sub sinDDha sinVirama by sinDDh;\012  sub sinTVa sinVirama by sinTV;\012  sub sinTTha sinVirama by sinTTh;\012  sub sinNDha sinVirama by sinNDh;\012  sub sinNTha sinVirama by sinNTh;\012  sub sinGDha sinVirama by sinGDh;\012  sub sinNyCa sinVirama by sinNyC;\012  sub sinNyCha sinVirama by sinNyCh;\012  sub sinBBa sinVirama by sinBB;\012  sub sinYansaya sinVirama by sinYansaya;\012\012  sub sinKRa sinVirama by sinKR;\012  sub sinKhRa sinVirama by sinKhR;\012  sub sinGRa sinVirama by sinGR;\012  sub sinGhRa sinVirama by sinGhR;\012  sub sinCRa sinVirama by sinCR;\012  sub sinJRa sinVirama by sinJR;\012  sub sinJhRa sinVirama by sinJhR;\012  sub sinNyRa sinVirama by sinNyR;\012  sub sinTtRa sinVirama by sinTtR;\012  sub sinJnyRa sinVirama by sinJnyR;\012  sub sinNyjRa sinVirama by sinNyjR;\012  sub sinDdRa sinVirama by sinDdR;\012  sub sinTRa sinVirama by sinTR;\012  sub sinDRa sinVirama by sinDR;\012  sub sinDhRa sinVirama by sinDhR;\012  sub sinPRa sinVirama by sinPR;\012  sub sinBhRa sinVirama by sinBhR;\012  sub sinMRa sinVirama by sinMR;\012  sub sinVRa sinVirama by sinVR;\012  sub sinShRa sinVirama by sinShR;\012  sub sinSsRa sinVirama by sinSsR;\012  sub sinSRa sinVirama by sinSR;\012  sub sinHRa sinVirama by sinHR;\012  sub sinFRa sinVirama by sinFR;\012  sub sinBRa sinVirama by sinBR;\012 } sin_virama;\012\012#---- ABVS ----\012\012lookup sinabvs_1 {\012  sub sinKa sinMatraI by sinKI;\012  sub sinKha sinMatraI by sinKhI;\012  sub sinGa sinMatraI by sinGI;\012  sub sinGha sinMatraI by sinGhI;\012  sub sinNga sinMatraI by sinNgI;\012  sub sinNnga sinMatraI by sinNngI;\012  sub sinCa sinMatraI by sinCI;\012  sub sinCha sinMatraI by sinChI;\012  sub sinJa sinMatraI by sinJI;\012  sub sinJha sinMatraI by sinJhI;\012  sub sinNya sinMatraI by sinNyI;\012  sub sinJnya sinMatraI by sinJnyI;\012  sub sinNyja sinMatraI by sinNyjI;\012  sub sinTta sinMatraI by sinTtI;\012  sub sinTtha sinMatraI by sinTthI;\012  sub sinDda sinMatraI by sinDdI;\012  sub sinDdha sinMatraI by sinDdhI;\012  sub sinNna sinMatraI by sinNnI;\012  sub sinNndda sinMatraI by sinNnddI;\012  sub sinTa sinMatraI by sinTI;\012  sub sinTha sinMatraI by sinThI;\012  sub sinDa sinMatraI by sinDI;\012  sub sinDha sinMatraI by sinDhI;\012  sub sinNa sinMatraI by sinNI;\012  sub sinNda sinMatraI by sinNdI;\012  sub sinPa sinMatraI by sinPI;\012  sub sinPha sinMatraI by sinPhI;\012  sub sinBa sinMatraI by sinBI;\012  sub sinBha sinMatraI by sinBhI;\012  sub sinMa sinMatraI by sinMI;\012  sub sinMba sinMatraI by sinMbI;\012  sub sinYa sinMatraI by sinYI;\012  sub sinRa sinMatraI by sinRI;\012  sub sinLa sinMatraI by sinLI;\012  sub sinVa sinMatraI by sinVI;\012  sub sinSha sinMatraI by sinShI;\012  sub sinSsa sinMatraI by sinSsI;\012  sub sinSa sinMatraI by sinSI;\012  sub sinHa sinMatraI by sinHI;\012  sub sinLla sinMatraI by sinLlI;\012  sub sinFa sinMatraI by sinFI;\012\012  sub	sinKSsa	sinMatraI	by	sinKSsI;\012  sub	sinKVa	sinMatraI	by	sinKVI;\012  sub	sinTVa	sinMatraI	by	sinTVI;\012  sub	sinTTha	sinMatraI	by	sinTThI;\012  sub	sinNDa	sinMatraI	by	sinNDI;\012  sub	sinNVa	sinMatraI	by	sinNVI;\012  sub	sinNDha	sinMatraI	by	sinNDhI;\012  sub	sinNTha	sinMatraI	by	sinNThI;\012  sub	sinDVa	sinMatraI	by	sinDVI;\012  sub	sinDDha	sinMatraI	by	sinDDhI;\012  sub	sinTtTtha	sinMatraI	by	sinTtTthI;\012  sub 	sinGDha	sinMatraI by sinGDhI;\012  sub	sinNyCa sinMatraI by sinNyCI;\012  sub	sinNyCha sinMatraI by sinNyChI;\012  sub	sinBBa sinMatraI by sinBBI;\012  sub 	sinYansaya	sinMatraI by sinYansaya.MatraI;\012\012  sub sinKRa sinMatraI by sinKRI;\012  sub sinKhRa sinMatraI by sinKhRI;\012  sub sinGRa sinMatraI by sinGRI;\012  sub sinGhRa sinMatraI by sinGhRI;\012  sub sinCRa sinMatraI by sinCRI;\012  sub sinJRa sinMatraI by sinJRI;\012  sub sinJhRa sinMatraI by sinJhRI;\012  sub sinNyRa sinMatraI by sinNyRI;\012  sub sinJnyRa sinMatraI by sinJnyRI;\012  sub sinTtRa sinMatraI by sinTtRI;\012  sub sinDdRa sinMatraI by sinDdRI;\012  sub sinTRa sinMatraI by sinTRI;\012  sub sinDRa sinMatraI by sinDRI;\012  sub sinDhRa sinMatraI by sinDhRI;\012  sub sinPRa sinMatraI by sinPRI;\012  sub sinBRa sinMatraI by sinBRI;\012  sub sinBhRa sinMatraI by sinBhRI;\012  sub sinMRa sinMatraI by sinMRI;\012  sub sinVRa sinMatraI by sinVRI;\012  sub sinShRa sinMatraI by sinShRI;\012  sub sinSRa sinMatraI by sinSRI;\012  sub sinHRa sinMatraI by sinHRI;\012\012} sinabvs_1;\012\012lookup sinabvs_2 {\012  sub sinKa sinMatraIi by sinKIi;\012  sub sinKha sinMatraIi by sinKhIi;\012  sub sinGa sinMatraIi by sinGIi;\012  sub sinGha sinMatraIi by sinGhIi;\012  sub sinNga sinMatraIi by sinNgIi;\012  sub sinNnga sinMatraIi by sinNngIi;\012  sub sinCa sinMatraIi by sinCIi;\012  sub sinCha sinMatraIi by sinChIi;\012  sub sinJa sinMatraIi by sinJIi;\012  sub sinJha sinMatraIi by sinJhIi;\012  sub sinNya sinMatraIi by sinNyIi;\012  sub sinJnya sinMatraIi by sinJnyIi;\012  sub sinNyja sinMatraIi by sinNyjIi;\012  sub sinTta sinMatraIi by sinTtIi;\012  sub sinTtha sinMatraIi by sinTthIi;\012  sub sinDda sinMatraIi by sinDdIi;\012  sub sinDdha sinMatraIi by sinDdhIi;\012  sub sinNna sinMatraIi by sinNnIi;\012  sub sinNndda sinMatraIi by sinNnddIi;\012  sub sinTa sinMatraIi by sinTIi;\012  sub sinTha sinMatraIi by sinThIi;\012  sub sinDa sinMatraIi by sinDIi;\012  sub sinDha sinMatraIi by sinDhIi;\012  sub sinNa sinMatraIi by sinNIi;\012  sub sinNda sinMatraIi by sinNdIi;\012  sub sinPa sinMatraIi by sinPIi;\012  sub sinPha sinMatraIi by sinPhIi;\012  sub sinBa sinMatraIi by sinBIi;\012  sub sinBha sinMatraIi by sinBhIi;\012  sub sinMa sinMatraIi by sinMIi;\012  sub sinMba sinMatraIi by sinMbIi;\012  sub sinYa sinMatraIi by sinYIi;\012  sub sinRa sinMatraIi by sinRIi;\012  sub sinLa sinMatraIi by sinLIi;\012  sub sinVa sinMatraIi by sinVIi;\012  sub sinSha sinMatraIi by sinShIi;\012  sub sinSsa sinMatraIi by sinSsIi;\012  sub sinSa sinMatraIi by sinSIi;\012  sub sinHa sinMatraIi by sinHIi;\012  sub sinLla sinMatraIi by sinLlIi;\012  sub sinFa sinMatraIi by sinFIi;\012  sub sinYansaya sinMatraIi by sinYansaya.MatraIi;\012\012  sub	sinKSsa	sinMatraIi	by	sinKSsIi;\012  sub	sinKVa	sinMatraIi	by	sinKVIi;\012  sub	sinTVa	sinMatraIi	by	sinTVIi;\012  sub	sinTTha	sinMatraIi	by	sinTThIi;\012  sub	sinNDa	sinMatraIi	by	sinNDIi;\012  sub	sinNVa	sinMatraIi	by	sinNVIi;\012  sub	sinNDha	sinMatraIi	by	sinNDhIi;\012  sub	sinNTha	sinMatraIi	by	sinNThIi;\012  sub	sinDVa	sinMatraIi	by	sinDVIi;\012  sub	sinDDha	sinMatraIi	by	sinDDhIi;\012  sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;\012  sub	sinGDha	sinMatraIi	by sinGDhIi;\012  sub	sinNyCa sinMatraIi by sinNyCIi;\012  sub	sinNyCha sinMatraIi by sinNyChIi;\012  sub	sinBBa sinMatraIi by sinBBIi;\012  sub 	sinYansaya sinMatraIi by sinYansaya.MatraIi;\012\012  sub sinKRa sinMatraIi by sinKRIi;\012  sub sinKhRa sinMatraIi by sinKhRIi;\012  sub sinGRa sinMatraIi by sinGRIi;\012  sub sinGhRa sinMatraIi by sinGhRIi;\012  sub sinCRa sinMatraIi by sinCRIi;\012  sub sinJRa sinMatraIi by sinJRIi;\012  sub sinJhRa sinMatraIi by sinJhRIi;\012  sub sinNyRa sinMatraIi by sinNyRIi;\012  sub sinJnyRa sinMatraIi by sinJnyRIi;\012  sub sinTtRa sinMatraIi by sinTtRIi;\012  sub sinDdRa sinMatraIi by sinDdRIi;\012  sub sinTRa sinMatraIi by sinTRIi;\012  sub sinDRa sinMatraIi by sinDRIi;\012  sub sinDhRa sinMatraIi by sinDhRIi;\012  sub sinPRa sinMatraIi by sinPRIi;\012  sub sinBRa sinMatraIi by sinBRIi;\012  sub sinBhRa sinMatraIi by sinBhRIi;\012  sub sinMRa sinMatraIi by sinMRIi;\012  sub sinVRa sinMatraIi by sinVRIi;\012  sub sinShRa sinMatraIi by sinShRIi;\012  sub sinSRa sinMatraIi by sinSRIi;\012  sub sinHRa sinMatraIi by sinHRIi;\012} sinabvs_2;\012\012\012\012lookup sinabvs_3 {\012  sub sinYansaya sinReph by sinYansaya.reph;\012  sub sinYansaya sinMatraAa sinReph  by sinYansaya_Reph_MatraAa;\012  sub sinYansaya sinMatraU sinReph  by sinYansaya_Reph_MatraU;\012  sub sinYansaya sinMatraUu sinReph  by sinYansaya_Reph_MatraUu;\012  sub sinKa sinReph by sinKa.reph;\012  sub sinKha sinReph by sinKha.reph;\012  sub sinGa sinReph by sinGa.reph;\012  sub sinGha sinReph by sinGha.reph;\012  sub sinCa sinReph by sinCa.reph;\012  sub sinJa sinReph by sinJa.reph;\012  sub sinTta sinReph by sinTta.reph;\012  sub sinDda sinReph by sinDda.reph;\012  sub sinNna sinReph by sinNna.reph;\012  sub sinTa sinReph by sinTa.reph;\012  sub sinTha sinReph by sinTha.reph;\012  sub sinDa sinReph by sinDa.reph;\012  sub sinDha sinReph by sinDha.reph;\012  sub sinPa sinReph by sinPa.reph;\012  sub sinBa sinReph by sinBa.reph;\012  sub sinBha sinReph by sinBha.reph;\012  sub sinMa sinReph by sinMa.reph;\012  sub sinYa sinReph by sinYa.reph;\012  sub sinVa sinReph by sinVa.reph;\012  sub sinSha sinReph by sinSha.reph;\012  sub sinSsa sinReph by sinSsa.reph;\012  sub sinSa sinReph by sinSa.reph;\012  sub sinHa sinReph by sinHa.reph;\012  sub sinNa sinReph by sinNa.reph;\012  sub sinJha sinReph by sinJha.reph;\012  sub sinNya sinReph by sinNya.reph;\012  sub sinJnya sinReph by sinJnya.reph;\012} sinabvs_3;\012\012lookup sinakhands_reph {\012  sub sinKSsa sinReph by sinKSsa.reph;\012  sub sinKa sinReph sinVirama zerowidthjoiner sinSsa by sinKSsa.reph;\012  sub sinKVa sinReph by sinKVa.reph;\012  sub sinKa sinReph sinVirama zerowidthjoiner sinVa by sinKVa.reph;\012  sub sinTVa sinReph by sinTVa.reph;\012  sub sinTa sinReph sinVirama zerowidthjoiner sinVa by sinTVa.reph;\012  sub sinTTha sinReph by sinTTha.reph;\012  sub sinTa sinReph sinVirama zerowidthjoiner sinTha by sinTTha.reph;\012  sub sinNDa sinReph by sinNDa.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinDa by sinNDa.reph;\012  sub sinNVa sinReph by sinNVa.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinVa by sinNVa.reph;\012  sub sinNDha sinReph by sinNDha.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinDha by sinNDha.reph;\012  sub sinNTha sinReph by sinNTha.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinTha by sinNTha.reph;\012  sub sinDVa sinReph by sinDVa.reph;\012  sub sinDa sinReph sinVirama zerowidthjoiner sinVa by sinDVa.reph;\012  sub sinDDha sinReph by sinDDha.reph;\012  sub sinDa sinReph sinVirama zerowidthjoiner sinDha by sinDDha.reph;\012  sub sinTtTtha sinReph by sinTtTtha.reph;\012  sub sinTta sinReph sinVirama zerowidthjoiner sinTtha by sinTtTtha.reph;\012  sub sinGDha sinReph by sinGDha.reph;\012  sub sinGa sinReph sinVirama zerowidthjoiner sinDha by sinGDha.reph;\012} sinakhands_reph;\012\012#----------- BLWS --------------\012#-------------------------------\012\012lookup sinblws_1 {\012  sub sinKa sinMatraU by sinKU;\012  sub sinKha sinMatraU by sinKhU;\012  sub sinGa sinMatraU by sinGU;\012  sub sinGha sinMatraU by sinGhU;\012  sub sinNnga sinMatraU by sinNngU;\012  sub sinCa sinMatraU by sinCU;\012  sub sinCha sinMatraU by sinChU;\012  sub sinJa sinMatraU by sinJU;\012  sub sinJha sinMatraU by sinJhU;\012  sub sinNya sinMatraU by sinNyU;\012  sub sinJnya sinMatraU by sinJnyU;\012  sub sinNyja sinMatraU by sinNyjU;\012  sub sinTta sinMatraU by sinTtU;\012  sub sinTtha sinMatraU by sinTthU;\012  sub sinDda sinMatraU by sinDdU;\012  sub sinDdha sinMatraU by sinDdhU;\012  sub sinNna sinMatraU by sinNnU;\012  sub sinNndda sinMatraU by sinNnddU;\012  sub sinTa sinMatraU by sinTU;\012  sub sinTha sinMatraU by sinThU;\012  sub sinDa sinMatraU by sinDU;\012  sub sinDha sinMatraU by sinDhU;\012  sub sinNa sinMatraU by sinNU;\012  sub sinNda sinMatraU by sinNdU;\012  sub sinPa sinMatraU by sinPU;\012  sub sinPha sinMatraU by sinPhU;\012  sub sinBa sinMatraU by sinBU;\012  sub sinBha sinMatraU by sinBhU;\012  sub sinMa sinMatraU by sinMU;\012  sub sinMba sinMatraU by sinMbU;\012  sub sinYa sinMatraU by sinYU;\012  sub sinRa sinMatraU by sinRU;\012  sub sinLa sinMatraU by sinLU;\012  sub sinVa sinMatraU by sinVU;\012  sub sinSha sinMatraU by sinShU;\012  sub sinSsa sinMatraU by sinSsU;\012  sub sinSa sinMatraU by sinSU;\012  sub sinHa sinMatraU by sinHU;\012  sub sinLla sinMatraU by sinLlU;\012  sub sinFa sinMatraU by sinFU;\012\012  sub	sinKSsa sinMatraU	by	sinKSsU;\012  sub	sinKVa sinMatraU	by	sinKVU;\012  sub	sinTVa sinMatraU	by	sinTVU;\012  sub	sinTTha sinMatraU	by	sinTThU;\012  sub	sinNDa sinMatraU	by	sinNDU;\012  sub	sinNVa sinMatraU	by	sinNVU;\012  sub	sinNDha sinMatraU	by	sinNDhU;\012  sub	sinNTha sinMatraU	by	sinNThU;\012  sub	sinDVa sinMatraU	by	sinDVU;\012  sub	sinDDha sinMatraU	by	sinDDhU;\012  sub	sinTtTtha	sinMatraU	by	sinTtTthU;\012  sub	sinNyCa sinMatraU by sinNyCU;\012  sub	sinNyCha sinMatraU by sinNyChU;\012  sub	sinBBa sinMatraU by sinBBU;\012  sub sinYansaya sinMatraU by sinYansa_MatraU;\012} sinblws_1;\012\012lookup sinblws_2 {\012  sub sinKa sinMatraUu by sinKUu;\012  sub sinKha sinMatraUu by sinKhUu;\012  sub sinGa sinMatraUu by sinGUu;\012  sub sinGha sinMatraUu by sinGhUu;\012  sub sinNnga sinMatraUu by sinNngUu;\012  sub sinCa sinMatraUu by sinCUu;\012  sub sinCha sinMatraUu by sinChUu;\012  sub sinJa sinMatraUu by sinJUu;\012  sub sinJha sinMatraUu by sinJhUu;\012  sub sinNya sinMatraUu by sinNyUu;\012  sub sinJnya sinMatraUu by sinJnyUu;\012  sub sinNyja sinMatraUu by sinNyjUu;\012  sub sinTta sinMatraUu by sinTtUu;\012  sub sinTtha sinMatraUu by sinTthUu;\012  sub sinDda sinMatraUu by sinDdUu;\012  sub sinDdha sinMatraUu by sinDdhUu;\012  sub sinNna sinMatraUu by sinNnUu;\012  sub sinNndda sinMatraUu by sinNnddUu;\012  sub sinTa sinMatraUu by sinTUu;\012  sub sinTha sinMatraUu by sinThUu;\012  sub sinDa sinMatraUu by sinDUu;\012  sub sinDha sinMatraUu by sinDhUu;\012  sub sinNa sinMatraUu by sinNUu;\012  sub sinNda sinMatraUu by sinNdUu;\012  sub sinPa sinMatraUu by sinPUu;\012  sub sinPha sinMatraUu by sinPhUu;\012  sub sinBa sinMatraUu by sinBUu;\012  sub sinBha sinMatraUu by sinBhUu;\012  sub sinMa sinMatraUu by sinMUu;\012  sub sinMba sinMatraUu by sinMbUu;\012  sub sinYa sinMatraUu by sinYUu;\012  sub sinRa sinMatraUu by sinRUu;\012  sub sinLa sinMatraUu by sinLUu;\012  sub sinVa sinMatraUu by sinVUu;\012  sub sinSha sinMatraUu by sinShUu;\012  sub sinSsa sinMatraUu by sinSsUu;\012  sub sinSa sinMatraUu by sinSUu;\012  sub sinHa sinMatraUu by sinHUu;\012  sub sinLla sinMatraUu by sinLlUu;\012  sub sinFa sinMatraUu by sinFUu;\012  \012   sub	sinKSsa	sinMatraUu	by	sinKSsUu;\012  sub	sinKVa	sinMatraUu	by	sinKVUu;\012  sub	sinTVa	sinMatraUu	by	sinTVUu;\012  sub	sinTTha	sinMatraUu	by	sinTThUu;\012  sub	sinNDa	sinMatraUu	by	sinNDUu;\012  sub	sinNVa	sinMatraUu	by	sinNVUu;\012  sub	sinNDha	sinMatraUu	by	sinNDhUu;\012  sub	sinNTha	sinMatraUu	by	sinNThUu;\012  sub	sinDVa	sinMatraUu	by	sinDVUu;\012  sub	sinDDha	sinMatraUu	by	sinDDhUu;\012  sub	sinTtTtha	sinMatraUu	by	sinTtTthUu;\012  sub	sinNyCa sinMatraUu by sinNyCUu;\012  sub	sinNyCha sinMatraUu by sinNyChUu;\012  sub	sinBBa sinMatraUu by sinBBUu;\012  sub sinYansaya sinMatraUu by sinYansa_MatraUu;\012} sinblws_2;\012\012\012\012lookup sinblws_3 {\012  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraU' by sinMatraU.sub;\012  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraUu' by sinMatraUu.sub;\012} sinblws_3;\012\012#----------- Yansaya --------------\012#-------------------------------\012\012lookup sin_vatu {\012  sub sinVirama zerowidthjoiner sinYa by sinYansaya;\012  sub sinVirama zerowidthjoiner sinRa by sinRakar;\012} sin_vatu;\012\012#----------- Rae, Raae --------------\012#-------------------------------\012\012lookup sin_psts {\012  sub sinRa sinMatraAe by sinRAe;\012  sub sinRa sinMatraAae by sinRAae;\012}  sin_psts;\012\012lookup si_split_matra {\012  sub sinMatraEe by sinVirama;\012  sub sinMatraO by sinMatraAa;\012  sub sinMatraOo by sinMatraAa.virama;\012  sub sinMatraAu by sinMatraLs;\012} si_split_matra;\012\012#----------- Rakaar ------------\012#-------------------------------\012\012lookup sinrakaar {\012  sub sinKa sinRakar by sinKRa;\012  sub sinKha sinRakar by sinKhRa;\012  sub sinGa sinRakar by sinGRa;\012  sub sinGha sinRakar by sinGhRa;\012  sub sinCa sinRakar by sinCRa;\012  sub sinJa sinRakar by sinJRa;\012  sub sinJha sinRakar by sinJhRa;\012  sub sinNya sinRakar by sinNyRa;\012  sub sinTta sinRakar by sinTtRa;\012  sub sinJnya sinRakar by sinJnyRa;\012  sub sinNyja sinRakar by sinNyjRa;\012  sub sinDda sinRakar by sinDdRa;\012  sub sinTa sinRakar by sinTRa;\012  sub sinDa sinRakar by sinDRa;\012  sub sinDha sinRakar by sinDhRa;\012  sub sinPa sinRakar by sinPRa;\012  sub sinBha sinRakar by sinBhRa;\012  sub sinMa sinRakar by sinMRa;\012  sub sinVa sinRakar by sinVRa;\012  sub sinSha sinRakar by sinShRa;\012  sub sinSsa sinRakar by sinSsRa;\012  sub sinSa sinRakar by sinSRa;\012  sub sinHa sinRakar by sinHRa;\012  sub sinFa sinRakar by sinFRa;\012  sub sinNDa sinRakar by sinNDRa;\012  sub sinBa sinRakar by sinBRa;\012} sinrakaar;\012\012#----------- Split Matras ------------\012#-------------------------------------\012\012lookup sinsplit_matra {\012  sub sinMatraEe by sinVirama;\012  sub sinMatraO by sinMatraAa;\012  sub sinMatraOo by sinMatraAa;\012  sub sinMatraAu by sinMatraLs;\012} sinsplit_matra;\012\012#----------- Da forms ------------\012#---------------------------------\012\012lookup sin_da_subscripts {\012  sub sinDa sinMatraAa by sinDAa.ss01;\012  sub sinDa sinMatraAa by sinDAa.ss01;\012  sub sinDa sinMatraAae by sinDAae.ss01;\012  sub sinDa sinMatraAe by sinDAe.ss01;\012  sub sinDa sinMatraE sinYansaya sinMatraAa by sinDYOo.post.ss01;\012  sub sinDa sinYansa_MatraUu by sinDYUu.post.ss01;\012  sub sinDa sinYansaya by sinDaYa.post.ss01;\012  sub sinDa sinYansaya sinMatraAa by sinDYAa.post.ss01;\012  sub sinDa sinYansa_MatraU by sinDYu.post.ss01;\012  sub sinNda sinMatraAa by sinNdAa.ss01;\012  sub sinNda sinMatraAa by sinNdAa.ss01;\012  sub sinNda sinMatraAae by sinNdAae.ss01;\012  sub sinNda sinMatraAe by sinNdAe.ss01;\012  sub sinJnya sinMatraAa by sinJnyAa.ss01;\012  sub sinJnya sinMatraAa by sinJnyAa.ss01;\012  sub sinJnya sinMatraAae by sinJnyAee.ss01;\012  sub sinJnya sinMatraAe by sinJnyAe.ss01;\012  sub sinNDa sinMatraAa by sinNDAa.ss01;\012  sub sinNDa sinMatraAa by sinNDAa.ss01;\012  sub sinNDa sinMatraAae by sinNDAee.ss01;\012  sub sinNDa sinMatraAe by sinNDAe.ss01;\012  sub sinNya sinMatraAa by sinNyAa.ss01;\012  sub sinNya sinMatraAa by sinNyAa.ss01;\012  sub sinNya sinMatraAae by sinNyAee.ss01;\012  sub sinNya sinMatraAe by sinNyAe.ss01;\012  sub sinDa sinMatraR by sinDvocR.ss01;\012  sub sinDa sinMatraRr by sinDvocRr.ss01;\012  sub sinDRa sinMatraAa by sinDRAa.ss01;\012  sub sinNdRa sinMatraAa by sinNdRAa.ss01;\012\012\012} sin_da_subscripts;\012\012\012#----------- Sinhala Numerals------------\012#---------------------------------\012\012lookup sin_lithnum_style {\012  sub zero by sinZerolith;\012  sub one by sinOnelith;\012  sub two by sinTwolith;\012  sub three by sinThreelith;\012  sub four by sinFourlith;\012  sub five by sinFivelith;\012  sub six by sinSixlith;\012  sub seven by sinSevenlith;\012  sub eight by sinEightlith;\012  sub nine by sinNinelith;\012} sin_lithnum_style;\012\012#----------- Sinhala touching  ------------\012#---------------------------------\012\012lookup sin_touch {\012  sub zerowidthjoiner sinVirama by sinTouch;\012} sin_touch;\012\012#----------- Touch Repaya  ------------\012#---------------------------------\012\012\012\012\012";
+code = "#---- --AKHN ------------\012\012lookup sinakhands {\012  sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;\012  sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;\012  sub sinTa sinVirama zerowidthjoiner sinVa by sinTVa;\012  sub sinTa sinVirama zerowidthjoiner sinTha by sinTTha;\012  sub sinNa sinVirama zerowidthjoiner sinDa by sinNDa;\012  sub sinNa sinVirama zerowidthjoiner sinVa by sinNVa;\012  sub sinNa sinVirama zerowidthjoiner sinDha by sinNDha;\012  sub sinNa sinVirama zerowidthjoiner sinTha by sinNTha;\012  sub sinDa sinVirama zerowidthjoiner sinVa by sinDVa;\012  sub sinDa sinVirama zerowidthjoiner sinDha by sinDDha;\012  sub sinTta sinVirama zerowidthjoiner sinTtha by sinTtTtha;\012  sub sinGa sinVirama zerowidthjoiner sinDha by sinGDha;\012  sub sinNna sinVirama zerowidthjoiner sinDda by sinNndda;\012  sub sinNya sinVirama zerowidthjoiner sinJa by sinNyja;\012  sub sinMa sinVirama zerowidthjoiner sinBa by sinMba;\012  sub sinNga sinVirama zerowidthjoiner sinGa by sinNnga;\012  sub sinNya sinVirama zerowidthjoiner sinCa by sinNyCa;\012  sub sinNya sinVirama zerowidthjoiner sinCha by sinNyCha;\012  sub sinBa sinVirama zerowidthjoiner sinBa by sinBBa;\012\012} sinakhands;\012\012#---- REPH ----\012\012lookup sinreph {\012  sub sinRa sinVirama zerowidthjoiner by sinReph;\012} sinreph;\012\012#---- HALN ----\012\012lookup sin_virama {\012  sub sinMatraAa sinVirama by sinMatraAa;\012  sub sinKa sinVirama by sinK;\012  sub sinKha sinVirama by sinKh;\012  sub sinGa sinVirama by sinG;\012  sub sinGha sinVirama by sinGh;\012  sub sinNga sinVirama by sinNg;\012  sub sinNnga sinVirama by sinNng;\012  sub sinCa sinVirama by sinC;\012  sub sinCha sinVirama by sinCh;\012  sub sinJa sinVirama by sinJ;\012  sub sinJha sinVirama by sinJh;\012  sub sinNya sinVirama by sinNy;\012  sub sinJnya sinVirama by sinJny;\012  sub sinNyja sinVirama by sinNyj;\012  sub sinTta sinVirama by sinTt;\012  sub sinTtha sinVirama by sinTth;\012  sub sinDda sinVirama by sinDd;\012  sub sinDdha sinVirama by sinDdh;\012  sub sinNna sinVirama by sinNn;\012  sub sinNndda sinVirama by sinNndd;\012  sub sinTa sinVirama by sinT;\012  sub sinTha sinVirama by sinTh;\012  sub sinDa sinVirama by sinD;\012  sub sinDha sinVirama by sinDh;\012  sub sinNa sinVirama by sinN;\012  sub sinNda sinVirama by sinNd;\012  sub sinPa sinVirama by sinP;\012  sub sinPha sinVirama by sinPh;\012  sub sinBa sinVirama by sinB;\012  sub sinBha sinVirama by sinBh;\012  sub sinMa sinVirama by sinM;\012  sub sinMba sinVirama by sinMb;\012  sub sinYa sinVirama by sinY;\012  sub sinRa sinVirama by sinR;\012  sub sinLa sinVirama by sinL;\012  sub sinVa sinVirama by sinV;\012  sub sinSha sinVirama by sinSh;\012  sub sinSsa sinVirama by sinSs;\012  sub sinSa sinVirama by sinS;\012  sub sinHa sinVirama by sinH;\012  sub sinLla sinVirama by sinLl;\012  sub sinFa sinVirama by sinF;\012\012  sub sinDVa sinVirama by sinDV;\012  sub sinKVa sinVirama by sinKV;\012  sub sinKSsa sinVirama by sinKSs;\012  sub sinNVa sinVirama by sinNV;\012  sub sinNDa  sinVirama by sinND;\012  sub sinTtTtha sinVirama by sinTtTth;\012  sub sinDDha sinVirama by sinDDh;\012  sub sinTVa sinVirama by sinTV;\012  sub sinTTha sinVirama by sinTTh;\012  sub sinNDha sinVirama by sinNDh;\012  sub sinNTha sinVirama by sinNTh;\012  sub sinGDha sinVirama by sinGDh;\012  sub sinNyCa sinVirama by sinNyC;\012  sub sinNyCha sinVirama by sinNyCh;\012  sub sinBBa sinVirama by sinBB;\012  sub sinYansaya sinVirama by sinYansaya;\012\012  sub sinKRa sinVirama by sinKR;\012  sub sinKhRa sinVirama by sinKhR;\012  sub sinGRa sinVirama by sinGR;\012  sub sinGhRa sinVirama by sinGhR;\012  sub sinCRa sinVirama by sinCR;\012  sub sinJRa sinVirama by sinJR;\012  sub sinJhRa sinVirama by sinJhR;\012  sub sinNyRa sinVirama by sinNyR;\012  sub sinTtRa sinVirama by sinTtR;\012  sub sinJnyRa sinVirama by sinJnyR;\012  sub sinNyjRa sinVirama by sinNyjR;\012  sub sinDdRa sinVirama by sinDdR;\012  sub sinTRa sinVirama by sinTR;\012  sub sinDRa sinVirama by sinDR;\012  sub sinDhRa sinVirama by sinDhR;\012  sub sinPRa sinVirama by sinPR;\012  sub sinBhRa sinVirama by sinBhR;\012  sub sinMRa sinVirama by sinMR;\012  sub sinVRa sinVirama by sinVR;\012  sub sinShRa sinVirama by sinShR;\012  sub sinSsRa sinVirama by sinSsR;\012  sub sinSRa sinVirama by sinSR;\012  sub sinHRa sinVirama by sinHR;\012  sub sinFRa sinVirama by sinFR;\012  sub sinBRa sinVirama by sinBR;\012 } sin_virama;\012\012#---- ABVS ----\012\012lookup sinabvs_1 {\012  sub sinKa sinMatraI by sinKI;\012  sub sinKha sinMatraI by sinKhI;\012  sub sinGa sinMatraI by sinGI;\012  sub sinGha sinMatraI by sinGhI;\012  sub sinNga sinMatraI by sinNgI;\012  sub sinNnga sinMatraI by sinNngI;\012  sub sinCa sinMatraI by sinCI;\012  sub sinCha sinMatraI by sinChI;\012  sub sinJa sinMatraI by sinJI;\012  sub sinJha sinMatraI by sinJhI;\012  sub sinNya sinMatraI by sinNyI;\012  sub sinJnya sinMatraI by sinJnyI;\012  sub sinNyja sinMatraI by sinNyjI;\012  sub sinTta sinMatraI by sinTtI;\012  sub sinTtha sinMatraI by sinTthI;\012  sub sinDda sinMatraI by sinDdI;\012  sub sinDdha sinMatraI by sinDdhI;\012  sub sinNna sinMatraI by sinNnI;\012  sub sinNndda sinMatraI by sinNnddI;\012  sub sinTa sinMatraI by sinTI;\012  sub sinTha sinMatraI by sinThI;\012  sub sinDa sinMatraI by sinDI;\012  sub sinDha sinMatraI by sinDhI;\012  sub sinNa sinMatraI by sinNI;\012  sub sinNda sinMatraI by sinNdI;\012  sub sinPa sinMatraI by sinPI;\012  sub sinPha sinMatraI by sinPhI;\012  sub sinBa sinMatraI by sinBI;\012  sub sinBha sinMatraI by sinBhI;\012  sub sinMa sinMatraI by sinMI;\012  sub sinMba sinMatraI by sinMbI;\012  sub sinYa sinMatraI by sinYI;\012  sub sinRa sinMatraI by sinRI;\012  sub sinLa sinMatraI by sinLI;\012  sub sinVa sinMatraI by sinVI;\012  sub sinSha sinMatraI by sinShI;\012  sub sinSsa sinMatraI by sinSsI;\012  sub sinSa sinMatraI by sinSI;\012  sub sinHa sinMatraI by sinHI;\012  sub sinLla sinMatraI by sinLlI;\012  sub sinFa sinMatraI by sinFI;\012\012  sub	sinKSsa	sinMatraI	by	sinKSsI;\012  sub	sinKVa	sinMatraI	by	sinKVI;\012  sub	sinTVa	sinMatraI	by	sinTVI;\012  sub	sinTTha	sinMatraI	by	sinTThI;\012  sub	sinNDa	sinMatraI	by	sinNDI;\012  sub	sinNVa	sinMatraI	by	sinNVI;\012  sub	sinNDha	sinMatraI	by	sinNDhI;\012  sub	sinNTha	sinMatraI	by	sinNThI;\012  sub	sinDVa	sinMatraI	by	sinDVI;\012  sub	sinDDha	sinMatraI	by	sinDDhI;\012  sub	sinTtTtha	sinMatraI	by	sinTtTthI;\012  sub 	sinGDha	sinMatraI by sinGDhI;\012  sub	sinNyCa sinMatraI by sinNyCI;\012  sub	sinNyCha sinMatraI by sinNyChI;\012  sub	sinBBa sinMatraI by sinBBI;\012  sub 	sinYansaya	sinMatraI by sinYansaya.MatraI;\012\012  sub sinKRa sinMatraI by sinKRI;\012  sub sinKhRa sinMatraI by sinKhRI;\012  sub sinGRa sinMatraI by sinGRI;\012  sub sinGhRa sinMatraI by sinGhRI;\012  sub sinCRa sinMatraI by sinCRI;\012  sub sinJRa sinMatraI by sinJRI;\012  sub sinJhRa sinMatraI by sinJhRI;\012  sub sinNyRa sinMatraI by sinNyRI;\012  sub sinJnyRa sinMatraI by sinJnyRI;\012  sub sinTtRa sinMatraI by sinTtRI;\012  sub sinDdRa sinMatraI by sinDdRI;\012  sub sinTRa sinMatraI by sinTRI;\012  sub sinDRa sinMatraI by sinDRI;\012  sub sinDhRa sinMatraI by sinDhRI;\012  sub sinPRa sinMatraI by sinPRI;\012  sub sinBRa sinMatraI by sinBRI;\012  sub sinBhRa sinMatraI by sinBhRI;\012  sub sinMRa sinMatraI by sinMRI;\012  sub sinVRa sinMatraI by sinVRI;\012  sub sinShRa sinMatraI by sinShRI;\012  sub sinSRa sinMatraI by sinSRI;\012  sub sinHRa sinMatraI by sinHRI;\012\012} sinabvs_1;\012\012lookup sinabvs_2 {\012  sub sinKa sinMatraIi by sinKIi;\012  sub sinKha sinMatraIi by sinKhIi;\012  sub sinGa sinMatraIi by sinGIi;\012  sub sinGha sinMatraIi by sinGhIi;\012  sub sinNga sinMatraIi by sinNgIi;\012  sub sinNnga sinMatraIi by sinNngIi;\012  sub sinCa sinMatraIi by sinCIi;\012  sub sinCha sinMatraIi by sinChIi;\012  sub sinJa sinMatraIi by sinJIi;\012  sub sinJha sinMatraIi by sinJhIi;\012  sub sinNya sinMatraIi by sinNyIi;\012  sub sinJnya sinMatraIi by sinJnyIi;\012  sub sinNyja sinMatraIi by sinNyjIi;\012  sub sinTta sinMatraIi by sinTtIi;\012  sub sinTtha sinMatraIi by sinTthIi;\012  sub sinDda sinMatraIi by sinDdIi;\012  sub sinDdha sinMatraIi by sinDdhIi;\012  sub sinNna sinMatraIi by sinNnIi;\012  sub sinNndda sinMatraIi by sinNnddIi;\012  sub sinTa sinMatraIi by sinTIi;\012  sub sinTha sinMatraIi by sinThIi;\012  sub sinDa sinMatraIi by sinDIi;\012  sub sinDha sinMatraIi by sinDhIi;\012  sub sinNa sinMatraIi by sinNIi;\012  sub sinNda sinMatraIi by sinNdIi;\012  sub sinPa sinMatraIi by sinPIi;\012  sub sinPha sinMatraIi by sinPhIi;\012  sub sinBa sinMatraIi by sinBIi;\012  sub sinBha sinMatraIi by sinBhIi;\012  sub sinMa sinMatraIi by sinMIi;\012  sub sinMba sinMatraIi by sinMbIi;\012  sub sinYa sinMatraIi by sinYIi;\012  sub sinRa sinMatraIi by sinRIi;\012  sub sinLa sinMatraIi by sinLIi;\012  sub sinVa sinMatraIi by sinVIi;\012  sub sinSha sinMatraIi by sinShIi;\012  sub sinSsa sinMatraIi by sinSsIi;\012  sub sinSa sinMatraIi by sinSIi;\012  sub sinHa sinMatraIi by sinHIi;\012  sub sinLla sinMatraIi by sinLlIi;\012  sub sinFa sinMatraIi by sinFIi;\012  sub sinYansaya sinMatraIi by sinYansaya.MatraIi;\012\012  sub	sinKSsa	sinMatraIi	by	sinKSsIi;\012  sub	sinKVa	sinMatraIi	by	sinKVIi;\012  sub	sinTVa	sinMatraIi	by	sinTVIi;\012  sub	sinTTha	sinMatraIi	by	sinTThIi;\012  sub	sinNDa	sinMatraIi	by	sinNDIi;\012  sub	sinNVa	sinMatraIi	by	sinNVIi;\012  sub	sinNDha	sinMatraIi	by	sinNDhIi;\012  sub	sinNTha	sinMatraIi	by	sinNThIi;\012  sub	sinDVa	sinMatraIi	by	sinDVIi;\012  sub	sinDDha	sinMatraIi	by	sinDDhIi;\012  sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;\012  sub	sinGDha	sinMatraIi	by sinGDhIi;\012  sub	sinNyCa sinMatraIi by sinNyCIi;\012  sub	sinNyCha sinMatraIi by sinNyChIi;\012  sub	sinBBa sinMatraIi by sinBBIi;\012  sub 	sinYansaya sinMatraIi by sinYansaya.MatraIi;\012\012  sub sinKRa sinMatraIi by sinKRIi;\012  sub sinKhRa sinMatraIi by sinKhRIi;\012  sub sinGRa sinMatraIi by sinGRIi;\012  sub sinGhRa sinMatraIi by sinGhRIi;\012  sub sinCRa sinMatraIi by sinCRIi;\012  sub sinJRa sinMatraIi by sinJRIi;\012  sub sinJhRa sinMatraIi by sinJhRIi;\012  sub sinNyRa sinMatraIi by sinNyRIi;\012  sub sinJnyRa sinMatraIi by sinJnyRIi;\012  sub sinTtRa sinMatraIi by sinTtRIi;\012  sub sinDdRa sinMatraIi by sinDdRIi;\012  sub sinTRa sinMatraIi by sinTRIi;\012  sub sinDRa sinMatraIi by sinDRIi;\012  sub sinDhRa sinMatraIi by sinDhRIi;\012  sub sinPRa sinMatraIi by sinPRIi;\012  sub sinBRa sinMatraIi by sinBRIi;\012  sub sinBhRa sinMatraIi by sinBhRIi;\012  sub sinMRa sinMatraIi by sinMRIi;\012  sub sinVRa sinMatraIi by sinVRIi;\012  sub sinShRa sinMatraIi by sinShRIi;\012  sub sinSRa sinMatraIi by sinSRIi;\012  sub sinHRa sinMatraIi by sinHRIi;\012} sinabvs_2;\012\012\012\012lookup sinabvs_3 {\012  sub sinYansaya sinReph by sinYansaya.reph;\012  sub sinYansaya sinMatraAa sinReph  by sinYansaya_Reph_MatraAa;\012  sub sinYansaya sinMatraU sinReph  by sinYansaya_Reph_MatraU;\012  sub sinYansaya sinMatraUu sinReph  by sinYansaya_Reph_MatraUu;\012sub	sinKa	sinReph by sinKa.reph	;\012sub	sinKha	sinReph by sinKha.reph	;\012sub	sinGa	sinReph by sinGa.reph	;\012sub	sinGha	sinReph by sinGha.reph	;\012sub	sinNga	sinReph by sinNga.reph	;\012sub	sinNnga	sinReph by sinNnga.reph	;\012sub	sinCa	sinReph by sinCa.reph	;\012sub	sinCha	sinReph by sinCha.reph	;\012sub	sinJa	sinReph by sinJa.reph	;\012sub	sinJha	sinReph by sinJha.reph	;\012sub	sinNya	sinReph by sinNya.reph	;\012sub	sinJnya	sinReph by sinJnya.reph	;\012sub	sinNyja	sinReph by sinNyja.reph	;\012sub	sinTta	sinReph by sinTta.reph	;\012sub	sinTtha	sinReph by sinTtha.reph	;\012sub	sinDda	sinReph by sinDda.reph	;\012sub	sinDdha	sinReph by sinDdha.reph	;\012sub	sinNna	sinReph by sinNna.reph	;\012sub	sinNndda	sinReph by sinNndda.reph	;\012sub	sinTa	sinReph by sinTa.reph	;\012sub	sinTha	sinReph by sinTha.reph	;\012sub	sinDa	sinReph by sinDa.reph	;\012sub	sinDha	sinReph by sinDha.reph	;\012sub	sinNa	sinReph by sinNa.reph	;\012sub	sinNda	sinReph by sinNda.reph	;\012sub	sinPa	sinReph by sinPa.reph	;\012sub	sinPha	sinReph by sinPha.reph	;\012sub	sinBa	sinReph by sinBa.reph	;\012sub	sinBha	sinReph by sinBha.reph	;\012sub	sinMa	sinReph by sinMa.reph	;\012sub	sinMba	sinReph by sinMba.reph	;\012sub	sinYa	sinReph by sinYa.reph	;\012sub	sinRa	sinReph by sinRa.reph	;\012sub	sinLa	sinReph by sinLa.reph	;\012sub	sinVa	sinReph by sinVa.reph	;\012sub	sinSha	sinReph by sinSha.reph	;\012sub	sinSsa	sinReph by sinSsa.reph	;\012sub	sinSa	sinReph by sinSa.reph	;\012sub	sinHa	sinReph by sinHa.reph	;\012sub	sinLla	sinReph by sinLla.reph	;\012sub	sinFa	sinReph by sinFa.reph	;\012sub	sinfPa	sinReph by sinFa.reph	;\012sub	sinKSsa	sinReph by sinKSsa.reph	;\012sub	sinKVa	sinReph by sinKVa.reph	;\012sub	sinTVa	sinReph by sinTVa.reph	;\012sub	sinTTha	sinReph by sinTTha.reph	;\012sub	sinNDa	sinReph by sinNDa.reph	;\012sub	sinNDha	sinReph by sinNDha.reph	;\012sub	sinNVa	sinReph by sinNVa.reph	;\012sub	sinNTha	sinReph by sinNTha.reph	;\012sub	sinGDha	sinReph by sinGDha.reph	;\012sub	sinDVa	sinReph by sinDVa.reph	;\012sub	sinDDha	sinReph by sinDDha.reph	;\012sub	sinTtTtha	sinReph by sinTtTtha.reph	;\012sub	sinNyCa	sinReph by sinNyCa.reph	;\012sub	sinNyCha	sinReph by sinNyCha.reph	;\012sub	sinBBa	sinReph by sinBBa.reph	;\012} sinabvs_3;\012\012\012lookup sinakhands_reph {\012  sub sinKSsa sinReph by sinKSsa.reph;\012  sub sinKa sinReph sinVirama zerowidthjoiner sinSsa by sinKSsa.reph;\012  sub sinKVa sinReph by sinKVa.reph;\012  sub sinKa sinReph sinVirama zerowidthjoiner sinVa by sinKVa.reph;\012  sub sinTVa sinReph by sinTVa.reph;\012  sub sinTa sinReph sinVirama zerowidthjoiner sinVa by sinTVa.reph;\012  sub sinTTha sinReph by sinTTha.reph;\012  sub sinTa sinReph sinVirama zerowidthjoiner sinTha by sinTTha.reph;\012  sub sinNDa sinReph by sinNDa.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinDa by sinNDa.reph;\012  sub sinNVa sinReph by sinNVa.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinVa by sinNVa.reph;\012  sub sinNDha sinReph by sinNDha.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinDha by sinNDha.reph;\012  sub sinNTha sinReph by sinNTha.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinTha by sinNTha.reph;\012  sub sinDVa sinReph by sinDVa.reph;\012  sub sinDa sinReph sinVirama zerowidthjoiner sinVa by sinDVa.reph;\012  sub sinDDha sinReph by sinDDha.reph;\012  sub sinDa sinReph sinVirama zerowidthjoiner sinDha by sinDDha.reph;\012  sub sinTtTtha sinReph by sinTtTtha.reph;\012  sub sinTta sinReph sinVirama zerowidthjoiner sinTtha by sinTtTtha.reph;\012  sub sinGDha sinReph by sinGDha.reph;\012  sub sinGa sinReph sinVirama zerowidthjoiner sinDha by sinGDha.reph;\012} sinakhands_reph;\012\012#----------- BLWS --------------\012#-------------------------------\012\012lookup sinblws_1 {\012  sub sinKa sinMatraU by sinKU;\012  sub sinKha sinMatraU by sinKhU;\012  sub sinGa sinMatraU by sinGU;\012  sub sinGha sinMatraU by sinGhU;\012  sub sinNnga sinMatraU by sinNngU;\012  sub sinCa sinMatraU by sinCU;\012  sub sinCha sinMatraU by sinChU;\012  sub sinJa sinMatraU by sinJU;\012  sub sinJha sinMatraU by sinJhU;\012  sub sinNya sinMatraU by sinNyU;\012  sub sinJnya sinMatraU by sinJnyU;\012  sub sinNyja sinMatraU by sinNyjU;\012  sub sinTta sinMatraU by sinTtU;\012  sub sinTtha sinMatraU by sinTthU;\012  sub sinDda sinMatraU by sinDdU;\012  sub sinDdha sinMatraU by sinDdhU;\012  sub sinNna sinMatraU by sinNnU;\012  sub sinNndda sinMatraU by sinNnddU;\012  sub sinTa sinMatraU by sinTU;\012  sub sinTha sinMatraU by sinThU;\012  sub sinDa sinMatraU by sinDU;\012  sub sinDha sinMatraU by sinDhU;\012  sub sinNa sinMatraU by sinNU;\012  sub sinNda sinMatraU by sinNdU;\012  sub sinPa sinMatraU by sinPU;\012  sub sinPha sinMatraU by sinPhU;\012  sub sinBa sinMatraU by sinBU;\012  sub sinBha sinMatraU by sinBhU;\012  sub sinMa sinMatraU by sinMU;\012  sub sinMba sinMatraU by sinMbU;\012  sub sinYa sinMatraU by sinYU;\012  sub sinRa sinMatraU by sinRU;\012  sub sinLa sinMatraU by sinLU;\012  sub sinVa sinMatraU by sinVU;\012  sub sinSha sinMatraU by sinShU;\012  sub sinSsa sinMatraU by sinSsU;\012  sub sinSa sinMatraU by sinSU;\012  sub sinHa sinMatraU by sinHU;\012  sub sinLla sinMatraU by sinLlU;\012  sub sinFa sinMatraU by sinFU;\012\012  sub	sinKSsa sinMatraU	by	sinKSsU;\012  sub	sinKVa sinMatraU	by	sinKVU;\012  sub	sinTVa sinMatraU	by	sinTVU;\012  sub	sinTTha sinMatraU	by	sinTThU;\012  sub	sinNDa sinMatraU	by	sinNDU;\012  sub	sinNVa sinMatraU	by	sinNVU;\012  sub	sinNDha sinMatraU	by	sinNDhU;\012  sub	sinNTha sinMatraU	by	sinNThU;\012  sub	sinDVa sinMatraU	by	sinDVU;\012  sub	sinDDha sinMatraU	by	sinDDhU;\012  sub	sinTtTtha	sinMatraU	by	sinTtTthU;\012  sub	sinNyCa sinMatraU by sinNyCU;\012  sub	sinNyCha sinMatraU by sinNyChU;\012  sub	sinBBa sinMatraU by sinBBU;\012  sub sinYansaya sinMatraU by sinYansa_MatraU;\012} sinblws_1;\012\012lookup sinblws_2 {\012  sub sinKa sinMatraUu by sinKUu;\012  sub sinKha sinMatraUu by sinKhUu;\012  sub sinGa sinMatraUu by sinGUu;\012  sub sinGha sinMatraUu by sinGhUu;\012  sub sinNnga sinMatraUu by sinNngUu;\012  sub sinCa sinMatraUu by sinCUu;\012  sub sinCha sinMatraUu by sinChUu;\012  sub sinJa sinMatraUu by sinJUu;\012  sub sinJha sinMatraUu by sinJhUu;\012  sub sinNya sinMatraUu by sinNyUu;\012  sub sinJnya sinMatraUu by sinJnyUu;\012  sub sinNyja sinMatraUu by sinNyjUu;\012  sub sinTta sinMatraUu by sinTtUu;\012  sub sinTtha sinMatraUu by sinTthUu;\012  sub sinDda sinMatraUu by sinDdUu;\012  sub sinDdha sinMatraUu by sinDdhUu;\012  sub sinNna sinMatraUu by sinNnUu;\012  sub sinNndda sinMatraUu by sinNnddUu;\012  sub sinTa sinMatraUu by sinTUu;\012  sub sinTha sinMatraUu by sinThUu;\012  sub sinDa sinMatraUu by sinDUu;\012  sub sinDha sinMatraUu by sinDhUu;\012  sub sinNa sinMatraUu by sinNUu;\012  sub sinNda sinMatraUu by sinNdUu;\012  sub sinPa sinMatraUu by sinPUu;\012  sub sinPha sinMatraUu by sinPhUu;\012  sub sinBa sinMatraUu by sinBUu;\012  sub sinBha sinMatraUu by sinBhUu;\012  sub sinMa sinMatraUu by sinMUu;\012  sub sinMba sinMatraUu by sinMbUu;\012  sub sinYa sinMatraUu by sinYUu;\012  sub sinRa sinMatraUu by sinRUu;\012  sub sinLa sinMatraUu by sinLUu;\012  sub sinVa sinMatraUu by sinVUu;\012  sub sinSha sinMatraUu by sinShUu;\012  sub sinSsa sinMatraUu by sinSsUu;\012  sub sinSa sinMatraUu by sinSUu;\012  sub sinHa sinMatraUu by sinHUu;\012  sub sinLla sinMatraUu by sinLlUu;\012  sub sinFa sinMatraUu by sinFUu;\012  \012   sub	sinKSsa	sinMatraUu	by	sinKSsUu;\012  sub	sinKVa	sinMatraUu	by	sinKVUu;\012  sub	sinTVa	sinMatraUu	by	sinTVUu;\012  sub	sinTTha	sinMatraUu	by	sinTThUu;\012  sub	sinNDa	sinMatraUu	by	sinNDUu;\012  sub	sinNVa	sinMatraUu	by	sinNVUu;\012  sub	sinNDha	sinMatraUu	by	sinNDhUu;\012  sub	sinNTha	sinMatraUu	by	sinNThUu;\012  sub	sinDVa	sinMatraUu	by	sinDVUu;\012  sub	sinDDha	sinMatraUu	by	sinDDhUu;\012  sub	sinTtTtha	sinMatraUu	by	sinTtTthUu;\012  sub	sinNyCa sinMatraUu by sinNyCUu;\012  sub	sinNyCha sinMatraUu by sinNyChUu;\012  sub	sinBBa sinMatraUu by sinBBUu;\012  sub sinYansaya sinMatraUu by sinYansa_MatraUu;\012} sinblws_2;\012\012\012\012lookup sinblws_3 {\012  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraU' by sinMatraU.sub;\012  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraUu' by sinMatraUu.sub;\012} sinblws_3;\012\012#----------- Yansaya --------------\012#-------------------------------\012\012lookup sin_vatu {\012  sub sinVirama zerowidthjoiner sinYa by sinYansaya;\012  sub sinVirama zerowidthjoiner sinRa by sinRakar;\012} sin_vatu;\012\012#----------- Rae, Raae --------------\012#-------------------------------\012\012lookup sin_psts {\012  sub sinRa sinMatraAe by sinRAe;\012  sub sinRa sinMatraAae by sinRAae;\012}  sin_psts;\012\012lookup si_split_matra {\012  sub sinMatraEe by sinVirama;\012  sub sinMatraO by sinMatraAa;\012  sub sinMatraOo by sinMatraAa.virama;\012  sub sinMatraAu by sinMatraLs;\012} si_split_matra;\012\012#----------- Rakaar ------------\012#-------------------------------\012\012lookup sinrakaar {\012  sub sinKa sinRakar by sinKRa;\012  sub sinKha sinRakar by sinKhRa;\012  sub sinGa sinRakar by sinGRa;\012  sub sinGha sinRakar by sinGhRa;\012  sub sinCa sinRakar by sinCRa;\012  sub sinJa sinRakar by sinJRa;\012  sub sinJha sinRakar by sinJhRa;\012  sub sinNya sinRakar by sinNyRa;\012  sub sinTta sinRakar by sinTtRa;\012  sub sinJnya sinRakar by sinJnyRa;\012  sub sinNyja sinRakar by sinNyjRa;\012  sub sinDda sinRakar by sinDdRa;\012  sub sinTa sinRakar by sinTRa;\012  sub sinDa sinRakar by sinDRa;\012  sub sinDha sinRakar by sinDhRa;\012  sub sinPa sinRakar by sinPRa;\012  sub sinBha sinRakar by sinBhRa;\012  sub sinMa sinRakar by sinMRa;\012  sub sinVa sinRakar by sinVRa;\012  sub sinSha sinRakar by sinShRa;\012  sub sinSsa sinRakar by sinSsRa;\012  sub sinSa sinRakar by sinSRa;\012  sub sinHa sinRakar by sinHRa;\012  sub sinFa sinRakar by sinFRa;\012  sub sinNDa sinRakar by sinNDRa;\012  sub sinBa sinRakar by sinBRa;\012} sinrakaar;\012\012#----------- SS01 Da forms ------------\012#---------------------------------\012\012lookup sin_da_subscripts {\012  sub sinDa sinMatraAa by sinDAa.ss01;\012  sub sinDa sinMatraAa by sinDAa.ss01;\012  sub sinDa sinMatraAae by sinDAae.ss01;\012  sub sinDa sinMatraAe by sinDAe.ss01;\012  sub sinDa sinMatraE sinYansaya sinMatraAa by sinDYOo.post.ss01;\012  sub sinDa sinYansa_MatraUu by sinDYUu.post.ss01;\012  sub sinDa sinYansaya by sinDaYa.post.ss01;\012  sub sinDa sinYansaya sinMatraAa by sinDYAa.post.ss01;\012  sub sinDa sinYansa_MatraU by sinDYu.post.ss01;\012  sub sinNda sinMatraAa by sinNdAa.ss01;\012  sub sinNda sinMatraAa by sinNdAa.ss01;\012  sub sinNda sinMatraAae by sinNdAae.ss01;\012  sub sinNda sinMatraAe by sinNdAe.ss01;\012  sub sinJnya sinMatraAa by sinJnyAa.ss01;\012  sub sinJnya sinMatraAa by sinJnyAa.ss01;\012  sub sinJnya sinMatraAae by sinJnyAee.ss01;\012  sub sinJnya sinMatraAe by sinJnyAe.ss01;\012  sub sinNDa sinMatraAa by sinNDAa.ss01;\012  sub sinNDa sinMatraAa by sinNDAa.ss01;\012  sub sinNDa sinMatraAae by sinNDAee.ss01;\012  sub sinNDa sinMatraAe by sinNDAe.ss01;\012  sub sinNya sinMatraAa by sinNyAa.ss01;\012  sub sinNya sinMatraAa by sinNyAa.ss01;\012  sub sinNya sinMatraAae by sinNyAee.ss01;\012  sub sinNya sinMatraAe by sinNyAe.ss01;\012  sub sinDa sinMatraR by sinDvocR.ss01;\012  sub sinDa sinMatraRr by sinDvocRr.ss01;\012  sub sinDRa sinMatraAa by sinDRAa.ss01;\012  sub sinNdRa sinMatraAa by sinNdRAa.ss01;\012\012} sin_da_subscripts;\012\012\012#----------- Sinhala Numerals------------\012#---------------------------------\012\012lookup sin_lithnum_style {\012  sub zero by sinZerolith;\012  sub one by sinOnelith;\012  sub two by sinTwolith;\012  sub three by sinThreelith;\012  sub four by sinFourlith;\012  sub five by sinFivelith;\012  sub six by sinSixlith;\012  sub seven by sinSevenlith;\012  sub eight by sinEightlith;\012  sub nine by sinNinelith;\012} sin_lithnum_style;\012\012#----------- Sinhala touching  ------------\012#---------------------------------\012\012lookup sin_touch {\012  sub zerowidthjoiner sinVirama by sinTouch;\012} sin_touch;\012\012\012#----------- Sinhala touching reph combinations  ------------\012#---------------------------------\012\012\012@REPH_REPLACEMENT_1 = [ sinKa.reph sinGa.reph sinNna.reph sinTa.reph sinBha.reph sinYa.reph ];\012@REPH_REPLACEMENT_2 = [ sinKha.reph  sinGha.reph sinCa.reph  sinTta.reph sinDda.reph sinDha.reph sinMa.reph sinVa.reph   ];\012@REPH_REPLACEMENT_3 = [ sinDa.reph sinPa.reph sinSa.reph ];\012\012\012lookup touch_reph_test {\012	sub sinKa.reph by sinKa  sinReph.001;\012	sub sinNna.reph by sinNna sinReph.001;\012	sub sinGa.reph by sinGa sinReph.001;\012	sub sinGha.reph by sinGha sinReph.001;\012	sub sinTa.reph by sinTa sinReph.001;\012	sub sinBha.reph by sinBha sinReph.001;\012	sub sinYa.reph by sinYa sinReph.001;\012\012	sub sinKha.reph by sinKha sinReph.002;\012	sub sinCa.reph by sinCa sinReph.002;\012	sub sinTta.reph by sinTta sinReph.002;\012	sub sinDda.reph by sinDda sinReph.002;\012	sub sinMa.reph by sinMa sinReph.002;\012	sub sinVa.reph by sinVa sinReph.002;\012	sub sinDha.reph by sinDha sinReph.002;\012\012}touch_reph_test;\012 \012lookup touch_reph{\012	sub sinTouch @REPH_REPLACEMENT_1' lookup touch_reph_test;\012	sub sinTouch @REPH_REPLACEMENT_2' lookup touch_reph_test;\012\012}touch_reph;\012\012\012#----------- Sinhala touching  ------------\012\012@BASE_BODY_HEIGHT = [ sinKa sinPa sinTa];\012@BASE_ASCENDING = [ sinTta sinMa sinBa];\012\012\012@REPH_REPLACEMENT_MATRAI_1 = [ sinKI sinKhI sinGI sinGhI sinNgI sinNngI sinCI sinChI sinJI sinJhI sinNyI sinJnyI sinNyjI sinTtI sinTthI sinDdI sinDdhI sinNnI sinNnddI sinTI sinThI sinDI sinDhI sinNI sinNdI sinPI sinPhI sinBI sinBhI sinMI sinMbI sinYI sinRI sinLI sinVI sinShI sinSsI sinSI sinHI sinLlI sinFI sinfPI sinKSsI sinKVI sinTVI sinTThI sinNDI sinNDhI sinNVI sinNThI sinGDhI sinDVI sinDDhI sinTtTthI sinNyCI sinNyChI sinCCI sinBBI];\012\012@REPH_REPLACEMENT_MATRAIi_1 = [ sinKIi sinKhIi sinGIi sinGhIi sinNgIi sinNngIi sinCIi sinChIi sinJIi sinJhIi sinNyIi sinJnyIi sinNyjIi sinTtIi sinTthIi sinDdIi sinDdhIi sinNnIi sinNnddIi sinTIi sinThIi sinDIi sinDhIi sinNIi sinNdIi sinPIi sinPhIi sinBIi sinBhIi sinMIi sinMbIi sinYIi sinRIi sinLIi sinVIi sinShIi sinSsIi sinSIi sinHIi sinLlIi sinFIi sinfPIi sinKSsIi sinKVIi sinTVIi sinTThIi sinNDIi sinNDhIi sinNVIi sinNThIi sinGDhIi sinDVIi sinDDhIi sinTtTthIi sinNyCIi sinNyChIi sinCCIi sinBBIi];\012\012\012lookup touch_reph_test_2 {\012	sub @BASE_BODY_HEIGHT sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.003;\012	sub @BASE_ASCENDING sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.004;\012\012	sub @BASE_ASCENDING sinTouch @REPH_REPLACEMENT_MATRAIi_1 sinReph' by sinReph.003;\012}touch_reph_test_2;\012 \012# lookup touch_reph_imatra{\012# 	sub sinTouch sinMI sinMatraI' lookup touch_reph_test_2;\012# \012# }touch_reph_imatra;\012\012\012";
 name = Prefix;
 },
 {
-code = "@TA_MATRA_U_1 = [ taNga taPa taYa taVa ];\012\012#---- AKHN ----\012\012lookup akhands {\012    sub taKa taHalant taSsa by taKSsa;\012    sub taSha taHalant taRa taMatraIi by taShree;\012    sub taSa taHalant taRa taMatraIi by taShree;\012    \012} akhands;\012\012\012\012#---- ABVS ----\012\012lookup above_base_sub_1 {\012sub taKa	taMatraI	by	taKI	;\012sub taNga	taMatraI	by	taNgI	;\012sub taCa	taMatraI	by	taCI	;\012sub taNya	taMatraI	by	taNyI	;\012sub taTta	taMatraI	by	taTtI	;\012sub taNna	taMatraI	by	taNnI	;\012sub taTa	taMatraI	by	taTI	;\012sub taNa	taMatraI	by	taNI	;\012sub taPa	taMatraI	by	taPI	;\012sub taMa	taMatraI	by	taMI	;\012sub taYa	taMatraI	by	taYI	;\012sub taRa	taMatraI	by	taRI	;\012sub taLa	taMatraI	by	taLI	;\012sub taVa	taMatraI	by	taVI	;\012sub taLlla	taMatraI	by	taLllI	;\012sub taLla	taMatraI	by	taLlI	;\012sub taRra	taMatraI	by	taRrI	;\012sub taNnna	taMatraI	by	taNnnI	;\012sub taJa	taMatraI	by	taJI	;\012sub taSsa	taMatraI	by	taSsI	;\012sub taSa	taMatraI	by	taSI	;\012sub taHa	taMatraI	by	taHI	;\012sub taKSsa	taMatraI	by	taKSsI	;\012sub taSha	taMatraI	by	taShI	;\012} above_base_sub_1;\012\012lookup above_base_sub_2 {\012sub taKa	taMatraIi	by	taKIi	;\012sub taNga	taMatraIi	by	taNgIi	;\012sub taCa	taMatraIi	by	taCIi	;\012sub taNya	taMatraIi	by	taNyIi	;\012sub taTta	taMatraIi	by	taTtIi	;\012sub taNna	taMatraIi	by	taNnIi	;\012sub taTa	taMatraIi	by	taTIi	;\012sub taNa	taMatraIi	by	taNIi	;\012sub taPa	taMatraIi	by	taPIi	;\012sub taMa	taMatraIi	by	taMIi	;\012sub taYa	taMatraIi	by	taYIi	;\012sub taRa	taMatraIi	by	taRIi	;\012sub taLa	taMatraIi	by	taLIi	;\012sub taVa	taMatraIi	by	taVIi	;\012sub taLlla	taMatraIi	by	taLllIi	;\012sub taLla	taMatraIi	by	taLlIi	;\012sub taRra	taMatraIi	by	taRrIi	;\012sub taNnna	taMatraIi	by	taNnnIi	;\012sub taJa	taMatraIi	by	taJIi	;\012sub taSsa	taMatraIi	by	taSsIi	;\012sub taSa	taMatraIi	by	taSIi	;\012sub taHa	taMatraIi	by	taHIi	;\012sub taKSsa	taMatraIi	by	taKSsIi	;\012sub taSha	taMatraIi	by	taShIi	;\012\012 } above_base_sub_2;\012\012#---- PSTS ----\012\012lookup post_base_sub_1 {\012    sub taKa taMatraU by taKU;\012    sub taCa taMatraU by taCU;\012    sub taNya taMatraU by taNyU;\012    sub taTta taMatraU by taTtU;\012    sub taNna taMatraU by taNnU;\012    sub taTa taMatraU by taTU;\012    sub taNa taMatraU by taNU;\012    sub taNnna taMatraU by taNnnU;\012    sub taMa taMatraU by taMU;\012    sub taRa taMatraU by taRU;\012    sub taRra taMatraU by taRrU;\012    sub taLa taMatraU by taLU;\012    sub taLla taMatraU by taLlU;\012    sub taLlla taMatraU by taLllU;\012    sub taJa taMatraU by taJU;\012    sub taSa taMatraU by taSU;\012    sub taSsa taMatraU by taSsU;\012    sub taKSsa taMatraU by taKSsU;\012    sub taHa taMatraU by taHU;\012\012\012\012} post_base_sub_1;\012\012lookup post_base_sub_2 {\012    sub taKa taMatraUu by taKUu;\012    sub taNga taMatraUu by taNgUu;\012    sub taCa taMatraUu by taCUu;\012    sub taNya taMatraUu by taNyUu;\012    sub taTta taMatraUu by taTtUu;\012    sub taNna taMatraUu by taNnUu;\012    sub taTa taMatraUu by taTUu;\012    sub taNa taMatraUu by taNUu;\012    sub taNnna taMatraUu by taNnnUu;\012    sub taPa taMatraUu by taPUu;\012    sub taYa taMatraUu by taYUu;\012    sub taMa taMatraUu by taMUu;\012    sub taRa taMatraUu by taRUu;\012    sub taRra taMatraUu by taRrUu;\012    sub taLa taMatraUu by taLUu;\012    sub taLla taMatraUu by taLlUu;\012    sub taLlla taMatraUu by taLllUu;\012    sub taVa taMatraUu by taVUu;\012    sub taJa taMatraUu by taJUu;\012    sub taSsa taMatraUu by taSsUu;\012    sub taKSsa taMatraUu by taKSsUu;\012    sub taHa taMatraUu by taHUu;\012\012 } post_base_sub_2;\012\012\012lookup post_base_sub_3{\012    sub @TA_MATRA_U_1 taMatraU' by taMatraU.alt1;\012 } post_base_sub_3;\012\012\012\012\012\012\012\012";
+code = "@TA_MATRA_U_1 = [ taNga taPa taYa taVa ];\012\012#---- AKHN ----\012\012lookup akhands {\012    sub taKa taHalant taSsa by taKSsa;\012    sub taSha taHalant taRa taMatraIi by taShree;\012    sub taSa taHalant taRa taMatraIi by taShree;\012    \012} akhands;\012\012\012\012#---- ABVS ----\012\012lookup above_base_sub_1 {\012sub taKa	taMatraI	by	taKI	;\012sub taNga	taMatraI	by	taNgI	;\012sub taCa	taMatraI	by	taCI	;\012sub taNya	taMatraI	by	taNyI	;\012sub taTta	taMatraI	by	taTtI	;\012sub taNna	taMatraI	by	taNnI	;\012sub taTa	taMatraI	by	taTI	;\012sub taNa	taMatraI	by	taNI	;\012sub taPa	taMatraI	by	taPI	;\012sub taMa	taMatraI	by	taMI	;\012sub taYa	taMatraI	by	taYI	;\012sub taRa	taMatraI	by	taRI	;\012sub taLa	taMatraI	by	taLI	;\012sub taVa	taMatraI	by	taVI	;\012sub taLlla	taMatraI	by	taLllI	;\012sub taLla	taMatraI	by	taLlI	;\012sub taRra	taMatraI	by	taRrI	;\012sub taNnna	taMatraI	by	taNnnI	;\012sub taJa	taMatraI	by	taJI	;\012sub taSsa	taMatraI	by	taSsI	;\012sub taSa	taMatraI	by	taSI	;\012sub taHa	taMatraI	by	taHI	;\012sub taKSsa	taMatraI	by	taKSsI	;\012sub taSha	taMatraI	by	taShI	;\012} above_base_sub_1;\012\012lookup above_base_sub_2 {\012sub taKa	taMatraIi	by	taKIi	;\012sub taNga	taMatraIi	by	taNgIi	;\012sub taCa	taMatraIi	by	taCIi	;\012sub taNya	taMatraIi	by	taNyIi	;\012sub taTta	taMatraIi	by	taTtIi	;\012sub taNna	taMatraIi	by	taNnIi	;\012sub taTa	taMatraIi	by	taTIi	;\012sub taNa	taMatraIi	by	taNIi	;\012sub taPa	taMatraIi	by	taPIi	;\012sub taMa	taMatraIi	by	taMIi	;\012sub taYa	taMatraIi	by	taYIi	;\012sub taRa	taMatraIi	by	taRIi	;\012sub taLa	taMatraIi	by	taLIi	;\012sub taVa	taMatraIi	by	taVIi	;\012sub taLlla	taMatraIi	by	taLllIi	;\012sub taLla	taMatraIi	by	taLlIi	;\012sub taRra	taMatraIi	by	taRrIi	;\012sub taNnna	taMatraIi	by	taNnnIi	;\012sub taJa	taMatraIi	by	taJIi	;\012sub taSsa	taMatraIi	by	taSsIi	;\012sub taSa	taMatraIi	by	taSIi	;\012sub taHa	taMatraIi	by	taHIi	;\012sub taKSsa	taMatraIi	by	taKSsIi	;\012sub taSha	taMatraIi	by	taShIi	;\012\012 } above_base_sub_2;\012\012#---- PSTS ----\012\012lookup post_base_sub_1 {\012    sub taKa taMatraU by taKU;\012    sub taCa taMatraU by taCU;\012    sub taNya taMatraU by taNyU;\012    sub taTta taMatraU by taTtU;\012    sub taNna taMatraU by taNnU;\012    sub taTa taMatraU by taTU;\012    sub taNa taMatraU by taNU;\012    sub taNnna taMatraU by taNnnU;\012    sub taMa taMatraU by taMU;\012    sub taRa taMatraU by taRU;\012    sub taRra taMatraU by taRrU;\012    sub taLa taMatraU by taLU;\012    sub taLla taMatraU by taLlU;\012    sub taLlla taMatraU by taLllU;\012    sub taJa taMatraU by taJU;\012    sub taSa taMatraU by taSU;\012    sub taSsa taMatraU by taSsU;\012    sub taKSsa taMatraU by taKSsU;\012    sub taHa taMatraU by taHU;\012\012\012\012} post_base_sub_1;\012\012lookup post_base_sub_2 {\012    sub taKa taMatraUu by taKUu;\012    sub taNga taMatraUu by taNgUu;\012    sub taCa taMatraUu by taCUu;\012    sub taNya taMatraUu by taNyUu;\012    sub taTta taMatraUu by taTtUu;\012    sub taNna taMatraUu by taNnUu;\012    sub taTa taMatraUu by taTUu;\012    sub taNa taMatraUu by taNUu;\012    sub taNnna taMatraUu by taNnnUu;\012    sub taPa taMatraUu by taPUu;\012    sub taYa taMatraUu by taYUu;\012    sub taMa taMatraUu by taMUu;\012    sub taRa taMatraUu by taRUu;\012    sub taRra taMatraUu by taRrUu;\012    sub taLa taMatraUu by taLUu;\012    sub taLla taMatraUu by taLlUu;\012    sub taLlla taMatraUu by taLllUu;\012    sub taVa taMatraUu by taVUu;\012    sub taJa taMatraUu by taJUu;\012    sub taSsa taMatraUu by taSsUu;\012    sub taKSsa taMatraUu by taKSsUu;\012    sub taHa taMatraUu by taHUu;\012\012 } post_base_sub_2;\012\012\012lookup post_base_sub_3{\012    sub @TA_MATRA_U_1 taMatraU' by taMatraU.alt1;\012 } post_base_sub_3;\012\012\012\012\012\012\012\012\012";
 name = Prefix;
 }
 );
@@ -911,15 +890,11 @@ code = "    script taml;\012        lookup post_base_sub_1;\012        lookup po
 name = psts;
 },
 {
-code = "	\012#	sinTouch sinMa.reph sinMatraI by sinTouch sinMI\012\012#  lookup sin_touch_reph {\012#  sub sinTouch sinMa.reph sinMatraI by sinMI;\012# 	} sin_touch_reph;\012# \012# lookup sin_touch_reph1 {\012# sub sinMa' sinTouch sinMa.reph sinMatraI by sinMa.reph;\012# sub sinMa.reph sinTouch sinMa.reph sinMatraI' lookup sin_touch_reph;\012# \012# } sin_touch_reph1;\012\012 lookup sin_touch_reph {\012	sub sinTouch sinNna sinReph' by sinReph.001;\012 } sin_touch_reph;\012\012\012\012\012# lookup sin_ma_by_ma_reph {\012# sub sinMa.reph.001 by sinMa.reph sinTouch sinMI;\012# } sin_ma_by_ma_reph;";
-name = rlig;
-},
-{
 code = "  script sinh;\012      lookup sinakhands;\012	  lookup sinakhands_reph;\012      lookup sin_touch;";
 name = akhn;
 },
 {
-code = "  script sinh;\012      lookup sinreph;";
+code = "  script sinh;\012      lookup sinreph;\012";
 name = rphf;
 },
 {
@@ -931,7 +906,7 @@ code = "  script sinh;\012      lookup si_split_matra;\012";
 name = pstf;
 },
 {
-code = "  script sinh;\012      lookup sin_virama;\012      lookup sinabvs_1;\012      lookup sinabvs_2;\012      lookup sinabvs_3;\012      lookup sinakhands_reph;";
+code = "  script sinh;\012      lookup touch_reph;\012      lookup sin_virama;\012      lookup sinabvs_1;\012      lookup sinabvs_2;\012      lookup sinabvs_3;\012      lookup touch_reph_test_2;\012      lookup sinakhands_reph;";
 name = abvs;
 },
 {
@@ -947,12 +922,12 @@ code = "  script sinh;\012  featureNames {\012    name \"Sinhala Da-form Subscri
 name = ss01;
 },
 {
-code = "script sinh;\012    lookup sin_da_subscripts;";
-name = dlig;
-},
-{
 code = "  script sinh;\012    lookup sin_lithnum_style;";
 name = ss02;
+},
+{
+code = "script sinh;\012    lookup sin_da_subscripts;";
+name = dlig;
 },
 {
 code = "  pos sinTouch <0 0 -113 0>;\012";
@@ -6050,20 +6025,16 @@ unicode = 0DA0;
 },
 {
 glyphname = sinCha;
-lastChange = "2021-05-27 08:17:45 +0000";
+lastChange = "2021-06-08 07:01:37 +0000";
 layers = (
 {
-anchors = (
-{
-name = _cursive;
-position = "{52, 0}";
-}
-);
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
 paths = (
 {
 closed = 1;
 nodes = (
+"156 0 OFFCURVE",
+"32 43 OFFCURVE",
 "32 166 CURVE SMOOTH",
 "32 243 OFFCURVE",
 "94 305 OFFCURVE",
@@ -6169,26 +6140,20 @@ nodes = (
 "536 164 CURVE SMOOTH",
 "536 44 OFFCURVE",
 "414 0 OFFCURVE",
-"291 0 CURVE SMOOTH",
-"156 0 OFFCURVE",
-"32 43 OFFCURVE"
+"291 0 CURVE SMOOTH"
 );
 }
 );
 width = 583;
 },
 {
-anchors = (
-{
-name = _cursive;
-position = "{52, 0}";
-}
-);
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 paths = (
 {
 closed = 1;
 nodes = (
+"156 0 OFFCURVE",
+"32 43 OFFCURVE",
 "32 166 CURVE SMOOTH",
 "32 243 OFFCURVE",
 "94 305 OFFCURVE",
@@ -6294,9 +6259,7 @@ nodes = (
 "536 164 CURVE SMOOTH",
 "536 44 OFFCURVE",
 "414 0 OFFCURVE",
-"291 0 CURVE SMOOTH",
-"156 0 OFFCURVE",
-"32 43 OFFCURVE"
+"291 0 CURVE SMOOTH"
 );
 }
 );
@@ -8680,17 +8643,13 @@ unicode = 0DAA;
 },
 {
 glyphname = sinNna;
-lastChange = "2021-06-07 19:24:22 +0000";
+lastChange = "2021-06-08 04:46:08 +0000";
 layers = (
 {
 anchors = (
 {
 name = _cursive;
 position = "{51, 0}";
-},
-{
-name = _reph_touch;
-position = "{47, 419}";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -8759,6 +8718,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"301 159 OFFCURVE",
+"261 199 OFFCURVE",
 "261 247 CURVE SMOOTH",
 "261 295 OFFCURVE",
 "301 335 OFFCURVE",
@@ -8768,14 +8729,14 @@ nodes = (
 "437 247 CURVE SMOOTH",
 "437 199 OFFCURVE",
 "397 159 OFFCURVE",
-"349 159 CURVE SMOOTH",
-"301 159 OFFCURVE",
-"261 199 OFFCURVE"
+"349 159 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"316 308 OFFCURVE",
+"289 281 OFFCURVE",
 "289 248 CURVE SMOOTH",
 "289 215 OFFCURVE",
 "316 188 OFFCURVE",
@@ -8785,14 +8746,14 @@ nodes = (
 "408 248 CURVE SMOOTH",
 "408 281 OFFCURVE",
 "382 308 OFFCURVE",
-"349 308 CURVE SMOOTH",
-"316 308 OFFCURVE",
-"289 281 OFFCURVE"
+"349 308 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"577 35 OFFCURVE",
+"536 90 OFFCURVE",
 "536 157 CURVE SMOOTH",
 "536 224 OFFCURVE",
 "577 279 OFFCURVE",
@@ -8814,14 +8775,14 @@ nodes = (
 "697 66 CURVE",
 "681 46 OFFCURVE",
 "658 35 OFFCURVE",
-"630 35 CURVE SMOOTH",
-"577 35 OFFCURVE",
-"536 90 OFFCURVE"
+"630 35 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"593 250 OFFCURVE",
+"563 209 OFFCURVE",
 "563 158 CURVE SMOOTH",
 "563 107 OFFCURVE",
 "593 66 OFFCURVE",
@@ -8831,14 +8792,14 @@ nodes = (
 "694 158 CURVE SMOOTH",
 "694 217 OFFCURVE",
 "673 250 OFFCURVE",
-"629 250 CURVE SMOOTH",
-"593 250 OFFCURVE",
-"563 209 OFFCURVE"
+"629 250 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"717 103 OFFCURVE",
+"717 104 OFFCURVE",
 "717 103 CURVE SMOOTH",
 "717 43 OFFCURVE",
 "751 33 OFFCURVE",
@@ -8857,9 +8818,7 @@ nodes = (
 "724 157 CURVE SMOOTH",
 "724 137 OFFCURVE",
 "722 120 OFFCURVE",
-"717 104 CURVE SMOOTH",
-"717 103 OFFCURVE",
-"717 104 OFFCURVE"
+"717 104 CURVE SMOOTH"
 );
 }
 );
@@ -8870,10 +8829,6 @@ anchors = (
 {
 name = _cursive;
 position = "{51, 0}";
-},
-{
-name = _reph_touch;
-position = "{47, 419}";
 }
 );
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
@@ -8942,6 +8897,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"298 172 OFFCURVE",
+"259 211 OFFCURVE",
 "259 258 CURVE SMOOTH",
 "259 305 OFFCURVE",
 "298 343 OFFCURVE",
@@ -8951,14 +8908,14 @@ nodes = (
 "430 258 CURVE SMOOTH",
 "430 211 OFFCURVE",
 "392 172 OFFCURVE",
-"345 172 CURVE SMOOTH",
-"298 172 OFFCURVE",
-"259 211 OFFCURVE"
+"345 172 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"314 313 OFFCURVE",
+"289 288 OFFCURVE",
 "289 258 CURVE SMOOTH",
 "289 228 OFFCURVE",
 "314 203 OFFCURVE",
@@ -8968,14 +8925,14 @@ nodes = (
 "399 258 CURVE SMOOTH",
 "399 288 OFFCURVE",
 "374 313 OFFCURVE",
-"344 313 CURVE SMOOTH",
-"314 313 OFFCURVE",
-"289 288 OFFCURVE"
+"344 313 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"578 36 OFFCURVE",
+"536 90 OFFCURVE",
 "536 157 CURVE SMOOTH",
 "536 224 OFFCURVE",
 "578 279 OFFCURVE",
@@ -8997,14 +8954,14 @@ nodes = (
 "697 66 CURVE",
 "681 46 OFFCURVE",
 "658 36 OFFCURVE",
-"630 36 CURVE SMOOTH",
-"578 36 OFFCURVE",
-"536 90 OFFCURVE"
+"630 36 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"593 249 OFFCURVE",
+"565 208 OFFCURVE",
 "565 158 CURVE SMOOTH",
 "565 108 OFFCURVE",
 "593 68 OFFCURVE",
@@ -9014,14 +8971,14 @@ nodes = (
 "692 158 CURVE SMOOTH",
 "692 215 OFFCURVE",
 "671 249 OFFCURVE",
-"628 249 CURVE SMOOTH",
-"593 249 OFFCURVE",
-"565 208 OFFCURVE"
+"628 249 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
+"719 110 OFFCURVE",
+"719 107 OFFCURVE",
 "719 103 CURVE SMOOTH",
 "719 57 OFFCURVE",
 "750 49 OFFCURVE",
@@ -9040,9 +8997,7 @@ nodes = (
 "724 157 CURVE SMOOTH",
 "724 141 OFFCURVE",
 "722 126 OFFCURVE",
-"719 113 CURVE SMOOTH",
-"719 110 OFFCURVE",
-"719 107 OFFCURVE"
+"719 113 CURVE SMOOTH"
 );
 }
 );
@@ -19517,7 +19472,7 @@ category = Mark;
 },
 {
 glyphname = sinReph;
-lastChange = "2021-06-03 08:27:44 +0000";
+lastChange = "2021-06-08 04:34:03 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -37178,6 +37133,19 @@ width = 592;
 );
 },
 {
+glyphname = sinfPI;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+},
+{
 glyphname = sinKSsI;
 lastChange = "2020-11-25 08:05:21 +0000";
 layers = (
@@ -39558,6 +39526,19 @@ nodes = (
 }
 );
 width = 683;
+}
+);
+},
+{
+glyphname = sinCCI;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
 }
 );
 },
@@ -48336,6 +48317,19 @@ width = 592;
 );
 },
 {
+glyphname = sinfPIi;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+},
+{
 glyphname = sinKSsIi;
 lastChange = "2020-11-25 08:05:21 +0000";
 layers = (
@@ -51510,6 +51504,19 @@ nodes = (
 }
 );
 width = 686;
+}
+);
+},
+{
+glyphname = sinCCIi;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 600;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
 }
 );
 },
@@ -81884,7 +81891,7 @@ width = 729;
 },
 {
 glyphname = sinKha.reph;
-lastChange = "2021-05-27 04:20:53 +0000";
+lastChange = "2021-06-08 06:09:31 +0000";
 layers = (
 {
 components = (
@@ -81894,7 +81901,7 @@ name = sinKha;
 {
 alignment = -1;
 name = sinReph;
-transform = "{1, 0, 0, 1, 582, 87}";
+transform = "{1, 0, 0, 1, 661, 88}";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -81918,7 +81925,7 @@ width = 615;
 },
 {
 glyphname = sinGa.reph;
-lastChange = "2021-05-27 04:21:10 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -81931,7 +81938,7 @@ components = (
 {
 alignment = -1;
 name = sinReph;
-transform = "{1, 0, 0, 1, 620, 0}";
+transform = "{1, 0, 0, 1, 680, -60}";
 },
 {
 name = sinGa;
@@ -81965,7 +81972,7 @@ width = 622;
 },
 {
 glyphname = sinGha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -82122,8 +82129,300 @@ width = 661;
 );
 },
 {
+glyphname = sinNga.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinNga;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"249 609 CURVE SMOOTH",
+"249 588 OFFCURVE",
+"268 573 OFFCURVE",
+"289 573 CURVE SMOOTH",
+"310 573 OFFCURVE",
+"329 588 OFFCURVE",
+"329 609 CURVE SMOOTH",
+"329 630 OFFCURVE",
+"310 646 OFFCURVE",
+"289 646 CURVE SMOOTH",
+"268 646 OFFCURVE",
+"249 630 OFFCURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"149 628 CURVE SMOOTH",
+"149 690 OFFCURVE",
+"206 727 OFFCURVE",
+"286 727 CURVE SMOOTH",
+"361 727 OFFCURVE",
+"424 684 OFFCURVE",
+"424 615 CURVE SMOOTH",
+"424 592 OFFCURVE",
+"416 571 OFFCURVE",
+"399 552 CURVE",
+"366 552 LINE",
+"379 564 OFFCURVE",
+"395 588 OFFCURVE",
+"395 614 CURVE SMOOTH",
+"395 670 OFFCURVE",
+"345 700 OFFCURVE",
+"285 700 CURVE SMOOTH",
+"233 700 OFFCURVE",
+"180 680 OFFCURVE",
+"180 628 CURVE SMOOTH",
+"180 590 OFFCURVE",
+"221 571 OFFCURVE",
+"243 569 CURVE",
+"235 575 OFFCURVE",
+"223 589 OFFCURVE",
+"223 610 CURVE SMOOTH",
+"223 644 OFFCURVE",
+"253 669 OFFCURVE",
+"288 669 CURVE SMOOTH",
+"328 669 OFFCURVE",
+"356 643 OFFCURVE",
+"356 609 CURVE SMOOTH",
+"356 571 OFFCURVE",
+"322 545 OFFCURVE",
+"265 545 CURVE SMOOTH",
+"207 545 OFFCURVE",
+"149 573 OFFCURVE"
+);
+}
+);
+width = 602;
+},
+{
+components = (
+{
+name = sinNga;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"249 609 CURVE SMOOTH",
+"249 588 OFFCURVE",
+"268 573 OFFCURVE",
+"289 573 CURVE SMOOTH",
+"310 573 OFFCURVE",
+"329 588 OFFCURVE",
+"329 609 CURVE SMOOTH",
+"329 630 OFFCURVE",
+"310 646 OFFCURVE",
+"289 646 CURVE SMOOTH",
+"268 646 OFFCURVE",
+"249 630 OFFCURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"149 628 CURVE SMOOTH",
+"149 690 OFFCURVE",
+"206 727 OFFCURVE",
+"286 727 CURVE SMOOTH",
+"361 727 OFFCURVE",
+"424 684 OFFCURVE",
+"424 615 CURVE SMOOTH",
+"424 592 OFFCURVE",
+"416 571 OFFCURVE",
+"399 552 CURVE",
+"366 552 LINE",
+"379 564 OFFCURVE",
+"395 588 OFFCURVE",
+"395 614 CURVE SMOOTH",
+"395 670 OFFCURVE",
+"345 700 OFFCURVE",
+"285 700 CURVE SMOOTH",
+"233 700 OFFCURVE",
+"180 680 OFFCURVE",
+"180 628 CURVE SMOOTH",
+"180 590 OFFCURVE",
+"221 571 OFFCURVE",
+"243 569 CURVE",
+"235 575 OFFCURVE",
+"223 589 OFFCURVE",
+"223 610 CURVE SMOOTH",
+"223 644 OFFCURVE",
+"253 669 OFFCURVE",
+"288 669 CURVE SMOOTH",
+"328 669 OFFCURVE",
+"356 643 OFFCURVE",
+"356 609 CURVE SMOOTH",
+"356 571 OFFCURVE",
+"322 545 OFFCURVE",
+"265 545 CURVE SMOOTH",
+"207 545 OFFCURVE",
+"149 573 OFFCURVE"
+);
+}
+);
+width = 600;
+}
+);
+},
+{
+glyphname = sinNnga.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinNnga;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"398 475 CURVE SMOOTH",
+"398 454 OFFCURVE",
+"417 439 OFFCURVE",
+"438 439 CURVE SMOOTH",
+"459 439 OFFCURVE",
+"478 454 OFFCURVE",
+"478 475 CURVE SMOOTH",
+"478 496 OFFCURVE",
+"459 512 OFFCURVE",
+"438 512 CURVE SMOOTH",
+"417 512 OFFCURVE",
+"398 496 OFFCURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"298 494 CURVE SMOOTH",
+"298 556 OFFCURVE",
+"355 593 OFFCURVE",
+"435 593 CURVE SMOOTH",
+"510 593 OFFCURVE",
+"573 550 OFFCURVE",
+"573 481 CURVE SMOOTH",
+"573 458 OFFCURVE",
+"565 437 OFFCURVE",
+"548 418 CURVE",
+"515 418 LINE",
+"528 430 OFFCURVE",
+"544 454 OFFCURVE",
+"544 480 CURVE SMOOTH",
+"544 536 OFFCURVE",
+"494 566 OFFCURVE",
+"434 566 CURVE SMOOTH",
+"382 566 OFFCURVE",
+"329 546 OFFCURVE",
+"329 494 CURVE SMOOTH",
+"329 456 OFFCURVE",
+"370 437 OFFCURVE",
+"392 435 CURVE",
+"384 441 OFFCURVE",
+"372 455 OFFCURVE",
+"372 476 CURVE SMOOTH",
+"372 510 OFFCURVE",
+"402 535 OFFCURVE",
+"437 535 CURVE SMOOTH",
+"477 535 OFFCURVE",
+"505 509 OFFCURVE",
+"505 475 CURVE SMOOTH",
+"505 437 OFFCURVE",
+"471 411 OFFCURVE",
+"414 411 CURVE SMOOTH",
+"356 411 OFFCURVE",
+"298 439 OFFCURVE"
+);
+}
+);
+width = 732;
+},
+{
+components = (
+{
+name = sinNnga;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"398 475 CURVE SMOOTH",
+"398 454 OFFCURVE",
+"417 439 OFFCURVE",
+"438 439 CURVE SMOOTH",
+"459 439 OFFCURVE",
+"478 454 OFFCURVE",
+"478 475 CURVE SMOOTH",
+"478 496 OFFCURVE",
+"459 512 OFFCURVE",
+"438 512 CURVE SMOOTH",
+"417 512 OFFCURVE",
+"398 496 OFFCURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"298 494 CURVE SMOOTH",
+"298 556 OFFCURVE",
+"355 593 OFFCURVE",
+"435 593 CURVE SMOOTH",
+"510 593 OFFCURVE",
+"573 550 OFFCURVE",
+"573 481 CURVE SMOOTH",
+"573 458 OFFCURVE",
+"565 437 OFFCURVE",
+"548 418 CURVE",
+"515 418 LINE",
+"528 430 OFFCURVE",
+"544 454 OFFCURVE",
+"544 480 CURVE SMOOTH",
+"544 536 OFFCURVE",
+"494 566 OFFCURVE",
+"434 566 CURVE SMOOTH",
+"382 566 OFFCURVE",
+"329 546 OFFCURVE",
+"329 494 CURVE SMOOTH",
+"329 456 OFFCURVE",
+"370 437 OFFCURVE",
+"392 435 CURVE",
+"384 441 OFFCURVE",
+"372 455 OFFCURVE",
+"372 476 CURVE SMOOTH",
+"372 510 OFFCURVE",
+"402 535 OFFCURVE",
+"437 535 CURVE SMOOTH",
+"477 535 OFFCURVE",
+"505 509 OFFCURVE",
+"505 475 CURVE SMOOTH",
+"505 437 OFFCURVE",
+"471 411 OFFCURVE",
+"414 411 CURVE SMOOTH",
+"356 411 OFFCURVE",
+"298 439 OFFCURVE"
+);
+}
+);
+width = 731;
+}
+);
+},
+{
 glyphname = sinCa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -82166,12 +82465,12 @@ nodes = (
 "380 730 OFFCURVE",
 "441 688 OFFCURVE",
 "441 619 CURVE SMOOTH",
-"441 596 OFFCURVE",
-"435 574 OFFCURVE",
-"418 555 CURVE",
-"385 555 LINE",
-"398 567 OFFCURVE",
-"412 591 OFFCURVE",
+"441 589 OFFCURVE",
+"433 564 OFFCURVE",
+"406 533 CURVE",
+"376 542 LINE",
+"399 566 OFFCURVE",
+"412 584 OFFCURVE",
 "412 617 CURVE SMOOTH",
 "412 673 OFFCURVE",
 "363 703 OFFCURVE",
@@ -82280,8 +82579,154 @@ width = 583;
 );
 },
 {
+glyphname = sinCha.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinCha;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"263 535 OFFCURVE",
+"244 519 OFFCURVE",
+"244 499 CURVE SMOOTH",
+"244 479 OFFCURVE",
+"263 463 OFFCURVE",
+"284 463 CURVE SMOOTH",
+"305 463 OFFCURVE",
+"323 479 OFFCURVE",
+"323 499 CURVE SMOOTH",
+"323 519 OFFCURVE",
+"305 535 OFFCURVE",
+"284 535 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"201 435 OFFCURVE",
+"144 463 OFFCURVE",
+"144 518 CURVE SMOOTH",
+"144 580 OFFCURVE",
+"201 616 OFFCURVE",
+"281 616 CURVE SMOOTH",
+"356 616 OFFCURVE",
+"418 574 OFFCURVE",
+"418 505 CURVE SMOOTH",
+"418 482 OFFCURVE",
+"410 460 OFFCURVE",
+"394 441 CURVE",
+"369 441 LINE",
+"376 453 OFFCURVE",
+"387 477 OFFCURVE",
+"387 504 CURVE SMOOTH",
+"387 557 OFFCURVE",
+"340 588 OFFCURVE",
+"280 588 CURVE SMOOTH",
+"228 588 OFFCURVE",
+"176 567 OFFCURVE",
+"176 518 CURVE SMOOTH",
+"176 480 OFFCURVE",
+"218 462 OFFCURVE",
+"235 460 CURVE",
+"227 466 OFFCURVE",
+"217 479 OFFCURVE",
+"217 500 CURVE SMOOTH",
+"217 534 OFFCURVE",
+"248 559 OFFCURVE",
+"283 559 CURVE SMOOTH",
+"323 559 OFFCURVE",
+"350 532 OFFCURVE",
+"350 498 CURVE SMOOTH",
+"350 460 OFFCURVE",
+"316 435 OFFCURVE",
+"259 435 CURVE SMOOTH"
+);
+}
+);
+width = 583;
+},
+{
+components = (
+{
+name = sinCha;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"260 535 OFFCURVE",
+"241 519 OFFCURVE",
+"241 499 CURVE SMOOTH",
+"241 479 OFFCURVE",
+"260 463 OFFCURVE",
+"281 463 CURVE SMOOTH",
+"302 463 OFFCURVE",
+"320 479 OFFCURVE",
+"320 499 CURVE SMOOTH",
+"320 519 OFFCURVE",
+"302 535 OFFCURVE",
+"281 535 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"198 435 OFFCURVE",
+"141 463 OFFCURVE",
+"141 518 CURVE SMOOTH",
+"141 580 OFFCURVE",
+"198 616 OFFCURVE",
+"278 616 CURVE SMOOTH",
+"353 616 OFFCURVE",
+"415 574 OFFCURVE",
+"415 505 CURVE SMOOTH",
+"415 482 OFFCURVE",
+"407 460 OFFCURVE",
+"391 441 CURVE",
+"366 441 LINE",
+"373 453 OFFCURVE",
+"384 477 OFFCURVE",
+"384 504 CURVE SMOOTH",
+"384 557 OFFCURVE",
+"337 588 OFFCURVE",
+"277 588 CURVE SMOOTH",
+"225 588 OFFCURVE",
+"173 567 OFFCURVE",
+"173 518 CURVE SMOOTH",
+"173 480 OFFCURVE",
+"215 462 OFFCURVE",
+"232 460 CURVE",
+"224 466 OFFCURVE",
+"214 479 OFFCURVE",
+"214 500 CURVE SMOOTH",
+"214 534 OFFCURVE",
+"245 559 OFFCURVE",
+"280 559 CURVE SMOOTH",
+"320 559 OFFCURVE",
+"347 532 OFFCURVE",
+"347 498 CURVE SMOOTH",
+"347 460 OFFCURVE",
+"313 435 OFFCURVE",
+"256 435 CURVE SMOOTH"
+);
+}
+);
+width = 583;
+}
+);
+},
+{
 glyphname = sinJa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -82300,60 +82745,60 @@ paths = (
 {
 closed = 1;
 nodes = (
-"197 479 CURVE SMOOTH",
-"197 458 OFFCURVE",
-"216 443 OFFCURVE",
-"237 443 CURVE SMOOTH",
-"258 443 OFFCURVE",
-"277 458 OFFCURVE",
-"277 479 CURVE SMOOTH",
-"277 500 OFFCURVE",
-"258 516 OFFCURVE",
-"237 516 CURVE SMOOTH",
-"216 516 OFFCURVE",
-"197 500 OFFCURVE"
+"227 479 CURVE SMOOTH",
+"227 458 OFFCURVE",
+"246 443 OFFCURVE",
+"267 443 CURVE SMOOTH",
+"288 443 OFFCURVE",
+"307 458 OFFCURVE",
+"307 479 CURVE SMOOTH",
+"307 500 OFFCURVE",
+"288 516 OFFCURVE",
+"267 516 CURVE SMOOTH",
+"246 516 OFFCURVE",
+"227 500 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"98 498 CURVE SMOOTH",
-"98 560 OFFCURVE",
-"154 597 OFFCURVE",
-"234 597 CURVE SMOOTH",
-"309 597 OFFCURVE",
-"372 554 OFFCURVE",
-"372 485 CURVE SMOOTH",
-"372 462 OFFCURVE",
-"365 441 OFFCURVE",
-"348 422 CURVE",
-"314 422 LINE",
-"327 434 OFFCURVE",
-"343 458 OFFCURVE",
-"343 484 CURVE SMOOTH",
-"343 540 OFFCURVE",
-"293 570 OFFCURVE",
-"233 570 CURVE SMOOTH",
-"181 570 OFFCURVE",
-"129 550 OFFCURVE",
-"129 498 CURVE SMOOTH",
-"129 460 OFFCURVE",
-"169 441 OFFCURVE",
-"191 439 CURVE",
-"183 445 OFFCURVE",
-"171 459 OFFCURVE",
-"171 480 CURVE SMOOTH",
-"171 514 OFFCURVE",
-"201 539 OFFCURVE",
-"236 539 CURVE SMOOTH",
-"276 539 OFFCURVE",
-"304 513 OFFCURVE",
-"304 479 CURVE SMOOTH",
-"304 441 OFFCURVE",
-"270 415 OFFCURVE",
-"213 415 CURVE SMOOTH",
-"155 415 OFFCURVE",
-"98 443 OFFCURVE"
+"128 498 CURVE SMOOTH",
+"128 560 OFFCURVE",
+"184 597 OFFCURVE",
+"264 597 CURVE SMOOTH",
+"339 597 OFFCURVE",
+"402 554 OFFCURVE",
+"402 485 CURVE SMOOTH",
+"402 462 OFFCURVE",
+"395 441 OFFCURVE",
+"378 422 CURVE",
+"364 422 LINE",
+"377 434 OFFCURVE",
+"377 458 OFFCURVE",
+"377 484 CURVE SMOOTH",
+"377 540 OFFCURVE",
+"323 570 OFFCURVE",
+"263 570 CURVE SMOOTH",
+"211 570 OFFCURVE",
+"159 550 OFFCURVE",
+"159 498 CURVE SMOOTH",
+"159 460 OFFCURVE",
+"199 441 OFFCURVE",
+"221 439 CURVE",
+"213 445 OFFCURVE",
+"201 459 OFFCURVE",
+"201 480 CURVE SMOOTH",
+"201 514 OFFCURVE",
+"231 539 OFFCURVE",
+"266 539 CURVE SMOOTH",
+"306 539 OFFCURVE",
+"334 513 OFFCURVE",
+"334 479 CURVE SMOOTH",
+"334 441 OFFCURVE",
+"300 415 OFFCURVE",
+"243 415 CURVE SMOOTH",
+"185 415 OFFCURVE",
+"128 443 OFFCURVE"
 );
 }
 );
@@ -82376,60 +82821,60 @@ paths = (
 {
 closed = 1;
 nodes = (
-"198 499 CURVE SMOOTH",
-"198 479 OFFCURVE",
-"217 463 OFFCURVE",
-"238 463 CURVE SMOOTH",
-"259 463 OFFCURVE",
-"277 479 OFFCURVE",
-"277 499 CURVE SMOOTH",
-"277 519 OFFCURVE",
-"259 535 OFFCURVE",
-"238 535 CURVE SMOOTH",
-"217 535 OFFCURVE",
-"198 519 OFFCURVE"
+"241 499 CURVE SMOOTH",
+"241 479 OFFCURVE",
+"260 463 OFFCURVE",
+"281 463 CURVE SMOOTH",
+"302 463 OFFCURVE",
+"320 479 OFFCURVE",
+"320 499 CURVE SMOOTH",
+"320 519 OFFCURVE",
+"302 535 OFFCURVE",
+"281 535 CURVE SMOOTH",
+"260 535 OFFCURVE",
+"241 519 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"98 518 CURVE SMOOTH",
-"98 580 OFFCURVE",
-"155 616 OFFCURVE",
-"235 616 CURVE SMOOTH",
-"310 616 OFFCURVE",
-"372 574 OFFCURVE",
-"372 505 CURVE SMOOTH",
-"372 482 OFFCURVE",
-"364 460 OFFCURVE",
-"348 441 CURVE",
-"313 441 LINE",
-"326 453 OFFCURVE",
-"341 477 OFFCURVE",
-"341 504 CURVE SMOOTH",
-"341 557 OFFCURVE",
-"294 588 OFFCURVE",
-"234 588 CURVE SMOOTH",
-"182 588 OFFCURVE",
-"130 567 OFFCURVE",
-"130 518 CURVE SMOOTH",
-"130 480 OFFCURVE",
-"172 462 OFFCURVE",
-"189 460 CURVE",
-"181 466 OFFCURVE",
-"171 479 OFFCURVE",
-"171 500 CURVE SMOOTH",
-"171 534 OFFCURVE",
-"202 559 OFFCURVE",
-"237 559 CURVE SMOOTH",
-"277 559 OFFCURVE",
-"304 532 OFFCURVE",
-"304 498 CURVE SMOOTH",
-"304 460 OFFCURVE",
-"270 435 OFFCURVE",
-"213 435 CURVE SMOOTH",
-"155 435 OFFCURVE",
-"98 463 OFFCURVE"
+"141 518 CURVE SMOOTH",
+"141 580 OFFCURVE",
+"198 616 OFFCURVE",
+"278 616 CURVE SMOOTH",
+"353 616 OFFCURVE",
+"415 574 OFFCURVE",
+"415 505 CURVE SMOOTH",
+"415 482 OFFCURVE",
+"407 460 OFFCURVE",
+"391 441 CURVE",
+"366 441 LINE",
+"373 453 OFFCURVE",
+"384 477 OFFCURVE",
+"384 504 CURVE SMOOTH",
+"384 557 OFFCURVE",
+"337 588 OFFCURVE",
+"277 588 CURVE SMOOTH",
+"225 588 OFFCURVE",
+"173 567 OFFCURVE",
+"173 518 CURVE SMOOTH",
+"173 480 OFFCURVE",
+"215 462 OFFCURVE",
+"232 460 CURVE",
+"224 466 OFFCURVE",
+"214 479 OFFCURVE",
+"214 500 CURVE SMOOTH",
+"214 534 OFFCURVE",
+"245 559 OFFCURVE",
+"280 559 CURVE SMOOTH",
+"320 559 OFFCURVE",
+"347 532 OFFCURVE",
+"347 498 CURVE SMOOTH",
+"347 460 OFFCURVE",
+"313 435 OFFCURVE",
+"256 435 CURVE SMOOTH",
+"198 435 OFFCURVE",
+"141 463 OFFCURVE"
 );
 }
 );
@@ -82439,7 +82884,7 @@ width = 583;
 },
 {
 glyphname = sinJha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -82597,7 +83042,7 @@ width = 1061;
 },
 {
 glyphname = sinNya.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -82605,60 +83050,60 @@ paths = (
 {
 closed = 1;
 nodes = (
-"753 499 CURVE SMOOTH",
-"753 478 OFFCURVE",
-"772 463 OFFCURVE",
-"793 463 CURVE SMOOTH",
-"814 463 OFFCURVE",
-"832 478 OFFCURVE",
-"832 499 CURVE SMOOTH",
-"832 520 OFFCURVE",
-"814 535 OFFCURVE",
-"793 535 CURVE SMOOTH",
-"772 535 OFFCURVE",
-"753 520 OFFCURVE"
+"613 479 CURVE SMOOTH",
+"613 458 OFFCURVE",
+"632 443 OFFCURVE",
+"653 443 CURVE SMOOTH",
+"674 443 OFFCURVE",
+"692 458 OFFCURVE",
+"692 479 CURVE SMOOTH",
+"692 500 OFFCURVE",
+"674 515 OFFCURVE",
+"653 515 CURVE SMOOTH",
+"632 515 OFFCURVE",
+"613 500 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"653 518 CURVE SMOOTH",
-"653 580 OFFCURVE",
-"709 616 OFFCURVE",
-"789 616 CURVE SMOOTH",
-"864 616 OFFCURVE",
-"928 574 OFFCURVE",
-"928 505 CURVE SMOOTH",
-"928 482 OFFCURVE",
-"920 460 OFFCURVE",
-"903 441 CURVE",
-"871 441 LINE",
-"884 453 OFFCURVE",
-"898 478 OFFCURVE",
-"898 504 CURVE SMOOTH",
-"898 560 OFFCURVE",
-"849 590 OFFCURVE",
-"789 590 CURVE SMOOTH",
-"737 590 OFFCURVE",
-"684 570 OFFCURVE",
-"684 518 CURVE SMOOTH",
-"684 480 OFFCURVE",
-"725 461 OFFCURVE",
-"747 459 CURVE",
-"739 465 OFFCURVE",
-"727 479 OFFCURVE",
-"727 500 CURVE SMOOTH",
-"727 534 OFFCURVE",
-"756 559 OFFCURVE",
-"791 559 CURVE SMOOTH",
-"831 559 OFFCURVE",
-"860 532 OFFCURVE",
-"860 498 CURVE SMOOTH",
-"860 460 OFFCURVE",
-"825 435 OFFCURVE",
-"768 435 CURVE SMOOTH",
-"710 435 OFFCURVE",
-"653 463 OFFCURVE"
+"513 498 CURVE SMOOTH",
+"513 560 OFFCURVE",
+"569 596 OFFCURVE",
+"649 596 CURVE SMOOTH",
+"724 596 OFFCURVE",
+"788 554 OFFCURVE",
+"788 485 CURVE SMOOTH",
+"788 462 OFFCURVE",
+"780 440 OFFCURVE",
+"763 421 CURVE",
+"731 421 LINE",
+"744 433 OFFCURVE",
+"758 458 OFFCURVE",
+"758 484 CURVE SMOOTH",
+"758 540 OFFCURVE",
+"709 570 OFFCURVE",
+"649 570 CURVE SMOOTH",
+"597 570 OFFCURVE",
+"544 550 OFFCURVE",
+"544 498 CURVE SMOOTH",
+"544 460 OFFCURVE",
+"585 441 OFFCURVE",
+"607 439 CURVE",
+"599 445 OFFCURVE",
+"587 459 OFFCURVE",
+"587 480 CURVE SMOOTH",
+"587 514 OFFCURVE",
+"616 539 OFFCURVE",
+"651 539 CURVE SMOOTH",
+"691 539 OFFCURVE",
+"720 512 OFFCURVE",
+"720 478 CURVE SMOOTH",
+"720 440 OFFCURVE",
+"685 415 OFFCURVE",
+"628 415 CURVE SMOOTH",
+"570 415 OFFCURVE",
+"513 443 OFFCURVE"
 );
 },
 {
@@ -82872,60 +83317,60 @@ paths = (
 {
 closed = 1;
 nodes = (
-"754 499 CURVE SMOOTH",
-"754 479 OFFCURVE",
-"772 463 OFFCURVE",
-"793 463 CURVE SMOOTH",
-"814 463 OFFCURVE",
-"832 479 OFFCURVE",
-"832 499 CURVE SMOOTH",
-"832 519 OFFCURVE",
-"814 535 OFFCURVE",
-"793 535 CURVE SMOOTH",
-"772 535 OFFCURVE",
-"754 519 OFFCURVE"
+"604 485 CURVE SMOOTH",
+"604 465 OFFCURVE",
+"622 449 OFFCURVE",
+"643 449 CURVE SMOOTH",
+"664 449 OFFCURVE",
+"682 465 OFFCURVE",
+"682 485 CURVE SMOOTH",
+"682 505 OFFCURVE",
+"664 521 OFFCURVE",
+"643 521 CURVE SMOOTH",
+"622 521 OFFCURVE",
+"604 505 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"653 518 CURVE SMOOTH",
-"653 580 OFFCURVE",
-"710 616 OFFCURVE",
-"790 616 CURVE SMOOTH",
-"865 616 OFFCURVE",
-"928 574 OFFCURVE",
-"928 505 CURVE SMOOTH",
-"928 482 OFFCURVE",
-"919 460 OFFCURVE",
-"903 441 CURVE",
-"868 441 LINE",
-"881 453 OFFCURVE",
-"896 477 OFFCURVE",
-"896 504 CURVE SMOOTH",
-"896 557 OFFCURVE",
-"849 588 OFFCURVE",
-"789 588 CURVE SMOOTH",
-"737 588 OFFCURVE",
-"685 567 OFFCURVE",
-"685 518 CURVE SMOOTH",
-"685 480 OFFCURVE",
-"728 462 OFFCURVE",
-"745 460 CURVE",
-"737 466 OFFCURVE",
-"726 479 OFFCURVE",
-"726 500 CURVE SMOOTH",
-"726 534 OFFCURVE",
-"757 559 OFFCURVE",
-"792 559 CURVE SMOOTH",
-"832 559 OFFCURVE",
-"859 532 OFFCURVE",
-"859 498 CURVE SMOOTH",
-"859 460 OFFCURVE",
-"825 435 OFFCURVE",
-"768 435 CURVE SMOOTH",
-"710 435 OFFCURVE",
-"653 463 OFFCURVE"
+"503 504 CURVE SMOOTH",
+"503 566 OFFCURVE",
+"560 602 OFFCURVE",
+"640 602 CURVE SMOOTH",
+"715 602 OFFCURVE",
+"778 560 OFFCURVE",
+"778 491 CURVE SMOOTH",
+"778 468 OFFCURVE",
+"769 446 OFFCURVE",
+"753 427 CURVE",
+"718 427 LINE",
+"731 439 OFFCURVE",
+"746 463 OFFCURVE",
+"746 490 CURVE SMOOTH",
+"746 543 OFFCURVE",
+"699 574 OFFCURVE",
+"639 574 CURVE SMOOTH",
+"587 574 OFFCURVE",
+"535 553 OFFCURVE",
+"535 504 CURVE SMOOTH",
+"535 466 OFFCURVE",
+"578 448 OFFCURVE",
+"595 446 CURVE",
+"587 452 OFFCURVE",
+"576 465 OFFCURVE",
+"576 486 CURVE SMOOTH",
+"576 520 OFFCURVE",
+"607 545 OFFCURVE",
+"642 545 CURVE SMOOTH",
+"682 545 OFFCURVE",
+"709 518 OFFCURVE",
+"709 484 CURVE SMOOTH",
+"709 446 OFFCURVE",
+"675 421 OFFCURVE",
+"618 421 CURVE SMOOTH",
+"560 421 OFFCURVE",
+"503 449 OFFCURVE"
 );
 },
 {
@@ -83137,7 +83582,7 @@ width = 1000;
 },
 {
 glyphname = sinJnya.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -83558,8 +84003,154 @@ width = 822;
 );
 },
 {
+glyphname = sinNyja.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinNyja;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"347 512 OFFCURVE",
+"328 496 OFFCURVE",
+"328 475 CURVE SMOOTH",
+"328 454 OFFCURVE",
+"347 439 OFFCURVE",
+"368 439 CURVE SMOOTH",
+"389 439 OFFCURVE",
+"408 454 OFFCURVE",
+"408 475 CURVE SMOOTH",
+"408 496 OFFCURVE",
+"389 512 OFFCURVE",
+"368 512 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"286 411 OFFCURVE",
+"228 439 OFFCURVE",
+"228 494 CURVE SMOOTH",
+"228 556 OFFCURVE",
+"285 593 OFFCURVE",
+"365 593 CURVE SMOOTH",
+"440 593 OFFCURVE",
+"503 550 OFFCURVE",
+"503 481 CURVE SMOOTH",
+"503 458 OFFCURVE",
+"495 437 OFFCURVE",
+"478 418 CURVE",
+"452 418 LINE",
+"461 430 OFFCURVE",
+"474 454 OFFCURVE",
+"474 483 CURVE SMOOTH",
+"474 536 OFFCURVE",
+"424 566 OFFCURVE",
+"364 566 CURVE SMOOTH",
+"312 566 OFFCURVE",
+"259 546 OFFCURVE",
+"259 494 CURVE SMOOTH",
+"259 456 OFFCURVE",
+"300 437 OFFCURVE",
+"322 435 CURVE",
+"314 441 OFFCURVE",
+"302 455 OFFCURVE",
+"302 476 CURVE SMOOTH",
+"302 510 OFFCURVE",
+"332 535 OFFCURVE",
+"367 535 CURVE SMOOTH",
+"407 535 OFFCURVE",
+"435 509 OFFCURVE",
+"435 475 CURVE SMOOTH",
+"435 437 OFFCURVE",
+"401 411 OFFCURVE",
+"344 411 CURVE SMOOTH"
+);
+}
+);
+width = 682;
+},
+{
+components = (
+{
+name = sinNyja;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"355 512 OFFCURVE",
+"336 496 OFFCURVE",
+"336 475 CURVE SMOOTH",
+"336 454 OFFCURVE",
+"355 439 OFFCURVE",
+"376 439 CURVE SMOOTH",
+"397 439 OFFCURVE",
+"416 454 OFFCURVE",
+"416 475 CURVE SMOOTH",
+"416 496 OFFCURVE",
+"397 512 OFFCURVE",
+"376 512 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"294 411 OFFCURVE",
+"236 439 OFFCURVE",
+"236 494 CURVE SMOOTH",
+"236 556 OFFCURVE",
+"293 593 OFFCURVE",
+"373 593 CURVE SMOOTH",
+"448 593 OFFCURVE",
+"511 550 OFFCURVE",
+"511 481 CURVE SMOOTH",
+"511 458 OFFCURVE",
+"503 437 OFFCURVE",
+"486 418 CURVE",
+"460 418 LINE",
+"469 430 OFFCURVE",
+"482 454 OFFCURVE",
+"482 483 CURVE SMOOTH",
+"482 536 OFFCURVE",
+"432 566 OFFCURVE",
+"372 566 CURVE SMOOTH",
+"320 566 OFFCURVE",
+"267 546 OFFCURVE",
+"267 494 CURVE SMOOTH",
+"267 456 OFFCURVE",
+"308 437 OFFCURVE",
+"330 435 CURVE",
+"322 441 OFFCURVE",
+"310 455 OFFCURVE",
+"310 476 CURVE SMOOTH",
+"310 510 OFFCURVE",
+"340 535 OFFCURVE",
+"375 535 CURVE SMOOTH",
+"415 535 OFFCURVE",
+"443 509 OFFCURVE",
+"443 475 CURVE SMOOTH",
+"443 437 OFFCURVE",
+"409 411 OFFCURVE",
+"352 411 CURVE SMOOTH"
+);
+}
+);
+width = 682;
+}
+);
+},
+{
 glyphname = sinTta.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -83716,8 +84307,154 @@ width = 588;
 );
 },
 {
+glyphname = sinTtha.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinTtha;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"180 512 OFFCURVE",
+"161 496 OFFCURVE",
+"161 475 CURVE SMOOTH",
+"161 454 OFFCURVE",
+"180 439 OFFCURVE",
+"201 439 CURVE SMOOTH",
+"222 439 OFFCURVE",
+"241 454 OFFCURVE",
+"241 475 CURVE SMOOTH",
+"241 496 OFFCURVE",
+"222 512 OFFCURVE",
+"201 512 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"119 411 OFFCURVE",
+"61 439 OFFCURVE",
+"61 494 CURVE SMOOTH",
+"61 556 OFFCURVE",
+"118 593 OFFCURVE",
+"198 593 CURVE SMOOTH",
+"273 593 OFFCURVE",
+"336 550 OFFCURVE",
+"336 481 CURVE SMOOTH",
+"336 458 OFFCURVE",
+"328 437 OFFCURVE",
+"311 418 CURVE",
+"285 418 LINE",
+"294 430 OFFCURVE",
+"307 454 OFFCURVE",
+"307 483 CURVE SMOOTH",
+"307 536 OFFCURVE",
+"257 566 OFFCURVE",
+"197 566 CURVE SMOOTH",
+"145 566 OFFCURVE",
+"92 546 OFFCURVE",
+"92 494 CURVE SMOOTH",
+"92 456 OFFCURVE",
+"133 437 OFFCURVE",
+"155 435 CURVE",
+"147 441 OFFCURVE",
+"135 455 OFFCURVE",
+"135 476 CURVE SMOOTH",
+"135 510 OFFCURVE",
+"165 535 OFFCURVE",
+"200 535 CURVE SMOOTH",
+"240 535 OFFCURVE",
+"268 509 OFFCURVE",
+"268 475 CURVE SMOOTH",
+"268 437 OFFCURVE",
+"234 411 OFFCURVE",
+"177 411 CURVE SMOOTH"
+);
+}
+);
+width = 599;
+},
+{
+components = (
+{
+name = sinTtha;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"181 512 OFFCURVE",
+"162 496 OFFCURVE",
+"162 475 CURVE SMOOTH",
+"162 454 OFFCURVE",
+"181 439 OFFCURVE",
+"202 439 CURVE SMOOTH",
+"223 439 OFFCURVE",
+"242 454 OFFCURVE",
+"242 475 CURVE SMOOTH",
+"242 496 OFFCURVE",
+"223 512 OFFCURVE",
+"202 512 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"120 411 OFFCURVE",
+"62 439 OFFCURVE",
+"62 494 CURVE SMOOTH",
+"62 556 OFFCURVE",
+"119 593 OFFCURVE",
+"199 593 CURVE SMOOTH",
+"274 593 OFFCURVE",
+"337 550 OFFCURVE",
+"337 481 CURVE SMOOTH",
+"337 458 OFFCURVE",
+"329 437 OFFCURVE",
+"312 418 CURVE",
+"286 418 LINE",
+"295 430 OFFCURVE",
+"308 454 OFFCURVE",
+"308 483 CURVE SMOOTH",
+"308 536 OFFCURVE",
+"258 566 OFFCURVE",
+"198 566 CURVE SMOOTH",
+"146 566 OFFCURVE",
+"93 546 OFFCURVE",
+"93 494 CURVE SMOOTH",
+"93 456 OFFCURVE",
+"134 437 OFFCURVE",
+"156 435 CURVE",
+"148 441 OFFCURVE",
+"136 455 OFFCURVE",
+"136 476 CURVE SMOOTH",
+"136 510 OFFCURVE",
+"166 535 OFFCURVE",
+"201 535 CURVE SMOOTH",
+"241 535 OFFCURVE",
+"269 509 OFFCURVE",
+"269 475 CURVE SMOOTH",
+"269 437 OFFCURVE",
+"235 411 OFFCURVE",
+"178 411 CURVE SMOOTH"
+);
+}
+);
+width = 599;
+}
+);
+},
+{
 glyphname = sinDda.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -83874,8 +84611,154 @@ width = 631;
 );
 },
 {
+glyphname = sinDdha.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinDdha;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"181 512 OFFCURVE",
+"162 496 OFFCURVE",
+"162 475 CURVE SMOOTH",
+"162 454 OFFCURVE",
+"181 439 OFFCURVE",
+"202 439 CURVE SMOOTH",
+"223 439 OFFCURVE",
+"242 454 OFFCURVE",
+"242 475 CURVE SMOOTH",
+"242 496 OFFCURVE",
+"223 512 OFFCURVE",
+"202 512 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"120 411 OFFCURVE",
+"62 439 OFFCURVE",
+"62 494 CURVE SMOOTH",
+"62 556 OFFCURVE",
+"119 593 OFFCURVE",
+"199 593 CURVE SMOOTH",
+"274 593 OFFCURVE",
+"337 550 OFFCURVE",
+"337 481 CURVE SMOOTH",
+"337 458 OFFCURVE",
+"329 437 OFFCURVE",
+"312 418 CURVE",
+"286 418 LINE",
+"295 430 OFFCURVE",
+"308 454 OFFCURVE",
+"308 483 CURVE SMOOTH",
+"308 536 OFFCURVE",
+"258 566 OFFCURVE",
+"198 566 CURVE SMOOTH",
+"146 566 OFFCURVE",
+"93 546 OFFCURVE",
+"93 494 CURVE SMOOTH",
+"93 456 OFFCURVE",
+"134 437 OFFCURVE",
+"156 435 CURVE",
+"148 441 OFFCURVE",
+"136 455 OFFCURVE",
+"136 476 CURVE SMOOTH",
+"136 510 OFFCURVE",
+"166 535 OFFCURVE",
+"201 535 CURVE SMOOTH",
+"241 535 OFFCURVE",
+"269 509 OFFCURVE",
+"269 475 CURVE SMOOTH",
+"269 437 OFFCURVE",
+"235 411 OFFCURVE",
+"178 411 CURVE SMOOTH"
+);
+}
+);
+width = 631;
+},
+{
+components = (
+{
+name = sinDdha;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"184 512 OFFCURVE",
+"165 496 OFFCURVE",
+"165 475 CURVE SMOOTH",
+"165 454 OFFCURVE",
+"184 439 OFFCURVE",
+"205 439 CURVE SMOOTH",
+"226 439 OFFCURVE",
+"245 454 OFFCURVE",
+"245 475 CURVE SMOOTH",
+"245 496 OFFCURVE",
+"226 512 OFFCURVE",
+"205 512 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"123 411 OFFCURVE",
+"65 439 OFFCURVE",
+"65 494 CURVE SMOOTH",
+"65 556 OFFCURVE",
+"122 593 OFFCURVE",
+"202 593 CURVE SMOOTH",
+"277 593 OFFCURVE",
+"340 550 OFFCURVE",
+"340 481 CURVE SMOOTH",
+"340 458 OFFCURVE",
+"332 437 OFFCURVE",
+"315 418 CURVE",
+"289 418 LINE",
+"298 430 OFFCURVE",
+"311 454 OFFCURVE",
+"311 483 CURVE SMOOTH",
+"311 536 OFFCURVE",
+"261 566 OFFCURVE",
+"201 566 CURVE SMOOTH",
+"149 566 OFFCURVE",
+"96 546 OFFCURVE",
+"96 494 CURVE SMOOTH",
+"96 456 OFFCURVE",
+"137 437 OFFCURVE",
+"159 435 CURVE",
+"151 441 OFFCURVE",
+"139 455 OFFCURVE",
+"139 476 CURVE SMOOTH",
+"139 510 OFFCURVE",
+"169 535 OFFCURVE",
+"204 535 CURVE SMOOTH",
+"244 535 OFFCURVE",
+"272 509 OFFCURVE",
+"272 475 CURVE SMOOTH",
+"272 437 OFFCURVE",
+"238 411 OFFCURVE",
+"181 411 CURVE SMOOTH"
+);
+}
+);
+width = 631;
+}
+);
+},
+{
 glyphname = sinNna.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -83894,60 +84777,60 @@ paths = (
 {
 closed = 1;
 nodes = (
-"389 498 CURVE SMOOTH",
-"389 477 OFFCURVE",
-"408 462 OFFCURVE",
-"429 462 CURVE SMOOTH",
-"450 462 OFFCURVE",
-"469 477 OFFCURVE",
-"469 498 CURVE SMOOTH",
-"469 519 OFFCURVE",
-"450 535 OFFCURVE",
-"429 535 CURVE SMOOTH",
-"408 535 OFFCURVE",
-"389 519 OFFCURVE"
+"393 479 CURVE SMOOTH",
+"393 458 OFFCURVE",
+"412 443 OFFCURVE",
+"433 443 CURVE SMOOTH",
+"454 443 OFFCURVE",
+"473 458 OFFCURVE",
+"473 479 CURVE SMOOTH",
+"473 500 OFFCURVE",
+"454 516 OFFCURVE",
+"433 516 CURVE SMOOTH",
+"412 516 OFFCURVE",
+"393 500 OFFCURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"289 518 CURVE SMOOTH",
-"289 580 OFFCURVE",
-"346 615 OFFCURVE",
-"426 615 CURVE SMOOTH",
-"501 615 OFFCURVE",
-"563 573 OFFCURVE",
-"563 504 CURVE SMOOTH",
-"563 481 OFFCURVE",
-"556 460 OFFCURVE",
-"539 441 CURVE",
-"506 441 LINE",
-"519 453 OFFCURVE",
-"534 478 OFFCURVE",
-"534 504 CURVE SMOOTH",
-"534 560 OFFCURVE",
-"485 589 OFFCURVE",
-"425 589 CURVE SMOOTH",
-"373 589 OFFCURVE",
-"319 570 OFFCURVE",
-"319 518 CURVE SMOOTH",
-"319 480 OFFCURVE",
-"361 461 OFFCURVE",
-"383 459 CURVE",
-"375 465 OFFCURVE",
-"362 479 OFFCURVE",
-"362 500 CURVE SMOOTH",
-"362 534 OFFCURVE",
-"393 559 OFFCURVE",
-"428 559 CURVE SMOOTH",
-"468 559 OFFCURVE",
-"495 532 OFFCURVE",
-"495 498 CURVE SMOOTH",
-"495 460 OFFCURVE",
-"461 434 OFFCURVE",
-"404 434 CURVE SMOOTH",
-"346 434 OFFCURVE",
-"289 463 OFFCURVE"
+"293 499 CURVE SMOOTH",
+"293 561 OFFCURVE",
+"350 596 OFFCURVE",
+"430 596 CURVE SMOOTH",
+"505 596 OFFCURVE",
+"567 554 OFFCURVE",
+"567 485 CURVE SMOOTH",
+"567 462 OFFCURVE",
+"560 441 OFFCURVE",
+"543 422 CURVE",
+"510 422 LINE",
+"523 434 OFFCURVE",
+"538 459 OFFCURVE",
+"538 485 CURVE SMOOTH",
+"538 541 OFFCURVE",
+"489 570 OFFCURVE",
+"429 570 CURVE SMOOTH",
+"377 570 OFFCURVE",
+"323 551 OFFCURVE",
+"323 499 CURVE SMOOTH",
+"323 461 OFFCURVE",
+"365 442 OFFCURVE",
+"387 440 CURVE",
+"379 446 OFFCURVE",
+"366 460 OFFCURVE",
+"366 481 CURVE SMOOTH",
+"366 515 OFFCURVE",
+"397 540 OFFCURVE",
+"432 540 CURVE SMOOTH",
+"472 540 OFFCURVE",
+"499 513 OFFCURVE",
+"499 479 CURVE SMOOTH",
+"499 441 OFFCURVE",
+"465 415 OFFCURVE",
+"408 415 CURVE SMOOTH",
+"350 415 OFFCURVE",
+"293 444 OFFCURVE"
 );
 }
 );
@@ -84032,8 +84915,154 @@ width = 940;
 );
 },
 {
+glyphname = sinNndda.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinNndda;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"361 652 OFFCURVE",
+"342 636 OFFCURVE",
+"342 615 CURVE SMOOTH",
+"342 594 OFFCURVE",
+"361 579 OFFCURVE",
+"382 579 CURVE SMOOTH",
+"403 579 OFFCURVE",
+"422 594 OFFCURVE",
+"422 615 CURVE SMOOTH",
+"422 636 OFFCURVE",
+"403 652 OFFCURVE",
+"382 652 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"300 551 OFFCURVE",
+"242 579 OFFCURVE",
+"242 634 CURVE SMOOTH",
+"242 696 OFFCURVE",
+"299 733 OFFCURVE",
+"379 733 CURVE SMOOTH",
+"454 733 OFFCURVE",
+"517 690 OFFCURVE",
+"517 621 CURVE SMOOTH",
+"517 598 OFFCURVE",
+"509 577 OFFCURVE",
+"492 558 CURVE",
+"466 558 LINE",
+"475 570 OFFCURVE",
+"488 594 OFFCURVE",
+"488 623 CURVE SMOOTH",
+"488 676 OFFCURVE",
+"438 706 OFFCURVE",
+"378 706 CURVE SMOOTH",
+"326 706 OFFCURVE",
+"273 686 OFFCURVE",
+"273 634 CURVE SMOOTH",
+"273 596 OFFCURVE",
+"314 577 OFFCURVE",
+"336 575 CURVE",
+"328 581 OFFCURVE",
+"316 595 OFFCURVE",
+"316 616 CURVE SMOOTH",
+"316 650 OFFCURVE",
+"346 675 OFFCURVE",
+"381 675 CURVE SMOOTH",
+"421 675 OFFCURVE",
+"449 649 OFFCURVE",
+"449 615 CURVE SMOOTH",
+"449 577 OFFCURVE",
+"415 551 OFFCURVE",
+"358 551 CURVE SMOOTH"
+);
+}
+);
+width = 713;
+},
+{
+components = (
+{
+name = sinNndda;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"361 652 OFFCURVE",
+"342 636 OFFCURVE",
+"342 615 CURVE SMOOTH",
+"342 594 OFFCURVE",
+"361 579 OFFCURVE",
+"382 579 CURVE SMOOTH",
+"403 579 OFFCURVE",
+"422 594 OFFCURVE",
+"422 615 CURVE SMOOTH",
+"422 636 OFFCURVE",
+"403 652 OFFCURVE",
+"382 652 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"300 551 OFFCURVE",
+"242 579 OFFCURVE",
+"242 634 CURVE SMOOTH",
+"242 696 OFFCURVE",
+"299 733 OFFCURVE",
+"379 733 CURVE SMOOTH",
+"454 733 OFFCURVE",
+"517 690 OFFCURVE",
+"517 621 CURVE SMOOTH",
+"517 598 OFFCURVE",
+"509 577 OFFCURVE",
+"492 558 CURVE",
+"466 558 LINE",
+"475 570 OFFCURVE",
+"488 594 OFFCURVE",
+"488 623 CURVE SMOOTH",
+"488 676 OFFCURVE",
+"438 706 OFFCURVE",
+"378 706 CURVE SMOOTH",
+"326 706 OFFCURVE",
+"273 686 OFFCURVE",
+"273 634 CURVE SMOOTH",
+"273 596 OFFCURVE",
+"314 577 OFFCURVE",
+"336 575 CURVE",
+"328 581 OFFCURVE",
+"316 595 OFFCURVE",
+"316 616 CURVE SMOOTH",
+"316 650 OFFCURVE",
+"346 675 OFFCURVE",
+"381 675 CURVE SMOOTH",
+"421 675 OFFCURVE",
+"449 649 OFFCURVE",
+"449 615 CURVE SMOOTH",
+"449 577 OFFCURVE",
+"415 551 OFFCURVE",
+"358 551 CURVE SMOOTH"
+);
+}
+);
+width = 713;
+}
+);
+},
+{
 glyphname = sinTa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -84191,7 +85220,7 @@ width = 687;
 },
 {
 glyphname = sinTha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -84349,7 +85378,7 @@ width = 599;
 },
 {
 glyphname = sinDa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -84507,7 +85536,7 @@ width = 445;
 },
 {
 glyphname = sinDha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -84665,7 +85694,7 @@ width = 623;
 },
 {
 glyphname = sinNa.reph;
-lastChange = "2021-05-26 07:57:18 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -84822,8 +85851,154 @@ width = 787;
 );
 },
 {
+glyphname = sinNda.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinNda;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"231 501 OFFCURVE",
+"212 485 OFFCURVE",
+"212 464 CURVE SMOOTH",
+"212 443 OFFCURVE",
+"231 428 OFFCURVE",
+"252 428 CURVE SMOOTH",
+"273 428 OFFCURVE",
+"292 443 OFFCURVE",
+"292 464 CURVE SMOOTH",
+"292 485 OFFCURVE",
+"273 501 OFFCURVE",
+"252 501 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"170 400 OFFCURVE",
+"112 428 OFFCURVE",
+"112 483 CURVE SMOOTH",
+"112 545 OFFCURVE",
+"169 582 OFFCURVE",
+"249 582 CURVE SMOOTH",
+"324 582 OFFCURVE",
+"387 539 OFFCURVE",
+"387 470 CURVE SMOOTH",
+"387 447 OFFCURVE",
+"379 426 OFFCURVE",
+"362 407 CURVE",
+"336 407 LINE",
+"345 419 OFFCURVE",
+"358 443 OFFCURVE",
+"358 472 CURVE SMOOTH",
+"358 525 OFFCURVE",
+"308 555 OFFCURVE",
+"248 555 CURVE SMOOTH",
+"196 555 OFFCURVE",
+"143 535 OFFCURVE",
+"143 483 CURVE SMOOTH",
+"143 445 OFFCURVE",
+"184 426 OFFCURVE",
+"206 424 CURVE",
+"198 430 OFFCURVE",
+"186 444 OFFCURVE",
+"186 465 CURVE SMOOTH",
+"186 499 OFFCURVE",
+"216 524 OFFCURVE",
+"251 524 CURVE SMOOTH",
+"291 524 OFFCURVE",
+"319 498 OFFCURVE",
+"319 464 CURVE SMOOTH",
+"319 426 OFFCURVE",
+"285 400 OFFCURVE",
+"228 400 CURVE SMOOTH"
+);
+}
+);
+width = 513;
+},
+{
+components = (
+{
+name = sinNda;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"231 501 OFFCURVE",
+"212 485 OFFCURVE",
+"212 464 CURVE SMOOTH",
+"212 443 OFFCURVE",
+"231 428 OFFCURVE",
+"252 428 CURVE SMOOTH",
+"273 428 OFFCURVE",
+"292 443 OFFCURVE",
+"292 464 CURVE SMOOTH",
+"292 485 OFFCURVE",
+"273 501 OFFCURVE",
+"252 501 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"170 400 OFFCURVE",
+"112 428 OFFCURVE",
+"112 483 CURVE SMOOTH",
+"112 545 OFFCURVE",
+"169 582 OFFCURVE",
+"249 582 CURVE SMOOTH",
+"324 582 OFFCURVE",
+"387 539 OFFCURVE",
+"387 470 CURVE SMOOTH",
+"387 447 OFFCURVE",
+"379 426 OFFCURVE",
+"362 407 CURVE",
+"336 407 LINE",
+"345 419 OFFCURVE",
+"358 443 OFFCURVE",
+"358 472 CURVE SMOOTH",
+"358 525 OFFCURVE",
+"308 555 OFFCURVE",
+"248 555 CURVE SMOOTH",
+"196 555 OFFCURVE",
+"143 535 OFFCURVE",
+"143 483 CURVE SMOOTH",
+"143 445 OFFCURVE",
+"184 426 OFFCURVE",
+"206 424 CURVE",
+"198 430 OFFCURVE",
+"186 444 OFFCURVE",
+"186 465 CURVE SMOOTH",
+"186 499 OFFCURVE",
+"216 524 OFFCURVE",
+"251 524 CURVE SMOOTH",
+"291 524 OFFCURVE",
+"319 498 OFFCURVE",
+"319 464 CURVE SMOOTH",
+"319 426 OFFCURVE",
+"285 400 OFFCURVE",
+"228 400 CURVE SMOOTH"
+);
+}
+);
+width = 525;
+}
+);
+},
+{
 glyphname = sinPa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -84981,7 +86156,7 @@ width = 601;
 },
 {
 glyphname = sinPha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -85297,20 +86472,14 @@ width = 569;
 },
 {
 glyphname = sinBa.reph;
-lastChange = "2021-05-26 06:49:04 +0000";
+lastChange = "2021-06-08 07:27:39 +0000";
 layers = (
 {
-anchors = (
-{
-name = _cursive;
-position = "{39, 0}";
-}
-);
 components = (
 {
 alignment = -1;
 name = sinReph;
-transform = "{1, 0, 0, 1, 582, 86}";
+transform = "{1, 0, 0, 1, 677, 73}";
 },
 {
 name = sinBa;
@@ -85320,15 +86489,10 @@ layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
 width = 604;
 },
 {
-anchors = (
-{
-name = _cursive;
-position = "{39, 0}";
-}
-);
 components = (
 {
 name = sinReph;
+transform = "{1, 0, 0, 1, 660, 110}";
 },
 {
 name = sinBa;
@@ -85342,7 +86506,7 @@ width = 605;
 },
 {
 glyphname = sinBha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -85500,7 +86664,7 @@ width = 654;
 },
 {
 glyphname = sinMa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -85658,7 +86822,7 @@ width = 620;
 },
 {
 glyphname = sinMba.reph;
-lastChange = "2021-06-07 18:03:03 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -85804,7 +86968,7 @@ width = 600;
 },
 {
 glyphname = sinYa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -85961,8 +87125,300 @@ width = 621;
 );
 },
 {
+glyphname = sinRa.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinRa;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"220 561 OFFCURVE",
+"201 545 OFFCURVE",
+"201 524 CURVE SMOOTH",
+"201 503 OFFCURVE",
+"220 488 OFFCURVE",
+"241 488 CURVE SMOOTH",
+"262 488 OFFCURVE",
+"281 503 OFFCURVE",
+"281 524 CURVE SMOOTH",
+"281 545 OFFCURVE",
+"262 561 OFFCURVE",
+"241 561 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"159 460 OFFCURVE",
+"101 488 OFFCURVE",
+"101 543 CURVE SMOOTH",
+"101 605 OFFCURVE",
+"158 642 OFFCURVE",
+"238 642 CURVE SMOOTH",
+"313 642 OFFCURVE",
+"376 599 OFFCURVE",
+"376 530 CURVE SMOOTH",
+"376 507 OFFCURVE",
+"368 486 OFFCURVE",
+"351 467 CURVE",
+"325 467 LINE",
+"334 479 OFFCURVE",
+"347 503 OFFCURVE",
+"347 532 CURVE SMOOTH",
+"347 585 OFFCURVE",
+"297 615 OFFCURVE",
+"237 615 CURVE SMOOTH",
+"185 615 OFFCURVE",
+"132 595 OFFCURVE",
+"132 543 CURVE SMOOTH",
+"132 505 OFFCURVE",
+"173 486 OFFCURVE",
+"195 484 CURVE",
+"187 490 OFFCURVE",
+"175 504 OFFCURVE",
+"175 525 CURVE SMOOTH",
+"175 559 OFFCURVE",
+"205 584 OFFCURVE",
+"240 584 CURVE SMOOTH",
+"280 584 OFFCURVE",
+"308 558 OFFCURVE",
+"308 524 CURVE SMOOTH",
+"308 486 OFFCURVE",
+"274 460 OFFCURVE",
+"217 460 CURVE SMOOTH"
+);
+}
+);
+width = 515;
+},
+{
+components = (
+{
+name = sinRa;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"224 571 OFFCURVE",
+"205 555 OFFCURVE",
+"205 534 CURVE SMOOTH",
+"205 513 OFFCURVE",
+"224 498 OFFCURVE",
+"245 498 CURVE SMOOTH",
+"266 498 OFFCURVE",
+"285 513 OFFCURVE",
+"285 534 CURVE SMOOTH",
+"285 555 OFFCURVE",
+"266 571 OFFCURVE",
+"245 571 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"163 470 OFFCURVE",
+"105 498 OFFCURVE",
+"105 553 CURVE SMOOTH",
+"105 615 OFFCURVE",
+"162 652 OFFCURVE",
+"242 652 CURVE SMOOTH",
+"317 652 OFFCURVE",
+"380 609 OFFCURVE",
+"380 540 CURVE SMOOTH",
+"380 517 OFFCURVE",
+"372 496 OFFCURVE",
+"355 477 CURVE",
+"329 477 LINE",
+"338 489 OFFCURVE",
+"351 513 OFFCURVE",
+"351 542 CURVE SMOOTH",
+"351 595 OFFCURVE",
+"301 625 OFFCURVE",
+"241 625 CURVE SMOOTH",
+"189 625 OFFCURVE",
+"136 605 OFFCURVE",
+"136 553 CURVE SMOOTH",
+"136 515 OFFCURVE",
+"177 496 OFFCURVE",
+"199 494 CURVE",
+"191 500 OFFCURVE",
+"179 514 OFFCURVE",
+"179 535 CURVE SMOOTH",
+"179 569 OFFCURVE",
+"209 594 OFFCURVE",
+"244 594 CURVE SMOOTH",
+"284 594 OFFCURVE",
+"312 568 OFFCURVE",
+"312 534 CURVE SMOOTH",
+"312 496 OFFCURVE",
+"278 470 OFFCURVE",
+"221 470 CURVE SMOOTH"
+);
+}
+);
+width = 515;
+}
+);
+},
+{
+glyphname = sinLa.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinLa;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"304 508 OFFCURVE",
+"285 492 OFFCURVE",
+"285 471 CURVE SMOOTH",
+"285 450 OFFCURVE",
+"304 435 OFFCURVE",
+"325 435 CURVE SMOOTH",
+"346 435 OFFCURVE",
+"365 450 OFFCURVE",
+"365 471 CURVE SMOOTH",
+"365 492 OFFCURVE",
+"346 508 OFFCURVE",
+"325 508 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"243 407 OFFCURVE",
+"185 435 OFFCURVE",
+"185 490 CURVE SMOOTH",
+"185 552 OFFCURVE",
+"242 589 OFFCURVE",
+"322 589 CURVE SMOOTH",
+"397 589 OFFCURVE",
+"460 546 OFFCURVE",
+"460 477 CURVE SMOOTH",
+"460 451 OFFCURVE",
+"452 430 OFFCURVE",
+"439 411 CURVE",
+"409 414 LINE",
+"418 426 OFFCURVE",
+"431 447 OFFCURVE",
+"431 479 CURVE SMOOTH",
+"431 532 OFFCURVE",
+"381 562 OFFCURVE",
+"321 562 CURVE SMOOTH",
+"269 562 OFFCURVE",
+"216 542 OFFCURVE",
+"216 490 CURVE SMOOTH",
+"216 452 OFFCURVE",
+"257 433 OFFCURVE",
+"279 431 CURVE",
+"271 437 OFFCURVE",
+"259 451 OFFCURVE",
+"259 472 CURVE SMOOTH",
+"259 506 OFFCURVE",
+"289 531 OFFCURVE",
+"324 531 CURVE SMOOTH",
+"364 531 OFFCURVE",
+"392 505 OFFCURVE",
+"392 471 CURVE SMOOTH",
+"392 433 OFFCURVE",
+"358 407 OFFCURVE",
+"301 407 CURVE SMOOTH"
+);
+}
+);
+width = 654;
+},
+{
+components = (
+{
+name = sinLa;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"304 508 OFFCURVE",
+"285 492 OFFCURVE",
+"285 471 CURVE SMOOTH",
+"285 450 OFFCURVE",
+"304 435 OFFCURVE",
+"325 435 CURVE SMOOTH",
+"346 435 OFFCURVE",
+"365 450 OFFCURVE",
+"365 471 CURVE SMOOTH",
+"365 492 OFFCURVE",
+"346 508 OFFCURVE",
+"325 508 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"243 407 OFFCURVE",
+"185 435 OFFCURVE",
+"185 490 CURVE SMOOTH",
+"185 552 OFFCURVE",
+"242 589 OFFCURVE",
+"322 589 CURVE SMOOTH",
+"397 589 OFFCURVE",
+"460 546 OFFCURVE",
+"460 477 CURVE SMOOTH",
+"460 451 OFFCURVE",
+"452 430 OFFCURVE",
+"439 411 CURVE",
+"409 414 LINE",
+"418 426 OFFCURVE",
+"431 447 OFFCURVE",
+"431 479 CURVE SMOOTH",
+"431 532 OFFCURVE",
+"381 562 OFFCURVE",
+"321 562 CURVE SMOOTH",
+"269 562 OFFCURVE",
+"216 542 OFFCURVE",
+"216 490 CURVE SMOOTH",
+"216 452 OFFCURVE",
+"257 433 OFFCURVE",
+"279 431 CURVE",
+"271 437 OFFCURVE",
+"259 451 OFFCURVE",
+"259 472 CURVE SMOOTH",
+"259 506 OFFCURVE",
+"289 531 OFFCURVE",
+"324 531 CURVE SMOOTH",
+"364 531 OFFCURVE",
+"392 505 OFFCURVE",
+"392 471 CURVE SMOOTH",
+"392 433 OFFCURVE",
+"358 407 OFFCURVE",
+"301 407 CURVE SMOOTH"
+);
+}
+);
+width = 654;
+}
+);
+},
+{
 glyphname = sinVa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -86120,7 +87576,7 @@ width = 583;
 },
 {
 glyphname = sinSha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -86278,7 +87734,7 @@ width = 616;
 },
 {
 glyphname = sinSsa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -86436,7 +87892,7 @@ width = 607;
 },
 {
 glyphname = sinSa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -86594,7 +88050,7 @@ width = 661;
 },
 {
 glyphname = sinHa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -86751,8 +88207,154 @@ width = 637;
 );
 },
 {
+glyphname = sinLla.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinLla;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"304 508 OFFCURVE",
+"285 492 OFFCURVE",
+"285 471 CURVE SMOOTH",
+"285 450 OFFCURVE",
+"304 435 OFFCURVE",
+"325 435 CURVE SMOOTH",
+"346 435 OFFCURVE",
+"365 450 OFFCURVE",
+"365 471 CURVE SMOOTH",
+"365 492 OFFCURVE",
+"346 508 OFFCURVE",
+"325 508 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"243 407 OFFCURVE",
+"185 435 OFFCURVE",
+"185 490 CURVE SMOOTH",
+"185 552 OFFCURVE",
+"242 589 OFFCURVE",
+"322 589 CURVE SMOOTH",
+"397 589 OFFCURVE",
+"460 546 OFFCURVE",
+"460 477 CURVE SMOOTH",
+"460 451 OFFCURVE",
+"452 430 OFFCURVE",
+"439 411 CURVE",
+"409 414 LINE",
+"418 426 OFFCURVE",
+"431 447 OFFCURVE",
+"431 479 CURVE SMOOTH",
+"431 532 OFFCURVE",
+"381 562 OFFCURVE",
+"321 562 CURVE SMOOTH",
+"269 562 OFFCURVE",
+"216 542 OFFCURVE",
+"216 490 CURVE SMOOTH",
+"216 452 OFFCURVE",
+"257 433 OFFCURVE",
+"279 431 CURVE",
+"271 437 OFFCURVE",
+"259 451 OFFCURVE",
+"259 472 CURVE SMOOTH",
+"259 506 OFFCURVE",
+"289 531 OFFCURVE",
+"324 531 CURVE SMOOTH",
+"364 531 OFFCURVE",
+"392 505 OFFCURVE",
+"392 471 CURVE SMOOTH",
+"392 433 OFFCURVE",
+"358 407 OFFCURVE",
+"301 407 CURVE SMOOTH"
+);
+}
+);
+width = 621;
+},
+{
+components = (
+{
+name = sinLla;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"305 508 OFFCURVE",
+"286 492 OFFCURVE",
+"286 471 CURVE SMOOTH",
+"286 450 OFFCURVE",
+"305 435 OFFCURVE",
+"326 435 CURVE SMOOTH",
+"347 435 OFFCURVE",
+"366 450 OFFCURVE",
+"366 471 CURVE SMOOTH",
+"366 492 OFFCURVE",
+"347 508 OFFCURVE",
+"326 508 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"244 407 OFFCURVE",
+"186 435 OFFCURVE",
+"186 490 CURVE SMOOTH",
+"186 552 OFFCURVE",
+"243 589 OFFCURVE",
+"323 589 CURVE SMOOTH",
+"398 589 OFFCURVE",
+"461 546 OFFCURVE",
+"461 477 CURVE SMOOTH",
+"461 451 OFFCURVE",
+"453 430 OFFCURVE",
+"440 411 CURVE",
+"410 414 LINE",
+"419 426 OFFCURVE",
+"432 447 OFFCURVE",
+"432 479 CURVE SMOOTH",
+"432 532 OFFCURVE",
+"382 562 OFFCURVE",
+"322 562 CURVE SMOOTH",
+"270 562 OFFCURVE",
+"217 542 OFFCURVE",
+"217 490 CURVE SMOOTH",
+"217 452 OFFCURVE",
+"258 433 OFFCURVE",
+"280 431 CURVE",
+"272 437 OFFCURVE",
+"260 451 OFFCURVE",
+"260 472 CURVE SMOOTH",
+"260 506 OFFCURVE",
+"290 531 OFFCURVE",
+"325 531 CURVE SMOOTH",
+"365 531 OFFCURVE",
+"393 505 OFFCURVE",
+"393 471 CURVE SMOOTH",
+"393 433 OFFCURVE",
+"359 407 OFFCURVE",
+"302 407 CURVE SMOOTH"
+);
+}
+);
+width = 621;
+}
+);
+},
+{
 glyphname = sinFa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 anchors = (
@@ -86910,7 +88512,7 @@ width = 592;
 },
 {
 glyphname = sinKSsa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -87282,7 +88884,7 @@ width = 1043;
 },
 {
 glyphname = sinKVa.reph;
-lastChange = "2021-05-27 04:21:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -87292,7 +88894,7 @@ transform = "{1, 0, 0, 1, 454, 0}";
 },
 {
 name = sinReph;
-transform = "{1, 0, 0, 1, 1030, 64}";
+transform = "{1, 0, 0, 1, 1080, 67}";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -87556,7 +89158,7 @@ width = 1036;
 },
 {
 glyphname = sinTVa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -87702,7 +89304,7 @@ width = 977;
 },
 {
 glyphname = sinTTha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -88016,7 +89618,7 @@ width = 992;
 },
 {
 glyphname = sinNDa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -88318,7 +89920,7 @@ width = 873;
 },
 {
 glyphname = sinNDha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -88620,7 +90222,7 @@ width = 1052;
 },
 {
 glyphname = sinNVa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -88920,7 +90522,7 @@ width = 1007;
 },
 {
 glyphname = sinNTha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -89226,7 +90828,7 @@ width = 1021;
 },
 {
 glyphname = sinGDha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -89496,7 +91098,7 @@ width = 919;
 },
 {
 glyphname = sinDVa.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -89692,7 +91294,7 @@ width = 671;
 },
 {
 glyphname = sinDDha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 components = (
@@ -89890,7 +91492,7 @@ width = 711;
 },
 {
 glyphname = sinTtTtha.reph;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-08 07:27:05 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -90235,6 +91837,444 @@ nodes = (
 }
 );
 width = 711;
+}
+);
+},
+{
+glyphname = sinNyCa.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinNyCa;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"329 639 OFFCURVE",
+"310 623 OFFCURVE",
+"310 602 CURVE SMOOTH",
+"310 581 OFFCURVE",
+"329 566 OFFCURVE",
+"350 566 CURVE SMOOTH",
+"371 566 OFFCURVE",
+"390 581 OFFCURVE",
+"390 602 CURVE SMOOTH",
+"390 623 OFFCURVE",
+"371 639 OFFCURVE",
+"350 639 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"268 538 OFFCURVE",
+"210 566 OFFCURVE",
+"210 621 CURVE SMOOTH",
+"210 683 OFFCURVE",
+"267 720 OFFCURVE",
+"347 720 CURVE SMOOTH",
+"422 720 OFFCURVE",
+"485 677 OFFCURVE",
+"485 608 CURVE SMOOTH",
+"485 582 OFFCURVE",
+"477 561 OFFCURVE",
+"464 542 CURVE",
+"434 545 LINE",
+"443 557 OFFCURVE",
+"456 578 OFFCURVE",
+"456 610 CURVE SMOOTH",
+"456 663 OFFCURVE",
+"406 693 OFFCURVE",
+"346 693 CURVE SMOOTH",
+"294 693 OFFCURVE",
+"241 673 OFFCURVE",
+"241 621 CURVE SMOOTH",
+"241 583 OFFCURVE",
+"282 564 OFFCURVE",
+"304 562 CURVE",
+"296 568 OFFCURVE",
+"284 582 OFFCURVE",
+"284 603 CURVE SMOOTH",
+"284 637 OFFCURVE",
+"314 662 OFFCURVE",
+"349 662 CURVE SMOOTH",
+"389 662 OFFCURVE",
+"417 636 OFFCURVE",
+"417 602 CURVE SMOOTH",
+"417 564 OFFCURVE",
+"383 538 OFFCURVE",
+"326 538 CURVE SMOOTH"
+);
+}
+);
+width = 676;
+},
+{
+components = (
+{
+name = sinNyCa;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"331 638 OFFCURVE",
+"312 622 OFFCURVE",
+"312 601 CURVE SMOOTH",
+"312 580 OFFCURVE",
+"331 565 OFFCURVE",
+"352 565 CURVE SMOOTH",
+"373 565 OFFCURVE",
+"392 580 OFFCURVE",
+"392 601 CURVE SMOOTH",
+"392 622 OFFCURVE",
+"373 638 OFFCURVE",
+"352 638 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"270 537 OFFCURVE",
+"212 565 OFFCURVE",
+"212 620 CURVE SMOOTH",
+"212 682 OFFCURVE",
+"269 719 OFFCURVE",
+"349 719 CURVE SMOOTH",
+"424 719 OFFCURVE",
+"487 676 OFFCURVE",
+"487 607 CURVE SMOOTH",
+"487 581 OFFCURVE",
+"479 560 OFFCURVE",
+"466 541 CURVE",
+"436 544 LINE",
+"445 556 OFFCURVE",
+"458 577 OFFCURVE",
+"458 609 CURVE SMOOTH",
+"458 662 OFFCURVE",
+"408 692 OFFCURVE",
+"348 692 CURVE SMOOTH",
+"296 692 OFFCURVE",
+"243 672 OFFCURVE",
+"243 620 CURVE SMOOTH",
+"243 582 OFFCURVE",
+"284 563 OFFCURVE",
+"306 561 CURVE",
+"298 567 OFFCURVE",
+"286 581 OFFCURVE",
+"286 602 CURVE SMOOTH",
+"286 636 OFFCURVE",
+"316 661 OFFCURVE",
+"351 661 CURVE SMOOTH",
+"391 661 OFFCURVE",
+"419 635 OFFCURVE",
+"419 601 CURVE SMOOTH",
+"419 563 OFFCURVE",
+"385 537 OFFCURVE",
+"328 537 CURVE SMOOTH"
+);
+}
+);
+width = 671;
+}
+);
+},
+{
+glyphname = sinNyCha.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinNyCha;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"344 508 OFFCURVE",
+"325 492 OFFCURVE",
+"325 471 CURVE SMOOTH",
+"325 450 OFFCURVE",
+"344 435 OFFCURVE",
+"365 435 CURVE SMOOTH",
+"386 435 OFFCURVE",
+"405 450 OFFCURVE",
+"405 471 CURVE SMOOTH",
+"405 492 OFFCURVE",
+"386 508 OFFCURVE",
+"365 508 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"283 407 OFFCURVE",
+"225 435 OFFCURVE",
+"225 490 CURVE SMOOTH",
+"225 552 OFFCURVE",
+"282 589 OFFCURVE",
+"362 589 CURVE SMOOTH",
+"437 589 OFFCURVE",
+"500 546 OFFCURVE",
+"500 477 CURVE SMOOTH",
+"500 451 OFFCURVE",
+"492 430 OFFCURVE",
+"479 411 CURVE",
+"449 414 LINE",
+"458 426 OFFCURVE",
+"471 447 OFFCURVE",
+"471 479 CURVE SMOOTH",
+"471 532 OFFCURVE",
+"421 562 OFFCURVE",
+"361 562 CURVE SMOOTH",
+"309 562 OFFCURVE",
+"256 542 OFFCURVE",
+"256 490 CURVE SMOOTH",
+"256 452 OFFCURVE",
+"297 433 OFFCURVE",
+"319 431 CURVE",
+"311 437 OFFCURVE",
+"299 451 OFFCURVE",
+"299 472 CURVE SMOOTH",
+"299 506 OFFCURVE",
+"329 531 OFFCURVE",
+"364 531 CURVE SMOOTH",
+"404 531 OFFCURVE",
+"432 505 OFFCURVE",
+"432 471 CURVE SMOOTH",
+"432 433 OFFCURVE",
+"398 407 OFFCURVE",
+"341 407 CURVE SMOOTH"
+);
+}
+);
+width = 703;
+},
+{
+components = (
+{
+name = sinNyCha;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"344 508 OFFCURVE",
+"325 492 OFFCURVE",
+"325 471 CURVE SMOOTH",
+"325 450 OFFCURVE",
+"344 435 OFFCURVE",
+"365 435 CURVE SMOOTH",
+"386 435 OFFCURVE",
+"405 450 OFFCURVE",
+"405 471 CURVE SMOOTH",
+"405 492 OFFCURVE",
+"386 508 OFFCURVE",
+"365 508 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"283 407 OFFCURVE",
+"225 435 OFFCURVE",
+"225 490 CURVE SMOOTH",
+"225 552 OFFCURVE",
+"282 589 OFFCURVE",
+"362 589 CURVE SMOOTH",
+"437 589 OFFCURVE",
+"500 546 OFFCURVE",
+"500 477 CURVE SMOOTH",
+"500 451 OFFCURVE",
+"492 430 OFFCURVE",
+"479 411 CURVE",
+"449 414 LINE",
+"458 426 OFFCURVE",
+"471 447 OFFCURVE",
+"471 479 CURVE SMOOTH",
+"471 532 OFFCURVE",
+"421 562 OFFCURVE",
+"361 562 CURVE SMOOTH",
+"309 562 OFFCURVE",
+"256 542 OFFCURVE",
+"256 490 CURVE SMOOTH",
+"256 452 OFFCURVE",
+"297 433 OFFCURVE",
+"319 431 CURVE",
+"311 437 OFFCURVE",
+"299 451 OFFCURVE",
+"299 472 CURVE SMOOTH",
+"299 506 OFFCURVE",
+"329 531 OFFCURVE",
+"364 531 CURVE SMOOTH",
+"404 531 OFFCURVE",
+"432 505 OFFCURVE",
+"432 471 CURVE SMOOTH",
+"432 433 OFFCURVE",
+"398 407 OFFCURVE",
+"341 407 CURVE SMOOTH"
+);
+}
+);
+width = 692;
+}
+);
+},
+{
+glyphname = sinBBa.reph;
+lastChange = "2021-06-08 07:27:05 +0000";
+layers = (
+{
+components = (
+{
+name = sinBBa;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"384 649 OFFCURVE",
+"365 633 OFFCURVE",
+"365 612 CURVE SMOOTH",
+"365 591 OFFCURVE",
+"384 576 OFFCURVE",
+"405 576 CURVE SMOOTH",
+"426 576 OFFCURVE",
+"445 591 OFFCURVE",
+"445 612 CURVE SMOOTH",
+"445 633 OFFCURVE",
+"426 649 OFFCURVE",
+"405 649 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"323 548 OFFCURVE",
+"265 576 OFFCURVE",
+"265 631 CURVE SMOOTH",
+"265 693 OFFCURVE",
+"322 730 OFFCURVE",
+"402 730 CURVE SMOOTH",
+"477 730 OFFCURVE",
+"540 687 OFFCURVE",
+"540 618 CURVE SMOOTH",
+"540 592 OFFCURVE",
+"532 571 OFFCURVE",
+"519 552 CURVE",
+"489 555 LINE",
+"498 567 OFFCURVE",
+"511 588 OFFCURVE",
+"511 620 CURVE SMOOTH",
+"511 673 OFFCURVE",
+"461 703 OFFCURVE",
+"401 703 CURVE SMOOTH",
+"349 703 OFFCURVE",
+"296 683 OFFCURVE",
+"296 631 CURVE SMOOTH",
+"296 593 OFFCURVE",
+"337 574 OFFCURVE",
+"359 572 CURVE",
+"351 578 OFFCURVE",
+"339 592 OFFCURVE",
+"339 613 CURVE SMOOTH",
+"339 647 OFFCURVE",
+"369 672 OFFCURVE",
+"404 672 CURVE SMOOTH",
+"444 672 OFFCURVE",
+"472 646 OFFCURVE",
+"472 612 CURVE SMOOTH",
+"472 574 OFFCURVE",
+"438 548 OFFCURVE",
+"381 548 CURVE SMOOTH"
+);
+}
+);
+width = 768;
+},
+{
+components = (
+{
+name = sinBBa;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"384 649 OFFCURVE",
+"365 633 OFFCURVE",
+"365 612 CURVE SMOOTH",
+"365 591 OFFCURVE",
+"384 576 OFFCURVE",
+"405 576 CURVE SMOOTH",
+"426 576 OFFCURVE",
+"445 591 OFFCURVE",
+"445 612 CURVE SMOOTH",
+"445 633 OFFCURVE",
+"426 649 OFFCURVE",
+"405 649 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"323 548 OFFCURVE",
+"265 576 OFFCURVE",
+"265 631 CURVE SMOOTH",
+"265 693 OFFCURVE",
+"322 730 OFFCURVE",
+"402 730 CURVE SMOOTH",
+"477 730 OFFCURVE",
+"540 687 OFFCURVE",
+"540 618 CURVE SMOOTH",
+"540 592 OFFCURVE",
+"532 571 OFFCURVE",
+"519 552 CURVE",
+"489 555 LINE",
+"498 567 OFFCURVE",
+"511 588 OFFCURVE",
+"511 620 CURVE SMOOTH",
+"511 673 OFFCURVE",
+"461 703 OFFCURVE",
+"401 703 CURVE SMOOTH",
+"349 703 OFFCURVE",
+"296 683 OFFCURVE",
+"296 631 CURVE SMOOTH",
+"296 593 OFFCURVE",
+"337 574 OFFCURVE",
+"359 572 CURVE",
+"351 578 OFFCURVE",
+"339 592 OFFCURVE",
+"339 613 CURVE SMOOTH",
+"339 647 OFFCURVE",
+"369 672 OFFCURVE",
+"404 672 CURVE SMOOTH",
+"444 672 OFFCURVE",
+"472 646 OFFCURVE",
+"472 612 CURVE SMOOTH",
+"472 574 OFFCURVE",
+"438 548 OFFCURVE",
+"381 548 CURVE SMOOTH"
+);
+}
+);
+width = 750;
 }
 );
 },
@@ -121468,163 +123508,6 @@ width = 573;
 }
 );
 unicode = 03C0;
-},
-{
-glyphname = sinMa.reph.001;
-lastChange = "2021-06-07 18:05:28 +0000";
-layers = (
-{
-components = (
-{
-name = sinMa;
-transform = "{1, 0, 0, 1, 513, 0}";
-},
-{
-name = sinMa;
-transform = "{1, 0, 0, 1, 8, 0}";
-}
-);
-layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"520 588 OFFCURVE",
-"502 573 OFFCURVE",
-"502 552 CURVE SMOOTH",
-"502 531 OFFCURVE",
-"520 516 OFFCURVE",
-"541 516 CURVE SMOOTH",
-"562 516 OFFCURVE",
-"581 531 OFFCURVE",
-"581 552 CURVE SMOOTH",
-"581 573 OFFCURVE",
-"562 588 OFFCURVE",
-"541 588 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"459 488 OFFCURVE",
-"402 516 OFFCURVE",
-"402 571 CURVE SMOOTH",
-"402 633 OFFCURVE",
-"459 669 OFFCURVE",
-"539 669 CURVE SMOOTH",
-"614 669 OFFCURVE",
-"675 627 OFFCURVE",
-"675 558 CURVE SMOOTH",
-"675 535 OFFCURVE",
-"669 514 OFFCURVE",
-"652 495 CURVE",
-"619 495 LINE",
-"632 507 OFFCURVE",
-"646 531 OFFCURVE",
-"646 557 CURVE SMOOTH",
-"646 613 OFFCURVE",
-"597 643 OFFCURVE",
-"537 643 CURVE SMOOTH",
-"485 643 OFFCURVE",
-"432 623 OFFCURVE",
-"432 571 CURVE SMOOTH",
-"432 533 OFFCURVE",
-"473 514 OFFCURVE",
-"495 512 CURVE",
-"487 518 OFFCURVE",
-"474 532 OFFCURVE",
-"474 553 CURVE SMOOTH",
-"474 587 OFFCURVE",
-"506 612 OFFCURVE",
-"541 612 CURVE SMOOTH",
-"581 612 OFFCURVE",
-"607 585 OFFCURVE",
-"607 551 CURVE SMOOTH",
-"607 513 OFFCURVE",
-"574 488 OFFCURVE",
-"517 488 CURVE SMOOTH"
-);
-}
-);
-width = 1133;
-},
-{
-anchors = (
-{
-name = _cursive;
-position = "{47, 0}";
-}
-);
-components = (
-{
-name = sinMa;
-}
-);
-layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
-paths = (
-{
-closed = 1;
-nodes = (
-"268 613 CURVE SMOOTH",
-"268 593 OFFCURVE",
-"286 578 OFFCURVE",
-"307 578 CURVE SMOOTH",
-"328 578 OFFCURVE",
-"346 593 OFFCURVE",
-"346 613 CURVE SMOOTH",
-"346 633 OFFCURVE",
-"328 649 OFFCURVE",
-"307 649 CURVE SMOOTH",
-"286 649 OFFCURVE",
-"268 633 OFFCURVE"
-);
-},
-{
-closed = 1;
-nodes = (
-"167 632 CURVE SMOOTH",
-"167 694 OFFCURVE",
-"224 730 OFFCURVE",
-"304 730 CURVE SMOOTH",
-"379 730 OFFCURVE",
-"442 688 OFFCURVE",
-"442 619 CURVE SMOOTH",
-"442 596 OFFCURVE",
-"433 575 OFFCURVE",
-"417 556 CURVE",
-"383 556 LINE",
-"396 568 OFFCURVE",
-"411 591 OFFCURVE",
-"411 618 CURVE SMOOTH",
-"411 671 OFFCURVE",
-"363 703 OFFCURVE",
-"303 703 CURVE SMOOTH",
-"251 703 OFFCURVE",
-"199 681 OFFCURVE",
-"199 632 CURVE SMOOTH",
-"199 594 OFFCURVE",
-"242 576 OFFCURVE",
-"259 574 CURVE",
-"251 580 OFFCURVE",
-"241 593 OFFCURVE",
-"241 614 CURVE SMOOTH",
-"241 648 OFFCURVE",
-"271 673 OFFCURVE",
-"306 673 CURVE SMOOTH",
-"346 673 OFFCURVE",
-"374 646 OFFCURVE",
-"374 612 CURVE SMOOTH",
-"374 574 OFFCURVE",
-"340 549 OFFCURVE",
-"283 549 CURVE SMOOTH",
-"225 549 OFFCURVE",
-"167 577 OFFCURVE"
-);
-}
-);
-width = 620;
-}
-);
 },
 {
 glyphname = taA;
@@ -156427,86 +158310,74 @@ unicode = 02DB;
 },
 {
 glyphname = sinReph.001;
-lastChange = "2021-06-07 19:30:46 +0000";
+lastChange = "2021-06-08 05:20:39 +0000";
 layers = (
 {
-anchors = (
-{
-name = reph_touch;
-position = "{-413, 459}";
-}
-);
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
 paths = (
 {
 closed = 1;
 nodes = (
-"-399 576 OFFCURVE",
-"-418 561 OFFCURVE",
-"-418 540 CURVE SMOOTH",
-"-418 519 OFFCURVE",
-"-399 504 OFFCURVE",
-"-378 504 CURVE SMOOTH",
-"-357 504 OFFCURVE",
-"-338 519 OFFCURVE",
-"-338 540 CURVE SMOOTH",
-"-338 561 OFFCURVE",
-"-357 576 OFFCURVE",
-"-378 576 CURVE SMOOTH"
+"-709 556 OFFCURVE",
+"-728 541 OFFCURVE",
+"-728 520 CURVE SMOOTH",
+"-728 499 OFFCURVE",
+"-709 484 OFFCURVE",
+"-688 484 CURVE SMOOTH",
+"-667 484 OFFCURVE",
+"-648 499 OFFCURVE",
+"-648 520 CURVE SMOOTH",
+"-648 541 OFFCURVE",
+"-667 556 OFFCURVE",
+"-688 556 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"-460 475 OFFCURVE",
-"-518 503 OFFCURVE",
-"-518 558 CURVE SMOOTH",
-"-518 620 OFFCURVE",
-"-461 657 OFFCURVE",
-"-381 657 CURVE SMOOTH",
-"-306 657 OFFCURVE",
-"-244 616 OFFCURVE",
-"-244 547 CURVE SMOOTH",
-"-244 518 OFFCURVE",
-"-258 486 OFFCURVE",
-"-279 465 CURVE",
-"-301 482 LINE",
-"-288 494 OFFCURVE",
-"-272 518 OFFCURVE",
-"-272 547 CURVE SMOOTH",
-"-272 597 OFFCURVE",
-"-322 631 OFFCURVE",
-"-382 631 CURVE SMOOTH",
-"-434 631 OFFCURVE",
-"-487 610 OFFCURVE",
-"-487 558 CURVE SMOOTH",
-"-487 520 OFFCURVE",
-"-447 502 OFFCURVE",
-"-425 500 CURVE",
-"-433 506 OFFCURVE",
-"-444 520 OFFCURVE",
-"-444 541 CURVE SMOOTH",
-"-444 575 OFFCURVE",
-"-414 599 OFFCURVE",
-"-379 599 CURVE SMOOTH",
-"-339 599 OFFCURVE",
-"-312 573 OFFCURVE",
-"-312 539 CURVE SMOOTH",
-"-312 501 OFFCURVE",
-"-345 475 OFFCURVE",
-"-402 475 CURVE SMOOTH"
+"-770 455 OFFCURVE",
+"-828 483 OFFCURVE",
+"-828 538 CURVE SMOOTH",
+"-828 600 OFFCURVE",
+"-771 637 OFFCURVE",
+"-691 637 CURVE SMOOTH",
+"-616 637 OFFCURVE",
+"-554 596 OFFCURVE",
+"-554 527 CURVE SMOOTH",
+"-554 498 OFFCURVE",
+"-568 466 OFFCURVE",
+"-589 445 CURVE",
+"-611 462 LINE",
+"-598 474 OFFCURVE",
+"-582 498 OFFCURVE",
+"-582 527 CURVE SMOOTH",
+"-582 577 OFFCURVE",
+"-632 611 OFFCURVE",
+"-692 611 CURVE SMOOTH",
+"-744 611 OFFCURVE",
+"-797 590 OFFCURVE",
+"-797 538 CURVE SMOOTH",
+"-797 500 OFFCURVE",
+"-757 482 OFFCURVE",
+"-735 480 CURVE",
+"-743 486 OFFCURVE",
+"-754 500 OFFCURVE",
+"-754 521 CURVE SMOOTH",
+"-754 555 OFFCURVE",
+"-724 579 OFFCURVE",
+"-689 579 CURVE SMOOTH",
+"-649 579 OFFCURVE",
+"-622 553 OFFCURVE",
+"-622 519 CURVE SMOOTH",
+"-622 481 OFFCURVE",
+"-655 455 OFFCURVE",
+"-712 455 CURVE SMOOTH"
 );
 }
 );
 width = 0;
 },
 {
-anchors = (
-{
-name = reph_touch;
-position = "{-393, 419}";
-}
-);
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 paths = (
 {
@@ -156567,22 +158438,416 @@ nodes = (
 "-347 439 OFFCURVE",
 "-404 439 CURVE SMOOTH"
 );
+}
+);
+width = 1;
+}
+);
+category = Mark;
+},
+{
+glyphname = sinReph.002;
+lastChange = "2021-06-08 05:27:05 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-600 596 OFFCURVE",
+"-619 581 OFFCURVE",
+"-619 560 CURVE SMOOTH",
+"-619 539 OFFCURVE",
+"-600 524 OFFCURVE",
+"-579 524 CURVE SMOOTH",
+"-558 524 OFFCURVE",
+"-539 539 OFFCURVE",
+"-539 560 CURVE SMOOTH",
+"-539 581 OFFCURVE",
+"-558 596 OFFCURVE",
+"-579 596 CURVE SMOOTH"
+);
 },
 {
 closed = 1;
 nodes = (
-"-359 240 OFFCURVE",
-"-320 272 OFFCURVE",
-"-320 311 CURVE SMOOTH",
-"-320 350 OFFCURVE",
-"-359 382 OFFCURVE",
-"-408 382 CURVE SMOOTH",
-"-456 382 OFFCURVE",
-"-495 350 OFFCURVE",
-"-495 311 CURVE SMOOTH",
-"-495 272 OFFCURVE",
-"-456 240 OFFCURVE",
-"-408 240 CURVE SMOOTH"
+"-661 495 OFFCURVE",
+"-719 523 OFFCURVE",
+"-719 578 CURVE SMOOTH",
+"-719 640 OFFCURVE",
+"-662 677 OFFCURVE",
+"-582 677 CURVE SMOOTH",
+"-507 677 OFFCURVE",
+"-445 636 OFFCURVE",
+"-445 567 CURVE SMOOTH",
+"-445 530 OFFCURVE",
+"-465 506 OFFCURVE",
+"-486 485 CURVE",
+"-499 490 LINE",
+"-486 502 OFFCURVE",
+"-473 530 OFFCURVE",
+"-473 567 CURVE SMOOTH",
+"-473 617 OFFCURVE",
+"-523 651 OFFCURVE",
+"-583 651 CURVE SMOOTH",
+"-635 651 OFFCURVE",
+"-688 630 OFFCURVE",
+"-688 578 CURVE SMOOTH",
+"-688 540 OFFCURVE",
+"-648 522 OFFCURVE",
+"-626 520 CURVE",
+"-634 526 OFFCURVE",
+"-645 540 OFFCURVE",
+"-645 561 CURVE SMOOTH",
+"-645 595 OFFCURVE",
+"-615 619 OFFCURVE",
+"-580 619 CURVE SMOOTH",
+"-540 619 OFFCURVE",
+"-513 593 OFFCURVE",
+"-513 559 CURVE SMOOTH",
+"-513 521 OFFCURVE",
+"-546 495 OFFCURVE",
+"-603 495 CURVE SMOOTH"
+);
+}
+);
+width = 20;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"-401 540 OFFCURVE",
+"-419 524 OFFCURVE",
+"-419 504 CURVE SMOOTH",
+"-419 484 OFFCURVE",
+"-401 468 OFFCURVE",
+"-380 468 CURVE SMOOTH",
+"-359 468 OFFCURVE",
+"-340 484 OFFCURVE",
+"-340 504 CURVE SMOOTH",
+"-340 524 OFFCURVE",
+"-359 540 OFFCURVE",
+"-380 540 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-462 439 OFFCURVE",
+"-519 467 OFFCURVE",
+"-519 522 CURVE SMOOTH",
+"-519 584 OFFCURVE",
+"-462 621 OFFCURVE",
+"-382 621 CURVE SMOOTH",
+"-307 621 OFFCURVE",
+"-245 579 OFFCURVE",
+"-245 510 CURVE SMOOTH",
+"-245 487 OFFCURVE",
+"-253 465 OFFCURVE",
+"-269 446 CURVE",
+"-304 446 LINE",
+"-291 458 OFFCURVE",
+"-276 482 OFFCURVE",
+"-276 509 CURVE SMOOTH",
+"-276 562 OFFCURVE",
+"-323 593 OFFCURVE",
+"-383 593 CURVE SMOOTH",
+"-435 593 OFFCURVE",
+"-487 571 OFFCURVE",
+"-487 522 CURVE SMOOTH",
+"-487 484 OFFCURVE",
+"-445 467 OFFCURVE",
+"-428 465 CURVE",
+"-436 471 OFFCURVE",
+"-446 484 OFFCURVE",
+"-446 505 CURVE SMOOTH",
+"-446 539 OFFCURVE",
+"-416 563 OFFCURVE",
+"-381 563 CURVE SMOOTH",
+"-341 563 OFFCURVE",
+"-313 537 OFFCURVE",
+"-313 503 CURVE SMOOTH",
+"-313 465 OFFCURVE",
+"-347 439 OFFCURVE",
+"-404 439 CURVE SMOOTH"
+);
+}
+);
+width = 1;
+}
+);
+category = Mark;
+},
+{
+glyphname = sinReph.003;
+lastChange = "2021-06-08 08:32:13 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-820 655 OFFCURVE",
+"-839 640 OFFCURVE",
+"-839 619 CURVE SMOOTH",
+"-839 598 OFFCURVE",
+"-820 583 OFFCURVE",
+"-799 583 CURVE SMOOTH",
+"-778 583 OFFCURVE",
+"-759 598 OFFCURVE",
+"-759 619 CURVE SMOOTH",
+"-759 640 OFFCURVE",
+"-778 655 OFFCURVE",
+"-799 655 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-881 554 OFFCURVE",
+"-939 582 OFFCURVE",
+"-939 637 CURVE SMOOTH",
+"-939 699 OFFCURVE",
+"-882 736 OFFCURVE",
+"-802 736 CURVE SMOOTH",
+"-727 736 OFFCURVE",
+"-665 695 OFFCURVE",
+"-665 626 CURVE SMOOTH",
+"-665 589 OFFCURVE",
+"-685 565 OFFCURVE",
+"-706 544 CURVE",
+"-719 549 LINE",
+"-706 561 OFFCURVE",
+"-693 589 OFFCURVE",
+"-693 626 CURVE SMOOTH",
+"-693 676 OFFCURVE",
+"-743 710 OFFCURVE",
+"-803 710 CURVE SMOOTH",
+"-855 710 OFFCURVE",
+"-908 689 OFFCURVE",
+"-908 637 CURVE SMOOTH",
+"-908 599 OFFCURVE",
+"-868 581 OFFCURVE",
+"-846 579 CURVE",
+"-854 585 OFFCURVE",
+"-865 599 OFFCURVE",
+"-865 620 CURVE SMOOTH",
+"-865 654 OFFCURVE",
+"-835 678 OFFCURVE",
+"-800 678 CURVE SMOOTH",
+"-760 678 OFFCURVE",
+"-733 652 OFFCURVE",
+"-733 618 CURVE SMOOTH",
+"-733 580 OFFCURVE",
+"-766 554 OFFCURVE",
+"-823 554 CURVE SMOOTH"
+);
+}
+);
+width = 20;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"-401 540 OFFCURVE",
+"-419 524 OFFCURVE",
+"-419 504 CURVE SMOOTH",
+"-419 484 OFFCURVE",
+"-401 468 OFFCURVE",
+"-380 468 CURVE SMOOTH",
+"-359 468 OFFCURVE",
+"-340 484 OFFCURVE",
+"-340 504 CURVE SMOOTH",
+"-340 524 OFFCURVE",
+"-359 540 OFFCURVE",
+"-380 540 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-462 439 OFFCURVE",
+"-519 467 OFFCURVE",
+"-519 522 CURVE SMOOTH",
+"-519 584 OFFCURVE",
+"-462 621 OFFCURVE",
+"-382 621 CURVE SMOOTH",
+"-307 621 OFFCURVE",
+"-245 579 OFFCURVE",
+"-245 510 CURVE SMOOTH",
+"-245 487 OFFCURVE",
+"-253 465 OFFCURVE",
+"-269 446 CURVE",
+"-304 446 LINE",
+"-291 458 OFFCURVE",
+"-276 482 OFFCURVE",
+"-276 509 CURVE SMOOTH",
+"-276 562 OFFCURVE",
+"-323 593 OFFCURVE",
+"-383 593 CURVE SMOOTH",
+"-435 593 OFFCURVE",
+"-487 571 OFFCURVE",
+"-487 522 CURVE SMOOTH",
+"-487 484 OFFCURVE",
+"-445 467 OFFCURVE",
+"-428 465 CURVE",
+"-436 471 OFFCURVE",
+"-446 484 OFFCURVE",
+"-446 505 CURVE SMOOTH",
+"-446 539 OFFCURVE",
+"-416 563 OFFCURVE",
+"-381 563 CURVE SMOOTH",
+"-341 563 OFFCURVE",
+"-313 537 OFFCURVE",
+"-313 503 CURVE SMOOTH",
+"-313 465 OFFCURVE",
+"-347 439 OFFCURVE",
+"-404 439 CURVE SMOOTH"
+);
+}
+);
+width = 1;
+}
+);
+category = Mark;
+},
+{
+glyphname = sinReph.004;
+lastChange = "2021-06-08 08:42:58 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-820 455 OFFCURVE",
+"-839 440 OFFCURVE",
+"-839 419 CURVE SMOOTH",
+"-839 398 OFFCURVE",
+"-820 383 OFFCURVE",
+"-799 383 CURVE SMOOTH",
+"-778 383 OFFCURVE",
+"-759 398 OFFCURVE",
+"-759 419 CURVE SMOOTH",
+"-759 440 OFFCURVE",
+"-778 455 OFFCURVE",
+"-799 455 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-881 354 OFFCURVE",
+"-939 382 OFFCURVE",
+"-939 437 CURVE SMOOTH",
+"-939 499 OFFCURVE",
+"-882 536 OFFCURVE",
+"-802 536 CURVE SMOOTH",
+"-727 536 OFFCURVE",
+"-665 495 OFFCURVE",
+"-665 426 CURVE SMOOTH",
+"-665 389 OFFCURVE",
+"-685 365 OFFCURVE",
+"-706 344 CURVE",
+"-719 349 LINE",
+"-706 361 OFFCURVE",
+"-693 389 OFFCURVE",
+"-693 426 CURVE SMOOTH",
+"-693 476 OFFCURVE",
+"-743 510 OFFCURVE",
+"-803 510 CURVE SMOOTH",
+"-855 510 OFFCURVE",
+"-908 489 OFFCURVE",
+"-908 437 CURVE SMOOTH",
+"-908 399 OFFCURVE",
+"-868 381 OFFCURVE",
+"-846 379 CURVE",
+"-854 385 OFFCURVE",
+"-865 399 OFFCURVE",
+"-865 420 CURVE SMOOTH",
+"-865 454 OFFCURVE",
+"-835 478 OFFCURVE",
+"-800 478 CURVE SMOOTH",
+"-760 478 OFFCURVE",
+"-733 452 OFFCURVE",
+"-733 418 CURVE SMOOTH",
+"-733 380 OFFCURVE",
+"-766 354 OFFCURVE",
+"-823 354 CURVE SMOOTH"
+);
+}
+);
+width = 20;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"-401 540 OFFCURVE",
+"-419 524 OFFCURVE",
+"-419 504 CURVE SMOOTH",
+"-419 484 OFFCURVE",
+"-401 468 OFFCURVE",
+"-380 468 CURVE SMOOTH",
+"-359 468 OFFCURVE",
+"-340 484 OFFCURVE",
+"-340 504 CURVE SMOOTH",
+"-340 524 OFFCURVE",
+"-359 540 OFFCURVE",
+"-380 540 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-462 439 OFFCURVE",
+"-519 467 OFFCURVE",
+"-519 522 CURVE SMOOTH",
+"-519 584 OFFCURVE",
+"-462 621 OFFCURVE",
+"-382 621 CURVE SMOOTH",
+"-307 621 OFFCURVE",
+"-245 579 OFFCURVE",
+"-245 510 CURVE SMOOTH",
+"-245 487 OFFCURVE",
+"-253 465 OFFCURVE",
+"-269 446 CURVE",
+"-304 446 LINE",
+"-291 458 OFFCURVE",
+"-276 482 OFFCURVE",
+"-276 509 CURVE SMOOTH",
+"-276 562 OFFCURVE",
+"-323 593 OFFCURVE",
+"-383 593 CURVE SMOOTH",
+"-435 593 OFFCURVE",
+"-487 571 OFFCURVE",
+"-487 522 CURVE SMOOTH",
+"-487 484 OFFCURVE",
+"-445 467 OFFCURVE",
+"-428 465 CURVE",
+"-436 471 OFFCURVE",
+"-446 484 OFFCURVE",
+"-446 505 CURVE SMOOTH",
+"-446 539 OFFCURVE",
+"-416 563 OFFCURVE",
+"-381 563 CURVE SMOOTH",
+"-341 563 OFFCURVE",
+"-313 537 OFFCURVE",
+"-313 503 CURVE SMOOTH",
+"-313 465 OFFCURVE",
+"-347 439 OFFCURVE",
+"-404 439 CURVE SMOOTH"
 );
 }
 );
