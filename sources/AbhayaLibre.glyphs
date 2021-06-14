@@ -1,8 +1,9 @@
 {
-.appVersion = "1342";
+.appVersion = "1355";
 DisplayStrings = (
-"/sinfPUu",
-""
+"/sinKI/sinReph.007",
+"/sinTthI/sinReph.007/sinDdhI/sinReph.007/sinNnI/sinReph.006/sinThI/sinReph.007/sinPhI/sinReph.007/sinTThI/sinReph.007/sinNThI/sinReph.007/sinTthIi/sinReph.007/sinDdhIi/sinReph.007/sinThIi/sinReph.007/sinPhIi/sinReph.007/sinTThIi/sinReph.007/sinNThIi/sinReph.007 À",
+"/sinNnI/sinReph.008 \012/sinDdhIi/sinReph.007"
 );
 classes = (
 {
@@ -813,7 +814,7 @@ code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012languagesystem
 name = Languagesystems;
 },
 {
-code = "#---- --AKHN ------------\012\012lookup sinakhands {\012  sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;\012  sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;\012  sub sinTa sinVirama zerowidthjoiner sinVa by sinTVa;\012  sub sinTa sinVirama zerowidthjoiner sinTha by sinTTha;\012  sub sinNa sinVirama zerowidthjoiner sinDa by sinNDa;\012  sub sinNa sinVirama zerowidthjoiner sinVa by sinNVa;\012  sub sinNa sinVirama zerowidthjoiner sinDha by sinNDha;\012  sub sinNa sinVirama zerowidthjoiner sinTha by sinNTha;\012  sub sinDa sinVirama zerowidthjoiner sinVa by sinDVa;\012  sub sinDa sinVirama zerowidthjoiner sinDha by sinDDha;\012  sub sinTta sinVirama zerowidthjoiner sinTtha by sinTtTtha;\012  sub sinGa sinVirama zerowidthjoiner sinDha by sinGDha;\012  sub sinNna sinVirama zerowidthjoiner sinDda by sinNndda;\012  sub sinNya sinVirama zerowidthjoiner sinJa by sinNyja;\012  sub sinMa sinVirama zerowidthjoiner sinBa by sinMba;\012  sub sinNga sinVirama zerowidthjoiner sinGa by sinNnga;\012  sub sinNya sinVirama zerowidthjoiner sinCa by sinNyCa;\012  sub sinNya sinVirama zerowidthjoiner sinCha by sinNyCha;\012  sub sinCa sinVirama zerowidthjoiner sinCa by sinCCa;\012  sub sinBa sinVirama zerowidthjoiner sinBa by sinBBa;\012\012} sinakhands;\012\012#---- REPH ----\012\012lookup sinreph {\012  sub sinRa sinVirama zerowidthjoiner by sinReph;\012} sinreph;\012\012#---- HALN ----\012\012lookup sin_virama {\012  sub sinMatraAa sinVirama by sinMatraAa;\012  sub sinKa sinVirama by sinK;\012  sub sinKha sinVirama by sinKh;\012  sub sinGa sinVirama by sinG;\012  sub sinGha sinVirama by sinGh;\012  sub sinNga sinVirama by sinNg;\012  sub sinNnga sinVirama by sinNng;\012  sub sinCa sinVirama by sinC;\012  sub sinCha sinVirama by sinCh;\012  sub sinJa sinVirama by sinJ;\012  sub sinJha sinVirama by sinJh;\012  sub sinNya sinVirama by sinNy;\012  sub sinJnya sinVirama by sinJny;\012  sub sinNyja sinVirama by sinNyj;\012  sub sinTta sinVirama by sinTt;\012  sub sinTtha sinVirama by sinTth;\012  sub sinDda sinVirama by sinDd;\012  sub sinDdha sinVirama by sinDdh;\012  sub sinNna sinVirama by sinNn;\012  sub sinNndda sinVirama by sinNndd;\012  sub sinTa sinVirama by sinT;\012  sub sinTha sinVirama by sinTh;\012  sub sinDa sinVirama by sinD;\012  sub sinDha sinVirama by sinDh;\012  sub sinNa sinVirama by sinN;\012  sub sinNda sinVirama by sinNd;\012  sub sinPa sinVirama by sinP;\012  sub sinPha sinVirama by sinPh;\012  sub sinBa sinVirama by sinB;\012  sub sinBha sinVirama by sinBh;\012  sub sinMa sinVirama by sinM;\012  sub sinMba sinVirama by sinMb;\012  sub sinYa sinVirama by sinY;\012  sub sinRa sinVirama by sinR;\012  sub sinLa sinVirama by sinL;\012  sub sinVa sinVirama by sinV;\012  sub sinSha sinVirama by sinSh;\012  sub sinSsa sinVirama by sinSs;\012  sub sinSa sinVirama by sinS;\012  sub sinHa sinVirama by sinH;\012  sub sinLla sinVirama by sinLl;\012  sub sinFa sinVirama by sinF;\012\012  sub sinDVa sinVirama by sinDV;\012  sub sinKVa sinVirama by sinKV;\012  sub sinKSsa sinVirama by sinKSs;\012  sub sinNVa sinVirama by sinNV;\012  sub sinNDa  sinVirama by sinND;\012  sub sinTtTtha sinVirama by sinTtTth;\012  sub sinDDha sinVirama by sinDDh;\012  sub sinTVa sinVirama by sinTV;\012  sub sinTTha sinVirama by sinTTh;\012  sub sinNDha sinVirama by sinNDh;\012  sub sinNTha sinVirama by sinNTh;\012  sub sinGDha sinVirama by sinGDh;\012  sub sinNyCa sinVirama by sinNyC;\012  sub sinNyCha sinVirama by sinNyCh;\012  sub sinCCa sinVirama by sinCC;\012  sub sinBBa sinVirama by sinBB;\012  sub sinYansaya sinVirama by sinYansaya;\012\012  sub sinKRa sinVirama by sinKR;\012  sub sinKhRa sinVirama by sinKhR;\012  sub sinGRa sinVirama by sinGR;\012  sub sinGhRa sinVirama by sinGhR;\012  sub sinCRa sinVirama by sinCR;\012  sub sinJRa sinVirama by sinJR;\012  sub sinJhRa sinVirama by sinJhR;\012  sub sinNyRa sinVirama by sinNyR;\012  sub sinTtRa sinVirama by sinTtR;\012  sub sinJnyRa sinVirama by sinJnyR;\012  sub sinNyjRa sinVirama by sinNyjR;\012  sub sinDdRa sinVirama by sinDdR;\012  sub sinTRa sinVirama by sinTR;\012  sub sinDRa sinVirama by sinDR;\012  sub sinDhRa sinVirama by sinDhR;\012  sub sinPRa sinVirama by sinPR;\012  sub sinBhRa sinVirama by sinBhR;\012  sub sinMRa sinVirama by sinMR;\012  sub sinVRa sinVirama by sinVR;\012  sub sinShRa sinVirama by sinShR;\012  sub sinSsRa sinVirama by sinSsR;\012  sub sinSRa sinVirama by sinSR;\012  sub sinHRa sinVirama by sinHR;\012  sub sinFRa sinVirama by sinFR;\012  sub sinBRa sinVirama by sinBR;\012 } sin_virama;\012\012#---- ABVS ----\012\012lookup sinabvs_1 {\012  sub sinKa sinMatraI by sinKI;\012  sub sinKha sinMatraI by sinKhI;\012  sub sinGa sinMatraI by sinGI;\012  sub sinGha sinMatraI by sinGhI;\012  sub sinNga sinMatraI by sinNgI;\012  sub sinNnga sinMatraI by sinNngI;\012  sub sinCa sinMatraI by sinCI;\012  sub sinCha sinMatraI by sinChI;\012  sub sinJa sinMatraI by sinJI;\012  sub sinJha sinMatraI by sinJhI;\012  sub sinNya sinMatraI by sinNyI;\012  sub sinJnya sinMatraI by sinJnyI;\012  sub sinNyja sinMatraI by sinNyjI;\012  sub sinTta sinMatraI by sinTtI;\012  sub sinTtha sinMatraI by sinTthI;\012  sub sinDda sinMatraI by sinDdI;\012  sub sinDdha sinMatraI by sinDdhI;\012  sub sinNna sinMatraI by sinNnI;\012  sub sinNndda sinMatraI by sinNnddI;\012  sub sinTa sinMatraI by sinTI;\012  sub sinTha sinMatraI by sinThI;\012  sub sinDa sinMatraI by sinDI;\012  sub sinDha sinMatraI by sinDhI;\012  sub sinNa sinMatraI by sinNI;\012  sub sinNda sinMatraI by sinNdI;\012  sub sinPa sinMatraI by sinPI;\012  sub sinPha sinMatraI by sinPhI;\012  sub sinBa sinMatraI by sinBI;\012  sub sinBha sinMatraI by sinBhI;\012  sub sinMa sinMatraI by sinMI;\012  sub sinMba sinMatraI by sinMbI;\012  sub sinYa sinMatraI by sinYI;\012  sub sinRa sinMatraI by sinRI;\012  sub sinLa sinMatraI by sinLI;\012  sub sinVa sinMatraI by sinVI;\012  sub sinSha sinMatraI by sinShI;\012  sub sinSsa sinMatraI by sinSsI;\012  sub sinSa sinMatraI by sinSI;\012  sub sinHa sinMatraI by sinHI;\012  sub sinLla sinMatraI by sinLlI;\012  sub sinFa sinMatraI by sinFI;\012\012  sub	sinKSsa	sinMatraI	by	sinKSsI;\012  sub	sinKVa	sinMatraI	by	sinKVI;\012  sub	sinTVa	sinMatraI	by	sinTVI;\012  sub	sinTTha	sinMatraI	by	sinTThI;\012  sub	sinNDa	sinMatraI	by	sinNDI;\012  sub	sinNVa	sinMatraI	by	sinNVI;\012  sub	sinNDha	sinMatraI	by	sinNDhI;\012  sub	sinNTha	sinMatraI	by	sinNThI;\012  sub	sinDVa	sinMatraI	by	sinDVI;\012  sub	sinDDha	sinMatraI	by	sinDDhI;\012  sub	sinTtTtha	sinMatraI	by	sinTtTthI;\012  sub 	sinGDha	sinMatraI by sinGDhI;\012  sub	sinNyCa sinMatraI by sinNyCI;\012  sub	sinNyCha sinMatraI by sinNyChI;\012  sub 	sinCCa sinMatraI by sinCCI;\012  sub	sinBBa sinMatraI by sinBBI;\012  sub 	sinYansaya	sinMatraI by sinYansaya.MatraI;\012\012  sub sinKRa sinMatraI by sinKRI;\012  sub sinKhRa sinMatraI by sinKhRI;\012  sub sinGRa sinMatraI by sinGRI;\012  sub sinGhRa sinMatraI by sinGhRI;\012  sub sinCRa sinMatraI by sinCRI;\012  sub sinJRa sinMatraI by sinJRI;\012  sub sinJhRa sinMatraI by sinJhRI;\012  sub sinNyRa sinMatraI by sinNyRI;\012  sub sinJnyRa sinMatraI by sinJnyRI;\012  sub sinTtRa sinMatraI by sinTtRI;\012  sub sinDdRa sinMatraI by sinDdRI;\012  sub sinTRa sinMatraI by sinTRI;\012  sub sinDRa sinMatraI by sinDRI;\012  sub sinDhRa sinMatraI by sinDhRI;\012  sub sinPRa sinMatraI by sinPRI;\012  sub sinBRa sinMatraI by sinBRI;\012  sub sinBhRa sinMatraI by sinBhRI;\012  sub sinMRa sinMatraI by sinMRI;\012  sub sinVRa sinMatraI by sinVRI;\012  sub sinShRa sinMatraI by sinShRI;\012  sub sinSRa sinMatraI by sinSRI;\012  sub sinHRa sinMatraI by sinHRI;\012  sub sinFRa sinMatraI by sinFRI;\012\012} sinabvs_1;\012\012lookup sinabvs_2 {\012  sub sinKa sinMatraIi by sinKIi;\012  sub sinKha sinMatraIi by sinKhIi;\012  sub sinGa sinMatraIi by sinGIi;\012  sub sinGha sinMatraIi by sinGhIi;\012  sub sinNga sinMatraIi by sinNgIi;\012  sub sinNnga sinMatraIi by sinNngIi;\012  sub sinCa sinMatraIi by sinCIi;\012  sub sinCha sinMatraIi by sinChIi;\012  sub sinJa sinMatraIi by sinJIi;\012  sub sinJha sinMatraIi by sinJhIi;\012  sub sinNya sinMatraIi by sinNyIi;\012  sub sinJnya sinMatraIi by sinJnyIi;\012  sub sinNyja sinMatraIi by sinNyjIi;\012  sub sinTta sinMatraIi by sinTtIi;\012  sub sinTtha sinMatraIi by sinTthIi;\012  sub sinDda sinMatraIi by sinDdIi;\012  sub sinDdha sinMatraIi by sinDdhIi;\012  sub sinNna sinMatraIi by sinNnIi;\012  sub sinNndda sinMatraIi by sinNnddIi;\012  sub sinTa sinMatraIi by sinTIi;\012  sub sinTha sinMatraIi by sinThIi;\012  sub sinDa sinMatraIi by sinDIi;\012  sub sinDha sinMatraIi by sinDhIi;\012  sub sinNa sinMatraIi by sinNIi;\012  sub sinNda sinMatraIi by sinNdIi;\012  sub sinPa sinMatraIi by sinPIi;\012  sub sinPha sinMatraIi by sinPhIi;\012  sub sinBa sinMatraIi by sinBIi;\012  sub sinBha sinMatraIi by sinBhIi;\012  sub sinMa sinMatraIi by sinMIi;\012  sub sinMba sinMatraIi by sinMbIi;\012  sub sinYa sinMatraIi by sinYIi;\012  sub sinRa sinMatraIi by sinRIi;\012  sub sinLa sinMatraIi by sinLIi;\012  sub sinVa sinMatraIi by sinVIi;\012  sub sinSha sinMatraIi by sinShIi;\012  sub sinSsa sinMatraIi by sinSsIi;\012  sub sinSa sinMatraIi by sinSIi;\012  sub sinHa sinMatraIi by sinHIi;\012  sub sinLla sinMatraIi by sinLlIi;\012  sub sinFa sinMatraIi by sinFIi;\012\012  sub	sinKSsa	sinMatraIi	by	sinKSsIi;\012  sub	sinKVa	sinMatraIi	by	sinKVIi;\012  sub	sinTVa	sinMatraIi	by	sinTVIi;\012  sub	sinTTha	sinMatraIi	by	sinTThIi;\012  sub	sinNDa	sinMatraIi	by	sinNDIi;\012  sub	sinNVa	sinMatraIi	by	sinNVIi;\012  sub	sinNDha	sinMatraIi	by	sinNDhIi;\012  sub	sinNTha	sinMatraIi	by	sinNThIi;\012  sub	sinDVa	sinMatraIi	by	sinDVIi;\012  sub	sinDDha	sinMatraIi	by	sinDDhIi;\012  sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;\012  sub	sinGDha	sinMatraIi	by sinGDhIi;\012  sub	sinNyCa sinMatraIi by sinNyCIi;\012  sub	sinNyCha sinMatraIi by sinNyChIi;\012  sub 	sinCCa sinMatraIi by sinCCIi;\012  sub	sinBBa sinMatraIi by sinBBIi;\012  sub 	sinYansaya sinMatraIi by sinYansaya.MatraIi;\012\012  sub sinKRa sinMatraIi by sinKRIi;\012  sub sinKhRa sinMatraIi by sinKhRIi;\012  sub sinGRa sinMatraIi by sinGRIi;\012  sub sinGhRa sinMatraIi by sinGhRIi;\012  sub sinCRa sinMatraIi by sinCRIi;\012  sub sinJRa sinMatraIi by sinJRIi;\012  sub sinJhRa sinMatraIi by sinJhRIi;\012  sub sinNyRa sinMatraIi by sinNyRIi;\012  sub sinJnyRa sinMatraIi by sinJnyRIi;\012  sub sinTtRa sinMatraIi by sinTtRIi;\012  sub sinDdRa sinMatraIi by sinDdRIi;\012  sub sinTRa sinMatraIi by sinTRIi;\012  sub sinDRa sinMatraIi by sinDRIi;\012  sub sinDhRa sinMatraIi by sinDhRIi;\012  sub sinPRa sinMatraIi by sinPRIi;\012  sub sinBRa sinMatraIi by sinBRIi;\012  sub sinBhRa sinMatraIi by sinBhRIi;\012  sub sinMRa sinMatraIi by sinMRIi;\012  sub sinVRa sinMatraIi by sinVRIi;\012  sub sinShRa sinMatraIi by sinShRIi;\012  sub sinSRa sinMatraIi by sinSRIi;\012  sub sinHRa sinMatraIi by sinHRIi;\012  sub sinFRa sinMatraIi by sinFRIi;\012} sinabvs_2;\012\012\012\012lookup sinabvs_3 {\012  sub sinYansaya sinReph by sinYansaya.reph;\012  sub sinYansaya sinMatraAa sinReph  by sinYansaya_Reph_MatraAa;\012  sub sinYansaya sinMatraU sinReph  by sinYansaya_Reph_MatraU;\012  sub sinYansaya sinMatraUu sinReph  by sinYansaya_Reph_MatraUu;\012  sub	sinKa	sinReph by sinKa.reph	;\012  sub	sinKha	sinReph by sinKha.reph	;\012  sub	sinGa	sinReph by sinGa.reph	;\012  sub	sinGha	sinReph by sinGha.reph	;\012  sub	sinNga	sinReph by sinNga.reph	;\012  sub	sinNnga	sinReph by sinNnga.reph	;\012  sub	sinCa	sinReph by sinCa.reph	;\012  sub	sinCha	sinReph by sinCha.reph	;\012  sub	sinJa	sinReph by sinJa.reph	;\012  sub	sinJha	sinReph by sinJha.reph	;\012  sub	sinNya	sinReph by sinNya.reph	;\012  sub	sinJnya	sinReph by sinJnya.reph	;\012  sub	sinNyja	sinReph by sinNyja.reph	;\012  sub	sinTta	sinReph by sinTta.reph	;\012  sub	sinTtha	sinReph by sinTtha.reph	;\012  sub	sinDda	sinReph by sinDda.reph	;\012  sub	sinDdha	sinReph by sinDdha.reph	;\012  sub	sinNna	sinReph by sinNna.reph	;\012  sub	sinNndda	sinReph by sinNndda.reph	;\012  sub	sinTa	sinReph by sinTa.reph	;\012  sub	sinTha	sinReph by sinTha.reph	;\012  sub	sinDa	sinReph by sinDa.reph	;\012  sub	sinDha	sinReph by sinDha.reph	;\012  sub	sinNa	sinReph by sinNa.reph	;\012  sub	sinNda	sinReph by sinNda.reph	;\012  sub	sinPa	sinReph by sinPa.reph	;\012  sub	sinPha	sinReph by sinPha.reph	;\012  sub	sinBa	sinReph by sinBa.reph	;\012  sub	sinBha	sinReph by sinBha.reph	;\012  sub	sinMa	sinReph by sinMa.reph	;\012  sub	sinMba	sinReph by sinMba.reph	;\012  sub	sinYa	sinReph by sinYa.reph	;\012  sub	sinRa	sinReph by sinRa.reph	;\012  sub	sinLa	sinReph by sinLa.reph	;\012  sub	sinVa	sinReph by sinVa.reph	;\012  sub	sinSha	sinReph by sinSha.reph	;\012  sub	sinSsa	sinReph by sinSsa.reph	;\012  sub	sinSa	sinReph by sinSa.reph	;\012  sub	sinHa	sinReph by sinHa.reph	;\012  sub	sinLla	sinReph by sinLla.reph	;\012  sub	sinFa	sinReph by sinFa.reph	;\012  \012  sub	sinKSsa	sinReph by sinKSsa.reph	;\012  sub	sinKVa	sinReph by sinKVa.reph	;\012  sub	sinTVa	sinReph by sinTVa.reph	;\012  sub	sinTTha	sinReph by sinTTha.reph	;\012  sub	sinNDa	sinReph by sinNDa.reph	;\012  sub	sinNDha	sinReph by sinNDha.reph	;\012  sub	sinNVa	sinReph by sinNVa.reph	;\012  sub	sinNTha	sinReph by sinNTha.reph	;\012  sub	sinGDha	sinReph by sinGDha.reph	;\012  sub	sinDVa	sinReph by sinDVa.reph	;\012  sub	sinDDha	sinReph by sinDDha.reph	;\012  sub	sinTtTtha	sinReph by sinTtTtha.reph;\012  sub	sinNyCa	sinReph by sinNyCa.reph	;\012  sub	sinNyCha	sinReph by sinNyCha.reph;\012  sub	sinCCa	sinReph by sinCCa.reph;\012  sub	sinBBa	sinReph by sinBBa.reph	;\012} sinabvs_3;\012\012\012lookup sinakhands_reph {\012  sub sinKSsa sinReph by sinKSsa.reph;\012  sub sinKa sinReph sinVirama zerowidthjoiner sinSsa by sinKSsa.reph;\012  sub sinKVa sinReph by sinKVa.reph;\012  sub sinKa sinReph sinVirama zerowidthjoiner sinVa by sinKVa.reph;\012  sub sinTVa sinReph by sinTVa.reph;\012  sub sinTa sinReph sinVirama zerowidthjoiner sinVa by sinTVa.reph;\012  sub sinTTha sinReph by sinTTha.reph;\012  sub sinTa sinReph sinVirama zerowidthjoiner sinTha by sinTTha.reph;\012  sub sinNDa sinReph by sinNDa.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinDa by sinNDa.reph;\012  sub sinNVa sinReph by sinNVa.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinVa by sinNVa.reph;\012  sub sinNDha sinReph by sinNDha.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinDha by sinNDha.reph;\012  sub sinNTha sinReph by sinNTha.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinTha by sinNTha.reph;\012  sub sinDVa sinReph by sinDVa.reph;\012  sub sinDa sinReph sinVirama zerowidthjoiner sinVa by sinDVa.reph;\012  sub sinDDha sinReph by sinDDha.reph;\012  sub sinDa sinReph sinVirama zerowidthjoiner sinDha by sinDDha.reph;\012  sub sinTtTtha sinReph by sinTtTtha.reph;\012  sub sinTta sinReph sinVirama zerowidthjoiner sinTtha by sinTtTtha.reph;\012  sub sinGDha sinReph by sinGDha.reph;\012  sub sinGa sinReph sinVirama zerowidthjoiner sinDha by sinGDha.reph;\012} sinakhands_reph;\012\012#----------- BLWS --------------\012#-------------------------------\012\012lookup sinblws_1 {\012  sub sinKa sinMatraU by sinKU;\012  sub sinKha sinMatraU by sinKhU;\012  sub sinGa sinMatraU by sinGU;\012  sub sinGha sinMatraU by sinGhU;\012  sub sinNnga sinMatraU by sinNngU;\012  sub sinCa sinMatraU by sinCU;\012  sub sinCha sinMatraU by sinChU;\012  sub sinJa sinMatraU by sinJU;\012  sub sinJha sinMatraU by sinJhU;\012  sub sinNya sinMatraU by sinNyU;\012  sub sinJnya sinMatraU by sinJnyU;\012  sub sinNyja sinMatraU by sinNyjU;\012  sub sinTta sinMatraU by sinTtU;\012  sub sinTtha sinMatraU by sinTthU;\012  sub sinDda sinMatraU by sinDdU;\012  sub sinDdha sinMatraU by sinDdhU;\012  sub sinNna sinMatraU by sinNnU;\012  sub sinNndda sinMatraU by sinNnddU;\012  sub sinTa sinMatraU by sinTU;\012  sub sinTha sinMatraU by sinThU;\012  sub sinDa sinMatraU by sinDU;\012  sub sinDha sinMatraU by sinDhU;\012  sub sinNa sinMatraU by sinNU;\012  sub sinNda sinMatraU by sinNdU;\012  sub sinPa sinMatraU by sinPU;\012  sub sinPha sinMatraU by sinPhU;\012  sub sinBa sinMatraU by sinBU;\012  sub sinBha sinMatraU by sinBhU;\012  sub sinMa sinMatraU by sinMU;\012  sub sinMba sinMatraU by sinMbU;\012  sub sinYa sinMatraU by sinYU;\012  sub sinRa sinMatraU by sinRU;\012  sub sinLa sinMatraU by sinLU;\012  sub sinVa sinMatraU by sinVU;\012  sub sinSha sinMatraU by sinShU;\012  sub sinSsa sinMatraU by sinSsU;\012  sub sinSa sinMatraU by sinSU;\012  sub sinHa sinMatraU by sinHU;\012  sub sinLla sinMatraU by sinLlU;\012  sub sinFa sinMatraU by sinFU;\012  sub sinfPa sinMatraU by sinfPU;\012\012  sub	sinKSsa sinMatraU	by	sinKSsU;\012  sub	sinKVa sinMatraU	by	sinKVU;\012  sub	sinTVa sinMatraU	by	sinTVU;\012  sub	sinTTha sinMatraU	by	sinTThU;\012  sub	sinNDa sinMatraU	by	sinNDU;\012  sub	sinNVa sinMatraU	by	sinNVU;\012  sub	sinNDha sinMatraU	by	sinNDhU;\012  sub	sinNTha sinMatraU	by	sinNThU;\012  sub	sinDVa sinMatraU	by	sinDVU;\012  sub	sinDDha sinMatraU	by	sinDDhU;\012  sub	sinTtTtha	sinMatraU	by	sinTtTthU;\012  sub	sinNyCa sinMatraU by sinNyCU;\012  sub	sinNyCha sinMatraU by sinNyChU;\012  sub	sinCCa sinMatraU by sinCU;\012  sub	sinBBa sinMatraU by sinBBU;\012  sub sinYansaya sinMatraU by sinYansa_MatraU;\012} sinblws_1;\012\012lookup sinblws_2 {\012  sub sinKa sinMatraUu by sinKUu;\012  sub sinKha sinMatraUu by sinKhUu;\012  sub sinGa sinMatraUu by sinGUu;\012  sub sinGha sinMatraUu by sinGhUu;\012  sub sinNnga sinMatraUu by sinNngUu;\012  sub sinCa sinMatraUu by sinCUu;\012  sub sinCha sinMatraUu by sinChUu;\012  sub sinJa sinMatraUu by sinJUu;\012  sub sinJha sinMatraUu by sinJhUu;\012  sub sinNya sinMatraUu by sinNyUu;\012  sub sinJnya sinMatraUu by sinJnyUu;\012  sub sinNyja sinMatraUu by sinNyjUu;\012  sub sinTta sinMatraUu by sinTtUu;\012  sub sinTtha sinMatraUu by sinTthUu;\012  sub sinDda sinMatraUu by sinDdUu;\012  sub sinDdha sinMatraUu by sinDdhUu;\012  sub sinNna sinMatraUu by sinNnUu;\012  sub sinNndda sinMatraUu by sinNnddUu;\012  sub sinTa sinMatraUu by sinTUu;\012  sub sinTha sinMatraUu by sinThUu;\012  sub sinDa sinMatraUu by sinDUu;\012  sub sinDha sinMatraUu by sinDhUu;\012  sub sinNa sinMatraUu by sinNUu;\012  sub sinNda sinMatraUu by sinNdUu;\012  sub sinPa sinMatraUu by sinPUu;\012  sub sinPha sinMatraUu by sinPhUu;\012  sub sinBa sinMatraUu by sinBUu;\012  sub sinBha sinMatraUu by sinBhUu;\012  sub sinMa sinMatraUu by sinMUu;\012  sub sinMba sinMatraUu by sinMbUu;\012  sub sinYa sinMatraUu by sinYUu;\012  sub sinRa sinMatraUu by sinRUu;\012  sub sinLa sinMatraUu by sinLUu;\012  sub sinVa sinMatraUu by sinVUu;\012  sub sinSha sinMatraUu by sinShUu;\012  sub sinSsa sinMatraUu by sinSsUu;\012  sub sinSa sinMatraUu by sinSUu;\012  sub sinHa sinMatraUu by sinHUu;\012  sub sinLla sinMatraUu by sinLlUu;\012  sub sinFa sinMatraUu by sinFUu;\012  sub sinfPa sinMatraUu by sinfPUu;\012\012  sub	sinKSsa	sinMatraUu	by	sinKSsUu;\012  sub	sinKVa	sinMatraUu	by	sinKVUu;\012  sub	sinTVa	sinMatraUu	by	sinTVUu;\012  sub	sinTTha	sinMatraUu	by	sinTThUu;\012  sub	sinNDa	sinMatraUu	by	sinNDUu;\012  sub	sinNVa	sinMatraUu	by	sinNVUu;\012  sub	sinNDha	sinMatraUu	by	sinNDhUu;\012  sub	sinNTha	sinMatraUu	by	sinNThUu;\012  sub	sinDVa	sinMatraUu	by	sinDVUu;\012  sub	sinDDha	sinMatraUu	by	sinDDhUu;\012  sub	sinTtTtha	sinMatraUu	by	sinTtTthUu;\012  sub	sinNyCa sinMatraUu by sinNyCUu;\012  sub	sinNyCha sinMatraUu by sinNyChUu;\012  sub 	sinCCa	sinMatraUu by sinCCUu;\012  sub	sinBBa sinMatraUu by sinBBUu;\012  sub sinYansaya sinMatraUu by sinYansa_MatraUu;\012} sinblws_2;\012\012\012\012lookup sinblws_3 {\012  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraU' by sinMatraU.sub;\012  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraUu' by sinMatraUu.sub;\012} sinblws_3;\012\012#----------- Yansaya --------------\012#-------------------------------\012\012lookup sin_vatu {\012  sub sinVirama zerowidthjoiner sinYa by sinYansaya;\012  sub sinVirama zerowidthjoiner sinRa by sinRakar;\012} sin_vatu;\012\012#----------- Rae, Raae --------------\012#-------------------------------\012\012lookup sin_psts {\012  sub sinRa sinMatraAe by sinRAe;\012  sub sinRa sinMatraAae by sinRAae;\012}  sin_psts;\012\012lookup si_split_matra {\012  sub sinMatraEe by sinVirama;\012  sub sinMatraO by sinMatraAa;\012  sub sinMatraOo by sinMatraAa.virama;\012  sub sinMatraAu by sinMatraLs;\012} si_split_matra;\012\012#----------- Rakaar ------------\012#-------------------------------\012\012lookup sinrakaar {\012  sub sinKa sinRakar by sinKRa;\012  sub sinKha sinRakar by sinKhRa;\012  sub sinGa sinRakar by sinGRa;\012  sub sinGha sinRakar by sinGhRa;\012  sub sinCa sinRakar by sinCRa;\012  sub sinJa sinRakar by sinJRa;\012  sub sinJha sinRakar by sinJhRa;\012  sub sinNya sinRakar by sinNyRa;\012  sub sinTta sinRakar by sinTtRa;\012  sub sinJnya sinRakar by sinJnyRa;\012  sub sinNyja sinRakar by sinNyjRa;\012  sub sinDda sinRakar by sinDdRa;\012  sub sinTa sinRakar by sinTRa;\012  sub sinDa sinRakar by sinDRa;\012  sub sinDha sinRakar by sinDhRa;\012  sub sinPa sinRakar by sinPRa;\012  sub sinBha sinRakar by sinBhRa;\012  sub sinMa sinRakar by sinMRa;\012  sub sinVa sinRakar by sinVRa;\012  sub sinSha sinRakar by sinShRa;\012  sub sinSsa sinRakar by sinSsRa;\012  sub sinSa sinRakar by sinSRa;\012  sub sinHa sinRakar by sinHRa;\012  sub sinFa sinRakar by sinFRa;\012  sub sinfPa sinRakar by sinfPRa;\012  sub sinNDa sinRakar by sinNDRa;\012  sub sinBa sinRakar by sinBRa;\012} sinrakaar;\012\012#----------- SS01 Da forms ------------\012#---------------------------------\012\012lookup sin_da_subscripts {\012  sub sinDa sinMatraAa by sinDAa.ss01;\012  sub sinDa sinMatraAa by sinDAa.ss01;\012  sub sinDa sinMatraAae by sinDAae.ss01;\012  sub sinDa sinMatraAe by sinDAe.ss01;\012  sub sinDa sinMatraE sinYansaya sinMatraAa by sinDYOo.post.ss01;\012  sub sinDa sinYansa_MatraUu by sinDYUu.post.ss01;\012  sub sinDa sinYansaya by sinDaYa.post.ss01;\012  sub sinDa sinYansaya sinMatraAa by sinDYAa.post.ss01;\012  sub sinDa sinYansa_MatraU by sinDYu.post.ss01;\012  sub sinNda sinMatraAa by sinNdAa.ss01;\012  sub sinNda sinMatraAa by sinNdAa.ss01;\012  sub sinNda sinMatraAae by sinNdAae.ss01;\012  sub sinNda sinMatraAe by sinNdAe.ss01;\012  sub sinJnya sinMatraAa by sinJnyAa.ss01;\012  sub sinJnya sinMatraAa by sinJnyAa.ss01;\012  sub sinJnya sinMatraAae by sinJnyAee.ss01;\012  sub sinJnya sinMatraAe by sinJnyAe.ss01;\012  sub sinNDa sinMatraAa by sinNDAa.ss01;\012  sub sinNDa sinMatraAa by sinNDAa.ss01;\012  sub sinNDa sinMatraAae by sinNDAee.ss01;\012  sub sinNDa sinMatraAe by sinNDAe.ss01;\012  sub sinNya sinMatraAa by sinNyAa.ss01;\012  sub sinNya sinMatraAa by sinNyAa.ss01;\012  sub sinNya sinMatraAae by sinNyAee.ss01;\012  sub sinNya sinMatraAe by sinNyAe.ss01;\012  sub sinDa sinMatraR by sinDvocR.ss01;\012  sub sinDa sinMatraRr by sinDvocRr.ss01;\012  sub sinDRa sinMatraAa by sinDRAa.ss01;\012  sub sinNdRa sinMatraAa by sinNdRAa.ss01;\012\012} sin_da_subscripts;\012\012\012#----------- Sinhala Numerals------------\012#---------------------------------\012\012lookup sin_lithnum_style {\012  sub zero by sinZerolith;\012  sub one by sinOnelith;\012  sub two by sinTwolith;\012  sub three by sinThreelith;\012  sub four by sinFourlith;\012  sub five by sinFivelith;\012  sub six by sinSixlith;\012  sub seven by sinSevenlith;\012  sub eight by sinEightlith;\012  sub nine by sinNinelith;\012} sin_lithnum_style;\012\012\012#----------- Sinhala fPa------------\012#---------------------------------\012\012\012lookup sin_fPa {\012   sub sinFa by sinfPa;\012  sub sinF by sinfP;\012  sub sinFI by sinfPI;\012  sub sinFIi by sinfPIi;\012  sub sinFU by sinfPU;\012  sub sinFUu by sinfPUu;\012  sub sinFUu by sinfPUu;\012  sub sinFRa by sinfPRa;\012  sub sinFRa by sinfPRa;\012  sub sinFR by sinfPR;\012  sub sinFRI by sinfPRI;\012  sub sinFRIi by sinfPRIi;\012  sub sinFa.reph by sinfPa.reph	;\012\012} sin_fPa;\012\012#----------- Sinhala touching  ------------\012#---------------------------------\012\012lookup sin_touch {\012  sub zerowidthjoiner sinVirama by sinTouch;\012} sin_touch;\012\012\012#----------- Sinhala touching reph combinations  ------------\012# Push the Reph the middle when touching two consonants with Reph\012\012\012@REPH_REPLACEMENT_1 = [ sinKa.reph sinGa.reph sinNna.reph sinTa.reph sinBha.reph sinYa.reph ];\012@REPH_REPLACEMENT_2 = [ sinKha.reph sinGha.reph sinCa.reph  sinTta.reph sinDda.reph sinDha.reph sinMa.reph sinVa.reph  sinDa.reph sinPa.reph sinSa.reph sinBa.reph sinLa.reph sinDa.reph sinJha.reph ];\012\012\012lookup touch_reph_test {\012	sub sinKa.reph by sinKa  sinReph.001;\012	sub sinNna.reph by sinNna sinReph.001;\012	sub sinJha.reph by sinJha sinReph.001;\012	sub sinGa.reph by sinGa sinReph.002;\012	sub sinGha.reph by sinGha sinReph.001;\012	sub sinTa.reph by sinTa sinReph.001;\012	sub sinBha.reph by sinBha sinReph.001;\012	\012	sub sinKha.reph by sinKha sinReph.002;\012	sub sinCa.reph by sinCa sinReph.002;\012	sub sinTta.reph by sinTta sinReph.002;\012	sub sinDda.reph by sinDda sinReph.002;\012	sub sinMa.reph by sinMa sinReph.002;\012	sub sinVa.reph by sinVa sinReph.002;\012	sub sinDha.reph by sinDha sinReph.002;\012	sub sinBa.reph by sinBa sinReph.002;\012	sub sinPa.reph by sinPa sinReph.005;\012	sub sinLa.reph by sinLa sinReph.005;\012	sub sinDa.reph by sinDa sinReph.006;\012	sub sinYa.reph by sinYa sinReph.005;\012}touch_reph_test;\012 \012lookup touch_reph{\012	sub sinTouch @REPH_REPLACEMENT_1' lookup touch_reph_test;\012	sub sinTouch @REPH_REPLACEMENT_2' lookup touch_reph_test;\012}touch_reph;\012\012\012#----------- Sinhala touching reph with MatraI /Ii  ------------\012# Push the Reph to on top of the first consonant in a touching ligature when the second consonat is combined with -i and -ii\012\012@BASE_ASCENDING = [ sinKha sinNga sinNnga sinCa sinJha sinTta sinTtha sinDda sinDdha sinNndda sinTha sinDha sinPha sinBa sinMa sinMba sinVa];\012@BASE_BODY_HEIGHT = [ sinKa sinGa sinGha sinCha sinJa sinNya sinJnya sinNyja sinNna sinTa sinNa sinPa sinBha sinYa sinLa sinSha sinSsa sinSa sinHa sinLla sinFa];\012@BASE_NARROW = [sinDa sinNda];\012\012\012@REPH_REPLACEMENT_MATRAI_1 = [ sinKI sinKhI sinGI sinGhI sinNgI sinNngI sinCI sinChI sinJI sinJhI sinNyI sinJnyI sinNyjI sinTtI sinTthI sinDdI sinDdhI sinNnI sinNnddI sinTI sinThI sinDI sinDhI sinNI sinNdI sinPI sinPhI sinBI sinBhI sinMI sinMbI sinYI sinRI sinLI sinVI sinShI sinSsI sinSI sinHI sinLlI sinFI sinfPI sinKSsI sinKVI sinTVI sinTThI sinNDI sinNDhI sinNVI sinNThI sinGDhI sinDVI sinDDhI sinTtTthI sinNyCI sinNyChI sinCCI sinBBI];\012\012@REPH_REPLACEMENT_MATRAIi_1 = [ sinKIi sinKhIi sinGIi sinGhIi sinNgIi sinNngIi sinCIi sinChIi sinJIi sinJhIi sinNyIi sinJnyIi sinNyjIi sinTtIi sinTthIi sinDdIi sinDdhIi sinNnIi sinNnddIi sinTIi sinThIi sinDIi sinDhIi sinNIi sinNdIi sinPIi sinPhIi sinBIi sinBhIi sinMIi sinMbIi sinYIi sinRIi sinLIi sinVIi sinShIi sinSsIi sinSIi sinHIi sinLlIi sinFIi sinfPIi sinKSsIi sinKVIi sinTVIi sinTThIi sinNDIi sinNDhIi sinNVIi sinNThIi sinGDhIi sinDVIi sinDDhIi sinTtTthIi sinNyCIi sinNyChIi sinCCIi sinBBIi];\012\012\012lookup touch_reph_test_2 {\012	sub @BASE_ASCENDING sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.003;\012	sub @BASE_ASCENDING sinTouch @REPH_REPLACEMENT_MATRAIi_1 sinReph' by sinReph.003;\012	sub @BASE_NARROW sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.005;\012	sub @BASE_NARROW sinTouch @REPH_REPLACEMENT_MATRAIi_1 sinReph' by sinReph.005;\012\012	sub @BASE_BODY_HEIGHT sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.004;\012	sub @BASE_BODY_HEIGHT sinTouch @REPH_REPLACEMENT_MATRAIi_1 sinReph' by sinReph.004;\012	sub @BASE_NARROW sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.005;\012}touch_reph_test_2;\012\012\012\012";
+code = "#---- --AKHN ------------\012\012lookup sinakhands {\012  sub sinKa sinVirama zerowidthjoiner sinSsa by sinKSsa;\012  sub sinKa sinVirama zerowidthjoiner sinVa by sinKVa;\012  sub sinTa sinVirama zerowidthjoiner sinVa by sinTVa;\012  sub sinTa sinVirama zerowidthjoiner sinTha by sinTTha;\012  sub sinNa sinVirama zerowidthjoiner sinDa by sinNDa;\012  sub sinNa sinVirama zerowidthjoiner sinVa by sinNVa;\012  sub sinNa sinVirama zerowidthjoiner sinDha by sinNDha;\012  sub sinNa sinVirama zerowidthjoiner sinTha by sinNTha;\012  sub sinDa sinVirama zerowidthjoiner sinVa by sinDVa;\012  sub sinDa sinVirama zerowidthjoiner sinDha by sinDDha;\012  sub sinTta sinVirama zerowidthjoiner sinTtha by sinTtTtha;\012  sub sinGa sinVirama zerowidthjoiner sinDha by sinGDha;\012  sub sinNna sinVirama zerowidthjoiner sinDda by sinNndda;\012  sub sinNya sinVirama zerowidthjoiner sinJa by sinNyja;\012  sub sinMa sinVirama zerowidthjoiner sinBa by sinMba;\012  sub sinNga sinVirama zerowidthjoiner sinGa by sinNnga;\012  sub sinNya sinVirama zerowidthjoiner sinCa by sinNyCa;\012  sub sinNya sinVirama zerowidthjoiner sinCha by sinNyCha;\012  sub sinCa sinVirama zerowidthjoiner sinCa by sinCCa;\012  sub sinBa sinVirama zerowidthjoiner sinBa by sinBBa;\012\012} sinakhands;\012\012#---- REPH ----\012\012lookup sinreph {\012  sub sinRa sinVirama zerowidthjoiner by sinReph;\012} sinreph;\012\012#---- HALN ----\012\012lookup sin_virama {\012  sub sinMatraAa sinVirama by sinMatraAa;\012  sub sinKa sinVirama by sinK;\012  sub sinKha sinVirama by sinKh;\012  sub sinGa sinVirama by sinG;\012  sub sinGha sinVirama by sinGh;\012  sub sinNga sinVirama by sinNg;\012  sub sinNnga sinVirama by sinNng;\012  sub sinCa sinVirama by sinC;\012  sub sinCha sinVirama by sinCh;\012  sub sinJa sinVirama by sinJ;\012  sub sinJha sinVirama by sinJh;\012  sub sinNya sinVirama by sinNy;\012  sub sinJnya sinVirama by sinJny;\012  sub sinNyja sinVirama by sinNyj;\012  sub sinTta sinVirama by sinTt;\012  sub sinTtha sinVirama by sinTth;\012  sub sinDda sinVirama by sinDd;\012  sub sinDdha sinVirama by sinDdh;\012  sub sinNna sinVirama by sinNn;\012  sub sinNndda sinVirama by sinNndd;\012  sub sinTa sinVirama by sinT;\012  sub sinTha sinVirama by sinTh;\012  sub sinDa sinVirama by sinD;\012  sub sinDha sinVirama by sinDh;\012  sub sinNa sinVirama by sinN;\012  sub sinNda sinVirama by sinNd;\012  sub sinPa sinVirama by sinP;\012  sub sinPha sinVirama by sinPh;\012  sub sinBa sinVirama by sinB;\012  sub sinBha sinVirama by sinBh;\012  sub sinMa sinVirama by sinM;\012  sub sinMba sinVirama by sinMb;\012  sub sinYa sinVirama by sinY;\012  sub sinRa sinVirama by sinR;\012  sub sinLa sinVirama by sinL;\012  sub sinVa sinVirama by sinV;\012  sub sinSha sinVirama by sinSh;\012  sub sinSsa sinVirama by sinSs;\012  sub sinSa sinVirama by sinS;\012  sub sinHa sinVirama by sinH;\012  sub sinLla sinVirama by sinLl;\012  sub sinFa sinVirama by sinF;\012\012  sub sinDVa sinVirama by sinDV;\012  sub sinKVa sinVirama by sinKV;\012  sub sinKSsa sinVirama by sinKSs;\012  sub sinNVa sinVirama by sinNV;\012  sub sinNDa  sinVirama by sinND;\012  sub sinTtTtha sinVirama by sinTtTth;\012  sub sinDDha sinVirama by sinDDh;\012  sub sinTVa sinVirama by sinTV;\012  sub sinTTha sinVirama by sinTTh;\012  sub sinNDha sinVirama by sinNDh;\012  sub sinNTha sinVirama by sinNTh;\012  sub sinGDha sinVirama by sinGDh;\012  sub sinNyCa sinVirama by sinNyC;\012  sub sinNyCha sinVirama by sinNyCh;\012  sub sinCCa sinVirama by sinCC;\012  sub sinBBa sinVirama by sinBB;\012  sub sinYansaya sinVirama by sinYansaya;\012\012  sub sinKRa sinVirama by sinKR;\012  sub sinKhRa sinVirama by sinKhR;\012  sub sinGRa sinVirama by sinGR;\012  sub sinGhRa sinVirama by sinGhR;\012  sub sinCRa sinVirama by sinCR;\012  sub sinJRa sinVirama by sinJR;\012  sub sinJhRa sinVirama by sinJhR;\012  sub sinNyRa sinVirama by sinNyR;\012  sub sinTtRa sinVirama by sinTtR;\012  sub sinJnyRa sinVirama by sinJnyR;\012  sub sinNyjRa sinVirama by sinNyjR;\012  sub sinDdRa sinVirama by sinDdR;\012  sub sinTRa sinVirama by sinTR;\012  sub sinDRa sinVirama by sinDR;\012  sub sinDhRa sinVirama by sinDhR;\012  sub sinPRa sinVirama by sinPR;\012  sub sinBhRa sinVirama by sinBhR;\012  sub sinMRa sinVirama by sinMR;\012  sub sinVRa sinVirama by sinVR;\012  sub sinShRa sinVirama by sinShR;\012  sub sinSsRa sinVirama by sinSsR;\012  sub sinSRa sinVirama by sinSR;\012  sub sinHRa sinVirama by sinHR;\012  sub sinFRa sinVirama by sinFR;\012  sub sinBRa sinVirama by sinBR;\012 } sin_virama;\012\012#---- ABVS ----\012\012lookup sinabvs_1 {\012  sub sinKa sinMatraI by sinKI;\012  sub sinKha sinMatraI by sinKhI;\012  sub sinGa sinMatraI by sinGI;\012  sub sinGha sinMatraI by sinGhI;\012  sub sinNga sinMatraI by sinNgI;\012  sub sinNnga sinMatraI by sinNngI;\012  sub sinCa sinMatraI by sinCI;\012  sub sinCha sinMatraI by sinChI;\012  sub sinJa sinMatraI by sinJI;\012  sub sinJha sinMatraI by sinJhI;\012  sub sinNya sinMatraI by sinNyI;\012  sub sinJnya sinMatraI by sinJnyI;\012  sub sinNyja sinMatraI by sinNyjI;\012  sub sinTta sinMatraI by sinTtI;\012  sub sinTtha sinMatraI by sinTthI;\012  sub sinDda sinMatraI by sinDdI;\012  sub sinDdha sinMatraI by sinDdhI;\012  sub sinNna sinMatraI by sinNnI;\012  sub sinNndda sinMatraI by sinNnddI;\012  sub sinTa sinMatraI by sinTI;\012  sub sinTha sinMatraI by sinThI;\012  sub sinDa sinMatraI by sinDI;\012  sub sinDha sinMatraI by sinDhI;\012  sub sinNa sinMatraI by sinNI;\012  sub sinNda sinMatraI by sinNdI;\012  sub sinPa sinMatraI by sinPI;\012  sub sinPha sinMatraI by sinPhI;\012  sub sinBa sinMatraI by sinBI;\012  sub sinBha sinMatraI by sinBhI;\012  sub sinMa sinMatraI by sinMI;\012  sub sinMba sinMatraI by sinMbI;\012  sub sinYa sinMatraI by sinYI;\012  sub sinRa sinMatraI by sinRI;\012  sub sinLa sinMatraI by sinLI;\012  sub sinVa sinMatraI by sinVI;\012  sub sinSha sinMatraI by sinShI;\012  sub sinSsa sinMatraI by sinSsI;\012  sub sinSa sinMatraI by sinSI;\012  sub sinHa sinMatraI by sinHI;\012  sub sinLla sinMatraI by sinLlI;\012  sub sinFa sinMatraI by sinFI;\012\012  sub	sinKSsa	sinMatraI	by	sinKSsI;\012  sub	sinKVa	sinMatraI	by	sinKVI;\012  sub	sinTVa	sinMatraI	by	sinTVI;\012  sub	sinTTha	sinMatraI	by	sinTThI;\012  sub	sinNDa	sinMatraI	by	sinNDI;\012  sub	sinNVa	sinMatraI	by	sinNVI;\012  sub	sinNDha	sinMatraI	by	sinNDhI;\012  sub	sinNTha	sinMatraI	by	sinNThI;\012  sub	sinDVa	sinMatraI	by	sinDVI;\012  sub	sinDDha	sinMatraI	by	sinDDhI;\012  sub	sinTtTtha	sinMatraI	by	sinTtTthI;\012  sub 	sinGDha	sinMatraI by sinGDhI;\012  sub	sinNyCa sinMatraI by sinNyCI;\012  sub	sinNyCha sinMatraI by sinNyChI;\012  sub 	sinCCa sinMatraI by sinCCI;\012  sub	sinBBa sinMatraI by sinBBI;\012  sub 	sinYansaya	sinMatraI by sinYansaya.MatraI;\012\012  sub sinKRa sinMatraI by sinKRI;\012  sub sinKhRa sinMatraI by sinKhRI;\012  sub sinGRa sinMatraI by sinGRI;\012  sub sinGhRa sinMatraI by sinGhRI;\012  sub sinCRa sinMatraI by sinCRI;\012  sub sinJRa sinMatraI by sinJRI;\012  sub sinJhRa sinMatraI by sinJhRI;\012  sub sinNyRa sinMatraI by sinNyRI;\012  sub sinJnyRa sinMatraI by sinJnyRI;\012  sub sinTtRa sinMatraI by sinTtRI;\012  sub sinDdRa sinMatraI by sinDdRI;\012  sub sinTRa sinMatraI by sinTRI;\012  sub sinDRa sinMatraI by sinDRI;\012  sub sinDhRa sinMatraI by sinDhRI;\012  sub sinPRa sinMatraI by sinPRI;\012  sub sinBRa sinMatraI by sinBRI;\012  sub sinBhRa sinMatraI by sinBhRI;\012  sub sinMRa sinMatraI by sinMRI;\012  sub sinVRa sinMatraI by sinVRI;\012  sub sinShRa sinMatraI by sinShRI;\012  sub sinSRa sinMatraI by sinSRI;\012  sub sinHRa sinMatraI by sinHRI;\012  sub sinFRa sinMatraI by sinFRI;\012\012} sinabvs_1;\012\012lookup sinabvs_2 {\012  sub sinKa sinMatraIi by sinKIi;\012  sub sinKha sinMatraIi by sinKhIi;\012  sub sinGa sinMatraIi by sinGIi;\012  sub sinGha sinMatraIi by sinGhIi;\012  sub sinNga sinMatraIi by sinNgIi;\012  sub sinNnga sinMatraIi by sinNngIi;\012  sub sinCa sinMatraIi by sinCIi;\012  sub sinCha sinMatraIi by sinChIi;\012  sub sinJa sinMatraIi by sinJIi;\012  sub sinJha sinMatraIi by sinJhIi;\012  sub sinNya sinMatraIi by sinNyIi;\012  sub sinJnya sinMatraIi by sinJnyIi;\012  sub sinNyja sinMatraIi by sinNyjIi;\012  sub sinTta sinMatraIi by sinTtIi;\012  sub sinTtha sinMatraIi by sinTthIi;\012  sub sinDda sinMatraIi by sinDdIi;\012  sub sinDdha sinMatraIi by sinDdhIi;\012  sub sinNna sinMatraIi by sinNnIi;\012  sub sinNndda sinMatraIi by sinNnddIi;\012  sub sinTa sinMatraIi by sinTIi;\012  sub sinTha sinMatraIi by sinThIi;\012  sub sinDa sinMatraIi by sinDIi;\012  sub sinDha sinMatraIi by sinDhIi;\012  sub sinNa sinMatraIi by sinNIi;\012  sub sinNda sinMatraIi by sinNdIi;\012  sub sinPa sinMatraIi by sinPIi;\012  sub sinPha sinMatraIi by sinPhIi;\012  sub sinBa sinMatraIi by sinBIi;\012  sub sinBha sinMatraIi by sinBhIi;\012  sub sinMa sinMatraIi by sinMIi;\012  sub sinMba sinMatraIi by sinMbIi;\012  sub sinYa sinMatraIi by sinYIi;\012  sub sinRa sinMatraIi by sinRIi;\012  sub sinLa sinMatraIi by sinLIi;\012  sub sinVa sinMatraIi by sinVIi;\012  sub sinSha sinMatraIi by sinShIi;\012  sub sinSsa sinMatraIi by sinSsIi;\012  sub sinSa sinMatraIi by sinSIi;\012  sub sinHa sinMatraIi by sinHIi;\012  sub sinLla sinMatraIi by sinLlIi;\012  sub sinFa sinMatraIi by sinFIi;\012\012  sub	sinKSsa	sinMatraIi	by	sinKSsIi;\012  sub	sinKVa	sinMatraIi	by	sinKVIi;\012  sub	sinTVa	sinMatraIi	by	sinTVIi;\012  sub	sinTTha	sinMatraIi	by	sinTThIi;\012  sub	sinNDa	sinMatraIi	by	sinNDIi;\012  sub	sinNVa	sinMatraIi	by	sinNVIi;\012  sub	sinNDha	sinMatraIi	by	sinNDhIi;\012  sub	sinNTha	sinMatraIi	by	sinNThIi;\012  sub	sinDVa	sinMatraIi	by	sinDVIi;\012  sub	sinDDha	sinMatraIi	by	sinDDhIi;\012  sub	sinTtTtha	sinMatraIi	by	sinTtTthIi;\012  sub	sinGDha	sinMatraIi	by sinGDhIi;\012  sub	sinNyCa sinMatraIi by sinNyCIi;\012  sub	sinNyCha sinMatraIi by sinNyChIi;\012  sub 	sinCCa sinMatraIi by sinCCIi;\012  sub	sinBBa sinMatraIi by sinBBIi;\012  sub 	sinYansaya sinMatraIi by sinYansaya.MatraIi;\012\012  sub sinKRa sinMatraIi by sinKRIi;\012  sub sinKhRa sinMatraIi by sinKhRIi;\012  sub sinGRa sinMatraIi by sinGRIi;\012  sub sinGhRa sinMatraIi by sinGhRIi;\012  sub sinCRa sinMatraIi by sinCRIi;\012  sub sinJRa sinMatraIi by sinJRIi;\012  sub sinJhRa sinMatraIi by sinJhRIi;\012  sub sinNyRa sinMatraIi by sinNyRIi;\012  sub sinJnyRa sinMatraIi by sinJnyRIi;\012  sub sinTtRa sinMatraIi by sinTtRIi;\012  sub sinDdRa sinMatraIi by sinDdRIi;\012  sub sinTRa sinMatraIi by sinTRIi;\012  sub sinDRa sinMatraIi by sinDRIi;\012  sub sinDhRa sinMatraIi by sinDhRIi;\012  sub sinPRa sinMatraIi by sinPRIi;\012  sub sinBRa sinMatraIi by sinBRIi;\012  sub sinBhRa sinMatraIi by sinBhRIi;\012  sub sinMRa sinMatraIi by sinMRIi;\012  sub sinVRa sinMatraIi by sinVRIi;\012  sub sinShRa sinMatraIi by sinShRIi;\012  sub sinSRa sinMatraIi by sinSRIi;\012  sub sinHRa sinMatraIi by sinHRIi;\012  sub sinFRa sinMatraIi by sinFRIi;\012} sinabvs_2;\012\012\012\012lookup sinabvs_3 {\012  sub sinYansaya sinReph by sinYansaya.reph;\012  sub sinYansaya sinMatraAa sinReph  by sinYansaya_Reph_MatraAa;\012  sub sinYansaya sinMatraU sinReph  by sinYansaya_Reph_MatraU;\012  sub sinYansaya sinMatraUu sinReph  by sinYansaya_Reph_MatraUu;\012  sub	sinKa	sinReph by sinKa.reph	;\012  sub	sinKha	sinReph by sinKha.reph	;\012  sub	sinGa	sinReph by sinGa.reph	;\012  sub	sinGha	sinReph by sinGha.reph	;\012  sub	sinNga	sinReph by sinNga.reph	;\012  sub	sinNnga	sinReph by sinNnga.reph	;\012  sub	sinCa	sinReph by sinCa.reph	;\012  sub	sinCha	sinReph by sinCha.reph	;\012  sub	sinJa	sinReph by sinJa.reph	;\012  sub	sinJha	sinReph by sinJha.reph	;\012  sub	sinNya	sinReph by sinNya.reph	;\012  sub	sinJnya	sinReph by sinJnya.reph	;\012  sub	sinNyja	sinReph by sinNyja.reph	;\012  sub	sinTta	sinReph by sinTta.reph	;\012  sub	sinTtha	sinReph by sinTtha.reph	;\012  sub	sinDda	sinReph by sinDda.reph	;\012  sub	sinDdha	sinReph by sinDdha.reph	;\012  sub	sinNna	sinReph by sinNna.reph	;\012  sub	sinNndda	sinReph by sinNndda.reph	;\012  sub	sinTa	sinReph by sinTa.reph	;\012  sub	sinTha	sinReph by sinTha.reph	;\012  sub	sinDa	sinReph by sinDa.reph	;\012  sub	sinDha	sinReph by sinDha.reph	;\012  sub	sinNa	sinReph by sinNa.reph	;\012  sub	sinNda	sinReph by sinNda.reph	;\012  sub	sinPa	sinReph by sinPa.reph	;\012  sub	sinPha	sinReph by sinPha.reph	;\012  sub	sinBa	sinReph by sinBa.reph	;\012  sub	sinBha	sinReph by sinBha.reph	;\012  sub	sinMa	sinReph by sinMa.reph	;\012  sub	sinMba	sinReph by sinMba.reph	;\012  sub	sinYa	sinReph by sinYa.reph	;\012  sub	sinRa	sinReph by sinRa.reph	;\012  sub	sinLa	sinReph by sinLa.reph	;\012  sub	sinVa	sinReph by sinVa.reph	;\012  sub	sinSha	sinReph by sinSha.reph	;\012  sub	sinSsa	sinReph by sinSsa.reph	;\012  sub	sinSa	sinReph by sinSa.reph	;\012  sub	sinHa	sinReph by sinHa.reph	;\012  sub	sinLla	sinReph by sinLla.reph	;\012  sub	sinFa	sinReph by sinFa.reph	;\012  \012  sub	sinKSsa	sinReph by sinKSsa.reph	;\012  sub	sinKVa	sinReph by sinKVa.reph	;\012  sub	sinTVa	sinReph by sinTVa.reph	;\012  sub	sinTTha	sinReph by sinTTha.reph	;\012  sub	sinNDa	sinReph by sinNDa.reph	;\012  sub	sinNDha	sinReph by sinNDha.reph	;\012  sub	sinNVa	sinReph by sinNVa.reph	;\012  sub	sinNTha	sinReph by sinNTha.reph	;\012  sub	sinGDha	sinReph by sinGDha.reph	;\012  sub	sinDVa	sinReph by sinDVa.reph	;\012  sub	sinDDha	sinReph by sinDDha.reph	;\012  sub	sinTtTtha	sinReph by sinTtTtha.reph;\012  sub	sinNyCa	sinReph by sinNyCa.reph	;\012  sub	sinNyCha	sinReph by sinNyCha.reph;\012  sub	sinCCa	sinReph by sinCCa.reph;\012  sub	sinBBa	sinReph by sinBBa.reph	;\012} sinabvs_3;\012\012\012lookup sinakhands_reph {\012  sub sinKSsa sinReph by sinKSsa.reph;\012  sub sinKa sinReph sinVirama zerowidthjoiner sinSsa by sinKSsa.reph;\012  sub sinKVa sinReph by sinKVa.reph;\012  sub sinKa sinReph sinVirama zerowidthjoiner sinVa by sinKVa.reph;\012  sub sinTVa sinReph by sinTVa.reph;\012  sub sinTa sinReph sinVirama zerowidthjoiner sinVa by sinTVa.reph;\012  sub sinTTha sinReph by sinTTha.reph;\012  sub sinTa sinReph sinVirama zerowidthjoiner sinTha by sinTTha.reph;\012  sub sinNDa sinReph by sinNDa.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinDa by sinNDa.reph;\012  sub sinNVa sinReph by sinNVa.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinVa by sinNVa.reph;\012  sub sinNDha sinReph by sinNDha.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinDha by sinNDha.reph;\012  sub sinNTha sinReph by sinNTha.reph;\012  sub sinNa sinReph sinVirama zerowidthjoiner sinTha by sinNTha.reph;\012  sub sinDVa sinReph by sinDVa.reph;\012  sub sinDa sinReph sinVirama zerowidthjoiner sinVa by sinDVa.reph;\012  sub sinDDha sinReph by sinDDha.reph;\012  sub sinDa sinReph sinVirama zerowidthjoiner sinDha by sinDDha.reph;\012  sub sinTtTtha sinReph by sinTtTtha.reph;\012  sub sinTta sinReph sinVirama zerowidthjoiner sinTtha by sinTtTtha.reph;\012  sub sinGDha sinReph by sinGDha.reph;\012  sub sinGa sinReph sinVirama zerowidthjoiner sinDha by sinGDha.reph;\012} sinakhands_reph;\012\012#----------- BLWS --------------\012#-------------------------------\012\012lookup sinblws_1 {\012  sub sinKa sinMatraU by sinKU;\012  sub sinKha sinMatraU by sinKhU;\012  sub sinGa sinMatraU by sinGU;\012  sub sinGha sinMatraU by sinGhU;\012  sub sinNnga sinMatraU by sinNngU;\012  sub sinCa sinMatraU by sinCU;\012  sub sinCha sinMatraU by sinChU;\012  sub sinJa sinMatraU by sinJU;\012  sub sinJha sinMatraU by sinJhU;\012  sub sinNya sinMatraU by sinNyU;\012  sub sinJnya sinMatraU by sinJnyU;\012  sub sinNyja sinMatraU by sinNyjU;\012  sub sinTta sinMatraU by sinTtU;\012  sub sinTtha sinMatraU by sinTthU;\012  sub sinDda sinMatraU by sinDdU;\012  sub sinDdha sinMatraU by sinDdhU;\012  sub sinNna sinMatraU by sinNnU;\012  sub sinNndda sinMatraU by sinNnddU;\012  sub sinTa sinMatraU by sinTU;\012  sub sinTha sinMatraU by sinThU;\012  sub sinDa sinMatraU by sinDU;\012  sub sinDha sinMatraU by sinDhU;\012  sub sinNa sinMatraU by sinNU;\012  sub sinNda sinMatraU by sinNdU;\012  sub sinPa sinMatraU by sinPU;\012  sub sinPha sinMatraU by sinPhU;\012  sub sinBa sinMatraU by sinBU;\012  sub sinBha sinMatraU by sinBhU;\012  sub sinMa sinMatraU by sinMU;\012  sub sinMba sinMatraU by sinMbU;\012  sub sinYa sinMatraU by sinYU;\012  sub sinRa sinMatraU by sinRU;\012  sub sinLa sinMatraU by sinLU;\012  sub sinVa sinMatraU by sinVU;\012  sub sinSha sinMatraU by sinShU;\012  sub sinSsa sinMatraU by sinSsU;\012  sub sinSa sinMatraU by sinSU;\012  sub sinHa sinMatraU by sinHU;\012  sub sinLla sinMatraU by sinLlU;\012  sub sinFa sinMatraU by sinFU;\012  sub sinfPa sinMatraU by sinfPU;\012\012  sub	sinKSsa sinMatraU	by	sinKSsU;\012  sub	sinKVa sinMatraU	by	sinKVU;\012  sub	sinTVa sinMatraU	by	sinTVU;\012  sub	sinTTha sinMatraU	by	sinTThU;\012  sub	sinNDa sinMatraU	by	sinNDU;\012  sub	sinNVa sinMatraU	by	sinNVU;\012  sub	sinNDha sinMatraU	by	sinNDhU;\012  sub	sinNTha sinMatraU	by	sinNThU;\012  sub	sinDVa sinMatraU	by	sinDVU;\012  sub	sinDDha sinMatraU	by	sinDDhU;\012  sub	sinTtTtha	sinMatraU	by	sinTtTthU;\012  sub	sinNyCa sinMatraU by sinNyCU;\012  sub	sinNyCha sinMatraU by sinNyChU;\012  sub	sinCCa sinMatraU by sinCU;\012  sub	sinBBa sinMatraU by sinBBU;\012  sub sinYansaya sinMatraU by sinYansa_MatraU;\012} sinblws_1;\012\012lookup sinblws_2 {\012  sub sinKa sinMatraUu by sinKUu;\012  sub sinKha sinMatraUu by sinKhUu;\012  sub sinGa sinMatraUu by sinGUu;\012  sub sinGha sinMatraUu by sinGhUu;\012  sub sinNnga sinMatraUu by sinNngUu;\012  sub sinCa sinMatraUu by sinCUu;\012  sub sinCha sinMatraUu by sinChUu;\012  sub sinJa sinMatraUu by sinJUu;\012  sub sinJha sinMatraUu by sinJhUu;\012  sub sinNya sinMatraUu by sinNyUu;\012  sub sinJnya sinMatraUu by sinJnyUu;\012  sub sinNyja sinMatraUu by sinNyjUu;\012  sub sinTta sinMatraUu by sinTtUu;\012  sub sinTtha sinMatraUu by sinTthUu;\012  sub sinDda sinMatraUu by sinDdUu;\012  sub sinDdha sinMatraUu by sinDdhUu;\012  sub sinNna sinMatraUu by sinNnUu;\012  sub sinNndda sinMatraUu by sinNnddUu;\012  sub sinTa sinMatraUu by sinTUu;\012  sub sinTha sinMatraUu by sinThUu;\012  sub sinDa sinMatraUu by sinDUu;\012  sub sinDha sinMatraUu by sinDhUu;\012  sub sinNa sinMatraUu by sinNUu;\012  sub sinNda sinMatraUu by sinNdUu;\012  sub sinPa sinMatraUu by sinPUu;\012  sub sinPha sinMatraUu by sinPhUu;\012  sub sinBa sinMatraUu by sinBUu;\012  sub sinBha sinMatraUu by sinBhUu;\012  sub sinMa sinMatraUu by sinMUu;\012  sub sinMba sinMatraUu by sinMbUu;\012  sub sinYa sinMatraUu by sinYUu;\012  sub sinRa sinMatraUu by sinRUu;\012  sub sinLa sinMatraUu by sinLUu;\012  sub sinVa sinMatraUu by sinVUu;\012  sub sinSha sinMatraUu by sinShUu;\012  sub sinSsa sinMatraUu by sinSsUu;\012  sub sinSa sinMatraUu by sinSUu;\012  sub sinHa sinMatraUu by sinHUu;\012  sub sinLla sinMatraUu by sinLlUu;\012  sub sinFa sinMatraUu by sinFUu;\012  sub sinfPa sinMatraUu by sinfPUu;\012\012  sub	sinKSsa	sinMatraUu	by	sinKSsUu;\012  sub	sinKVa	sinMatraUu	by	sinKVUu;\012  sub	sinTVa	sinMatraUu	by	sinTVUu;\012  sub	sinTTha	sinMatraUu	by	sinTThUu;\012  sub	sinNDa	sinMatraUu	by	sinNDUu;\012  sub	sinNVa	sinMatraUu	by	sinNVUu;\012  sub	sinNDha	sinMatraUu	by	sinNDhUu;\012  sub	sinNTha	sinMatraUu	by	sinNThUu;\012  sub	sinDVa	sinMatraUu	by	sinDVUu;\012  sub	sinDDha	sinMatraUu	by	sinDDhUu;\012  sub	sinTtTtha	sinMatraUu	by	sinTtTthUu;\012  sub	sinNyCa sinMatraUu by sinNyCUu;\012  sub	sinNyCha sinMatraUu by sinNyChUu;\012  sub 	sinCCa	sinMatraUu by sinCCUu;\012  sub	sinBBa sinMatraUu by sinBBUu;\012  sub sinYansaya sinMatraUu by sinYansa_MatraUu;\012} sinblws_2;\012\012\012\012lookup sinblws_3 {\012  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraU' by sinMatraU.sub;\012  sub [sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa sinKRa sinKhRa sinGRa sinGhRa sinCRa sinJRa sinJhRa sinNyRa sinTtRa sinJnyRa sinNyjRa sinDdRa sinTRa sinDRa sinDhRa sinPRa sinBhRa sinMRa sinVRa sinShRa sinSsRa sinSRa sinHRa sinFRa sinNDRa sinBRa ] sinMatraUu' by sinMatraUu.sub;\012} sinblws_3;\012\012#----------- Yansaya --------------\012#-------------------------------\012\012lookup sin_vatu {\012  sub sinVirama zerowidthjoiner sinYa by sinYansaya;\012  sub sinVirama zerowidthjoiner sinRa by sinRakar;\012} sin_vatu;\012\012#----------- Rae, Raae --------------\012#-------------------------------\012\012lookup sin_psts {\012  sub sinRa sinMatraAe by sinRAe;\012  sub sinRa sinMatraAae by sinRAae;\012}  sin_psts;\012\012lookup si_split_matra {\012  sub sinMatraEe by sinVirama;\012  sub sinMatraO by sinMatraAa;\012  sub sinMatraOo by sinMatraAa.virama;\012  sub sinMatraAu by sinMatraLs;\012} si_split_matra;\012\012#----------- Rakaar ------------\012#-------------------------------\012\012lookup sinrakaar {\012  sub sinKa sinRakar by sinKRa;\012  sub sinKha sinRakar by sinKhRa;\012  sub sinGa sinRakar by sinGRa;\012  sub sinGha sinRakar by sinGhRa;\012  sub sinCa sinRakar by sinCRa;\012  sub sinJa sinRakar by sinJRa;\012  sub sinJha sinRakar by sinJhRa;\012  sub sinNya sinRakar by sinNyRa;\012  sub sinTta sinRakar by sinTtRa;\012  sub sinJnya sinRakar by sinJnyRa;\012  sub sinNyja sinRakar by sinNyjRa;\012  sub sinDda sinRakar by sinDdRa;\012  sub sinTa sinRakar by sinTRa;\012  sub sinDa sinRakar by sinDRa;\012  sub sinDha sinRakar by sinDhRa;\012  sub sinPa sinRakar by sinPRa;\012  sub sinBha sinRakar by sinBhRa;\012  sub sinMa sinRakar by sinMRa;\012  sub sinVa sinRakar by sinVRa;\012  sub sinSha sinRakar by sinShRa;\012  sub sinSsa sinRakar by sinSsRa;\012  sub sinSa sinRakar by sinSRa;\012  sub sinHa sinRakar by sinHRa;\012  sub sinFa sinRakar by sinFRa;\012  sub sinfPa sinRakar by sinfPRa;\012  sub sinNDa sinRakar by sinNDRa;\012  sub sinBa sinRakar by sinBRa;\012} sinrakaar;\012\012#----------- SS01 Da forms ------------\012#---------------------------------\012\012lookup sin_da_subscripts {\012  sub sinDa sinMatraAa by sinDAa.ss01;\012  sub sinDa sinMatraAa by sinDAa.ss01;\012  sub sinDa sinMatraAae by sinDAae.ss01;\012  sub sinDa sinMatraAe by sinDAe.ss01;\012  sub sinDa sinMatraE sinYansaya sinMatraAa by sinDYOo.post.ss01;\012  sub sinDa sinYansa_MatraUu by sinDYUu.post.ss01;\012  sub sinDa sinYansaya by sinDaYa.post.ss01;\012  sub sinDa sinYansaya sinMatraAa by sinDYAa.post.ss01;\012  sub sinDa sinYansa_MatraU by sinDYu.post.ss01;\012  sub sinNda sinMatraAa by sinNdAa.ss01;\012  sub sinNda sinMatraAa by sinNdAa.ss01;\012  sub sinNda sinMatraAae by sinNdAae.ss01;\012  sub sinNda sinMatraAe by sinNdAe.ss01;\012  sub sinJnya sinMatraAa by sinJnyAa.ss01;\012  sub sinJnya sinMatraAa by sinJnyAa.ss01;\012  sub sinJnya sinMatraAae by sinJnyAee.ss01;\012  sub sinJnya sinMatraAe by sinJnyAe.ss01;\012  sub sinNDa sinMatraAa by sinNDAa.ss01;\012  sub sinNDa sinMatraAa by sinNDAa.ss01;\012  sub sinNDa sinMatraAae by sinNDAee.ss01;\012  sub sinNDa sinMatraAe by sinNDAe.ss01;\012  sub sinNya sinMatraAa by sinNyAa.ss01;\012  sub sinNya sinMatraAa by sinNyAa.ss01;\012  sub sinNya sinMatraAae by sinNyAee.ss01;\012  sub sinNya sinMatraAe by sinNyAe.ss01;\012  sub sinDa sinMatraR by sinDvocR.ss01;\012  sub sinDa sinMatraRr by sinDvocRr.ss01;\012  sub sinDRa sinMatraAa by sinDRAa.ss01;\012  sub sinNdRa sinMatraAa by sinNdRAa.ss01;\012\012} sin_da_subscripts;\012\012\012#----------- Sinhala Numerals------------\012#---------------------------------\012\012lookup sin_lithnum_style {\012  sub zero by sinZerolith;\012  sub one by sinOnelith;\012  sub two by sinTwolith;\012  sub three by sinThreelith;\012  sub four by sinFourlith;\012  sub five by sinFivelith;\012  sub six by sinSixlith;\012  sub seven by sinSevenlith;\012  sub eight by sinEightlith;\012  sub nine by sinNinelith;\012} sin_lithnum_style;\012\012\012#----------- Sinhala fPa------------\012#---------------------------------\012\012\012lookup sin_fPa {\012   sub sinFa by sinfPa;\012  sub sinF by sinfP;\012  sub sinFI by sinfPI;\012  sub sinFIi by sinfPIi;\012  sub sinFU by sinfPU;\012  sub sinFUu by sinfPUu;\012  sub sinFUu by sinfPUu;\012  sub sinFRa by sinfPRa;\012  sub sinFRa by sinfPRa;\012  sub sinFR by sinfPR;\012  sub sinFRI by sinfPRI;\012  sub sinFRIi by sinfPRIi;\012  sub sinFa.reph by sinfPa.reph	;\012\012} sin_fPa;\012\012#----------- Sinhala touching  ------------\012#---------------------------------\012\012lookup sin_touch {\012  sub zerowidthjoiner sinVirama by sinTouch;\012} sin_touch;\012\012\012#----------- Sinhala touching reph combinations  ------------\012# Push the Reph the middle when touching two consonants with Reph\012\012\012@REPH_REPLACEMENT_1 = [ sinKa.reph sinGa.reph sinNna.reph sinTa.reph sinBha.reph sinYa.reph ];\012@REPH_REPLACEMENT_2 = [ sinKha.reph sinGha.reph sinCa.reph  sinTta.reph sinDda.reph sinDha.reph sinMa.reph sinVa.reph  sinDa.reph sinPa.reph sinSa.reph sinBa.reph sinLa.reph sinDa.reph sinJha.reph ];\012\012\012lookup touch_reph_test {\012	sub sinKa.reph by sinKa  sinReph.001;\012	sub sinNna.reph by sinNna sinReph.001;\012	sub sinJha.reph by sinJha sinReph.001;\012	sub sinGa.reph by sinGa sinReph.002;\012	sub sinGha.reph by sinGha sinReph.001;\012	sub sinTa.reph by sinTa sinReph.001;\012	sub sinBha.reph by sinBha sinReph.001;\012	\012	sub sinKha.reph by sinKha sinReph.002;\012	sub sinCa.reph by sinCa sinReph.002;\012	sub sinTta.reph by sinTta sinReph.002;\012	sub sinDda.reph by sinDda sinReph.002;\012	sub sinMa.reph by sinMa sinReph.002;\012	sub sinVa.reph by sinVa sinReph.002;\012	sub sinDha.reph by sinDha sinReph.002;\012	sub sinBa.reph by sinBa sinReph.002;\012	sub sinPa.reph by sinPa sinReph.005;\012	sub sinLa.reph by sinLa sinReph.005;\012	sub sinDa.reph by sinDa sinReph.006;\012	sub sinYa.reph by sinYa sinReph.005;\012}touch_reph_test;\012 \012lookup touch_reph{\012	sub sinTouch @REPH_REPLACEMENT_1' lookup touch_reph_test;\012	sub sinTouch @REPH_REPLACEMENT_2' lookup touch_reph_test;\012}touch_reph;\012\012\012#----------- Sinhala touching reph with MatraI /Ii  ------------\012# Push the Reph to on top of the first consonant in a touching ligature when the second consonat is combined with -i and -ii\012\012@BASE_ASCENDING = [ sinKha sinNga sinNnga sinCa sinJha sinTta sinTtha sinDda sinDdha sinNndda sinTha sinDha sinPha sinBa sinMa sinMba sinVa];\012@BASE_BODY_HEIGHT = [ sinKa sinGa sinGha sinCha sinJa sinNya sinJnya sinNyja sinNna sinTa sinNa sinPa sinBha sinYa sinLa sinSha sinSsa sinSa sinHa sinLla sinFa];\012@BASE_NARROW = [sinDa sinNda];\012\012\012@REPH_REPLACEMENT_MATRAI_1 = [ sinKI sinKhI sinGI sinGhI sinNgI sinNngI sinCI sinChI sinJI sinJhI sinNyI sinJnyI sinNyjI sinTtI sinTthI sinDdI sinDdhI sinNnI sinNnddI sinTI sinThI sinDI sinDhI sinNI sinNdI sinPI sinPhI sinBI sinBhI sinMI sinMbI sinYI sinRI sinLI sinVI sinShI sinSsI sinSI sinHI sinLlI sinFI sinfPI sinKSsI sinKVI sinTVI sinTThI sinNDI sinNDhI sinNVI sinNThI sinGDhI sinDVI sinDDhI sinTtTthI sinNyCI sinNyChI sinCCI sinBBI];\012\012@REPH_REPLACEMENT_MATRAIi_1 = [ sinKIi sinKhIi sinGIi sinGhIi sinNgIi sinNngIi sinCIi sinChIi sinJIi sinJhIi sinNyIi sinJnyIi sinNyjIi sinTtIi sinTthIi sinDdIi sinDdhIi sinNnIi sinNnddIi sinTIi sinThIi sinDIi sinDhIi sinNIi sinNdIi sinPIi sinPhIi sinBIi sinBhIi sinMIi sinMbIi sinYIi sinRIi sinLIi sinVIi sinShIi sinSsIi sinSIi sinHIi sinLlIi sinFIi sinfPIi sinKSsIi sinKVIi sinTVIi sinTThIi sinNDIi sinNDhIi sinNVIi sinNThIi sinGDhIi sinDVIi sinDDhIi sinTtTthIi sinNyCIi sinNyChIi sinCCIi sinBBIi];\012\012\012lookup touch_reph_matraI {\012	sub @BASE_ASCENDING sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.003;\012	sub @BASE_ASCENDING sinTouch @REPH_REPLACEMENT_MATRAIi_1 sinReph' by sinReph.003;\012	sub @BASE_NARROW sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.005;\012	sub @BASE_NARROW sinTouch @REPH_REPLACEMENT_MATRAIi_1 sinReph' by sinReph.005;\012\012	sub @BASE_BODY_HEIGHT sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.004;\012	sub @BASE_BODY_HEIGHT sinTouch @REPH_REPLACEMENT_MATRAIi_1 sinReph' by sinReph.004;\012	sub @BASE_NARROW sinTouch @REPH_REPLACEMENT_MATRAI_1 sinReph' by sinReph.005;\012}touch_reph_matraI;\012\012\012\012\012#----------- Sinhala MatraI and MatraII Reph combinations  ------------\012# Place the Reph inside the MatraI and MatraII\012\012\012@MATRAI_1 = [ sinKI sinKhI sinGI sinGhI sinNgI sinNngI sinCI sinChI sinJI sinJhI sinNyI sinJnyI sinNyjI sinTtI sinDdI sinNnddI sinTI sinDI sinDhI sinNI sinNdI sinPI sinBI sinBhI sinMI sinMbI sinYI sinRI sinLI sinVI sinShI sinSsI sinSI sinHI sinLlI sinFI sinfPI sinKSsI sinKVI sinTVI sinNDI sinNDhI sinNVI sinGDhI sinDVI sinDDhI sinTtTthI sinNyCI sinNyChI sinCCI sinBBI sinKIi sinKhIi sinGIi sinGhIi sinNgIi sinNngIi sinCIi sinChIi sinJIi sinJhIi sinNyIi sinJnyIi sinNyjIi sinTtIi sinDdIi sinNnIi sinNnddIi sinTIi sinDIi sinDhIi sinNIi sinNdIi sinPIi sinBIi sinBhIi sinMIi sinMbIi sinYIi sinRIi sinLIi sinVIi sinShIi sinSsIi sinSIi sinHIi sinLlIi sinFIi sinfPIi sinKSsIi sinKVIi sinTVIi sinNDIi sinNDhIi sinNVIi sinGDhIi sinDVIi sinDDhIi sinNyCIi sinNyChIi sinCCIi sinBBIi ];\012\012@MATRAI_2 = [ sinTthI sinDdhI  sinThI sinPhI sinTThI sinNThI sinTthIi sinDdhIi sinThIi sinPhIi sinTThIi sinNThIi  ];\012\012@MATRAI_3 = [sinNnI sinNnIi];\012\012lookup matraI_matraII_reph {\012	sub @MATRAI_1 sinReph' by sinReph.006;\012	sub @MATRAI_2 sinReph' by sinReph.007;\012	sub @MATRAI_3 sinReph' by sinReph.008;\012}matraI_matraII_reph;\012\012\012";
 name = Prefix;
 },
 {
@@ -879,7 +880,7 @@ code = "  script sinh;\012      lookup sinakhands;\012	  lookup sinakhands_reph;
 name = akhn;
 },
 {
-code = "  script sinh;\012      lookup sinreph;\012";
+code = "  script sinh;\012      lookup sinreph;\012 	lookup touch_reph;\012    lookup touch_reph_matraI;\012    lookup matraI_matraII_reph;";
 name = rphf;
 },
 {
@@ -891,7 +892,7 @@ code = "  script sinh;\012      lookup si_split_matra;\012";
 name = pstf;
 },
 {
-code = "script sinh;\012 	lookup touch_reph;\012    lookup touch_reph_test_2;";
+code = "script sinh;\012 	lookup touch_reph;\012    lookup touch_reph_matraI;\012    lookup matraI_matraII_reph;";
 name = rlig;
 },
 {
@@ -31598,7 +31599,7 @@ width = 767;
 },
 {
 glyphname = sinKI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -31688,7 +31689,7 @@ width = 728;
 },
 {
 glyphname = sinKhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -31948,7 +31949,7 @@ width = 615;
 },
 {
 glyphname = sinGI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -32182,7 +32183,7 @@ width = 621;
 },
 {
 glyphname = sinGhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -32272,7 +32273,7 @@ width = 661;
 },
 {
 glyphname = sinNgI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -32558,7 +32559,7 @@ width = 602;
 },
 {
 glyphname = sinNngI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -32840,7 +32841,7 @@ width = 731;
 },
 {
 glyphname = sinCI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -33086,7 +33087,7 @@ width = 606;
 },
 {
 glyphname = sinChI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -33194,7 +33195,7 @@ width = 583;
 },
 {
 glyphname = sinJI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -33302,7 +33303,7 @@ width = 583;
 },
 {
 glyphname = sinJhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -33556,7 +33557,7 @@ width = 1061;
 },
 {
 glyphname = sinNyI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -33652,7 +33653,7 @@ width = 1000;
 },
 {
 glyphname = sinJnyI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -33744,7 +33745,7 @@ width = 822;
 },
 {
 glyphname = sinNyjI;
-lastChange = "2021-05-27 07:18:06 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -33852,7 +33853,7 @@ width = 682;
 },
 {
 glyphname = sinTtI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -34022,7 +34023,7 @@ width = 588;
 },
 {
 glyphname = sinTthI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -34132,7 +34133,7 @@ width = 622;
 },
 {
 glyphname = sinDdI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -34362,7 +34363,7 @@ width = 631;
 },
 {
 glyphname = sinDdhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -34652,7 +34653,7 @@ width = 631;
 },
 {
 glyphname = sinNnI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -34750,7 +34751,7 @@ width = 940;
 },
 {
 glyphname = sinNnddI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -35028,7 +35029,7 @@ width = 713;
 },
 {
 glyphname = sinTI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -35118,7 +35119,7 @@ width = 687;
 },
 {
 glyphname = sinThI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -35228,7 +35229,7 @@ width = 599;
 },
 {
 glyphname = sinDI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -35318,7 +35319,7 @@ width = 445;
 },
 {
 glyphname = sinDhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -35514,7 +35515,7 @@ width = 623;
 },
 {
 glyphname = sinNI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -35604,7 +35605,7 @@ width = 787;
 },
 {
 glyphname = sinNdI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -35694,7 +35695,7 @@ width = 525;
 },
 {
 glyphname = sinPI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -35784,7 +35785,7 @@ width = 601;
 },
 {
 glyphname = sinPhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -35894,7 +35895,7 @@ width = 569;
 },
 {
 glyphname = sinBI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -36138,7 +36139,7 @@ width = 604;
 },
 {
 glyphname = sinBhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -36240,7 +36241,7 @@ width = 654;
 },
 {
 glyphname = sinMI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -36514,7 +36515,7 @@ width = 620;
 },
 {
 glyphname = sinMbI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -36868,7 +36869,7 @@ width = 621;
 },
 {
 glyphname = sinYI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -36958,7 +36959,7 @@ width = 621;
 },
 {
 glyphname = sinRI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -37062,7 +37063,7 @@ width = 515;
 },
 {
 glyphname = sinLI;
-lastChange = "2020-11-25 08:06:16 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -37154,7 +37155,7 @@ width = 654;
 },
 {
 glyphname = sinVI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -37362,7 +37363,7 @@ width = 583;
 },
 {
 glyphname = sinShI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -37656,7 +37657,7 @@ width = 616;
 },
 {
 glyphname = sinSsI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -37746,7 +37747,7 @@ width = 607;
 },
 {
 glyphname = sinSI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -37836,7 +37837,7 @@ width = 661;
 },
 {
 glyphname = sinHI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -37938,7 +37939,7 @@ width = 637;
 },
 {
 glyphname = sinLlI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -38030,7 +38031,7 @@ width = 621;
 },
 {
 glyphname = sinFI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -38120,7 +38121,7 @@ width = 592;
 },
 {
 glyphname = sinfPI;
-lastChange = "2021-06-09 02:43:30 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -38484,7 +38485,7 @@ width = 601;
 },
 {
 glyphname = sinKSsI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -38574,7 +38575,7 @@ width = 1043;
 },
 {
 glyphname = sinKVI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -38840,7 +38841,7 @@ width = 1036;
 },
 {
 glyphname = sinTVI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -39226,7 +39227,7 @@ width = 977;
 },
 {
 glyphname = sinTThI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -39336,7 +39337,7 @@ width = 992;
 },
 {
 glyphname = sinNDI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -39426,7 +39427,7 @@ width = 873;
 },
 {
 glyphname = sinNDhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -39614,7 +39615,7 @@ width = 1052;
 },
 {
 glyphname = sinNVI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -39796,7 +39797,7 @@ width = 1007;
 },
 {
 glyphname = sinNThI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -39906,7 +39907,7 @@ width = 1021;
 },
 {
 glyphname = sinGDhI;
-lastChange = "2021-06-06 05:18:57 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -40058,7 +40059,7 @@ width = 919;
 },
 {
 glyphname = sinDVI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -40314,7 +40315,7 @@ width = 671;
 },
 {
 glyphname = sinDDhI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -40398,7 +40399,7 @@ width = 711;
 },
 {
 glyphname = sinTtTthI;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -40712,7 +40713,7 @@ width = 711;
 },
 {
 glyphname = sinNyCI;
-lastChange = "2021-06-06 06:01:15 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -40790,7 +40791,7 @@ width = 689;
 },
 {
 glyphname = sinNyChI;
-lastChange = "2021-06-06 06:09:18 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -40868,7 +40869,7 @@ width = 683;
 },
 {
 glyphname = sinCCI;
-lastChange = "2021-06-11 07:50:19 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -41094,7 +41095,7 @@ width = 677;
 },
 {
 glyphname = sinBBI;
-lastChange = "2021-06-06 08:31:46 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -41390,7 +41391,7 @@ width = 765;
 },
 {
 glyphname = sinKIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -41518,7 +41519,7 @@ width = 728;
 },
 {
 glyphname = sinKhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -41816,7 +41817,7 @@ width = 615;
 },
 {
 glyphname = sinGIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -42064,7 +42065,7 @@ width = 621;
 },
 {
 glyphname = sinGhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -42192,7 +42193,7 @@ width = 661;
 },
 {
 glyphname = sinNgIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -42516,7 +42517,7 @@ width = 602;
 },
 {
 glyphname = sinNngIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -42830,7 +42831,7 @@ width = 731;
 },
 {
 glyphname = sinCIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -43114,7 +43115,7 @@ width = 606;
 },
 {
 glyphname = sinChIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -43254,7 +43255,7 @@ width = 583;
 },
 {
 glyphname = sinJIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -43394,7 +43395,7 @@ width = 583;
 },
 {
 glyphname = sinJhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -43648,7 +43649,7 @@ width = 1061;
 },
 {
 glyphname = sinNyIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -43776,7 +43777,7 @@ width = 1000;
 },
 {
 glyphname = sinJnyIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -43904,7 +43905,7 @@ width = 822;
 },
 {
 glyphname = sinNyjIi;
-lastChange = "2021-05-27 07:18:22 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -44044,7 +44045,7 @@ width = 682;
 },
 {
 glyphname = sinTtIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -44252,7 +44253,7 @@ width = 588;
 },
 {
 glyphname = sinTthIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -44396,7 +44397,7 @@ width = 623;
 },
 {
 glyphname = sinDdIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -44664,7 +44665,7 @@ width = 631;
 },
 {
 glyphname = sinDdhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -44988,7 +44989,7 @@ width = 631;
 },
 {
 glyphname = sinNnIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -45444,7 +45445,7 @@ width = 940;
 },
 {
 glyphname = sinNnddIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -45760,7 +45761,7 @@ width = 713;
 },
 {
 glyphname = sinTIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -45894,7 +45895,7 @@ width = 687;
 },
 {
 glyphname = sinThIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -46146,7 +46147,7 @@ width = 599;
 },
 {
 glyphname = sinDIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -46274,7 +46275,7 @@ width = 445;
 },
 {
 glyphname = sinDhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -46510,7 +46511,7 @@ width = 623;
 },
 {
 glyphname = sinNIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -46644,7 +46645,7 @@ width = 787;
 },
 {
 glyphname = sinNdIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -46772,7 +46773,7 @@ width = 525;
 },
 {
 glyphname = sinPIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -46900,7 +46901,7 @@ width = 601;
 },
 {
 glyphname = sinPhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -47044,7 +47045,7 @@ width = 569;
 },
 {
 glyphname = sinBIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -47322,7 +47323,7 @@ width = 604;
 },
 {
 glyphname = sinBhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -47456,7 +47457,7 @@ width = 654;
 },
 {
 glyphname = sinMIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -47768,7 +47769,7 @@ width = 620;
 },
 {
 glyphname = sinMbIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -48160,7 +48161,7 @@ width = 621;
 },
 {
 glyphname = sinYIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -48288,7 +48289,7 @@ width = 621;
 },
 {
 glyphname = sinRIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -48514,7 +48515,7 @@ width = 515;
 },
 {
 glyphname = sinLIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -48648,7 +48649,7 @@ width = 654;
 },
 {
 glyphname = sinVIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -48894,7 +48895,7 @@ width = 583;
 },
 {
 glyphname = sinShIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -49220,7 +49221,7 @@ width = 616;
 },
 {
 glyphname = sinSsIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -49348,7 +49349,7 @@ width = 607;
 },
 {
 glyphname = sinSIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -49476,7 +49477,7 @@ width = 661;
 },
 {
 glyphname = sinHIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -49610,7 +49611,7 @@ width = 637;
 },
 {
 glyphname = sinLlIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -49740,7 +49741,7 @@ width = 621;
 },
 {
 glyphname = sinFIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -49868,7 +49869,7 @@ width = 592;
 },
 {
 glyphname = sinfPIi;
-lastChange = "2021-06-09 02:46:08 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -50270,7 +50271,7 @@ width = 601;
 },
 {
 glyphname = sinKSsIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -50398,7 +50399,7 @@ width = 1043;
 },
 {
 glyphname = sinKVIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -50664,7 +50665,7 @@ width = 1036;
 },
 {
 glyphname = sinTVIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -51088,7 +51089,7 @@ width = 977;
 },
 {
 glyphname = sinTThIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -51506,7 +51507,7 @@ width = 992;
 },
 {
 glyphname = sinNDIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -51634,7 +51635,7 @@ width = 873;
 },
 {
 glyphname = sinNDhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -51822,7 +51823,7 @@ width = 1052;
 },
 {
 glyphname = sinNVIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -52004,7 +52005,7 @@ width = 1007;
 },
 {
 glyphname = sinNThIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -52414,7 +52415,7 @@ width = 1021;
 },
 {
 glyphname = sinGDhIi;
-lastChange = "2021-06-06 05:19:41 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -52566,7 +52567,7 @@ width = 919;
 },
 {
 glyphname = sinDVIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -52860,7 +52861,7 @@ width = 671;
 },
 {
 glyphname = sinDDhIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -52944,7 +52945,7 @@ width = 711;
 },
 {
 glyphname = sinTtTthIi;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -53292,7 +53293,7 @@ width = 711;
 },
 {
 glyphname = sinNyCIi;
-lastChange = "2021-06-06 06:06:25 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -53370,7 +53371,7 @@ width = 714;
 },
 {
 glyphname = sinNyChIi;
-lastChange = "2021-06-06 06:09:46 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 components = (
@@ -53448,7 +53449,7 @@ width = 686;
 },
 {
 glyphname = sinCCIi;
-lastChange = "2021-06-11 07:53:50 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -53712,7 +53713,7 @@ width = 677;
 },
 {
 glyphname = sinBBIi;
-lastChange = "2021-06-06 08:30:47 +0000";
+lastChange = "2021-06-14 09:35:42 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -169755,7 +169756,7 @@ category = Mark;
 },
 {
 glyphname = sinReph.006;
-lastChange = "2021-06-08 11:12:36 +0000";
+lastChange = "2021-06-14 09:28:36 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -169763,60 +169764,60 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-423 525 OFFCURVE",
-"-442 510 OFFCURVE",
-"-442 489 CURVE SMOOTH",
-"-442 468 OFFCURVE",
-"-423 453 OFFCURVE",
-"-402 453 CURVE SMOOTH",
-"-381 453 OFFCURVE",
-"-362 468 OFFCURVE",
-"-362 489 CURVE SMOOTH",
-"-362 510 OFFCURVE",
-"-381 525 OFFCURVE",
-"-402 525 CURVE SMOOTH"
+"-342 730 OFFCURVE",
+"-361 715 OFFCURVE",
+"-361 694 CURVE SMOOTH",
+"-361 673 OFFCURVE",
+"-342 658 OFFCURVE",
+"-321 658 CURVE SMOOTH",
+"-300 658 OFFCURVE",
+"-281 673 OFFCURVE",
+"-281 694 CURVE SMOOTH",
+"-281 715 OFFCURVE",
+"-300 730 OFFCURVE",
+"-321 730 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"-484 424 OFFCURVE",
-"-542 452 OFFCURVE",
-"-542 507 CURVE SMOOTH",
-"-542 569 OFFCURVE",
-"-485 606 OFFCURVE",
-"-405 606 CURVE SMOOTH",
-"-330 606 OFFCURVE",
-"-268 565 OFFCURVE",
-"-268 496 CURVE SMOOTH",
-"-268 459 OFFCURVE",
-"-288 435 OFFCURVE",
-"-309 414 CURVE",
-"-322 419 LINE",
-"-309 431 OFFCURVE",
-"-296 459 OFFCURVE",
-"-296 496 CURVE SMOOTH",
-"-296 546 OFFCURVE",
-"-346 580 OFFCURVE",
-"-406 580 CURVE SMOOTH",
-"-458 580 OFFCURVE",
-"-511 559 OFFCURVE",
-"-511 507 CURVE SMOOTH",
-"-511 469 OFFCURVE",
-"-471 451 OFFCURVE",
-"-449 449 CURVE",
-"-457 455 OFFCURVE",
-"-468 469 OFFCURVE",
-"-468 490 CURVE SMOOTH",
-"-468 524 OFFCURVE",
-"-438 548 OFFCURVE",
-"-403 548 CURVE SMOOTH",
-"-363 548 OFFCURVE",
-"-336 522 OFFCURVE",
-"-336 488 CURVE SMOOTH",
-"-336 450 OFFCURVE",
-"-369 424 OFFCURVE",
-"-426 424 CURVE SMOOTH"
+"-403 629 OFFCURVE",
+"-461 657 OFFCURVE",
+"-461 712 CURVE SMOOTH",
+"-461 774 OFFCURVE",
+"-404 811 OFFCURVE",
+"-324 811 CURVE SMOOTH",
+"-249 811 OFFCURVE",
+"-187 770 OFFCURVE",
+"-187 701 CURVE SMOOTH",
+"-187 664 OFFCURVE",
+"-207 630 OFFCURVE",
+"-228 609 CURVE",
+"-251 624 LINE",
+"-238 636 OFFCURVE",
+"-215 664 OFFCURVE",
+"-215 701 CURVE SMOOTH",
+"-215 751 OFFCURVE",
+"-265 785 OFFCURVE",
+"-325 785 CURVE SMOOTH",
+"-377 785 OFFCURVE",
+"-430 764 OFFCURVE",
+"-430 712 CURVE SMOOTH",
+"-430 674 OFFCURVE",
+"-390 656 OFFCURVE",
+"-368 654 CURVE",
+"-376 660 OFFCURVE",
+"-387 674 OFFCURVE",
+"-387 695 CURVE SMOOTH",
+"-387 729 OFFCURVE",
+"-357 753 OFFCURVE",
+"-322 753 CURVE SMOOTH",
+"-282 753 OFFCURVE",
+"-255 727 OFFCURVE",
+"-255 693 CURVE SMOOTH",
+"-255 655 OFFCURVE",
+"-288 629 OFFCURVE",
+"-345 629 CURVE SMOOTH"
 );
 }
 );
@@ -169828,60 +169829,334 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-434 530 OFFCURVE",
-"-452 514 OFFCURVE",
-"-452 494 CURVE SMOOTH",
-"-452 474 OFFCURVE",
-"-434 458 OFFCURVE",
-"-413 458 CURVE SMOOTH",
-"-392 458 OFFCURVE",
-"-373 474 OFFCURVE",
-"-373 494 CURVE SMOOTH",
-"-373 514 OFFCURVE",
-"-392 530 OFFCURVE",
-"-413 530 CURVE SMOOTH"
+"-293 731 OFFCURVE",
+"-311 715 OFFCURVE",
+"-311 695 CURVE SMOOTH",
+"-311 675 OFFCURVE",
+"-293 659 OFFCURVE",
+"-272 659 CURVE SMOOTH",
+"-251 659 OFFCURVE",
+"-232 675 OFFCURVE",
+"-232 695 CURVE SMOOTH",
+"-232 715 OFFCURVE",
+"-251 731 OFFCURVE",
+"-272 731 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"-495 429 OFFCURVE",
-"-552 457 OFFCURVE",
-"-552 512 CURVE SMOOTH",
-"-552 574 OFFCURVE",
-"-495 611 OFFCURVE",
-"-415 611 CURVE SMOOTH",
-"-340 611 OFFCURVE",
-"-278 569 OFFCURVE",
-"-278 500 CURVE SMOOTH",
-"-278 477 OFFCURVE",
-"-286 455 OFFCURVE",
-"-302 436 CURVE",
-"-337 436 LINE",
-"-324 448 OFFCURVE",
-"-309 472 OFFCURVE",
-"-309 499 CURVE SMOOTH",
-"-309 552 OFFCURVE",
-"-356 583 OFFCURVE",
-"-416 583 CURVE SMOOTH",
-"-468 583 OFFCURVE",
-"-520 561 OFFCURVE",
-"-520 512 CURVE SMOOTH",
-"-520 474 OFFCURVE",
-"-478 457 OFFCURVE",
-"-461 455 CURVE",
-"-469 461 OFFCURVE",
-"-479 474 OFFCURVE",
-"-479 495 CURVE SMOOTH",
-"-479 529 OFFCURVE",
-"-449 553 OFFCURVE",
-"-414 553 CURVE SMOOTH",
-"-374 553 OFFCURVE",
-"-346 527 OFFCURVE",
-"-346 493 CURVE SMOOTH",
-"-346 455 OFFCURVE",
-"-380 429 OFFCURVE",
-"-437 429 CURVE SMOOTH"
+"-354 630 OFFCURVE",
+"-411 658 OFFCURVE",
+"-411 713 CURVE SMOOTH",
+"-411 775 OFFCURVE",
+"-354 812 OFFCURVE",
+"-274 812 CURVE SMOOTH",
+"-199 812 OFFCURVE",
+"-137 770 OFFCURVE",
+"-137 703 CURVE SMOOTH",
+"-137 669 OFFCURVE",
+"-150 644 OFFCURVE",
+"-166 625 CURVE",
+"-196 637 LINE",
+"-183 649 OFFCURVE",
+"-168 673 OFFCURVE",
+"-168 702 CURVE SMOOTH",
+"-168 753 OFFCURVE",
+"-215 784 OFFCURVE",
+"-275 784 CURVE SMOOTH",
+"-327 784 OFFCURVE",
+"-379 762 OFFCURVE",
+"-379 713 CURVE SMOOTH",
+"-379 675 OFFCURVE",
+"-337 658 OFFCURVE",
+"-320 656 CURVE",
+"-328 662 OFFCURVE",
+"-338 675 OFFCURVE",
+"-338 696 CURVE SMOOTH",
+"-338 730 OFFCURVE",
+"-308 754 OFFCURVE",
+"-273 754 CURVE SMOOTH",
+"-233 754 OFFCURVE",
+"-205 728 OFFCURVE",
+"-205 694 CURVE SMOOTH",
+"-205 656 OFFCURVE",
+"-239 630 OFFCURVE",
+"-296 630 CURVE SMOOTH"
+);
+}
+);
+width = 1;
+}
+);
+category = Mark;
+},
+{
+glyphname = sinReph.007;
+lastChange = "2021-06-14 09:43:29 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-321 753 OFFCURVE",
+"-339 740 OFFCURVE",
+"-339 720 CURVE SMOOTH",
+"-339 701 OFFCURVE",
+"-321 688 OFFCURVE",
+"-302 688 CURVE SMOOTH",
+"-283 688 OFFCURVE",
+"-266 701 OFFCURVE",
+"-266 720 CURVE SMOOTH",
+"-266 740 OFFCURVE",
+"-283 753 OFFCURVE",
+"-302 753 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-377 661 OFFCURVE",
+"-430 687 OFFCURVE",
+"-430 737 CURVE SMOOTH",
+"-430 793 OFFCURVE",
+"-378 827 OFFCURVE",
+"-305 827 CURVE SMOOTH",
+"-237 827 OFFCURVE",
+"-180 790 OFFCURVE",
+"-180 727 CURVE SMOOTH",
+"-180 693 OFFCURVE",
+"-199 662 OFFCURVE",
+"-218 643 CURVE",
+"-239 657 LINE",
+"-227 668 OFFCURVE",
+"-206 693 OFFCURVE",
+"-206 727 CURVE SMOOTH",
+"-206 772 OFFCURVE",
+"-251 803 OFFCURVE",
+"-306 803 CURVE SMOOTH",
+"-353 803 OFFCURVE",
+"-401 784 OFFCURVE",
+"-401 737 CURVE SMOOTH",
+"-401 702 OFFCURVE",
+"-365 686 OFFCURVE",
+"-345 684 CURVE",
+"-352 690 OFFCURVE",
+"-362 702 OFFCURVE",
+"-362 721 CURVE SMOOTH",
+"-362 752 OFFCURVE",
+"-335 774 OFFCURVE",
+"-303 774 CURVE SMOOTH",
+"-267 774 OFFCURVE",
+"-242 750 OFFCURVE",
+"-242 720 CURVE SMOOTH",
+"-242 685 OFFCURVE",
+"-272 661 OFFCURVE",
+"-324 661 CURVE SMOOTH"
+);
+}
+);
+width = 20;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"-327 762 OFFCURVE",
+"-345 746 OFFCURVE",
+"-345 726 CURVE SMOOTH",
+"-345 706 OFFCURVE",
+"-327 690 OFFCURVE",
+"-306 690 CURVE SMOOTH",
+"-285 690 OFFCURVE",
+"-266 706 OFFCURVE",
+"-266 726 CURVE SMOOTH",
+"-266 746 OFFCURVE",
+"-285 762 OFFCURVE",
+"-306 762 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-388 661 OFFCURVE",
+"-445 689 OFFCURVE",
+"-445 744 CURVE SMOOTH",
+"-445 806 OFFCURVE",
+"-388 843 OFFCURVE",
+"-308 843 CURVE SMOOTH",
+"-233 843 OFFCURVE",
+"-171 801 OFFCURVE",
+"-171 734 CURVE SMOOTH",
+"-171 700 OFFCURVE",
+"-184 675 OFFCURVE",
+"-200 656 CURVE",
+"-230 668 LINE",
+"-217 680 OFFCURVE",
+"-202 704 OFFCURVE",
+"-202 733 CURVE SMOOTH",
+"-202 784 OFFCURVE",
+"-249 815 OFFCURVE",
+"-309 815 CURVE SMOOTH",
+"-361 815 OFFCURVE",
+"-413 793 OFFCURVE",
+"-413 744 CURVE SMOOTH",
+"-413 706 OFFCURVE",
+"-371 689 OFFCURVE",
+"-354 687 CURVE",
+"-362 693 OFFCURVE",
+"-372 706 OFFCURVE",
+"-372 727 CURVE SMOOTH",
+"-372 761 OFFCURVE",
+"-342 785 OFFCURVE",
+"-307 785 CURVE SMOOTH",
+"-267 785 OFFCURVE",
+"-239 759 OFFCURVE",
+"-239 725 CURVE SMOOTH",
+"-239 687 OFFCURVE",
+"-273 661 OFFCURVE",
+"-330 661 CURVE SMOOTH"
+);
+}
+);
+width = 1;
+}
+);
+category = Mark;
+},
+{
+glyphname = sinReph.008;
+lastChange = "2021-06-14 09:37:41 +0000";
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-251 603 OFFCURVE",
+"-269 590 OFFCURVE",
+"-269 570 CURVE SMOOTH",
+"-269 551 OFFCURVE",
+"-251 538 OFFCURVE",
+"-232 538 CURVE SMOOTH",
+"-213 538 OFFCURVE",
+"-196 551 OFFCURVE",
+"-196 570 CURVE SMOOTH",
+"-196 590 OFFCURVE",
+"-213 603 OFFCURVE",
+"-232 603 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-307 511 OFFCURVE",
+"-360 537 OFFCURVE",
+"-360 587 CURVE SMOOTH",
+"-360 643 OFFCURVE",
+"-308 677 OFFCURVE",
+"-235 677 CURVE SMOOTH",
+"-167 677 OFFCURVE",
+"-110 640 OFFCURVE",
+"-110 577 CURVE SMOOTH",
+"-110 543 OFFCURVE",
+"-129 512 OFFCURVE",
+"-148 493 CURVE",
+"-169 507 LINE",
+"-157 518 OFFCURVE",
+"-136 543 OFFCURVE",
+"-136 577 CURVE SMOOTH",
+"-136 622 OFFCURVE",
+"-181 653 OFFCURVE",
+"-236 653 CURVE SMOOTH",
+"-283 653 OFFCURVE",
+"-331 634 OFFCURVE",
+"-331 587 CURVE SMOOTH",
+"-331 552 OFFCURVE",
+"-295 536 OFFCURVE",
+"-275 534 CURVE",
+"-282 540 OFFCURVE",
+"-292 552 OFFCURVE",
+"-292 571 CURVE SMOOTH",
+"-292 602 OFFCURVE",
+"-265 624 OFFCURVE",
+"-233 624 CURVE SMOOTH",
+"-197 624 OFFCURVE",
+"-172 600 OFFCURVE",
+"-172 570 CURVE SMOOTH",
+"-172 535 OFFCURVE",
+"-202 511 OFFCURVE",
+"-254 511 CURVE SMOOTH"
+);
+}
+);
+width = 20;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"-327 568 OFFCURVE",
+"-345 552 OFFCURVE",
+"-345 532 CURVE SMOOTH",
+"-345 512 OFFCURVE",
+"-327 496 OFFCURVE",
+"-306 496 CURVE SMOOTH",
+"-285 496 OFFCURVE",
+"-266 512 OFFCURVE",
+"-266 532 CURVE SMOOTH",
+"-266 552 OFFCURVE",
+"-285 568 OFFCURVE",
+"-306 568 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"-388 467 OFFCURVE",
+"-445 495 OFFCURVE",
+"-445 550 CURVE SMOOTH",
+"-445 612 OFFCURVE",
+"-388 649 OFFCURVE",
+"-308 649 CURVE SMOOTH",
+"-233 649 OFFCURVE",
+"-171 607 OFFCURVE",
+"-171 540 CURVE SMOOTH",
+"-171 506 OFFCURVE",
+"-184 481 OFFCURVE",
+"-200 462 CURVE",
+"-230 474 LINE",
+"-217 486 OFFCURVE",
+"-202 510 OFFCURVE",
+"-202 539 CURVE SMOOTH",
+"-202 590 OFFCURVE",
+"-249 621 OFFCURVE",
+"-309 621 CURVE SMOOTH",
+"-361 621 OFFCURVE",
+"-413 599 OFFCURVE",
+"-413 550 CURVE SMOOTH",
+"-413 512 OFFCURVE",
+"-371 495 OFFCURVE",
+"-354 493 CURVE",
+"-362 499 OFFCURVE",
+"-372 512 OFFCURVE",
+"-372 533 CURVE SMOOTH",
+"-372 567 OFFCURVE",
+"-342 591 OFFCURVE",
+"-307 591 CURVE SMOOTH",
+"-267 591 OFFCURVE",
+"-239 565 OFFCURVE",
+"-239 531 CURVE SMOOTH",
+"-239 493 OFFCURVE",
+"-273 467 OFFCURVE",
+"-330 467 CURVE SMOOTH"
 );
 }
 );
