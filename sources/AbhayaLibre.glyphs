@@ -1,13 +1,5 @@
 {
 .appVersion = "1348";
-DisplayStrings = (
-"/taone",
-"/tafour",
-"/tasix",
-"/taeight",
-"/taonethousand/taeight",
-"/taCU/taCUu/taKU/taKUu/taLU/taLUu/taLlU/taLlUu/taLllU/taLllUu/taMU/taMUu/taNU/taNUu/taNgUu/taNnU/taNnUu/taNnnU/taNnnUu/taNyU/taNyUu/taPUu/taRU/taRUu/taRrU/taRrUu/taTU/taTUu/taTtU/taTtUu/taYUu/taKSsa/taShree/taVUu/taKI/taNgI/taCI/taNyI/taTtI/taNnI/taTI/taNI/taPI/taMI/taYI/taRI/taLI/taVI/taLllI/taLlI/taRrI/taNnnI/taJI/taSsI/taSI/taHI/taKSsI/taShI/taKIi/taNgIi/taCIi/taNyIi/taTtIi/taNnIi/taTIi/taNIi/taPIi/taMIi/taYIi/taRIi/taLIi/taVIi/taLllIi/taLlIi/taRrIi/taNnnIi/taJIi/taSsIi/taSIi/taHIi/taKSsIi/taShIi/taMatraIi.alt/taMatraI.alt2/taMatraI.alt3/taMatraI.alt4/taMatraI.alt5/taMatraI.alt6/taMatraI.alt7/taMatraU.alt1/taMatraI.alt1/taJU/taJUu/taSsU/taSsUu/taKSsU/taKSsUu/taSU/taHU/taHUu"
-);
 classes = (
 {
 code = "zero one two three four five six seven eight nine";

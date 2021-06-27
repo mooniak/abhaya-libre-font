@@ -2,7 +2,7 @@
 අභය ලිබ්රේ අකුරු මුහුණත / Abhaya Libre Font
 ==============
 
-Abhaya Libre is text typeface designed for trilingual communications in Sinhala, Tamil and English. Abhaya Libre project aims to produce the most advanced and complete Sinhala font with coverage for complex representations in Sinhala, Pali and Sanskrit texts.  
+Abhaya Libre is a text typeface designed for trilingual communications in Sinhala, Tamil and English. Abhaya Libre project aims to produce the most advanced and complete Sinhala font with coverage for complex representations in Sinhala, Pali and Sanskrit texts.  
 
 In the true spirit of Libre Fonts movement Abhaya Libre project brought together existing projects and a group of designers to develop a coherent typeface. The project started off with the aim of liberating (open sourcing)FM Abhaya, the popular Sinhala text legacy (ASCII encoded) font by Pushpanada Ekanayake. Tamil glyph-set is based on typefaces by Modular Infotech. Latin was custom designed to match Sinhala glyph-set by Sol Matas.
 
