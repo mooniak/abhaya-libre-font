@@ -23,3 +23,13 @@ N: Ayantha Randika
 E: randika@mooniak.com
 W: http://mooniak.com
 D: Contributor - Open Type Layout / Build
+
+N: Kosala Senevirathne  
+E: kosala@mooniak.com  
+W: http://mooniak.com  
+D: Designer of Sinhala numerals
+
+N: Pria Ravichandran  
+E: kosala@mooniak.com  
+W: https://foundryfivetype.com/  
+D: Design consultation on Tamil  
