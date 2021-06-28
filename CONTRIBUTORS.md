@@ -33,3 +33,13 @@ N: Pria Ravichandran
 E: kosala@mooniak.com  
 W: https://foundryfivetype.com/  
 D: Design consultation on Tamil  
+
+N: Janaka Attanayake  
+E: JANAKACB@gmail.com
+W:     
+D: Research and development on Pali and Sanskrit support  
+
+N: Bertram G. Liyanage  
+E: liyanagebg@gmail.com  
+W:     
+D: Research and development on Pali and Sanskrit support
