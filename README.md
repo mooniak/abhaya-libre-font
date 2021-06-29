@@ -10,9 +10,9 @@ The drawings for the original FM Abhaya was based on the common text typeface us
 
 The Latin characters, that match the aesthetics of ‘Abhaya Libre Sinhala’, which was inspired by the style of the original Sinhala with an eminent contrast between distinctive strokes that go from thick to thin and was further modified to co-exist with the visual logics of Latin typefaces. The ductus references according to the lines of a Didone typeface add a touch of Sinhala form to certain terminations. Large counters have been added along with small ascenders and descenders for optimized screen viewing.
 
-The name ‘Abhaya’ comes after the King Abhaya (474 BCE to 454 BCE) who reigned Sri Lanka from the ancient kingdom of Upatissa Nuwara. The ‘Abhaya Libre’ is the Unicode compliant, complete libre version of the most popular Sinhala typeface on Earth.
+The name ‘Abhaya’ comes after the King Abhaya (474 BCE to 454 BCE) who reigned Sri Lanka from the ancient kingdom of Upatissa Nuwara.
 
-The project was funded by Google, being led by Mooniak, a collaborative collective of designers based in Colombo Sri Lanka with the cooperation of Mr. Pushpananda Ekanayake, the designer  of the FM Abhaya font and Sol Matas as the Latin designer.
+The initial development of this was funded by Google Fonts. Project is led by Mooniak, a collaborative collective of designers based in Colombo Sri Lanka with the cooperation of Pushpananda Ekanayake, the designer of the FM Abhaya font and Sol Matas as the Latin designer.
 
 See the discussions on [Googel Fonts mailing list](https://groups.google.com/d/topic/googlefonts-discuss/ET5kBjYxDiY/discussion).
 
