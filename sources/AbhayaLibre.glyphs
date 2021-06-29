@@ -837,7 +837,7 @@ name = Prefix;
 features = (
 {
 automatic = 1;
-code = "feature sups;\012feature numr;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature abvs;\012feature psts;\012feature ss01;\012feature locl;\012";
+code = "feature sups;\012feature numr;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature abvs;\012feature psts;\012feature ss01;\012";
 name = aalt;
 },
 {
