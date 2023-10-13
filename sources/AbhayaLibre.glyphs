@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "3133";
 DisplayStrings = (
 "/taTa/taNa/taRra/taLlla/taHa",
 "/taLU/taLUu/taNU/taNUu/taNnU/taNnUu \012/taNnnU/taNnnUu/taNyU/taNyUu/taRrU/taRrUu \012/taTU/taTUu",
@@ -26,33 +26,12 @@ code = "zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf 
 name = FIGURES_TF;
 }
 );
-copyright = "Copyright 2015 The Abhaya Libre Project Authors <See at https://github.com/mooniak/abhaya-libre-font/>";
+copyright = "Copyright 2015—2023 The Abhaya Libre Project Authors <See at https://github.com/mooniak/abhaya-libre-font/>";
 customParameters = (
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-}
-);
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
 {
 name = fsType;
 value = (
 );
-},
-{
-name = vendorID;
-value = MNIK;
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
 },
 {
 name = glyphOrder;
@@ -817,16 +796,37 @@ value = (
 );
 },
 {
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = MNIK;
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
 name = sampleText;
 value = "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ.";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
 }
 );
-date = "2017-10-22 14:05:51 +0000";
-designer = "Puspanada Ekanayake, Sola Matas, Pathum Egodawatta";
+}
+);
+date = "2023-10-13 07:15:04 +0000";
+designer = "Puspanada Ekanayake, Sola Matas, Pathum Egodawatta, Kosala Senevirathne";
 designerURL = "http://www.mooniak.com/";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
-familyName = "Abhaya Libre";
+familyName = "Abhaya Libre Dev";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012languagesystem taml dflt;\012languagesystem tml2 dflt;\012";
@@ -1057,7 +1057,6 @@ verticalStems = (
 );
 visible = 1;
 weightValue = 70;
-widthValue = 0;
 xHeight = 500;
 },
 {
@@ -1180,7 +1179,6 @@ verticalStems = (
 visible = 1;
 weight = Bold;
 weightValue = 110;
-widthValue = 0;
 xHeight = 500;
 }
 );
@@ -188615,7 +188613,6 @@ width = 600;
 instances = (
 {
 interpolationWeight = 70;
-interpolationWidth = 0;
 instanceInterpolations = {
 "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5" = 1;
 };
@@ -188623,7 +188620,6 @@ name = Regular;
 },
 {
 interpolationWeight = 80;
-interpolationWidth = 0;
 instanceInterpolations = {
 "AA78C373-A874-4B43-A7A1-B39102DDD1E4" = 0.25;
 "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5" = 0.75;
@@ -188633,7 +188629,6 @@ weightClass = Medium;
 },
 {
 interpolationWeight = 90;
-interpolationWidth = 0;
 instanceInterpolations = {
 "AA78C373-A874-4B43-A7A1-B39102DDD1E4" = 0.5;
 "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5" = 0.5;
@@ -188642,7 +188637,6 @@ name = SemiBold;
 weightClass = SemiBold;
 },
 {
-interpolationWidth = 0;
 instanceInterpolations = {
 "AA78C373-A874-4B43-A7A1-B39102DDD1E4" = 0.75;
 "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5" = 0.25;
@@ -188654,7 +188648,6 @@ weightClass = Bold;
 },
 {
 interpolationWeight = 110;
-interpolationWidth = 0;
 instanceInterpolations = {
 "AA78C373-A874-4B43-A7A1-B39102DDD1E4" = 1;
 };
