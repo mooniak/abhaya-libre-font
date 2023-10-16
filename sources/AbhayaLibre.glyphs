@@ -17,7 +17,8 @@ DisplayStrings = (
 "/taNyUu/taShree",
 "/taO/taOo/taMatraEe/taday \012/taMatraIi/taKIi/taNgIi/taCIi/taNya/taNyIi/taTtIi/taNnIi/taTIi/taNIi/taPIi/taMIi/taYIi/taRIi/taLIi/taVIi/taLllIi/taLlIi/taRrIi/taNnnIi/taJIi/taSsIi/taSIi/taHIi/taKSsIi/taShIi",
 ff,
-"/fi fi"
+"/fi fi",
+":"
 );
 classes = (
 {
@@ -156259,7 +156260,7 @@ unicode = 002C;
 },
 {
 glyphname = colon;
-lastChange = "2020-11-25 08:05:21 +0000";
+lastChange = "2023-10-16 07:11:54 +0000";
 layers = (
 {
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -156345,23 +156346,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"139 34 OFFCURVE",
-"171 64 OFFCURVE",
-"171 104 CURVE SMOOTH",
-"171 143 OFFCURVE",
-"139 180 OFFCURVE",
-"100 180 CURVE SMOOTH",
-"61 180 OFFCURVE",
-"30 143 OFFCURVE",
-"30 104 CURVE SMOOTH",
-"30 64 OFFCURVE",
-"61 34 OFFCURVE",
-"100 34 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
 "139 262 OFFCURVE",
 "171 292 OFFCURVE",
 "171 332 CURVE SMOOTH",
@@ -156374,6 +156358,23 @@ nodes = (
 "30 292 OFFCURVE",
 "61 262 OFFCURVE",
 "100 262 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"139 34 OFFCURVE",
+"171 64 OFFCURVE",
+"171 104 CURVE SMOOTH",
+"171 143 OFFCURVE",
+"139 180 OFFCURVE",
+"100 180 CURVE SMOOTH",
+"61 180 OFFCURVE",
+"30 143 OFFCURVE",
+"30 104 CURVE SMOOTH",
+"30 64 OFFCURVE",
+"61 34 OFFCURVE",
+"100 34 CURVE SMOOTH"
 );
 }
 );
