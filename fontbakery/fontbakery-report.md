@@ -38,7 +38,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-<details><summary>[20] AbhayaLibre[wght].ttf</summary>
+<details><summary>[23] AbhayaLibre[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
@@ -52,6 +52,24 @@ These won't break the CI job for now, but will become effective after some time 
 
 * 🔥 **FAIL** <p>Lcaron uses component caron.</p>
  [code: wrong-mark]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.6, while a newer 0.12.10 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+ [code: outdated-fontbakery]
 
 
 
@@ -675,6 +693,24 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
+    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Expected &quot;AbhayaLibreDev[wght].ttf. Got AbhayaLibre[wght].ttf.</p>
+ [code: bad-filename]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>🔥 <b>FAIL</b> Copyright notices match canonical pattern in fonts <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.copyright.html#"></a></summary>
     <div>
 
@@ -687,7 +723,7 @@ These won't break the CI job for now, but will become effective after some time 
 * 🔥 **FAIL** <p>Name Table entry: Copyright notices should match a pattern similar to:</p>
 <p>&quot;Copyright 2019 The Familyname Project Authors (git url)&quot;</p>
 <p>But instead we have got:</p>
-<p>&quot;Copyright 2015 The Abhaya Libre Project Authors &lt;See at <a href="https://github.com/mooniak/abhaya-libre-font/%3E">https://github.com/mooniak/abhaya-libre-font/&gt;</a>&quot;</p>
+<p>&quot;Copyright 2015—2023 The Abhaya Libre Project Authors (<a href="https://github.com/mooniak/abhaya-libre-font">https://github.com/mooniak/abhaya-libre-font</a>)&quot;</p>
  [code: bad-notice-format]
 
 
@@ -815,6 +851,29 @@ These won't break the CI job for now, but will become effective after some time 
 </details>
 
 <details>
+    <summary>🔥 <b>FAIL</b> Are there non-ASCII characters in ASCII-only NAME table entries? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>Bad string at [nameID 0, 'utf_16_be']: 'b'Copyright 2015—2023 The Abhaya Libre Project Authors (<a href="https://github.com/mooniak/abhaya-libre-font">https://github.com/mooniak/abhaya-libre-font</a>)''</p>
+ [code: bad-string]
+
+
+
+* 🔥 **FAIL** <p>There are 1 strings containing non-ASCII characters in the ASCII-only NAME table entries.</p>
+ [code: non-ascii-strings]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>🔥 <b>FAIL</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
     <div>
 
@@ -829,22 +888,22 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Abhaya Libre Regular: OS/2 sTypoAscender is 860 when it should be 840</p>
+* 🔥 **FAIL** <p>Abhaya Libre Dev Regular: OS/2 sTypoAscender is 860 when it should be 840</p>
  [code: bad-typo-ascender]
 
 
 
-* 🔥 **FAIL** <p>Abhaya Libre Regular: OS/2 sTypoDescender is -348 when it should be -340</p>
+* 🔥 **FAIL** <p>Abhaya Libre Dev Regular: OS/2 sTypoDescender is -348 when it should be -340</p>
  [code: bad-typo-descender]
 
 
 
-* 🔥 **FAIL** <p>Abhaya Libre Regular: hhea Ascender is 860 when it should be 840</p>
+* 🔥 **FAIL** <p>Abhaya Libre Dev Regular: hhea Ascender is 860 when it should be 840</p>
  [code: bad-hhea-ascender]
 
 
 
-* 🔥 **FAIL** <p>Abhaya Libre Regular: hhea Descender is -348 when it should be -340</p>
+* 🔥 **FAIL** <p>Abhaya Libre Dev Regular: hhea Descender is -348 when it should be -340</p>
  [code: bad-hhea-descender]
 
 
@@ -920,17 +979,15 @@ U+0DDA, U+0DDC, U+0DDD and U+0DDE</p>
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour order differs in glyph 'colon': [0, 1] in wght=400, [1, 0] in wght=800.
+<pre><code>- Contour 2 start point differs in glyph 'tayear' between location wght=400 and location wght=800
 
-- Contour order differs in glyph 'uni0965': [0, 1] in wght=400, [1, 0] in wght=800.
+- Contour 2 in glyph 'tayear': becomes underweight between wght=400 and wght=800.
 
 - Contour 0 start point differs in glyph 'taEe' between location wght=400 and location wght=800
 
 - Contour 0 in glyph 'taEe': becomes underweight between wght=400 and wght=800.
 
-- Contour 2 start point differs in glyph 'tayear' between location wght=400 and location wght=800
-
-- Contour 2 in glyph 'tayear': becomes underweight between wght=400 and wght=800.
+- Contour order differs in glyph 'uni0965': [0, 1] in wght=400, [1, 0] in wght=800.
 </code></pre>
  [code: interpolation-issues]
 
@@ -952,7 +1009,7 @@ U+0DDA, U+0DDC, U+0DDD and U+0DDE</p>
 * ⚠️ **WARN** <p>The most common width is 469 among a set of 8 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 462:
-greater, less</p>
+less, greater</p>
 <p>Width = 492:
 logicalnot</p>
 <p>Width = 400:
@@ -1032,8 +1089,6 @@ approxequal</p>
 - taMatraI.alt7
 
 - taMatraIi.alt1
-
-- taPU
 
 - vertical_stem_upper
 </code></pre>
@@ -4472,14 +4527,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
 <li>U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
 <li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
-<li>U+2010 HYPHEN: try adding one of: sora-sompeng, syloti-nagri, hebrew, yi, coptic, lisu, cham, kaithi, kayah-li, arabic, sundanese, armenian, kharoshthi</li>
+<li>U+2010 HYPHEN: try adding one of: cham, lisu, hebrew, sora-sompeng, syloti-nagri, kayah-li, sundanese, arabic, coptic, kaithi, yi, kharoshthi, armenian</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: not included in any glyphset definition</li>
@@ -4488,7 +4543,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, yi, math</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -4634,8 +4689,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 15 | 95 | 9 | 125 | 0 | 
-| 0% | 0% | 3% | 6% | 38% | 4% | 50% | 0% | 
+| 0 | 0 | 10 | 15 | 95 | 9 | 122 | 0 | 
+| 0% | 0% | 4% | 6% | 38% | 4% | 49% | 0% | 
 
 
 
