@@ -818,7 +818,7 @@ designer = "Puspanada Ekanayake, Sola Matas, Pathum Egodawatta, Kosala Senevirat
 designerURL = "http://www.mooniak.com/";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
-familyName = "Abhaya Libre Dev";
+familyName = "Abhaya Libre NIGHTLY";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012languagesystem taml dflt;\012languagesystem tml2 dflt;\012";
@@ -2947,6 +2947,6 @@ oV = 85;
 GSDontShowVersionAlert = 1;
 LWPluginVersion = "1429";
 };
-versionMajor = 1;
-versionMinor = 100;
+versionMajor = 2;
+versionMinor = 0;
 }
