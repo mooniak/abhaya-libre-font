@@ -1,0 +1,36 @@
+{
+glyphname = endash;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"100 200 LINE",
+"580 200 LINE",
+"580 240 LINE",
+"100 240 LINE"
+);
+}
+);
+width = 680;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"50 195 LINE",
+"560 195 LINE",
+"560 240 LINE",
+"50 240 LINE"
+);
+}
+);
+width = 610;
+}
+);
+unicode = 2013;
+}

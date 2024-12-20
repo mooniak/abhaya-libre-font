@@ -1,0 +1,83 @@
+{
+color = 3;
+glyphname = taKI;
+layers = (
+{
+components = (
+{
+name = taKa;
+},
+{
+name = taMatraI;
+transform = "{1, 0, 0, 1, 610, 0}";
+}
+);
+guideLines = (
+{
+position = "{-139, 683}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 748;
+},
+{
+components = (
+{
+name = taKa;
+},
+{
+name = taMatraI;
+transform = "{1, 0, 0, 1, 660, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 782;
+},
+{
+associatedMasterId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+components = (
+{
+name = taKa;
+}
+);
+guideLines = (
+{
+position = "{-139, 683}";
+}
+);
+layerId = "EDF8D328-CA8C-4B9C-A5CA-EDB3E65EBB62";
+name = "Jul 25 21, 13:12";
+paths = (
+{
+closed = 1;
+nodes = (
+"491 425 LINE",
+"389 425 OFFCURVE",
+"352 477 OFFCURVE",
+"352 529 CURVE SMOOTH",
+"352 582 OFFCURVE",
+"405 611 OFFCURVE",
+"455 611 CURVE SMOOTH",
+"536 611 OFFCURVE",
+"625 557 OFFCURVE",
+"625 427 CURVE SMOOTH",
+"625 0 LINE",
+"657 0 LINE",
+"657 479 LINE SMOOTH",
+"657 606 OFFCURVE",
+"567 683 OFFCURVE",
+"465 683 CURVE SMOOTH",
+"364 683 OFFCURVE",
+"319 601 OFFCURVE",
+"319 541 CURVE SMOOTH",
+"319 473 OFFCURVE",
+"361 400 OFFCURVE",
+"475 400 CURVE"
+);
+}
+);
+visible = 1;
+width = 690;
+}
+);
+}

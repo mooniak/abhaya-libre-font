@@ -1,0 +1,36 @@
+{
+glyphname = taMatraU.alt1;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-141 -246 LINE",
+"-70 -246 LINE",
+"-70 0 LINE",
+"-141 0 LINE"
+);
+}
+);
+width = 0;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"-173 -246 LINE",
+"-45 -246 LINE",
+"-45 0 LINE",
+"-173 0 LINE"
+);
+}
+);
+width = 10;
+}
+);
+note = tml_MatraU.alt1;
+}

@@ -1,0 +1,46 @@
+{
+glyphname = notequal;
+layers = (
+{
+components = (
+{
+name = equal;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"176 45 LINE",
+"328 430 LINE",
+"294 430 LINE",
+"142 45 LINE"
+);
+}
+);
+width = 469;
+},
+{
+components = (
+{
+name = equal;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"168 45 LINE",
+"320 430 LINE",
+"282 430 LINE",
+"130 45 LINE"
+);
+}
+);
+width = 448;
+}
+);
+unicode = 2260;
+}

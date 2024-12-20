@@ -1,0 +1,65 @@
+{
+color = 4;
+glyphname = taHalant;
+layers = (
+{
+anchors = (
+{
+name = _tm_halant;
+position = "{155, 425}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"185 516 OFFCURVE",
+"209 540 OFFCURVE",
+"209 571 CURVE SMOOTH",
+"209 601 OFFCURVE",
+"185 626 OFFCURVE",
+"155 626 CURVE SMOOTH",
+"124 626 OFFCURVE",
+"100 601 OFFCURVE",
+"100 571 CURVE SMOOTH",
+"100 540 OFFCURVE",
+"124 516 OFFCURVE",
+"155 516 CURVE SMOOTH"
+);
+}
+);
+width = 309;
+},
+{
+anchors = (
+{
+name = _tm_halant;
+position = "{175, 430}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"215 488 OFFCURVE",
+"249 520 OFFCURVE",
+"249 561 CURVE SMOOTH",
+"249 602 OFFCURVE",
+"215 636 OFFCURVE",
+"174 636 CURVE SMOOTH",
+"133 636 OFFCURVE",
+"100 602 OFFCURVE",
+"100 561 CURVE SMOOTH",
+"100 520 OFFCURVE",
+"133 488 OFFCURVE",
+"174 488 CURVE SMOOTH"
+);
+}
+);
+width = 349;
+}
+);
+unicode = 0BCD;
+}

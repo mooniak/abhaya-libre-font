@@ -1,0 +1,36 @@
+{
+glyphname = sinAu;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = sinMatraLs;
+transform = "{1, 0, 0, 1, 616, 0}";
+},
+{
+name = sinO;
+transform = "{1, 0, 0, 1, 32, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 1051;
+},
+{
+components = (
+{
+alignment = -1;
+name = sinMatraLs;
+transform = "{1, 0, 0, 1, 610, 0}";
+},
+{
+name = sinO;
+transform = "{1, 0, 0, 1, 40, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 1051;
+}
+);
+unicode = 0D96;
+}

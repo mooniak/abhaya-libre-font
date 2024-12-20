@@ -1,0 +1,54 @@
+{
+color = 3;
+glyphname = taCU;
+layers = (
+{
+components = (
+{
+name = taCa;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"459 199 LINE",
+"459 0 LINE",
+"530 0 LINE",
+"530 199 LINE",
+"625 199 LINE",
+"625 229 LINE",
+"365 229 LINE",
+"365 199 LINE"
+);
+}
+);
+width = 643;
+},
+{
+components = (
+{
+name = taCa;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"474 199 LINE",
+"474 0 LINE",
+"604 0 LINE",
+"604 199 LINE",
+"700 199 LINE",
+"700 229 LINE",
+"418 229 LINE",
+"418 199 LINE"
+);
+}
+);
+width = 714;
+}
+);
+}

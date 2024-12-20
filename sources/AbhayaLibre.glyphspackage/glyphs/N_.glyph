@@ -1,0 +1,188 @@
+{
+glyphname = N;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{337, 0}";
+},
+{
+name = top;
+position = "{337, 630}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"225 0 LINE",
+"225 20 OFFCURVE",
+"219 26 OFFCURVE",
+"199 26 CURVE SMOOTH",
+"140 26 LINE",
+"140 600 LINE",
+"20 600 LINE",
+"20 574 LINE",
+"100 574 LINE",
+"100 26 LINE",
+"20 26 LINE",
+"20 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"579 574 LINE",
+"659 574 LINE",
+"659 600 LINE",
+"454 600 LINE",
+"454 574 LINE",
+"539 574 LINE",
+"539 5 LINE",
+"579 5 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"579 5 LINE",
+"540 124 LINE",
+"159 600 LINE",
+"110 600 LINE",
+"115 520 LINE",
+"533 -5 LINE"
+);
+}
+);
+};
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"454 574 LINE",
+"539 574 LINE",
+"539 105 LINE",
+"555 105 LINE",
+"159 600 LINE",
+"20 600 LINE",
+"20 574 LINE",
+"100 574 LINE",
+"100 26 LINE",
+"20 26 LINE",
+"20 0 LINE",
+"225 0 LINE",
+"225 20 OFFCURVE",
+"219 26 OFFCURVE",
+"199 26 CURVE SMOOTH",
+"140 26 LINE",
+"140 514 LINE",
+"120 514 LINE",
+"533 -5 LINE",
+"579 5 LINE",
+"579 574 LINE",
+"659 574 LINE",
+"659 600 LINE",
+"454 600 LINE"
+);
+}
+);
+width = 669;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{332, 0}";
+},
+{
+name = top;
+position = "{335, 630}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"222 0 LINE",
+"222 20 OFFCURVE",
+"215 27 OFFCURVE",
+"195 27 CURVE SMOOTH",
+"137 27 LINE",
+"137 600 LINE",
+"15 600 LINE",
+"15 573 LINE",
+"95 573 LINE",
+"95 27 LINE",
+"15 27 LINE",
+"15 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"579 573 LINE",
+"659 573 LINE",
+"659 600 LINE",
+"457 600 LINE",
+"457 573 LINE",
+"537 573 LINE",
+"537 5 LINE",
+"579 5 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"579 5 LINE",
+"579 141 LINE",
+"184 600 LINE",
+"104 600 LINE",
+"104 483 LINE",
+"522 -5 LINE"
+);
+}
+);
+};
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"457 573 LINE",
+"537 573 LINE",
+"537 164 LINE",
+"556 164 LINE",
+"184 600 LINE",
+"15 600 LINE",
+"15 573 LINE",
+"95 573 LINE",
+"95 27 LINE",
+"15 27 LINE",
+"15 0 LINE",
+"222 0 LINE",
+"222 20 OFFCURVE",
+"215 27 OFFCURVE",
+"195 27 CURVE SMOOTH",
+"137 27 LINE",
+"137 476 LINE",
+"110 476 LINE",
+"522 -5 LINE",
+"579 5 LINE",
+"579 573 LINE",
+"659 573 LINE",
+"659 600 LINE",
+"457 600 LINE"
+);
+}
+);
+width = 664;
+}
+);
+leftKerningGroup = I;
+rightKerningGroup = N;
+unicode = 004E;
+}

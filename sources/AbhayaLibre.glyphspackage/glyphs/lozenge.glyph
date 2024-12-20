@@ -1,0 +1,123 @@
+{
+glyphname = lozenge;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"312 -80 LINE",
+"539 282 LINE",
+"501 290 LINE",
+"268 -80 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"539 282 LINE",
+"314 600 LINE",
+"268 600 LINE",
+"268 577 LINE",
+"500 254 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"268 600 LINE",
+"41 260 LINE",
+"79 252 LINE",
+"312 600 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"41 260 LINE",
+"266 -80 LINE",
+"312 -80 LINE",
+"312 -57 LINE",
+"80 288 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"240 602 LINE",
+"340 602 LINE",
+"340 627 LINE",
+"240 627 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"240 -117 LINE",
+"340 -117 LINE",
+"340 -92 LINE",
+"240 -92 LINE"
+);
+}
+);
+};
+guideLines = (
+{
+position = "{290, 265}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"272 599 LINE",
+"40 252 LINE",
+"271 -95 LINE",
+"305 -95 LINE",
+"536 252 LINE",
+"306 599 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"490 252 LINE",
+"288 -52 LINE",
+"86 252 LINE",
+"289 556 LINE"
+);
+}
+);
+width = 576;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"252 599 LINE",
+"20 252 LINE",
+"251 -95 LINE",
+"285 -95 LINE",
+"516 252 LINE",
+"286 599 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"464 252 LINE",
+"268 -43 LINE",
+"72 252 LINE",
+"269 547 LINE"
+);
+}
+);
+width = 536;
+}
+);
+unicode = 25CA;
+}

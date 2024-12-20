@@ -1,0 +1,33 @@
+{
+color = 3;
+glyphname = taAu;
+layers = (
+{
+components = (
+{
+name = taO;
+},
+{
+name = taLla;
+transform = "{1, 0, 0, 1, 744, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 1663;
+},
+{
+components = (
+{
+name = taO;
+},
+{
+name = taLla;
+transform = "{1, 0, 0, 1, 814, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 1801;
+}
+);
+unicode = 0B94;
+}

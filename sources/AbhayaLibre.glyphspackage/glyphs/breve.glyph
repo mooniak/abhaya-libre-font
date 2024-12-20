@@ -1,0 +1,73 @@
+{
+glyphname = breve;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{251, 500}";
+}
+);
+guideLines = (
+{
+position = "{423, 497}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"159 586 OFFCURVE",
+"205 574 OFFCURVE",
+"254 574 CURVE SMOOTH",
+"297 574 OFFCURVE",
+"341 583 OFFCURVE",
+"352 639 CURVE",
+"373 639 LINE",
+"373 573 OFFCURVE",
+"340 510 OFFCURVE",
+"251 510 CURVE SMOOTH",
+"163 510 OFFCURVE",
+"128 573 OFFCURVE",
+"128 639 CURVE",
+"148 639 LINE"
+);
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{251, 500}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"150 595 OFFCURVE",
+"206 586 OFFCURVE",
+"254 586 CURVE SMOOTH",
+"303 586 OFFCURVE",
+"350 593 OFFCURVE",
+"360 642 CURVE",
+"381 642 LINE",
+"381 574 OFFCURVE",
+"349 503 OFFCURVE",
+"251 503 CURVE SMOOTH",
+"154 503 OFFCURVE",
+"120 574 OFFCURVE",
+"120 642 CURVE",
+"140 642 LINE"
+);
+}
+);
+width = 500;
+}
+);
+unicode = 02D8;
+}

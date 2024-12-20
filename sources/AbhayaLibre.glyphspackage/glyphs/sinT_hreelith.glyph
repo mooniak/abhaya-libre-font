@@ -1,0 +1,32 @@
+{
+glyphname = sinThreelith;
+layers = (
+{
+components = (
+{
+name = sinTwolith;
+},
+{
+name = sinMatraAa;
+transform = "{1, 0, 0, 1, 955, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 1265;
+},
+{
+components = (
+{
+name = sinTwolith;
+},
+{
+name = sinMatraAa;
+transform = "{1, 0, 0, 1, 940, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 1264;
+}
+);
+unicode = 0DE9;
+}

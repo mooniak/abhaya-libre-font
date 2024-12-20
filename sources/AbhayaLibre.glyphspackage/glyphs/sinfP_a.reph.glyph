@@ -1,0 +1,35 @@
+{
+glyphname = sinfPa.reph;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = sinfPa;
+},
+{
+alignment = -1;
+name = sinReph;
+transform = "{1, 0, 0, 1, 578, 1}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 591;
+},
+{
+components = (
+{
+alignment = -1;
+name = sinfPa;
+},
+{
+alignment = -1;
+name = sinReph;
+transform = "{1, 0, 0, 1, 578, 1}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+}

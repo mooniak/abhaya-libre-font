@@ -1,0 +1,50 @@
+{
+glyphname = tafour;
+layers = (
+{
+components = (
+{
+name = taCa;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"596 199 LINE",
+"596 278 LINE",
+"541 278 LINE",
+"541 229 LINE",
+"382 229 LINE",
+"382 199 LINE"
+);
+}
+);
+width = 656;
+},
+{
+components = (
+{
+name = taCa;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"650 199 LINE",
+"650 273 LINE",
+"520 273 LINE",
+"520 229 LINE",
+"450 229 LINE",
+"450 199 LINE"
+);
+}
+);
+width = 700;
+}
+);
+unicode = 0BEA;
+}

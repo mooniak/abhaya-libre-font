@@ -1,0 +1,54 @@
+{
+color = 4;
+glyphname = taTta;
+layers = (
+{
+anchors = (
+{
+name = tm_halant;
+position = "{382, 425}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"639 0 LINE",
+"639 30 LINE",
+"145 30 LINE",
+"145 425 LINE",
+"70 425 LINE",
+"70 0 LINE"
+);
+}
+);
+width = 663;
+},
+{
+anchors = (
+{
+name = tm_halant;
+position = "{442, 430}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"714 0 LINE",
+"714 30 LINE",
+"190 30 LINE",
+"190 430 LINE",
+"60 430 LINE",
+"60 0 LINE"
+);
+}
+);
+width = 724;
+}
+);
+leftMetricsKey = "=taPa";
+unicode = 0B9F;
+}

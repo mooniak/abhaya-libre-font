@@ -1,0 +1,95 @@
+{
+glyphname = vertical_stem_upper;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"125 0 LINE",
+"125 600 LINE",
+"40 600 LINE",
+"40 0 LINE"
+);
+}
+);
+width = 170;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"184 0 LINE",
+"184 600 LINE",
+"40 600 LINE",
+"40 0 LINE"
+);
+}
+);
+};
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"182 0 LINE",
+"182 600 LINE",
+"42 600 LINE",
+"42 0 LINE"
+);
+}
+);
+width = 224;
+},
+{
+associatedMasterId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+layerId = "51D5B647-93D0-4FB1-8352-772A0469EDBD";
+name = "Regular Italic";
+paths = (
+{
+closed = 1;
+nodes = (
+"125 0 LINE",
+"125 600 LINE",
+"40 600 LINE",
+"40 0 LINE"
+);
+}
+);
+width = 170;
+},
+{
+associatedMasterId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"184 0 LINE",
+"184 600 LINE",
+"40 600 LINE",
+"40 0 LINE"
+);
+}
+);
+};
+layerId = "80E6D032-4961-4B29-BE0A-9B8261AD6F4B";
+name = "Bold Italic";
+paths = (
+{
+closed = 1;
+nodes = (
+"182 0 LINE",
+"182 600 LINE",
+"42 600 LINE",
+"42 0 LINE"
+);
+}
+);
+width = 224;
+}
+);
+}

@@ -1,0 +1,43 @@
+{
+glyphname = sinMatraAu;
+layers = (
+{
+components = (
+{
+name = sinMatraE;
+},
+{
+name = sinMatraLs;
+transform = "{1, 0, 0, 1, 818, 0}";
+},
+{
+alignment = 1;
+name = bullet;
+transform = "{1, 0, 0, 1, 514, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 1247;
+},
+{
+components = (
+{
+name = sinMatraE;
+},
+{
+name = sinMatraLs;
+transform = "{1, 0, 0, 1, 828, 0}";
+},
+{
+alignment = 1;
+name = bullet;
+transform = "{1, 0, 0, 1, 544, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 1247;
+}
+);
+unicode = 0DDE;
+category = Mark;
+}

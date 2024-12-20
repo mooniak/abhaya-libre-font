@@ -1,0 +1,41 @@
+{
+glyphname = ellipsis;
+layers = (
+{
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 197, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 394, 0}";
+},
+{
+name = period;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 596;
+},
+{
+components = (
+{
+name = period;
+transform = "{1, 0, 0, 1, 213, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 406, 0}";
+},
+{
+name = period;
+transform = "{1, 0, 0, 1, 20, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 2026;
+}

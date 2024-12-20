@@ -1,0 +1,33 @@
+{
+glyphname = Eacute;
+layers = (
+{
+components = (
+{
+name = E;
+},
+{
+name = acute;
+transform = "{1, 0, 0, 1, 14, 130}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 556;
+},
+{
+components = (
+{
+name = E;
+},
+{
+alignment = -1;
+name = acute;
+transform = "{1, 0, 0, 1, 31, 140}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 569;
+}
+);
+unicode = 00C9;
+}

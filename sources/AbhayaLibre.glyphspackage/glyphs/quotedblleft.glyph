@@ -1,0 +1,46 @@
+{
+glyphname = quotedblleft;
+layers = (
+{
+background = {
+components = (
+{
+name = quoteleft;
+transform = "{1, 0, 0, 1, -5, 0}";
+},
+{
+name = quoteleft;
+transform = "{1, 0, 0, 1, 127, 0}";
+}
+);
+};
+components = (
+{
+name = quotedblbase;
+transform = "{-1, 0, 0, -1, 302, 558}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 297;
+},
+{
+components = (
+{
+name = quotedblbase;
+transform = "{-1, 0, 0, -1, 336, 553}";
+}
+);
+guideLines = (
+{
+position = "{39, 660}";
+},
+{
+position = "{39, 415}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 336;
+}
+);
+unicode = 201C;
+}

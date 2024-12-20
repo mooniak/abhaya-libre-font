@@ -1,0 +1,40 @@
+{
+glyphname = taMatrAau;
+layers = (
+{
+components = (
+{
+name = taMatraE;
+},
+{
+name = dottedCircle;
+transform = "{1, 0, 0, 1, 713, 0}";
+},
+{
+name = taLla;
+transform = "{1, 0, 0, 1, 1290, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 2095;
+},
+{
+components = (
+{
+name = taMatraE;
+},
+{
+name = dottedCircle;
+transform = "{1, 0, 0, 1, 703, 0}";
+},
+{
+name = taLla;
+transform = "{1, 0, 0, 1, 1221, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 2138;
+}
+);
+unicode = 0BCC;
+}

@@ -1,0 +1,34 @@
+{
+glyphname = quotedblright;
+layers = (
+{
+components = (
+{
+name = quotedblbase;
+transform = "{1, 0, 0, 1, 0, 512}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 305;
+},
+{
+components = (
+{
+name = quotedblbase;
+transform = "{1, 0, 0, 1, 0, 519}";
+}
+);
+guideLines = (
+{
+position = "{39, 660}";
+},
+{
+position = "{39, 409}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 336;
+}
+);
+unicode = 201D;
+}

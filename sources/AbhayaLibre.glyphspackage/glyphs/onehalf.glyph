@@ -1,0 +1,59 @@
+{
+glyphname = onehalf;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = one.numr;
+transform = "{1, 0, 0, 1, 30, 289}";
+},
+{
+name = two.numr;
+transform = "{1, 0, 0, 1, 415, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"169 -29 LINE",
+"606 610 LINE",
+"577 630 LINE",
+"139 -10 LINE"
+);
+}
+);
+width = 734;
+},
+{
+components = (
+{
+alignment = -1;
+name = one.numr;
+transform = "{1, 0, 0, 1, 30, 289}";
+},
+{
+name = two.numr;
+transform = "{1, 0, 0, 1, 441, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"197 -33 LINE",
+"626 610 LINE",
+"589 633 LINE",
+"159 -10 LINE"
+);
+}
+);
+width = 786;
+}
+);
+leftMetricsKey = onequarter;
+unicode = 00BD;
+}
