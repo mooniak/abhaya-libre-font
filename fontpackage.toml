@@ -1,0 +1,112 @@
+[fontpackage]
+########################################################################
+# PACKAGE METADATA #####################################################
+########################################################################
+
+name = "Abhahya Libre"
+type = "family"
+version = "1.060"
+status = "STABLE" 
+authors = ["mooniak"]
+license = "	OFL-1.0"
+copyright = "Copyright 2015—2024 The Abhaya Libre Project Authors (https://github.com/mooniak/abhaya-libre-font)"
+category = "text"
+license-file = ""
+description = "Abhaya Libre is a text typeface designed for Sri Lanka with support for Sinhala, Tamil and English langauges. Abhaya Libre is based on FM Abhaya font by Pushpanada Ekanayake and provides extensive coverage for Pali and Sanskrit scripts"
+repository = { url = "https://github.com/mooniak/abhaya-libre-font", type = "git"}
+homepage_url = "https://src.mooniak.com/abhaya-libre-font/"
+issues_url = "https://github.com/mooniak/abhaya-libre-font/issues/" #OPTIONAL
+funding_url = "https://opencollective.com/akuruxyz/projects/abhaya-libre-fonts"
+date_published = "Sep 10, 2015" #OPTIONAL: Date first published
+fontlog = "" #OPTIONAL: Defults to ROOT (./FONTLOG.md ./FONTLOG.txt ./CHANGELOG.txt) Defult format Markdown .md
+foundry = { name = "mooniak", email = "hello@mooniak.com", url = "https://mooniak.com/", vendor_id = "MNIK" } #OPTIONAL:
+designers = [ #OPTIONAL: Desiners from the nameID
+  { name = "Puspanada Ekanayake", email = "pushpanandae@gmail.com", url = "https://isiwara.lk/" },
+  { name = "Sol Matas", email = "solmatas@gmail.com", url = "https://www.solmatas.com/" },
+  { name = "Pathum Egodawatta", email = "pathum@mooniak.com", url = "https://pathumego.com/" } ]
+
+maintenance = { status = "actively-developed", comment = "" } #OPTIONAL: # `actively-developed`, `passively-maintained`, `as-is`, `experimental`, `looking-for-maintainer`, `deprecated`, and the default `none`,}
+versions_provider = "tags" #REQUIERD: How is the font versions provided. When set to 'tags' the versions will be fetched from the git tags.
+
+tools = "" #OPTIONAL: Details realted to font development and build. Similar to tools key in UFR METADATA.yml
+
+progress = [ #OPTIONAL: Progress and of the project out of 100 percentage.
+    { design = "100" },
+    { family_styles = "100" },
+    { character_set =  "100" },
+    { drawing_quality =  "100" },
+    { spacing =  "60"}, 
+    { kerning =  "60"},
+    { hinting =  "100" },
+    { opentype_features =  "100" }, ]
+
+########################################################################
+# DISPLAY AND CLASSIFCATION DATA #######################################
+########################################################################
+
+tags = [ #OPTIONAL: Pakage specific display strings for display and testing purposes
+    { style = "serif" }, # Blackletter, Calligraphic, Condensed, Decorative, Display, Handdrawn, Monospaced, Rounded, Sans-serif, Script, Serif, Slab, Stencil, Symbols"
+    { contrast = "high" },
+    { width =  "normal" },
+    { body_height =  "normal" },
+    { intended_useage =  "text"}, # large, medium, text, body, branding
+    { figures =  "noraml"},
+    { languages =  "si_LK, en_US" },
+    { related_fonts =  "" }, ]
+
+display_texts = [ #OPTIONAL: Pakage specific display strings for display and testing purposes
+    { en_US = ""},
+    { si_LK= "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ."},
+    { dv_IN= ""}]
+
+# Display images and promotional banners
+display_images = [ #OPTIONAL Display images and promotional banners
+    { banner = ""},
+    { small= ""},
+    { thumbnail= ""},
+    { medium = ""},
+    { small= ""},
+    { large = ""} ]
+
+
+links = [ #OPTIONAL: External links and release channels
+    { font_in_use = "" },
+    { googlefonts = "" },
+    { fontlibrary_org = "" },
+    { typekit = "" } ]
+
+########################################################################
+# FONT BINARIES AND METADATA ###########################################
+########################################################################
+
+[[fonts]]
+name = "" #REQUIERD
+path = "" #OPTIONAL DEFUALTS to ./fonts/otf .fonts
+style = "" #REQUIERD
+weight = "" #REQUIERD
+full_name = "" #OPTIONAL
+preview_image = "" #OPTIONAL
+protected = "" #OPTIONAL
+purpose = "" #OPTIONAL
+variable_font = "" #OPTIONAL
+format = "" #REQUIERD
+free = "" #REQUIERD
+
+[[fonts]]
+# ...
+
+########################################################################
+# APP OR PLATFOROM SPECIFIC CONFIGS AND DATA ###########################
+########################################################################
+
+# Additional metadata
+[fontpackage.extras]
+# …
+
+# Additional metadata to generate NPM packages
+[fontpackage.npm]
+# …
+
+# Additional metadata to generate Appstram metadata files
+[fontpackage.appstream]
+# …
