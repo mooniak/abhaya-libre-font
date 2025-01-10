@@ -68,7 +68,7 @@ These won't break the CI job for now, but will become effective after some time 
 
 
 
-* 🔥 **FAIL** <p>Current FontBakery version is 0.12.6, while a newer 0.12.10 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
+* 🔥 **FAIL** <p>Current FontBakery version is 0.12.6, while a newer 0.13.0 is already available. Please upgrade it with 'pip install -U fontbakery'</p>
  [code: outdated-fontbakery]
 
 
@@ -4527,14 +4527,14 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal</li>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi</li>
 <li>U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek</li>
-<li>U+2010 HYPHEN: try adding one of: armenian, syloti-nagri, sundanese, sora-sompeng, cham, kharoshthi, arabic, coptic, kaithi, lisu, hebrew, yi, kayah-li</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math</li>
+<li>U+2010 HYPHEN: try adding one of: kayah-li, sundanese, hebrew, cham, kaithi, coptic, sora-sompeng, yi, kharoshthi, arabic, lisu, armenian, syloti-nagri</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+2126 OHM SIGN: not included in any glyphset definition</li>
@@ -4543,7 +4543,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, yi, math, symbols</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: tai-tham, symbols, yi, math</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -4551,7 +4551,7 @@ definitions.</p>
 <li>U+2260 NOT EQUAL TO: try adding math</li>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
-<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
 <li>U+F6C3 : not included in any glyphset definition</li>
 <li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
 <li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
