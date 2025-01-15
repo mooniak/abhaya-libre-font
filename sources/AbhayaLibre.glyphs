@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3337";
 classes = (
 {
 code = "zero one two three four five six seven eight nine";
@@ -818,7 +818,7 @@ designer = "Puspanada Ekanayake, Sola Matas, Pathum Egodawatta, Kosala Senevirat
 designerURL = "http://www.mooniak.com/";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
-familyName = "Abhaya Libre Dev";
+familyName = "Abhaya Libre";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012languagesystem taml dflt;\012languagesystem tml2 dflt;\012";
