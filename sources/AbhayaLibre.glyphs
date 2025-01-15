@@ -111179,8 +111179,8 @@ name = L;
 },
 {
 alignment = -1;
-name = caron;
-transform = "{1, 0, 0, 1, -72, 130}";
+name = czechcaron;
+transform = "{1, 0, 0, 1, 167, 0}";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -111193,8 +111193,8 @@ name = L;
 },
 {
 alignment = -1;
-name = caron;
-transform = "{1, 0, 0, 1, -71, 130}";
+name = czechcaron;
+transform = "{1, 0, 0, 1, 176, 0}";
 }
 );
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
@@ -125280,11 +125280,11 @@ name = t;
 },
 {
 name = czechcaron;
-transform = "{1, 0, 0, 1, 325, 0}";
+transform = "{1, 0, 0, 1, -1, 0}";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-width = 825;
+width = 325;
 },
 {
 components = (
@@ -125293,13 +125293,15 @@ name = t;
 },
 {
 name = czechcaron;
-transform = "{1, 0, 0, 1, 361, 0}";
+transform = "{1, 0, 0, 1, 26, 42}";
 }
 );
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
-width = 861;
+width = 361;
 }
 );
+leftMetricsKey = t;
+rightMetricsKey = t;
 unicode = 0165;
 },
 {
