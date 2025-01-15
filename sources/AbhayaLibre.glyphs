@@ -10,7 +10,7 @@ code = "zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf 
 name = FIGURES_TF;
 }
 );
-copyright = "Copyright 2015—2023 The Abhaya Libre Project Authors (https://github.com/mooniak/abhaya-libre-font)";
+copyright = "Copyright 2025 The Abhaya Libre Project Authors (https://github.com/mooniak/abhaya-libre-font)";
 customParameters = (
 {
 name = fsType;
