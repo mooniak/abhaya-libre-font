@@ -1,5 +1,5 @@
 {
-.appVersion = "3337";
+.appVersion = "3260";
 classes = (
 {
 code = "zero one two three four five six seven eight nine";
@@ -118568,10 +118568,10 @@ nodes = (
 "344 371 OFFCURVE",
 "344 291 CURVE SMOOTH",
 "344 248 OFFCURVE",
-"335 244 OFFCURVE",
+"335 245 OFFCURVE",
 "296 245 CURVE SMOOTH",
-"85 249 LINE",
-"85 221 LINE",
+"85 245 LINE",
+"85 217 LINE",
 "390 217 LINE SMOOTH",
 "427 217 OFFCURVE",
 "430 234 OFFCURVE",
@@ -118670,15 +118670,15 @@ nodes = (
 "315 373 OFFCURVE",
 "315 298 CURVE SMOOTH",
 "315 251 OFFCURVE",
-"310 245 OFFCURVE",
+"310 246 OFFCURVE",
 "277 246 CURVE SMOOTH",
-"155 250 LINE",
-"153 221 LINE",
-"381 217 LINE SMOOTH",
-"436 216 OFFCURVE",
+"155 246 LINE",
+"153 217 LINE",
+"391 217 LINE SMOOTH",
+"437 217 OFFCURVE",
 "448 220 OFFCURVE",
 "448 279 CURVE SMOOTH",
-"448 393 OFFCURVE",
+"448 390 OFFCURVE",
 "350 445 OFFCURVE",
 "250 445 CURVE SMOOTH",
 "131 445 OFFCURVE",
@@ -190278,6 +190278,6 @@ oV = 85;
 GSDontShowVersionAlert = 1;
 LWPluginVersion = "1429";
 };
-versionMajor = 1;
-versionMinor = 100;
+versionMajor = 2;
+versionMinor = 0;
 }
