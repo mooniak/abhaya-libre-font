@@ -1,0 +1,32 @@
+{
+color = 3;
+glyphname = "ma-ii-taml";
+layers = (
+{
+components = (
+{
+name = "ma-taml";
+},
+{
+name = "ii-sign.alt-taml";
+transform = "{1, 0, 0, 1, 634, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 682;
+},
+{
+components = (
+{
+name = "ma-taml";
+},
+{
+name = "ii-sign.alt-taml";
+transform = "{1, 0, 0, 1, 655, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 732;
+}
+);
+}

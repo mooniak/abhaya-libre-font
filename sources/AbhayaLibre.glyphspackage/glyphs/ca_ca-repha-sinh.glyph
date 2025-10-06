@@ -1,0 +1,33 @@
+{
+glyphname = "ca_ca-repha-sinh";
+layers = (
+{
+components = (
+{
+name = "ca_ca-sinh";
+},
+{
+alignment = -1;
+name = "repha-sign-sinh";
+transform = "{1, 0, 0, 1, 720, 71}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 695;
+},
+{
+components = (
+{
+name = "ca_ca-sinh";
+},
+{
+alignment = -1;
+name = "repha-sign-sinh";
+transform = "{1, 0, 0, 1, 700, 104}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 677;
+}
+);
+}

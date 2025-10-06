@@ -40,7 +40,7 @@ nodes = (
 };
 components = (
 {
-name = sinJa;
+name = "ja-sinh";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -105,7 +105,7 @@ width = 600;
 {
 components = (
 {
-name = sinJa;
+name = "ja-sinh";
 }
 );
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
