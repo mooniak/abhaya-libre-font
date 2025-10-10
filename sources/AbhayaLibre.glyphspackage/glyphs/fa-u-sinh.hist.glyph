@@ -1,10 +1,10 @@
 {
-glyphname = "fPa-u-sinh";
+glyphname = "fa-u-sinh.hist";
 layers = (
 {
 components = (
 {
-name = "fPa-sinh";
+name = "fa-sinh.hist";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -38,7 +38,7 @@ width = 601;
 {
 components = (
 {
-name = "fPa-sinh";
+name = "fa-sinh.hist";
 }
 );
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";

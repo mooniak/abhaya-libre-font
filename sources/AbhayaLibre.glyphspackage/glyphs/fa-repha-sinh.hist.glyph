@@ -1,11 +1,11 @@
 {
-glyphname = "fPa-repha-sinh";
+glyphname = "fa-repha-sinh.hist";
 layers = (
 {
 components = (
 {
 alignment = -1;
-name = "fPa-sinh";
+name = "fa-sinh.hist";
 },
 {
 alignment = -1;
@@ -20,7 +20,7 @@ width = 591;
 components = (
 {
 alignment = -1;
-name = "fPa-sinh";
+name = "fa-sinh.hist";
 },
 {
 alignment = -1;
