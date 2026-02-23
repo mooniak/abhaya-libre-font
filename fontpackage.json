@@ -1,0 +1,9 @@
+{
+  "name": "Abhaya Libre",
+  "id": "abhaya-libre",
+  "designer": ["Mooniak"],
+  "scripts": ["Sinh", "Latn",  "Taml"],
+  "description": "A typeface for Sri Lanka",
+  "license": "OFL-1.1",
+  "channels": ["release", "dev", "nightly"]
+}
