@@ -1,0 +1,70 @@
+{
+glyphname = onequarter;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"177 612 LINE",
+"40 515 LINE",
+"55 493 LINE",
+"155 562 LINE",
+"155 318 LINE",
+"71 311 LINE",
+"71 291 LINE",
+"304 291 LINE",
+"304 307 OFFCURVE",
+"299 310 OFFCURVE",
+"282 312 CURVE SMOOTH",
+"225 318 LINE",
+"225 612 LINE"
+);
+}
+);
+};
+components = (
+{
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 289, 0}";
+},
+{
+alignment = -1;
+name = one.numr;
+transform = "{1, 0, 0, 1, 30, 289}";
+},
+{
+alignment = -1;
+name = four.numr;
+transform = "{1, 0, 0, 1, 359, 10}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 724;
+},
+{
+components = (
+{
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 311, 0}";
+},
+{
+alignment = -1;
+name = one.numr;
+transform = "{1, 0, 0, 1, 30, 289}";
+},
+{
+alignment = -1;
+name = four.numr;
+transform = "{1, 0, 0, 1, 334, 20}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 764;
+}
+);
+unicode = 00BC;
+}

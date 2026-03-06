@@ -1,0 +1,36 @@
+{
+glyphname = short_dash2;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"43 234 LINE",
+"271 234 LINE",
+"271 187 LINE",
+"43 187 LINE"
+);
+}
+);
+width = 344;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"43 226 LINE",
+"245 226 LINE",
+"245 187 LINE",
+"43 187 LINE"
+);
+}
+);
+width = 297;
+}
+);
+unicode = 2010;
+}

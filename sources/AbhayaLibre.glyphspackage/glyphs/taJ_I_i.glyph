@@ -1,0 +1,38 @@
+{
+color = 3;
+glyphname = taJIi;
+layers = (
+{
+components = (
+{
+name = taJa;
+},
+{
+name = taMatraIi.alt;
+transform = "{1, 0, 0, 1, 681, 0}";
+}
+);
+guideLines = (
+{
+position = "{-6, 399}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 718;
+},
+{
+components = (
+{
+name = taJa;
+},
+{
+alignment = -1;
+name = taMatraIi.alt;
+transform = "{1, 0, 0, 1, 750, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 817;
+}
+);
+}

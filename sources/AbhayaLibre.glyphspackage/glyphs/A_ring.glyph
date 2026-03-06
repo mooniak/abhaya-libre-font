@@ -1,0 +1,34 @@
+{
+glyphname = Aring;
+layers = (
+{
+components = (
+{
+name = A;
+},
+{
+alignment = -1;
+name = ring;
+transform = "{1, 0, 0, 1, 64, 100}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 613;
+},
+{
+components = (
+{
+name = A;
+},
+{
+alignment = -1;
+name = ring;
+transform = "{1, 0, 0, 1, 82, 110}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 647;
+}
+);
+unicode = 00C5;
+}

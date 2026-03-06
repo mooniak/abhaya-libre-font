@@ -1,0 +1,32 @@
+{
+color = 3;
+glyphname = taNnnI;
+layers = (
+{
+components = (
+{
+name = taNnna;
+},
+{
+name = taMatraI;
+transform = "{1, 0, 0, 1, 994, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 1132;
+},
+{
+components = (
+{
+name = taNnna;
+},
+{
+name = taMatraI;
+transform = "{1, 0, 0, 1, 1093, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 1225;
+}
+);
+}

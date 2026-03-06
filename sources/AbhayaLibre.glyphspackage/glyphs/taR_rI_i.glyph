@@ -1,0 +1,64 @@
+{
+color = 3;
+glyphname = taRrIi;
+layers = (
+{
+components = (
+{
+name = taRra;
+},
+{
+name = taMatraIi.alt;
+transform = "{1, 0, 0, 1, 571, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 619;
+},
+{
+components = (
+{
+name = taRra;
+},
+{
+alignment = -1;
+name = taMatraIi.alt;
+transform = "{1, 0, 0, 1, 603, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 710;
+},
+{
+associatedMasterId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+components = (
+{
+name = taRra;
+},
+{
+alignment = -1;
+name = taMatraIi.alt;
+transform = "{1, 0, 0, 1, 589, 0}";
+}
+);
+layerId = "76B62959-4C04-434E-ABEA-337DE3E38C19";
+name = "Sep 7 21, 14:48";
+width = 647;
+},
+{
+associatedMasterId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+components = (
+{
+name = taRra;
+},
+{
+name = taMatraIi.alt;
+transform = "{1, 0, 0, 1, 601, 0}";
+}
+);
+layerId = "4E11A6DF-D664-4894-BF3A-7F198E11D5B8";
+name = "Sep 7 21, 16:16";
+width = 619;
+}
+);
+}

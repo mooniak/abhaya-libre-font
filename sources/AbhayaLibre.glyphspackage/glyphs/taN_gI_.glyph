@@ -1,0 +1,32 @@
+{
+color = 3;
+glyphname = taNgI;
+layers = (
+{
+components = (
+{
+name = taNga;
+},
+{
+name = taMatraI.alt1;
+transform = "{1, 0, 0, 1, 789, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 938;
+},
+{
+components = (
+{
+name = taNga;
+},
+{
+name = taMatraI.alt1;
+transform = "{1, 0, 0, 1, 874, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 1013;
+}
+);
+}

@@ -1,0 +1,32 @@
+{
+glyphname = uni0137;
+layers = (
+{
+components = (
+{
+name = k;
+},
+{
+name = commaaccent;
+transform = "{1, 0, 0, 1, 39, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 500;
+},
+{
+components = (
+{
+name = k;
+},
+{
+name = commaaccent;
+transform = "{1, 0, 0, 1, 40, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 527;
+}
+);
+unicode = 0137;
+}

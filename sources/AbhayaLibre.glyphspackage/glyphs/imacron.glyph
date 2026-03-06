@@ -1,0 +1,46 @@
+{
+glyphname = imacron;
+layers = (
+{
+components = (
+{
+name = dotlessi;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"26 540 LINE",
+"266 540 LINE",
+"266 590 LINE",
+"26 590 LINE"
+);
+}
+);
+width = 287;
+},
+{
+components = (
+{
+name = dotlessi;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"14 540 LINE",
+"274 540 LINE",
+"274 595 LINE",
+"14 595 LINE"
+);
+}
+);
+width = 283;
+}
+);
+unicode = 012B;
+}

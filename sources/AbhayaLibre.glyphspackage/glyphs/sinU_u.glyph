@@ -1,0 +1,35 @@
+{
+glyphname = sinUu;
+layers = (
+{
+components = (
+{
+alignment = -1;
+locked = 1;
+name = sinU;
+},
+{
+alignment = -1;
+name = sinMatraLs;
+transform = "{1, 0, 0, 1, 580, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 1065;
+},
+{
+components = (
+{
+name = sinU;
+},
+{
+name = sinMatraLs;
+transform = "{1, 0, 0, 1, 635, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 1065;
+}
+);
+unicode = 0D8C;
+}

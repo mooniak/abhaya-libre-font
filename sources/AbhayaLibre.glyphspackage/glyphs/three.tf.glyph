@@ -1,0 +1,161 @@
+{
+glyphname = three.tf;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"340 -10 OFFCURVE",
+"456 48 OFFCURVE",
+"456 177 CURVE SMOOTH",
+"456 288 OFFCURVE",
+"381 343 OFFCURVE",
+"276 343 CURVE SMOOTH",
+"238 343 OFFCURVE",
+"197 334 OFFCURVE",
+"156 316 CURVE",
+"178 298 LINE",
+"202 308 OFFCURVE",
+"224 313 OFFCURVE",
+"245 313 CURVE SMOOTH",
+"321 313 OFFCURVE",
+"366 261 OFFCURVE",
+"366 173 CURVE SMOOTH",
+"366 96 OFFCURVE",
+"317 16 OFFCURVE",
+"209 16 CURVE SMOOTH",
+"87 16 OFFCURVE",
+"193 160 OFFCURVE",
+"87 160 CURVE SMOOTH",
+"53 160 OFFCURVE",
+"35 139 OFFCURVE",
+"35 111 CURVE SMOOTH",
+"35 61 OFFCURVE",
+"94 -10 OFFCURVE",
+"223 -10 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"74 426 LINE",
+"92 482 LINE SMOOTH",
+"105 523 OFFCURVE",
+"129 524 OFFCURVE",
+"170 524 CURVE",
+"53 600 LINE",
+"51 426 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"440 580 LINE",
+"343 523 LINE",
+"156 316 LINE",
+"178 298 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"388 524 LINE",
+"440 580 LINE",
+"440 600 LINE",
+"53 600 LINE",
+"53 524 LINE"
+);
+}
+);
+};
+components = (
+{
+name = three;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 498;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"94 411 LINE",
+"112 457 LINE SMOOTH",
+"129 500 OFFCURVE",
+"149 502 OFFCURVE",
+"190 502 CURVE",
+"71 600 LINE",
+"69 411 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"474 570 LINE",
+"357 502 LINE",
+"168 315 LINE",
+"191 293 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"357 502 LINE",
+"474 570 LINE",
+"474 600 LINE",
+"71 600 LINE",
+"71 502 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"361 -10 OFFCURVE",
+"500 50 OFFCURVE",
+"500 176 CURVE SMOOTH",
+"500 287 OFFCURVE",
+"405 341 OFFCURVE",
+"297 341 CURVE SMOOTH",
+"254 341 OFFCURVE",
+"209 332 OFFCURVE",
+"168 315 CURVE",
+"194 294 LINE",
+"218 304 OFFCURVE",
+"242 308 OFFCURVE",
+"261 308 CURVE SMOOTH",
+"329 308 OFFCURVE",
+"361 246 OFFCURVE",
+"361 179 CURVE SMOOTH",
+"361 101 OFFCURVE",
+"312 20 OFFCURVE",
+"227 17 CURVE SMOOTH",
+"109 23 OFFCURVE",
+"228 182 OFFCURVE",
+"103 182 CURVE SMOOTH",
+"60 182 OFFCURVE",
+"37 154 OFFCURVE",
+"37 118 CURVE SMOOTH",
+"37 61 OFFCURVE",
+"97 -10 OFFCURVE",
+"232 -10 CURVE SMOOTH"
+);
+}
+);
+};
+components = (
+{
+name = three;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 539;
+}
+);
+}

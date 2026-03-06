@@ -1,0 +1,59 @@
+{
+glyphname = parenright;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"334 267 OFFCURVE",
+"334 264 OFFCURVE",
+"334 259 CURVE SMOOTH",
+"334 254 OFFCURVE",
+"334 251 OFFCURVE",
+"334 248 CURVE SMOOTH",
+"331 91 OFFCURVE",
+"264 -33 OFFCURVE",
+"135 -122 CURVE",
+"135 -111 LINE",
+"234 5 OFFCURVE",
+"273 117 OFFCURVE",
+"273 257 CURVE SMOOTH",
+"273 263 LINE SMOOTH",
+"273 265 OFFCURVE",
+"273 267 OFFCURVE",
+"273 269 CURVE SMOOTH",
+"273 401 OFFCURVE",
+"231 498 OFFCURVE",
+"134 618 CURVE",
+"134 627 LINE",
+"267 531 OFFCURVE",
+"334 412 OFFCURVE",
+"334 270 CURVE SMOOTH"
+);
+}
+);
+};
+components = (
+{
+name = parenleft;
+transform = "{-1, 0, 0, 1, 338, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 338;
+},
+{
+components = (
+{
+name = parenleft;
+transform = "{-1, 0, 0, 1, 336, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 336;
+}
+);
+unicode = 0029;
+}

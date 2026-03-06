@@ -1,9 +1,98 @@
 {
   "name": "Abhaya Libre",
   "id": "abhaya-libre",
-  "designer": ["Mooniak"],
-  "scripts": ["Sinh", "Latn",  "Taml"],
-  "description": "A typeface for Sri Lanka",
+  "type": "family",
+  "designer": [
+    "Mooniak"
+  ],
+  "scripts": [
+    "Sinh",
+    "Taml",
+    "Latn"
+  ],
+  "description": "A text typeface designed for communications in Sinhala, Tamil and Latin scripts, with extensive OpenType support for Sinhala, Pali and Sanskrit texts.",
   "license": "OFL-1.1",
-  "channels": ["release", "dev", "nightly"]
+  "channels": [
+    "release",
+    "dev",
+    "nightly"
+  ],
+  "versions_provider": "tags",
+  "repository": {
+    "url": "https://github.com/mooniak/abhaya-libre-font",
+    "type": "git"
+  },
+  "homepage_url": "https://src.mooniak.com/abhaya-libre-font/",
+  "issues_url": "https://github.com/mooniak/abhaya-libre-font/issues/",
+  "funding_url": "https://opencollective.com/akuruxyz/projects/lanka-font-library",
+  "foundry": {
+    "name": "mooniak",
+    "email": "hello@mooniak.com",
+    "url": "https://mooniak.com/",
+    "vendor_id": "MNIK"
+  },
+  "designers": [
+    {
+      "name": "Pushpanada Ekanayake",
+      "email": "pushpanandae@gmail.com",
+      "url": "https://isiwara.lk/"
+    },
+    {
+      "name": "Sol Matas",
+      "email": "solmatas@gmail.com",
+      "url": "https://www.solmatas.com/"
+    },
+    {
+      "name": "Pathum Egodawatta",
+      "email": "pathum@mooniak.com",
+      "url": "https://pathumego.com/"
+    }
+  ],
+  "maintenance": {
+    "status": "actively-developed",
+    "comment": ""
+  },
+  "tools": "",
+  "progress": {
+    "design": 100,
+    "family_styles": 100,
+    "character_set": 100,
+    "drawing_quality": 100,
+    "spacing": 80,
+    "kerning": 80,
+    "hinting": 100,
+    "opentype_features": 100
+  },
+  "tags": {
+    "style": "serif",
+    "contrast": "high",
+    "width": "normal",
+    "body_height": "normal",
+    "intended_usage": "text",
+    "figures": "normal",
+    "languages": [
+      "si_LK",
+      "ta_LK",
+      "en_US"
+    ],
+    "related_fonts": []
+  },
+  "display_texts": {
+    "en_US": "A text typeface for Sri Lanka.",
+    "si_LK": "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ.",
+    "ta_LK": "யாரிடம் கேட்டாலும் அந்த மலை ஏறும் வழி சரியாக சொல்ல மாட்டார்கள்."
+  },
+  "display_images": {
+    "banner": "",
+    "thumbnail": "",
+    "small": "",
+    "medium": "",
+    "large": ""
+  },
+  "links": {
+    "font_in_use": "",
+    "googlefonts": "https://fonts.google.com/specimen/Abhaya+Libre",
+    "fontlibrary_org": "",
+    "typekit": ""
+  }
 }

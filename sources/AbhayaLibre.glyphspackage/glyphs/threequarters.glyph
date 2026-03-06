@@ -1,0 +1,50 @@
+{
+glyphname = threequarters;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = three.numr;
+transform = "{1, 0, 0, 1, 20, 289}";
+},
+{
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 305, 0}";
+},
+{
+alignment = -1;
+name = four.numr;
+transform = "{1, 0, 0, 1, 375, 10}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 740;
+},
+{
+components = (
+{
+alignment = -1;
+name = three.numr;
+transform = "{1, 0, 0, 1, 20, 289}";
+},
+{
+alignment = -1;
+name = fraction;
+transform = "{1, 0, 0, 1, 316, 0}";
+},
+{
+alignment = -1;
+name = four.numr;
+transform = "{1, 0, 0, 1, 339, 20}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 769;
+}
+);
+leftMetricsKey = onequarter;
+rightMetricsKey = onequarter;
+unicode = 00BE;
+}

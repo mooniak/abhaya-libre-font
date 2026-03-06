@@ -1,0 +1,113 @@
+{
+glyphname = sinAnusvara_ShUu;
+layers = (
+{
+anchors = (
+{
+name = _cursive;
+position = "{153, 0}";
+}
+);
+components = (
+{
+name = sinAnusvara_Sha;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"432 -126 CURVE SMOOTH",
+"432 -91 OFFCURVE",
+"464 -70 OFFCURVE",
+"495 -65 CURVE",
+"441 -38 LINE",
+"526 -14 LINE",
+"497 8 LINE",
+"545 3 LINE",
+"574 -18 LINE",
+"497 -43 LINE",
+"554 -74 LINE",
+"527 -81 OFFCURVE",
+"471 -83 OFFCURVE",
+"471 -112 CURVE SMOOTH",
+"471 -142 OFFCURVE",
+"512 -151 OFFCURVE",
+"553 -151 CURVE SMOOTH",
+"606 -151 OFFCURVE",
+"651 -128 OFFCURVE",
+"651 -80 CURVE SMOOTH",
+"651 -75 OFFCURVE",
+"650 -68 OFFCURVE",
+"645 -58 CURVE",
+"677 -58 LINE",
+"681 -70 OFFCURVE",
+"681 -81 OFFCURVE",
+"681 -92 CURVE SMOOTH",
+"681 -157 OFFCURVE",
+"631 -200 OFFCURVE",
+"551 -200 CURVE SMOOTH",
+"494 -200 OFFCURVE",
+"432 -183 OFFCURVE"
+);
+}
+);
+width = 726;
+},
+{
+anchors = (
+{
+name = _cursive;
+position = "{143, 0}";
+}
+);
+components = (
+{
+name = sinAnusvara_Sha;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"422 -126 CURVE SMOOTH",
+"422 -91 OFFCURVE",
+"449 -70 OFFCURVE",
+"485 -65 CURVE",
+"431 -38 LINE",
+"514 -14 LINE",
+"486 8 LINE",
+"512 20 LINE",
+"569 -19 LINE",
+"492 -42 LINE",
+"551 -74 LINE",
+"524 -81 OFFCURVE",
+"471 -81 OFFCURVE",
+"471 -102 CURVE SMOOTH",
+"471 -118 OFFCURVE",
+"502 -126 OFFCURVE",
+"543 -126 CURVE SMOOTH",
+"596 -126 OFFCURVE",
+"639 -110 OFFCURVE",
+"639 -80 CURVE SMOOTH",
+"639 -75 OFFCURVE",
+"638 -66 OFFCURVE",
+"633 -58 CURVE",
+"667 -58 LINE",
+"671 -70 OFFCURVE",
+"672 -81 OFFCURVE",
+"672 -92 CURVE SMOOTH",
+"672 -157 OFFCURVE",
+"621 -200 OFFCURVE",
+"541 -200 CURVE SMOOTH",
+"484 -200 OFFCURVE",
+"422 -183 OFFCURVE"
+);
+}
+);
+width = 716;
+}
+);
+}

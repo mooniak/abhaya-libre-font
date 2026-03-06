@@ -1,0 +1,35 @@
+{
+glyphname = sinLlVocalic;
+layers = (
+{
+components = (
+{
+alignment = -1;
+locked = 1;
+name = sinLVocalic;
+},
+{
+alignment = -1;
+name = sinMatraLs;
+transform = "{1, 0, 0, 1, 770, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 1230;
+},
+{
+components = (
+{
+name = sinLVocalic;
+},
+{
+name = sinMatraLs;
+transform = "{1, 0, 0, 1, 800, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 1230;
+}
+);
+unicode = 0D90;
+}

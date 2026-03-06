@@ -1,0 +1,47 @@
+{
+color = 3;
+glyphname = taEe;
+layers = (
+{
+components = (
+{
+name = taE;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"239 -180 LINE",
+"256 -200 LINE",
+"516 0 LINE",
+"455 29 LINE"
+);
+}
+);
+width = 658;
+},
+{
+components = (
+{
+name = taE;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"595 0 LINE",
+"489 37 LINE",
+"262 -192 LINE",
+"282 -212 LINE"
+);
+}
+);
+width = 728;
+}
+);
+unicode = 0B8F;
+}

@@ -1,0 +1,36 @@
+{
+glyphname = hyphen;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"50 200 LINE",
+"330 200 LINE",
+"330 240 LINE",
+"50 240 LINE"
+);
+}
+);
+width = 380;
+},
+{
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"25 195 LINE",
+"325 195 LINE",
+"325 240 LINE",
+"25 240 LINE"
+);
+}
+);
+width = 350;
+}
+);
+unicode = 002D;
+}

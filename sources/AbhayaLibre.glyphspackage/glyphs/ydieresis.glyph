@@ -1,0 +1,30 @@
+{
+glyphname = ydieresis;
+layers = (
+{
+components = (
+{
+name = y;
+},
+{
+name = dieresis;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 484;
+},
+{
+components = (
+{
+name = y;
+},
+{
+name = dieresis;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 490;
+}
+);
+unicode = 00FF;
+}

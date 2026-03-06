@@ -1,0 +1,62 @@
+{
+glyphname = tasix;
+layers = (
+{
+components = (
+{
+name = taCa;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"465 199 LINE",
+"465 0 LINE",
+"540 0 LINE",
+"540 199 LINE",
+"640 199 LINE",
+"640 0 LINE",
+"715 0 LINE",
+"715 199 LINE",
+"760 199 LINE",
+"760 229 LINE",
+"382 229 LINE",
+"382 199 LINE"
+);
+}
+);
+width = 810;
+},
+{
+components = (
+{
+name = taCa;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"496 199 LINE",
+"496 0 LINE",
+"616 0 LINE",
+"616 199 LINE",
+"690 199 LINE",
+"690 0 LINE",
+"810 0 LINE",
+"810 199 LINE",
+"876 199 LINE",
+"876 229 LINE",
+"450 229 LINE",
+"450 199 LINE"
+);
+}
+);
+width = 916;
+}
+);
+unicode = 0BEC;
+}

@@ -1,0 +1,31 @@
+{
+glyphname = sinYansaya_Reph_MatraAa;
+layers = (
+{
+components = (
+{
+name = sinYansaya.reph;
+},
+{
+name = sinMatraAa;
+transform = "{1, 0, 0, 1, 531, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 823;
+},
+{
+components = (
+{
+name = sinYansaya.reph;
+},
+{
+name = sinMatraAa;
+transform = "{1, 0, 0, 1, 531, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 835;
+}
+);
+}

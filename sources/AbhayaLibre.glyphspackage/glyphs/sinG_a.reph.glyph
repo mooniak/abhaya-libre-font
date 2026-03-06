@@ -1,0 +1,46 @@
+{
+glyphname = sinGa.reph;
+layers = (
+{
+anchors = (
+{
+name = _cursive;
+position = "{56, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = sinReph;
+transform = "{1, 0, 0, 1, 680, -60}";
+},
+{
+name = sinGa;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 621;
+},
+{
+anchors = (
+{
+name = _cursive;
+position = "{56, 0}";
+}
+);
+components = (
+{
+alignment = -1;
+name = sinReph;
+transform = "{1, 0, 0, 1, 700, 0}";
+},
+{
+name = sinGa;
+transform = "{1, 0, 0, 1, 1, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 622;
+}
+);
+}

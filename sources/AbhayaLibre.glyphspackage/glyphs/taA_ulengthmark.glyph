@@ -1,0 +1,24 @@
+{
+glyphname = taAulengthmark;
+layers = (
+{
+components = (
+{
+name = taLla;
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 899;
+},
+{
+components = (
+{
+name = taLla;
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 987;
+}
+);
+unicode = 0BD7;
+}

@@ -1,0 +1,169 @@
+{
+glyphname = product;
+layers = (
+{
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"489 -130 LINE",
+"489 600 LINE",
+"404 600 LINE",
+"404 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"261 -130 LINE",
+"261 -108 OFFCURVE",
+"256 -104 OFFCURVE",
+"236 -104 CURVE SMOOTH",
+"15 -104 LINE",
+"15 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"577 -130 LINE",
+"577 -108 OFFCURVE",
+"572 -104 OFFCURVE",
+"552 -104 CURVE SMOOTH",
+"331 -104 LINE",
+"331 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"183 -130 LINE",
+"183 600 LINE",
+"98 600 LINE",
+"98 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"577 574 LINE",
+"577 600 LINE",
+"15 600 LINE",
+"15 574 LINE"
+);
+}
+);
+width = 592;
+},
+{
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"266 -130 LINE",
+"266 -108 OFFCURVE",
+"261 -104 OFFCURVE",
+"241 -104 CURVE SMOOTH",
+"20 -104 LINE",
+"20 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"582 -130 LINE",
+"582 -108 OFFCURVE",
+"577 -104 OFFCURVE",
+"557 -104 CURVE SMOOTH",
+"336 -104 LINE",
+"336 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"188 -130 LINE",
+"188 600 LINE",
+"103 600 LINE",
+"103 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"494 -130 LINE",
+"494 600 LINE",
+"409 600 LINE",
+"409 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"20 600 LINE",
+"20 574 LINE",
+"582 574 LINE",
+"582 600 LINE"
+);
+}
+);
+};
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"519 -130 LINE",
+"519 600 LINE",
+"379 600 LINE",
+"379 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"269 -130 LINE",
+"269 -107 OFFCURVE",
+"264 -103 OFFCURVE",
+"245 -103 CURVE SMOOTH",
+"10 -103 LINE",
+"10 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"588 -130 LINE",
+"588 -107 OFFCURVE",
+"583 -103 OFFCURVE",
+"564 -103 CURVE SMOOTH",
+"330 -103 LINE",
+"330 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"219 -130 LINE",
+"219 600 LINE",
+"79 600 LINE",
+"79 -130 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"588 573 LINE",
+"588 600 LINE",
+"10 600 LINE",
+"10 573 LINE"
+);
+}
+);
+width = 598;
+}
+);
+unicode = 220F;
+}

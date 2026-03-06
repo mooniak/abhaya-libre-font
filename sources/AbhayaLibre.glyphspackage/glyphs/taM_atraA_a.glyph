@@ -1,0 +1,62 @@
+{
+color = 4;
+glyphname = taMatraAa;
+layers = (
+{
+anchors = (
+{
+name = tm_halant;
+position = "{204, 425}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"102 0 LINE",
+"102 395 LINE",
+"262 395 LINE",
+"262 0 LINE",
+"337 0 LINE",
+"337 395 LINE",
+"459 395 LINE",
+"459 425 LINE",
+"70 425 LINE",
+"70 0 LINE"
+);
+}
+);
+width = 479;
+},
+{
+anchors = (
+{
+name = tm_halant;
+position = "{217, 430}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"96 0 LINE",
+"96 400 LINE",
+"243 400 LINE",
+"243 0 LINE",
+"373 0 LINE",
+"373 400 LINE",
+"490 400 LINE",
+"490 430 LINE",
+"60 430 LINE",
+"60 0 LINE"
+);
+}
+);
+width = 506;
+}
+);
+leftMetricsKey = "=taPa";
+unicode = 0BBE;
+}

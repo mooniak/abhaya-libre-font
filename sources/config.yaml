@@ -1,5 +1,5 @@
 sources:
-  - AbhayaLibre.glyphs
+  - AbhayaLibre.glyphspackage
 outputDir: "../fonts"
 buildStatic: false
 buildVariable: true

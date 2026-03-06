@@ -1,0 +1,32 @@
+{
+glyphname = Cacute;
+layers = (
+{
+components = (
+{
+name = C;
+},
+{
+name = acute;
+transform = "{1, 0, 0, 1, 48, 200}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 624;
+},
+{
+components = (
+{
+name = C;
+},
+{
+name = acute;
+transform = "{1, 0, 0, 1, 35, 200}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 600;
+}
+);
+unicode = 0106;
+}

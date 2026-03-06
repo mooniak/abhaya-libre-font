@@ -1,0 +1,81 @@
+{
+color = 4;
+glyphname = taRa;
+layers = (
+{
+anchors = (
+{
+name = tm_halant;
+position = "{209, 425}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"102 0 LINE",
+"102 395 LINE",
+"272 395 LINE",
+"272 0 LINE",
+"347 0 LINE",
+"347 395 LINE",
+"469 395 LINE",
+"469 425 LINE",
+"70 425 LINE",
+"70 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"347 0 LINE",
+"281 29 LINE",
+"80 -180 LINE",
+"97 -200 LINE"
+);
+}
+);
+width = 489;
+},
+{
+anchors = (
+{
+name = tm_halant;
+position = "{222, 430}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"96 0 LINE",
+"96 400 LINE",
+"253 400 LINE",
+"253 0 LINE",
+"383 0 LINE",
+"383 400 LINE",
+"500 400 LINE",
+"500 430 LINE",
+"60 430 LINE",
+"60 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"383 0 LINE",
+"262 37 LINE",
+"70 -192 LINE",
+"90 -212 LINE"
+);
+}
+);
+width = 516;
+}
+);
+leftMetricsKey = "=taPa";
+rightMetricsKey = "=taMatraAa";
+unicode = 0BB0;
+}

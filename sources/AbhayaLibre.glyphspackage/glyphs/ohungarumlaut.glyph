@@ -1,0 +1,32 @@
+{
+glyphname = ohungarumlaut;
+layers = (
+{
+components = (
+{
+name = o;
+},
+{
+name = hungarumlaut;
+transform = "{1, 0, 0, 1, -53, 0}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 513;
+},
+{
+components = (
+{
+name = o;
+},
+{
+name = hungarumlaut;
+transform = "{1, 0, 0, 1, 13, 0}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 521;
+}
+);
+unicode = 0151;
+}
