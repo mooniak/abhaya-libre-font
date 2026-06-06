@@ -1,5 +1,5 @@
 {
-.appVersion = "3434";
+.appVersion = "3436";
 classes = (
 {
 code = "zero one two three four five six seven eight nine";
@@ -929,26 +929,31 @@ name = dist;
 {
 code = "  featureNames {\012    name \"Sinhala Da-form subs\";\012    name 1 \"Sinhala Da-form subs\";\012	};\012    lookup sin_da_subscripts;";
 name = ss01;
-notes = "Name: ";
+notes = "Name: Name: ";
 },
 {
 code = "  featureNames {\012  	name \"Sinhala fPa\";\012  	name 1 \"Sinhala fPa\";\012	};\012    lookup sin_fPa;\012";
 name = ss02;
-notes = "Name: ";
+notes = "Name: Name: ";
 },
 {
 code = "  featureNames {\012  	name \"Sinhala archiac ligatures\";\012  	name 1 \"Sinhala archiac ligatures\";\012	};\012    lookup ss03_anusvara_sha;\012    lookup ss03_anusvara_sha_02;";
 name = ss03;
-notes = "Name: ";
+notes = "Name: Name: ";
 },
 {
 code = "  featureNames {\012  	name \"Sinhala Lith Numerals\";\012  	name 1 \"Sinhala Lith Numerals\";\012	};\012	lookup ss07_num_to_sinlithnum_1;\012	lookup ss07_num_to_sinlithnum_2; \012";
 name = ss07;
-notes = "Name: ";
+notes = "Name: Name: ";
 },
 {
 code = "  featureNames {\012  	name \"Sinhala Archaic Numerals\";\012  	name 1 \"Sinhala Archaic Numerals\";\012	};\012	lookup ss08_num_to_sinArchiac_1;\012	lookup ss08_num_to_sinArchiac_2; \012	lookup ss08_num_to_sinArchiac_3; \012	lookup ss08_num_to_sinArchiac_4; \012";
 name = ss08;
+notes = "Name: Name: ";
+},
+{
+code = "sub nna-taml aa-sign-taml by nna-aa-taml;\012sub nna2-taml aa-sign-taml by nna2-aa-taml;\012sub rra-taml aa-sign-taml by rra-aa-taml;\012\012sub ai-sign-taml nna-taml by nna-ai-taml;\012sub ai-sign-taml nna2-taml by nna2-ai-taml;\012sub ai-sign-taml la-taml by la-ai-taml;\012sub ai-sign-taml lla-taml by lla-ai-taml;";
+name = ss09;
 notes = "Name: ";
 }
 );
@@ -1017,9 +1022,6 @@ position = "{11, 400}";
 },
 {
 position = "{-1348, 425}";
-},
-{
-position = "{896, -219}";
 },
 {
 position = "{-241, 683}";
