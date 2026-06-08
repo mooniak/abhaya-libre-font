@@ -8,6 +8,12 @@ width = 0;
 {
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 width = 0;
+},
+{
+associatedMasterId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+layerId = "9894108B-0313-4377-B183-38EC84D9E99A";
+name = Heavy;
+width = 600;
 }
 );
 }
