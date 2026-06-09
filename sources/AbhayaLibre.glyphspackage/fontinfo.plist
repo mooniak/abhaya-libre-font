@@ -1,5 +1,5 @@
 {
-.appVersion = "3513";
+.appVersion = "3436";
 classes = (
 {
 code = "zero one two three four five six seven eight nine";
@@ -871,7 +871,7 @@ name = tnum;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks;\012sub f i by fi;\012sub f l by fl;\012";
+code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\012sub f f by f_f;\012sub f i by fi;\012sub f l by fl;\012";
 name = liga;
 },
 {
@@ -1054,7 +1054,6 @@ verticalStems = (
 71,
 80
 );
-visible = 1;
 weightValue = 70;
 xHeight = 500;
 },
