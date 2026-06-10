@@ -10,7 +10,7 @@ name = "u-sinh";
 },
 {
 alignment = -1;
-name = "vocalicL-sign-sinh";
+name = "vocaliclsign-sinh";
 transform = "{1, 0, 0, 1, 580, 0}";
 }
 );
@@ -23,7 +23,7 @@ components = (
 name = "u-sinh";
 },
 {
-name = "vocalicL-sign-sinh";
+name = "vocaliclsign-sinh";
 transform = "{1, 0, 0, 1, 635, 0}";
 }
 );

@@ -7,7 +7,7 @@ components = (
 name = "nna2-taml";
 },
 {
-name = "i-sign-taml";
+name = "isign-taml";
 transform = "{1, 0, 0, 1, 994, 0}";
 }
 );
@@ -20,7 +20,7 @@ components = (
 name = "nna2-taml";
 },
 {
-name = "i-sign-taml";
+name = "isign-taml";
 transform = "{1, 0, 0, 1, 1093, 0}";
 }
 );

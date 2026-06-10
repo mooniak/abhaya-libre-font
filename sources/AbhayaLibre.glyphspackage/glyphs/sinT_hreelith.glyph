@@ -7,7 +7,7 @@ components = (
 name = sinTwolith;
 },
 {
-name = "aa-sign-sinh";
+name = "aasign-sinh";
 transform = "{1, 0, 0, 1, 955, 0}";
 }
 );
@@ -20,7 +20,7 @@ components = (
 name = sinTwolith;
 },
 {
-name = "aa-sign-sinh";
+name = "aasign-sinh";
 transform = "{1, 0, 0, 1, 940, 0}";
 }
 );

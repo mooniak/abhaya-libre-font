@@ -5,7 +5,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = "aae-sign-sinh";
+name = "aaesign-sinh";
 transform = "{1, 0, 0, 1, 550, 0}";
 },
 {
@@ -20,7 +20,7 @@ width = 887;
 components = (
 {
 alignment = -1;
-name = "aae-sign-sinh";
+name = "aaesign-sinh";
 transform = "{1, 0, 0, 1, 550, 0}";
 },
 {

@@ -4,7 +4,7 @@ layers = (
 {
 components = (
 {
-name = "ii-sign-taml";
+name = "iisign-taml";
 transform = "{1, 0, 0, 1, 1016, 0}";
 }
 );
@@ -81,7 +81,7 @@ width = 1054;
 {
 components = (
 {
-name = "ii-sign-taml";
+name = "iisign-taml";
 transform = "{1, 0, 0, 1, 1134, 0}";
 }
 );

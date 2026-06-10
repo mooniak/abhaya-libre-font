@@ -7,7 +7,7 @@ components = (
 name = "a-sinh";
 },
 {
-name = "ae-sign-sinh";
+name = "aesign-sinh";
 transform = "{1, 0, 0, 1, 559, 0}";
 }
 );
@@ -20,7 +20,7 @@ components = (
 name = "a-sinh";
 },
 {
-name = "ae-sign-sinh";
+name = "aesign-sinh";
 transform = "{1, 0, 0, 1, 559, 0}";
 }
 );

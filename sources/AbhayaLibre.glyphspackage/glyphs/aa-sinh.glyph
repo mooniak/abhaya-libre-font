@@ -6,7 +6,7 @@ components = (
 {
 alignment = -1;
 locked = 1;
-name = "aa-sign-sinh";
+name = "aasign-sinh";
 transform = "{1, 0, 0, 1, 550, 0}";
 },
 {
@@ -23,7 +23,7 @@ components = (
 {
 alignment = -1;
 locked = 1;
-name = "aa-sign-sinh";
+name = "aasign-sinh";
 transform = "{1, 0, 0, 1, 548, 0}";
 },
 {
