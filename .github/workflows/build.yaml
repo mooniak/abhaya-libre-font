@@ -6,7 +6,7 @@ on:
   push:
     branches:
       - main
-      - master  # for backwards compatibility; use your default branch if different
+      - dev
     tags:
       - '*'
 
