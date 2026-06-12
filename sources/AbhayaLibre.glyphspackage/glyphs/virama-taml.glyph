@@ -1,0 +1,65 @@
+{
+color = 4;
+glyphname = "virama-taml";
+layers = (
+{
+anchors = (
+{
+name = _tm_halant;
+position = "{-245, 425}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"-215 516 OFFCURVE",
+"-191 540 OFFCURVE",
+"-191 571 CURVE SMOOTH",
+"-191 601 OFFCURVE",
+"-215 626 OFFCURVE",
+"-245 626 CURVE SMOOTH",
+"-276 626 OFFCURVE",
+"-300 601 OFFCURVE",
+"-300 571 CURVE SMOOTH",
+"-300 540 OFFCURVE",
+"-276 516 OFFCURVE",
+"-245 516 CURVE SMOOTH"
+);
+}
+);
+width = 20;
+},
+{
+anchors = (
+{
+name = _tm_halant;
+position = "{-325, 430}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+paths = (
+{
+closed = 1;
+nodes = (
+"-285 488 OFFCURVE",
+"-251 520 OFFCURVE",
+"-251 561 CURVE SMOOTH",
+"-251 602 OFFCURVE",
+"-285 636 OFFCURVE",
+"-326 636 CURVE SMOOTH",
+"-367 636 OFFCURVE",
+"-400 602 OFFCURVE",
+"-400 561 CURVE SMOOTH",
+"-400 520 OFFCURVE",
+"-367 488 OFFCURVE",
+"-326 488 CURVE SMOOTH"
+);
+}
+);
+width = 10;
+}
+);
+unicode = 0BCD;
+}
