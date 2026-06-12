@@ -10,7 +10,7 @@ code = "zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf 
 name = FIGURES_TF;
 }
 );
-copyright = "Copyright 2015—2023 The Abhaya Libre Project Authors (https://github.com/mooniak/abhaya-libre-font)";
+copyright = "Copyright 2026 The Abhaya Libre Project Authors (https://github.com/mooniak/abhaya-libre-font)";
 customParameters = (
 {
 name = fsType;
@@ -1258,7 +1258,7 @@ name = "Write DisplayStrings";
 value = 0;
 },
 {
-name = "Don't use Production Names";
+name = "Use Typo Metrics";
 value = 1;
 },
 {
@@ -1292,7 +1292,7 @@ designer = "Puspanada Ekanayake, Sola Matas, Pathum Egodawatta, Kosala Senevirat
 designerURL = "http://www.mooniak.com/";
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
-familyName = "Abhaya Libre NIGHTLY";
+familyName = "Abhaya Libre DEV";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012languagesystem taml dflt;\012languagesystem tml2 dflt;\012";
