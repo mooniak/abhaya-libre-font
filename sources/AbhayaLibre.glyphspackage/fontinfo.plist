@@ -1349,12 +1349,12 @@ code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\01
 name = liga;
 },
 {
-code = "  script sinh;\012      lookup sin_vatu;\012";
-name = vatu;
-},
-{
 code = "    script taml;\012        lookup akhands;\012    script tml2;\012        lookup akhands;";
 name = akhn;
+},
+{
+code = "  script sinh;\012      lookup sin_vatu;\012	  lookup sinrakaar;\012";
+name = vatu;
 },
 {
 code = "    script taml;\012        lookup above_base_sub_1;\012        lookup above_base_sub_2;\012    script tml2;\012        lookup above_base_sub_1;\012        lookup above_base_sub_2;";
@@ -1385,7 +1385,7 @@ code = "  script sinh;\012      lookup sin_virama;\012      lookup sinabvs_1;\01
 name = abvs;
 },
 {
-code = "  script sinh;\012      lookup sinblws_1;\012      lookup sinblws_2;\012      lookup sinblws_3;\012	  lookup sinrakaar;\012";
+code = "  script sinh;\012      lookup sinblws_1;\012      lookup sinblws_2;\012      lookup sinblws_3;\012";
 name = blws;
 },
 {
