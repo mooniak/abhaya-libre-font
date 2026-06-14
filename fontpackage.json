@@ -1,0 +1,105 @@
+{
+  "name": "Abhaya Libre",
+  "id": "abhaya-libre",
+  "type": "family",
+  "designer": [
+    "Mooniak",
+    "Pushpananda Ekanayake",
+    "Sol Matas"
+  ],
+  "scripts": [
+    "Sinh",
+    "Taml",
+    "Latn"
+  ],
+  "description": "A high-contrast text typeface for Sinhala, Tamil and Latin, with extensive coverage for Sinhala, Pali and Sanskrit.",
+  "license": "OFL-1.1",
+  "channels": [
+    "release",
+    "dev",
+    "nightly"
+  ],
+  "versions_provider": "tags",
+  "repository": {
+    "url": "https://github.com/mooniak/abhaya-libre-font",
+    "type": "git"
+  },
+  "homepage_url": "https://src.mooniak.com/abhaya-libre-font/",
+  "issues_url": "https://github.com/mooniak/abhaya-libre-font/issues/",
+  "funding_url": "https://opencollective.com/akuruxyz/projects/lanka-font-library",
+  "foundry": {
+    "name": "mooniak",
+    "email": "hello@mooniak.com",
+    "url": "https://mooniak.com/",
+    "vendor_id": "MNIK"
+  },
+  "designers": [
+    {
+      "name": "Pathum Egodawatta",
+      "email": "pathum@mooniak.com",
+      "url": "https://pathumego.com/"
+    },
+    {
+      "name": "Pushpananda Ekanayake",
+      "email": "",
+      "url": ""
+    },
+    {
+      "name": "Sol Matas",
+      "email": "",
+      "url": ""
+    }
+  ],
+  "maintenance": {
+    "status": "actively-developed",
+    "comment": ""
+  },
+  "tools": "",
+  "progress": {
+    "design": 90,
+    "family_styles": 80,
+    "character_set": 85,
+    "drawing_quality": 85,
+    "spacing": 80,
+    "kerning": 60,
+    "hinting": 40,
+    "opentype_features": 85
+  },
+  "tags": {
+    "style": "serif",
+    "contrast": "high",
+    "width": "normal",
+    "body_height": "tall",
+    "intended_usage": "text",
+    "figures": "normal",
+    "languages": [
+      "si_LK",
+      "ta_LK",
+      "en_US"
+    ],
+    "related_fonts": [
+      "abhaya-libre-sans"
+    ]
+  },
+  "directory": {
+    "listed": true,
+    "display_texts": {
+      "en_US": "A classic text typeface for Sri Lanka.",
+      "si_LK": "දැරණියගලට ඉහල අහසේ දඟකරන වලාපෙළ මවනා සොඳුරු දසුන රාත්‍රිය උදාවත් සමග ක්‍ෂයවේ.",
+      "ta_LK": "அபய ஒரு செம்மையான எழுத்துரு."
+    },
+    "display_images": {
+      "banner": "",
+      "thumbnail": "",
+      "small": "",
+      "medium": "",
+      "large": ""
+    },
+    "links": {
+      "font_in_use": "",
+      "googlefonts": "https://fonts.google.com/specimen/Abhaya+Libre",
+      "fontlibrary_org": "",
+      "typekit": ""
+    }
+  }
+}
