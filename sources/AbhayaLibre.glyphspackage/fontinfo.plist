@@ -1428,7 +1428,7 @@ notes = "Name: Name:";
 {
 code = "sub nna-taml aasign-taml by nnAa-taml;\012sub nna2-taml aasign-taml by nna2-aa-taml;\012sub rra-taml aasign-taml by rrAa-taml;\012\012sub aisign-taml nna-taml by nnAi-taml;\012sub aisign-taml nna2-taml by nna2-ai-taml;\012sub aisign-taml la-taml by lAi-taml;\012sub aisign-taml lla-taml by llAi-taml;";
 name = ss09;
-notes = "Name: ";
+notes = "Name: Name: ";
 }
 );
 fontMaster = (
