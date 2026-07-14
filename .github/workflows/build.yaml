@@ -73,7 +73,7 @@ jobs:
       - name: Set up test result site
         run: cp scripts/index.html out/index.html
       - name: Collect deployment assets
-        if: ${{ github.ref_name == github.event.repository.default_branch }}
+        if: ${{ github.ref_name == github.event.repository.default_branch && github.event.repository.private == false }}
         uses: actions/upload-pages-artifact@v5
         with:
           path: ./out
@@ -89,7 +89,7 @@ jobs:
 
   deploy:
     name: Deploy results to GitHub Pages
-    if: ${{ github.ref_name == github.event.repository.default_branch }}
+    if: ${{ github.ref_name == github.event.repository.default_branch && github.event.repository.private == false }}
     needs: build
     runs-on: ubuntu-latest
     permissions:
