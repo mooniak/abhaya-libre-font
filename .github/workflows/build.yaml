@@ -37,7 +37,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install ttfautohint libcairo2-dev python3-cairo-dev pkg-config python3-dev
-          sudo snap install yq
+          # yq (mikefarah) is preinstalled on GitHub-hosted ubuntu runners; snap is flaky, so avoid it
       - uses: actions/cache@v5
         with:
           path: ./venv/
@@ -84,6 +84,17 @@ jobs:
           path: |
             fonts
             out
+      - name: Set short SHA
+        if: ${{ github.ref_name == 'dev' && github.event_name == 'push' }}
+        shell: bash
+        run: echo "SHORT_SHA=${GITHUB_SHA::7}" >> $GITHUB_ENV
+      - name: Archive dev-channel fonts for FontPipe
+        if: ${{ github.ref_name == 'dev' && github.event_name == 'push' }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: dev-fonts-${{ env.SHORT_SHA }}
+          path: fonts/**/*.ttf
+          retention-days: 30
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
