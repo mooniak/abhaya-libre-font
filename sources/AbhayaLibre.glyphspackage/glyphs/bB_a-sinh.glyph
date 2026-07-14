@@ -3,6 +3,7 @@ glyphname = "bBa-sinh";
 layers = (
 {
 backgroundImage = {
+crop = "{{0, 0}, {0, 0}}";
 imagePath = "/Users/pathumego/Desktop/Screenshot 2024-11-06 at 10.01.28.png";
 };
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
