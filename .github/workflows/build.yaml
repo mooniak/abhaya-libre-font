@@ -32,7 +32,9 @@ jobs:
         name: Install cargo binstall
       - name: Install Rust font tools
         run: |
-          cargo binstall --no-confirm diffenator3
+          cargo binstall --no-confirm --disable-strategies compile diffenator3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Install toolset
         run: |
           sudo apt-get update
