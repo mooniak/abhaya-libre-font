@@ -9,13 +9,12 @@ import datetime
 import re
 import sys
 from urllib.parse import quote
-import subprocess
 import requests
 
-BASE_OWNER = "googlefonts"
-BASE_REPONAME = "googlefonts-project-template"
+BASE_OWNER = "mooniak"
+BASE_REPONAME = "mooniak-font-project-template"
 DUMMY_URL = "https://yourname.github.io/your-font-repository-name"
-LATEST_OFL = "https://raw.githubusercontent.com/googlefonts/googlefonts-project-template/main/OFL.txt"
+LATEST_OFL = "https://raw.githubusercontent.com/mooniak/mooniak-font-project-template/main/OFL.txt"
 
 
 def repo_url(owner, name):
@@ -101,12 +100,11 @@ with open("OFL.txt", "w") as fh:
 
 git.add("OFL.txt")
 
-# Pin the dependencies
-print("Pinning dependencies")
-dependencies = subprocess.check_output(["pip", "freeze"])
-with open("requirements.txt", "wb") as dependency_file:
-    dependency_file.write(dependencies)
-git.add("requirements.txt")
+# NOTE: requirements.txt is NOT regenerated here. It (and requirements.in) are
+# owned by the template and kept in sync by `mnik template-sync`; the pinned
+# lockfile is produced by `make update` (pip-compile), not a raw `pip freeze`.
+# The old `pip freeze > requirements.txt` here was a third, conflicting writer
+# that clobbered the shared lockfile with an unsorted dump.
 
 # Did anything change?
 result = git.status("--porcelain")
