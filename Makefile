@@ -38,6 +38,12 @@ proof: venv build.stamp
 	which diff3proof || (echo "diff3proof not found. Please install it with 'cargo binstall diffenator3'." && exit 1)
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diff3proof $$TOCHECK --output out/proof
 
+# Emit out/fontstatus.json — the per-build computed-fact manifest (files+hashes,
+# version, channel, QA verdict). Run after `build` (needs fonts) and `test` (reads
+# the fontspector report for the QA verdict). See mooniak docs/manifest-schema.md.
+manifest: build.stamp
+	mkdir -p out/; . venv/bin/activate; python3 scripts/build_manifest.py
+
 images: venv $(DRAWBOT_OUTPUT)
 
 %.png: %.py build.stamp

@@ -72,6 +72,8 @@ jobs:
         continue-on-error: true
       - name: Generate proofs
         run: make proof
+      - name: Emit build manifest (fontstatus.json)
+        run: make manifest
       - name: Set up test result site
         run: cp scripts/index.html out/index.html
       - name: Collect deployment assets
