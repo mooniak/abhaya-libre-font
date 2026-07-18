@@ -15,9 +15,9 @@
   "description": "A high-contrast text typeface for Sinhala, Tamil and Latin, with extensive coverage for Sinhala, Pali and Sanskrit.",
   "license": "OFL-1.1",
   "channels": [
-    "release",
+    "canary",
     "dev",
-    "nightly"
+    "release"
   ],
   "versions_provider": "tags",
   "repository": {
