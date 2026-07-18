@@ -38,6 +38,12 @@ proof: venv build.stamp
 	which diff3proof || (echo "diff3proof not found. Please install it with 'cargo binstall diffenator3'." && exit 1)
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diff3proof $$TOCHECK --output out/proof
 
+# Stamp the OpenFV name ID 5 into built fonts per channel (canary/dev/release),
+# derived from the CI environment; no-op locally. Run right after `build`, before
+# `test`/`manifest` so they see the stamped version. See docs/channels-and-versioning.md.
+stamp: build.stamp
+	. venv/bin/activate; python3 scripts/stamp_version.py
+
 # Emit out/fontstatus.json — the per-build computed-fact manifest (files+hashes,
 # version, channel, QA verdict). Run after `build` (needs fonts) and `test` (reads
 # the fontspector report for the QA verdict). See mooniak docs/manifest-schema.md.

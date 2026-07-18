@@ -38,6 +38,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -46,6 +47,46 @@ SCHEMA = "mooniak-fontstatus/v1"
 FONT_EXTS = (".ttf", ".otf", ".woff2", ".woff")
 # fontspector report severities, worst-first (matches mnik.tools.qa.SEVERITIES).
 SEVERITIES = ["ERROR", "FAIL", "WARN", "SKIP", "INFO", "PASS", "DEBUG"]
+
+# OpenFV (https://github.com/openfv/openfv): name ID 5 is "<Version>; <Status/State>; ...".
+# Version is MAJOR.MINOR with MINOR a 3-digit zero-padded number; MAJOR 0 == pre-production.
+_OPENFV_VER = re.compile(r"(\d{1,3})\.(\d{3})")
+# A `*-dev` / `*-dev.N` git tag is the `dev` (pre-release) channel; any other tag is `release`.
+_DEV_TAG = re.compile(r"-dev(\.\d+)?$")
+
+
+def _parse_openfv(name5: str | None) -> dict | None:
+    """Parse an OpenFV name ID 5 string into its version + dev/release status.
+
+    Understands the spec's forms: ``Version 1.001``, ``Version 1.001; DEV``,
+    ``Version 1.001; [abcd123]-dev``, ``1.001; [abcd123]-dev; build metadata``.
+    ``status``/``source`` stay None until CI stamps the name table (Phase 3).
+    """
+    if not name5:
+        return None
+    parts = [p.strip() for p in name5.split(";")]
+    m = _OPENFV_VER.search(parts[0])
+    if not m:
+        return None
+    major, minor = int(m.group(1)), m.group(2)
+    status, source = None, None
+    for seg in parts[1:]:
+        low = seg.lower()
+        if "release" in low:
+            status = "release"
+        elif "dev" in low:
+            status = "dev"
+        b = re.search(r"\[([^\]]+)\]", seg)
+        if b:
+            source = b.group(1)
+    return {
+        "version": f"{major}.{minor}",
+        "major": major,
+        "minor": minor,
+        "status": status,           # dev | release | None (name table not yet stamped)
+        "source": source,           # source-state label from [ … ], if any
+        "prerelease": major == 0,   # OpenFV: MAJOR 0 == pre-production (cannot be a release)
+    }
 
 
 # ── QA: parse the fontspector ghmarkdown summary the `make test` step already writes ──
@@ -145,6 +186,10 @@ def _font_facts(path: Path) -> dict:
             facts["version"] = f"{font['head'].fontRevision:.3f}"
         elif name is not None and name.getDebugName(5):
             facts["version"] = name.getDebugName(5)
+        if name is not None:
+            ofv = _parse_openfv(name.getDebugName(5))
+            if ofv:
+                facts["openfv"] = ofv
         if "fvar" in font:
             facts["kind"] = "variable"
             facts["axes"] = [
@@ -186,20 +231,24 @@ def collect_files(repo: Path) -> list[dict]:
 
 # ── Build context: channel + commit + run metadata from the CI environment ──
 def _derive_channel(env: dict, override: str | None) -> str:
+    """Map the CI trigger to an OpenFV-aligned channel: canary | dev | release.
+
+    - a ``*-dev`` / ``*-dev.N`` tag  -> ``dev``     (a cut pre-release; ``Version X.YYY; DEV``)
+    - any other tag                  -> ``release`` (curated, stable; bare ``Version X.YYY``)
+    - any untagged CI build          -> ``canary``  (bleeding edge; ``X.YYY; [<sha>]-dev``)
+    - no CI env (a local run)        -> ``local``   (not a published channel)
+
+    (``nightly`` was retired: canary already serves the rolling bleeding edge.)
+    """
     if override:
         return override
     if env.get("MNIK_CHANNEL"):
         return env["MNIK_CHANNEL"]
+    if not env.get("GITHUB_ACTIONS"):
+        return "local"
     if env.get("GITHUB_REF_TYPE") == "tag":
-        return "release"
-    if env.get("GITHUB_EVENT_NAME") == "schedule":
-        return "nightly"
-    ref_name = env.get("GITHUB_REF_NAME") or ""
-    if ref_name in ("dev",):
-        return "dev"
-    if ref_name in ("main", "master"):
-        return "main"
-    return ref_name or "local"
+        return "dev" if _DEV_TAG.search(env.get("GITHUB_REF_NAME") or "") else "release"
+    return "canary"
 
 
 def build_context(env: dict, channel_override: str | None) -> dict:
@@ -233,6 +282,14 @@ def _modal_version(files: list[dict]) -> str | None:
     return max(set(versions), key=versions.count)
 
 
+def _openfv(files: list[dict]) -> dict | None:
+    """The families' OpenFV version/status (from the first file that carries one)."""
+    for f in files:
+        if f.get("openfv"):
+            return f["openfv"]
+    return None
+
+
 def build_manifest(repo: Path, channel_override: str | None = None,
                    env: dict | None = None) -> dict:
     env = env if env is not None else dict(os.environ)
@@ -255,6 +312,7 @@ def build_manifest(repo: Path, channel_override: str | None = None,
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "build": build_context(env, channel_override),
         "version": _modal_version(files),
+        "openfv": _openfv(files),  # parsed OpenFV version/status; null until CI stamps name ID 5
         "files": files,
         "qa": _qa_status(repo),
         "coverage": {},  # Phase 4 populates this via lanka-glyphsets; empty for now.

@@ -67,6 +67,8 @@ jobs:
 
       - name: Build font
         run: make build
+      - name: Stamp version (OpenFV name table)
+        run: make stamp
       - name: Check with fontspector
         run: make test
         continue-on-error: true
