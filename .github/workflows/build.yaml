@@ -101,6 +101,16 @@ jobs:
           name: dev-fonts-${{ env.SHORT_SHA }}
           path: fonts/**/*.ttf
           retention-days: 30
+      - name: Publish channel (canary / dev / release)
+        # canary = push to dev; dev = a *-dev.N tag; release = any other tag.
+        if: ${{ (github.ref_name == 'dev' && github.event_name == 'push') || github.ref_type == 'tag' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$GITHUB_REF_TYPE" = "tag" ]; then
+            case "$GITHUB_REF_NAME" in *-dev.*|*-dev) CH=dev ;; *) CH=release ;; esac
+          else CH=canary; fi
+          bash scripts/publish_channel.sh "$CH"
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
 
@@ -120,48 +130,8 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v5
 
-  # There are two ways a release can be created: either by pushing a tag, or by
-  # creating a release from the GitHub UI. Pushing a tag does not automatically
-  # create a release, so we have to do that ourselves. However, creating a
-  # release from the GitHub UI *does* push a tag, and we don't want to create
-  # a new release in that case because one already exists!
-
-  release:
-    name: Release bundle
-    if: ${{ github.ref_type == 'tag' }}
-    needs: build
-    runs-on: ubuntu-latest
-    env:
-      ZIP_NAME: ${{ needs.build.outputs.zip_name }}
-      GH_TOKEN: ${{ github.token }}
-    steps:
-      - uses: actions/checkout@v6
-      - name: Use font artifacts from CI
-        uses: actions/download-artifact@v7
-        with:
-          name: ${{ env.ZIP_NAME }}
-          path: ${{ env.ZIP_NAME }}
-      - name: Copy ARTICLE.en_us.html to release directory
-        run: cp documentation/ARTICLE.en_us.html ${{ env.ZIP_NAME }}/ARTICLE.en_us.html
-        continue-on-error: true
-      - name: Copy OFL.txt to release directory
-        run: cp OFL.txt ${{ env.ZIP_NAME }}/OFL.txt
-      - name: Remove proof/test outputs from release
-        run: rm -rf ${{ env.ZIP_NAME }}/out
-      - name: Set release file name
-        shell: bash
-        run: echo "RELEASE_ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-${{github.ref_name}}" >> $GITHUB_ENV
-      - name: Create release bundle
-        run: mv ${{ env.ZIP_NAME }} ${{ env.RELEASE_ZIP_NAME }}; zip -r ${{ env.RELEASE_ZIP_NAME }}.zip ${{ env.RELEASE_ZIP_NAME }}
-      - name: Check for release
-        id: create_release
-        run: |
-          if ! gh release view ${{ github.ref_name }}; then
-          git show -s --format=%B ${{ github.ref_name }} | tail -n +4 | gh release create ${{ github.ref_name }} -t ${{ github.ref_name }} -F -
-          fi
-      - name: Populate release
-        run: |
-          gh release upload ${{ github.ref_name }} ${{ env.RELEASE_ZIP_NAME }}.zip --clobber
-      - name: Set release live
-        run: |
-          gh release edit ${{ github.ref_name }} --draft=false
+  # Publishing (canary / dev / release) is handled by the "Publish channel" step in the
+  # build job (scripts/publish_channel.sh) — the build job already has the built fonts +
+  # fontstatus.json in hand, so no separate release job / artifact round-trip is needed.
+  # canary → rolling `canary` pre-release; dev → `vX.YYY-dev.N` pre-release; release →
+  # `vX.YYY` Release. See docs/channels-and-versioning.md + docs/fontpipe-migration-brief.md.
