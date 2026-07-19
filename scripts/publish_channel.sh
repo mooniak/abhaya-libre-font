@@ -29,6 +29,21 @@ find fonts -type f \( -name '*.ttf' -o -name '*.otf' -o -name '*.woff2' \) -exec
 
 echo "publish_channel: $CHANNEL — assets:"; ls -1 "$OUT"
 
+# `gh release` glob-expands each asset argument itself, so glob metacharacters in
+# the filenames must be escaped. Google Fonts variable fonts follow the axis-tuple
+# naming standard `Family[wght].ttf`; left unescaped, gh reads `[wght]` as a glob
+# character class, matches nothing, and aborts with "no matches found". Escape
+# [ ] * ? so gh takes each name literally. Assets are always passed as "${ASSETS[@]}".
+ASSETS=()
+for f in "$OUT"/*; do
+  esc=$f
+  esc=${esc//\[/\\[}
+  esc=${esc//\]/\\]}
+  esc=${esc//\*/\\*}
+  esc=${esc//\?/\\?}
+  ASSETS+=("$esc")
+done
+
 case "$CHANNEL" in
   canary)
     # Rolling: retarget the `canary` tag to this commit, replace all assets.
@@ -36,23 +51,23 @@ case "$CHANNEL" in
     gh release create canary --prerelease --target "$GITHUB_SHA" \
       --title "canary — rolling dev build" \
       --notes "Bleeding-edge build of \`dev\`. **May be broken.** Exact commit, version and QA are in \`fontstatus.json\`." \
-      "$OUT"/*
+      "${ASSETS[@]}"
     ;;
   dev)
     if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
-      gh release upload "$GITHUB_REF_NAME" "$OUT"/* --clobber
+      gh release upload "$GITHUB_REF_NAME" "${ASSETS[@]}" --clobber
     else
       gh release create "$GITHUB_REF_NAME" --prerelease --title "$GITHUB_REF_NAME" \
-        --notes "Development pre-release \`$GITHUB_REF_NAME\`." "$OUT"/*
+        --notes "Development pre-release \`$GITHUB_REF_NAME\`." "${ASSETS[@]}"
     fi
     ;;
   release)
     if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
-      gh release upload "$GITHUB_REF_NAME" "$OUT"/* --clobber
+      gh release upload "$GITHUB_REF_NAME" "${ASSETS[@]}" --clobber
     else
       NOTES="$(git tag -l --format='%(contents:body)' "$GITHUB_REF_NAME" 2>/dev/null || true)"
       gh release create "$GITHUB_REF_NAME" --title "$GITHUB_REF_NAME" \
-        --notes "${NOTES:-Release $GITHUB_REF_NAME}" "$OUT"/*
+        --notes "${NOTES:-Release $GITHUB_REF_NAME}" "${ASSETS[@]}"
     fi
     ;;
   *) echo "publish_channel: unknown channel '$CHANNEL'" >&2; exit 1 ;;
