@@ -20,10 +20,11 @@ and runs it for local/dev parity, and a copy is synced into each font repo's
 ``scripts/`` by the project template so CI can run it self-contained.
 
 Reads (all relative to the repo root, the current directory by default):
-  fontpackage.json                       -> id (the only declared field consumed)
+  fontpackage.json                       -> id, scripts (Sinhala gate for coverage)
   fonts/{variable,ttf,otf,webfonts}/*    -> built binaries (hash, size, names, axes)
   out/fontspector/fontspector-report.md  -> QA verdict, if a report is present
   environment (GITHUB_*)                  -> channel, commit, ref, run metadata
+  <own dir>/sinhala_coverage.py + stages.json -> Sinhala design-stage coverage, if present
 
 Writes:
   out/fontstatus.json  (path overridable with --out)
@@ -205,6 +206,42 @@ def _font_facts(path: Path) -> dict:
     return facts
 
 
+def _font_cmap(path: Path) -> set[int]:
+    """Codepoints the font's cmap resolves to a glyph (best-effort)."""
+    try:
+        from fontTools.ttLib import TTFont
+    except ImportError:
+        return set()
+    try:
+        font = TTFont(str(path), fontNumber=0, lazy=True)
+    except Exception:
+        return set()
+    try:
+        return set(font.getBestCmap().keys())
+    except Exception:
+        return set()
+    finally:
+        font.close()
+
+
+def _font_glyph_order(path: Path) -> set[str]:
+    """The font's raw glyph-order names (best-effort)."""
+    try:
+        from fontTools.ttLib import TTFont
+    except ImportError:
+        return set()
+    try:
+        font = TTFont(str(path), fontNumber=0, lazy=True)
+    except Exception:
+        return set()
+    try:
+        return set(font.getGlyphOrder())
+    except Exception:
+        return set()
+    finally:
+        font.close()
+
+
 def _fmt(path: Path) -> str:
     ext = path.suffix.lower().lstrip(".")
     return ext or "unknown"
@@ -275,6 +312,35 @@ def build_context(env: dict, channel_override: str | None) -> dict:
     return ctx
 
 
+# ── Coverage: Sinhala design-stage progress (Phase 4), gated on fontpackage.json's `scripts` ──
+def _sinhala_coverage(repo: Path, files: list[dict]) -> dict | None:
+    """coverage.sinhala_design_stage for Sinhala fonts; None if not applicable/available.
+
+    Delegates to the sibling ``sinhala_coverage`` module (also mnik-free, reads its own
+    sibling ``stages.json`` off disk -- no network). See tools/sinhala-design-stages/ for
+    the model's authoring source and docs/tooling-roadmap.md §4 for the design.
+    """
+    fp = repo / "fontpackage.json"
+    scripts: list = []
+    if fp.is_file():
+        try:
+            scripts = json.loads(fp.read_text(encoding="utf-8")).get("scripts") or []
+        except (json.JSONDecodeError, OSError):
+            scripts = []
+    if "Sinh" not in scripts:
+        return None
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import sinhala_coverage
+    except ImportError:
+        return None
+    font_paths = [repo / f["path"] for f in files]
+    try:
+        return sinhala_coverage.compute(font_paths, _font_cmap, _font_glyph_order)
+    except Exception:
+        return None
+
+
 def _modal_version(files: list[dict]) -> str | None:
     versions = [f["version"] for f in files if f.get("version")]
     if not versions:
@@ -306,6 +372,7 @@ def build_manifest(repo: Path, channel_override: str | None = None,
         font_id = repo.name[:-5] if repo.name.endswith("-font") else repo.name
 
     files = collect_files(repo)
+    sd = _sinhala_coverage(repo, files)
     return {
         "schema": SCHEMA,
         "id": font_id,
@@ -315,7 +382,7 @@ def build_manifest(repo: Path, channel_override: str | None = None,
         "openfv": _openfv(files),  # parsed OpenFV version/status; null until CI stamps name ID 5
         "files": files,
         "qa": _qa_status(repo),
-        "coverage": {},  # Phase 4 populates this via lanka-glyphsets; empty for now.
+        "coverage": {"sinhala_design_stage": sd} if sd else {},
     }
 
 

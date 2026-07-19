@@ -1,0 +1,3035 @@
+{
+  "meta": {
+    "name": "Sinhala Design Dependency Model",
+    "id": "sinhala-design-stages",
+    "version": "0.1.0",
+    "script": "Sinhala (sinh)",
+    "authors": [
+      "Pathum Egodawatta",
+      "Mooniak"
+    ],
+    "based_on_research_by": [
+      "Pushpananda Ekanayake",
+      "Pathum Egodawatta"
+    ],
+    "license": "see repository",
+    "glyph_naming": "Production glyph names follow the lanka-glyphsets namespace convention: \"name-sinh\" (e.g. ka-sinh), as defined in glyphsets/sinhala-0-kernel.yaml.\n",
+    "sources": [
+      "docs/sinhala-shape-groups.yaml — WIP shape taxonomy (superseded where this file disagrees)",
+      "docs/font-developemnt-stages.md — original draft staging",
+      "docs/sinhala-anatomy.md — anatomical vocabulary",
+      "docs/NotoSansSinhala.glyphspackage — production reference; behavioural classes extracted to docs/sinhala.min.yaml via extract-noto.js"
+    ]
+  },
+  "stages": [
+    {
+      "n": 0,
+      "name": "System",
+      "goal": "Decide the type system before drawing letters: base height, stroke and contrast, counter model, overshoot, spacing unit. Deliverable is a set of guides plus rough control drawings of ට and ස — ට for stroke, counter and overshoot; ස for base height (tuned near the Latin x-height in multi-script projects, never 100% matching).\n",
+      "gate": "All Stage-0 metrics written down and drawn as guides.",
+      "glyphs": [],
+      "generated_drills": [],
+      "new_count": 0,
+      "cumulative_count": 0,
+      "total": 110
+    },
+    {
+      "n": 1,
+      "name": "Bootstrap",
+      "goal": "The smallest set that commits the core decisions: the bowl, the body-deciding ස (its body top fixes base height — in multi-script projects tuned near the Latin x-height, similar but never 100% matching, while ට's apex ascends above the body band — and brings the eye-line entry and doubled-body density), the double-bowl ප, the tail (descender depth), the trap, and both vertical mark zones (ි above, ු below) with their first atomic joins (ඩි ඪි). This stage front-loads risk on purpose: every core metric is committed here.\n",
+      "gate": "Bowl rhythm reads evenly; base height locked on ස; ඩි ඪි joins convincing; both mark depths frozen.",
+      "teststrings": {
+        "drills": [
+          "සට සසඩඪ ටසඩි ඪිටඩසට ඩඪඩි සට ඩසට ඪඩිස ටඪඩඩි සඩඪ ඩටඪිස",
+          "පට පස සප ටපස පඩට ඪප පසඩි පටඪ",
+          "ටුසු ඩුසු සුටු ඩිටු ඪිසු පුසු ටුපු"
+        ],
+        "words": [],
+        "sentences": []
+      },
+      "glyphs": [
+        "ට",
+        "ස",
+        "ප",
+        "ඩ",
+        "ඪ",
+        "ි",
+        "fam-i-tti",
+        "fam-i-tthi",
+        "ු"
+      ],
+      "generated_drills": [
+        "ටටටටට ටසටසට ටපටපට ටඩටඩට ටඪටඪට",
+        "ටටටට සසටස පපටප ඩඩටඩ ඪඪටඪ",
+        "ටි ඩි ඪි ටු සු පු ඩු ඪු"
+      ],
+      "new_count": 9,
+      "cumulative_count": 9,
+      "total": 110
+    },
+    {
+      "n": 2,
+      "name": "Bowl derivatives",
+      "goal": "Everything that follows from Stage 1 with zero new metrics: ච (bowl + eye-line), එ (the trap body standing alone), ය (ප plus the fork), ව (bowl + trap). One new left spacing class opens (L-ja).\n",
+      "gate": "All four glyphs sit in Stage-1 rhythm without touching any metric.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "වට",
+          "එය",
+          "පය",
+          "සුව",
+          "වසු",
+          "පසු",
+          "පුස"
+        ],
+        "sentences": []
+      },
+      "glyphs": [
+        "ච",
+        "එ",
+        "ය",
+        "ව",
+        "fam-i-term"
+      ],
+      "generated_drills": [
+        "ටචසචට ටඑසඑට ටයසයට ටවසවට",
+        "චචටච එඑටඑ යයටය වවටව",
+        "චි යි වි චු යු වු"
+      ],
+      "new_count": 5,
+      "cumulative_count": 14,
+      "total": 110
+    },
+    {
+      "n": 3,
+      "name": "Arch family and spacing marks",
+      "goal": "The arch — the script's biggest family — enters via ග, with ා designed alongside it (they share the same right terminal). ත න introduce the ka-eye. The first spacing marks (් kodiya, ෙ, ං) unlock real words, and the ් system branches: the rahena wrap (ට්) and the trap-top alternate (ඪ්) are decided against their Stage-1 hosts. The first ි family taken from a designed host: සි (the ඝි family, introduced by its first available member).\n",
+      "gate": "First real Sinhala words read naturally; arch terminal and ා are indistinguishable in rhythm.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "ගත",
+          "ගස",
+          "ගස්",
+          "වත",
+          "පත",
+          "පාට",
+          "සතා",
+          "ගෙට",
+          "නෙත",
+          "වෙන",
+          "සිට",
+          "සිසු",
+          "තට්ටුව",
+          "වත්ත",
+          "වසන්තය",
+          "ගංගාව"
+        ],
+        "sentences": []
+      },
+      "glyphs": [
+        "්",
+        "ග",
+        "ා",
+        "ත",
+        "න",
+        "ෙ",
+        "ං",
+        "fam-i-ghi",
+        "hal-rahena",
+        "hal-trap"
+      ],
+      "generated_drills": [
+        "ටගසගට ටතසතට ටනසනට",
+        "ගගටග තතටත නනටන",
+        "සි නු ට් ස් ප් ඩ් ඪ් ච් ය් ව් ග් ත් න් ටා",
+        "සා පා ඩා ඪා චා ටෙ සෙ පෙ ඩෙ ඪෙ චෙ"
+      ],
+      "new_count": 10,
+      "cumulative_count": 24,
+      "total": 110
+    },
+    {
+      "n": 4,
+      "name": "High-frequency completion",
+      "goal": "The stage that makes the font write Sinhala: ක ද උ අ ර ල, the hooks ැ ෑ, the vowel composites ආ ඇ ඈ and ේ ො ෝ ෛ, the irregular ර forms (රි ර් රැ), the first wave of atomic ි families (කි ගි දි ලි පි), and the special ු form (කු ගු තු) plus දු. Text coverage jumps to the majority of running Sinhala.\n",
+      "gate": "Full sentences set cleanly; frequency coverage measured against a corpus, not assumed.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "අද",
+          "අත",
+          "රට",
+          "රටේ",
+          "කරනවා",
+          "අපේ",
+          "ගෙදර",
+          "කියනවා",
+          "දැන්",
+          "අවුරුදු",
+          "අකුරු",
+          "කුරුල්ලා",
+          "ලංකාව",
+          "වතුර",
+          "දරුවා",
+          "පාසල",
+          "උදේ",
+          "කවදා",
+          "එදා",
+          "දිය",
+          "පොත",
+          "ලොකු",
+          "කැලේ"
+        ],
+        "sentences": [
+          "අද උදේ අපේ දරුවා පාසලට ගියා.",
+          "කිරි ටිකක් දෙන්න."
+        ]
+      },
+      "glyphs": [
+        "ක",
+        "ද",
+        "උ",
+        "අ",
+        "ර",
+        "ල",
+        "ැ",
+        "ෑ",
+        "ra-forms",
+        "ආ",
+        "ඇ",
+        "ඈ",
+        "ේ",
+        "ො",
+        "ෝ",
+        "ෛ",
+        "fam-i-ki",
+        "fam-i-gi",
+        "fam-i-di",
+        "fam-i-li",
+        "fam-i-pi",
+        "u-special",
+        "du-form"
+      ],
+      "generated_drills": [
+        "ටකනකට ටදනදට ටඋනඋට ටඅනඅට ටරනරට ටලනලට",
+        "කකටක දදටද උඋටඋ අඅටඅ රරටර ලලටල",
+        "පි ගි ති නි කි දි රි ලි ගු තු කු දු රු ලු",
+        "ක් ද් ර් ල් කා දා රා ලා ටැ සැ පැ ඩැ ඪැ චැ",
+        "ටෑ සෑ පෑ ඩෑ ඪෑ චෑ කෙ දෙ රෙ ලෙ ටේ සේ පේ ඩේ",
+        "ඪේ චේ ටො සො පො ඩො ඪො චො ටෝ සෝ පෝ ඩෝ ඪෝ චෝ",
+        "ටෛ සෛ පෛ ඩෛ ඪෛ චෛ"
+      ],
+      "new_count": 23,
+      "cumulative_count": 47,
+      "total": 110
+    },
+    {
+      "n": 5,
+      "name": "Loops, diagonals and long marks",
+      "goal": "The loop enters via ඔ (then ම), ණ combines arch + diagonal, ජ ඡ put the diagonal on the ප skeleton, ඉ ථ ඨ complete the medium shapes. Long marks ී ූ unlock the ී forms of every family designed so far, and the ja-shape ් alternate arrives on ජ්.\n",
+      "gate": "Loop counters match the counter model; ී ූ read as the long counterparts of frozen ි ු forms.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "මම",
+          "අම්මා",
+          "ඔය",
+          "ඉර",
+          "ජලය",
+          "සීනි",
+          "ඉතිං",
+          "මාමා",
+          "ණය",
+          "ගණන",
+          "මිල",
+          "ජාතික",
+          "ගාථා",
+          "කථාව",
+          "පීඨය",
+          "මොකද",
+          "ඡායා"
+        ],
+        "sentences": [
+          "අම්මා පොත කියවනවා.",
+          "ඉර පායනවා."
+        ]
+      },
+      "glyphs": [
+        "ඔ",
+        "ම",
+        "ණ",
+        "ඉ",
+        "ථ",
+        "ඨ",
+        "ජ",
+        "ඡ",
+        "ී",
+        "ූ",
+        "fam-i-ji",
+        "hal-ja"
+      ],
+      "generated_drills": [
+        "ටඔනඔට ටමනමට ටණනණට ටඉනඉට ටථනථට ටඨනඨට ටජනජට ටඡනඡට",
+        "ඔඔටඔ මමටම ණණටණ ඉඉටඉ ථථටථ ඨඨටඨ ජජටජ ඡඡටඡ",
+        "මි ණි ථි ඨි ජි ඡි ටී සී පී ඩී ඪී චී යී වී",
+        "ගී තී නී කී දී රී ලී මී ණී ථී ඨී ජී ඡී මු",
+        "ණු ථු ඨු ජු ඡු ටූ සූ පූ ඩූ ඪූ චූ යූ වූ ගූ",
+        "තූ නූ කූ දූ රූ ලූ මූ ණූ ථූ ඨූ ජූ ඡූ ම් ණ්",
+        "ථ් ඨ් ජ් ඡ් මා ණා ථා ඨා ජා ඡා මැ ණැ ථැ ඨැ",
+        "ජැ ඡැ මෑ ණෑ ථෑ ඨෑ ජෑ ඡෑ මෙ ණෙ ථෙ ඨෙ ජෙ ඡෙ",
+        "මේ ණේ ථේ ඨේ ජේ ඡේ මො ණො ථො ඨො ජො ඡො මෝ ණෝ",
+        "ථෝ ඨෝ ජෝ ඡෝ මෛ ණෛ ථෛ ඨෛ ජෛ ඡෛ"
+      ],
+      "new_count": 12,
+      "cumulative_count": 59,
+      "total": 110
+    },
+    {
+      "n": 6,
+      "name": "Aspirates and dense derivatives",
+      "goal": "Single-delta children of frozen skeletons: ධ බ ඛ on the bowl, ඕ ඹ on the loop, භ හ ශ ඝ ෂ on the arch/eye system, ළ ෆ ඵ ඒ ඊ ඌ completing their families. Spacing is pure inheritance; the density ceiling (ඝ ෂ ඹ) gets tested against the colour of Stage 1.\n",
+      "gate": "No spacing class needed retuning; dense glyphs hold the page colour.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "බත්",
+          "බස්",
+          "හතර",
+          "හරි",
+          "හිස",
+          "භාෂාව",
+          "ඔළුව",
+          "ඕනෑ",
+          "බඩු",
+          "ඝෝෂාව",
+          "ඵලය",
+          "ඒක",
+          "ඊයේ",
+          "ඌරා",
+          "ෆෝනය",
+          "ශබ්දය"
+        ],
+        "sentences": [
+          "ඊයේ හවස අපි බත් කෑවා."
+        ]
+      },
+      "glyphs": [
+        "ධ",
+        "බ",
+        "ඛ",
+        "ඕ",
+        "ඹ",
+        "භ",
+        "හ",
+        "ශ",
+        "ඝ",
+        "ෂ",
+        "ළ",
+        "ෆ",
+        "ඵ",
+        "ඒ",
+        "ඊ",
+        "ඌ",
+        "fam-i-bhi",
+        "llu-form"
+      ],
+      "generated_drills": [
+        "ටධනධට ටබනබට ටඛනඛට ටඹනඹට ටභනභට ටහනහට ටශනශට ටඝනඝට ටෂනෂට ටළනළට ටෆනෆට ටඵනඵට ටඊනඊට",
+        "ධධටධ බබටබ ඛඛටඛ ඹඹටඹ භභටභ හහටහ ශශටශ ඝඝටඝ ෂෂටෂ ළළටළ ෆෆටෆ ඵඵටඵ ඊඊටඊ",
+        "ධි බි ඛි ඹි භි හි ශි ඝි ෂි ළි ෆි ඵි ධී බී",
+        "ඛී ඹී භී හී ශී ඝී ෂී ළී ෆී ඵී ධු බු ඛු ඹු",
+        "භු හු ශු ඝු ෂු ළු ෆු ඵු ධූ බූ ඛූ ඹූ භූ හූ",
+        "ශූ ඝූ ෂූ ළූ ෆූ ඵූ ධ් බ් ඛ් ඹ් භ් හ් ශ් ඝ්",
+        "ෂ් ළ් ෆ් ඵ් ධා බා ඛා ඹා භා හා ධැ බැ ඛැ ඹැ",
+        "භැ හැ ධෑ බෑ ඛෑ ඹෑ භෑ හෑ ධෙ බෙ ඛෙ ඹෙ භෙ හෙ",
+        "ධේ බේ ඛේ ඹේ භේ හේ ධො බො ඛො ඹො භො හො ධෝ බෝ",
+        "ඛෝ ඹෝ භෝ හෝ ධෛ බෛ ඛෛ ඹෛ භෛ හෛ"
+      ],
+      "new_count": 18,
+      "cumulative_count": 77,
+      "total": 110
+    },
+    {
+      "n": 7,
+      "name": "The hang system",
+      "goal": "The hang element enters on ඳ and propagates: ඬ ඟ ඤ ඥ ඦ ඣ. The da_forms note applies — the bottoms of ද ඳ ඤ ඥ (and later න්‍ද) must stay consistent. Their ි families (ඳි, ඤ/ඥි) close the nasal set.\n",
+      "gate": "Hang depth identical across the set; da-form bottoms interchangeable.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "හොඳ",
+          "කඳ",
+          "හඳ",
+          "අඬනවා",
+          "ළඟ",
+          "ඉඟුරු",
+          "දඬුවම",
+          "ඥානය",
+          "සංඥාව",
+          "මඤ්ඤොක්කා",
+          "බණ්ඩාරවෙල"
+        ],
+        "sentences": [
+          "අද රෑ අහසේ හඳ හොඳට පේනවා."
+        ]
+      },
+      "glyphs": [
+        "ඳ",
+        "ඬ",
+        "ඟ",
+        "ඤ",
+        "ඥ",
+        "ඦ",
+        "ඣ",
+        "fam-i-ndi",
+        "fam-i-nyi"
+      ],
+      "generated_drills": [
+        "ටඳනඳට ටඬනඬට ටඟනඟට ටඤනඤට ටඥනඥට ටඦනඦට ටඣනඣට",
+        "ඳඳටඳ ඬඬටඬ ඟඟටඟ ඤඤටඤ ඥඥටඥ ඦඦටඦ ඣඣටඣ",
+        "ඳි ඬි ඟි ඤි ඥි ඦි ඣි ඳී ඬී ඟී ඤී ඥී ඦී ඣී",
+        "ඳු ඬු ඟු ඤු ඥු ඦු ඣු ඳූ ඬූ ඟූ ඤූ ඥූ ඦූ ඣූ",
+        "ඳ් ඬ් ඟ් ඤ් ඥ් ඦ් ඣ් ඳා ඬා ඟා ඤා ඥා ඦා ඳැ",
+        "ඬැ ඟැ ඤැ ඥැ ඦැ ඳෑ ඬෑ ඟෑ ඤෑ ඥෑ ඦෑ ඳෙ ඬෙ ඟෙ",
+        "ඤෙ ඥෙ ඦෙ ඳේ ඬේ ඟේ ඤේ ඥේ ඦේ ඳො ඬො ඟො ඤො ඥො",
+        "ඦො ඳෝ ඬෝ ඟෝ ඤෝ ඥෝ ඦෝ ඳෛ ඬෛ ඟෛ ඤෛ ඥෛ ඦෛ"
+      ],
+      "new_count": 9,
+      "cumulative_count": 86,
+      "total": 110
+    },
+    {
+      "n": 8,
+      "name": "Completion sweep",
+      "goal": "Close the base × mark matrix before conjuncts: the body-mark tail (ෘ ෲ ෟ ෳ and the composite ෞ), the systematic ් sweep across every base (kodiya / rahena / trap / ja form per assignment), and completion of every ි/ී family member whose host arrived after the family was frozen. Full-grid QA in the glyph chart tool is the gate.\n",
+      "gate": "Every cell of the sinhala-glyph-chart base grid renders correctly or is a documented exception.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "කෘතිය",
+          "පෘථිවිය",
+          "ගෞරවය",
+          "ගෞතම"
+        ],
+        "sentences": [
+          "මේ කෘතිය ඉතා වටිනවා."
+        ]
+      },
+      "glyphs": [
+        "ෘ",
+        "ෲ",
+        "ෟ",
+        "ෳ",
+        "ෞ",
+        "completion-sweep",
+        "hal-sweep"
+      ],
+      "generated_drills": [
+        "ටෘ සෘ පෘ ඩෘ ඪෘ චෘ ටෲ සෲ පෲ ඩෲ ඪෲ චෲ ටෟ සෟ",
+        "පෟ ඩෟ ඪෟ චෟ ටෳ සෳ පෳ ඩෳ ඪෳ චෳ ටෞ සෞ පෞ ඩෞ",
+        "ඪෞ චෞ"
+      ],
+      "new_count": 7,
+      "cumulative_count": 93,
+      "total": 110
+    },
+    {
+      "n": 9,
+      "name": "Conjunct layer",
+      "goal": "The ZWJ layer: rakaransaya ්‍ර (with its exception list), yansaya ්‍ය, repaya ර්‍, the ක්‍ෂ ligature, the classic conjuncts (න්‍ද ත්‍ථ න්‍ථ ට්‍ඨ ද්‍ර), touching clusters, and the conjunct ි/ී forms (ක්‍රී ශ්‍රී ද්‍රි න්‍දි — the ග්‍රි group of the shape taxonomy). Per-glyph atomic-vs-GPOS decisions are recorded here.\n",
+      "gate": "Shaping-engine tests pass (sinh/sin2); every conjunct either drawn, composed, or a documented exclusion.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "ශ්‍රී",
+          "ක්‍රමය",
+          "විද්‍යාව",
+          "ප්‍රශ්නය",
+          "ධර්‍මය",
+          "සත්‍ය",
+          "චන්ද්‍රයා",
+          "ක්‍ෂණික"
+        ],
+        "sentences": [
+          "ශ්‍රී ලංකාවේ ක්‍රිකට් ක්‍රීඩාව ඉතා ප්‍රසිද්ධයි."
+        ]
+      },
+      "glyphs": [
+        "rakaransaya",
+        "yansaya",
+        "repaya",
+        "ksha",
+        "classic-conjuncts",
+        "touching-clusters",
+        "conjunct-i-forms"
+      ],
+      "generated_drills": [],
+      "new_count": 7,
+      "cumulative_count": 100,
+      "total": 110
+    },
+    {
+      "n": 10,
+      "name": "Long tail and polish",
+      "goal": "The archaic and rare set (ඍ ඎ ඏ ඐ ඞ ඓ ඖ ඃ), kunddaliya ෴, punctuation and numeral policy, then the kerning pass across spacing-class representatives. Weight/width derivatives replay this same graph from Stage 0.\n",
+      "gate": "Level target inventories (glyphsets/*.yaml) fully covered for the shipping level.",
+      "teststrings": {
+        "drills": [],
+        "words": [
+          "ඍතුව",
+          "ඓතිහාසික",
+          "ඖෂධ"
+        ],
+        "sentences": [
+          "ඓතිහාසික ඖෂධ ගැන ඍජු තොරතුරු."
+        ]
+      },
+      "glyphs": [
+        "ඍ",
+        "ඎ",
+        "ඏ",
+        "ඐ",
+        "ඞ",
+        "ඓ",
+        "ඖ",
+        "ඃ",
+        "෴",
+        "kerning-pass"
+      ],
+      "generated_drills": [
+        "ටඍනඍට ටඎනඎට ටඏනඏට ටඐනඐට ටඞනඞට ටඓනඓට ටඖනඖට",
+        "ඍඍටඍ ඎඎටඎ ඏඏටඏ ඐඐටඐ ඞඞටඞ ඓඓටඓ ඖඖටඖ",
+        "ඞි ඞී ඞු ඞූ ඞ් ඞා ඞැ ඞෑ ඞෙ ඞේ ඞො ඞෝ ඞෛ ඞෘ",
+        "ඞෲ ඞෟ ඞෳ ඞෞ"
+      ],
+      "new_count": 10,
+      "cumulative_count": 110,
+      "total": 110
+    }
+  ],
+  "glyphs": {
+    "ට": {
+      "type": "base",
+      "codepoint": "0DA7",
+      "translit": "ṭa",
+      "stage": 1,
+      "order": 1,
+      "parents": [],
+      "skeleton": "bowl",
+      "elements": [],
+      "requires": [
+        "base_height",
+        "stroke",
+        "counter",
+        "spacing_unit",
+        "overshoot"
+      ],
+      "spacing": {
+        "left": "L-tta",
+        "right": "R-bowl"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "The control glyph. A single open bowl on the baseline: one continuous stroke, aperture per the counter model. Everything in the font is calibrated against this drawing. Note: ට's apex ascends above the general body area — it is deliberately taller than the base-height band, which ස (next) decides.\n",
+        "checks": [
+          "Counter reads open at text size; overshoot symmetric top/bottom.",
+          "Sidebearings define the spacing unit for L-tta and R-bowl."
+        ]
+      }
+    },
+    "ස": {
+      "type": "base",
+      "codepoint": "0DC3",
+      "translit": "sa",
+      "stage": 1,
+      "order": 2,
+      "parents": [
+        "ට"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "eye_line"
+      ],
+      "requires": [
+        "base_height"
+      ],
+      "spacing": {
+        "left": "L-e",
+        "right": "R-pa"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The body-deciding glyph, drawn immediately after ට: eye-line entry into a doubled body — the widest simple glyph and the first density problem. Its body top fixes base height (in multi-script projects tuned near the Latin x-height — similar, never 100% matching), while ට's apex ascends above it. Introduces the eye_line element, the L-e entry class and the R-pa terminal that ප ය ඝ ෂ inherit.\n",
+        "checks": [
+          "Base height locked on ස's body top; in a Latin companion, cross-check against the x-height (close, not equal).",
+          "Even colour beside ට at text size; L-e and R-pa sidebearings set."
+        ]
+      }
+    },
+    "ප": {
+      "type": "base",
+      "codepoint": "0DB4",
+      "translit": "pa",
+      "stage": 1,
+      "order": 3,
+      "parents": [
+        "ට",
+        "ස"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [],
+      "requires": [
+        "base_height"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-pa"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "Two joined bowls sitting on the base height ස decided — the flat double-bowl top lands exactly on the body band. Introduces the double_bowl skeleton and the L-pa entry that අ උ ද ව හ inherit; the right terminal inherits R-pa from ස.\n",
+        "checks": [
+          "Top of ප sits exactly on base height; two counters read even.",
+          "L-pa sidebearing set; width believable next to ස."
+        ]
+      }
+    },
+    "ඩ": {
+      "type": "base",
+      "codepoint": "0DA9",
+      "translit": "ḍa",
+      "stage": 1,
+      "order": 4,
+      "parents": [
+        "ට",
+        "ස"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "eye_line",
+        "tail"
+      ],
+      "requires": [
+        "tail_depth"
+      ],
+      "spacing": {
+        "left": "L-e",
+        "right": "R-bowl"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ට reworked with ස's eye-line left entry, plus the knotted tail below the baseline. Introduces the tail element and commits tail_depth.\n",
+        "checks": [
+          "Tail knot (grantika) doesn't clog at small sizes.",
+          "Left entry matches the L-e rhythm set by ස."
+        ]
+      }
+    },
+    "ඪ": {
+      "type": "base",
+      "codepoint": "0DAA",
+      "translit": "ḍha",
+      "stage": 1,
+      "order": 5,
+      "parents": [
+        "ඩ"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "trap"
+      ],
+      "spacing": {
+        "left": "L-e",
+        "right": "R-trap"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "ඩ plus the trap closure on the right; its right side must land in the ඨ ථ එ ඵ terminal family (R-trap), which it introduces.\n",
+        "checks": [
+          "Trap counter vs bowl counter balance; R-trap sidebearing set."
+        ]
+      }
+    },
+    "ි": {
+      "type": "mark",
+      "codepoint": "0DD2",
+      "translit": "i (ketti is-pilla)",
+      "position": "above",
+      "stage": 1,
+      "order": 6,
+      "parents": [],
+      "requires": [
+        "mark_height"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The above-join convention, first typographic form only — the form that rides the bowl tops (ට ච ඩ class). Which of the 3+ forms this is must be stated in the project spec. Commits mark_height.\n",
+        "checks": [
+          "Clearance over base height; loop legible at small sizes."
+        ]
+      }
+    },
+    "fam-i-tti": {
+      "type": "form-family",
+      "display": "ටි ඩි (ටී චී ඩී)",
+      "mark": "ි",
+      "hosts": [
+        "ට",
+        "ච",
+        "ඩ"
+      ],
+      "stage": 1,
+      "order": 7,
+      "parents": [
+        "ට",
+        "ඩ",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "Atomic ි over the open-bowl hosts; introduced on ඩි. ච joins in Stage 2, the ී long forms (ටී චී ඩී) in Stage 5.\n",
+        "checks": [
+          "ඩි join reads as one drawn glyph, not a collision."
+        ]
+      }
+    },
+    "fam-i-tthi": {
+      "type": "form-family",
+      "display": "ඪි (ඨි ථි ඵි …)",
+      "mark": "ි",
+      "hosts": [
+        "ඨ",
+        "ඪ",
+        "ථ",
+        "ඵ"
+      ],
+      "stage": 1,
+      "order": 8,
+      "parents": [
+        "ඪ",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "Atomic ි over the trap-topped hosts; introduced on ඪි. Remaining hosts (ඨ ථ ඵ) complete in Stages 5–6; conjunct hosts (ට්‍ඨ ත්‍ථ න්‍ථ) in Stage 9.\n",
+        "checks": [
+          "The ි loop negotiates the open trap without closing it."
+        ]
+      }
+    },
+    "ු": {
+      "type": "mark",
+      "codepoint": "0DD4",
+      "translit": "u (ketti paa-pilla)",
+      "position": "below",
+      "stage": 1,
+      "order": 9,
+      "parents": [],
+      "requires": [
+        "mark_depth"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The regular below-join, tested on සු. Commits mark_depth — a shallower zone than tail_depth; the two must be decided together.\n",
+        "checks": [
+          "සු and ටු sit at identical depth; no collision with ඩ-type tails in setting."
+        ]
+      }
+    },
+    "ච": {
+      "type": "base",
+      "codepoint": "0DA0",
+      "translit": "ca",
+      "stage": 2,
+      "order": 1,
+      "parents": [
+        "ට",
+        "ඩ"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "eye_line"
+      ],
+      "spacing": {
+        "left": "L-e",
+        "right": "R-bowl"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ට's bowl with ඩ's eye-line entry; no tail. Pure recombination.",
+        "checks": [
+          "Indistinguishable rhythm from ට in a drill line."
+        ]
+      }
+    },
+    "එ": {
+      "type": "vowel",
+      "codepoint": "0D91",
+      "translit": "e",
+      "stage": 2,
+      "order": 2,
+      "parents": [
+        "ඪ"
+      ],
+      "skeleton": "trap_body",
+      "elements": [
+        "eye_line",
+        "trap"
+      ],
+      "spacing": {
+        "left": "L-e",
+        "right": "R-trap"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The trap body standing alone — the archetype refined from its first appearance on ඪ. Skeleton for ඒ ඨ ඵ later.\n",
+        "checks": [
+          "Reads as a stable independent letter, not a fragment of ඪ."
+        ]
+      }
+    },
+    "ය": {
+      "type": "base",
+      "codepoint": "0DBA",
+      "translit": "ya",
+      "stage": 2,
+      "order": 3,
+      "parents": [
+        "ප"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [
+        "fork"
+      ],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-pa"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "ප plus the internal fork; introduces the L-ja entry class (ජ ර ල ළ ෆ … inherit).",
+        "checks": [
+          "Fork doesn't darken the middle; L-ja sidebearing set."
+        ]
+      }
+    },
+    "ව": {
+      "type": "base",
+      "codepoint": "0DC0",
+      "translit": "va",
+      "stage": 2,
+      "order": 4,
+      "parents": [
+        "ට",
+        "ඪ"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "trap"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-bowl"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "Bowl with the trap element on the right; inherits everything.",
+        "checks": [
+          "Distinct from ච ට at a glance in the drill string."
+        ]
+      }
+    },
+    "fam-i-term": {
+      "type": "form-family",
+      "display": "යි වි (මි බි ණි …)",
+      "mark": "ි",
+      "hosts": [
+        "ය",
+        "ව",
+        "ම",
+        "බ",
+        "ඛ",
+        "ධ",
+        "ණ",
+        "ඹ",
+        "ඬ",
+        "ඣ",
+        "ඞ"
+      ],
+      "stage": 2,
+      "order": 5,
+      "parents": [
+        "ය",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The top-terminal wrap ි — for bases whose top terminal forces the loop to wrap around it (the same top-terminal logic as the rahena ්). Noto Sans Sinhala fuses every one of these as a single ligature glyph (yI-sinh, mI-sinh …). Introduced on යි; later hosts inherit as they arrive.\n",
+        "checks": [
+          "Wrap negotiates each terminal without closing its counter."
+        ]
+      }
+    },
+    "්": {
+      "type": "mark",
+      "codepoint": "0DCA",
+      "translit": "virama (al-lakuna / hal kirima)",
+      "position": "above",
+      "stage": 3,
+      "order": 1,
+      "parents": [],
+      "requires": [
+        "mark_height"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The default KODIYA flag form (as on ක්). Three sibling decisions follow: the rahena wrap (hal-rahena), the trap-top alternate (hal-trap) and the ja-shape alternate (hal-ja).\n",
+        "checks": [
+          "Flag clears mark_height; legible after narrow and wide bases (ක් vs ස්)."
+        ]
+      }
+    },
+    "ග": {
+      "type": "base",
+      "codepoint": "0D9C",
+      "translit": "ga",
+      "stage": 3,
+      "order": 2,
+      "parents": [],
+      "skeleton": "arch",
+      "elements": [],
+      "spacing": {
+        "left": "L-ga",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The naked arch — introduces the skeleton and BOTH spacing classes of the script's largest family. The right terminal here is the exact model for ා.\n",
+        "checks": [
+          "R-arch terminal frozen; this stroke ending is now law for 13 glyphs and 3 marks."
+        ]
+      }
+    },
+    "ා": {
+      "type": "mark",
+      "codepoint": "0DCF",
+      "translit": "aa (aela-pilla)",
+      "position": "body",
+      "stage": 3,
+      "order": 3,
+      "parents": [
+        "ග"
+      ],
+      "spacing": {
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "Designed WITH ග: the same right terminal, standing as a spacing mark.",
+        "checks": [
+          "In ගා the two terminals are twins; spacing identical to R-arch."
+        ]
+      }
+    },
+    "ත": {
+      "type": "base",
+      "codepoint": "0DAD",
+      "translit": "ta",
+      "stage": 3,
+      "order": 4,
+      "parents": [
+        "ග"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "eye_ka"
+      ],
+      "spacing": {
+        "left": "L-ka",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "ග plus the closed ka-eye; introduces eye_ka and the L-ka entry.",
+        "checks": [
+          "Eye aperture per counter model; eye joint (akshi dhāraka sandi) clean."
+        ]
+      }
+    },
+    "න": {
+      "type": "base",
+      "codepoint": "0DB1",
+      "translit": "na",
+      "stage": 3,
+      "order": 5,
+      "parents": [
+        "ත"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "eye_ka"
+      ],
+      "spacing": {
+        "left": "L-ka",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "ත's construction with the mid-form variation; pure sibling.",
+        "checks": [
+          "ත/න contrast unambiguous at text size."
+        ]
+      }
+    },
+    "ෙ": {
+      "type": "mark",
+      "codepoint": "0DD9",
+      "translit": "e (kombuwa)",
+      "position": "body",
+      "stage": 3,
+      "order": 6,
+      "parents": [
+        "ග"
+      ],
+      "spacing": {
+        "left": "L-ga"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The pre-base spacing mark; its left profile belongs to the L-ga class (source groups ෙ with ග ඟ ඤ ඥ …), so it follows ග.\n",
+        "checks": [
+          "ෙ + base spacing consistent across L classes; never collides with L-e entries."
+        ]
+      }
+    },
+    "ං": {
+      "type": "sign",
+      "codepoint": "0D82",
+      "translit": "anusvaraya (binduva)",
+      "stage": 3,
+      "order": 7,
+      "parents": [],
+      "requires": [
+        "counter"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "A filled/open dot at base height — trivial, very frequent, and needed for real words (ගං, සං-).",
+        "checks": [
+          "Optically round; weight matches stroke, not geometry."
+        ]
+      }
+    },
+    "fam-i-ghi": {
+      "type": "form-family",
+      "display": "සි (ඝි)",
+      "mark": "ි",
+      "hosts": [
+        "ඝ",
+        "ස"
+      ],
+      "stage": 3,
+      "order": 8,
+      "parents": [
+        "ස",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The ඝි-family convention introduced by its first DESIGNED member — සි (the family key ඝ only arrives in Stage 6 and inherits). Demonstrates the representative-introduces-family principle.\n",
+        "checks": [
+          "සි reads as one glyph; convention transferable to ඝ later."
+        ]
+      }
+    },
+    "hal-rahena": {
+      "type": "form-family",
+      "display": "ට් ඩ් (ම් බ් …)",
+      "mark": "්",
+      "hosts": [
+        "ට",
+        "ඩ",
+        "ඬ",
+        "ච",
+        "ධ",
+        "ඛ",
+        "බ",
+        "ම",
+        "ඹ",
+        "ව",
+        "ඣ",
+        "ඞ"
+      ],
+      "stage": 3,
+      "order": 9,
+      "parents": [
+        "්",
+        "ට"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The RAHENA ් form: on bases with a TOP TERMINAL the kodiya flag cannot land, so ් wraps the terminal and the pair fuses into one glyph (Noto: tt-sinh, m-sinh …). Introduced on ට්. ර් belongs to ra-forms, not here. ඔ ඕ share the top terminal visually but, being independent vowels, never take ්.\n",
+        "checks": [
+          "One wrap convention across all hosts; kodiya/rahena assignment table complete."
+        ]
+      }
+    },
+    "hal-trap": {
+      "type": "form-family",
+      "display": "ඪ් (ඨ් ථ් ඵ්)",
+      "mark": "්",
+      "hosts": [
+        "ඨ",
+        "ඪ",
+        "ථ",
+        "ඵ"
+      ],
+      "stage": 3,
+      "order": 10,
+      "parents": [
+        "්",
+        "ඪ"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The ් alternate over trap-topped bases (Noto virama.alt1 over its pha-shape class) — the flag must clear the open trap. Introduced on ඪ්; ඨ ථ ඵ inherit in Stages 5–6.\n",
+        "checks": [
+          "Flag clears the trap without closing it; distinct from kodiya at text size."
+        ]
+      }
+    },
+    "ක": {
+      "type": "base",
+      "codepoint": "0D9A",
+      "translit": "ka",
+      "stage": 4,
+      "order": 1,
+      "parents": [
+        "ත"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "eye_ka"
+      ],
+      "spacing": {
+        "left": "L-ka",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The eye variant of ත — the same skeleton with the doubled-eye construction.",
+        "checks": [
+          "ක ත න form a rhythm family in a drill line."
+        ]
+      }
+    },
+    "ද": {
+      "type": "base",
+      "codepoint": "0DAF",
+      "translit": "da",
+      "stage": 4,
+      "order": 2,
+      "parents": [],
+      "skeleton": "u_bottom",
+      "elements": [],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "Introduces the u_bottom skeleton and the R-u terminal (උ ඤ ඥ ඳ ැ ෑ inherit). The da-form bottom must stay consistent across ද ඳ ඤ ඥ න්‍ද (da_forms note in the shape taxonomy).\n",
+        "checks": [
+          "R-u terminal frozen; bottom curve reusable verbatim in ඳ."
+        ]
+      }
+    },
+    "උ": {
+      "type": "vowel",
+      "codepoint": "0D8B",
+      "translit": "u",
+      "stage": 4,
+      "order": 3,
+      "parents": [
+        "ද"
+      ],
+      "skeleton": "u_bottom",
+      "elements": [],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The u_bottom standing alone with its opening stroke.",
+        "checks": [
+          "Sibling contrast with ද clear at small sizes."
+        ]
+      }
+    },
+    "අ": {
+      "type": "vowel",
+      "codepoint": "0D85",
+      "translit": "a",
+      "stage": 4,
+      "order": 4,
+      "parents": [
+        "උ"
+      ],
+      "skeleton": "u_bottom",
+      "elements": [],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-a"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The complex member of the උ group; introduces the R-a terminal (ල ළ inherit). The most frequent letter in the language — worth a disproportionate share of stage time.\n",
+        "checks": [
+          "Reads instantly as අ; R-a sidebearing set."
+        ]
+      }
+    },
+    "ර": {
+      "type": "base",
+      "codepoint": "0DBB",
+      "translit": "ra",
+      "stage": 4,
+      "order": 5,
+      "parents": [],
+      "skeleton": "diagonal",
+      "elements": [
+        "diagonal"
+      ],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-diag"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "Introduces the diagonal skeleton/element. ර is deliberately early: it is top-five frequency, and the whole Stage 9 conjunct layer (rakaransaya, repaya) plus five irregular combined forms hang off it.\n",
+        "checks": [
+          "Diagonal angle recorded as a system constant; R-diag set."
+        ]
+      }
+    },
+    "ල": {
+      "type": "base",
+      "codepoint": "0DBD",
+      "translit": "la",
+      "stage": 4,
+      "order": 6,
+      "parents": [
+        "ය"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-a"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "L-ja entry (from ය) into the R-a terminal (from අ); everything inherited.",
+        "checks": [
+          "ල අ terminals interchangeable."
+        ]
+      }
+    },
+    "ැ": {
+      "type": "mark",
+      "codepoint": "0DD0",
+      "translit": "ae (ketti aeda-pilla)",
+      "position": "body",
+      "stage": 4,
+      "order": 7,
+      "parents": [
+        "ද"
+      ],
+      "requires": [
+        "hook_depth"
+      ],
+      "spacing": {
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The below-baseline hook; commits hook_depth. Its right profile belongs to the R-u class (source groups ැ ෑ with උ ද ඳ), hence parent ද.\n",
+        "checks": [
+          "Depth distinct from tail_depth and mark_depth; no collision in ගැ දැ."
+        ]
+      }
+    },
+    "ෑ": {
+      "type": "mark",
+      "codepoint": "0DD1",
+      "translit": "aae (diga aeda-pilla)",
+      "position": "body",
+      "stage": 4,
+      "order": 8,
+      "parents": [
+        "ැ"
+      ],
+      "spacing": {
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ැ plus the length stroke; pure derivative.",
+        "checks": [
+          "ැ/ෑ contrast survives small sizes."
+        ]
+      }
+    },
+    "ra-forms": {
+      "type": "form-family",
+      "display": "රි ර් රැ (රී රූ)",
+      "mark": "ි",
+      "hosts": [
+        "ර"
+      ],
+      "stage": 4,
+      "order": 9,
+      "parents": [
+        "ර",
+        "ි",
+        "ැ",
+        "්"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The irregular ර system: රි ර් රැ are unique drawn forms, not mark attachments (the shape taxonomy gives ර-forms their own group). රී රූ complete in Stage 5 when ී ූ exist. Noto goes as far as REUSING the ැ glyph for රු (ra + u-sign is substituted by the aela-pilla-style hook) — evidence of how fused this system is.\n",
+        "checks": [
+          "Each form clearly a member of the ර family; none reads as base+mark."
+        ]
+      }
+    },
+    "ආ": {
+      "type": "composite",
+      "codepoint": "0D86",
+      "translit": "aa",
+      "stage": 4,
+      "order": 10,
+      "parents": [
+        "අ",
+        "ා"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "අ + the ා terminal, drawn as one letter. Near-zero cost.",
+        "checks": [
+          "Join point invisible; spacing = අ left, ා right."
+        ]
+      }
+    },
+    "ඇ": {
+      "type": "composite",
+      "codepoint": "0D87",
+      "translit": "ae",
+      "stage": 4,
+      "order": 11,
+      "parents": [
+        "අ",
+        "ැ"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "අ + the ැ hook integrated at the terminal.",
+        "checks": [
+          "Hook depth identical to standalone ැ."
+        ]
+      }
+    },
+    "ඈ": {
+      "type": "composite",
+      "codepoint": "0D88",
+      "translit": "aae",
+      "stage": 4,
+      "order": 12,
+      "parents": [
+        "ඇ"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ඇ + length stroke, exactly as ෑ derives from ැ.",
+        "checks": [
+          "Consistent with ෑ."
+        ]
+      }
+    },
+    "ේ": {
+      "type": "composite",
+      "codepoint": "0DDA",
+      "translit": "ee (kombuwa + al-lakuna)",
+      "position": "body",
+      "stage": 4,
+      "order": 13,
+      "parents": [
+        "ෙ",
+        "්"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "Canonical assembly ෙ + ් (U+0DDA decomposes to 0DD9 0DCA). Composite or reference, per project policy.",
+        "checks": [
+          "Flag position identical to base+් cases."
+        ]
+      }
+    },
+    "ො": {
+      "type": "composite",
+      "codepoint": "0DDC",
+      "translit": "o (kombuwa + aela-pilla)",
+      "position": "body",
+      "stage": 4,
+      "order": 14,
+      "parents": [
+        "ෙ",
+        "ා"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "Assembly ෙ + base + ා (U+0DDC = 0DD9 0DCF).",
+        "checks": [
+          "Both halves keep their class spacing around any base."
+        ]
+      }
+    },
+    "ෝ": {
+      "type": "composite",
+      "codepoint": "0DDD",
+      "translit": "oo",
+      "position": "body",
+      "stage": 4,
+      "order": 15,
+      "parents": [
+        "ො",
+        "්"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "ො + ් (U+0DDD = 0DDC 0DCA).",
+        "checks": [
+          "Consistent with ේ flag."
+        ]
+      }
+    },
+    "ෛ": {
+      "type": "composite",
+      "codepoint": "0DDB",
+      "translit": "ai (kombu deka)",
+      "position": "body",
+      "stage": 4,
+      "order": 16,
+      "parents": [
+        "ෙ"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "Two kombuwa; rhythm between the pair is the only new decision.",
+        "checks": [
+          "Pair gap tighter than letter-space, looser than stroke gap."
+        ]
+      }
+    },
+    "fam-i-ki": {
+      "type": "form-family",
+      "display": "කි ති නි (කී තී නී)",
+      "mark": "ි",
+      "hosts": [
+        "ක",
+        "ත",
+        "න"
+      ],
+      "stage": 4,
+      "order": 17,
+      "parents": [
+        "ක",
+        "ත",
+        "න",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The arch-eye ි convention, archetype කි. The ී forms complete in Stage 5.",
+        "checks": [
+          "One convention fits all three eyes without per-glyph fudging."
+        ]
+      }
+    },
+    "fam-i-gi": {
+      "type": "form-family",
+      "display": "ගි (ඟි ශි ෆි …)",
+      "mark": "ි",
+      "hosts": [
+        "ග",
+        "ඟ",
+        "ශ",
+        "ෆ"
+      ],
+      "stage": 4,
+      "order": 18,
+      "parents": [
+        "ග",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The naked-arch ි convention introduced on ගි; ඟ ශ ෆ inherit in Stages 6–7.",
+        "checks": [
+          "Distinct from fam-i-ki at a glance (eye vs no eye)."
+        ]
+      }
+    },
+    "fam-i-di": {
+      "type": "form-family",
+      "display": "දි (දී ද්‍රි ද්‍රී)",
+      "mark": "ි",
+      "hosts": [
+        "ද"
+      ],
+      "stage": 4,
+      "order": 19,
+      "parents": [
+        "ද",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The ද ි convention; conjunct hosts (ද්‍රි) join in Stage 9.",
+        "checks": [
+          "දි loop respects the u_bottom counter."
+        ]
+      }
+    },
+    "fam-i-li": {
+      "type": "form-family",
+      "display": "ලි (ළි ලී ළී)",
+      "mark": "ි",
+      "hosts": [
+        "ල",
+        "ළ"
+      ],
+      "stage": 4,
+      "order": 20,
+      "parents": [
+        "ල",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "Introduced on ලි; ළ inherits in Stage 6.",
+        "checks": [
+          "Convention holds over both the ල and ළ terminals."
+        ]
+      }
+    },
+    "fam-i-pi": {
+      "type": "form-family",
+      "display": "පි (පී ෂි ක්‍ෂි)",
+      "mark": "ි",
+      "hosts": [
+        "ප",
+        "ෂ"
+      ],
+      "stage": 4,
+      "order": 21,
+      "parents": [
+        "ප",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "Introduced on පි. NOTE: the source table for this family is marked unclear (rows repeat, no clean i/ii split) — verify membership.\n",
+        "checks": [
+          "පි join clean over the double bowl."
+        ]
+      }
+    },
+    "u-special": {
+      "type": "form-family",
+      "display": "කු ගු තු (භු ශු ඟු)",
+      "mark": "ු",
+      "hosts": [
+        "ක",
+        "ග",
+        "ත",
+        "භ",
+        "ශ",
+        "ඟ"
+      ],
+      "stage": 4,
+      "order": 22,
+      "parents": [
+        "ක",
+        "ග",
+        "ත",
+        "ු"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The SECOND typographic form of ු — the right-joined form on arch-family terminals. Introduced on කු; භ ශ ඟ inherit in Stages 6–7. ළු is NOT a member: it is an irregular fused form of its own (entry llu-form).\n",
+        "checks": [
+          "කු reads as one glyph; join point identical across hosts."
+        ]
+      }
+    },
+    "du-form": {
+      "type": "form-family",
+      "display": "දු (දූ)",
+      "mark": "ු",
+      "hosts": [
+        "ද"
+      ],
+      "stage": 4,
+      "order": 23,
+      "parents": [
+        "ද",
+        "ු"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "Irregular: ු fuses into ද's bowl. The shape taxonomy files දු beside ක්‍රී ශ්‍රී (the ග්‍රි group) — an oddity flagged in `gaps`; treated here as its own one-host family.\n",
+        "checks": [
+          "දු/du contrast with ඳ and ඳු unambiguous."
+        ]
+      }
+    },
+    "ඔ": {
+      "type": "vowel",
+      "codepoint": "0D94",
+      "translit": "o",
+      "stage": 5,
+      "order": 1,
+      "parents": [
+        "ට"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "loop"
+      ],
+      "spacing": {
+        "left": "L-o",
+        "right": "R-round"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "Introduces the loop (pāsha) on the bowl; opens BOTH round spacing classes.",
+        "checks": [
+          "Loop counter per counter model; L-o/R-round sidebearings set."
+        ]
+      }
+    },
+    "ම": {
+      "type": "base",
+      "codepoint": "0DB8",
+      "translit": "ma",
+      "stage": 5,
+      "order": 2,
+      "parents": [
+        "ඔ"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "loop"
+      ],
+      "spacing": {
+        "left": "L-o",
+        "right": "R-round"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The loop in body position — ඔ's decision applied mid-letter.",
+        "checks": [
+          "ම ඔ loop sizes consistent."
+        ]
+      }
+    },
+    "ණ": {
+      "type": "base",
+      "codepoint": "0DAB",
+      "translit": "ṇa",
+      "stage": 5,
+      "order": 3,
+      "parents": [
+        "න",
+        "ර"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "diagonal"
+      ],
+      "spacing": {
+        "left": "L-ka",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "Arch construction (න) carrying the diagonal (ර) — the first cross-family recombination.",
+        "checks": [
+          "Diagonal angle matches the ර constant."
+        ]
+      }
+    },
+    "ඉ": {
+      "type": "vowel",
+      "codepoint": "0D89",
+      "translit": "i",
+      "stage": 5,
+      "order": 4,
+      "parents": [
+        "ප"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "High-density curled form on the ප skeleton; right terminal joins R-arch.",
+        "checks": [
+          "Density holds colour beside low-density neighbours (ට ර)."
+        ]
+      }
+    },
+    "ථ": {
+      "type": "base",
+      "codepoint": "0DAE",
+      "translit": "tha",
+      "stage": 5,
+      "order": 5,
+      "parents": [
+        "එ"
+      ],
+      "skeleton": "trap_body",
+      "elements": [
+        "trap"
+      ],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-trap"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "Trap body with the L-ja entry; completes ඨි-family host ථි immediately.",
+        "checks": [
+          "R-trap inheritance exact."
+        ]
+      }
+    },
+    "ඨ": {
+      "type": "base",
+      "codepoint": "0DA8",
+      "translit": "ṭha",
+      "stage": 5,
+      "order": 6,
+      "parents": [
+        "ඪ"
+      ],
+      "skeleton": "trap_body",
+      "elements": [
+        "trap"
+      ],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-trap"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "ඪ without the tail, on the trap body; ඨි completes.",
+        "checks": [
+          "Sibling logic ඨ/ඪ mirrors ට/ඩ."
+        ]
+      }
+    },
+    "ජ": {
+      "type": "base",
+      "codepoint": "0DA2",
+      "translit": "ja",
+      "stage": 5,
+      "order": 7,
+      "parents": [
+        "ප",
+        "ර"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [
+        "diagonal"
+      ],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-diag"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "The diagonal applied to the ප skeleton; right side joins ර's R-diag class.",
+        "checks": [
+          "Diagonal constant respected."
+        ]
+      }
+    },
+    "ඡ": {
+      "type": "base",
+      "codepoint": "0DA1",
+      "translit": "cha",
+      "stage": 5,
+      "order": 8,
+      "parents": [
+        "ජ"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [
+        "diagonal"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-trap"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "ජ's construction with the closed/trap right; single delta.",
+        "checks": [
+          "Reads apart from ජ at text size."
+        ]
+      }
+    },
+    "ී": {
+      "type": "mark",
+      "codepoint": "0DD3",
+      "translit": "ii (diga is-pilla)",
+      "position": "above",
+      "stage": 5,
+      "order": 9,
+      "parents": [
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The long counterpart of ි. Unlocks the ී member of EVERY family frozen so far (කී තී නී ගී සී ටී ඩී රී …) — a sweep, not new decisions.\n",
+        "checks": [
+          "ි/ී contrast systematic across all families."
+        ]
+      }
+    },
+    "ූ": {
+      "type": "mark",
+      "codepoint": "0DD6",
+      "translit": "uu (diga paa-pilla)",
+      "position": "below",
+      "stage": 5,
+      "order": 10,
+      "parents": [
+        "ු"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "Long ු; same depth, added length stroke. Unlocks කූ ගූ රූ දූ sweeps.",
+        "checks": [
+          "Depth identical to ු."
+        ]
+      }
+    },
+    "fam-i-ji": {
+      "type": "form-family",
+      "display": "ජි ඡි (ජී ඡී ඦි)",
+      "mark": "ි",
+      "hosts": [
+        "ජ",
+        "ඡ",
+        "ඦ"
+      ],
+      "stage": 5,
+      "order": 11,
+      "parents": [
+        "ජ",
+        "ඡ",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The diagonal-host ි convention; ඦ inherits in Stage 7.",
+        "checks": [
+          "Loop clears the diagonal apex."
+        ]
+      }
+    },
+    "hal-ja": {
+      "type": "form-family",
+      "display": "ජ් (ඡ් ඦ්)",
+      "mark": "්",
+      "hosts": [
+        "ඡ",
+        "ජ",
+        "ඦ"
+      ],
+      "stage": 5,
+      "order": 12,
+      "parents": [
+        "්",
+        "ජ"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The ් alternate over the ja-shape diagonal tops (Noto virama.alt2 over its ja-shape class). Introduced on ජ්; ඦ inherits in Stage 7.\n",
+        "checks": [
+          "Flag negotiates the diagonal apex; consistent across ඡ ජ ඦ."
+        ]
+      }
+    },
+    "ධ": {
+      "type": "base",
+      "codepoint": "0DB0",
+      "translit": "dha",
+      "stage": 6,
+      "order": 1,
+      "parents": [
+        "ට"
+      ],
+      "skeleton": "bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-tta",
+        "right": "R-bowl"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ට plus the inner stroke; pure single delta.",
+        "checks": [
+          "Inner stroke doesn't choke the counter."
+        ]
+      }
+    },
+    "බ": {
+      "type": "base",
+      "codepoint": "0DB6",
+      "translit": "ba",
+      "stage": 6,
+      "order": 2,
+      "parents": [
+        "ධ"
+      ],
+      "skeleton": "bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-tta",
+        "right": "R-round"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The බ-group archetype (yaml බ group: ඛ බ); L-tta entry with the round right.",
+        "checks": [
+          "R-round inheritance from ඔ exact."
+        ]
+      }
+    },
+    "ඛ": {
+      "type": "base",
+      "codepoint": "0D9B",
+      "translit": "kha",
+      "stage": 6,
+      "order": 3,
+      "parents": [
+        "බ"
+      ],
+      "skeleton": "bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-tta",
+        "right": "R-round"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "බ plus the aspirate mark-stroke; single delta.",
+        "checks": [
+          "Distinct from බ at text sizes."
+        ]
+      }
+    },
+    "ඕ": {
+      "type": "composite",
+      "codepoint": "0D95",
+      "translit": "oo",
+      "stage": 6,
+      "order": 4,
+      "parents": [
+        "ඔ",
+        "ා"
+      ],
+      "spacing": {
+        "left": "L-o",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ඔ + the ා-style terminal, as ආ derives from අ.",
+        "checks": [
+          "Terminal twin-test against ා."
+        ]
+      }
+    },
+    "ඹ": {
+      "type": "base",
+      "codepoint": "0DB9",
+      "translit": "mba",
+      "stage": 6,
+      "order": 5,
+      "parents": [
+        "ම"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "loop"
+      ],
+      "spacing": {
+        "left": "L-o",
+        "right": "R-round"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ම plus the connecting stroke — the prenasalized member of the loop family.",
+        "checks": [
+          "Density: the darkest loop glyph must still match page colour."
+        ]
+      }
+    },
+    "භ": {
+      "type": "base",
+      "codepoint": "0DB7",
+      "translit": "bha",
+      "stage": 6,
+      "order": 6,
+      "parents": [
+        "ත",
+        "ස"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "eye_ka",
+        "eye_line"
+      ],
+      "spacing": {
+        "left": "L-e",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "Arch + ka-eye (from ත) entered with the eye-line (from ස) — a documented double-element recombination, both already frozen.",
+        "checks": [
+          "Both inherited elements verbatim; nothing new introduced."
+        ]
+      }
+    },
+    "හ": {
+      "type": "base",
+      "codepoint": "0DC4",
+      "translit": "ha",
+      "stage": 6,
+      "order": 7,
+      "parents": [
+        "ත"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "eye_ka"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "high",
+      "ai": {
+        "construction": "The eye_ka system with the looped under-entry; frequent — schedule generous review time.",
+        "checks": [
+          "හ/න/ත family rhythm test."
+        ]
+      }
+    },
+    "ශ": {
+      "type": "base",
+      "codepoint": "0DC1",
+      "translit": "śa",
+      "stage": 6,
+      "order": 8,
+      "parents": [
+        "ග"
+      ],
+      "skeleton": "arch",
+      "elements": [],
+      "spacing": {
+        "left": "L-ga",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "Arch with the L-ga entry curl and the inner hook; single delta on ග.",
+        "checks": [
+          "ශ ෂ ස triplet distinctness."
+        ]
+      }
+    },
+    "ඝ": {
+      "type": "base",
+      "codepoint": "0D9D",
+      "translit": "gha",
+      "stage": 6,
+      "order": 9,
+      "parents": [
+        "ස"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "eye_line"
+      ],
+      "spacing": {
+        "left": "L-e",
+        "right": "R-pa"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "The ස construction closed and densified; inherits the frozen fam-i-ghi convention (ඝි) from සි.",
+        "checks": [
+          "High-density benchmark: darkest allowed colour."
+        ]
+      }
+    },
+    "ෂ": {
+      "type": "base",
+      "codepoint": "0DC2",
+      "translit": "ṣa",
+      "stage": 6,
+      "order": 10,
+      "parents": [
+        "ස"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "eye_line"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-pa"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ස plus the crossing bar; joins fam-i-pi for ෂි.",
+        "checks": [
+          "Bar weight = thin-stroke constant."
+        ]
+      }
+    },
+    "ළ": {
+      "type": "base",
+      "codepoint": "0DC5",
+      "translit": "ḷa",
+      "stage": 6,
+      "order": 11,
+      "parents": [
+        "ල"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-a"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ල plus the retroflex knot; ළි completes fam-i-li. The irregular ළු follows as its own entry (llu-form).",
+        "checks": [
+          "Knot legible."
+        ]
+      }
+    },
+    "ෆ": {
+      "type": "base",
+      "codepoint": "0DC6",
+      "translit": "fa",
+      "stage": 6,
+      "order": 12,
+      "parents": [
+        "ප"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "ප reworked with the R-arch terminal; loan-sound letter.",
+        "checks": [
+          "Terminal from R-arch verbatim."
+        ]
+      }
+    },
+    "ඵ": {
+      "type": "base",
+      "codepoint": "0DB5",
+      "translit": "pha",
+      "stage": 6,
+      "order": 13,
+      "parents": [
+        "එ"
+      ],
+      "skeleton": "trap_body",
+      "elements": [
+        "trap"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-trap"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "Trap body with the L-pa entry; ඵි completes fam-i-tthi hosts.",
+        "checks": [
+          "R-trap inheritance."
+        ]
+      }
+    },
+    "ඒ": {
+      "type": "composite",
+      "codepoint": "0D92",
+      "translit": "ee",
+      "stage": 6,
+      "order": 14,
+      "parents": [
+        "එ",
+        "්"
+      ],
+      "spacing": {
+        "left": "L-e",
+        "right": "R-trap"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "එ + the halanta-style stroke, as ේ derives from ෙ.",
+        "checks": [
+          "Consistent with ේ logic."
+        ]
+      }
+    },
+    "ඊ": {
+      "type": "vowel",
+      "codepoint": "0D8A",
+      "translit": "ii",
+      "stage": 6,
+      "order": 15,
+      "parents": [
+        "ඉ",
+        "ර"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [
+        "diagonal"
+      ],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-diag"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ඉ carrying the diagonal — the taxonomy files ඊ in BOTH the ප and ර groups; primary here is the ර system's diagonal.",
+        "checks": [
+          "Diagonal constant; distinct from රී."
+        ]
+      }
+    },
+    "ඌ": {
+      "type": "composite",
+      "codepoint": "0D8C",
+      "translit": "uu",
+      "stage": 6,
+      "order": 16,
+      "parents": [
+        "උ"
+      ],
+      "spacing": {
+        "left": "L-pa",
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "උ plus the length tail — the ූ logic at letter scale.",
+        "checks": [
+          "Tail depth consistent with ෟ-style descenders."
+        ]
+      }
+    },
+    "fam-i-bhi": {
+      "type": "form-family",
+      "display": "භි හි (භී හී)",
+      "mark": "ි",
+      "hosts": [
+        "භ",
+        "හ"
+      ],
+      "stage": 6,
+      "order": 17,
+      "parents": [
+        "භ",
+        "හ",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The eye-topped-arch ි convention for භ හ.",
+        "checks": [
+          "One convention fits both without collision with the eye."
+        ]
+      }
+    },
+    "llu-form": {
+      "type": "form-family",
+      "display": "ළු (ළූ)",
+      "mark": "ු",
+      "hosts": [
+        "ළ"
+      ],
+      "stage": 6,
+      "order": 18,
+      "parents": [
+        "ළ",
+        "එ",
+        "ු"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "Irregular fused form of its own, like දු — NOT ළ plus an attached ු. Visually it belongs to the trap family: an එ/ඵ-like body carrying the ඪ-style top trap. Draw it from the trap-body archetype (එ) with the frozen trap element; ළ contributes identity, not outline. ළූ adds the length stroke.\n",
+        "checks": [
+          "Spaces with the trap family (R-trap logic), not with ළ.",
+          "ළු/ළූ contrast survives small sizes; no confusion with ඵ."
+        ]
+      }
+    },
+    "ඳ": {
+      "type": "base",
+      "codepoint": "0DB3",
+      "translit": "nda",
+      "stage": 7,
+      "order": 1,
+      "parents": [
+        "ද"
+      ],
+      "skeleton": "u_bottom",
+      "elements": [
+        "hang"
+      ],
+      "spacing": {
+        "left": "L-ga",
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ද plus the hang — introduces the element for the whole nasal set. da-form bottom stays verbatim.",
+        "checks": [
+          "Hang depth recorded as the system constant."
+        ]
+      }
+    },
+    "ඬ": {
+      "type": "base",
+      "codepoint": "0DAC",
+      "translit": "nḍa",
+      "stage": 7,
+      "order": 2,
+      "parents": [
+        "ඩ"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "tail",
+        "hang"
+      ],
+      "spacing": {
+        "left": "L-ga",
+        "right": "R-round"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ඩ plus the hang; tail and hang must coexist below the baseline.",
+        "checks": [
+          "tail_depth vs hang depth collision check."
+        ]
+      }
+    },
+    "ඟ": {
+      "type": "base",
+      "codepoint": "0D9F",
+      "translit": "nga",
+      "stage": 7,
+      "order": 3,
+      "parents": [
+        "ග"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "hang"
+      ],
+      "spacing": {
+        "left": "L-ga",
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "medium",
+      "ai": {
+        "construction": "ග plus the hang; ඟි and ඟු complete their families.",
+        "checks": [
+          "Hang constant; arch untouched."
+        ]
+      }
+    },
+    "ඤ": {
+      "type": "base",
+      "codepoint": "0DA4",
+      "translit": "ñā (taaluja naasikyaya)",
+      "stage": 7,
+      "order": 4,
+      "parents": [
+        "ඟ",
+        "ද"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "hang"
+      ],
+      "spacing": {
+        "left": "L-ga",
+        "right": "R-u"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "L-ga entry + hang + the da-form bottom (da_forms list: ද ඳ ඤ ඥ න්‍ද share it).",
+        "checks": [
+          "Bottom interchangeable with ද ඳ."
+        ]
+      }
+    },
+    "ඥ": {
+      "type": "base",
+      "codepoint": "0DA5",
+      "translit": "jña",
+      "stage": 7,
+      "order": 5,
+      "parents": [
+        "ඤ"
+      ],
+      "skeleton": "arch",
+      "elements": [
+        "hang"
+      ],
+      "spacing": {
+        "left": "L-ga",
+        "right": "R-u"
+      },
+      "level": "sinhala-1-core",
+      "frequency": "low",
+      "ai": {
+        "construction": "ඤ's construction with the doubled body; single delta.",
+        "checks": [
+          "Density vs ඝ benchmark."
+        ]
+      }
+    },
+    "ඦ": {
+      "type": "base",
+      "codepoint": "0DA6",
+      "translit": "nja",
+      "stage": 7,
+      "order": 6,
+      "parents": [
+        "ජ"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [
+        "diagonal",
+        "hang"
+      ],
+      "spacing": {
+        "left": "L-ga",
+        "right": "R-diag"
+      },
+      "level": "sinhala-1-core",
+      "frequency": "rare",
+      "ai": {
+        "construction": "ජ plus the hang; completes fam-i-ji hosts.",
+        "checks": [
+          "Hang + diagonal don't collide."
+        ]
+      }
+    },
+    "ඣ": {
+      "type": "base",
+      "codepoint": "0DA3",
+      "translit": "jha",
+      "stage": 7,
+      "order": 7,
+      "parents": [
+        "ච"
+      ],
+      "skeleton": "bowl",
+      "elements": [
+        "twin_body"
+      ],
+      "spacing": {
+        "left": "L-ka",
+        "right": "R-bowl"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "Two bowl bodies (ච-type) fused side by side — introduces the twin_body element: the Gaṇḍa joint between two halves that the ligated conjuncts (න්‍ද ත්‍ථ ක්‍ව ග්‍ධ …) inherit in Stage 9. A rare letter, but drawing it solves the fusion construction once, two stages before the conjunct layer needs it eleven more times.\n",
+        "checks": [
+          "The joint (gaṇḍa) reads as one construction, not a collision.",
+          "Joint recorded as the system constant for Stage 9 conjuncts."
+        ]
+      }
+    },
+    "fam-i-ndi": {
+      "type": "form-family",
+      "display": "ඳි (ඳී ඳ්‍රි)",
+      "mark": "ි",
+      "hosts": [
+        "ඳ"
+      ],
+      "stage": 7,
+      "order": 8,
+      "parents": [
+        "ඳ",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The ඳ ි convention; conjunct hosts join in Stage 9. Source rows mix ො forms (ඳො ඳ්‍රො) — verify.",
+        "checks": [
+          "Distinct from දි at a glance."
+        ]
+      }
+    },
+    "fam-i-nyi": {
+      "type": "form-family",
+      "display": "ඤි ඥි (ඤී ඥී)",
+      "mark": "ි",
+      "hosts": [
+        "ඤ",
+        "ඥ"
+      ],
+      "stage": 7,
+      "order": 9,
+      "parents": [
+        "ඤ",
+        "ඥ",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The nasal-set ි convention; න්‍දි න්‍ද්‍රි join in Stage 9 (source files them in this family).",
+        "checks": [
+          "Convention scales to the wide ඥ body."
+        ]
+      }
+    },
+    "ෘ": {
+      "type": "mark",
+      "codepoint": "0DD8",
+      "translit": "ru (gaetta-pilla)",
+      "position": "body",
+      "stage": 8,
+      "order": 1,
+      "parents": [
+        "ු"
+      ],
+      "spacing": {
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "low",
+      "ai": {
+        "construction": "Below-right body mark at mark_depth; right profile joins R-arch per the taxonomy.",
+        "checks": [
+          "කෘ තෘ පෘ set cleanly."
+        ]
+      }
+    },
+    "ෲ": {
+      "type": "mark",
+      "codepoint": "0DF2",
+      "translit": "ruu",
+      "position": "body",
+      "stage": 8,
+      "order": 2,
+      "parents": [
+        "ෘ"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "ෘ + length stroke.",
+        "checks": [
+          "Consistent with ු/ූ logic."
+        ]
+      }
+    },
+    "ෟ": {
+      "type": "mark",
+      "codepoint": "0DDF",
+      "translit": "lu (gayanukitta)",
+      "position": "body",
+      "stage": 8,
+      "order": 3,
+      "parents": [],
+      "spacing": {
+        "right": "R-arch"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "The gayanukitta descender-tail mark.",
+        "checks": [
+          "Depth family with ඌ tail."
+        ]
+      }
+    },
+    "ෳ": {
+      "type": "mark",
+      "codepoint": "0DF3",
+      "translit": "luu",
+      "position": "body",
+      "stage": 8,
+      "order": 4,
+      "parents": [
+        "ෟ"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "ෟ + length stroke.",
+        "checks": []
+      }
+    },
+    "ෞ": {
+      "type": "composite",
+      "codepoint": "0DDE",
+      "translit": "au (kombuwa + gayanukitta)",
+      "position": "body",
+      "stage": 8,
+      "order": 5,
+      "parents": [
+        "ෙ",
+        "ෟ"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "Assembly ෙ + base + ෟ (U+0DDE = 0DD9 0DDF).",
+        "checks": []
+      }
+    },
+    "completion-sweep": {
+      "type": "process",
+      "display": "family completion sweep",
+      "stage": 8,
+      "order": 6,
+      "parents": [],
+      "ai": {
+        "construction": "Mechanical pass: every form-family member whose host arrived after the family froze (ටී ඩී චී, ථි ඨි ඵි+ී, ඝි, ළි ළී, ෂි, ඟි ශි ෆි+ී, ඦි, භු ශු ඟු, කූ ගූ තූ …) is produced by applying the frozen convention. No new decisions permitted; anything that resists the convention goes to `gaps`.\n",
+        "checks": [
+          "Full base × ි ී ු ූ grid in sinhala-glyph-chart renders correctly."
+        ]
+      }
+    },
+    "hal-sweep": {
+      "type": "process",
+      "display": "් across all bases",
+      "stage": 8,
+      "order": 7,
+      "parents": [
+        "්"
+      ],
+      "ai": {
+        "construction": "Apply the correct ් form to every base per the four-form assignment (kodiya default / rahena wrap / trap alternate / ja alternate; the ක් group of the shape taxonomy lists the kodiya set). Word-final forms checked in running text.\n",
+        "checks": [
+          "Every base has exactly one assigned ් form; no unassigned base remains."
+        ]
+      }
+    },
+    "rakaransaya": {
+      "type": "conjunct-system",
+      "display": "්‍ර (ක්‍ර ප්‍ර ශ්‍ර …)",
+      "stage": 9,
+      "order": 1,
+      "parents": [
+        "ර",
+        "්"
+      ],
+      "requires": [
+        "conjunct_depth"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The below-base ර form. Encoding: base + ් + ZWJ + ර. Apply the exception list from sinhala-definitions.js (rakaransayaExceptions). Atomic vs GPOS per glyph_construction policy.\n",
+        "checks": [
+          "Depth = conjunct_depth; exceptions excluded in features."
+        ]
+      }
+    },
+    "yansaya": {
+      "type": "conjunct-system",
+      "display": "්‍ය (ක්‍ය ව්‍ය …)",
+      "stage": 9,
+      "order": 2,
+      "parents": [
+        "ය",
+        "්"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The post-base ය form; base + ් + ZWJ + ය.",
+        "checks": [
+          "Right-join consistent across L-classes of the following context."
+        ]
+      }
+    },
+    "repaya": {
+      "type": "conjunct-system",
+      "display": "ර්‍ (ධර්‍ම style)",
+      "stage": 9,
+      "order": 3,
+      "parents": [
+        "ර",
+        "්"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The above-base ර form (reph). Encoding: ර + ් + ZWJ + base. Apply repayaExceptions from sinhala-definitions.js.\n",
+        "checks": [
+          "Sits inside mark_height; collision test with ි ී ේ."
+        ]
+      }
+    },
+    "ksha": {
+      "type": "conjunct-system",
+      "display": "ක්‍ෂ",
+      "stage": 9,
+      "order": 4,
+      "parents": [
+        "ක",
+        "ෂ",
+        "්"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The ක්‍ෂ ligature; its ි ී forms belong to fam-i-pi per the source.",
+        "checks": [
+          "Reads as one letter; width believable."
+        ]
+      }
+    },
+    "classic-conjuncts": {
+      "type": "conjunct-system",
+      "display": "න්‍ද ත්‍ථ න්‍ථ ට්‍ඨ ද්‍ර න්‍ද්‍ර",
+      "stage": 9,
+      "order": 5,
+      "parents": [
+        "ඣ",
+        "න",
+        "ද",
+        "ත",
+        "ථ",
+        "ට",
+        "ඨ",
+        "ර",
+        "්"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "The classic stacked/fused conjuncts. The twin-body fusion convention is INHERITED from ඣ (element twin_body) — reuse its joint, do not re-derive it. න්‍ද joins the da_forms consistency set. Their ි ී forms extend fam-i-tthi, fam-i-nyi and fam-i-di per the source tables.\n",
+        "checks": [
+          "da-form bottom verbatim in න්‍ද; ත්‍ථි matches fam-i-tthi."
+        ]
+      }
+    },
+    "touching-clusters": {
+      "type": "conjunct-system",
+      "display": "touching pairs (ක්‍ක style)",
+      "stage": 9,
+      "order": 6,
+      "parents": [
+        "්"
+      ],
+      "level": "sinhala-2-plus",
+      "ai": {
+        "construction": "Touching consonant clusters. NOTE the encoding difference: touching = c1 + ZWJ + ් + c2; ligated conjuncts = c1 + ් + ZWJ + c2.\n",
+        "checks": [
+          "Shaping tests distinguish the two encodings correctly."
+        ]
+      }
+    },
+    "conjunct-i-forms": {
+      "type": "form-family",
+      "display": "ක්‍රි ක්‍රී ශ්‍රී ද්‍රි න්‍දි (ග්‍රි group)",
+      "mark": "ි",
+      "hosts": [],
+      "stage": 9,
+      "order": 7,
+      "parents": [
+        "rakaransaya",
+        "ි"
+      ],
+      "level": "sinhala-0-kernel",
+      "ai": {
+        "construction": "ි ී over conjunct hosts — the ග්‍රි group of the shape taxonomy (ක්‍රී ච්‍රී ප්‍රී ශ්‍රී). Extends the frozen family conventions to two-storey hosts.\n",
+        "checks": [
+          "Mark clears the conjunct stack; no re-decisions of frozen forms."
+        ]
+      }
+    },
+    "ඍ": {
+      "type": "vowel",
+      "codepoint": "0D8D",
+      "translit": "iru",
+      "stage": 10,
+      "order": 1,
+      "parents": [
+        "ප"
+      ],
+      "skeleton": "double_bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-ja",
+        "right": "R-arch"
+      },
+      "level": "sinhala-1-core",
+      "frequency": "rare",
+      "ai": {
+        "construction": "Vocalic-r letter on the ප-group skeleton per the taxonomy.",
+        "checks": []
+      }
+    },
+    "ඎ": {
+      "type": "vowel",
+      "codepoint": "0D8E",
+      "translit": "iruu",
+      "stage": 10,
+      "order": 2,
+      "parents": [
+        "ඍ"
+      ],
+      "level": "sinhala-1-core",
+      "frequency": "rare",
+      "ai": {
+        "construction": "ඍ + length element.",
+        "checks": []
+      }
+    },
+    "ඏ": {
+      "type": "vowel",
+      "codepoint": "0D8F",
+      "translit": "ilu",
+      "stage": 10,
+      "order": 3,
+      "parents": [],
+      "spacing": {
+        "left": "L-ga"
+      },
+      "level": "sinhala-1-core",
+      "frequency": "rare",
+      "ai": {
+        "construction": "Vocalic-l letter; L-ga entry per the taxonomy.",
+        "checks": []
+      }
+    },
+    "ඐ": {
+      "type": "vowel",
+      "codepoint": "0D90",
+      "translit": "iluu",
+      "stage": 10,
+      "order": 4,
+      "parents": [
+        "ඏ"
+      ],
+      "level": "sinhala-1-core",
+      "frequency": "rare",
+      "ai": {
+        "construction": "ඏ + length element.",
+        "checks": []
+      }
+    },
+    "ඞ": {
+      "type": "base",
+      "codepoint": "0D9E",
+      "translit": "ṅa (kantaja naasikyaya)",
+      "stage": 10,
+      "order": 5,
+      "parents": [
+        "ට"
+      ],
+      "skeleton": "bowl",
+      "elements": [],
+      "spacing": {
+        "left": "L-tta",
+        "right": "R-bowl"
+      },
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "Archaic velar nasal on the ට-group skeleton.",
+        "checks": []
+      }
+    },
+    "ඓ": {
+      "type": "vowel",
+      "codepoint": "0D93",
+      "translit": "ai",
+      "stage": 10,
+      "order": 6,
+      "parents": [
+        "එ"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "The ai letter; derivation from the එ system — verify with designer.",
+        "checks": []
+      }
+    },
+    "ඖ": {
+      "type": "vowel",
+      "codepoint": "0D96",
+      "translit": "au",
+      "stage": 10,
+      "order": 7,
+      "parents": [
+        "ඔ"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "The au letter; ඔ system + tail logic.",
+        "checks": []
+      }
+    },
+    "ඃ": {
+      "type": "sign",
+      "codepoint": "0D83",
+      "translit": "visargaya",
+      "stage": 10,
+      "order": 8,
+      "parents": [
+        "ං"
+      ],
+      "level": "sinhala-0-kernel",
+      "frequency": "rare",
+      "ai": {
+        "construction": "Two ං dots stacked at the right.",
+        "checks": []
+      }
+    },
+    "෴": {
+      "type": "sign",
+      "codepoint": "0DF4",
+      "translit": "kunddaliya",
+      "stage": 10,
+      "order": 9,
+      "parents": [],
+      "level": "sinhala-1-core",
+      "frequency": "rare",
+      "ai": {
+        "construction": "Traditional section mark; spiral construction (cf. Śṅkaya).",
+        "checks": []
+      }
+    },
+    "kerning-pass": {
+      "type": "process",
+      "display": "kerning pass",
+      "stage": 10,
+      "order": 10,
+      "parents": [],
+      "ai": {
+        "construction": "Kern between spacing-CLASS representatives first (7 left × 8 right pairs), then push exceptions down to members only where the class solution fails. Punctuation and numeral policy decided here.\n",
+        "checks": [
+          "Class kerning covers ≥90% of pairs before any glyph exception is added."
+        ]
+      }
+    }
+  }
+}
