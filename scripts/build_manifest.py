@@ -15,7 +15,7 @@ Two files, cleanly separated:
 Standalone by design: depends only on fontTools (already pinned in every repo's
 ``requirements.txt``) and the standard library, so it runs in CI without the mnik
 homebase checked out. The canonical copy lives at
-``font-directory/mnik/tools/manifest/build_manifest.py``; ``mnik manifest`` imports
+``mooniak-font-tools/mnik/tools/manifest/build_manifest.py``; ``mnik manifest`` imports
 and runs it for local/dev parity, and a copy is synced into each font repo's
 ``scripts/`` by the project template so CI can run it self-contained.
 
