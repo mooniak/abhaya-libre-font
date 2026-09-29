@@ -31,19 +31,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"310 0 LINE",
-"310 400 LINE",
-"440 400 LINE",
-"440 0 LINE"
+"90 0 LINE",
+"90 400 LINE",
+"220 400 LINE",
+"220 0 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"90 0 LINE",
-"90 400 LINE",
-"220 400 LINE",
-"220 0 LINE"
+"310 0 LINE",
+"310 400 LINE",
+"440 400 LINE",
+"440 0 LINE"
 );
 }
 );

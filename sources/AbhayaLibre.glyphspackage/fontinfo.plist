@@ -927,24 +927,29 @@ code = "pos sinTouch <0 0 -113 0>;\012";
 name = dist;
 },
 {
-code = "  featureNames {\012    name \"Sinhala Da-form subs\";\012    name 1 \"Sinhala Da-form subs\";\012	};\012    lookup sin_da_subscripts;";
+code = "  featureNames {\012    name \"Sinhala Da-form subs\";\012	};\012    lookup sin_da_subscripts;\012";
 name = ss01;
+notes = "Name: ";
 },
 {
-code = "  featureNames {\012  	name \"Sinhala fPa\";\012  	name 1 \"Sinhala fPa\";\012	};\012    lookup sin_fPa;\012";
+code = "  featureNames {\012  	name \"Sinhala fPa\";\012	};\012    lookup sin_fPa;\012";
 name = ss02;
+notes = "Name: ";
 },
 {
-code = "  featureNames {\012  	name \"Sinhala archiac ligatures\";\012  	name 1 \"Sinhala archiac ligatures\";\012	};\012    lookup ss03_anusvara_sha;\012    lookup ss03_anusvara_sha_02;";
+code = "  featureNames {\012  	name \"Sinhala archiac ligatures\";\012	};\012    lookup ss03_anusvara_sha;\012    lookup ss03_anusvara_sha_02;\012";
 name = ss03;
+notes = "Name: ";
 },
 {
-code = "  featureNames {\012  	name \"Sinhala Lith Numerals\";\012  	name 1 \"Sinhala Lith Numerals\";\012	};\012	lookup ss07_num_to_sinlithnum_1;\012	lookup ss07_num_to_sinlithnum_2; \012";
+code = "  featureNames {\012  	name \"Sinhala Lith Numerals\";\012	};\012	lookup ss07_num_to_sinlithnum_1;\012	lookup ss07_num_to_sinlithnum_2; \012";
 name = ss07;
+notes = "Name: ";
 },
 {
-code = "  featureNames {\012  	name \"Sinhala Archaic Numerals\";\012  	name 1 \"Sinhala Archaic Numerals\";\012	};\012	lookup ss08_num_to_sinArchiac_1;\012	lookup ss08_num_to_sinArchiac_2; \012	lookup ss08_num_to_sinArchiac_3; \012	lookup ss08_num_to_sinArchiac_4; \012";
+code = "  featureNames {\012  	name \"Sinhala Archaic Numerals\";\012	};\012	lookup ss08_num_to_sinArchiac_1;\012	lookup ss08_num_to_sinArchiac_2; \012	lookup ss08_num_to_sinArchiac_3; \012	lookup ss08_num_to_sinArchiac_4; \012";
 name = ss08;
+notes = "Name: ";
 }
 );
 fontMaster = (
