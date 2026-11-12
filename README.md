@@ -2,6 +2,20 @@
 අභය ලිබ්රේ අකුරු මුහුණත / Abhaya Libre Font
 ==============
 
+[![Build][badge-build]][link-build]
+[![Fontspector QA][badge-qa]][link-qa]
+[![Release][badge-release]][link-release]
+[![License: OFL 1.1][badge-license]][link-license]
+
+[badge-build]: https://github.com/mooniak/abhaya-libre-font/actions/workflows/build.yaml/badge.svg?branch=dev
+[badge-qa]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fsrc.mooniak.com%2Fabhaya-libre-font%2Fbuild.json&query=%24.qa.pass_rate&suffix=%25&label=fontspector%20QA%20(dev%20build)&color=informational
+[badge-release]: https://img.shields.io/github/v/release/mooniak/abhaya-libre-font?label=release
+[badge-license]: https://img.shields.io/badge/license-OFL--1.1-green
+[link-build]: https://github.com/mooniak/abhaya-libre-font/actions/workflows/build.yaml
+[link-qa]: https://src.mooniak.com/abhaya-libre-font/reports/fontspector/fontspector-report.html
+[link-release]: https://github.com/mooniak/abhaya-libre-font/releases
+[link-license]: OFL.txt
+
 Abhaya Libre is a text typeface designed for communications in Sinhala, Tamil and Latin scripts. The Abhaya Libre project aims to produce the most advanced and complete Sinhala font, with coverage for complex representations in Sinhala, Pali and Sanskrit texts.
 
 In the true spirit of the Libre Fonts movement, the Abhaya Libre project brought together existing projects and a group of designers to develop a coherent typeface. The project started off with the aim of liberating (open sourcing) FM Abhaya, the most popular Sinhala legacy-format text font, by Pushpananda Ekanayake. The Tamil glyph set is based on typefaces by Modular Infotech, and the Latin was designed to match the Sinhala glyph set by Sol Matas.
@@ -154,6 +168,15 @@ cargo binstall diffenator3     # for `make proof`
 | `make proof` | Runs [diffenator3](https://github.com/googlefonts/diffenator3)'s `diff3proof` and writes an HTML proof to `out/proof/`. |
 | `make images` | Renders the PNG specimen images from the DrawBot scripts in `documentation/`. Needs to run inside a git clone that has a commit and an `origin` remote. |
 | `make clean` | Deletes the `venv/` folder. |
+
+### Build badges
+
+The badges at the top of this page come from the automated build, which runs on every push to `dev`:
+
+- **Build** is the status of the latest [GitHub Actions run](https://github.com/mooniak/abhaya-libre-font/actions/workflows/build.yaml) (build, QA and proofs).
+- **Fontspector QA** is the pass rate of the Google Fonts profile checks on that same build, read from the build manifest published with the [proof site](https://src.mooniak.com/abhaya-libre-font/). It tracks the latest development build, not the tagged release, and the [full report](https://src.mooniak.com/abhaya-libre-font/reports/fontspector/fontspector-report.html) lists every check.
+
+You get the same data locally: `make test` also writes one small badge file per check category (Fontspector QA, OpenType specification, Universal profile, and others) to `out/badges/`, in the [shields.io endpoint format](https://shields.io/badges/endpoint-badge).
 
 ### Troubleshooting
 
