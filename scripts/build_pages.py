@@ -30,10 +30,16 @@ from pathlib import Path
 from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-try:  # homebase
-    from mnik.tools.proofpdf import core
-except ImportError:  # vendored: scripts/proof_core.py
-    import proof_core as core
+
+
+def _core():
+    """The proof engine, imported on demand: --canary-index runs under the CI runner's bare
+    system python3 (no PyYAML / fontTools), so it must not pull the engine in at import time."""
+    try:  # homebase
+        from mnik.tools.proofpdf import core
+    except ImportError:  # vendored: scripts/proof_core.py
+        import proof_core as core
+    return core
 
 FONT_SUFFIXES = (".ttf", ".otf", ".woff2")
 SAMPLE = {"Sinh": "බක්මහා ආරේන්දුවක් සුළං දැවැන්තය", "Taml": "தமிழ் எழுத்துருக்கள்"}
@@ -200,6 +206,7 @@ def build(repo: Path, out: Path, channel: str | None, pdf_dir: Path | None = Non
     fonts = copy_fonts(repo, out)
     reports = copy_reports(repo, out)
     proofs: list[tuple[str, str]] = []
+    core = _core()
     statics = core.font_files(repo)
     if statics:
         pages = core.build_proof_pages(statics, out / "proof", out / "fonts",
