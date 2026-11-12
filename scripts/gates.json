@@ -1,0 +1,50 @@
+{
+  "_doc": "Proof gates. Two independent axes decide what a proof shows. DESIGN STAGE (0-10, computed from the built font by sinhala_coverage.py against stages.json) decides WHICH sections appear: a section is shown once the font has reached its min_stage, so a stage-3 font is never judged against conjunct or long-mark text it cannot yet set. DEVELOPMENT STAGE (the build channel: canary / dev / release) decides HOW DEEP the proof goes: see 'channels'. Section slugs are the file stems in sections/ -- the vendored corpus is never edited to add gating; this file is the only place a section's stage lives.",
+
+  "sections": {
+    "glyphset-coverage": 0,
+
+    "sinhala-alphabet": 1,
+    "shape-groups": 1,
+    "spacing_strings": 1,
+    "test-texts-stages": 1,
+
+    "sinhala-pangram": 3,
+    "kern-pairs": 3,
+
+    "prose": 4,
+    "punctuation": 4,
+    "display-strings": 4,
+    "numerals": 4,
+    "indo-arabic-numerals": 4,
+    "structured-texts": 4,
+    "libreoffice-ui-strings": 4,
+
+    "marks": 5,
+    "signs-combinations": 5,
+
+    "conjuncts": 9,
+    "rakar": 9,
+    "pali-and-sanskrit-words": 9,
+    "ot-features": 9,
+    "classical-texts": 9,
+    "multiscript": 9,
+    "mixed-script": 9,
+    "devanagari-pangram": 9,
+    "tamil-pangram": 9
+  },
+
+  "default_min_stage": 9,
+
+  "stage_blocks": {
+    "_doc": "Sections whose body is itself split into '## Stage N' blocks. Only blocks with N <= the font's stage are shown, so the stage-keyed corpus tracks the font as it matures.",
+    "slugs": ["test-texts-stages"]
+  },
+
+  "channels": {
+    "_doc": "Development stage -> proof depth. gated: false shows every section regardless of design stage (a release claims completeness, so holes should show). pdf: also render a PDF book (needs Playwright/Chromium).",
+    "canary":  {"gated": true,  "pdf": false},
+    "dev":     {"gated": true,  "pdf": true},
+    "release": {"gated": false, "pdf": true}
+  }
+}

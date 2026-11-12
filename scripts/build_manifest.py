@@ -273,7 +273,8 @@ def _derive_channel(env: dict, override: str | None) -> str:
     - a ``*-dev`` / ``*-dev.N`` tag  -> ``dev``     (a cut pre-release; ``Version X.YYY; DEV``)
     - any other tag                  -> ``release`` (curated, stable; bare ``Version X.YYY``)
     - any untagged CI build          -> ``canary``  (bleeding edge; ``X.YYY; [<sha>]-dev``)
-    - no CI env (a local run)        -> ``local``   (not a published channel)
+    - no CI env                      -> error: pass ``--channel`` / ``MNIK_CHANNEL`` (there is no
+                                        "local" channel; ``mnik build`` records the one you chose)
 
     (``nightly`` was retired: canary already serves the rolling bleeding edge.)
     """
@@ -282,7 +283,8 @@ def _derive_channel(env: dict, override: str | None) -> str:
     if env.get("MNIK_CHANNEL"):
         return env["MNIK_CHANNEL"]
     if not env.get("GITHUB_ACTIONS"):
-        return "local"
+        raise ValueError("no channel: not running in CI — pass --channel or set MNIK_CHANNEL "
+                         "(canary | dev | release)")
     if env.get("GITHUB_REF_TYPE") == "tag":
         return "dev" if _DEV_TAG.search(env.get("GITHUB_REF_NAME") or "") else "release"
     return "canary"
@@ -317,8 +319,9 @@ def _sinhala_coverage(repo: Path, files: list[dict]) -> dict | None:
     """coverage.sinhala_design_stage for Sinhala fonts; None if not applicable/available.
 
     Delegates to the sibling ``sinhala_coverage`` module (also mnik-free, reads its own
-    sibling ``stages.json`` off disk -- no network). See tools/sinhala-design-stages/ for
-    the model's authoring source and docs/tooling-roadmap.md §4 for the design.
+    sibling ``stages.json`` off disk -- no network). The model is authored upstream in
+    mooniak/sinhala-font-tools; tools/sinhala-design-stages/VENDORED.md records the
+    provenance and docs/tooling-roadmap.md §4 the design.
     """
     fp = repo / "fontpackage.json"
     scripts: list = []
