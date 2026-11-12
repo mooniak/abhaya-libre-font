@@ -2,6 +2,11 @@ SOURCES=$(shell python3 scripts/read-config.py --sources )
 FAMILY=$(shell python3 scripts/read-config.py --family )
 DRAWBOT_SCRIPTS=$(shell ls documentation/*.py)
 DRAWBOT_OUTPUT=$(shell ls documentation/*.py | sed 's/\.py/.png/g')
+# Distribution tier from fontpackage.json ("free" | "premium"; missing = premium).
+# Free fonts are QA'd against the googlefonts profile (which also enforces OFL);
+# premium fonts against the license-neutral universal profile.
+TIER=$(shell python3 -c "import json;print(json.load(open('fontpackage.json')).get('tier') or 'premium')" 2>/dev/null || echo premium)
+QA_PROFILE=$(if $(filter free,$(TIER)),googlefonts,universal)
 
 help:
 	@echo "###"
@@ -11,6 +16,7 @@ help:
 	@echo "  make build:  Builds the fonts and places them in the fonts/ directory"
 	@echo "  make test:   Tests the fonts with fontspector"
 	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
+	@echo "  make pages:  Builds the stage-gated proof site in _site/ (landing page, proofs, build details)"
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo
 
@@ -32,17 +38,26 @@ venv/touchfile: requirements.txt
 
 test: build.stamp
 	which fontspector || (echo "fontspector not found. Please install it with 'cargo binstall fontspector'." && exit 1)
-	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; mkdir -p out/ out/fontspector; fontspector --profile googlefonts -l warn --full-lists --succinct --html out/fontspector/fontspector-report.html --ghmarkdown out/fontspector/fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
+	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; mkdir -p out/ out/fontspector; fontspector --profile $(QA_PROFILE) -l warn --full-lists --succinct --html out/fontspector/fontspector-report.html --ghmarkdown out/fontspector/fontspector-report.md --badges out/badges $$TOCHECK  || echo '::warning file=sources/config.yaml,title=fontspector failures::The fontspector QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
 	which diff3proof || (echo "diff3proof not found. Please install it with 'cargo binstall diffenator3'." && exit 1)
 	TOCHECK=$$(find fonts/variable -type f 2>/dev/null); if [ -z "$$TOCHECK" ]; then TOCHECK=$$(find fonts/ttf -type f 2>/dev/null); fi ; . venv/bin/activate; mkdir -p out/ out/proof; diff3proof $$TOCHECK --output out/proof
 
+# Stage-gated proof site: landing page + build details + one proof page per font, written to
+# _site/. The font's computed design stage picks which proof sections appear; the build channel
+# picks the depth (canary = HTML, dev/release add PDF books). Run after `manifest` so the page
+# carries the build's channel, version, commit and QA verdict. In CI, publish_pages.sh puts
+# _site at the Pages root (latest dev build) and under canary/<sha>/.
+# PDF=1 also renders PDF books into out/proofs-pdf/ (dev/release only; needs Playwright).
+pages: build.stamp
+	. venv/bin/activate; python3 scripts/build_pages.py --out _site $(if $(PDF),--pdf out/proofs-pdf,)
+
 # Stamp the OpenFV name ID 5 into built fonts per channel (canary/dev/release),
 # derived from the CI environment; no-op locally. Run right after `build`, before
 # `test`/`manifest` so they see the stamped version. See docs/channels-and-versioning.md.
 stamp: build.stamp
-	. venv/bin/activate; python3 scripts/stamp_version.py
+	. venv/bin/activate; python3 scripts/stamp_version.py --rename-files
 
 # Emit out/fontstatus.json — the per-build computed-fact manifest (files+hashes,
 # version, channel, QA verdict). Run after `build` (needs fonts) and `test` (reads

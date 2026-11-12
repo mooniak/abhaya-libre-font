@@ -1,4 +1,4 @@
-name: Build font and specimen
+name: Build font and proofs
 
 on:
   workflow_dispatch:
@@ -19,6 +19,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Guard - release tags must be on main
+        # Day-to-day work happens on `dev`; `main` only moves when a release is cut. A plain
+        # vX.YYY tag (no -dev suffix) publishes a `release`, so it must point at a commit that is
+        # already on `main` (merge dev -> main, then tag main). Fails fast, before the build.
+        # compare API: status is head (this commit) relative to base (main) - "identical"/"behind"
+        # mean the commit is reachable from main; "ahead"/"diverged" mean it is not.
+        if: ${{ github.ref_type == 'tag' && !endsWith(github.ref_name, '-dev') && !contains(github.ref_name, '-dev.') }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          STATUS=$(gh api "repos/${{ github.repository }}/compare/main...${GITHUB_SHA}" --jq .status)
+          case "$STATUS" in
+            identical|behind) echo "ok: release tag ${GITHUB_REF_NAME} (${GITHUB_SHA::7}) is on main" ;;
+            *)
+              echo "::error::Release tag ${GITHUB_REF_NAME} is not on main (compare status: ${STATUS}). Merge dev into main first (merge commit or fast-forward, no squash), then tag main. For a development preview use vX.YYY-dev.N."
+              exit 1 ;;
+          esac
       - name: Set up Python 3.12
         uses: actions/setup-python@v6
         id: python
@@ -51,6 +69,15 @@ jobs:
         shell: bash
         # Set the archive name to repo name + "-fonts" e.g "radiocanadafonts-fonts.zip"
         run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
+      - name: Read distribution tier
+        id: tier
+        shell: bash
+        # "free" | "premium" from fontpackage.json; anything else counts as premium (fail closed).
+        # Premium fonts never deploy to GitHub Pages, even from a public repo.
+        run: |
+          T=$(python3 -c "import json;print(json.load(open('fontpackage.json')).get('tier') or 'premium')" 2>/dev/null || echo premium)
+          echo "TIER=$T" >> $GITHUB_ENV
+          echo "tier=$T" >> $GITHUB_OUTPUT
 
       # If a new release is cut, use the release tag to auto-bump the source files
       # - name: Bump release
@@ -76,13 +103,16 @@ jobs:
         run: make proof
       - name: Emit build manifest (fontstatus.json)
         run: make manifest
-      - name: Set up test result site
-        run: cp scripts/index.html out/index.html
-      - name: Collect deployment assets
-        if: ${{ github.ref_name == github.event.repository.default_branch && github.event.repository.private == false }}
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: ./out
+      - name: Install PDF renderer (dev / release builds only)
+        if: ${{ github.ref_type == 'tag' }}
+        run: |
+          . venv/bin/activate
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Build stage-gated proof site
+        # Which proof sections appear is decided by the font's computed design stage (scripts/gates.json);
+        # how deep the proof goes by the channel: canary = HTML, dev/release also PDF books.
+        run: make pages PDF=${{ github.ref_type == 'tag' && '1' || '' }}
       - name: Archive artifacts
         uses: actions/upload-artifact@v6
         with:
@@ -102,7 +132,7 @@ jobs:
           path: fonts/**/*.ttf
           retention-days: 30
       - name: Publish channel (canary / dev / release)
-        # canary = push to dev; dev = a *-dev.N tag; release = any other tag.
+        # canary = push to dev; dev = a *-dev.N tag; release = any other tag (guarded: must be on main).
         if: ${{ (github.ref_name == 'dev' && github.event_name == 'push') || github.ref_type == 'tag' }}
         env:
           GH_TOKEN: ${{ github.token }}
@@ -111,24 +141,13 @@ jobs:
             case "$GITHUB_REF_NAME" in *-dev.*|*-dev) CH=dev ;; *) CH=release ;; esac
           else CH=canary; fi
           bash scripts/publish_channel.sh "$CH"
-    outputs:
-      zip_name: ${{ env.ZIP_NAME }}
-
-  deploy:
-    name: Deploy results to GitHub Pages
-    if: ${{ github.ref_name == github.event.repository.default_branch && github.event.repository.private == false }}
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+      - name: Publish proof site to GitHub Pages (latest dev build + canary log)
+        # Public + free-tier repos only (premium / undeclared tier fails closed: nothing is published).
+        # gh-pages root = this build; canary/<sha7>/ keeps it per commit. See scripts/publish_pages.sh.
+        if: ${{ github.ref_name == 'dev' && github.event_name == 'push' && github.event.repository.private == false && env.TIER == 'free' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/publish_pages.sh _site
 
   # Publishing (canary / dev / release) is handled by the "Publish channel" step in the
   # build job (scripts/publish_channel.sh) — the build job already has the built fonts +

@@ -7,7 +7,7 @@
 #   release  Release at the `vX.YYY` tag
 #
 # Assets: <slug>-<channel>-fonts.zip + individual .ttf/.otf/.woff2 + fontstatus.json
-# (+ OFL.txt / ARTICLE if present). Runs in CI (needs GH_TOKEN + the GITHUB_* env);
+# (+ the license file — OFL.txt for free fonts, EULA.txt for premium — / ARTICLE if present). Runs in CI (needs GH_TOKEN + the GITHUB_* env);
 # standalone (gh + zip only). See docs/fontpipe-migration-brief.md §3.
 set -euo pipefail
 
@@ -24,8 +24,10 @@ rm -rf "$OUT" && mkdir -p "$OUT"
 ( cd fonts && zip -qr "../$OUT/${SLUG}-${CHANNEL}-fonts.zip" . )
 find fonts -type f \( -name '*.ttf' -o -name '*.otf' -o -name '*.woff2' \) -exec cp {} "$OUT/" \;
 [ -f out/fontstatus.json ] && cp out/fontstatus.json "$OUT/"          # decision 1: manifest as an asset
-[ -f OFL.txt ] && cp OFL.txt "$OUT/" || true
+for lic in OFL.txt EULA.txt; do if [ -f "$lic" ]; then cp "$lic" "$OUT/"; fi; done
 [ -f documentation/ARTICLE.en_us.html ] && cp documentation/ARTICLE.en_us.html "$OUT/" || true
+# stage-gated PDF proof books (dev/release channels; written by build_pages.py --pdf)
+for pdf in out/proofs-pdf/*.pdf; do if [ -f "$pdf" ]; then cp "$pdf" "$OUT/"; fi; done
 
 echo "publish_channel: $CHANNEL — assets:"; ls -1 "$OUT"
 
