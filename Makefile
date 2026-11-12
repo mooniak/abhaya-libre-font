@@ -57,7 +57,7 @@ pages: build.stamp
 # derived from the CI environment; no-op locally. Run right after `build`, before
 # `test`/`manifest` so they see the stamped version. See docs/channels-and-versioning.md.
 stamp: build.stamp
-	. venv/bin/activate; python3 scripts/stamp_version.py
+	. venv/bin/activate; python3 scripts/stamp_version.py --rename-files
 
 # Emit out/fontstatus.json — the per-build computed-fact manifest (files+hashes,
 # version, channel, QA verdict). Run after `build` (needs fonts) and `test` (reads

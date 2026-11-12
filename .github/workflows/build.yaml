@@ -19,6 +19,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Guard - release tags must be on main
+        # Day-to-day work happens on `dev`; `main` only moves when a release is cut. A plain
+        # vX.YYY tag (no -dev suffix) publishes a `release`, so it must point at a commit that is
+        # already on `main` (merge dev -> main, then tag main). Fails fast, before the build.
+        # compare API: status is head (this commit) relative to base (main) - "identical"/"behind"
+        # mean the commit is reachable from main; "ahead"/"diverged" mean it is not.
+        if: ${{ github.ref_type == 'tag' && !endsWith(github.ref_name, '-dev') && !contains(github.ref_name, '-dev.') }}
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          STATUS=$(gh api "repos/${{ github.repository }}/compare/main...${GITHUB_SHA}" --jq .status)
+          case "$STATUS" in
+            identical|behind) echo "ok: release tag ${GITHUB_REF_NAME} (${GITHUB_SHA::7}) is on main" ;;
+            *)
+              echo "::error::Release tag ${GITHUB_REF_NAME} is not on main (compare status: ${STATUS}). Merge dev into main first (merge commit or fast-forward, no squash), then tag main. For a development preview use vX.YYY-dev.N."
+              exit 1 ;;
+          esac
       - name: Set up Python 3.12
         uses: actions/setup-python@v6
         id: python
@@ -114,7 +132,7 @@ jobs:
           path: fonts/**/*.ttf
           retention-days: 30
       - name: Publish channel (canary / dev / release)
-        # canary = push to dev; dev = a *-dev.N tag; release = any other tag.
+        # canary = push to dev; dev = a *-dev.N tag; release = any other tag (guarded: must be on main).
         if: ${{ (github.ref_name == 'dev' && github.event_name == 'push') || github.ref_type == 'tag' }}
         env:
           GH_TOKEN: ${{ github.token }}

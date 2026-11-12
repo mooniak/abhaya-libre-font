@@ -36,6 +36,17 @@
 
   "default_min_stage": 9,
 
+  "scripts": {
+    "_doc": "Script groups. The Sinhala design-stage model gates the 'sections' above; every OTHER script has no stage model yet, so its sections are selected by what the font's cmap covers and shown ungated (every channel). A font that covers a script gets that group's sections ADDED to its Sinhala ones (a bilingual Sinhala+Tamil font gets both; a Tamil-only font gets just Tamil instead of the generic specimen). A section listed here and NOT in 'sections' is shown only to fonts covering the script; one listed in both (tamil-pangram) is also a Sinhala-stage multi-script probe. 'block' is the Unicode block as [first, last] codepoints; 'min_codepoints' is how many of them must be mapped before the font counts as covering the script (a stray few, e.g. in a logo font, do not); 'lang' tags the section's HTML so the browser picks the right shaping and language features.",
+    "tamil": {
+      "label": "Tamil",
+      "lang": "ta",
+      "block": [2944, 3071],
+      "min_codepoints": 20,
+      "sections": ["tamil-alphabet", "tamil-numerals", "tamil-pangram", "tamil-kern-pairs", "tamil-prose"]
+    }
+  },
+
   "stage_blocks": {
     "_doc": "Sections whose body is itself split into '## Stage N' blocks. Only blocks with N <= the font's stage are shown, so the stage-keyed corpus tracks the font as it matures.",
     "slugs": ["test-texts-stages"]

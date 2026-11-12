@@ -19,6 +19,12 @@ canary/dev build doesn't sit name-identical to a release build in the OS font me
 subfamily (ID 2/17) is left untouched. release writes bare names (no suffix), matching
 the same "absence means release" rule as name ID 5.
 
+**Description (name ID 10).** A canary/dev build also gets a development notice appended to
+its Description — added if the font has none: the version string, the OpenFV version, the git
+hash, a disclaimer and a warning that this is a development version. It starts with a fixed
+marker (``DEV_NOTE_MARK``) and always sits last, so re-stamping replaces it and a release
+stamp removes it, leaving the font's own description untouched.
+
 **License (every build).** If ``fontpackage.json`` declares
 ``"tier": "premium"``, name ID 13 is set to the Mooniak Fonts EULA notice and name ID 14
 (license URL) is removed — whatever the source said. A premium binary must never carry an
@@ -190,6 +196,60 @@ def _stamp_channel_names(font, channel: str) -> None:
                 name.setName(new, nid, pid, eid, lid)
 
 
+# Description (name ID 10) carries a development-build notice on canary/dev builds: the
+# version string, OpenFV version, git hash, a disclaimer and a warning. It is always the
+# LAST thing in the field and starts with DEV_NOTE_MARK, so re-stamping (or a later
+# release stamp) can find it and strip it, leaving the font's own description intact.
+# ASCII only — the Mac (1,0,0) record is MacRoman. See docs/channels-and-versioning.md.
+DEV_NOTE_MARK = "*** DEVELOPMENT VERSION"
+
+
+def _dev_note(channel: str, version_string: str, base: str, sha: str) -> str:
+    """The development-build notice for name ID 10 (canary | dev only)."""
+    facts = f"{version_string} | OpenFV {base}"
+    if sha:
+        facts += f" | git {sha[:7]}"
+    return (
+        f"{DEV_NOTE_MARK} - NOT FOR PRODUCTION ({channel} build) *** {facts}. "
+        "WARNING: this is a development version of a work in progress. "
+        "Disclaimer: it is provided as is, without warranty of any kind; it is incomplete, "
+        "may contain errors or missing glyphs, and may change or be withdrawn at any time "
+        "without notice. It is not intended for production use or for passing on to end "
+        "users. A stable release, where one exists, has no DEV or CANARY in its name."
+    )
+
+
+def _strip_dev_note(value: str) -> str:
+    """Drop a previously stamped notice (and the separator before it)."""
+    i = value.find(DEV_NOTE_MARK)
+    return value[:i].rstrip() if i >= 0 else value
+
+
+def _stamp_description(font, channel: str, version_string: str, base: str, sha: str) -> None:
+    """Append the development notice to the Description (name ID 10) of a canary/dev
+    build — adding the field if the font has none — and take it back off for release.
+    Idempotent: any earlier notice is stripped first. Written, like the other stamped
+    names, on the Windows (3,1,0x409) and Mac (1,0,0) records; records in other
+    languages are left alone.
+    """
+    name = font["name"]
+    rec = name.getName(10, 3, 1, 0x409) or name.getName(10, 1, 0, 0)
+    current = _strip_dev_note(rec.toUnicode()) if rec is not None else ""
+    if channel not in ("canary", "dev"):
+        # release (or anything else): nothing to add; only undo an earlier dev stamp.
+        if rec is None or rec.toUnicode() == current:
+            return
+        for pid, eid, lid in _NAME_PLATFORMS:
+            name.removeNames(nameID=10, platformID=pid, platEncID=eid, langID=lid)
+            if current:
+                name.setName(current, 10, pid, eid, lid)
+        return
+    note = _dev_note(channel, version_string, base, sha)
+    new = f"{current} {note}" if current else note
+    for pid, eid, lid in _NAME_PLATFORMS:
+        name.setName(new, 10, pid, eid, lid)
+
+
 def stamp_font(path: Path, channel: str, tag_base: str | None, sha: str) -> str | None:
     from fontTools.ttLib import TTFont
     font = TTFont(str(path))
@@ -202,6 +262,7 @@ def stamp_font(path: Path, channel: str, tag_base: str | None, sha: str) -> str 
         font["name"].setName(value, 5, 3, 1, 0x409)
         font["name"].setName(value, 5, 1, 0, 0)
         _stamp_channel_names(font, channel)
+        _stamp_description(font, channel, value, base, sha)
         major, minor = base.split(".")
         font["head"].fontRevision = int(major) + int(minor) / 1000
         font.save(str(path))

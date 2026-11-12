@@ -4,11 +4,18 @@
 Standalone (stdlib + the vendored proof core), like ``build_manifest.py``: it runs in
 each font repo's CI from ``scripts/``. Layout of what it writes to ``--out``:
 
-    index.html          landing page: build details, stage gate, QA, live tester, downloads
+    index.html          landing page: build details, stage gate, QA, live tester (+ downloads, dev/release only)
     build.json          machine-readable build details (what the canary index is built from)
-    fonts/              ttf / otf / woff2 of this build
-    proof/              stage-gated proof pages (one per font file)
+    fonts/              the fonts the proof pages and tester load. Canary builds: woff2 only, never
+                        linked. dev/release builds: every ttf / otf / woff2, listed for download.
+    proof/              stage-gated proof pages (one per font file; variable font preferred over statics)
     reports/            fontspector + diffenator reports, if the build produced them
+
+Canary builds are test documents, not releases, so they offer **no font downloads**: no links, no
+"Fonts" nav entry, and no desktop-installable files (ttf/otf) anywhere in the site. The pages still
+have to load a font to draw proofs, so a woff2 is served for that -- a browser cannot render a font
+it was not sent -- but nothing points at it, and ``assert_no_installable_fonts`` fails the build if
+a ttf/otf/ttc/eot slips through (a report that bundles its own, say).
 
 ``scripts/publish_pages.sh`` puts that tree at the Pages root (latest ``dev`` build) and
 at ``canary/<sha7>/``, then calls ``--canary-index`` here to regenerate ``canary/index.html``
@@ -42,6 +49,11 @@ def _core():
     return core
 
 FONT_SUFFIXES = (".ttf", ".otf", ".woff2")
+# Files a user can install on a desktop (or that make the site a font mirror). Canary builds ship none.
+INSTALLABLE_SUFFIXES = (".ttf", ".otf", ".ttc", ".otc", ".woff", ".eot")
+# Only these channels list fonts for download. Anything else -- canary, or a channel we do not
+# recognise -- is a test build: fail closed.
+DOWNLOAD_CHANNELS = ("dev", "release")
 SAMPLE = {"Sinh": "බක්මහා ආරේන්දුවක් සුළං දැවැන්තය", "Taml": "தமிழ் எழுத்துருக்கள்"}
 LATIN = "The quick brown fox jumps over the lazy dog 0123456789"
 
@@ -108,7 +120,12 @@ def gather(repo: Path, channel: str | None) -> dict:
     }
 
 
+def offers_downloads(channel: str | None) -> bool:
+    return channel in DOWNLOAD_CHANNELS
+
+
 def copy_fonts(repo: Path, out: Path) -> list[Path]:
+    """Every font of the build -> out/fonts/ (dev/release: these are the downloads)."""
     dest = out / "fonts"
     dest.mkdir(parents=True, exist_ok=True)
     got = []
@@ -119,6 +136,55 @@ def copy_fonts(repo: Path, out: Path) -> list[Path]:
     return got
 
 
+def to_woff2(src: Path, dest_dir: Path) -> Path:
+    """``src`` as <stem>.woff2 in ``dest_dir`` (needs fontTools + brotli; both are in the font stack)."""
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    dest = dest_dir / f"{src.stem}.woff2"
+    if src.suffix.lower() == ".woff2":
+        if src.resolve() != dest.resolve():
+            shutil.copy2(src, dest)
+        return dest
+    from fontTools.ttLib import TTFont
+    tt = TTFont(str(src))
+    tt.flavor = "woff2"
+    tt.save(str(dest))
+    tt.close()
+    return dest
+
+
+def web_fonts(sources: list[Path], dest_dir: Path) -> list[Path]:
+    """Canary: only the fonts the proofs/tester need, as woff2. No ttf/otf, no extras."""
+    return [to_woff2(s, dest_dir) for s in sources]
+
+
+def _woff2_in_place(root: Path) -> None:
+    """Replace every ttf/otf under ``root`` with a woff2 and re-point the HTML that loads it.
+    (diff3proof's report drops old-*.ttf / new-*.ttf beside its page and loads them by name.)"""
+    renamed: dict[str, str] = {}
+    for p in sorted(root.rglob("*")):
+        if p.is_file() and p.suffix.lower() in (".ttf", ".otf", ".woff"):
+            renamed[p.name] = to_woff2(p, p.parent).name
+            p.unlink()
+    if not renamed:
+        return
+    for page in root.rglob("*.htm*"):
+        text = page.read_text(encoding="utf-8", errors="surrogateescape")
+        new = text
+        for old, nw in renamed.items():
+            new = new.replace(old, nw).replace(quote(old), quote(nw))
+        if new != text:
+            page.write_text(new, encoding="utf-8", errors="surrogateescape")
+
+
+def assert_no_installable_fonts(out: Path) -> None:
+    """Canary guard: the finished site must hold no desktop-installable font file. Fails the build."""
+    bad = sorted(str(p.relative_to(out)) for p in out.rglob("*")
+                 if p.is_file() and p.suffix.lower() in INSTALLABLE_SUFFIXES)
+    if bad:
+        raise SystemExit("build_pages: refusing to publish a canary site that carries installable fonts: "
+                         + ", ".join(bad))
+
+
 def copy_assets(out: Path) -> None:
     """Site assets (the Mooniak logo) -> out/assets/. Lives beside this script, in homebase and vendored."""
     src = Path(__file__).resolve().parent / "assets"
@@ -126,13 +192,17 @@ def copy_assets(out: Path) -> None:
         shutil.copytree(src, out / "assets", dirs_exist_ok=True)
 
 
-def copy_reports(repo: Path, out: Path) -> dict[str, str]:
+def copy_reports(repo: Path, out: Path, web_only: bool = False) -> dict[str, str]:
+    """``web_only``: any ttf/otf a report bundles (the diffenator report carries old/new fonts)
+    is converted to woff2 so the site never serves an installable font."""
     links = {}
     for src, name, entry in (("out/fontspector", "fontspector", "fontspector-report.html"),
                              ("out/proof", "diffenator", "diffenator2-report.html")):
         d = repo / src
         if d.is_dir():
             shutil.copytree(d, out / "reports" / name, dirs_exist_ok=True)
+            if web_only:
+                _woff2_in_place(out / "reports" / name)
             idx = out / "reports" / name / entry
             if not idx.exists():
                 htmls = sorted((out / "reports" / name).glob("*.html"))
@@ -208,10 +278,11 @@ def chrome(info: dict, root: str, active: str = "") -> str:
     canary = (base + "canary/") if base else (root + "canary/")
     items = [("home", "Overview", (root or "./")),
              ("proofs", "Proofs", f"{root}index.html#proofs"),
-             ("reports", "Reports", f"{root}index.html#reports"),
-             ("fonts", "Fonts", f"{root}index.html#fonts"),
-             ("latest", "Latest build", latest),
-             ("canary", "Canary builds", canary)]
+             ("reports", "Reports", f"{root}index.html#reports")]
+    if offers_downloads(info.get("channel")):          # canary pages never link to font files
+        items.append(("fonts", "Fonts", f"{root}index.html#fonts"))
+    items += [("latest", "Latest build", latest),
+              ("canary", "Canary builds", canary)]
     if repo:
         items.append(("src", "Source", f"https://github.com/{repo}"))
     items.append(("mooniak", "mooniak.com", "https://mooniak.com/"))
@@ -236,9 +307,15 @@ def _counts(st: dict) -> str:
     return f'<span class="mute">({_h(st["cumulative"])}/{_h(st["total"])} glyph forms)</span>'
 
 
-def render_index(info: dict, fonts: list[Path], proofs: list[tuple[str, str]], reports: dict[str, str]) -> str:
+def render_index(info: dict, fonts: list[Path], proofs: list[tuple[str, str]], reports: dict[str, str],
+                 tester_fonts: list[Path] | None = None) -> str:
+    """``fonts`` = everything in out/fonts/ (listed for download only on dev/release);
+    ``tester_fonts`` = the proof fonts the live tester draws from (default: ``fonts``)."""
+    downloads = offers_downloads(info.get("channel"))
     sample = next((SAMPLE[s] for s in info["scripts"] if s in SAMPLE), LATIN)
-    tester = next((f for f in fonts if f.suffix == ".woff2"), fonts[0] if fonts else None)
+    pool = fonts if tester_fonts is None else tester_fonts
+    # a roman, not an italic, and a web-ready file when there is a choice
+    tester = next(iter(sorted(pool, key=lambda f: ("italic" in f.name.lower(), f.suffix != ".woff2"))), None)
     face = ""
     if tester:
         fmt = "woff2" if tester.suffix == ".woff2" else "opentype" if tester.suffix == ".otf" else "truetype"
@@ -261,16 +338,20 @@ def render_index(info: dict, fonts: list[Path], proofs: list[tuple[str, str]], r
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in rows)
     ftab = "".join(f'<tr><td><a href="fonts/{quote(f.name)}">{_h(f.name)}</a></td><td>{f.stat().st_size / 1024:.0f} KB</td></tr>'
                    for f in fonts)
+    fonts_section = (f'<h2 id="fonts">Fonts</h2><table><tr><th>File</th><th>Size</th></tr>{ftab}</table>'
+                     if downloads else "")
     plinks = [(f'proof/{quote(Path(p).name)}', f"Type proof — {n}") for n, p in proofs]
     rlinks = [(href, label) for label, href in (("Fontspector QA report", reports.get("fontspector")),
                                                  ("Diffenator report", reports.get("diffenator"))) if href]
     if repo:
-        rlinks += [(f"https://github.com/{repo}", "Source repository"),
-                   (f"https://github.com/{repo}/releases", "Releases")]
+        rlinks.append((f"https://github.com/{repo}", "Source repository"))
+        if downloads:       # /releases lists the rolling canary pre-release and its font zips
+            rlinks.append((f"https://github.com/{repo}/releases", "Releases"))
     ptxt = "".join(f'<li><a href="{_h(h)}">{_h(t)}</a></li>' for h, t in plinks) or '<li class="mute">none</li>'
     rtxt = "".join(f'<li><a href="{_h(h)}">{_h(t)}</a></li>' for h, t in rlinks)
     note = ('<p class="warn"><b>Canary build &mdash; may be broken.</b> The latest build of the <code>dev</code> '
-            'branch, cut automatically. It is not a release.</p>' if info["channel"] == "canary" else "")
+            'branch, cut automatically. It is not a release, and its font files are not offered for download.</p>'
+            if not downloads else "")
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{_h(info["family"])} — {_h(info["channel"])} build</title><style>{face}{_CSS}{_CHROME_CSS}</style></head><body>
@@ -281,8 +362,7 @@ def render_index(info: dict, fonts: list[Path], proofs: list[tuple[str, str]], r
 <h2>Try it</h2><textarea spellcheck="false">{_h(sample)}</textarea>
 <h2 id="proofs">Proofs</h2><ul>{ptxt}</ul>
 <h2 id="reports">Reports &amp; links</h2><ul>{rtxt}</ul>
-<h2 id="fonts">Fonts</h2><table><tr><th>File</th><th>Size</th></tr>{ftab}</table>
-</main>{footer()}</body></html>"""
+{fonts_section}</main>{footer()}</body></html>"""
 
 
 def build(repo: Path, out: Path, channel: str | None, pdf_dir: Path | None = None) -> dict:
@@ -290,14 +370,21 @@ def build(repo: Path, out: Path, channel: str | None, pdf_dir: Path | None = Non
     if out.exists():
         shutil.rmtree(out)
     out.mkdir(parents=True)
-    fonts = copy_fonts(repo, out)
-    copy_assets(out)
-    reports = copy_reports(repo, out)
-    proofs: list[tuple[str, str]] = []
     core = _core()
-    statics = core.font_files(repo)
-    if statics:
-        pages = core.build_proof_pages(statics, out / "proof", out / "fonts",
+    downloads = offers_downloads(info["channel"])
+    # Proofs use the variable font when the build has one, else the statics.
+    sources = core.font_files(repo, prefer_variable=True)
+    if downloads:       # dev / release: every font of the build, listed for download
+        fonts = copy_fonts(repo, out)
+        served = [out / "fonts" / s.name for s in sources]
+        proof_inputs = sources
+    else:               # canary: just the proof fonts, as unlinked woff2 -- nothing to download
+        fonts = served = proof_inputs = web_fonts(sources, out / "fonts")
+    copy_assets(out)
+    reports = copy_reports(repo, out, web_only=not downloads)
+    proofs: list[tuple[str, str]] = []
+    if proof_inputs:
+        pages = core.build_proof_pages(proof_inputs, out / "proof", out / "fonts",
                                        family=info["family"], channel=info["channel"], build=info,
                                        chrome=chrome(info, "../", "proofs") + f'<p class="mute" style="padding:0 1.2rem">'
                                               f'<a href="../index.html#proofs">&larr; all proofs</a></p>',
@@ -309,11 +396,14 @@ def build(repo: Path, out: Path, channel: str | None, pdf_dir: Path | None = Non
             for pg in pages:
                 core.render_pdf(pg.html_path, pdf_dir / f"{pg.stem}-proof.pdf")
         info["proof_gate"] = {"stage": g.stage, "gated": g.gated, "shown": g.shown,
-                              "withheld": [list(w) for w in g.withheld], "missing_for_next": g.next_gaps}
+                              "withheld": [list(w) for w in g.withheld], "missing_for_next": g.next_gaps,
+                              "scripts": g.scripts}
         if info["stage"] is None and g.stage is not None:
             info["stage"] = {"n": g.stage, "name": g.stage_name, "cumulative": "?", "total": "?"}
     (out / "build.json").write_text(json.dumps(info, indent=2, ensure_ascii=False), encoding="utf-8")
-    (out / "index.html").write_text(render_index(info, fonts, proofs, reports), encoding="utf-8")
+    (out / "index.html").write_text(render_index(info, fonts, proofs, reports, tester_fonts=served), encoding="utf-8")
+    if not downloads:
+        assert_no_installable_fonts(out)
     return info
 
 
@@ -369,7 +459,8 @@ def main() -> int:
     info = build(a.repo, a.out, a.channel, a.pdf)
     g = info.get("proof_gate") or {}
     print(f"build_pages: {info['family']} {info.get('version')} [{info['channel']}] -> {a.out} "
-          f"(stage {g.get('stage')}, {len(g.get('shown', []))} section(s) shown, {len(g.get('withheld', []))} withheld)")
+          f"(stage {g.get('stage')}, {len(g.get('shown', []))} section(s) shown, {len(g.get('withheld', []))} withheld"
+          + (f", + {', '.join(g['scripts'])}" if g.get("scripts") else "") + ")")
     return 0
 
 
