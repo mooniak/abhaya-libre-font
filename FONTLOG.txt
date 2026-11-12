@@ -13,6 +13,13 @@ ChangeLog
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+12 November 2026 (mooniak) Abhaya Libre v2.000 - Default figures
+- Lining figures (previously the .tf set) are now the default numerals (U+0030-0039)
+- The previous default oldstyle figures are now the .osf glyphs, available through the onum feature
+- Added lnum feature to return from oldstyle to the default lining figures
+- Removed pnum and tnum features; the default figures are now the former tnum set
+- Kerning pairs for 4, 7 and 8 moved with the oldstyle figures
+
 12 February 2017 (mooniak) Abhaya Libre v1.060 - Bugfix
 - Fixing interpolation error bug (#46)
 
