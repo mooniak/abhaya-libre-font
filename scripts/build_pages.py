@@ -119,6 +119,13 @@ def copy_fonts(repo: Path, out: Path) -> list[Path]:
     return got
 
 
+def copy_assets(out: Path) -> None:
+    """Site assets (the Mooniak logo) -> out/assets/. Lives beside this script, in homebase and vendored."""
+    src = Path(__file__).resolve().parent / "assets"
+    if src.is_dir():
+        shutil.copytree(src, out / "assets", dirs_exist_ok=True)
+
+
 def copy_reports(repo: Path, out: Path) -> dict[str, str]:
     links = {}
     for src, name, entry in (("out/fontspector", "fontspector", "fontspector-report.html"),
@@ -144,6 +151,83 @@ def _qa_chip(qa: dict | None) -> str:
     detail = ", ".join(f"{c[k]} {k}" for k in ("FAIL", "WARN", "PASS") if k in c)
     rate = f" · {qa['pass_rate']}% pass" if qa.get("pass_rate") is not None else ""
     return f'<span class="chip {cls}">{_h(v or "n/a")}</span> <span class="mute">{_h(detail)}{rate} · profile {_h(qa.get("profile"))}</span>'
+
+
+# ── site furniture: header + nav, the standing warning, about text, footer ───────────────
+WARNING = ("<b>Test documents &mdash; work in progress.</b> These are automatically generated test pages "
+           "for open-source fonts that are still being developed. They are <b>not releases</b>, can be wrong "
+           "or broken, and change with every commit. <b>Please do not file issues in the GitHub trackers based "
+           "on these pages</b> unless you know what you are doing and are part of the "
+           "<b>Mooniak Circle</b> programme.")
+
+ABOUT = ("<p><a href=\"https://mooniak.com/\">Mooniak</a> designs and develops typefaces for Sinhala, Tamil and Latin "
+         "scripts, many of them open source. Each font lives in its own repository; every time its "
+         "<code>dev</code> branch changes, the font is rebuilt and tested automatically, and the result is published "
+         "here so designers and testers can see where it stands.</p>"
+         "<p>Each build is checked for quality (fontspector) and measured against a "
+         "<b>design-stage model</b>: stage 0&ndash;10, from the first drawn letters to the full conjunct and "
+         "long-tail character set. The proof pages only show the text a font has <i>earned</i> by its stage, so an "
+         "early font is not judged on glyphs it does not have yet.</p>")
+
+_CHIP_CSS = """
+.chip { display:inline-block; padding:1px 9px; border-radius:99px; font-size:.75rem; font-weight:600;
+  text-transform:uppercase; letter-spacing:.04em; background:#eee; vertical-align:middle }
+.c-canary { background:#fff3c4 } .c-dev { background:#d6e8ff } .c-release { background:#d3f3dc }
+"""
+
+_CHROME_CSS = """
+.site-head { display:flex; align-items:center; gap:1.2rem; flex-wrap:wrap; padding:.9rem 1.2rem;
+  border-bottom:1px solid #e3e3e3; background:#fff; font:14px system-ui,sans-serif }
+.site-head .logo img { height:52px; width:auto; display:block }
+.site-head .where { color:#666; font-size:.8rem; line-height:1.3 } .site-head .where b { color:#111; font-size:.95rem; display:block }
+.site-nav { margin-left:auto; display:flex; gap:.2rem; flex-wrap:wrap }
+.site-nav a { color:#222; text-decoration:none; padding:.35rem .7rem; border-radius:6px }
+.site-nav a:hover { background:#f0f0f0 } .site-nav a.on { background:#111; color:#fff }
+.test-warning { margin:0; padding:.7rem 1.2rem; background:#fff3cd; border-bottom:2px solid #e0a800; color:#4d3b00;
+  font:13.5px/1.5 system-ui,sans-serif }
+.test-warning::before { content:"\\26A0\\FE0F\\00a0" }
+.site-foot { max-width:60rem; margin:3rem auto 2rem; padding:1rem 1.2rem 0; border-top:1px solid #e3e3e3;
+  color:#666; font:12.5px/1.6 system-ui,sans-serif }
+@media print { .site-head, .site-foot { display:none } .test-warning { border:1px solid #e0a800 } }
+"""
+
+
+def _site_base(repository: str | None) -> str | None:
+    """Absolute path prefix of this repo's Pages site: /<repo-name>/ (org Pages, CNAME src.mooniak.com)."""
+    return f"/{repository.split('/')[-1]}/" if repository else None
+
+
+def chrome(info: dict, root: str, active: str = "") -> str:
+    """Header + nav + warning for a page. ``root`` = relative path from the page to *this build's*
+    root ('' for index.html, '../' for proof/). 'Latest' and 'Canary builds' use the absolute
+    /<repo>/ path so they work from canary/<sha7>/ copies too; with no repository known (a local
+    preview) they fall back to relative links."""
+    repo = info.get("repository")
+    base = _site_base(repo)
+    latest = base or (root or "./")
+    canary = (base + "canary/") if base else (root + "canary/")
+    items = [("home", "Overview", (root or "./")),
+             ("proofs", "Proofs", f"{root}index.html#proofs"),
+             ("reports", "Reports", f"{root}index.html#reports"),
+             ("fonts", "Fonts", f"{root}index.html#fonts"),
+             ("latest", "Latest build", latest),
+             ("canary", "Canary builds", canary)]
+    if repo:
+        items.append(("src", "Source", f"https://github.com/{repo}"))
+    items.append(("mooniak", "mooniak.com", "https://mooniak.com/"))
+    nav = "".join(f'<a href="{_h(h)}"{" class=on" if k == active else ""}>{_h(t)}</a>' for k, t, h in items)
+    return (f'<header class="site-head"><a class="logo" href="https://mooniak.com/">'
+            f'<img src="{_h(root)}assets/mooniak-logo.svg" alt="Mooniak"></a>'
+            f'<div class="where"><b>{_h(info.get("family") or "")}</b>font test pages &middot; '
+            f'<span class="chip c-{_h(info.get("channel") or "canary")}">{_h(info.get("channel") or "canary")}</span></div>'
+            f'<nav class="site-nav">{nav}</nav></header>'
+            f'<p class="test-warning">{WARNING}</p>')
+
+
+def footer() -> str:
+    return ('<footer class="site-foot">Generated by Mooniak\'s font tooling from the font\'s source repository. '
+            'Fonts are licensed as stated in each repository. Everything here is for testing: do not use these '
+            'builds in production, and do not treat the results as a statement about the finished font.</footer>')
 
 
 def _counts(st: dict) -> str:
@@ -177,25 +261,28 @@ def render_index(info: dict, fonts: list[Path], proofs: list[tuple[str, str]], r
     dl = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in rows)
     ftab = "".join(f'<tr><td><a href="fonts/{quote(f.name)}">{_h(f.name)}</a></td><td>{f.stat().st_size / 1024:.0f} KB</td></tr>'
                    for f in fonts)
-    links = [(f'proof/{quote(Path(p).name)}', f"Type proof — {n}") for n, p in proofs]
-    links += [(href, label) for label, href in (("Fontspector QA report", reports.get("fontspector")),
+    plinks = [(f'proof/{quote(Path(p).name)}', f"Type proof — {n}") for n, p in proofs]
+    rlinks = [(href, label) for label, href in (("Fontspector QA report", reports.get("fontspector")),
                                                  ("Diffenator report", reports.get("diffenator"))) if href]
     if repo:
-        links += [(f"https://github.com/{repo}", "Source repository"),
-                  (f"https://github.com/{repo}/releases", "Releases")]
-    ltxt = "".join(f'<li><a href="{_h(h)}">{_h(t)}</a></li>' for h, t in links)
-    warn = ('<p class="warn"><b>Canary build — may be broken.</b> This is the latest build of the <code>dev</code> branch, '
-            'cut automatically. It is not a release.</p>' if info["channel"] == "canary" else "")
+        rlinks += [(f"https://github.com/{repo}", "Source repository"),
+                   (f"https://github.com/{repo}/releases", "Releases")]
+    ptxt = "".join(f'<li><a href="{_h(h)}">{_h(t)}</a></li>' for h, t in plinks) or '<li class="mute">none</li>'
+    rtxt = "".join(f'<li><a href="{_h(h)}">{_h(t)}</a></li>' for h, t in rlinks)
+    note = ('<p class="warn"><b>Canary build &mdash; may be broken.</b> The latest build of the <code>dev</code> '
+            'branch, cut automatically. It is not a release.</p>' if info["channel"] == "canary" else "")
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{_h(info["family"])} — {_h(info["channel"])} build</title><style>{face}{_CSS}</style></head><body><main>
-<p class="mute" style="margin:0"><a href="https://src.mooniak.com/">src.mooniak.com</a> · <a href="canary/">canary build log</a></p>
-<h1>{_h(info["family"])}</h1>{warn}
+<title>{_h(info["family"])} — {_h(info["channel"])} build</title><style>{face}{_CSS}{_CHROME_CSS}</style></head><body>
+{chrome(info, "", "home")}<main>
+<h1>{_h(info["family"])}</h1>{note}
+<h2>About these pages</h2>{ABOUT}
 <h2>Build</h2><dl>{dl}</dl>
 <h2>Try it</h2><textarea spellcheck="false">{_h(sample)}</textarea>
-<h2>Proofs &amp; reports</h2><ul>{ltxt}</ul>
-<h2>Fonts</h2><table><tr><th>File</th><th>Size</th></tr>{ftab}</table>
-</main></body></html>"""
+<h2 id="proofs">Proofs</h2><ul>{ptxt}</ul>
+<h2 id="reports">Reports &amp; links</h2><ul>{rtxt}</ul>
+<h2 id="fonts">Fonts</h2><table><tr><th>File</th><th>Size</th></tr>{ftab}</table>
+</main>{footer()}</body></html>"""
 
 
 def build(repo: Path, out: Path, channel: str | None, pdf_dir: Path | None = None) -> dict:
@@ -204,13 +291,17 @@ def build(repo: Path, out: Path, channel: str | None, pdf_dir: Path | None = Non
         shutil.rmtree(out)
     out.mkdir(parents=True)
     fonts = copy_fonts(repo, out)
+    copy_assets(out)
     reports = copy_reports(repo, out)
     proofs: list[tuple[str, str]] = []
     core = _core()
     statics = core.font_files(repo)
     if statics:
         pages = core.build_proof_pages(statics, out / "proof", out / "fonts",
-                                       family=info["family"], channel=info["channel"], build=info)
+                                       family=info["family"], channel=info["channel"], build=info,
+                                       chrome=chrome(info, "../", "proofs") + f'<p class="mute" style="padding:0 1.2rem">'
+                                              f'<a href="../index.html#proofs">&larr; all proofs</a></p>',
+                                       extra_css=_CHROME_CSS + _CHIP_CSS)
         proofs = [(pg.stem, str(pg.html_path)) for pg in pages]
         g = pages[0].gate
         if pdf_dir is not None and g.pdf:
@@ -246,14 +337,19 @@ def canary_index(canary_dir: Path) -> None:
                     f'<td>{_h(st["n"]) if st else "—"}</td>'
                     f'<td><span class="chip {qcls}">{_h(v or "n/a")}</span></td><td>{run}</td></tr>')
     fam = _h(builds[0].get("family")) if builds else ""
+    repository = (builds[0].get("repository") if builds else None) or os.environ.get("GITHUB_REPOSITORY")
+    info = {"family": builds[0].get("family") if builds else "", "channel": "canary", "repository": repository}
+    # canary/ sits one level under the site root: its own "root" for assets is ../ ; the
+    # Pages publisher copies assets/ to the site root, so ../assets/ resolves.
+    head = chrome(info, "../", "canary")
     (canary_dir / "index.html").write_text(f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{fam} — canary builds</title><style>{_CSS}</style></head><body><main>
-<p class="mute" style="margin:0"><a href="../">← {fam} (latest)</a></p>
+<title>{fam} — canary builds</title><style>{_CSS}{_CHROME_CSS}</style></head><body>
+{head}<main>
 <h1>{fam} — canary builds</h1>
 <p class="warn"><b>May be broken.</b> One entry per push to <code>dev</code>. Only the most recent builds keep their files.</p>
 <table><tr><th>Commit</th><th>Version</th><th>Built</th><th>Design stage</th><th>QA</th><th>CI</th></tr>{"".join(rows)}</table>
-</main></body></html>""", encoding="utf-8")
+</main>{footer()}</body></html>""", encoding="utf-8")
 
 
 def main() -> int:

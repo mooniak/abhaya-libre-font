@@ -378,7 +378,10 @@ def _gate_html(g: Gate) -> str:
 
 
 def build_html(family: str, style: str, font_href: str, sections: list[Section], gate: Gate,
-               build: dict | None = None, glyphset_href: str | None = None) -> str:
+               build: dict | None = None, glyphset_href: str | None = None,
+               chrome: str = "", extra_css: str = "") -> str:
+    """``chrome`` is site furniture (header/nav/warning) placed above the cover; ``extra_css``
+    styles it. Both come from build_pages.py -- the engine itself knows nothing of the site."""
     b = build or {}
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     meta_bits = [style]
@@ -398,7 +401,7 @@ def build_html(family: str, style: str, font_href: str, sections: list[Section],
     return (f'<!DOCTYPE html>\n<html lang="en"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<title>{_html.escape(family)} &mdash; proof</title>'
-            f'<style>{faces}\n{_CSS}</style></head><body>\n'
+            f'<style>{faces}\n{_CSS}\n{extra_css}</style></head><body>\n{chrome}\n'
             f'<div class="cover"><h1>{_html.escape(family)}</h1>'
             f'<div class="meta">{"<br>".join(meta_bits)}</div>{_gate_html(gate)}</div>\n'
             f'{body}\n</body></html>')
@@ -415,7 +418,8 @@ class ProofPage:
 def build_proof_pages(font_paths: list[Path], proof_dir: Path, fonts_dir: Path, *, family: str,
                       channel: str, build: dict | None = None, stage_override: int | None = None,
                       ungated: bool = False, only: set[str] | None = None,
-                      gates: dict | None = None) -> list[ProofPage]:
+                      gates: dict | None = None, chrome: str = "",
+                      extra_css: str = "") -> list[ProofPage]:
     """Write one proof HTML per font into ``proof_dir``.
 
     Fonts are referenced by relative URL from ``fonts_dir`` (the caller copies them
@@ -447,7 +451,7 @@ def build_proof_pages(font_paths: list[Path], proof_dir: Path, fonts_dir: Path, 
             page_sections.insert(0, sec)
             patched_href = rel_href(proof_dir, patched or fp)
         html = build_html(family, fp.stem, rel_href(proof_dir, fonts_dir / fp.name), page_sections,
-                          gate, build, patched_href)
+                          gate, build, patched_href, chrome, extra_css)
         out = proof_dir / f"{fp.stem}.html"
         out.write_text(html, encoding="utf-8")
         pages.append(ProofPage(fp.stem, out, gate))

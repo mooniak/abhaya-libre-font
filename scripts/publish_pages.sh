@@ -66,7 +66,7 @@ from pathlib import Path
 build, log, keep = Path(sys.argv[1]), Path(sys.argv[2]), int(sys.argv[3])
 b = json.loads(build.read_text(encoding="utf-8"))
 entry = {k: b.get(k) for k in ("family", "commit", "commit_short", "version", "generated_at",
-                               "stage", "qa", "run_url", "ref_name", "channel")}
+                               "stage", "qa", "run_url", "ref_name", "channel", "repository")}
 builds = json.loads(log.read_text(encoding="utf-8")) if log.exists() else []
 builds = [x for x in builds if x.get("commit_short") != entry["commit_short"]] + [entry]
 builds.sort(key=lambda x: x.get("generated_at") or "", reverse=True)
