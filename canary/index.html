@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abhaya Libre — canary builds</title><style>
+:root { --ink:#111; --mute:#666; --line:#e3e3e3; --bg:#fafafa; }
+* { box-sizing:border-box } body { font:15px/1.55 system-ui,sans-serif; color:var(--ink); margin:0; background:#fff }
+main { max-width:60rem; margin:0 auto; padding:2.2rem 1.2rem 4rem }
+h1 { font-size:2rem; margin:.2rem 0 .3rem } h2 { font-size:1rem; text-transform:uppercase; letter-spacing:.05em;
+  color:var(--mute); border-bottom:1px solid var(--line); padding-bottom:.35rem; margin:2.2rem 0 .8rem }
+a { color:#0b57d0 } .mute { color:var(--mute) } code, .mono { font-family:Menlo,Consolas,monospace; font-size:.85em }
+.chip { display:inline-block; padding:1px 9px; border-radius:99px; font-size:.75rem; font-weight:600;
+  text-transform:uppercase; letter-spacing:.04em; background:#eee; vertical-align:middle }
+.c-canary { background:#fff3c4 } .c-dev { background:#d6e8ff } .c-release { background:#d3f3dc }
+.q-pass { background:#d3f3dc } .q-warn { background:#fff3c4 } .q-fail { background:#fbd5d5 }
+dl { display:grid; grid-template-columns:9rem 1fr; gap:.3rem 1rem; margin:0 } dt { color:var(--mute) } dd { margin:0 }
+table { border-collapse:collapse; width:100% } th,td { text-align:left; padding:.4rem .6rem; border-bottom:1px solid var(--line) }
+th { color:var(--mute); font-weight:500; font-size:.85rem }
+textarea { width:100%; min-height:5.5rem; font-size:2.2rem; line-height:1.5; border:1px solid var(--line);
+  border-radius:6px; padding:.6rem .8rem; font-family:"Tester",sans-serif }
+.warn { background:#fff8e1; border:1px solid #f0d98a; border-radius:6px; padding:.6rem .9rem; font-size:.9rem }
+
+.site-head { display:flex; align-items:center; gap:1.2rem; flex-wrap:wrap; padding:.9rem 1.2rem;
+  border-bottom:1px solid #e3e3e3; background:#fff; font:14px system-ui,sans-serif }
+.site-head .logo img { height:52px; width:auto; display:block }
+.site-head .where { color:#666; font-size:.8rem; line-height:1.3 } .site-head .where b { color:#111; font-size:.95rem; display:block }
+.site-nav { margin-left:auto; display:flex; gap:.2rem; flex-wrap:wrap }
+.site-nav a { color:#222; text-decoration:none; padding:.35rem .7rem; border-radius:6px }
+.site-nav a:hover { background:#f0f0f0 } .site-nav a.on { background:#111; color:#fff }
+.test-warning { margin:0; padding:.7rem 1.2rem; background:#fff3cd; border-bottom:2px solid #e0a800; color:#4d3b00;
+  font:13.5px/1.5 system-ui,sans-serif }
+.test-warning::before { content:"\26A0\FE0F\00a0" }
+.site-foot { max-width:60rem; margin:3rem auto 2rem; padding:1rem 1.2rem 0; border-top:1px solid #e3e3e3;
+  color:#666; font:12.5px/1.6 system-ui,sans-serif }
+@media print { .site-head, .site-foot { display:none } .test-warning { border:1px solid #e0a800 } }
+</style></head><body>
+<header class="site-head"><a class="logo" href="https://mooniak.com/"><img src="../assets/mooniak-logo.svg" alt="Mooniak"></a><div class="where"><b>Abhaya Libre</b>font test pages &middot; <span class="chip c-canary">canary</span></div><nav class="site-nav"><a href="../">Overview</a><a href="../index.html#proofs">Proofs</a><a href="../index.html#reports">Reports</a><a href="/abhaya-libre-font/">Latest build</a><a href="/abhaya-libre-font/canary/" class=on>Canary builds</a><a href="https://github.com/mooniak/abhaya-libre-font">Source</a><a href="https://mooniak.com/">mooniak.com</a></nav></header><p class="test-warning"><b>Test documents &mdash; work in progress.</b> These are automatically generated test pages for open-source fonts that are still being developed. They are <b>not releases</b>, can be wrong or broken, and change with every commit. <b>Please do not file issues in the GitHub trackers based on these pages</b> unless you know what you are doing and are part of the <b>Mooniak Circle</b> programme.</p><main>
+<h1>Abhaya Libre — canary builds</h1>
+<p class="warn"><b>May be broken.</b> One entry per push to <code>dev</code>. Only the most recent builds keep their files.</p>
+<table><tr><th>Commit</th><th>Version</th><th>Built</th><th>Design stage</th><th>QA</th><th>CI</th></tr><tr><td><a href="0f506e1/">0f506e1</a> <span class=chip>latest</span></td><td><code>2.000</code></td><td>2026-11-13T12:29:40Z</td><td>7</td><td><span class="chip q-fail">fail</span></td><td><a href="https://github.com/mooniak/abhaya-libre-font/actions/runs/43425404938">run</a></td></tr><tr><td><a href="af26ae2/">af26ae2</a></td><td><code>2.000</code></td><td>2026-11-13T12:04:57Z</td><td>7</td><td><span class="chip q-fail">fail</span></td><td><a href="https://github.com/mooniak/abhaya-libre-font/actions/runs/43422034227">run</a></td></tr><tr><td><a href="c5522bc/">c5522bc</a></td><td><code>2.000</code></td><td>2026-11-12T14:46:34Z</td><td>7</td><td><span class="chip q-fail">fail</span></td><td><a href="https://github.com/mooniak/abhaya-libre-font/actions/runs/43240519265">run</a></td></tr><tr><td><a href="58f9f03/">58f9f03</a></td><td><code>2.000</code></td><td>2026-11-12T12:23:03Z</td><td>7</td><td><span class="chip q-fail">fail</span></td><td><a href="https://github.com/mooniak/abhaya-libre-font/actions/runs/43217244315">run</a></td></tr><tr><td><a href="01a002b/">01a002b</a></td><td><code>2.000</code></td><td>2026-11-12T10:36:42Z</td><td>7</td><td><span class="chip q-fail">fail</span></td><td><a href="https://github.com/mooniak/abhaya-libre-font/actions/runs/43201711053">run</a></td></tr><tr><td>2836de5 <span class='mute'>(pruned)</span></td><td><code>2.000</code></td><td>2026-11-12T10:15:23Z</td><td>7</td><td><span class="chip q-fail">fail</span></td><td><a href="https://github.com/mooniak/abhaya-libre-font/actions/runs/43198574402">run</a></td></tr></table>
+</main><footer class="site-foot">Generated by Mooniak's font tooling from the font's source repository. Fonts are licensed as stated in each repository. Everything here is for testing: do not use these builds in production, and do not treat the results as a statement about the finished font.</footer></body></html>

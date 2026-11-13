@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abhaya Libre — canary build</title><style>@font-face{font-family:"Tester";src:url("fonts/AbhayaLibre%5Bwght%5D.woff2") format("woff2")}
+:root { --ink:#111; --mute:#666; --line:#e3e3e3; --bg:#fafafa; }
+* { box-sizing:border-box } body { font:15px/1.55 system-ui,sans-serif; color:var(--ink); margin:0; background:#fff }
+main { max-width:60rem; margin:0 auto; padding:2.2rem 1.2rem 4rem }
+h1 { font-size:2rem; margin:.2rem 0 .3rem } h2 { font-size:1rem; text-transform:uppercase; letter-spacing:.05em;
+  color:var(--mute); border-bottom:1px solid var(--line); padding-bottom:.35rem; margin:2.2rem 0 .8rem }
+a { color:#0b57d0 } .mute { color:var(--mute) } code, .mono { font-family:Menlo,Consolas,monospace; font-size:.85em }
+.chip { display:inline-block; padding:1px 9px; border-radius:99px; font-size:.75rem; font-weight:600;
+  text-transform:uppercase; letter-spacing:.04em; background:#eee; vertical-align:middle }
+.c-canary { background:#fff3c4 } .c-dev { background:#d6e8ff } .c-release { background:#d3f3dc }
+.q-pass { background:#d3f3dc } .q-warn { background:#fff3c4 } .q-fail { background:#fbd5d5 }
+dl { display:grid; grid-template-columns:9rem 1fr; gap:.3rem 1rem; margin:0 } dt { color:var(--mute) } dd { margin:0 }
+table { border-collapse:collapse; width:100% } th,td { text-align:left; padding:.4rem .6rem; border-bottom:1px solid var(--line) }
+th { color:var(--mute); font-weight:500; font-size:.85rem }
+textarea { width:100%; min-height:5.5rem; font-size:2.2rem; line-height:1.5; border:1px solid var(--line);
+  border-radius:6px; padding:.6rem .8rem; font-family:"Tester",sans-serif }
+.warn { background:#fff8e1; border:1px solid #f0d98a; border-radius:6px; padding:.6rem .9rem; font-size:.9rem }
+
+.site-head { display:flex; align-items:center; gap:1.2rem; flex-wrap:wrap; padding:.9rem 1.2rem;
+  border-bottom:1px solid #e3e3e3; background:#fff; font:14px system-ui,sans-serif }
+.site-head .logo img { height:52px; width:auto; display:block }
+.site-head .where { color:#666; font-size:.8rem; line-height:1.3 } .site-head .where b { color:#111; font-size:.95rem; display:block }
+.site-nav { margin-left:auto; display:flex; gap:.2rem; flex-wrap:wrap }
+.site-nav a { color:#222; text-decoration:none; padding:.35rem .7rem; border-radius:6px }
+.site-nav a:hover { background:#f0f0f0 } .site-nav a.on { background:#111; color:#fff }
+.test-warning { margin:0; padding:.7rem 1.2rem; background:#fff3cd; border-bottom:2px solid #e0a800; color:#4d3b00;
+  font:13.5px/1.5 system-ui,sans-serif }
+.test-warning::before { content:"\26A0\FE0F\00a0" }
+.site-foot { max-width:60rem; margin:3rem auto 2rem; padding:1rem 1.2rem 0; border-top:1px solid #e3e3e3;
+  color:#666; font:12.5px/1.6 system-ui,sans-serif }
+@media print { .site-head, .site-foot { display:none } .test-warning { border:1px solid #e0a800 } }
+</style></head><body>
+<header class="site-head"><a class="logo" href="https://mooniak.com/"><img src="assets/mooniak-logo.svg" alt="Mooniak"></a><div class="where"><b>Abhaya Libre</b>font test pages &middot; <span class="chip c-canary">canary</span></div><nav class="site-nav"><a href="./" class=on>Overview</a><a href="index.html#proofs">Proofs</a><a href="index.html#reports">Reports</a><a href="index.html#fonts">Fonts</a><a href="/abhaya-libre-font/">Latest build</a><a href="/abhaya-libre-font/canary/">Canary builds</a><a href="https://github.com/mooniak/abhaya-libre-font">Source</a><a href="https://mooniak.com/">mooniak.com</a></nav></header><p class="test-warning"><b>Test documents &mdash; work in progress.</b> These are automatically generated test pages for open-source fonts that are still being developed. They are <b>not releases</b>, can be wrong or broken, and change with every commit. <b>Please do not file issues in the GitHub trackers based on these pages</b> unless you know what you are doing and are part of the <b>Mooniak Circle</b> programme.</p><main>
+<h1>Abhaya Libre</h1><p class="warn"><b>Canary build &mdash; may be broken.</b> The latest build of the <code>dev</code> branch, cut automatically. It is not a release.</p>
+<h2>About these pages</h2><p><a href="https://mooniak.com/">Mooniak</a> designs and develops typefaces for Sinhala, Tamil and Latin scripts, many of them open source. Each font lives in its own repository; every time its <code>dev</code> branch changes, the font is rebuilt and tested automatically, and the result is published here so designers and testers can see where it stands.</p><p>Each build is checked for quality (fontspector) and measured against a <b>design-stage model</b>: stage 0&ndash;10, from the first drawn letters to the full conjunct and long-tail character set. The proof pages only show the text a font has <i>earned</i> by its stage, so an early font is not judged on glyphs it does not have yet.</p>
+<h2>Build</h2><dl><dt>Channel</dt><dd><span class="chip c-canary">canary</span></dd><dt>Version</dt><dd><code>2.000</code></dd><dt>Commit</dt><dd><a href="https://github.com/mooniak/abhaya-libre-font/commit/01a002ba5cb0bd0b73a337992ee17f49af0e3d4a"><code>01a002b</code></a> on <code>dev</code></dd><dt>Built</dt><dd>2026-11-12T10:36:42Z by pathumego</dd><dt>Design stage</dt><dd><b>7</b> — The hang system <span class="mute">(86/110 glyph forms)</span></dd><dt>QA</dt><dd><span class="chip q-fail">fail</span> <span class="mute">8 FAIL, 24 WARN, 113 PASS · 72% pass · profile googlefonts</span></dd><dt>CI run</dt><dd><a href="https://github.com/mooniak/abhaya-libre-font/actions/runs/43201711053">43201711053</a></dd></dl>
+<h2>Try it</h2><textarea spellcheck="false">බක්මහා ආරේන්දුවක් සුළං දැවැන්තය</textarea>
+<h2 id="proofs">Proofs</h2><ul><li><a href="proof/AbhayaLibre%5Bwght%5D.html">Type proof — AbhayaLibre[wght]</a></li></ul>
+<h2 id="reports">Reports &amp; links</h2><ul><li><a href="reports/fontspector/fontspector-report.html">Fontspector QA report</a></li><li><a href="reports/diffenator/diff3proof.html">Diffenator report</a></li><li><a href="https://github.com/mooniak/abhaya-libre-font">Source repository</a></li><li><a href="https://github.com/mooniak/abhaya-libre-font/releases">Releases</a></li></ul>
+<h2 id="fonts">Fonts</h2><table><tr><th>File</th><th>Size</th></tr><tr><td><a href="fonts/AbhayaLibre%5Bwght%5D.ttf">AbhayaLibre[wght].ttf</a></td><td>493 KB</td></tr><tr><td><a href="fonts/AbhayaLibre%5Bwght%5D.woff2">AbhayaLibre[wght].woff2</a></td><td>113 KB</td></tr></table>
+</main><footer class="site-foot">Generated by Mooniak's font tooling from the font's source repository. Fonts are licensed as stated in each repository. Everything here is for testing: do not use these builds in production, and do not treat the results as a statement about the finished font.</footer></body></html>

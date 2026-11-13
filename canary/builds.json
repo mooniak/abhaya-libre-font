@@ -1,0 +1,247 @@
+[
+ {
+  "family": "Abhaya Libre",
+  "commit": "0f506e1c5e9c946ccf468882cc2c803ae9e5a671",
+  "commit_short": "0f506e1",
+  "version": "2.000",
+  "generated_at": "2026-11-13T12:29:40Z",
+  "stage": {
+   "n": 7,
+   "name": "The hang system",
+   "cumulative": 86,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 75,
+   "counts": {
+    "FAIL": 1,
+    "WARN": 19,
+    "SKIP": 62,
+    "INFO": 20,
+    "PASS": 119
+   },
+   "total_checks": 221
+  },
+  "run_url": "https://github.com/mooniak/abhaya-libre-font/actions/runs/43425404938",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/abhaya-libre-font"
+ },
+ {
+  "family": "Abhaya Libre",
+  "commit": "af26ae28ef7c4ca45a3441dcf9c5f367a8d3d677",
+  "commit_short": "af26ae2",
+  "version": "2.000",
+  "generated_at": "2026-11-13T12:04:57Z",
+  "stage": {
+   "n": 7,
+   "name": "The hang system",
+   "cumulative": 86,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 74,
+   "counts": {
+    "FAIL": 1,
+    "WARN": 19,
+    "SKIP": 62,
+    "INFO": 21,
+    "PASS": 118
+   },
+   "total_checks": 221
+  },
+  "run_url": "https://github.com/mooniak/abhaya-libre-font/actions/runs/43422034227",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/abhaya-libre-font"
+ },
+ {
+  "family": "Abhaya Libre",
+  "commit": "c5522bc193e6d690a93561965c1e930c7aaaf73b",
+  "commit_short": "c5522bc",
+  "version": "2.000",
+  "generated_at": "2026-11-12T14:46:34Z",
+  "stage": {
+   "n": 7,
+   "name": "The hang system",
+   "cumulative": 86,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 72,
+   "counts": {
+    "FAIL": 5,
+    "WARN": 19,
+    "SKIP": 63,
+    "INFO": 21,
+    "PASS": 114
+   },
+   "total_checks": 222
+  },
+  "run_url": "https://github.com/mooniak/abhaya-libre-font/actions/runs/43240519265",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/abhaya-libre-font"
+ },
+ {
+  "family": "Abhaya Libre",
+  "commit": "58f9f0389638d15e70f72f666f0771e43de63ce4",
+  "commit_short": "58f9f03",
+  "version": "2.000",
+  "generated_at": "2026-11-12T12:23:03Z",
+  "stage": {
+   "n": 7,
+   "name": "The hang system",
+   "cumulative": 86,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 74,
+   "counts": {
+    "FAIL": 8,
+    "WARN": 20,
+    "SKIP": 62,
+    "INFO": 13,
+    "PASS": 114
+   },
+   "total_checks": 217
+  },
+  "run_url": "https://github.com/mooniak/abhaya-libre-font/actions/runs/43217244315",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/abhaya-libre-font"
+ },
+ {
+  "family": "Abhaya Libre",
+  "commit": "01a002ba5cb0bd0b73a337992ee17f49af0e3d4a",
+  "commit_short": "01a002b",
+  "version": "2.000",
+  "generated_at": "2026-11-12T10:36:42Z",
+  "stage": {
+   "n": 7,
+   "name": "The hang system",
+   "cumulative": 86,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 72,
+   "counts": {
+    "FAIL": 8,
+    "WARN": 24,
+    "SKIP": 62,
+    "INFO": 13,
+    "PASS": 113
+   },
+   "total_checks": 220
+  },
+  "run_url": "https://github.com/mooniak/abhaya-libre-font/actions/runs/43201711053",
+  "ref_name": "dev",
+  "channel": "canary",
+  "repository": "mooniak/abhaya-libre-font"
+ },
+ {
+  "family": "Abhaya Libre",
+  "commit": "2836de5a30230bd5652398242bbbd6cec524ff01",
+  "commit_short": "2836de5",
+  "version": "2.000",
+  "generated_at": "2026-11-12T10:15:23Z",
+  "stage": {
+   "n": 7,
+   "name": "The hang system",
+   "cumulative": 86,
+   "total": 110,
+   "gate_met": true,
+   "kernel_checkable_complete": false,
+   "kernel_complete": null,
+   "unverified_kernel_entries": [
+    "classic-conjuncts",
+    "conjunct-i-forms",
+    "ksha",
+    "rakaransaya",
+    "repaya",
+    "yansaya"
+   ]
+  },
+  "qa": {
+   "profile": "googlefonts",
+   "verdict": "fail",
+   "pass_rate": 72,
+   "counts": {
+    "FAIL": 8,
+    "WARN": 24,
+    "SKIP": 62,
+    "INFO": 13,
+    "PASS": 113
+   },
+   "total_checks": 220
+  },
+  "run_url": "https://github.com/mooniak/abhaya-libre-font/actions/runs/43198574402",
+  "ref_name": "dev",
+  "channel": "canary"
+ }
+]
