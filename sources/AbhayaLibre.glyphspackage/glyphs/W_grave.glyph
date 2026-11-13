@@ -1,0 +1,32 @@
+{
+glyphname = Wgrave;
+layers = (
+{
+components = (
+{
+name = W;
+},
+{
+name = grave;
+transform = "{1, 0, 0, 1, 182, 130}";
+}
+);
+layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
+width = 830;
+},
+{
+components = (
+{
+name = W;
+},
+{
+name = grave;
+transform = "{1, 0, 0, 1, 197, 130}";
+}
+);
+layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
+width = 893;
+}
+);
+unicode = 1E80;
+}

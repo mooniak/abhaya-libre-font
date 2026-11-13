@@ -2,6 +2,24 @@
 glyphname = dottedCircle;
 layers = (
 {
+anchors = (
+{
+name = ogonek;
+position = "{348, 9}";
+},
+{
+name = bottom;
+position = "{238, 0}";
+},
+{
+name = tm_halant;
+position = "{238, 375}";
+},
+{
+name = top;
+position = "{238, 500}";
+}
+);
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
 paths = (
 {
@@ -280,6 +298,24 @@ nodes = (
 width = 475;
 },
 {
+anchors = (
+{
+name = ogonek;
+position = "{328, 9}";
+},
+{
+name = bottom;
+position = "{218, 0}";
+},
+{
+name = tm_halant;
+position = "{218, 375}";
+},
+{
+name = top;
+position = "{218, 500}";
+}
+);
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 paths = (
 {

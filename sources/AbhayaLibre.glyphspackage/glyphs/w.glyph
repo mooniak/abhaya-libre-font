@@ -2,6 +2,12 @@
 glyphname = w;
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{368, 500}";
+}
+);
 background = {
 paths = (
 {
@@ -104,6 +110,12 @@ nodes = (
 width = 684;
 },
 {
+anchors = (
+{
+name = top;
+position = "{390, 500}";
+}
+);
 background = {
 paths = (
 {

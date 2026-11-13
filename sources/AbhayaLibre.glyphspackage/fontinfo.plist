@@ -850,6 +850,7 @@ B,
 C,
 Cacute,
 Ccaron,
+Cdotaccent,
 Ccedilla,
 D,
 Dcaron,
@@ -868,7 +869,9 @@ F,
 G,
 Gbreve,
 Gcommaaccent,
+Gdotaccent,
 H,
+Hbar,
 I,
 Iacute,
 Icircumflex,
@@ -928,9 +931,15 @@ Uogonek,
 Uring,
 V,
 W,
+Wcircumflex,
+Wgrave,
+Wacute,
+Wdieresis,
 X,
 Y,
+Ycircumflex,
 Yacute,
+Ygrave,
 Ydieresis,
 Z,
 Zacute,
@@ -951,6 +960,7 @@ b,
 c,
 cacute,
 ccaron,
+cdotaccent,
 ccedilla,
 d,
 dcaron,
@@ -968,9 +978,12 @@ eogonek,
 f,
 g,
 gbreve,
+gdotaccent,
 h,
+hbar,
 i,
 dotlessi,
+dotlessj,
 iacute,
 icircumflex,
 idieresis,
@@ -1008,6 +1021,7 @@ s,
 sacute,
 scaron,
 germandbls,
+Germandbls,
 t,
 tcaron,
 u,
@@ -1030,9 +1044,15 @@ uogonek,
 uring,
 v,
 w,
+wcircumflex,
+wgrave,
+wacute,
+wdieresis,
 x,
 y,
+ycircumflex,
 yacute,
+ygrave,
 ydieresis,
 z,
 zacute,
@@ -1221,6 +1241,20 @@ cedilla,
 ogonek,
 commaaccent,
 czechcaron,
+gravecomb,
+acutecomb,
+circumflexcomb,
+tildecomb,
+macroncomb,
+brevecomb,
+dotaccentcomb,
+dieresiscomb,
+ringcomb,
+hungarumlautcomb,
+caroncomb,
+commaaccentcomb,
+cedillacomb,
+ogonekcomb,
 mooniak,
 vertical_stem_upper
 );
@@ -1295,7 +1329,7 @@ disablesNiceNames = 1;
 familyName = "Abhaya Libre";
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;\012languagesystem sinh dflt;\012languagesystem taml dflt;\012languagesystem tml2 dflt;\012";
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem sinh dflt;\012languagesystem taml dflt;\012languagesystem tml2 dflt;\012";
 name = Languagesystems;
 },
 {
@@ -1308,6 +1342,10 @@ name = Prefix;
 }
 );
 features = (
+{
+code = "# i and j lose their dot when a top mark follows (soft-dotted letters)\012lookup ccmp_latn_dotless {\012  sub i' [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb] by dotlessi;\012  sub j' [gravecomb acutecomb circumflexcomb tildecomb macroncomb brevecomb dotaccentcomb dieresiscomb ringcomb hungarumlautcomb caroncomb] by dotlessj;\012} ccmp_latn_dotless;";
+name = ccmp;
+},
 {
 automatic = 1;
 code = "feature sups;\012feature numr;\012feature frac;\012feature ordn;\012feature onum;\012feature lnum;\012feature abvs;\012feature psts;\012feature ss01;\012";
@@ -1425,9 +1463,8 @@ name = ss08;
 notes = "Name: Name:";
 },
 {
-code = "sub nna-taml aasign-taml by nnAa-taml;\012sub nna2-taml aasign-taml by nna2-aa-taml;\012sub rra-taml aasign-taml by rrAa-taml;\012\012sub aisign-taml nna-taml by nnAi-taml;\012sub aisign-taml nna2-taml by nna2-ai-taml;\012sub aisign-taml la-taml by lAi-taml;\012sub aisign-taml lla-taml by llAi-taml;";
+code = "featureNames {\012  name \"Tamil old orthography ligatures\";\012};\012sub nna-taml aasign-taml by nnAa-taml;\012sub nna2-taml aasign-taml by nna2-aa-taml;\012sub rra-taml aasign-taml by rrAa-taml;\012\012sub aisign-taml nna-taml by nnAi-taml;\012sub aisign-taml nna2-taml by nna2-ai-taml;\012sub aisign-taml la-taml by lAi-taml;\012sub aisign-taml lla-taml by llAi-taml;";
 name = ss09;
-notes = "Name: Name: ";
 }
 );
 fontMaster = (
@@ -1444,11 +1481,11 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 860;
+value = 840;
 },
 {
 name = typoDescender;
-value = -348;
+value = -340;
 },
 {
 name = typoLineGap;
@@ -1472,11 +1509,11 @@ value = 348;
 },
 {
 name = hheaAscender;
-value = 860;
+value = 840;
 },
 {
 name = hheaDescender;
-value = -348;
+value = -340;
 }
 );
 descender = -254;
@@ -1544,11 +1581,11 @@ custom = Extra;
 customParameters = (
 {
 name = typoAscender;
-value = 860;
+value = 840;
 },
 {
 name = typoDescender;
-value = -348;
+value = -340;
 },
 {
 name = typoLineGap;
@@ -1572,11 +1609,11 @@ value = 348;
 },
 {
 name = hheaAscender;
-value = 860;
+value = 840;
 },
 {
 name = hheaDescender;
-value = -348;
+value = -340;
 }
 );
 descender = -254;
