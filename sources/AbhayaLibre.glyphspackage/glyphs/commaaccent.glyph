@@ -1,6 +1,6 @@
 {
-category = Mark;
 glyphname = commaaccent;
+production = uniF6C3;
 layers = (
 {
 anchors = (
@@ -184,7 +184,7 @@ nodes = (
 width = 500;
 }
 );
-production = uniF6C3;
-subCategory = Spacing;
 unicode = F6C3;
+category = Mark;
+subCategory = Spacing;
 }

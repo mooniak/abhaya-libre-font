@@ -4,12 +4,12 @@ layers = (
 {
 anchors = (
 {
-name = ogonek;
-position = "{348, 9}";
-},
-{
 name = bottom;
 position = "{238, 0}";
+},
+{
+name = ogonek;
+position = "{348, 9}";
 },
 {
 name = tm_halant;
@@ -300,12 +300,12 @@ width = 475;
 {
 anchors = (
 {
-name = ogonek;
-position = "{328, 9}";
-},
-{
 name = bottom;
 position = "{218, 0}";
+},
+{
+name = ogonek;
+position = "{328, 9}";
 },
 {
 name = tm_halant;
