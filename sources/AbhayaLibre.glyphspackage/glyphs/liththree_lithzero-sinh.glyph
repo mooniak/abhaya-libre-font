@@ -1,10 +1,10 @@
 {
-glyphname = sinThree_Zerolith;
+glyphname = "liththree_lithzero-sinh";
 layers = (
 {
 components = (
 {
-name = sinTwolith;
+name = "lithtwo-sinh";
 },
 {
 name = "aasign-sinh";
@@ -73,7 +73,7 @@ width = 1345;
 {
 components = (
 {
-name = sinTwolith;
+name = "lithtwo-sinh";
 },
 {
 name = "aasign-sinh";

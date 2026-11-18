@@ -4,7 +4,7 @@ layers = (
 {
 components = (
 {
-name = sinOnelith;
+name = "lithone-sinh";
 transform = "{1, 0, 0, 1, -2, 0}";
 }
 );
@@ -86,7 +86,7 @@ nodes = (
 };
 components = (
 {
-name = sinOnelith;
+name = "lithone-sinh";
 transform = "{1, 0, 0, 1, -2, 0}";
 }
 );

@@ -1,24 +1,24 @@
 {
-glyphname = sinFourlith;
+glyphname = "lithfive-sinh";
 layers = (
 {
 components = (
 {
-name = "ja-sinh";
+name = "da-sinh";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
-width = 583;
+width = 445;
 },
 {
 components = (
 {
-name = "ja-sinh";
+name = "da-sinh";
 }
 );
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
-width = 583;
+width = 445;
 }
 );
-unicode = 0DEA;
+unicode = 0DEB;
 }

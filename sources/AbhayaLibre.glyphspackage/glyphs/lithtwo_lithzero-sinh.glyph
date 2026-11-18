@@ -1,5 +1,5 @@
 {
-glyphname = sinTwo_Zerolith;
+glyphname = "lithtwo_lithzero-sinh";
 layers = (
 {
 background = {
@@ -62,7 +62,7 @@ nodes = (
 };
 components = (
 {
-name = sinTwolith;
+name = "lithtwo-sinh";
 }
 );
 guideLines = (
@@ -135,7 +135,7 @@ width = 1039;
 {
 components = (
 {
-name = sinTwolith;
+name = "lithtwo-sinh";
 }
 );
 guideLines = (

@@ -4,7 +4,7 @@ layers = (
 {
 components = (
 {
-name = sinOnelith;
+name = "lithone-sinh";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -24,7 +24,7 @@ width = 690;
 {
 components = (
 {
-name = sinOnelith;
+name = "lithone-sinh";
 transform = "{1, 0, 0, 1, -2, 0}";
 }
 );

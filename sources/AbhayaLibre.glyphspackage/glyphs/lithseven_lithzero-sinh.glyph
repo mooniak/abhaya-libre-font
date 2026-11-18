@@ -1,5 +1,5 @@
 {
-glyphname = sinSeven_Zerolith;
+glyphname = "lithseven_lithzero-sinh";
 layers = (
 {
 background = {
@@ -36,7 +36,7 @@ nodes = (
 };
 components = (
 {
-name = sinSevenlith;
+name = "lithseven-sinh";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -133,7 +133,7 @@ nodes = (
 };
 components = (
 {
-name = sinSevenlith;
+name = "lithseven-sinh";
 transform = "{1, 0, 0, 1, -1, 0}";
 }
 );

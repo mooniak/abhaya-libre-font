@@ -1,10 +1,10 @@
 {
-glyphname = sinSix_Zerolith;
+glyphname = "lithsix_lithzero-sinh";
 layers = (
 {
 components = (
 {
-name = sinSixlith;
+name = "lithsix-sinh";
 }
 );
 guideLines = (
@@ -74,7 +74,7 @@ width = 765;
 {
 components = (
 {
-name = sinSixlith;
+name = "lithsix-sinh";
 }
 );
 guideLines = (
