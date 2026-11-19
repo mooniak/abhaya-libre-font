@@ -17,8 +17,9 @@ sinhala:
   dist: -113
 
   numerals:
-    lith: ss07          # ASCII digits -> Lith digits
-    lithTens: rlig      # ෧෦ … ෯෦ -> the ten-ligatures, always on
+    # ASCII digits -> Lith digits, then the ten-ligatures (෧෦ … ෯෦). The ten-ligatures are
+    # only in ss07: Lith digits typed as such stay separate digits by default.
+    lith: ss07
     archaic: ss08       # ASCII digits -> archaic numbers
 
   featureNames:

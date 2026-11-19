@@ -1478,10 +1478,6 @@ code = "# lankafea:generated v1 — do not edit; regenerate with lankafea\012# l
 name = psts;
 },
 {
-code = "# lankafea:generated v1 — do not edit; regenerate with lankafea\012# lankafea:script sinhala\012script sinh;\012# Lith ten-ligatures\012lookup LithTens {\012    sub lithone-sinh lithzero-sinh by lithone_lithzero-sinh;  # lithone + lithzero\012    sub lithtwo-sinh lithzero-sinh by lithtwo_lithzero-sinh;  # lithtwo + lithzero\012    sub liththree-sinh lithzero-sinh by liththree_lithzero-sinh;  # liththree + lithzero\012    sub lithfour-sinh lithzero-sinh by lithfour_lithzero-sinh;  # lithfour + lithzero\012    sub lithfive-sinh lithzero-sinh by lithfive_lithzero-sinh;  # lithfive + lithzero\012    sub lithsix-sinh lithzero-sinh by lithsix_lithzero-sinh;  # lithsix + lithzero\012    sub lithseven-sinh lithzero-sinh by lithseven_lithzero-sinh;  # lithseven + lithzero\012    sub litheight-sinh lithzero-sinh by litheight_lithzero-sinh;  # litheight + lithzero\012    sub lithnine-sinh lithzero-sinh by lithnine_lithzero-sinh;  # lithnine + lithzero\012} LithTens;";
-name = rlig;
-},
-{
 code = "# lankafea:generated v1 — do not edit; regenerate with lankafea\012# lankafea:script sinhala\012script sinh;\012lookup TouchSpacing {\012    pos touch-sinh <0 0 -113 0>;  # tighten touching consonant clusters\012} TouchSpacing;";
 name = dist;
 },
