@@ -1,0 +1,105 @@
+{
+  "id": "abhaya-libre",
+  "family": "Abhaya Libre",
+  "scripts": [
+    "Sinh",
+    "Taml",
+    "Latn"
+  ],
+  "version": "2.000",
+  "channel": "canary",
+  "commit": "ec68377014d940d00233abb9bac68de9c167ed74",
+  "commit_short": "ec68377",
+  "ref_name": "dev",
+  "repository": "mooniak/abhaya-libre-font",
+  "run_url": "https://github.com/mooniak/abhaya-libre-font/actions/runs/44466310877",
+  "actor": "pathumego",
+  "generated_at": "2026-11-19T05:37:14Z",
+  "qa": {
+    "profile": "googlefonts",
+    "verdict": "fail",
+    "pass_rate": 75,
+    "counts": {
+      "FAIL": 1,
+      "WARN": 19,
+      "SKIP": 62,
+      "INFO": 20,
+      "PASS": 119
+    },
+    "total_checks": 221
+  },
+  "stage": {
+    "n": 10,
+    "name": "Long tail and polish",
+    "cumulative": 110,
+    "total": 110,
+    "gate_met": true,
+    "kernel_checkable_complete": true,
+    "kernel_complete": null,
+    "unverified_kernel_entries": [
+      "classic-conjuncts",
+      "conjunct-i-forms",
+      "ksha",
+      "rakaransaya",
+      "repaya",
+      "yansaya"
+    ]
+  },
+  "files": [
+    {
+      "path": "fonts/variable/AbhayaLibreCANARY[wght].ttf",
+      "format": "ttf",
+      "bytes": 516532,
+      "sha256": "bb60381e6404e86eac9a2d1fa4f6a3c8c91ba61ebeef0a93871000281aeb3586",
+      "style": "Regular",
+      "kind": "variable"
+    },
+    {
+      "path": "fonts/webfonts/AbhayaLibreCANARY[wght].woff2",
+      "format": "woff2",
+      "bytes": 119736,
+      "sha256": "99555d32d1950bf2cca71871707c425de68a970dc22ae304f44d32603ef87646",
+      "style": "Regular",
+      "kind": "variable"
+    }
+  ],
+  "proof_gate": {
+    "stage": 10,
+    "gated": true,
+    "shown": [
+      "classical-texts",
+      "conjuncts",
+      "devanagari-pangram",
+      "display-strings",
+      "indo-arabic-numerals",
+      "kern-pairs",
+      "libreoffice-ui-strings",
+      "marks",
+      "mixed-script",
+      "multiscript",
+      "numerals",
+      "ot-features",
+      "pali-and-sanskrit-words",
+      "prose",
+      "punctuation",
+      "rakar",
+      "shape-groups",
+      "signs-combinations",
+      "sinhala-alphabet",
+      "sinhala-pangram",
+      "spacing_strings",
+      "structured-texts",
+      "test-texts-stages",
+      "tamil-alphabet",
+      "tamil-numerals",
+      "tamil-pangram",
+      "tamil-kern-pairs",
+      "tamil-prose"
+    ],
+    "withheld": [],
+    "missing_for_next": [],
+    "scripts": [
+      "Tamil"
+    ]
+  }
+}

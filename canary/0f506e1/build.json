@@ -1,0 +1,134 @@
+{
+  "id": "abhaya-libre",
+  "family": "Abhaya Libre",
+  "scripts": [
+    "Sinh",
+    "Taml",
+    "Latn"
+  ],
+  "version": "2.000",
+  "channel": "canary",
+  "commit": "0f506e1c5e9c946ccf468882cc2c803ae9e5a671",
+  "commit_short": "0f506e1",
+  "ref_name": "dev",
+  "repository": "mooniak/abhaya-libre-font",
+  "run_url": "https://github.com/mooniak/abhaya-libre-font/actions/runs/43425404938",
+  "actor": "pathumego",
+  "generated_at": "2026-11-13T12:29:40Z",
+  "qa": {
+    "profile": "googlefonts",
+    "verdict": "fail",
+    "pass_rate": 75,
+    "counts": {
+      "FAIL": 1,
+      "WARN": 19,
+      "SKIP": 62,
+      "INFO": 20,
+      "PASS": 119
+    },
+    "total_checks": 221
+  },
+  "stage": {
+    "n": 7,
+    "name": "The hang system",
+    "cumulative": 86,
+    "total": 110,
+    "gate_met": true,
+    "kernel_checkable_complete": false,
+    "kernel_complete": null,
+    "unverified_kernel_entries": [
+      "classic-conjuncts",
+      "conjunct-i-forms",
+      "ksha",
+      "rakaransaya",
+      "repaya",
+      "yansaya"
+    ]
+  },
+  "files": [
+    {
+      "path": "fonts/variable/AbhayaLibreCANARY[wght].ttf",
+      "format": "ttf",
+      "bytes": 510988,
+      "sha256": "4bd90d105cb67564188b9ea52efec35c750dd5c96496c484bd232b5c2428b884",
+      "style": "Regular",
+      "kind": "variable"
+    },
+    {
+      "path": "fonts/webfonts/AbhayaLibreCANARY[wght].woff2",
+      "format": "woff2",
+      "bytes": 117628,
+      "sha256": "ef25e5225f67e5b069b032c88ec17a2a0e2a1a53d69b6423e77c0c82aa28035c",
+      "style": "Regular",
+      "kind": "variable"
+    }
+  ],
+  "proof_gate": {
+    "stage": 7,
+    "gated": true,
+    "shown": [
+      "display-strings",
+      "indo-arabic-numerals",
+      "kern-pairs",
+      "libreoffice-ui-strings",
+      "marks",
+      "numerals",
+      "prose",
+      "punctuation",
+      "shape-groups",
+      "signs-combinations",
+      "sinhala-alphabet",
+      "sinhala-pangram",
+      "spacing_strings",
+      "structured-texts",
+      "test-texts-stages",
+      "tamil-alphabet",
+      "tamil-numerals",
+      "tamil-pangram",
+      "tamil-kern-pairs",
+      "tamil-prose"
+    ],
+    "withheld": [
+      [
+        "classical-texts",
+        9
+      ],
+      [
+        "conjuncts",
+        9
+      ],
+      [
+        "devanagari-pangram",
+        9
+      ],
+      [
+        "mixed-script",
+        9
+      ],
+      [
+        "multiscript",
+        9
+      ],
+      [
+        "ot-features",
+        9
+      ],
+      [
+        "pali-and-sanskrit-words",
+        9
+      ],
+      [
+        "rakar",
+        9
+      ]
+    ],
+    "missing_for_next": [
+      "ෟ",
+      "ෲ",
+      "ෳ"
+    ],
+    "scripts": [
+      "Tamil"
+    ]
+  }
+}
