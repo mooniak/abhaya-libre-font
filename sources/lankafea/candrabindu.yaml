@@ -1,0 +1,11 @@
+# Abhaya Libre: the candrabindu (ඁ) over a body-height consonant takes its lower
+# variant, merged into lankafea's generated features with --inject. From Abhaya's old
+# candrabindu-sinh lookup (rlig), unchanged. Moves to GPOS later: abhaya-libre-font#106.
+classes:
+  BaseBodyHeight: [ka, ga, gha, cha, ja, nya, jnya, nyja, nna, ta, na, pa, bha, ya, la, sha, ssa, sa, ha, lla, fa]
+lookups:
+  - name: CandrabinduLow
+    feature: psts
+    comment: candrabindu over a body-height consonant
+    rules:
+      - {sub: ['@BaseBodyHeight', "candrabindu'"], by: candrabindu-sinh.001}

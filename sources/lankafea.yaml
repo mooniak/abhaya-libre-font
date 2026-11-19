@@ -1,0 +1,29 @@
+# lankafea settings for Abhaya Libre (read by `lankafea generate`/`validate`, which find
+# this file beside the source). The Sinhala features are generated from the
+# LankaGlyphset standard; this file holds only what is Abhaya's own. Regenerate with
+# `make features`. Reference: sinhala-font-tools/tools/feature-generator/docs/font-config.md
+sinhala:
+  # Abhaya's positional repaya / candrabindu variants (.001-.010), as data.
+  inject: [lankafea]
+
+  assign:
+    groups:
+      # The Da forms are ss01 (as in the standard) and dlig, as they have always been here.
+      - {group: DaShape, to: dlig, mode: copy}
+      # ං + ශ stays in ss03, where Abhaya has always had it.
+      - {group: AnusvaraSha, to: ss03}
+
+  # Touching clusters: pull the second consonant 113 units towards the first.
+  dist: -113
+
+  numerals:
+    lith: ss07          # ASCII digits -> Lith digits
+    lithTens: rlig      # ෧෦ … ෯෦ -> the ten-ligatures, always on
+    archaic: ss08       # ASCII digits -> archaic numbers
+
+  featureNames:
+    ss01: Sinhala Da forms
+    ss02: Sinhala Fa (ප + f)
+    ss03: Sinhala archaic ligatures
+    ss07: Sinhala Lith numerals
+    ss08: Sinhala archaic numerals

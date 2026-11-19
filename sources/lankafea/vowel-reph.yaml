@@ -1,0 +1,151 @@
+# Abhaya Libre: the repaya on a consonant that takes ි or ී (ර්‍කි, ර්‍ථී), merged into
+# lankafea's generated features with --inject. Written from the tables in Abhaya's old
+# matraI_matraII_reph lookup, which never ran under HarfBuzz (the repaya ligates onto the
+# consonant before the vowel sign does, so `kI repha` never occurs); this is what it meant
+# to do: the vowel ligature, with the repaya inside the ි/ී loop.
+#
+#   C_repha + ි  ->  CI + repha-sinh.006   (most consonants)
+#                    CI + repha-sinh.007   (ථ ඨ ඪ ඵ and their conjuncts: a wider loop)
+#                    CI + repha-sinh.008   (ණ)
+#
+# Runs after touch-reph.yaml (inject files merge in name order), which has already
+# handled the touching clusters, so no C_repha of a touching cluster is left here.
+# Positional variants move to GPOS later: abhaya-libre-font#106.
+classes:
+  RephTakesI006: [ka_repha, kha_repha, ga_repha, gha_repha, nga_repha, nnga_repha, ca_repha, cha_repha, ja_repha, jha_repha, nya_repha, jnya_repha, nyja_repha, tta_repha, dda_repha, nndda_repha, ta_repha, da_repha, dha_repha, na_repha, nda_repha, pa_repha, ba_repha, bha_repha, ma_repha, mba_repha, ya_repha, ra_repha, la_repha, va_repha, sha_repha, ssa_repha, sa_repha, ha_repha, lla_repha, fa_repha, fpa_repha, kSsa_repha, kVa_repha, tVa_repha, nDa_repha, nDha_repha, nVa_repha, gDha_repha, dVa_repha, dDha_repha, ttTtha_repha, nyCa_repha, nyCha_repha, cCa_repha, bBa_repha]
+  RephTakesIi006: [ka_repha, kha_repha, ga_repha, gha_repha, nga_repha, nnga_repha, ca_repha, cha_repha, ja_repha, jha_repha, nya_repha, jnya_repha, nyja_repha, tta_repha, dda_repha, nna_repha, nndda_repha, ta_repha, da_repha, dha_repha, na_repha, nda_repha, pa_repha, ba_repha, bha_repha, ma_repha, mba_repha, ya_repha, ra_repha, la_repha, va_repha, sha_repha, ssa_repha, sa_repha, ha_repha, lla_repha, fa_repha, fpa_repha, kSsa_repha, kVa_repha, tVa_repha, nDa_repha, nDha_repha, nVa_repha, gDha_repha, dVa_repha, dDha_repha, nyCa_repha, nyCha_repha, cCa_repha, bBa_repha]
+  RephTakesI007: [ttha_repha, ddha_repha, tha_repha, pha_repha, tTha_repha, nTha_repha]
+  RephTakesIi007: [ttha_repha, ddha_repha, tha_repha, pha_repha, tTha_repha, nTha_repha]
+  RephTakesI008: [nna_repha]
+  RephTakesIi008: [nna_repha]
+  RephInLoop: [repha-sinh.006, repha-sinh.007, repha-sinh.008]
+lookups:
+  - name: VowelRephSign
+    feature: psts
+    comment: repaya + ි/ී - the repaya variant goes after the sign
+    rules:
+      - {sub: ['@RephTakesI006', "isign'"], by: [isign, repha-sinh.006]}
+      - {sub: ['@RephTakesIi006', "iisign'"], by: [iisign, repha-sinh.006]}
+      - {sub: ['@RephTakesI007', "isign'"], by: [isign, repha-sinh.007]}
+      - {sub: ['@RephTakesIi007', "iisign'"], by: [iisign, repha-sinh.007]}
+      - {sub: ['@RephTakesI008', "isign'"], by: [isign, repha-sinh.008]}
+      - {sub: ['@RephTakesIi008', "iisign'"], by: [iisign, repha-sinh.008]}
+  - name: VowelRephVowel
+    feature: psts
+    comment: repaya + ි/ී - the consonant takes the sign
+    rules:
+      - {sub: ["ka_repha'", "isign'", '@RephInLoop'], by: kI}
+      - {sub: ["kha_repha'", "isign'", '@RephInLoop'], by: khI}
+      - {sub: ["ga_repha'", "isign'", '@RephInLoop'], by: gI}
+      - {sub: ["gha_repha'", "isign'", '@RephInLoop'], by: ghI}
+      - {sub: ["nga_repha'", "isign'", '@RephInLoop'], by: ngI}
+      - {sub: ["nnga_repha'", "isign'", '@RephInLoop'], by: nngI}
+      - {sub: ["ca_repha'", "isign'", '@RephInLoop'], by: cI}
+      - {sub: ["cha_repha'", "isign'", '@RephInLoop'], by: chI}
+      - {sub: ["ja_repha'", "isign'", '@RephInLoop'], by: jI}
+      - {sub: ["jha_repha'", "isign'", '@RephInLoop'], by: jhI}
+      - {sub: ["nya_repha'", "isign'", '@RephInLoop'], by: nyI}
+      - {sub: ["jnya_repha'", "isign'", '@RephInLoop'], by: jnyI}
+      - {sub: ["nyja_repha'", "isign'", '@RephInLoop'], by: nyjI}
+      - {sub: ["tta_repha'", "isign'", '@RephInLoop'], by: ttI}
+      - {sub: ["dda_repha'", "isign'", '@RephInLoop'], by: ddI}
+      - {sub: ["nndda_repha'", "isign'", '@RephInLoop'], by: nnddI}
+      - {sub: ["ta_repha'", "isign'", '@RephInLoop'], by: tI}
+      - {sub: ["da_repha'", "isign'", '@RephInLoop'], by: dI}
+      - {sub: ["dha_repha'", "isign'", '@RephInLoop'], by: dhI}
+      - {sub: ["na_repha'", "isign'", '@RephInLoop'], by: nI}
+      - {sub: ["nda_repha'", "isign'", '@RephInLoop'], by: ndI}
+      - {sub: ["pa_repha'", "isign'", '@RephInLoop'], by: pI}
+      - {sub: ["ba_repha'", "isign'", '@RephInLoop'], by: bI}
+      - {sub: ["bha_repha'", "isign'", '@RephInLoop'], by: bhI}
+      - {sub: ["ma_repha'", "isign'", '@RephInLoop'], by: mI}
+      - {sub: ["mba_repha'", "isign'", '@RephInLoop'], by: mbI}
+      - {sub: ["ya_repha'", "isign'", '@RephInLoop'], by: yI}
+      - {sub: ["ra_repha'", "isign'", '@RephInLoop'], by: rI}
+      - {sub: ["la_repha'", "isign'", '@RephInLoop'], by: lI}
+      - {sub: ["va_repha'", "isign'", '@RephInLoop'], by: vI}
+      - {sub: ["sha_repha'", "isign'", '@RephInLoop'], by: shI}
+      - {sub: ["ssa_repha'", "isign'", '@RephInLoop'], by: ssI}
+      - {sub: ["sa_repha'", "isign'", '@RephInLoop'], by: sI}
+      - {sub: ["ha_repha'", "isign'", '@RephInLoop'], by: hI}
+      - {sub: ["lla_repha'", "isign'", '@RephInLoop'], by: llI}
+      - {sub: ["fa_repha'", "isign'", '@RephInLoop'], by: fI}
+      - {sub: ["fpa_repha'", "isign'", '@RephInLoop'], by: fpI}
+      - {sub: ["kSsa_repha'", "isign'", '@RephInLoop'], by: kSsI}
+      - {sub: ["kVa_repha'", "isign'", '@RephInLoop'], by: kVI}
+      - {sub: ["tVa_repha'", "isign'", '@RephInLoop'], by: tVI}
+      - {sub: ["nDa_repha'", "isign'", '@RephInLoop'], by: nDI}
+      - {sub: ["nDha_repha'", "isign'", '@RephInLoop'], by: nDhI}
+      - {sub: ["nVa_repha'", "isign'", '@RephInLoop'], by: nVI}
+      - {sub: ["gDha_repha'", "isign'", '@RephInLoop'], by: gDhI}
+      - {sub: ["dVa_repha'", "isign'", '@RephInLoop'], by: dVI}
+      - {sub: ["dDha_repha'", "isign'", '@RephInLoop'], by: dDhI}
+      - {sub: ["ttTtha_repha'", "isign'", '@RephInLoop'], by: ttTthI}
+      - {sub: ["nyCa_repha'", "isign'", '@RephInLoop'], by: nyCI}
+      - {sub: ["nyCha_repha'", "isign'", '@RephInLoop'], by: nyChI}
+      - {sub: ["cCa_repha'", "isign'", '@RephInLoop'], by: cCI}
+      - {sub: ["bBa_repha'", "isign'", '@RephInLoop'], by: bBI}
+      - {sub: ["ka_repha'", "iisign'", '@RephInLoop'], by: kIi}
+      - {sub: ["kha_repha'", "iisign'", '@RephInLoop'], by: khIi}
+      - {sub: ["ga_repha'", "iisign'", '@RephInLoop'], by: gIi}
+      - {sub: ["gha_repha'", "iisign'", '@RephInLoop'], by: ghIi}
+      - {sub: ["nga_repha'", "iisign'", '@RephInLoop'], by: ngIi}
+      - {sub: ["nnga_repha'", "iisign'", '@RephInLoop'], by: nngIi}
+      - {sub: ["ca_repha'", "iisign'", '@RephInLoop'], by: cIi}
+      - {sub: ["cha_repha'", "iisign'", '@RephInLoop'], by: chIi}
+      - {sub: ["ja_repha'", "iisign'", '@RephInLoop'], by: jIi}
+      - {sub: ["jha_repha'", "iisign'", '@RephInLoop'], by: jhIi}
+      - {sub: ["nya_repha'", "iisign'", '@RephInLoop'], by: nyIi}
+      - {sub: ["jnya_repha'", "iisign'", '@RephInLoop'], by: jnyIi}
+      - {sub: ["nyja_repha'", "iisign'", '@RephInLoop'], by: nyjIi}
+      - {sub: ["tta_repha'", "iisign'", '@RephInLoop'], by: ttIi}
+      - {sub: ["dda_repha'", "iisign'", '@RephInLoop'], by: ddIi}
+      - {sub: ["nna_repha'", "iisign'", '@RephInLoop'], by: nnIi}
+      - {sub: ["nndda_repha'", "iisign'", '@RephInLoop'], by: nnddIi}
+      - {sub: ["ta_repha'", "iisign'", '@RephInLoop'], by: tIi}
+      - {sub: ["da_repha'", "iisign'", '@RephInLoop'], by: dIi}
+      - {sub: ["dha_repha'", "iisign'", '@RephInLoop'], by: dhIi}
+      - {sub: ["na_repha'", "iisign'", '@RephInLoop'], by: nIi}
+      - {sub: ["nda_repha'", "iisign'", '@RephInLoop'], by: ndIi}
+      - {sub: ["pa_repha'", "iisign'", '@RephInLoop'], by: pIi}
+      - {sub: ["ba_repha'", "iisign'", '@RephInLoop'], by: bIi}
+      - {sub: ["bha_repha'", "iisign'", '@RephInLoop'], by: bhIi}
+      - {sub: ["ma_repha'", "iisign'", '@RephInLoop'], by: mIi}
+      - {sub: ["mba_repha'", "iisign'", '@RephInLoop'], by: mbIi}
+      - {sub: ["ya_repha'", "iisign'", '@RephInLoop'], by: yIi}
+      - {sub: ["ra_repha'", "iisign'", '@RephInLoop'], by: rIi}
+      - {sub: ["la_repha'", "iisign'", '@RephInLoop'], by: lIi}
+      - {sub: ["va_repha'", "iisign'", '@RephInLoop'], by: vIi}
+      - {sub: ["sha_repha'", "iisign'", '@RephInLoop'], by: shIi}
+      - {sub: ["ssa_repha'", "iisign'", '@RephInLoop'], by: ssIi}
+      - {sub: ["sa_repha'", "iisign'", '@RephInLoop'], by: sIi}
+      - {sub: ["ha_repha'", "iisign'", '@RephInLoop'], by: hIi}
+      - {sub: ["lla_repha'", "iisign'", '@RephInLoop'], by: llIi}
+      - {sub: ["fa_repha'", "iisign'", '@RephInLoop'], by: fIi}
+      - {sub: ["fpa_repha'", "iisign'", '@RephInLoop'], by: fpIi}
+      - {sub: ["kSsa_repha'", "iisign'", '@RephInLoop'], by: kSsIi}
+      - {sub: ["kVa_repha'", "iisign'", '@RephInLoop'], by: kVIi}
+      - {sub: ["tVa_repha'", "iisign'", '@RephInLoop'], by: tVIi}
+      - {sub: ["nDa_repha'", "iisign'", '@RephInLoop'], by: nDIi}
+      - {sub: ["nDha_repha'", "iisign'", '@RephInLoop'], by: nDhIi}
+      - {sub: ["nVa_repha'", "iisign'", '@RephInLoop'], by: nVIi}
+      - {sub: ["gDha_repha'", "iisign'", '@RephInLoop'], by: gDhIi}
+      - {sub: ["dVa_repha'", "iisign'", '@RephInLoop'], by: dVIi}
+      - {sub: ["dDha_repha'", "iisign'", '@RephInLoop'], by: dDhIi}
+      - {sub: ["nyCa_repha'", "iisign'", '@RephInLoop'], by: nyCIi}
+      - {sub: ["nyCha_repha'", "iisign'", '@RephInLoop'], by: nyChIi}
+      - {sub: ["cCa_repha'", "iisign'", '@RephInLoop'], by: cCIi}
+      - {sub: ["bBa_repha'", "iisign'", '@RephInLoop'], by: bBIi}
+      - {sub: ["ttha_repha'", "isign'", '@RephInLoop'], by: tthI}
+      - {sub: ["ddha_repha'", "isign'", '@RephInLoop'], by: ddhI}
+      - {sub: ["tha_repha'", "isign'", '@RephInLoop'], by: thI}
+      - {sub: ["pha_repha'", "isign'", '@RephInLoop'], by: phI}
+      - {sub: ["tTha_repha'", "isign'", '@RephInLoop'], by: tThI}
+      - {sub: ["nTha_repha'", "isign'", '@RephInLoop'], by: nThI}
+      - {sub: ["ttha_repha'", "iisign'", '@RephInLoop'], by: tthIi}
+      - {sub: ["ddha_repha'", "iisign'", '@RephInLoop'], by: ddhIi}
+      - {sub: ["tha_repha'", "iisign'", '@RephInLoop'], by: thIi}
+      - {sub: ["pha_repha'", "iisign'", '@RephInLoop'], by: phIi}
+      - {sub: ["tTha_repha'", "iisign'", '@RephInLoop'], by: tThIi}
+      - {sub: ["nTha_repha'", "iisign'", '@RephInLoop'], by: nThIi}
+      - {sub: ["nna_repha'", "isign'", '@RephInLoop'], by: nnI}

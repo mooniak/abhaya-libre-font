@@ -18,6 +18,7 @@ help:
 	@echo "  make proof:  Creates HTML proof documents in the proof/ directory"
 	@echo "  make pages:  Builds the stage-gated proof site in _site/ (landing page, proofs, build details)"
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
+	@echo "  make features: Regenerates the lankafea OpenType features (fonts with sources/lankafea.yaml)"
 	@echo
 
 build: build.stamp
@@ -52,6 +53,22 @@ proof: venv build.stamp
 # PDF=1 also renders PDF books into out/proofs-pdf/ (dev/release only; needs Playwright).
 pages: build.stamp
 	. venv/bin/activate; python3 scripts/build_pages.py --out _site $(if $(PDF),--pdf out/proofs-pdf,)
+
+# Regenerate the OpenType features that lankafea generates from the LankaGlyphset standard,
+# for fonts that keep their settings in sources/lankafea.yaml (one section per script:
+# sinhala:, tamil:). Only the layout code in the source changes; hand-written features
+# lankafea doesn't own (Latin, a script not yet generated) are kept. Commit the result:
+# the build itself doesn't need lankafea. LANKAFEA defaults to the sinhala-font-tools
+# checkout beside font-repos/.
+LANKAFEA ?= ../../sinhala-font-tools/tools/feature-generator/.venv/bin/lankafea
+features:
+	@if [ ! -f sources/lankafea.yaml ]; then echo "No sources/lankafea.yaml: this font's features are hand-written."; exit 0; fi; \
+	for script in $$(grep -E '^(sinhala|tamil):' sources/lankafea.yaml | tr -d ':'); do \
+	  for source in $(SOURCES); do \
+	    echo "lankafea: $$script features -> $$source"; \
+	    $(LANKAFEA) generate --script $$script --font $$source --glyphs-out $$source --quiet -o /dev/null < /dev/null || exit 1; \
+	  done; \
+	done
 
 # Stamp the OpenFV name ID 5 into built fonts per channel (canary/dev/release),
 # derived from the CI environment; no-op locally. Run right after `build`, before

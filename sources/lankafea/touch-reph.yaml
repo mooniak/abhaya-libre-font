@@ -1,0 +1,170 @@
+# Abhaya Libre: the repaya on a touching cluster (ර්‍ක‍්ක), merged into lankafea's
+# generated features with --inject. Written from the tables in Abhaya's old touch_reph and
+# touch_reph_matraI lookups, which never ran under HarfBuzz; this is what they meant to do.
+#
+# lankafea forms the repaya on the second consonant: C1 touch C2_repha. Then:
+#  - when the second consonant takes ි or ී, the repaya moves over the first consonant;
+#    its variant depends on the first consonant's height (TouchRephSign + TouchRephVowel).
+#  - otherwise the repaya sits over the join; its variant depends on the second
+#    consonant (TouchRephJoin).
+# Positional variants move to GPOS later: abhaya-libre-font#106.
+classes:
+  TouchFirstAscending: [kha, nga, nnga, ca, jha, tta, ttha, dda, ddha, nndda, tha, dha, pha, ba, ma, mba, va]
+  TouchFirstBodyHeight: [ka, ga, gha, cha, ja, nya, jnya, nyja, nna, ta, na, pa, bha, ya, la, sha, ssa, sa, ha, lla, fa]
+  TouchFirstNarrow: [da, nda]
+  TouchRephTakesI: [bBa_repha, ba_repha, bha_repha, cCa_repha, ca_repha, cha_repha, dDha_repha, dVa_repha, da_repha, dda_repha, ddha_repha, dha_repha, fa_repha, fpa_repha, gDha_repha, ga_repha, gha_repha, ha_repha, ja_repha, jha_repha, jnya_repha, kSsa_repha, kVa_repha, ka_repha, kha_repha, la_repha, lla_repha, ma_repha, mba_repha, nDa_repha, nDha_repha, nTha_repha, nVa_repha, na_repha, nda_repha, nga_repha, nna_repha, nndda_repha, nnga_repha, nyCa_repha, nyCha_repha, nya_repha, nyja_repha, pa_repha, pha_repha, ra_repha, sa_repha, sha_repha, ssa_repha, tTha_repha, tVa_repha, ta_repha, tha_repha, ttTtha_repha, tta_repha, ttha_repha, va_repha, ya_repha]
+  TouchRephTakesIi: [bBa_repha, ba_repha, bha_repha, cCa_repha, ca_repha, cha_repha, dDha_repha, dVa_repha, da_repha, dda_repha, ddha_repha, dha_repha, fa_repha, fpa_repha, gDha_repha, ga_repha, gha_repha, ha_repha, ja_repha, jha_repha, jnya_repha, kSsa_repha, kVa_repha, ka_repha, kha_repha, la_repha, lla_repha, ma_repha, mba_repha, nDa_repha, nDha_repha, nTha_repha, nVa_repha, na_repha, nda_repha, nga_repha, nna_repha, nndda_repha, nnga_repha, nyCa_repha, nyCha_repha, nya_repha, nyja_repha, pa_repha, pha_repha, ra_repha, sa_repha, sha_repha, ssa_repha, tTha_repha, tVa_repha, ta_repha, tha_repha, ttTtha_repha, tta_repha, ttha_repha, va_repha, ya_repha]
+lookups:
+  - name: TouchRephSign
+    feature: psts
+    comment: touching cluster + ි/ී - the repaya goes after the sign, over the first consonant
+    rules:
+      - {sub: ['@TouchFirstAscending', touch, '@TouchRephTakesI', "isign'"], by: [isign, repha-sinh.003]}
+      - {sub: ['@TouchFirstAscending', touch, '@TouchRephTakesIi', "iisign'"], by: [iisign, repha-sinh.003]}
+      - {sub: ['@TouchFirstBodyHeight', touch, '@TouchRephTakesI', "isign'"], by: [isign, repha-sinh.004]}
+      - {sub: ['@TouchFirstBodyHeight', touch, '@TouchRephTakesIi', "iisign'"], by: [iisign, repha-sinh.004]}
+      - {sub: ['@TouchFirstNarrow', touch, '@TouchRephTakesI', "isign'"], by: [isign, repha-sinh.005]}
+      - {sub: ['@TouchFirstNarrow', touch, '@TouchRephTakesIi', "iisign'"], by: [iisign, repha-sinh.005]}
+  - name: TouchRephVowel
+    feature: psts
+    comment: touching cluster + ි/ී - the second consonant takes the sign
+    rules:
+      - {sub: [touch, "bBa_repha'", "isign'"], by: bBI}
+      - {sub: [touch, "ba_repha'", "isign'"], by: bI}
+      - {sub: [touch, "bha_repha'", "isign'"], by: bhI}
+      - {sub: [touch, "cCa_repha'", "isign'"], by: cCI}
+      - {sub: [touch, "ca_repha'", "isign'"], by: cI}
+      - {sub: [touch, "cha_repha'", "isign'"], by: chI}
+      - {sub: [touch, "dDha_repha'", "isign'"], by: dDhI}
+      - {sub: [touch, "dVa_repha'", "isign'"], by: dVI}
+      - {sub: [touch, "da_repha'", "isign'"], by: dI}
+      - {sub: [touch, "dda_repha'", "isign'"], by: ddI}
+      - {sub: [touch, "ddha_repha'", "isign'"], by: ddhI}
+      - {sub: [touch, "dha_repha'", "isign'"], by: dhI}
+      - {sub: [touch, "fa_repha'", "isign'"], by: fI}
+      - {sub: [touch, "fpa_repha'", "isign'"], by: fpI}
+      - {sub: [touch, "gDha_repha'", "isign'"], by: gDhI}
+      - {sub: [touch, "ga_repha'", "isign'"], by: gI}
+      - {sub: [touch, "gha_repha'", "isign'"], by: ghI}
+      - {sub: [touch, "ha_repha'", "isign'"], by: hI}
+      - {sub: [touch, "ja_repha'", "isign'"], by: jI}
+      - {sub: [touch, "jha_repha'", "isign'"], by: jhI}
+      - {sub: [touch, "jnya_repha'", "isign'"], by: jnyI}
+      - {sub: [touch, "kSsa_repha'", "isign'"], by: kSsI}
+      - {sub: [touch, "kVa_repha'", "isign'"], by: kVI}
+      - {sub: [touch, "ka_repha'", "isign'"], by: kI}
+      - {sub: [touch, "kha_repha'", "isign'"], by: khI}
+      - {sub: [touch, "la_repha'", "isign'"], by: lI}
+      - {sub: [touch, "lla_repha'", "isign'"], by: llI}
+      - {sub: [touch, "ma_repha'", "isign'"], by: mI}
+      - {sub: [touch, "mba_repha'", "isign'"], by: mbI}
+      - {sub: [touch, "nDa_repha'", "isign'"], by: nDI}
+      - {sub: [touch, "nDha_repha'", "isign'"], by: nDhI}
+      - {sub: [touch, "nTha_repha'", "isign'"], by: nThI}
+      - {sub: [touch, "nVa_repha'", "isign'"], by: nVI}
+      - {sub: [touch, "na_repha'", "isign'"], by: nI}
+      - {sub: [touch, "nda_repha'", "isign'"], by: ndI}
+      - {sub: [touch, "nga_repha'", "isign'"], by: ngI}
+      - {sub: [touch, "nna_repha'", "isign'"], by: nnI}
+      - {sub: [touch, "nndda_repha'", "isign'"], by: nnddI}
+      - {sub: [touch, "nnga_repha'", "isign'"], by: nngI}
+      - {sub: [touch, "nyCa_repha'", "isign'"], by: nyCI}
+      - {sub: [touch, "nyCha_repha'", "isign'"], by: nyChI}
+      - {sub: [touch, "nya_repha'", "isign'"], by: nyI}
+      - {sub: [touch, "nyja_repha'", "isign'"], by: nyjI}
+      - {sub: [touch, "pa_repha'", "isign'"], by: pI}
+      - {sub: [touch, "pha_repha'", "isign'"], by: phI}
+      - {sub: [touch, "ra_repha'", "isign'"], by: rI}
+      - {sub: [touch, "sa_repha'", "isign'"], by: sI}
+      - {sub: [touch, "sha_repha'", "isign'"], by: shI}
+      - {sub: [touch, "ssa_repha'", "isign'"], by: ssI}
+      - {sub: [touch, "tTha_repha'", "isign'"], by: tThI}
+      - {sub: [touch, "tVa_repha'", "isign'"], by: tVI}
+      - {sub: [touch, "ta_repha'", "isign'"], by: tI}
+      - {sub: [touch, "tha_repha'", "isign'"], by: thI}
+      - {sub: [touch, "ttTtha_repha'", "isign'"], by: ttTthI}
+      - {sub: [touch, "tta_repha'", "isign'"], by: ttI}
+      - {sub: [touch, "ttha_repha'", "isign'"], by: tthI}
+      - {sub: [touch, "va_repha'", "isign'"], by: vI}
+      - {sub: [touch, "ya_repha'", "isign'"], by: yI}
+      - {sub: [touch, "bBa_repha'", "iisign'"], by: bBIi}
+      - {sub: [touch, "ba_repha'", "iisign'"], by: bIi}
+      - {sub: [touch, "bha_repha'", "iisign'"], by: bhIi}
+      - {sub: [touch, "cCa_repha'", "iisign'"], by: cCIi}
+      - {sub: [touch, "ca_repha'", "iisign'"], by: cIi}
+      - {sub: [touch, "cha_repha'", "iisign'"], by: chIi}
+      - {sub: [touch, "dDha_repha'", "iisign'"], by: dDhIi}
+      - {sub: [touch, "dVa_repha'", "iisign'"], by: dVIi}
+      - {sub: [touch, "da_repha'", "iisign'"], by: dIi}
+      - {sub: [touch, "dda_repha'", "iisign'"], by: ddIi}
+      - {sub: [touch, "ddha_repha'", "iisign'"], by: ddhIi}
+      - {sub: [touch, "dha_repha'", "iisign'"], by: dhIi}
+      - {sub: [touch, "fa_repha'", "iisign'"], by: fIi}
+      - {sub: [touch, "fpa_repha'", "iisign'"], by: fpIi}
+      - {sub: [touch, "gDha_repha'", "iisign'"], by: gDhIi}
+      - {sub: [touch, "ga_repha'", "iisign'"], by: gIi}
+      - {sub: [touch, "gha_repha'", "iisign'"], by: ghIi}
+      - {sub: [touch, "ha_repha'", "iisign'"], by: hIi}
+      - {sub: [touch, "ja_repha'", "iisign'"], by: jIi}
+      - {sub: [touch, "jha_repha'", "iisign'"], by: jhIi}
+      - {sub: [touch, "jnya_repha'", "iisign'"], by: jnyIi}
+      - {sub: [touch, "kSsa_repha'", "iisign'"], by: kSsIi}
+      - {sub: [touch, "kVa_repha'", "iisign'"], by: kVIi}
+      - {sub: [touch, "ka_repha'", "iisign'"], by: kIi}
+      - {sub: [touch, "kha_repha'", "iisign'"], by: khIi}
+      - {sub: [touch, "la_repha'", "iisign'"], by: lIi}
+      - {sub: [touch, "lla_repha'", "iisign'"], by: llIi}
+      - {sub: [touch, "ma_repha'", "iisign'"], by: mIi}
+      - {sub: [touch, "mba_repha'", "iisign'"], by: mbIi}
+      - {sub: [touch, "nDa_repha'", "iisign'"], by: nDIi}
+      - {sub: [touch, "nDha_repha'", "iisign'"], by: nDhIi}
+      - {sub: [touch, "nTha_repha'", "iisign'"], by: nThIi}
+      - {sub: [touch, "nVa_repha'", "iisign'"], by: nVIi}
+      - {sub: [touch, "na_repha'", "iisign'"], by: nIi}
+      - {sub: [touch, "nda_repha'", "iisign'"], by: ndIi}
+      - {sub: [touch, "nga_repha'", "iisign'"], by: ngIi}
+      - {sub: [touch, "nna_repha'", "iisign'"], by: nnIi}
+      - {sub: [touch, "nndda_repha'", "iisign'"], by: nnddIi}
+      - {sub: [touch, "nnga_repha'", "iisign'"], by: nngIi}
+      - {sub: [touch, "nyCa_repha'", "iisign'"], by: nyCIi}
+      - {sub: [touch, "nyCha_repha'", "iisign'"], by: nyChIi}
+      - {sub: [touch, "nya_repha'", "iisign'"], by: nyIi}
+      - {sub: [touch, "nyja_repha'", "iisign'"], by: nyjIi}
+      - {sub: [touch, "pa_repha'", "iisign'"], by: pIi}
+      - {sub: [touch, "pha_repha'", "iisign'"], by: phIi}
+      - {sub: [touch, "ra_repha'", "iisign'"], by: rIi}
+      - {sub: [touch, "sa_repha'", "iisign'"], by: sIi}
+      - {sub: [touch, "sha_repha'", "iisign'"], by: shIi}
+      - {sub: [touch, "ssa_repha'", "iisign'"], by: ssIi}
+      - {sub: [touch, "tTha_repha'", "iisign'"], by: tThIi}
+      - {sub: [touch, "tVa_repha'", "iisign'"], by: tVIi}
+      - {sub: [touch, "ta_repha'", "iisign'"], by: tIi}
+      - {sub: [touch, "tha_repha'", "iisign'"], by: thIi}
+      - {sub: [touch, "ttTtha_repha'", "iisign'"], by: ttTthIi}
+      - {sub: [touch, "tta_repha'", "iisign'"], by: ttIi}
+      - {sub: [touch, "ttha_repha'", "iisign'"], by: tthIi}
+      - {sub: [touch, "va_repha'", "iisign'"], by: vIi}
+      - {sub: [touch, "ya_repha'", "iisign'"], by: yIi}
+  - name: TouchRephJoin
+    feature: psts
+    comment: touching cluster - the repaya sits over the join
+    rules:
+      - {sub: [touch, "ka_repha'"], by: [ka, repha-sinh.001]}
+      - {sub: [touch, "jha_repha'"], by: [jha, repha-sinh.001]}
+      - {sub: [touch, "gha_repha'"], by: [gha, repha-sinh.001]}
+      - {sub: [touch, "ta_repha'"], by: [ta, repha-sinh.001]}
+      - {sub: [touch, "bha_repha'"], by: [bha, repha-sinh.001]}
+      - {sub: [touch, "ga_repha'"], by: [ga, repha-sinh.002]}
+      - {sub: [touch, "kha_repha'"], by: [kha, repha-sinh.002]}
+      - {sub: [touch, "ca_repha'"], by: [ca, repha-sinh.002]}
+      - {sub: [touch, "tta_repha'"], by: [tta, repha-sinh.002]}
+      - {sub: [touch, "dda_repha'"], by: [dda, repha-sinh.002]}
+      - {sub: [touch, "ma_repha'"], by: [ma, repha-sinh.002]}
+      - {sub: [touch, "va_repha'"], by: [va, repha-sinh.002]}
+      - {sub: [touch, "dha_repha'"], by: [dha, repha-sinh.002]}
+      - {sub: [touch, "ba_repha'"], by: [ba, repha-sinh.002]}
+      - {sub: [touch, "pa_repha'"], by: [pa, repha-sinh.005]}
+      - {sub: [touch, "la_repha'"], by: [la, repha-sinh.005]}
+      - {sub: [touch, "ya_repha'"], by: [ya, repha-sinh.005]}
+      - {sub: [touch, "da_repha'"], by: [da, repha-sinh.009]}
+      - {sub: [touch, "nna_repha'"], by: [nna, repha-sinh.010]}
