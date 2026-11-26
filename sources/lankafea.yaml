@@ -32,3 +32,7 @@ sinhala:
     ss03: Sinhala archaic ligatures
     ss07: Sinhala Lith numerals
     ss08: Sinhala archaic numerals
+
+tamil:
+  featureNames:
+    ss09: Tamil old orthography ligatures   # the name Abhaya's ss09 has always had
