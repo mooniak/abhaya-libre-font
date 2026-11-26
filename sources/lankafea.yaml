@@ -16,6 +16,10 @@ sinhala:
   # Touching clusters: pull the second consonant 113 units towards the first.
   dist: -113
 
+  # ZWJ conjunct spellings become the encoded prenasalised letters, as they always have
+  # here: ම්‍බ -> ඹ, ඞ්‍ග -> ඟ, ණ්‍ඩ -> ඬ, ඤ්‍ජ -> ඦ.
+  prenasalisedZwj: true
+
   numerals:
     # ASCII digits -> Lith digits, then the ten-ligatures (෧෦ … ෯෦). The ten-ligatures are
     # only in ss07: Lith digits typed as such stay separate digits by default.
