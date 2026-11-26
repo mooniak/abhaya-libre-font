@@ -726,7 +726,7 @@ value = (
 "nna-taml",
 "ta-taml",
 "na-taml",
-"nna2-taml",
+"nnna-taml",
 "pa-taml",
 "ma-taml",
 "ya-taml",
@@ -825,12 +825,12 @@ value = (
 "nnIi-taml",
 "nnU-taml",
 "nnUu-taml",
-"nna2-aa-taml",
-"nna2-ai-taml",
-"nna2-i-taml",
-"nna2-ii-taml",
-"nna2-u-taml",
-"nna2-uu-taml",
+"nnnAa-taml",
+"nnnAi-taml",
+"nnnI-taml",
+"nnnIi-taml",
+"nnnU-taml",
+"nnnUu-taml",
 "nyI-taml",
 "nyIi-taml",
 "nyU-taml",
@@ -876,17 +876,17 @@ value = (
 "zhIi-taml",
 "zhU-taml",
 "zhUu-taml",
-"aisign-taml.alt",
-"isign.alt1-taml",
-"isign.alt2-taml",
-"isign.alt3-taml",
-"isign.alt4-taml",
-"isign.alt5-taml",
-"isign.alt6-taml",
-"isign.alt7-taml",
-"iisign.alt-taml",
-"iisign.alt1-taml",
-"usign.alt1-taml",
+"aisign-taml.la",
+"isign-taml.pa",
+"isign-taml.ma",
+"isign-taml.alt3",
+"isign-taml.alt4",
+"isign-taml.alt5",
+"isign-taml.alt6",
+"isign-taml.alt7",
+"iisign-taml.alt",
+"iisign-taml.alt1",
+"usign-taml.pa",
 A,
 Aacute,
 Abreve,
@@ -1385,7 +1385,7 @@ code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem
 name = Languagesystems;
 },
 {
-code = "@TA_MATRA_U_1 = [ nga-taml pa-taml ya-taml va-taml ];\012\012#---- AKHN ----\012\012lookup akhands {\012    sub ka-taml virama-taml ssa-taml by kSsa-taml;\012    sub sha-taml virama-taml ra-taml iisign-taml by shree-taml;\012    sub sa-taml virama-taml ra-taml iisign-taml by shree-taml;\012    \012} akhands;\012\012\012\012#---- ABVS ----\012\012lookup above_base_sub_1 {\012sub ka-taml	isign-taml	by	kI-taml	;\012sub nga-taml	isign-taml	by	ngI-taml	;\012sub ca-taml	isign-taml	by	cI-taml	;\012sub nya-taml	isign-taml	by	nyI-taml	;\012sub tta-taml	isign-taml	by	ttI-taml	;\012sub nna-taml	isign-taml	by	nnI-taml	;\012sub ta-taml	isign-taml	by	tI-taml	;\012sub na-taml	isign-taml	by	nI-taml	;\012sub pa-taml	isign-taml	by	pI-taml	;\012sub ma-taml	isign-taml	by	mI-taml	;\012sub ya-taml	isign-taml	by	yI-taml	;\012sub ra-taml	isign-taml	by	rI-taml	;\012sub la-taml	isign-taml	by	lI-taml	;\012sub va-taml	isign-taml	by	vI-taml	;\012sub zha-taml	isign-taml	by	zhI-taml	;\012sub lla-taml	isign-taml	by	llI-taml	;\012sub rra-taml	isign-taml	by	rrI-taml	;\012sub nna2-taml	isign-taml	by	nna2-i-taml	;\012sub ja-taml	isign-taml	by	jI-taml	;\012sub ssa-taml	isign-taml	by	ssI-taml	;\012sub sa-taml	isign-taml	by	sI-taml	;\012sub ha-taml	isign-taml	by	hI-taml	;\012sub kSsa-taml	isign-taml	by	kSsI-taml	;\012sub sha-taml	isign-taml	by	shI-taml	;\012} above_base_sub_1;\012\012lookup above_base_sub_2 {\012sub ka-taml	iisign-taml	by	kIi-taml	;\012sub nga-taml	iisign-taml	by	ngIi-taml	;\012sub ca-taml	iisign-taml	by	cIi-taml	;\012sub nya-taml	iisign-taml	by	nyIi-taml	;\012sub tta-taml	iisign-taml	by	ttIi-taml	;\012sub nna-taml	iisign-taml	by	nnIi-taml	;\012sub ta-taml	iisign-taml	by	tIi-taml	;\012sub na-taml	iisign-taml	by	nIi-taml	;\012sub pa-taml	iisign-taml	by	pIi-taml	;\012sub ma-taml	iisign-taml	by	mIi-taml	;\012sub ya-taml	iisign-taml	by	yIi-taml	;\012sub ra-taml	iisign-taml	by	rIi-taml	;\012sub la-taml	iisign-taml	by	lIi-taml	;\012sub va-taml	iisign-taml	by	vIi-taml	;\012sub zha-taml	iisign-taml	by	zhIi-taml	;\012sub lla-taml	iisign-taml	by	llIi-taml	;\012sub rra-taml	iisign-taml	by	rrIi-taml	;\012sub nna2-taml	iisign-taml	by	nna2-ii-taml	;\012sub ja-taml	iisign-taml	by	jIi-taml	;\012sub ssa-taml	iisign-taml	by	ssIi-taml	;\012sub sa-taml	iisign-taml	by	sIi-taml	;\012sub ha-taml	iisign-taml	by	hIi-taml	;\012sub kSsa-taml	iisign-taml	by	kSsIi-taml	;\012sub sha-taml	iisign-taml	by	shIi-taml	;\012\012 } above_base_sub_2;\012\012#---- PSTS ----\012\012lookup post_base_sub_1 {\012    sub ka-taml usign-taml by kU-taml;\012    sub ca-taml usign-taml by cU-taml;\012    sub nya-taml usign-taml by nyU-taml;\012    sub tta-taml usign-taml by ttU-taml;\012    sub nna-taml usign-taml by nnU-taml;\012    sub ta-taml usign-taml by tU-taml;\012    sub na-taml usign-taml by nU-taml;\012    sub nna2-taml usign-taml by nna2-u-taml;\012    sub pa-taml usign-taml by pU-taml;\012	sub ma-taml usign-taml by mU-taml;\012    sub ra-taml usign-taml by rU-taml;\012    sub rra-taml usign-taml by rrU-taml;\012    sub la-taml usign-taml by lU-taml;\012    sub lla-taml usign-taml by llU-taml;\012    sub zha-taml usign-taml by zhU-taml;\012    sub ja-taml usign-taml by jU-taml;\012    sub sa-taml usign-taml by sU-taml;\012    sub ssa-taml usign-taml by ssU-taml;\012    sub kSsa-taml usign-taml by kSsU-taml;\012    sub ha-taml usign-taml by hU-taml;\012\012\012\012} post_base_sub_1;\012\012lookup post_base_sub_2 {\012    sub ka-taml uusign-taml by kUu-taml;\012    sub nga-taml uusign-taml by ngUu-taml;\012    sub ca-taml uusign-taml by cUu-taml;\012    sub nya-taml uusign-taml by nyUu-taml;\012    sub tta-taml uusign-taml by ttUu-taml;\012    sub nna-taml uusign-taml by nnUu-taml;\012    sub ta-taml uusign-taml by tUu-taml;\012    sub na-taml uusign-taml by nUu-taml;\012    sub nna2-taml uusign-taml by nna2-uu-taml;\012    sub pa-taml uusign-taml by pUu-taml;\012    sub ya-taml uusign-taml by yUu-taml;\012    sub ma-taml uusign-taml by mUu-taml;\012    sub ra-taml uusign-taml by rUu-taml;\012    sub rra-taml uusign-taml by rrUu-taml;\012    sub la-taml uusign-taml by lUu-taml;\012    sub lla-taml uusign-taml by llUu-taml;\012    sub zha-taml uusign-taml by zhUu-taml;\012    sub va-taml uusign-taml by vUu-taml;\012    sub ja-taml uusign-taml by jUu-taml;\012    sub ssa-taml uusign-taml by ssUu-taml;\012    sub kSsa-taml uusign-taml by kSsUu-taml;\012    sub ha-taml uusign-taml by hUu-taml;\012\012 } post_base_sub_2;\012\012\012lookup post_base_sub_3{\012    sub @TA_MATRA_U_1 usign-taml' by usign.alt1-taml;\012 } post_base_sub_3;\012\012\012\012\012\012\012\012\012";
+code = "@TA_MATRA_U_1 = [ nga-taml pa-taml ya-taml va-taml ];\012\012#---- AKHN ----\012\012lookup akhands {\012    sub ka-taml virama-taml ssa-taml by kSsa-taml;\012    sub sha-taml virama-taml ra-taml iisign-taml by shree-taml;\012    sub sa-taml virama-taml ra-taml iisign-taml by shree-taml;\012    \012} akhands;\012\012\012\012#---- ABVS ----\012\012lookup above_base_sub_1 {\012sub ka-taml	isign-taml	by	kI-taml	;\012sub nga-taml	isign-taml	by	ngI-taml	;\012sub ca-taml	isign-taml	by	cI-taml	;\012sub nya-taml	isign-taml	by	nyI-taml	;\012sub tta-taml	isign-taml	by	ttI-taml	;\012sub nna-taml	isign-taml	by	nnI-taml	;\012sub ta-taml	isign-taml	by	tI-taml	;\012sub na-taml	isign-taml	by	nI-taml	;\012sub pa-taml	isign-taml	by	pI-taml	;\012sub ma-taml	isign-taml	by	mI-taml	;\012sub ya-taml	isign-taml	by	yI-taml	;\012sub ra-taml	isign-taml	by	rI-taml	;\012sub la-taml	isign-taml	by	lI-taml	;\012sub va-taml	isign-taml	by	vI-taml	;\012sub zha-taml	isign-taml	by	zhI-taml	;\012sub lla-taml	isign-taml	by	llI-taml	;\012sub rra-taml	isign-taml	by	rrI-taml	;\012sub nnna-taml	isign-taml	by	nnnI-taml	;\012sub ja-taml	isign-taml	by	jI-taml	;\012sub ssa-taml	isign-taml	by	ssI-taml	;\012sub sa-taml	isign-taml	by	sI-taml	;\012sub ha-taml	isign-taml	by	hI-taml	;\012sub kSsa-taml	isign-taml	by	kSsI-taml	;\012sub sha-taml	isign-taml	by	shI-taml	;\012} above_base_sub_1;\012\012lookup above_base_sub_2 {\012sub ka-taml	iisign-taml	by	kIi-taml	;\012sub nga-taml	iisign-taml	by	ngIi-taml	;\012sub ca-taml	iisign-taml	by	cIi-taml	;\012sub nya-taml	iisign-taml	by	nyIi-taml	;\012sub tta-taml	iisign-taml	by	ttIi-taml	;\012sub nna-taml	iisign-taml	by	nnIi-taml	;\012sub ta-taml	iisign-taml	by	tIi-taml	;\012sub na-taml	iisign-taml	by	nIi-taml	;\012sub pa-taml	iisign-taml	by	pIi-taml	;\012sub ma-taml	iisign-taml	by	mIi-taml	;\012sub ya-taml	iisign-taml	by	yIi-taml	;\012sub ra-taml	iisign-taml	by	rIi-taml	;\012sub la-taml	iisign-taml	by	lIi-taml	;\012sub va-taml	iisign-taml	by	vIi-taml	;\012sub zha-taml	iisign-taml	by	zhIi-taml	;\012sub lla-taml	iisign-taml	by	llIi-taml	;\012sub rra-taml	iisign-taml	by	rrIi-taml	;\012sub nnna-taml	iisign-taml	by	nnnIi-taml	;\012sub ja-taml	iisign-taml	by	jIi-taml	;\012sub ssa-taml	iisign-taml	by	ssIi-taml	;\012sub sa-taml	iisign-taml	by	sIi-taml	;\012sub ha-taml	iisign-taml	by	hIi-taml	;\012sub kSsa-taml	iisign-taml	by	kSsIi-taml	;\012sub sha-taml	iisign-taml	by	shIi-taml	;\012\012 } above_base_sub_2;\012\012#---- PSTS ----\012\012lookup post_base_sub_1 {\012    sub ka-taml usign-taml by kU-taml;\012    sub ca-taml usign-taml by cU-taml;\012    sub nya-taml usign-taml by nyU-taml;\012    sub tta-taml usign-taml by ttU-taml;\012    sub nna-taml usign-taml by nnU-taml;\012    sub ta-taml usign-taml by tU-taml;\012    sub na-taml usign-taml by nU-taml;\012    sub nnna-taml usign-taml by nnnU-taml;\012    sub pa-taml usign-taml by pU-taml;\012	sub ma-taml usign-taml by mU-taml;\012    sub ra-taml usign-taml by rU-taml;\012    sub rra-taml usign-taml by rrU-taml;\012    sub la-taml usign-taml by lU-taml;\012    sub lla-taml usign-taml by llU-taml;\012    sub zha-taml usign-taml by zhU-taml;\012    sub ja-taml usign-taml by jU-taml;\012    sub sa-taml usign-taml by sU-taml;\012    sub ssa-taml usign-taml by ssU-taml;\012    sub kSsa-taml usign-taml by kSsU-taml;\012    sub ha-taml usign-taml by hU-taml;\012\012\012\012} post_base_sub_1;\012\012lookup post_base_sub_2 {\012    sub ka-taml uusign-taml by kUu-taml;\012    sub nga-taml uusign-taml by ngUu-taml;\012    sub ca-taml uusign-taml by cUu-taml;\012    sub nya-taml uusign-taml by nyUu-taml;\012    sub tta-taml uusign-taml by ttUu-taml;\012    sub nna-taml uusign-taml by nnUu-taml;\012    sub ta-taml uusign-taml by tUu-taml;\012    sub na-taml uusign-taml by nUu-taml;\012    sub nnna-taml uusign-taml by nnnUu-taml;\012    sub pa-taml uusign-taml by pUu-taml;\012    sub ya-taml uusign-taml by yUu-taml;\012    sub ma-taml uusign-taml by mUu-taml;\012    sub ra-taml uusign-taml by rUu-taml;\012    sub rra-taml uusign-taml by rrUu-taml;\012    sub la-taml uusign-taml by lUu-taml;\012    sub lla-taml uusign-taml by llUu-taml;\012    sub zha-taml uusign-taml by zhUu-taml;\012    sub va-taml uusign-taml by vUu-taml;\012    sub ja-taml uusign-taml by jUu-taml;\012    sub ssa-taml uusign-taml by ssUu-taml;\012    sub kSsa-taml uusign-taml by kSsUu-taml;\012    sub ha-taml uusign-taml by hUu-taml;\012\012 } post_base_sub_2;\012\012\012lookup post_base_sub_3{\012    sub @TA_MATRA_U_1 usign-taml' by usign-taml.pa;\012 } post_base_sub_3;\012\012\012\012\012\012\012\012\012";
 name = Prefix;
 },
 {
@@ -1450,7 +1450,7 @@ code = "    script taml;\012        lookup post_base_sub_1;\012        lookup po
 name = psts;
 },
 {
-code = "featureNames {\012  name \"Tamil old orthography ligatures\";\012};\012sub nna-taml aasign-taml by nnAa-taml;\012sub nna2-taml aasign-taml by nna2-aa-taml;\012sub rra-taml aasign-taml by rrAa-taml;\012\012sub aisign-taml nna-taml by nnAi-taml;\012sub aisign-taml nna2-taml by nna2-ai-taml;\012sub aisign-taml la-taml by lAi-taml;\012sub aisign-taml lla-taml by llAi-taml;";
+code = "featureNames {\012  name \"Tamil old orthography ligatures\";\012};\012sub nna-taml aasign-taml by nnAa-taml;\012sub nnna-taml aasign-taml by nnnAa-taml;\012sub rra-taml aasign-taml by rrAa-taml;\012\012sub aisign-taml nna-taml by nnAi-taml;\012sub aisign-taml nnna-taml by nnnAi-taml;\012sub aisign-taml la-taml by lAi-taml;\012sub aisign-taml lla-taml by llAi-taml;";
 name = ss09;
 },
 {

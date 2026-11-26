@@ -7,7 +7,7 @@ components = (
 name = "nga-taml";
 },
 {
-name = "isign.alt1-taml";
+name = "isign-taml.pa";
 transform = "{1, 0, 0, 1, 789, 0}";
 }
 );
@@ -20,7 +20,7 @@ components = (
 name = "nga-taml";
 },
 {
-name = "isign.alt1-taml";
+name = "isign-taml.pa";
 transform = "{1, 0, 0, 1, 874, 0}";
 }
 );

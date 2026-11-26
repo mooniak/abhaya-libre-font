@@ -18,7 +18,7 @@ width = 584;
 background = {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{275, 430}";
 }
 );
@@ -149,7 +149,7 @@ associatedMasterId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
 background = {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{275, 430}";
 }
 );

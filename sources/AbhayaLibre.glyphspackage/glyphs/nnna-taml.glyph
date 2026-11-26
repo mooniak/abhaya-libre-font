@@ -1,10 +1,10 @@
 {
-glyphname = "nna2-taml";
+glyphname = "nnna-taml";
 layers = (
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{527, 425}";
 }
 );
@@ -94,7 +94,7 @@ width = 980;
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{539, 430}";
 }
 );

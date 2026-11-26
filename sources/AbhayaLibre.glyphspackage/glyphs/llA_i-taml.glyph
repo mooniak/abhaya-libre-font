@@ -9,7 +9,7 @@ transform = "{1, 0, 0, 1, 272, 0}";
 },
 {
 alignment = -1;
-name = "aisign-taml.alt";
+name = "aisign-taml.la";
 transform = "{1, 0, 0, 1, 50, 0}";
 }
 );
@@ -24,7 +24,7 @@ transform = "{1, 0, 0, 1, 308, 0}";
 },
 {
 alignment = -1;
-name = "aisign-taml.alt";
+name = "aisign-taml.la";
 transform = "{1, 0, 0, 1, 46, 0}";
 }
 );

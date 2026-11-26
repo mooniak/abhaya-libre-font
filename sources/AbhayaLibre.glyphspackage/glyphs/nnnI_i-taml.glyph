@@ -1,10 +1,10 @@
 {
-glyphname = "nna2-ii-taml";
+glyphname = "nnnIi-taml";
 layers = (
 {
 components = (
 {
-name = "nna2-taml";
+name = "nnna-taml";
 },
 {
 name = "iisign-taml";
@@ -17,7 +17,7 @@ width = 980;
 {
 components = (
 {
-name = "nna2-taml";
+name = "nnna-taml";
 },
 {
 name = "iisign-taml";

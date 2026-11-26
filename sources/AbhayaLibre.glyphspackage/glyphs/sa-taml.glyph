@@ -4,7 +4,7 @@ layers = (
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{496, 446}";
 }
 );
@@ -121,7 +121,7 @@ width = 1037;
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{529, 446}";
 }
 );
@@ -235,7 +235,7 @@ width = 1092;
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{514, 446}";
 }
 );
@@ -363,7 +363,7 @@ width = 1038;
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{519.447, 446}";
 }
 );
@@ -476,7 +476,7 @@ width = 1049;
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{514, 446}";
 }
 );
@@ -593,7 +593,7 @@ width = 1037;
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{469, 446}";
 }
 );

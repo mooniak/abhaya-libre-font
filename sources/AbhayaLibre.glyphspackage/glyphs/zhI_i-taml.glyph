@@ -7,7 +7,7 @@ components = (
 name = "zha-taml";
 },
 {
-name = "iisign.alt-taml";
+name = "iisign-taml.alt";
 transform = "{1, 0, 0, 1, 634, 0}";
 }
 );
@@ -20,7 +20,7 @@ components = (
 name = "zha-taml";
 },
 {
-name = "iisign.alt-taml";
+name = "iisign-taml.alt";
 transform = "{1, 0, 0, 1, 655, 0}";
 }
 );
@@ -36,7 +36,7 @@ transform = "{1, 0, 0, 1, -1, 0}";
 },
 {
 alignment = -1;
-name = "iisign.alt-taml";
+name = "iisign-taml.alt";
 transform = "{1, 0, 0, 1, 635, 1}";
 }
 );
@@ -52,7 +52,7 @@ name = "zha-taml";
 },
 {
 alignment = -1;
-name = "iisign.alt-taml";
+name = "iisign-taml.alt";
 transform = "{1, 0, 0, 1, 634, 1}";
 }
 );

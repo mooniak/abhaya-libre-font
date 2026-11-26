@@ -7,7 +7,7 @@ components = (
 name = "zha-taml";
 },
 {
-name = "isign.alt2-taml";
+name = "isign-taml.ma";
 transform = "{1, 0, 0, 1, 663, 0}";
 }
 );
@@ -20,7 +20,7 @@ components = (
 name = "zha-taml";
 },
 {
-name = "isign.alt2-taml";
+name = "isign-taml.ma";
 transform = "{1, 0, 0, 1, 717, 0}";
 }
 );

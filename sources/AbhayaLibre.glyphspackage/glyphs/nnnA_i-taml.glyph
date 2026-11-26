@@ -1,14 +1,14 @@
 {
-glyphname = "nna2-ai-taml";
+glyphname = "nnnAi-taml";
 layers = (
 {
 components = (
 {
-name = "nna2-taml";
+name = "nnna-taml";
 transform = "{1, 0, 0, 1, 220, 0}";
 },
 {
-name = "aisign-taml.alt";
+name = "aisign-taml.la";
 }
 );
 layerId = "C18F3EFD-FA9C-4751-AD2F-5B966120D1A5";
@@ -17,11 +17,11 @@ width = 1200;
 {
 components = (
 {
-name = "nna2-taml";
+name = "nnna-taml";
 transform = "{1, 0, 0, 1, 250, 0}";
 },
 {
-name = "aisign-taml.alt";
+name = "aisign-taml.la";
 }
 );
 layerId = "AA78C373-A874-4B43-A7A1-B39102DDD1E4";
@@ -29,5 +29,5 @@ width = 1315;
 }
 );
 leftMetricsKey = "ai-sign-taml.alt";
-rightMetricsKey = "nna2-taml";
+rightMetricsKey = "nnna-taml";
 }

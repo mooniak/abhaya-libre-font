@@ -5,7 +5,7 @@ layers = (
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{204, 425}";
 }
 );
@@ -32,7 +32,7 @@ width = 479;
 {
 anchors = (
 {
-name = tm_halant;
+name = virama;
 position = "{217, 430}";
 }
 );

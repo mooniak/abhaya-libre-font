@@ -7,7 +7,7 @@ components = (
 name = "ja-taml";
 },
 {
-name = "iisign.alt-taml";
+name = "iisign-taml.alt";
 transform = "{1, 0, 0, 1, 681, 0}";
 }
 );
@@ -26,7 +26,7 @@ name = "ja-taml";
 },
 {
 alignment = -1;
-name = "iisign.alt-taml";
+name = "iisign-taml.alt";
 transform = "{1, 0, 0, 1, 750, 0}";
 }
 );
