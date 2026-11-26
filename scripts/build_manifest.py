@@ -106,13 +106,14 @@ def _parse_fontspector_md(md_path: Path) -> dict | None:
     for i, line in enumerate(lines):
         if "|" not in line:
             continue
-        up = line.upper()
-        if "PASS" in up and "FAIL" in up and "WARN" in up:
-            cells = [c.strip() for c in line.strip().strip("|").split("|")]
-            mapped = [next((s for s in SEVERITIES if s in c.upper()), None) for c in cells]
-            if any(mapped):
-                header_idx, keys = i, mapped
-                break
+        # The header row names only severities. fontspector drops the columns
+        # whose count is 0 (a clean report has no FAIL column), so match on shape,
+        # not on particular columns being present.
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        mapped = [next((s for s in SEVERITIES if s in c.upper()), None) for c in cells]
+        if sum(1 for m in mapped if m) >= 2 and all(m or not c for c, m in zip(cells, mapped)):
+            header_idx, keys = i, mapped
+            break
     if header_idx is None:
         return None
     for line in lines[header_idx + 1:]:

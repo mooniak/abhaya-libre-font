@@ -21,6 +21,7 @@ help:
 	@echo "  make pages:  Builds the stage-gated proof site in _site/ (landing page, proofs, build details)"
 	@echo "  make images: Creates PNG specimen images in the documentation/ directory"
 	@echo "  make features: Regenerates the lankafea OpenType features (fonts with sources/lankafea.yaml)"
+	@echo "  make glyph-order: Checks the sources keep the Mooniak glyph order (Abhaya Libre's); WRITE=1 sorts them"
 	@echo
 
 build: build.stamp
@@ -78,6 +79,16 @@ features:
 	    $(LANKAFEA) generate --script $$script --font $$source --glyphs-out $$source --quiet -o /dev/null < /dev/null || exit 1; \
 	  done; \
 	done
+
+# Every Mooniak font keeps its glyphs in the Mooniak glyph order: Abhaya Libre's
+# (scripts/glyph-order.txt). A glyph Abhaya Libre doesn't have goes after its base glyph
+# (ka-sinh.ss01 after ka-sinh), else after the glyph it follows now. Checks by default;
+# WRITE=1 sorts the sources (order.plist / the glyphs list / public.glyphOrder, and the
+# glyphOrder custom parameter if there is one). Close the font in Glyphs.app first, and
+# commit the result. glyph_order.py + glyph-order.txt come from mooniak-font-tools
+# (mnik glyph-order runs it over every font repo).
+glyph-order: venv
+	. venv/bin/activate; python3 scripts/glyph_order.py $(if $(WRITE),--write,)
 
 # Stamp the OpenFV name ID 5 into built fonts per channel (canary/dev/release),
 # derived from the CI environment; no-op locally. Run right after `build`, before
