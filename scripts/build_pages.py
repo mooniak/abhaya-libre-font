@@ -120,6 +120,18 @@ def gather(repo: Path, channel: str | None) -> dict:
     }
 
 
+def _version_slug(info: dict) -> str:
+    """Same rule as build_manifest.version_slug(), against gather()'s flat keys —
+    used for proof PDF filenames so a book is traceable to its exact build."""
+    channel, version = info.get("channel"), info.get("version") or "0.000"
+    sha, ref = info.get("commit_short"), info.get("ref_name")
+    if channel in ("release", "dev") and ref:
+        return ref if ref.startswith("v") else f"v{ref}"
+    if channel == "canary":
+        return f"v{version}-dev.{sha}" if sha else f"v{version}-dev"
+    return f"v{version}"
+
+
 def offers_downloads(channel: str | None) -> bool:
     return channel in DOWNLOAD_CHANNELS
 
@@ -197,6 +209,8 @@ def copy_reports(repo: Path, out: Path, web_only: bool = False) -> dict[str, str
     is converted to woff2 so the site never serves an installable font."""
     links = {}
     for src, name, entry in (("out/fontspector", "fontspector", "fontspector-report.html"),
+                             ("out/fontspector-googlefonts", "fontspector-googlefonts",
+                              "fontspector-report.html"),
                              ("out/proof", "diffenator", "diffenator2-report.html")):
         d = repo / src
         if d.is_dir():
@@ -341,8 +355,10 @@ def render_index(info: dict, fonts: list[Path], proofs: list[tuple[str, str]], r
     fonts_section = (f'<h2 id="fonts">Fonts</h2><table><tr><th>File</th><th>Size</th></tr>{ftab}</table>'
                      if downloads else "")
     plinks = [(f'proof/{quote(Path(p).name)}', f"Type proof — {n}") for n, p in proofs]
-    rlinks = [(href, label) for label, href in (("Fontspector QA report", reports.get("fontspector")),
-                                                 ("Diffenator report", reports.get("diffenator"))) if href]
+    rlinks = [(href, label) for label, href in (
+        ("Fontspector QA report (Mooniak profile)", reports.get("fontspector")),
+        ("Fontspector QA report (Google Fonts profile)", reports.get("fontspector-googlefonts")),
+        ("Diffenator report", reports.get("diffenator"))) if href]
     if repo:
         rlinks.append((f"https://github.com/{repo}", "Source repository"))
         if downloads:       # /releases lists the rolling canary pre-release and its font zips
@@ -392,9 +408,13 @@ def build(repo: Path, out: Path, channel: str | None, pdf_dir: Path | None = Non
         proofs = [(pg.stem, str(pg.html_path)) for pg in pages]
         g = pages[0].gate
         if pdf_dir is not None and g.pdf:
-            # development stage dev/release -> also a printable book per font
+            # development stage dev/release -> also a printable book per font.
+            # Filename carries the version slug (build_manifest.version_slug — same
+            # string used for the release zip name) so a proof PDF is traceable to the
+            # exact build it was rendered from without opening it.
+            vslug = _version_slug(info)
             for pg in pages:
-                core.render_pdf(pg.html_path, pdf_dir / f"{pg.stem}-proof.pdf")
+                core.render_pdf(pg.html_path, pdf_dir / f"{pg.stem}-{vslug}-proof.pdf")
         info["proof_gate"] = {"stage": g.stage, "gated": g.gated, "shown": g.shown,
                               "withheld": [list(w) for w in g.withheld], "missing_for_next": g.next_gaps,
                               "scripts": g.scripts}

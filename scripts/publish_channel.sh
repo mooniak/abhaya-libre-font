@@ -6,9 +6,16 @@
 #   dev      pre-release at the `vX.YYY-dev.N` tag
 #   release  Release at the `vX.YYY` tag
 #
-# Assets: <slug>-<channel>-fonts.zip + individual .ttf/.otf/.woff2 + fontstatus.json
+# Assets: <slug>-<version-slug>-fonts.zip + individual .ttf/.otf/.woff2 + fontstatus.json
 # (+ the license file — OFL.txt for free fonts, EULA.txt for premium — / ARTICLE if present). Runs in CI (needs GH_TOKEN + the GITHUB_* env);
 # standalone (gh + zip only). See docs/fontpipe-migration-brief.md §3.
+#
+# version-slug (build_manifest.py: version_slug()) already encodes the channel — e.g.
+# `v0.050-dev.a1b2c3d` (canary), `v1.001-dev.1` (dev), `v1.001` (release) — so the asset
+# name carries no separate `-canary-`/`-dev-`/`-release-` segment. NOTE: this changed the
+# documented `<slug>-<channel>-fonts.zip` asset-name contract (fontpipe-migration-brief.md
+# §9.2) — fontpipe's asset-name parsing still needs updating to match (as of 2026-11-13,
+# not yet done upstream).
 set -euo pipefail
 
 CHANNEL="${1:?usage: publish_channel.sh <canary|dev|release>}"
@@ -20,8 +27,10 @@ if [ -z "$(find fonts -type f \( -name '*.ttf' -o -name '*.otf' -o -name '*.woff
   echo "publish_channel: no built fonts — skipping"; exit 0
 fi
 
+VERSION_SLUG="$(python3 scripts/build_manifest.py --print-version-slug 2>/dev/null || echo "v0.000")"
+
 rm -rf "$OUT" && mkdir -p "$OUT"
-( cd fonts && zip -qr "../$OUT/${SLUG}-${CHANNEL}-fonts.zip" . )
+( cd fonts && zip -qr "../$OUT/${SLUG}-${VERSION_SLUG}-fonts.zip" . )
 find fonts -type f \( -name '*.ttf' -o -name '*.otf' -o -name '*.woff2' \) -exec cp {} "$OUT/" \;
 [ -f out/fontstatus.json ] && cp out/fontstatus.json "$OUT/"          # decision 1: manifest as an asset
 for lic in OFL.txt EULA.txt; do if [ -f "$lic" ]; then cp "$lic" "$OUT/"; fi; done

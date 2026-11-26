@@ -131,12 +131,17 @@ def _parse_fontspector_md(md_path: Path) -> dict | None:
     return None
 
 
-def _qa_status(repo: Path, profile: str = "googlefonts") -> dict:
-    """Read the fontspector report under out/ and reduce it to a verdict."""
-    hits = sorted((repo / "out").rglob("fontspector-report.md")) if (repo / "out").is_dir() else []
-    if not hits:
+def _qa_status(repo: Path) -> dict:
+    """Read the blocking fontspector report (out/fontspector/, the Mooniak profile)
+    and reduce it to a verdict. The googlefonts report some free fonts also write
+    (out/fontspector-googlefonts/) never decides the verdict. The profile comes from
+    the fontspector-profile.txt sidecar `make test` writes beside the report."""
+    report = repo / "out" / "fontspector" / "fontspector-report.md"
+    if not report.is_file():
         return {"available": False}
-    counts = _parse_fontspector_md(hits[0])
+    side = report.parent / "fontspector-profile.txt"
+    profile = (side.read_text(encoding="utf-8").strip() if side.is_file() else "") or None
+    counts = _parse_fontspector_md(report)
     if not counts:
         return {"available": False}
     total = sum(counts.get(s, 0) for s in SEVERITIES)
@@ -351,6 +356,28 @@ def _modal_version(files: list[dict]) -> str | None:
     return max(set(versions), key=versions.count)
 
 
+def version_slug(manifest: dict) -> str:
+    """Filesystem-safe version string that also encodes the channel, so release zip
+    names and proof PDF filenames need no separate channel segment — one string
+    tells you version *and* channel, same principle as name ID 5
+    (docs/channels-and-versioning.md). "Absence of a dev marker means release."
+
+        release  v1.001                reuses the cut tag itself (`vX.YYY`)
+        dev      v1.001-dev.1          reuses the cut tag itself (`vX.YYY-dev.N`)
+        canary   v0.050-dev.a1b2c3d    no tag exists yet; embeds the commit instead
+    """
+    b = manifest.get("build") or {}
+    channel = b.get("channel")
+    version = manifest.get("version") or "0.000"
+    sha = b.get("commit_short")
+    ref = b.get("ref_name")
+    if channel in ("release", "dev") and ref:
+        return ref if ref.startswith("v") else f"v{ref}"
+    if channel == "canary":
+        return f"v{version}-dev.{sha}" if sha else f"v{version}-dev"
+    return f"v{version}"
+
+
 def _openfv(files: list[dict]) -> dict | None:
     """The families' OpenFV version/status (from the first file that carries one)."""
     for f in files:
@@ -404,8 +431,16 @@ def main(argv=None) -> int:
     ap.add_argument("--repo", default=".", help="repo root (default: current directory)")
     ap.add_argument("--out", default=None, help="output path (default: <repo>/out/fontstatus.json)")
     ap.add_argument("--channel", default=None, help="override the derived channel")
+    ap.add_argument("--print-version-slug", action="store_true",
+                    help="print version_slug() for an already-written fontstatus.json "
+                         "(at --out, default <repo>/out/fontstatus.json) and exit — "
+                         "used by publish_channel.sh to name release assets")
     args = ap.parse_args(argv)
     repo = Path(args.repo)
+    if args.print_version_slug:
+        out_path = Path(args.out) if args.out else (repo / "out" / "fontstatus.json")
+        print(version_slug(json.loads(out_path.read_text(encoding="utf-8"))))
+        return 0
     out_path = Path(args.out) if args.out else None
     manifest, written = emit(repo, out_path=out_path, channel_override=args.channel)
     b = manifest["build"]

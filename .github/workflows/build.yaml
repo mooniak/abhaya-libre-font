@@ -64,11 +64,6 @@ jobs:
           key: ${{ runner.os }}-venv${{ steps.python.outputs.python-version }}-${{ hashFiles('**/requirements*.txt') }}
           restore-keys: |
             ${{ runner.os }}-venv${{ steps.python.outputs.python-version }}-
-      - name: Set artifact file name
-        id: zip-name
-        shell: bash
-        # Set the archive name to repo name + "-fonts" e.g "radiocanadafonts-fonts.zip"
-        run: echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts" >> $GITHUB_ENV
       - name: Read distribution tier
         id: tier
         shell: bash
@@ -103,6 +98,16 @@ jobs:
         run: make proof
       - name: Emit build manifest (fontstatus.json)
         run: make manifest
+      - name: Set artifact file name
+        id: zip-name
+        shell: bash
+        # repo-fonts-<version-slug>, e.g. "radiocanadafonts-fonts-v0.050-dev.a1b2c3d". The slug
+        # (build_manifest.version_slug) also encodes the channel, so no separate segment for it —
+        # same string publish_channel.sh uses for the release zip asset name.
+        run: |
+          . venv/bin/activate
+          SLUG=$(python3 scripts/build_manifest.py --print-version-slug)
+          echo "ZIP_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')-fonts-${SLUG}" >> $GITHUB_ENV
       - name: Install PDF renderer (dev / release builds only)
         if: ${{ github.ref_type == 'tag' }}
         run: |

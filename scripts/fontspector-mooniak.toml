@@ -1,0 +1,73 @@
+# Mooniak fontspector profile: the blocking QA profile for every Mooniak font.
+#
+#   fontspector --profile scripts/fontspector-mooniak.toml fonts/...
+#
+# Base: fontspector's `universal` profile (OpenType spec + universal checks).
+# Added: the googlefonts checks that are about font quality rather than Google
+# Fonts onboarding policy. Left out on purpose: GF glyphset/Latin coverage,
+# the GF copyright pattern, "Version >= 1.000", canonical filenames, GF naming
+# rules, METADATA.pb/DESCRIPTION/repo-layout checks, and the axis registry.
+# Fonts headed for Google Fonts (fontpackage.json "google_fonts": true) run the
+# stock `googlefonts` profile as well, as a second report (mnik.tiers.qa_profiles).
+#
+# Mooniak-only rules (EULA in name ID 13, OpenFV version string, Mooniak
+# copyright notice) are `mnik check` gate items, not fontspector checks.
+#
+# Source of truth: mooniak-font-tools/mnik/tools/qa/fontspector-mooniak.toml.
+# A byte-identical copy lives in mooniak-font-project-template/scripts/ and
+# reaches every font repo with the template sync (tests/test_tiers.py guards it).
+
+include_profiles = ["universal"]
+
+exclude_checks = [
+    # Sends the family name to an online name-lookup service on every run: a flaky
+    # network ERROR would block the gate, and it discloses unreleased (premium)
+    # family names to a third party. Name clashes are checked once, by hand, when
+    # a family is named. (The googlefonts report still runs it.)
+    "fontdata_namecheck",
+]
+
+[sections]
+"Mooniak Shaping Checks" = [
+    "dotted_circle",
+    "soft_dotted",
+]
+"Mooniak Outline Checks" = [
+    "outline_alignment_miss",
+    "outline_colinear_vectors",
+    "outline_direction",
+    "outline_jaggy_segments",
+    "outline_semi_vertical",
+    "outline_short_segments",
+    "overlapping_path_segments",
+]
+"Mooniak Metrics Checks" = [
+    "googlefonts/use_typo_metrics",
+    "googlefonts/vertical_metrics",
+    "googlefonts/varfont/has_HVAR",
+]
+"Mooniak Name Checks" = [
+    "googlefonts/name/mandatory_entries",
+    "googlefonts/name/line_breaks",
+    "googlefonts/name/familyname_first_char",
+    "googlefonts/weightclass",
+    "googlefonts/meta/script_lang_tags",
+]
+"Mooniak Family Checks" = [
+    "googlefonts/family/equal_codepoint_coverage",
+    "googlefonts/family/italics_have_roman_counterparts",
+    "googlefonts/family/tnum_horizontal_metrics",
+]
+
+[overrides]
+# Sri Lankan text writes the rupee as රු / Rs; the Indian Rupee Sign (U+20B9)
+# is optional for a Sinhala font.
+"rupee" = [
+    { code = "missing-rupee", status = "WARN", reason = "Sinhala fonts: U+20B9 is optional (Sri Lanka writes රු / Rs)" },
+]
+# GF's 1.2-2.0 x UPM line-height window is a web-catalogue rule; tall Sinhala
+# display faces (stacked conjuncts, ornate ascenders) legitimately exceed it.
+# The lineGap/consistency rules of the same check stay FAILs.
+"googlefonts/vertical_metrics" = [
+    { code = "bad-hhea-range", status = "WARN", reason = "line height is a design choice for Mooniak display faces" },
+]

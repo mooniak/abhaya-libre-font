@@ -43,7 +43,14 @@
       "lang": "ta",
       "block": [2944, 3071],
       "min_codepoints": 20,
-      "sections": ["tamil-alphabet", "tamil-numerals", "tamil-pangram", "tamil-kern-pairs", "tamil-prose"]
+      "sections": ["tamil-alphabet", "tamil-signs-and-groups", "tamil-pulli-and-ligatures", "tamil-traditional-orthography", "tamil-numerals", "tamil-pangram", "tamil-kern-pairs", "tamil-prose"]
+    },
+    "latin": {
+      "label": "Latin",
+      "lang": "en",
+      "block": [65, 122],
+      "min_codepoints": 40,
+      "sections": ["latin-alphabet", "latin-numerals", "latin-pangram", "latin-kern-pairs", "latin-prose"]
     }
   },
 
