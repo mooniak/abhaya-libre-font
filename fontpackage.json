@@ -3,9 +3,10 @@
   "id": "abhaya-libre",
   "type": "family",
   "designer": [
-    "Mooniak",
     "Pushpananda Ekanayake",
-    "Sol Matas"
+    "Sol Matas",
+    "Kosala Senevirathne",
+    "Pathum Egodawatta"
   ],
   "scripts": [
     "Sinh",
@@ -15,6 +16,7 @@
   "description": "A high-contrast text typeface for Sinhala, Tamil and Latin, with extensive coverage for Sinhala, Pali and Sanskrit.",
   "license": "OFL-1.1",
   "tier": "free",
+  "google_fonts": true,
   "channels": [
     "canary",
     "dev",
@@ -36,11 +38,6 @@
   },
   "designers": [
     {
-      "name": "Pathum Egodawatta",
-      "email": "pathum@mooniak.com",
-      "url": "https://pathumego.com/"
-    },
-    {
       "name": "Pushpananda Ekanayake",
       "email": "",
       "url": ""
@@ -49,6 +46,16 @@
       "name": "Sol Matas",
       "email": "",
       "url": ""
+    },
+    {
+      "name": "Kosala Senevirathne",
+      "email": "",
+      "url": ""
+    },
+    {
+      "name": "Pathum Egodawatta",
+      "email": "pathum@mooniak.com",
+      "url": "https://pathumego.com/"
     }
   ],
   "maintenance": {
